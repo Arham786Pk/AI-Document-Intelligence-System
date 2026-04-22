@@ -1,0 +1,33 @@
+# Milestone 1 — minimal baseline dependencies
+# Install: pip install -r requirements.txt
+
+# Document I/O
+pymupdf>=1.24
+pdf2image>=1.17
+pillow>=10.0
+
+# Preprocessing
+opencv-python>=4.9
+numpy>=1.26
+
+# OCR
+pytesseract>=0.3.10
+paddleocr>=2.7
+paddlepaddle>=2.6
+
+# Rule-based extraction / NLP
+regex>=2024.5
+python-dateutil>=2.9
+
+# Evaluation
+jiwer>=3.0
+pandas>=2.2
+openpyxl>=3.1
+
+# Utilities
+tqdm>=4.66
+requests>=2.32
+
+# Synthetic data (Task-1 generator)
+faker>=25.0
+reportlab>=4.1

@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Move-Item -Path \"D:\\\\MileStone1-Documents\" -Destination \"D:\\\\AI Document Intelligence System\" -Force -ErrorAction Stop; Get-ChildItem \"D:\\\\\" | Where-Object { $_.Name -match \"AI Doc|MileStone\" } | Select-Object Name)"
+    ]
+  }
+}

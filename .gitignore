@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Outputs (regenerable from src/pipeline.py)
+outputs/*.json
+data/processed/*
+
+# Generator intermediates
+generator/_tmp/
+generator/_tmp_img/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Keep placeholders
+!*/.gitkeep
