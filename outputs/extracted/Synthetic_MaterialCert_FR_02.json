@@ -1,0 +1,79 @@
+{
+  "document_name": "Synthetic_MaterialCert_FR_02",
+  "extracted_entities": {
+    "project_id": "PO-40824",
+    "supplier": "Meyer Aciéries CERTIFICAT MATIERE (EN 10204 3.1) Fabricant: Meyer Aciéries N° Coulée: H-929151 N° Projet: PO-40824 Date: 02/09/2025 Matiere: SS 304 Quantité: 30.94 Ibs Nuance: C Spécification: ASTM A331 / EN 10025 Composition Chimique (%) (5 Mn Si P Ss Cr Ni Mo 0.235 0.120 0.273 0.096 0.181 0.134 0.175 0.027 Propriétés Mécaniques Limite élastique Résistance Allongement % Dureté HB Résilience (J) 300 506 38 174 92 Nous certifions par la présente que la matiére décrite ci-dessus a été contrdlée conformément aux spécifications applicables et satisfait a toutes les exigences. Inspecteur: William de la Boyer Signature:",
+    "material": "SS 304",
+    "quantity": null,
+    "date": "2025-09-02"
+  },
+  "all_candidates": [
+    {
+      "field": "project_id",
+      "value": "PO-40824",
+      "confidence": 0.85,
+      "source": "project_code",
+      "raw_text": "PO-40824"
+    },
+    {
+      "field": "project_id",
+      "value": "SS 304",
+      "confidence": 0.8,
+      "source": "wps_code",
+      "raw_text": "SS 304"
+    },
+    {
+      "field": "supplier",
+      "value": "Meyer Aciéries CERTIFICAT MATIERE (EN 10204 3.1) Fabricant: Meyer Aciéries N° Coulée: H-929151 N° Projet: PO-40824 Date: 02/09/2025 Matiere: SS 304 Quantité: 30.94 Ibs Nuance: C Spécification: ASTM A331 / EN 10025 Composition Chimique (%) (5 Mn Si P Ss Cr Ni Mo 0.235 0.120 0.273 0.096 0.181 0.134 0.175 0.027 Propriétés Mécaniques Limite élastique Résistance Allongement % Dureté HB Résilience (J) 300 506 38 174 92 Nous certifions par la présente que la matiére décrite ci-dessus a été contrdlée conformément aux spécifications applicables et satisfait a toutes les exigences. Inspecteur: William de la Boyer Signature:",
+      "confidence": 0.8,
+      "source": "trigger_fabricant",
+      "raw_text": "Meyer Aciéries CERTIFICAT MATIERE (EN 10204 3.1) Fabricant: Meyer Aciéries N° Coulée: H-929151 N° Pr"
+    },
+    {
+      "field": "supplier",
+      "value": "Meyer Aciéries CERTIFICAT MATIERE (EN 10204 3.1) Fabricant: Meyer Aciéries N° Coulée: H-929151 N° Projet: PO-40824 Date: 02/09/2025 Matiere: SS 304 Quantité: 30.94 Ibs Nuance: C Spécification: ASTM A331 / EN 10025 Composition Chimique (%) (5 Mn Si P Ss Cr Ni Mo 0.235 0.120 0.273 0.096 0.181 0.134 0.175 0.027 Propriétés Mécaniques Limite élastique Résistance Allongement % Dureté HB Résilience (J) 300 506 38 174 92 Nous certifions par la présente que la matiére décrite ci-dessus a été contrdlée conformément aux spécifications applicables et satisfait a toutes les exigences. Inspecteur: William de la Boyer Signature:",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Meyer Aciéries CERTIFICAT MATIERE (EN 10204 3.1) Fabricant: Meyer Aciéries N° Coulée: H-929151 N° Pr"
+    },
+    {
+      "field": "supplier",
+      "value": "Meyer Aciéries",
+      "confidence": 0.6,
+      "source": "letterhead",
+      "raw_text": "Meyer Aciéries"
+    },
+    {
+      "field": "supplier",
+      "value": "Meyer Aciéries",
+      "confidence": 0.6,
+      "source": "letterhead",
+      "raw_text": "Meyer Aciéries"
+    },
+    {
+      "field": "material",
+      "value": "SS 304",
+      "confidence": 0.85,
+      "source": "steel_grade",
+      "raw_text": "SS 304"
+    },
+    {
+      "field": "material",
+      "value": "A331",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A331"
+    },
+    {
+      "field": "date",
+      "value": "2025-09-02",
+      "confidence": 0.9,
+      "source": "slash",
+      "raw_text": "02/09/2025"
+    }
+  ],
+  "notes": [
+    "Multiple project IDs found (2), selected highest confidence",
+    "Multiple suppliers found (4), selected highest confidence"
+  ]
+}

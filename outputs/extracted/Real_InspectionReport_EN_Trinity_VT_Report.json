@@ -1,0 +1,37 @@
+{
+  "document_name": "Real_InspectionReport_EN_Trinity_VT_Report",
+  "extracted_entities": {
+    "project_id": null,
+    "supplier": "Weld Visual Testing Report Format A Nondestructive testing (NDT) - Weld Visual Testing (VT) report format suitable for documenting details after testing. This is a sample report and may be required to be modified as per specific requirements. Comm / Engineering Quality Trinity NDT WeldSolutions Private Limited ISO17025 & NADCAP Accredited Labs | Centre of Excellence in Welding 491, Site No.12, 14\" Cross, 4 Phase, Peenya Industrial Area, Bangalore-560058, INDIA M: +91 98441 29439, 72040 29439, 91413 39969 | P: +91 80 41205245 E: info@trinityndt.com NDT procedures and sample reports formats are available for free download at www.trinityndt.com",
+    "material": null,
+    "quantity": null,
+    "date": null
+  },
+  "all_candidates": [
+    {
+      "field": "supplier",
+      "value": "Weld Visual Testing Report Format A Nondestructive testing (NDT) - Weld Visual Testing (VT) report format suitable for documenting details after testing. This is a sample report and may be required to be modified as per specific requirements. Comm / Engineering Quality Trinity NDT WeldSolutions Private Limited ISO17025 & NADCAP Accredited Labs | Centre of Excellence in Welding 491, Site No.12, 14\" Cross, 4 Phase, Peenya Industrial Area, Bangalore-560058, INDIA M: +91 98441 29439, 72040 29439, 91413 39969 | P: +91 80 41205245 E: info@trinityndt.com NDT procedures and sample reports formats are available for free download at www.trinityndt.com",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Weld Visual Testing Report Format A Nondestructive testing (NDT) - Weld Visual Testing (VT) report f"
+    },
+    {
+      "field": "supplier",
+      "value": "Engineering Quality Trinity NDT WeldSolutions Private Limited",
+      "confidence": 0.6,
+      "source": "letterhead",
+      "raw_text": "Engineering Quality Trinity NDT WeldSolutions Private Limited"
+    },
+    {
+      "field": "supplier",
+      "value": "Phase, Peenya Industrial",
+      "confidence": 0.6,
+      "source": "letterhead",
+      "raw_text": "Phase, Peenya Industrial"
+    }
+  ],
+  "notes": [
+    "Multiple suppliers found (3), selected highest confidence",
+    "No project ID found"
+  ]
+}

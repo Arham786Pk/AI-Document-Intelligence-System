@@ -1,0 +1,58 @@
+{
+  "document_name": "Real_InspectionReport_FR_Ifsttar_Auscultation",
+  "extracted_entities": {
+    "project_id": null,
+    "supplier": "METHODES D’AUSCULTATION DU MATERIAU EN PLACE 8 <3- 1 ACIER (<P CONTROLE VISUEL ET DIMENSIONNEL DES SOUDURES OBJECTIF DE LA METHODE PRINCIPE ET DESCRIPTION SOMMAIRE Détection des défauts de surface visibles a |’ceil nu dans les assemblages soudés des structures métalliques. PRINCIPE CARACTERE DESTRUCTIF DE LA METHODE U’examen visuel des soudures vise a rechercher les défauts d’aspect normalisés des cordons de soudures tels que morsures, caniveaux, défauts volumiques ou défauts débouchants (soufflures, fissures, etc.), et a les mesurer a l’aide de jauges. Il permet également d’apprécier l’aspect général et la régularité des cordons. Non destructif MATURITE MATERIEL SPECIFIQUE EMPLOYE Méthode €prouvée depuis longtemps Jauges de mesure de gorge et de caniveaux Réglet ou pied a coulisse Eclairage adapté Miroir d’inspection et/ou endoscope : (cas des soudures a accés trés limité) Jauge de mesure de gorge et de caniveaux (Cerema) MODALITES D’APPLICATIONS DOMAINE D’APPLICATION Le contréle visuel s’applique sur tous les types de soudures et sur tous les types de métaux (acier, aluminium, etc.). Le contréle dimensionnel se fait essentiellement a la construction, mais aussi en suivi de structure lors de la découverte d’anomalies. SUJETIONS PRATIQUES D'INTERVENTION LIMITES D'UTILISATION Luminosité suffisante (= 350 lux ; 500 lux recommande). Retrait préalable de tout revétement ou dépdts occultant la surface a examiner par un moyen adapté ou en cas de suspicion de défaut. Ne permet pas de détecter : — des défauts internes ou sous jacents (et notamment a la racine des cordons d’angles) ; — des défauts de faibles dimensions ; — des défauts masqués par une protection anticorrosion. Cette méthode peut étre complétée par l’application de CND permettant d’affirmer, d’infirmer ou de préciser certaines observations. examen a l’endoscope ne permet pas le contréle dimensionnel des soudures et des éventuels défauts. PRECISION ET/OU SENSIBILITE Les collections de I'lfsttar OC Limitée a l’acuité visuelle de l’opérateur (EN ISO 9712-§7.4) et a la précision de la jauge utilisée (0,1 mm a0,5 mm). Mai 2020 COOO BY NC ND",
+    "material": "a0",
+    "quantity": "0.1 mm",
+    "date": null
+  },
+  "all_candidates": [
+    {
+      "field": "supplier",
+      "value": "METHODES D’AUSCULTATION DU MATERIAU EN PLACE 8 <3- 1 ACIER (<P CONTROLE VISUEL ET DIMENSIONNEL DES SOUDURES OBJECTIF DE LA METHODE PRINCIPE ET DESCRIPTION SOMMAIRE Détection des défauts de surface visibles a |’ceil nu dans les assemblages soudés des structures métalliques. PRINCIPE CARACTERE DESTRUCTIF DE LA METHODE U’examen visuel des soudures vise a rechercher les défauts d’aspect normalisés des cordons de soudures tels que morsures, caniveaux, défauts volumiques ou défauts débouchants (soufflures, fissures, etc.), et a les mesurer a l’aide de jauges. Il permet également d’apprécier l’aspect général et la régularité des cordons. Non destructif MATURITE MATERIEL SPECIFIQUE EMPLOYE Méthode €prouvée depuis longtemps Jauges de mesure de gorge et de caniveaux Réglet ou pied a coulisse Eclairage adapté Miroir d’inspection et/ou endoscope : (cas des soudures a accés trés limité) Jauge de mesure de gorge et de caniveaux (Cerema) MODALITES D’APPLICATIONS DOMAINE D’APPLICATION Le contréle visuel s’applique sur tous les types de soudures et sur tous les types de métaux (acier, aluminium, etc.). Le contréle dimensionnel se fait essentiellement a la construction, mais aussi en suivi de structure lors de la découverte d’anomalies. SUJETIONS PRATIQUES D'INTERVENTION LIMITES D'UTILISATION Luminosité suffisante (= 350 lux ; 500 lux recommande). Retrait préalable de tout revétement ou dépdts occultant la surface a examiner par un moyen adapté ou en cas de suspicion de défaut. Ne permet pas de détecter : — des défauts internes ou sous jacents (et notamment a la racine des cordons d’angles) ; — des défauts de faibles dimensions ; — des défauts masqués par une protection anticorrosion. Cette méthode peut étre complétée par l’application de CND permettant d’affirmer, d’infirmer ou de préciser certaines observations. examen a l’endoscope ne permet pas le contréle dimensionnel des soudures et des éventuels défauts. PRECISION ET/OU SENSIBILITE Les collections de I'lfsttar OC Limitée a l’acuité visuelle de l’opérateur (EN ISO 9712-§7.4) et a la précision de la jauge utilisée (0,1 mm a0,5 mm). Mai 2020 COOO BY NC ND",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "METHODES D’AUSCULTATION DU MATERIAU EN PLACE 8 <3- 1 ACIER (<P CONTROLE VISUEL ET DIMENSIONNEL DES S"
+    },
+    {
+      "field": "supplier",
+      "value": "PERSONNEL ET COMPETENCES ACCES A 1 OU 2 FACES Personnel expérimenté et possédant une qualification selon l’EN ISO 9712 ou une certification Cofrend dans |’une des méthode CND. CARACTERISTIQUES OPERATOIRES La soudure d’angle en général doit étre accessible sur sa face apparente pour étre contrdlée. Les soudures de raboutage doivent étre accessibles sur les deux faces (ainsi que les chants). COUPURES OU RESTRICTIONS DE CIRCULATION NECESSAIRES RENDEMENT ET/OU ECHANTILLONNAGE DELAIS DE DISPONIBILITE DES Zz on Contréle visuel : plusieurs dizaines de métres linéaires par heure. Contréle dimensionnel : ponctuel (une soixantaine de métres par heure). Pour ces deux types de contréle : échantillonnage suivant les normes de référence pour les ouvrages neufs (10% du linéaire), et pour les ouvrages pathologiques : de 10 a 100% du linéaire. RESULTATS immédiat PERTURBATIONS DU TRAFIC Aucune SUR LES MESURES PERTURBATIONS DE U'ENVIRONNEMENT SUR LES Aucune MESURES SECURITE POUR LES UTILISATEURS OU LE PUBLIC ENCOMBREMENT — POIDS AVANTAGES INCONVENIENTS DISPONIBILITE COUT NORMES — MODES OPERATOIRES — ARTICLES Pas de probléme de sécurité Matériel portable, poids quasi nul a trés léger AVANTAGES - INCONVENIENTS Rapidité de détection (en temps réel) Limite de détection DISPONIBILITE - COUT Courante Faible REFERENCES NF EN 1090-2 : Exécution des structures en acier et des structures en aluminium — Partie 2 : exigences techniques pour les structures en acier. NF EN ISO 17637 — Contrédle non destructif des assemblages soudés — Contrédle visuel des assemblages soudés par fusion. EN ISO 5817 « Soudage - Assemblages en acier, nickel, titane et leurs alliages soudés par fusion (soudage par faisceau exclu) — Niveaux de qualité par rapport aux défauts » (Norme utile pour les critéres d’acceptation). NF EN ISO 6520-1 : Classification des défauts géométriques dans les soudures des matériaux meétalliques Partie 1 : Soudage par fusion. NF EN ISO 10042 : Soudage a l’arc des structures aluminium — niveau de qualité des défauts. ISO 3059 : Essais non destructifs — Contrdle par ressuage et contrdle par magnétoscopie — Conditions d’observation. Les collections de I’lfsttar Mai 2020 Ce OE",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "PERSONNEL ET COMPETENCES ACCES A 1 OU 2 FACES Personnel expérimenté et possédant une qualification s"
+    },
+    {
+      "field": "supplier",
+      "value": "PERSONNEL ET COMPETENCES ACCES A 1 OU 2 FACES Personnel expérimenté et possédant une qualification selon l’EN ISO 9712 ou une certification Cofrend dans |’une des méthode CND. CARACTERISTIQUES OPERATOIRES La soudure d’angle en général doit étre accessible sur sa face apparente pour étre contrdlée. Les soudures de raboutage doivent étre accessibles sur les deux faces (ainsi que les chants). COUPURES OU RESTRICTIONS DE CIRCULATION NECESSAIRES RENDEMENT ET/OU ECHANTILLONNAGE DELAIS DE DISPONIBILITE DES Zz on Contréle visuel : plusieurs dizaines de métres linéaires par heure. Contréle dimensionnel : ponctuel (une soixantaine de métres par heure). Pour ces deux types de contréle : échantillonnage suivant les normes de référence pour les ouvrages neufs (10% du linéaire), et pour les ouvrages pathologiques : de 10 a 100% du linéaire. RESULTATS immédiat PERTURBATIONS DU TRAFIC Aucune SUR LES MESURES PERTURBATIONS DE U'ENVIRONNEMENT SUR LES Aucune MESURES SECURITE POUR LES UTILISATEURS OU LE PUBLIC ENCOMBREMENT — POIDS AVANTAGES INCONVENIENTS DISPONIBILITE COUT NORMES — MODES OPERATOIRES — ARTICLES Pas de probléme de sécurité Matériel portable, poids quasi nul a trés léger AVANTAGES - INCONVENIENTS Rapidité de détection (en temps réel) Limite de détection DISPONIBILITE - COUT Courante Faible REFERENCES NF EN 1090-2 : Exécution des structures en acier et des structures en aluminium — Partie 2 : exigences techniques pour les structures en acier. NF EN ISO 17637 — Contrédle non destructif des assemblages soudés — Contrédle visuel des assemblages soudés par fusion. EN ISO 5817 « Soudage - Assemblages en acier, nickel, titane et leurs alliages soudés par fusion (soudage par faisceau exclu) — Niveaux de qualité par rapport aux défauts » (Norme utile pour les critéres d’acceptation). NF EN ISO 6520-1 : Classification des défauts géométriques dans les soudures des matériaux meétalliques Partie 1 : Soudage par fusion. NF EN ISO 10042 : Soudage a l’arc des structures aluminium — niveau de qualité des défauts. ISO 3059 : Essais non destructifs — Contrdle par ressuage et contrdle par magnétoscopie — Conditions d’observation. Les collections de I’lfsttar Mai 2020 Ce OE",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "PERSONNEL ET COMPETENCES ACCES A 1 OU 2 FACES Personnel expérimenté et possédant une qualification s"
+    },
+    {
+      "field": "material",
+      "value": "a0",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "a0"
+    },
+    {
+      "field": "quantity",
+      "value": "0.1 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "0,1 mm"
+    },
+    {
+      "field": "quantity",
+      "value": "5 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "5 mm"
+    }
+  ],
+  "notes": [
+    "Multiple suppliers found (3), selected highest confidence",
+    "No project ID found"
+  ]
+}

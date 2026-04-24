@@ -1,0 +1,149 @@
+{
+  "document_name": "Synthetic_FabricationSheet_FR_01",
+  "extracted_entities": {
+    "project_id": "PO-9326",
+    "supplier": "Laurent et Fils Ingénierie FICHE DE FABRICATION N° Projet: PO-9326 Date: 14/09/2024 Fournisseur: Moulin N° Commande: PO-82512 Client: Joly Gallet SA Inspecteur: Aurore Maury-Briand Nomenclature Art. | N° Piéce Désignation Matiére Quantité Spécification 1 P-1188 Integrate Proactive Infrastruc Duplex 2205 149.58 lbs ASTM A-798 2 P-9797 Architect Bleeding-Edge Mindsh Aluminium 6061-T6 50 units ASTM A-448 3 P-2827 Expedite Proactive Schemas Aluminium 6061-T6 28 kg ASTM A-564 4 P-1053 Aggregate Next-Generation E-Se Monel 400 47m ASTM A-612 5 P-3927 Grow Efficient Synergies Hastelloy C-276 7 units ASTM A-405 Notes : Toutes les matiéres sont inspectées selon la procédure QA-FAB-001. Les détails de soudage sont précisés dans le DMOS joint. Préparé par: Marcel Leblanc Approuvé par: Denis-Franck Ledoux Signature: Signature:",
+    "material": "6061-T6",
+    "quantity": "149.58 lbs",
+    "date": "2024-09-14"
+  },
+  "all_candidates": [
+    {
+      "field": "project_id",
+      "value": "PO-9326",
+      "confidence": 0.85,
+      "source": "project_code",
+      "raw_text": "PO-9326"
+    },
+    {
+      "field": "project_id",
+      "value": "PO-82512",
+      "confidence": 0.85,
+      "source": "project_code",
+      "raw_text": "PO-82512"
+    },
+    {
+      "field": "project_id",
+      "value": "FAB-001",
+      "confidence": 0.85,
+      "source": "project_code",
+      "raw_text": "FAB-001"
+    },
+    {
+      "field": "project_id",
+      "value": "PO-82512",
+      "confidence": 0.75,
+      "source": "ref_trigger",
+      "raw_text": "N° Commande: PO-82512"
+    },
+    {
+      "field": "supplier",
+      "value": "Laurent et Fils Ingénierie FICHE DE FABRICATION N° Projet: PO-9326 Date: 14/09/2024 Fournisseur: Moulin N° Commande: PO-82512 Client: Joly Gallet SA Inspecteur: Aurore Maury-Briand Nomenclature Art. | N° Piéce Désignation Matiére Quantité Spécification 1 P-1188 Integrate Proactive Infrastruc Duplex 2205 149.58 lbs ASTM A-798 2 P-9797 Architect Bleeding-Edge Mindsh Aluminium 6061-T6 50 units ASTM A-448 3 P-2827 Expedite Proactive Schemas Aluminium 6061-T6 28 kg ASTM A-564 4 P-1053 Aggregate Next-Generation E-Se Monel 400 47m ASTM A-612 5 P-3927 Grow Efficient Synergies Hastelloy C-276 7 units ASTM A-405 Notes : Toutes les matiéres sont inspectées selon la procédure QA-FAB-001. Les détails de soudage sont précisés dans le DMOS joint. Préparé par: Marcel Leblanc Approuvé par: Denis-Franck Ledoux Signature: Signature:",
+      "confidence": 0.8,
+      "source": "trigger_fournisseur",
+      "raw_text": "Laurent et Fils Ingénierie FICHE DE FABRICATION N° Projet: PO-9326 Date: 14/09/2024 Fournisseur: Mou"
+    },
+    {
+      "field": "supplier",
+      "value": "Laurent et Fils Ingénierie FICHE DE FABRICATION N° Projet: PO-9326 Date: 14/09/2024 Fournisseur: Moulin N° Commande: PO-82512 Client: Joly Gallet SA Inspecteur: Aurore Maury-Briand Nomenclature Art. | N° Piéce Désignation Matiére Quantité Spécification 1 P-1188 Integrate Proactive Infrastruc Duplex 2205 149.58 lbs ASTM A-798 2 P-9797 Architect Bleeding-Edge Mindsh Aluminium 6061-T6 50 units ASTM A-448 3 P-2827 Expedite Proactive Schemas Aluminium 6061-T6 28 kg ASTM A-564 4 P-1053 Aggregate Next-Generation E-Se Monel 400 47m ASTM A-612 5 P-3927 Grow Efficient Synergies Hastelloy C-276 7 units ASTM A-405 Notes : Toutes les matiéres sont inspectées selon la procédure QA-FAB-001. Les détails de soudage sont précisés dans le DMOS joint. Préparé par: Marcel Leblanc Approuvé par: Denis-Franck Ledoux Signature: Signature:",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Laurent et Fils Ingénierie FICHE DE FABRICATION N° Projet: PO-9326 Date: 14/09/2024 Fournisseur: Mou"
+    },
+    {
+      "field": "supplier",
+      "value": "Joly Gallet SA",
+      "confidence": 0.6,
+      "source": "letterhead",
+      "raw_text": "Joly Gallet SA"
+    },
+    {
+      "field": "supplier",
+      "value": "Laurent et Fils",
+      "confidence": 0.6,
+      "source": "letterhead",
+      "raw_text": "Laurent et Fils"
+    },
+    {
+      "field": "material",
+      "value": "2205",
+      "confidence": 0.85,
+      "source": "steel_grade",
+      "raw_text": "2205"
+    },
+    {
+      "field": "material",
+      "value": "6061-T6",
+      "confidence": 0.9,
+      "source": "aluminum_grade",
+      "raw_text": "6061-T6"
+    },
+    {
+      "field": "material",
+      "value": "6061-T6",
+      "confidence": 0.9,
+      "source": "aluminum_grade",
+      "raw_text": "6061-T6"
+    },
+    {
+      "field": "material",
+      "value": "Duplex 2205",
+      "confidence": 0.85,
+      "source": "named_alloy",
+      "raw_text": "Duplex 2205"
+    },
+    {
+      "field": "material",
+      "value": "Monel 400",
+      "confidence": 0.85,
+      "source": "named_alloy",
+      "raw_text": "Monel 400"
+    },
+    {
+      "field": "quantity",
+      "value": "149.58 lbs",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "149.58 lbs"
+    },
+    {
+      "field": "quantity",
+      "value": "50 units",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "50 units"
+    },
+    {
+      "field": "quantity",
+      "value": "28 kg",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "28 kg"
+    },
+    {
+      "field": "quantity",
+      "value": "47 m",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "47m"
+    },
+    {
+      "field": "quantity",
+      "value": "7 units",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "7 units"
+    },
+    {
+      "field": "date",
+      "value": "2024-09-14",
+      "confidence": 0.9,
+      "source": "slash",
+      "raw_text": "14/09/2024"
+    }
+  ],
+  "notes": [
+    "Multiple project IDs found (4), selected highest confidence",
+    "Multiple suppliers found (4), selected highest confidence"
+  ]
+}

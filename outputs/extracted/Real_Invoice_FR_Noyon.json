@@ -1,0 +1,37 @@
+{
+  "document_name": "Real_Invoice_FR_Noyon",
+  "extracted_entities": {
+    "project_id": null,
+    "supplier": "Modele de facture commerciale ou proforma Commercial or Proforma invoice EXPORTATEUR / Exporter N° FACTURE / Invoice n° DATE FACTURE / Invoice Number of sheets : date AUTRES REFERENCES / Other references DESTINATAIRE / Consignee ACHETEUR /Buyer NOTIFIER A / Notify BANQUE DU VENDEUR / Seller’s bank PAYS D’ORIGINE N°GUICHET BANQUE Country of origin Bank counter no DATE DE MISE A DISPOSITION / DATE D’EXPEDITION DEMANDEE / CONDITIONS DE VENTE (INCOTERMS) / Terms of sale Date of disposal date of dispatch requested PRE-TRANSPORT PAR / Pre-carriage by LIEU DE RECEPTION / Place of CONDITIONS DE PAIEMENT / MONNAIE DE PAIEMENT / receipt Terms of payment Currency of payment IDENTITE DU MOYEN DE TRANSPORT / LIEU DE CHARGEMENT / Main Transport by Place of loading LIEU DE DECHARGEMENT / LIEU DE DESTINATION / Place of discharge Place of destination DESIGNATION DES ARTICLES (en code ou en clair) POIDS NET /kg QUANTITE PRIX UNITAIRE MONTANT Description of goods Net weight/kg Quantity Unit price Amount MONTANT TOTAL / Total Amount EMBALLAGE / Packing FRET / Freight AUTRES COUTS / Assurance / Other costs Insurance TOTAL DES FRAIS / Total Charges DEDUCTIONS /Deductions TOTAL DEDUCTIONS / Total deductions TOTAL A PAYER / Total To Pay CLAUSES PARTICULIERES / Particular clauses / VISAS Exonéré de TVA article 262-1 du CGI MENTIONS SPECIALES / Special mentions LIEU D’ETABLISSEMENT Place of issue NOM / Name TEL. / TEL SIGNATURE / Signature Source : Patrick NAGGIAR, consultant",
+    "material": null,
+    "quantity": null,
+    "date": null
+  },
+  "all_candidates": [
+    {
+      "field": "supplier",
+      "value": "Modele de facture commerciale ou proforma Commercial or Proforma invoice EXPORTATEUR / Exporter N° FACTURE / Invoice n° DATE FACTURE / Invoice Number of sheets : date AUTRES REFERENCES / Other references DESTINATAIRE / Consignee ACHETEUR /Buyer NOTIFIER A / Notify BANQUE DU VENDEUR / Seller’s bank PAYS D’ORIGINE N°GUICHET BANQUE Country of origin Bank counter no DATE DE MISE A DISPOSITION / DATE D’EXPEDITION DEMANDEE / CONDITIONS DE VENTE (INCOTERMS) / Terms of sale Date of disposal date of dispatch requested PRE-TRANSPORT PAR / Pre-carriage by LIEU DE RECEPTION / Place of CONDITIONS DE PAIEMENT / MONNAIE DE PAIEMENT / receipt Terms of payment Currency of payment IDENTITE DU MOYEN DE TRANSPORT / LIEU DE CHARGEMENT / Main Transport by Place of loading LIEU DE DECHARGEMENT / LIEU DE DESTINATION / Place of discharge Place of destination DESIGNATION DES ARTICLES (en code ou en clair) POIDS NET /kg QUANTITE PRIX UNITAIRE MONTANT Description of goods Net weight/kg Quantity Unit price Amount MONTANT TOTAL / Total Amount EMBALLAGE / Packing FRET / Freight AUTRES COUTS / Assurance / Other costs Insurance TOTAL DES FRAIS / Total Charges DEDUCTIONS /Deductions TOTAL DEDUCTIONS / Total deductions TOTAL A PAYER / Total To Pay CLAUSES PARTICULIERES / Particular clauses / VISAS Exonéré de TVA article 262-1 du CGI MENTIONS SPECIALES / Special mentions LIEU D’ETABLISSEMENT Place of issue NOM / Name TEL. / TEL SIGNATURE / Signature Source : Patrick NAGGIAR, consultant",
+      "confidence": 0.8,
+      "source": "trigger_seller",
+      "raw_text": "Modele de facture commerciale ou proforma Commercial or Proforma invoice EXPORTATEUR / Exporter N° F"
+    },
+    {
+      "field": "supplier",
+      "value": "Modele de facture commerciale ou proforma Commercial or Proforma invoice EXPORTATEUR / Exporter N° FACTURE / Invoice n° DATE FACTURE / Invoice Number of sheets : date AUTRES REFERENCES / Other references DESTINATAIRE / Consignee ACHETEUR /Buyer NOTIFIER A / Notify BANQUE DU VENDEUR / Seller’s bank PAYS D’ORIGINE N°GUICHET BANQUE Country of origin Bank counter no DATE DE MISE A DISPOSITION / DATE D’EXPEDITION DEMANDEE / CONDITIONS DE VENTE (INCOTERMS) / Terms of sale Date of disposal date of dispatch requested PRE-TRANSPORT PAR / Pre-carriage by LIEU DE RECEPTION / Place of CONDITIONS DE PAIEMENT / MONNAIE DE PAIEMENT / receipt Terms of payment Currency of payment IDENTITE DU MOYEN DE TRANSPORT / LIEU DE CHARGEMENT / Main Transport by Place of loading LIEU DE DECHARGEMENT / LIEU DE DESTINATION / Place of discharge Place of destination DESIGNATION DES ARTICLES (en code ou en clair) POIDS NET /kg QUANTITE PRIX UNITAIRE MONTANT Description of goods Net weight/kg Quantity Unit price Amount MONTANT TOTAL / Total Amount EMBALLAGE / Packing FRET / Freight AUTRES COUTS / Assurance / Other costs Insurance TOTAL DES FRAIS / Total Charges DEDUCTIONS /Deductions TOTAL DEDUCTIONS / Total deductions TOTAL A PAYER / Total To Pay CLAUSES PARTICULIERES / Particular clauses / VISAS Exonéré de TVA article 262-1 du CGI MENTIONS SPECIALES / Special mentions LIEU D’ETABLISSEMENT Place of issue NOM / Name TEL. / TEL SIGNATURE / Signature Source : Patrick NAGGIAR, consultant",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Modele de facture commerciale ou proforma Commercial or Proforma invoice EXPORTATEUR / Exporter N° F"
+    },
+    {
+      "field": "supplier",
+      "value": "VISAS",
+      "confidence": 0.6,
+      "source": "letterhead",
+      "raw_text": "VISAS"
+    }
+  ],
+  "notes": [
+    "Multiple suppliers found (3), selected highest confidence",
+    "No project ID found"
+  ]
+}

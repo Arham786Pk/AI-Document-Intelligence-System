@@ -1,0 +1,135 @@
+{
+  "document_name": "Synthetic_Invoice_FR_02",
+  "extracted_entities": {
+    "project_id": "WLD-4552",
+    "supplier": "Leconte SARL FACTURE Fournisseur: Leconte SARL Client: Navarro rue Andre, 43121 Lenoir-sur-Rolland N° Facture: INV-44099 Date d'émission: 21/02/2024 Date d'échéance: 23/01/2025 N° Projet: WLD-4552 Désignation Matiére Quantité Prix Unitaire Total 1 Benchmark Magnetic Synergies SS 304 108.01 kg 170.40 € 10053.60 € 2 Optimize Leading-Edge E-Services Aluminium 6061-T6 49 tons 383.00 € 18767.00 € 3 Optimize Robust Supply-Chains PVC Sch 80 11 pcs 133.61 € 1469.71 € 4 Optimize Web-Enabled Niches Inconel 625 7 kg 377.02 € 2639.14 € Sous-total: 32929.45 € TVA 20%: 6585.89 € Total TTC: 39515.34 € Conditions de paiement : 30 jours net. Virement bancaire uniquement. Merci de votre confiance.",
+    "material": "6061-T6",
+    "quantity": "108.01 kg",
+    "date": "2025-01-23"
+  },
+  "all_candidates": [
+    {
+      "field": "project_id",
+      "value": "WLD-4552",
+      "confidence": 0.85,
+      "source": "project_code",
+      "raw_text": "WLD-4552"
+    },
+    {
+      "field": "project_id",
+      "value": "SS 304",
+      "confidence": 0.8,
+      "source": "wps_code",
+      "raw_text": "SS 304"
+    },
+    {
+      "field": "supplier",
+      "value": "Leconte SARL FACTURE Fournisseur: Leconte SARL Client: Navarro rue Andre, 43121 Lenoir-sur-Rolland N° Facture: INV-44099 Date d'émission: 21/02/2024 Date d'échéance: 23/01/2025 N° Projet: WLD-4552 Désignation Matiére Quantité Prix Unitaire Total 1 Benchmark Magnetic Synergies SS 304 108.01 kg 170.40 € 10053.60 € 2 Optimize Leading-Edge E-Services Aluminium 6061-T6 49 tons 383.00 € 18767.00 € 3 Optimize Robust Supply-Chains PVC Sch 80 11 pcs 133.61 € 1469.71 € 4 Optimize Web-Enabled Niches Inconel 625 7 kg 377.02 € 2639.14 € Sous-total: 32929.45 € TVA 20%: 6585.89 € Total TTC: 39515.34 € Conditions de paiement : 30 jours net. Virement bancaire uniquement. Merci de votre confiance.",
+      "confidence": 0.8,
+      "source": "trigger_fournisseur",
+      "raw_text": "Leconte SARL FACTURE Fournisseur: Leconte SARL Client: Navarro rue Andre, 43121 Lenoir-sur-Rolland N"
+    },
+    {
+      "field": "supplier",
+      "value": "Leconte SARL FACTURE Fournisseur: Leconte SARL Client: Navarro rue Andre, 43121 Lenoir-sur-Rolland N° Facture: INV-44099 Date d'émission: 21/02/2024 Date d'échéance: 23/01/2025 N° Projet: WLD-4552 Désignation Matiére Quantité Prix Unitaire Total 1 Benchmark Magnetic Synergies SS 304 108.01 kg 170.40 € 10053.60 € 2 Optimize Leading-Edge E-Services Aluminium 6061-T6 49 tons 383.00 € 18767.00 € 3 Optimize Robust Supply-Chains PVC Sch 80 11 pcs 133.61 € 1469.71 € 4 Optimize Web-Enabled Niches Inconel 625 7 kg 377.02 € 2639.14 € Sous-total: 32929.45 € TVA 20%: 6585.89 € Total TTC: 39515.34 € Conditions de paiement : 30 jours net. Virement bancaire uniquement. Merci de votre confiance.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Leconte SARL FACTURE Fournisseur: Leconte SARL Client: Navarro rue Andre, 43121 Lenoir-sur-Rolland N"
+    },
+    {
+      "field": "supplier",
+      "value": "Leconte SARL",
+      "confidence": 0.6,
+      "source": "letterhead",
+      "raw_text": "Leconte SARL"
+    },
+    {
+      "field": "supplier",
+      "value": "Leconte SARL",
+      "confidence": 0.6,
+      "source": "letterhead",
+      "raw_text": "Leconte SARL"
+    },
+    {
+      "field": "material",
+      "value": "SS 304",
+      "confidence": 0.85,
+      "source": "steel_grade",
+      "raw_text": "SS 304"
+    },
+    {
+      "field": "material",
+      "value": "6061-T6",
+      "confidence": 0.9,
+      "source": "aluminum_grade",
+      "raw_text": "6061-T6"
+    },
+    {
+      "field": "material",
+      "value": "Inconel 625",
+      "confidence": 0.85,
+      "source": "named_alloy",
+      "raw_text": "Inconel 625"
+    },
+    {
+      "field": "material",
+      "value": "PVC Sch 80",
+      "confidence": 0.75,
+      "source": "material_descriptor",
+      "raw_text": "PVC Sch 80"
+    },
+    {
+      "field": "material",
+      "value": "Leconte SARL Client: Navarro rue Andre",
+      "confidence": 0.7,
+      "source": "trigger_désignation",
+      "raw_text": "Leconte SARL FACTURE Fournisseur: Leconte SARL Client: Navarro rue Andre, 43121 Lenoir-sur-Rolland N"
+    },
+    {
+      "field": "quantity",
+      "value": "108.01 kg",
+      "confidence": 0.85,
+      "source": "trigger_total",
+      "raw_text": "108.01 kg"
+    },
+    {
+      "field": "quantity",
+      "value": "49 tons",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "49 tons"
+    },
+    {
+      "field": "quantity",
+      "value": "11 pcs",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "11 pcs"
+    },
+    {
+      "field": "quantity",
+      "value": "7 kg",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "7 kg"
+    },
+    {
+      "field": "date",
+      "value": "2024-02-21",
+      "confidence": 0.9,
+      "source": "slash",
+      "raw_text": "21/02/2024"
+    },
+    {
+      "field": "date",
+      "value": "2025-01-23",
+      "confidence": 1.0,
+      "source": "slash",
+      "raw_text": "23/01/2025"
+    }
+  ],
+  "notes": [
+    "Multiple project IDs found (2), selected highest confidence",
+    "Multiple suppliers found (4), selected highest confidence"
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "document_name": "Real_InspectionReport_FR_Annaba_CND_Soudure",
+  "extracted_entities": {
+    "project_id": null,
+    "supplier": "République algérienne démocratique et populaire Ministére de l’enseignement supérieur et de la recherche scientifique Université Badji Mokhtare Annaba res Faculté des Sciences de l’Ingénieur Département de Génie Mécanique BAD) Mok N° (ordre : GM/.........cccceees /2021 Département de Génie Mécanique MEMOIRE DE FIN D?ETUDE En vue de l’obtention du dipléme de : MASTER En Génie Mécanique Option : Génie des matériaux Présenté par : KABOUS SALAH EDDINE Theme: Controle Non Destructif des joints de soudure Soutenu Devant le jury composé de : Dr.Abd.Kallouche Encadreur",
+    "material": "A33",
+    "quantity": "15 mm",
+    "date": null
+  },
+  "all_candidates": [
+    {
+      "field": "supplier",
+      "value": "République algérienne démocratique et populaire Ministére de l’enseignement supérieur et de la recherche scientifique Université Badji Mokhtare Annaba res Faculté des Sciences de l’Ingénieur Département de Génie Mécanique BAD) Mok N° (ordre : GM/.........cccceees /2021 Département de Génie Mécanique MEMOIRE DE FIN D?ETUDE En vue de l’obtention du dipléme de : MASTER En Génie Mécanique Option : Génie des matériaux Présenté par : KABOUS SALAH EDDINE Theme: Controle Non Destructif des joints de soudure Soutenu Devant le jury composé de : Dr.Abd.Kallouche Encadreur",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "République algérienne démocratique et populaire Ministére de l’enseignement supérieur et de la reche"
+    },
+    {
+      "field": "supplier",
+      "value": "Dédicaces Je dédie ce travail A mon défunt pére et a ma chére mére, qui a ceuvré pour ma réussite, de par son amour, son soutien, tous les sacrifices consentis et ses précieux conseils, pour toute son assistance et sa présence dans ma vie, recois a travers ce travail aussi modeste soit-il, l'expression de mes sentiments et de mon éternelle gratitude. A tout mes sceurs et freres pour l’amour et le respect qu’ils m’ont toujours accordeé. Je voudrais également adresser mes remerciements particuliers a : -mes amis youssef.B ; SANA ZAALANI ; - tout les étudiants de la classe génie mécanique option Génie des matériaux surtout. A toute personne qui m’a aidé a franchir un horizon dans ma vie A tous ceux que j’aime.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Dédicaces Je dédie ce travail A mon défunt pére et a ma chére mére, qui a ceuvré pour ma réussite, d"
+    },
+    {
+      "field": "supplier",
+      "value": "Dédicaces Je dédie ce travail A mon défunt pére et a ma chére mére, qui a ceuvré pour ma réussite, de par son amour, son soutien, tous les sacrifices consentis et ses précieux conseils, pour toute son assistance et sa présence dans ma vie, recois a travers ce travail aussi modeste soit-il, l'expression de mes sentiments et de mon éternelle gratitude. A tout mes sceurs et freres pour l’amour et le respect qu’ils m’ont toujours accordeé. Je voudrais également adresser mes remerciements particuliers a : -mes amis youssef.B ; SANA ZAALANI ; - tout les étudiants de la classe génie mécanique option Génie des matériaux surtout. A toute personne qui m’a aidé a franchir un horizon dans ma vie A tous ceux que j’aime.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Dédicaces Je dédie ce travail A mon défunt pére et a ma chére mére, qui a ceuvré pour ma réussite, d"
+    },
+    {
+      "field": "supplier",
+      "value": "Sommaire INTRODUCTION GENERALE Chapitre I : Etude bibliographique (Soudage) I-1 INTRODUCTION I-2 HISTORIQUE DU SOUDAGE 1-3 DEFINITION 1-4 PHENOMENES DU SOUDAGE I-4-1 Les soudures autogeénes I-4-2 Les soudures hétérogeénes 1.5. Procédé de soudage 1.5.1. Procédé de soudage MIG - MAG 1.5.2. soudage au gaz ou au chalumeau 1.5.3. soudage a l’arc avec électrode enrobée 1.5.4.Soudage a l’arc électrique type TIG Tungsténe Insert Gas 1.5.5. Soudage par friction 1.5.6. Le soudage laser 1.6. Les cycles thermiques de soudage I .7. Sécurité 1.8. Choix d’un procédé 1.8.1. Approche en fonction du domaine d’ application 1-8. Conclusion Chapitre II : Etude bibliographique (Les défauts de soudure) II.1. Introduction II.2. Définition II.3. Les fissures 11.3.1. Généralités II.3.1. Orientation des fissures II.3.1.1. Les fissures longitudinales 01 02 03 06 06 06 06 08 09 10 11 11 11 12 13 14 14 14 16 16 16 16 17 17",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Sommaire INTRODUCTION GENERALE Chapitre I : Etude bibliographique (Soudage) I-1 INTRODUCTION I-2 HIS"
+    },
+    {
+      "field": "supplier",
+      "value": "Sommaire INTRODUCTION GENERALE Chapitre I : Etude bibliographique (Soudage) I-1 INTRODUCTION I-2 HISTORIQUE DU SOUDAGE 1-3 DEFINITION 1-4 PHENOMENES DU SOUDAGE I-4-1 Les soudures autogeénes I-4-2 Les soudures hétérogeénes 1.5. Procédé de soudage 1.5.1. Procédé de soudage MIG - MAG 1.5.2. soudage au gaz ou au chalumeau 1.5.3. soudage a l’arc avec électrode enrobée 1.5.4.Soudage a l’arc électrique type TIG Tungsténe Insert Gas 1.5.5. Soudage par friction 1.5.6. Le soudage laser 1.6. Les cycles thermiques de soudage I .7. Sécurité 1.8. Choix d’un procédé 1.8.1. Approche en fonction du domaine d’ application 1-8. Conclusion Chapitre II : Etude bibliographique (Les défauts de soudure) II.1. Introduction II.2. Définition II.3. Les fissures 11.3.1. Généralités II.3.1. Orientation des fissures II.3.1.1. Les fissures longitudinales 01 02 03 06 06 06 06 08 09 10 11 11 11 12 13 14 14 14 16 16 16 16 17 17",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Sommaire INTRODUCTION GENERALE Chapitre I : Etude bibliographique (Soudage) I-1 INTRODUCTION I-2 HIS"
+    },
+    {
+      "field": "supplier",
+      "value": "-Liste de figures- Liste de figures : chapitre I Figure (I-1) : les zones du soudage Figure (I-2) : Cordon(joint) de soudure Figure (1.3) : Classification des procédés de soudage Figure (1.4) : Energies spécifiques des différents procédés de soudage par fusion Figure (1.5) : Schématisation du soudage MIG-MAG Figure (1.6) : Soudage au chalumeau Figure (1.7) : Cycle thermique de soudage Figure (1.8) : Répartition thermique Dans une soudure Figure (1.9) : Sécurité Les éléments nécessaires pour de bonne condition de travail Liste de figures : chapitre II Figure(II.1) :La fissure longitudinale Figure(II.2) : La fissure transversale Figure(II.3) : Les types de fissure Figure(II.4) : Fissure de Gorge (Throat Cracks) Figure (II.5) : Fissure a froid (fissure d’hydrogéne) Figure (II.6) : Les différents types de soufflure Figure (11.7) : Exemple de soufflures Figure (11.8) : Localisations possibles des manques de fusion Figure (11.9) : Manque de fusion dans le flanc de la soudure Figure (II.10) : Manque de fusion entre passes Figure (11.10) : Manque de fusion a la racine de la soudure Figure (11.11) : Défaut manque de pénétration Figure (11.12) : Effondrement a la racine Liste de figures : chapitre III Figure (III.1) : Les principales techniques du CND Figure (II.2) : Processus mis en jeu lors d’un examen visuel Oo Oo N N 12 12 13 17 18 18 19 23 27 28 29 29 30 31 31 33 41 43",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "-Liste de figures- Liste de figures : chapitre I Figure (I-1) : les zones du soudage Figure (I-2) : "
+    },
+    {
+      "field": "supplier",
+      "value": "-Liste de figures- Liste de figures : chapitre I Figure (I-1) : les zones du soudage Figure (I-2) : Cordon(joint) de soudure Figure (1.3) : Classification des procédés de soudage Figure (1.4) : Energies spécifiques des différents procédés de soudage par fusion Figure (1.5) : Schématisation du soudage MIG-MAG Figure (1.6) : Soudage au chalumeau Figure (1.7) : Cycle thermique de soudage Figure (1.8) : Répartition thermique Dans une soudure Figure (1.9) : Sécurité Les éléments nécessaires pour de bonne condition de travail Liste de figures : chapitre II Figure(II.1) :La fissure longitudinale Figure(II.2) : La fissure transversale Figure(II.3) : Les types de fissure Figure(II.4) : Fissure de Gorge (Throat Cracks) Figure (II.5) : Fissure a froid (fissure d’hydrogéne) Figure (II.6) : Les différents types de soufflure Figure (11.7) : Exemple de soufflures Figure (11.8) : Localisations possibles des manques de fusion Figure (11.9) : Manque de fusion dans le flanc de la soudure Figure (II.10) : Manque de fusion entre passes Figure (11.10) : Manque de fusion a la racine de la soudure Figure (11.11) : Défaut manque de pénétration Figure (11.12) : Effondrement a la racine Liste de figures : chapitre III Figure (III.1) : Les principales techniques du CND Figure (II.2) : Processus mis en jeu lors d’un examen visuel Oo Oo N N 12 12 13 17 18 18 19 23 27 28 29 29 30 31 31 33 41 43",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "-Liste de figures- Liste de figures : chapitre I Figure (I-1) : les zones du soudage Figure (I-2) : "
+    },
+    {
+      "field": "supplier",
+      "value": "Résumé : Cette recherche est de savoir comment surveiller et atténuer les effets de la poursuite sur Les assemblages soudés la présence de restrictions archéologique et haute accumulés a la périphérie de fissures a l'intérieur de la soudure corde, et son existence est pourquoi efficace dans la possibilité de corrosion sous les restrictions, une température élevée, nous devons réduire la proportion de ces restrictions archéologique et représentant la principale raison de la propagation des fissures et donc le soudage corde de réfraction soudaine, et de veiller a la construction de mécanique soudé lors de l'opération, nous devons avoir a faire quelques traitements thermiques appropriés a différents stades de l'industrialisation, et je l'ai traitée dans notre présent a quelques observations sur un morceau de l'épopée en vue de déterminer les questions de dommages ou de restrictions archéologiques 4 I'intérieur de cordon de soudure, Nous décrivons les moyens, les techniques et les modes opératoires utilisés au cours de notre analyse. Mots-clés : Soudage ; joint soudée ; contraintes résiduelles, rupture fragile,traitements thermiques. 4g BY! 2 gulll a gag Aealall abel) cle Audsiall Glalein Y) GiS5 5 Al ys AGS Ge Bye Cull Ida GEE a} bal aie co gill Cunt SUM AgitSa) 8 Seal Gaull Loa ga gl ge By! yall da ja gla | y Aeoa tall y Alle Css Nags y GEE LEY oust ll Casall Atal s Ay SY! 2 gill ode Aud Gye Saléill Like Gass asa lill Gua Jala 4g) all Slated! Gare sai Gl Linde Geng eekilll Lith Ae gall AS tSyall le LEB Y) GLanal y (alaall SLUG Jays Calne 5 Aplialle sand SI deals daked cle ls! pall jaan (ll Ike Ling (4 LE pb ally asa lil Gaal Jas JS }a 4, 8) a gail 9) Giac Y! Sula all Wax JUS Aerdtovall Abend! § pall» Lally Jil gl! Lig ad] esinill Ayla Cilalles ¢ Lu og il a gd cape lll Abies y cauelill ; Aya tidall Lats! Abstract: This research is how to monitor and mitigate the effects of remaining on the soldered assemblies the presence of restrictions archeological and high accumulated on the outskirts of cracks inside the rope welding, and its existence is why effective in the possibility of corrosion under the restrictions, high temperature, we must reduce the proportion of these restrictions archaeological and representing the main reason for the spread of cracks and thus the refractive sudden rope welding, and to ensure the construction of mechanical welded during the operation we must have to make some heat treatments appropriate at different stages of industrialization, and I have dealt in our present to some observations on a piece of the epic in order to determine the damage issues or restrictions archaeological inside the rope welding. We describe the means, the techniques and the modes of operation to be used during our analysis. Key words : Welding, welding link vestigial constraints, thermal treatments, fragile rupture.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Résumé : Cette recherche est de savoir comment surveiller et atténuer les effets de la poursuite sur"
+    },
+    {
+      "field": "supplier",
+      "value": "Résumé : Cette recherche est de savoir comment surveiller et atténuer les effets de la poursuite sur Les assemblages soudés la présence de restrictions archéologique et haute accumulés a la périphérie de fissures a l'intérieur de la soudure corde, et son existence est pourquoi efficace dans la possibilité de corrosion sous les restrictions, une température élevée, nous devons réduire la proportion de ces restrictions archéologique et représentant la principale raison de la propagation des fissures et donc le soudage corde de réfraction soudaine, et de veiller a la construction de mécanique soudé lors de l'opération, nous devons avoir a faire quelques traitements thermiques appropriés a différents stades de l'industrialisation, et je l'ai traitée dans notre présent a quelques observations sur un morceau de l'épopée en vue de déterminer les questions de dommages ou de restrictions archéologiques 4 I'intérieur de cordon de soudure, Nous décrivons les moyens, les techniques et les modes opératoires utilisés au cours de notre analyse. Mots-clés : Soudage ; joint soudée ; contraintes résiduelles, rupture fragile,traitements thermiques. 4g BY! 2 gulll a gag Aealall abel) cle Audsiall Glalein Y) GiS5 5 Al ys AGS Ge Bye Cull Ida GEE a} bal aie co gill Cunt SUM AgitSa) 8 Seal Gaull Loa ga gl ge By! yall da ja gla | y Aeoa tall y Alle Css Nags y GEE LEY oust ll Casall Atal s Ay SY! 2 gill ode Aud Gye Saléill Like Gass asa lill Gua Jala 4g) all Slated! Gare sai Gl Linde Geng eekilll Lith Ae gall AS tSyall le LEB Y) GLanal y (alaall SLUG Jays Calne 5 Aplialle sand SI deals daked cle ls! pall jaan (ll Ike Ling (4 LE pb ally asa lil Gaal Jas JS }a 4, 8) a gail 9) Giac Y! Sula all Wax JUS Aerdtovall Abend! § pall» Lally Jil gl! Lig ad] esinill Ayla Cilalles ¢ Lu og il a gd cape lll Abies y cauelill ; Aya tidall Lats! Abstract: This research is how to monitor and mitigate the effects of remaining on the soldered assemblies the presence of restrictions archeological and high accumulated on the outskirts of cracks inside the rope welding, and its existence is why effective in the possibility of corrosion under the restrictions, high temperature, we must reduce the proportion of these restrictions archaeological and representing the main reason for the spread of cracks and thus the refractive sudden rope welding, and to ensure the construction of mechanical welded during the operation we must have to make some heat treatments appropriate at different stages of industrialization, and I have dealt in our present to some observations on a piece of the epic in order to determine the damage issues or restrictions archaeological inside the rope welding. We describe the means, the techniques and the modes of operation to be used during our analysis. Key words : Welding, welding link vestigial constraints, thermal treatments, fragile rupture.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Résumé : Cette recherche est de savoir comment surveiller et atténuer les effets de la poursuite sur"
+    },
+    {
+      "field": "supplier",
+      "value": "Chapitre I Etude bibliographique (Soudage) I-2 HISTORIQUE DU SOUDAGE : Le soudage est né a la fin du 19éme siécle dans |’ esprit des scientifiques, il est passé Rapidement dans les mains des techniciens, tout d’abord avec la technique oxyacétylénique, puis avec 20éme siécle a vu la naissance du soudage par Laser est aussi : e le soudage avec électrode de carbone : Bernardos et Olszewski; Russie. ° le soudage avec électrode fusible nue : Slavianov ; Russie. e _ le soudage avec électrode enrobée : Kjell berg ; Suéde. e le soudage par résistance : Thompson ; USA. e le soudage au gaz (chalumeau) : Picard ; France. A partir de la troisieme décade de notre époque date le développement rapide des procédés de soudage avec les électrodes enrobées et au chalumeau oxyacétylénique, qui a rendu possible la réalisation des premiéres ceuvres importantes comme les bateaux, les ponts, les batiments et les chaudiéres (surtout en USA et en Angleterre). L’introduction massive de Soudage par résistance joua le role décisif dans le développement rapide de |’industrie automobile. Parmi les nouveaux procédés on peut citer : - le soudage avec électrode de tungsténe : 1924 — USA. le soudage sous flux : 1935 — USA. - le soudage vertical sous laitier : 1950 — URSS. - le soudage sous la protection gazeuse : 1950 —1960. - le soudage avec fils fourrés : 1950 —1960. - le soudage par explosion : 1950-1960. - le soudage par bombardement électronique : 1956 — France. - le soudage par laser : 1965. [1]",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Chapitre I Etude bibliographique (Soudage) I-2 HISTORIQUE DU SOUDAGE : Le soudage est né a la fin du"
+    },
+    {
+      "field": "supplier",
+      "value": "Chapitre I Etude bibliographique (Soudage) I-2 HISTORIQUE DU SOUDAGE : Le soudage est né a la fin du 19éme siécle dans |’ esprit des scientifiques, il est passé Rapidement dans les mains des techniciens, tout d’abord avec la technique oxyacétylénique, puis avec 20éme siécle a vu la naissance du soudage par Laser est aussi : e le soudage avec électrode de carbone : Bernardos et Olszewski; Russie. ° le soudage avec électrode fusible nue : Slavianov ; Russie. e _ le soudage avec électrode enrobée : Kjell berg ; Suéde. e le soudage par résistance : Thompson ; USA. e le soudage au gaz (chalumeau) : Picard ; France. A partir de la troisieme décade de notre époque date le développement rapide des procédés de soudage avec les électrodes enrobées et au chalumeau oxyacétylénique, qui a rendu possible la réalisation des premiéres ceuvres importantes comme les bateaux, les ponts, les batiments et les chaudiéres (surtout en USA et en Angleterre). L’introduction massive de Soudage par résistance joua le role décisif dans le développement rapide de |’industrie automobile. Parmi les nouveaux procédés on peut citer : - le soudage avec électrode de tungsténe : 1924 — USA. le soudage sous flux : 1935 — USA. - le soudage vertical sous laitier : 1950 — URSS. - le soudage sous la protection gazeuse : 1950 —1960. - le soudage avec fils fourrés : 1950 —1960. - le soudage par explosion : 1950-1960. - le soudage par bombardement électronique : 1956 — France. - le soudage par laser : 1965. [1]",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Chapitre I Etude bibliographique (Soudage) I-2 HISTORIQUE DU SOUDAGE : Le soudage est né a la fin du"
+    },
+    {
+      "field": "supplier",
+      "value": "Chapitre I Etude bibliographique (Soudage) I-4 PHENOMENES DU SOUDAGE : Le soudage est un procédé qui se caractérise par une grande complexité de phénoménes phisico- chimique et des paramétres qui rentrent en jeu. Dans le soudage, la liaison atomique réalisée au niveau du joint nécessite l’intervention d’une source d’énergie extérieure qui crée une élévation de la température dans les pieces. Les sources d’ énergie utilisées sont de type électrique, chimique, mécanique (friction) ou optique (Laser). [6] On distingue deux grandes classes de soudures : I-4-1 Les soudures autogénes : Ce sont des assemblages homogenes car les éléments sont assemblés soit sous le méme métal d’ apport soit avec un métal d’apport de méme nature chimique. [7] ]-4-2 Les soudures hétérogénes : Elles sont réalisées a l’aide d’un métal d’apport déposé par fusion et d’une nature chimique différent de celle des éléments soudés. [8] 1.5. Procédé de soudage : Les différents types du soudage ne peuvent s'effectuer que selon l'un des deux modes suivants: e En phase solide : la continuité atomique entre les bords a joindre est assurée par une déformation a froid ou a chaud. Cette déformation est due soit 4 une pression soit a une friction suivie d'une pression. e En phase liquide : liaison par fusion localisée des joints des piéces a assembler ou par ajout de métal d'apport en fusion. La majorité des procédés de soudage s'opérent selon ce mode. La classification des multiples variantes du soudage peut étre faite selon la source d'énergie utilisée. Cette classification est présentée dans la (Figure 1.3.).",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Chapitre I Etude bibliographique (Soudage) I-4 PHENOMENES DU SOUDAGE : Le soudage est un procédé qui"
+    },
+    {
+      "field": "supplier",
+      "value": "Chapitre I Etude bibliographique (Soudage) I-4 PHENOMENES DU SOUDAGE : Le soudage est un procédé qui se caractérise par une grande complexité de phénoménes phisico- chimique et des paramétres qui rentrent en jeu. Dans le soudage, la liaison atomique réalisée au niveau du joint nécessite l’intervention d’une source d’énergie extérieure qui crée une élévation de la température dans les pieces. Les sources d’ énergie utilisées sont de type électrique, chimique, mécanique (friction) ou optique (Laser). [6] On distingue deux grandes classes de soudures : I-4-1 Les soudures autogénes : Ce sont des assemblages homogenes car les éléments sont assemblés soit sous le méme métal d’ apport soit avec un métal d’apport de méme nature chimique. [7] ]-4-2 Les soudures hétérogénes : Elles sont réalisées a l’aide d’un métal d’apport déposé par fusion et d’une nature chimique différent de celle des éléments soudés. [8] 1.5. Procédé de soudage : Les différents types du soudage ne peuvent s'effectuer que selon l'un des deux modes suivants: e En phase solide : la continuité atomique entre les bords a joindre est assurée par une déformation a froid ou a chaud. Cette déformation est due soit 4 une pression soit a une friction suivie d'une pression. e En phase liquide : liaison par fusion localisée des joints des piéces a assembler ou par ajout de métal d'apport en fusion. La majorité des procédés de soudage s'opérent selon ce mode. La classification des multiples variantes du soudage peut étre faite selon la source d'énergie utilisée. Cette classification est présentée dans la (Figure 1.3.).",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Chapitre I Etude bibliographique (Soudage) I-4 PHENOMENES DU SOUDAGE : Le soudage est un procédé qui"
+    },
+    {
+      "field": "supplier",
+      "value": "Chapitre I Etude bibliographique (Soudage) Energie spécifique W/cm* 0 Ww 0 10° 0 §«§6©10°)~— 610’ U1 (10 Chalumeau | | a \"Sp Arc électrique a > Faisceau d’électrons SS Fusion et conduction Soudage difficile, transfert thermique par conduction dominante Soudage impossible, vaporisation du métal prédominante Fusion et vaporisation Figure (1.3): Classification des procédés de soudage.[9] Soudage oxyacétylénique Faisceau laser Soudage par friction Soudage aluminothermique Faisceau d’électrons Soudage par explosion Soudage par ultrasons Soudage par diffusion Arc électrique Résistance électrique Eléctrode réfractaire TIG Soudage par résistance par points Electrode fusible MIG/MAG Soudage par résistance a la molette Electrode enrobée Soudage par induction Soudage sous flux Soudage par étincelage Plasma Soudage par bossage Figure (I.4) : Energies spécifiques des différents procédés de soudage par fusion. [10] Les procédés de soudage par fusion peuvent aussi étre classés suivant l’intensité de la source d’énergie qui induit des différences de caractéristiques importantes sur les cordons de soudure (figure I.4). L’ énergie spécifique de chaque procédé agit sur la pénétration, qui est le rapport de la profondeur de la soudure sur la largeur, et sur les caractéristiques mécaniques des cordons de soudure.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Chapitre I Etude bibliographique (Soudage) Energie spécifique W/cm* 0 Ww 0 10° 0 §«§6©10°)~— 610’ U1"
+    },
+    {
+      "field": "supplier",
+      "value": "Chapitre I Etude bibliographique (Soudage) Energie spécifique W/cm* 0 Ww 0 10° 0 §«§6©10°)~— 610’ U1 (10 Chalumeau | | a \"Sp Arc électrique a > Faisceau d’électrons SS Fusion et conduction Soudage difficile, transfert thermique par conduction dominante Soudage impossible, vaporisation du métal prédominante Fusion et vaporisation Figure (1.3): Classification des procédés de soudage.[9] Soudage oxyacétylénique Faisceau laser Soudage par friction Soudage aluminothermique Faisceau d’électrons Soudage par explosion Soudage par ultrasons Soudage par diffusion Arc électrique Résistance électrique Eléctrode réfractaire TIG Soudage par résistance par points Electrode fusible MIG/MAG Soudage par résistance a la molette Electrode enrobée Soudage par induction Soudage sous flux Soudage par étincelage Plasma Soudage par bossage Figure (I.4) : Energies spécifiques des différents procédés de soudage par fusion. [10] Les procédés de soudage par fusion peuvent aussi étre classés suivant l’intensité de la source d’énergie qui induit des différences de caractéristiques importantes sur les cordons de soudure (figure I.4). L’ énergie spécifique de chaque procédé agit sur la pénétration, qui est le rapport de la profondeur de la soudure sur la largeur, et sur les caractéristiques mécaniques des cordons de soudure.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Chapitre I Etude bibliographique (Soudage) Energie spécifique W/cm* 0 Ww 0 10° 0 §«§6©10°)~— 610’ U1"
+    },
+    {
+      "field": "supplier",
+      "value": "Chapitre I Etude bibliographique (Soudage) 1.5.1. Procédé de soudage MIG — MAG: Ce procédé est l'un des nombreux types de soudage utilisant l'arc électrique pour fournir la chaleur nécessaire a la fusion locale des piéces 4 assembler. L'arc électrique s'établit grace aux déplacements des électrons entre l'électrode et le joint de soudure dans un gaz ionisé formant la colonne d'arc (plasma). Selon le cas, du gaz inerte (Argon, Hélium) ou actif (CO2) est utilisé pour protéger l'arc et le bain de fusion ce qui donne leur nom aux procédés : M.I.G. (Métal insert Gas) et M.A.G. (Métal Active Gas). Le procédé Est utilisé pour le soudage de l'aluminium et de ses alliages quant au procédé M.A.G. il est employé pour le soudage des aciers. Le métal d'apport se dévide automatiquement sous forme de fil a l'intérieur de la buse de la torche pour se déposer en fusion, par régime de court-circuit ou de pulvérisation, sur le métal de base. La dilution du métal d'apport avec le métal de base puis leur solidification constituera la liaison métallique visée par le soudage. Ce procédé (M.I.G. ou M.A.G.) est particuliérement adapté au soudage, en toutes positions, des toles d'épaisseurs faibles ou moyennes (1 a 15 mm). [11] Domaines d'application : Les procédés MIG — MAG, de haute productivité, faciles 4 mettre en ceuvre en atelier comme sur les chantiers, sont employés aussi bien en manuel qu'en automatique et avec robots. Ils sont utilisables en toutes positions sur des €paisseurs a partir de 0,6 mm On rencontre les procédés MIG — MAG dans de nombreuses industries : chaudronnerie, constructions navale et ferroviaire, off-shore, construction automobile, menuiserie métallique, etc.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Chapitre I Etude bibliographique (Soudage) 1.5.1. Procédé de soudage MIG — MAG: Ce procédé est l'un "
+    },
+    {
+      "field": "supplier",
+      "value": "Chapitre I Etude bibliographique (Soudage) 1.5.1. Procédé de soudage MIG — MAG: Ce procédé est l'un des nombreux types de soudage utilisant l'arc électrique pour fournir la chaleur nécessaire a la fusion locale des piéces 4 assembler. L'arc électrique s'établit grace aux déplacements des électrons entre l'électrode et le joint de soudure dans un gaz ionisé formant la colonne d'arc (plasma). Selon le cas, du gaz inerte (Argon, Hélium) ou actif (CO2) est utilisé pour protéger l'arc et le bain de fusion ce qui donne leur nom aux procédés : M.I.G. (Métal insert Gas) et M.A.G. (Métal Active Gas). Le procédé Est utilisé pour le soudage de l'aluminium et de ses alliages quant au procédé M.A.G. il est employé pour le soudage des aciers. Le métal d'apport se dévide automatiquement sous forme de fil a l'intérieur de la buse de la torche pour se déposer en fusion, par régime de court-circuit ou de pulvérisation, sur le métal de base. La dilution du métal d'apport avec le métal de base puis leur solidification constituera la liaison métallique visée par le soudage. Ce procédé (M.I.G. ou M.A.G.) est particuliérement adapté au soudage, en toutes positions, des toles d'épaisseurs faibles ou moyennes (1 a 15 mm). [11] Domaines d'application : Les procédés MIG — MAG, de haute productivité, faciles 4 mettre en ceuvre en atelier comme sur les chantiers, sont employés aussi bien en manuel qu'en automatique et avec robots. Ils sont utilisables en toutes positions sur des €paisseurs a partir de 0,6 mm On rencontre les procédés MIG — MAG dans de nombreuses industries : chaudronnerie, constructions navale et ferroviaire, off-shore, construction automobile, menuiserie métallique, etc.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Chapitre I Etude bibliographique (Soudage) 1.5.1. Procédé de soudage MIG — MAG: Ce procédé est l'un "
+    },
+    {
+      "field": "supplier",
+      "value": "Chapitre I Etude bibliographique (Soudage) Dcviddoir de til Dube de contact Buse métallique Flectrode Gaz de protection Are électrique Bain Cordon de soudure de fusion WAVAVALAAAN Cae Figure (1.5) : Schématisation du soudage MIG-MAG.[12] 1.5.2. soudage au gaz ou au chalumeau : Le soudage au gaz ou a la flamme, consiste 4 assembler des piéces de métal a l’aide d’un métal d’apport amené a fusion par la chaleur de la flamme d’un chalumeau. Selon le type de pieces a assembler et la résistance de l’assemblage que |’on souhaite obtenir, on utilise différentes techniques.[11] Buse du Métal chalumeau se) Figure(1.6) : Soudage au chalumeau.[13]",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Chapitre I Etude bibliographique (Soudage) Dcviddoir de til Dube de contact Buse métallique Flectrod"
+    },
+    {
+      "field": "supplier",
+      "value": "Chapitre I Etude bibliographique (Soudage) Dcviddoir de til Dube de contact Buse métallique Flectrode Gaz de protection Are électrique Bain Cordon de soudure de fusion WAVAVALAAAN Cae Figure (1.5) : Schématisation du soudage MIG-MAG.[12] 1.5.2. soudage au gaz ou au chalumeau : Le soudage au gaz ou a la flamme, consiste 4 assembler des piéces de métal a l’aide d’un métal d’apport amené a fusion par la chaleur de la flamme d’un chalumeau. Selon le type de pieces a assembler et la résistance de l’assemblage que |’on souhaite obtenir, on utilise différentes techniques.[11] Buse du Métal chalumeau se) Figure(1.6) : Soudage au chalumeau.[13]",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Chapitre I Etude bibliographique (Soudage) Dcviddoir de til Dube de contact Buse métallique Flectrod"
+    },
+    {
+      "field": "supplier",
+      "value": "Chapitre I Etude bibliographique (Soudage) 2-On distingue de doux types PRINCIPAUX PROCEDES DE SOUDAGE : e Procédés nécessitant un effort extérieur : Soudage réalisé en phase solide. e Procédés sans effort extérieur : Soudage réalisé en phase liquide. 15",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Chapitre I Etude bibliographique (Soudage) 2-On distingue de doux types PRINCIPAUX PROCEDES DE SOUDA"
+    },
+    {
+      "field": "supplier",
+      "value": "Chapitre I Etude bibliographique (Soudage) 2-On distingue de doux types PRINCIPAUX PROCEDES DE SOUDAGE : e Procédés nécessitant un effort extérieur : Soudage réalisé en phase solide. e Procédés sans effort extérieur : Soudage réalisé en phase liquide. 15",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Chapitre I Etude bibliographique (Soudage) 2-On distingue de doux types PRINCIPAUX PROCEDES DE SOUDA"
+    },
+    {
+      "field": "supplier",
+      "value": "Chapitre IT Etude bibliographique (Les défauts de soudure) II.5. Fissure 4 chaud (ou de solidification) : 11.5.1 Définition : C’est une fissure localisée normalement au centre de la coupe transversale d'une soudure (soit soudure d'angle, soit soudure bout a bout), qui peut déboucher en surface et se propager dans le sens longitudinal. Elle se forme lors de la solidification du métal déposé a température élevée.[41] II.5.2.Causes possibles : -Retrait transversal exagéré, sur tout pour des cordons avec un rapport profondeur/ largeur supérieur a deux (rapport classique pour des procédés avec grande densité de courant tels que le soudage sous flux et le soudage MAG). - Une teneur en carbone, phosphore ou soufre du métal de base trop élevée peut provoquer une fissure inter-dendritique par suite de la dilution entre MB et MD, des impuretés viennent se loger a l'endroit ot la solidification se produit en dernier lieu, et oti de plus les dendrites provenant de cette solidification se rejoignent avec une orientation différente. Notons que l'importance de la migration des impuretés augmente avec la température. C'est un effet défavorable de la préchauffe. - Ecartement trop important entre les parties a assembler dans le cas de soudures d'angle. - Soudures d'angle avec concavité importante : celles-ci ont parfois une résistance insuffisante pour encaisser des contraintes de retrait normales. -Transformations allotropiques: on appelle ainsi les modifications de structure cristalline qui se produisent lors du chauffage et du refroidissement de l'acier; étant donne que ces transformations s'accompagnent de changements de volume et de solubilité en certains éléments, elles induisent des tensions internes et l'apparition d‘éventuels constituants fragiles. 21",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Chapitre IT Etude bibliographique (Les défauts de soudure) II.5. Fissure 4 chaud (ou de solidificati"
+    },
+    {
+      "field": "supplier",
+      "value": "Chapitre IT Etude bibliographique (Les défauts de soudure) II.5. Fissure 4 chaud (ou de solidification) : 11.5.1 Définition : C’est une fissure localisée normalement au centre de la coupe transversale d'une soudure (soit soudure d'angle, soit soudure bout a bout), qui peut déboucher en surface et se propager dans le sens longitudinal. Elle se forme lors de la solidification du métal déposé a température élevée.[41] II.5.2.Causes possibles : -Retrait transversal exagéré, sur tout pour des cordons avec un rapport profondeur/ largeur supérieur a deux (rapport classique pour des procédés avec grande densité de courant tels que le soudage sous flux et le soudage MAG). - Une teneur en carbone, phosphore ou soufre du métal de base trop élevée peut provoquer une fissure inter-dendritique par suite de la dilution entre MB et MD, des impuretés viennent se loger a l'endroit ot la solidification se produit en dernier lieu, et oti de plus les dendrites provenant de cette solidification se rejoignent avec une orientation différente. Notons que l'importance de la migration des impuretés augmente avec la température. C'est un effet défavorable de la préchauffe. - Ecartement trop important entre les parties a assembler dans le cas de soudures d'angle. - Soudures d'angle avec concavité importante : celles-ci ont parfois une résistance insuffisante pour encaisser des contraintes de retrait normales. -Transformations allotropiques: on appelle ainsi les modifications de structure cristalline qui se produisent lors du chauffage et du refroidissement de l'acier; étant donne que ces transformations s'accompagnent de changements de volume et de solubilité en certains éléments, elles induisent des tensions internes et l'apparition d‘éventuels constituants fragiles. 21",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Chapitre IT Etude bibliographique (Les défauts de soudure) II.5. Fissure 4 chaud (ou de solidificati"
+    },
+    {
+      "field": "supplier",
+      "value": "Chapitre IT Etude bibliographique (Les défauts de soudure) e Inductance trop importante en soudage MAG. e Bords a souder mal nettoyés. 1I.9.4.2.2. Mesures préventives : e Qualification de la procédure pour vérifier la fusion e Eventuellement modifier l’angle d’inclinaison de |’ électrode ou la position de soudage e Nettoyer suffisamment les bords a souder e Diminuer une inductance trop élevée dans le soudage MAG, méme si les projections sur le métal de base deviennent plus nombreuses. II. 9.4.3. Manque de fusion entre passes : Manque de cohésion moléculaire entre les passes d’une soudure multi-passes (Figure. II.10). Figure (II.10) : Manque de fusion entre passes.[45] II. 9.4.4. Manque de fusion a la racine de la soudure : Manque de fusion moléculaire entre métal d’apport et métal de base a la racine de la soudure. Cette faute est souvent accompagnée d’un manque de pénétration (Figure. II.10). 30",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Chapitre IT Etude bibliographique (Les défauts de soudure) e Inductance trop importante en soudage M"
+    },
+    {
+      "field": "supplier",
+      "value": "Chapitre IT Etude bibliographique (Les défauts de soudure) e Inductance trop importante en soudage MAG. e Bords a souder mal nettoyés. 1I.9.4.2.2. Mesures préventives : e Qualification de la procédure pour vérifier la fusion e Eventuellement modifier l’angle d’inclinaison de |’ électrode ou la position de soudage e Nettoyer suffisamment les bords a souder e Diminuer une inductance trop élevée dans le soudage MAG, méme si les projections sur le métal de base deviennent plus nombreuses. II. 9.4.3. Manque de fusion entre passes : Manque de cohésion moléculaire entre les passes d’une soudure multi-passes (Figure. II.10). Figure (II.10) : Manque de fusion entre passes.[45] II. 9.4.4. Manque de fusion a la racine de la soudure : Manque de fusion moléculaire entre métal d’apport et métal de base a la racine de la soudure. Cette faute est souvent accompagnée d’un manque de pénétration (Figure. II.10). 30",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Chapitre IT Etude bibliographique (Les défauts de soudure) e Inductance trop importante en soudage M"
+    },
+    {
+      "field": "supplier",
+      "value": "Références Bibliographiques Références Bibliographiques [1] Wikipédia I'encyclopédie libre / Procédés de soudage de piéces métalliques. [2] Bekouche, H., 2013.Mémoire de Fin d'Etudes En vue de I’ obtention du dipléme de: Master conception et productique/Optimisation de la vitesse de soudage al’ arc électrique des aciers. [3]www.soudage.com [4]www.canstockphoto.fr [5]- Varisllaz, R., 1987. « Soudage : éléments de conception et de réalisation ». p. 4-49 p.160-176. [6] www.researchgate.net [7] www.pinterest.fr [8] Hichem, B., 2013. « Optimisation de la vitesse de soudage a I'arc électrique des aciers » [9] Québec, Inc., 2006. [10] www.joho.p.free.fr [11] Ensam Angers, C.E.R., Soudage al’ arc, -Laboratoire Industriel de Déformation Plastique ; www.angers.ensam.fr. [12] Chehaibou, A.,2004. Soudage laser : les bénéfices des procédés hybrides, Soudage et techniques connexes P33-38. [13] Roland, C., Ingénieur de I’ Ecole supérieure d’ électricité ex-Directeur des recherches, Société Sciaky. [14] Blais, L., 2006. “‘ Introduction au soudage laser ”’ ; Centre spécialisé de technologie physique du Québec Inc.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Références Bibliographiques Références Bibliographiques [1] Wikipédia I'encyclopédie libre / Procédé"
+    },
+    {
+      "field": "supplier",
+      "value": "Références Bibliographiques Références Bibliographiques [1] Wikipédia I'encyclopédie libre / Procédés de soudage de piéces métalliques. [2] Bekouche, H., 2013.Mémoire de Fin d'Etudes En vue de I’ obtention du dipléme de: Master conception et productique/Optimisation de la vitesse de soudage al’ arc électrique des aciers. [3]www.soudage.com [4]www.canstockphoto.fr [5]- Varisllaz, R., 1987. « Soudage : éléments de conception et de réalisation ». p. 4-49 p.160-176. [6] www.researchgate.net [7] www.pinterest.fr [8] Hichem, B., 2013. « Optimisation de la vitesse de soudage a I'arc électrique des aciers » [9] Québec, Inc., 2006. [10] www.joho.p.free.fr [11] Ensam Angers, C.E.R., Soudage al’ arc, -Laboratoire Industriel de Déformation Plastique ; www.angers.ensam.fr. [12] Chehaibou, A.,2004. Soudage laser : les bénéfices des procédés hybrides, Soudage et techniques connexes P33-38. [13] Roland, C., Ingénieur de I’ Ecole supérieure d’ électricité ex-Directeur des recherches, Société Sciaky. [14] Blais, L., 2006. “‘ Introduction au soudage laser ”’ ; Centre spécialisé de technologie physique du Québec Inc.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Références Bibliographiques Références Bibliographiques [1] Wikipédia I'encyclopédie libre / Procédé"
+    },
+    {
+      "field": "supplier",
+      "value": "Références Bibliographiques [32] Csmofmi : Soudage et assemblage-soudage « Défauts de soudure * Chapitre 6 ». [33] Documents Technique COSIDER Biskra 2012. [34] www.slideplayer.fr [35] www.controle-visuel.com [36] www.docplayer.fr [37] Documents Yamani Institute of Technology [38] Seferian, D., 1959. Métallurgie de la soudure - DUNOD. [39] Mouchat, L. & Malek,S.,2002. Mémoire d’ ingéniorat. Université de Blida “‘ Mise en ceuvre de classificateurs basés sur la notion de distance et classification statistique. Applications : Identification des défauts de joint de soudure sur les images radiographiques” . [40] DELATRE, F., 1965. Le soudage des aciers inoxydables - DUNOD. [41] www.tandems.free [42] Barthelemy, B., 1980.Notions pratiques de mécaniques de la rupture - Editions Eyrolles -Paris. [43] Laroze, S.,1982. Résistance des matériaux et structures, (Eyrolles, Masson ). [44] Apfel, A.2005. Modélisation de I'orientation cristalline des soudures multi-passes en acier inoxydable austenitique: application au contrdéle non destructif ultrasonore (Doctoral dissertation, Aix-Marseille 2). [45] Rehouma, K., 2013. Comportement structural et mécanique de soudures d’acier inoxydable austénitique du type 3161 vieillies. Diss. Ecole nationale polytechnique d' Alger. [46] Amaouche, S., 2012. Caractérisation d’une soudure hétérogéne réalisée par le procédé MAG (Doctoral dissertation, Université Mouloud Mammeri Tizi-Ouzou.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Références Bibliographiques [32] Csmofmi : Soudage et assemblage-soudage « Défauts de soudure * Chap"
+    },
+    {
+      "field": "supplier",
+      "value": "Références Bibliographiques [32] Csmofmi : Soudage et assemblage-soudage « Défauts de soudure * Chapitre 6 ». [33] Documents Technique COSIDER Biskra 2012. [34] www.slideplayer.fr [35] www.controle-visuel.com [36] www.docplayer.fr [37] Documents Yamani Institute of Technology [38] Seferian, D., 1959. Métallurgie de la soudure - DUNOD. [39] Mouchat, L. & Malek,S.,2002. Mémoire d’ ingéniorat. Université de Blida “‘ Mise en ceuvre de classificateurs basés sur la notion de distance et classification statistique. Applications : Identification des défauts de joint de soudure sur les images radiographiques” . [40] DELATRE, F., 1965. Le soudage des aciers inoxydables - DUNOD. [41] www.tandems.free [42] Barthelemy, B., 1980.Notions pratiques de mécaniques de la rupture - Editions Eyrolles -Paris. [43] Laroze, S.,1982. Résistance des matériaux et structures, (Eyrolles, Masson ). [44] Apfel, A.2005. Modélisation de I'orientation cristalline des soudures multi-passes en acier inoxydable austenitique: application au contrdéle non destructif ultrasonore (Doctoral dissertation, Aix-Marseille 2). [45] Rehouma, K., 2013. Comportement structural et mécanique de soudures d’acier inoxydable austénitique du type 3161 vieillies. Diss. Ecole nationale polytechnique d' Alger. [46] Amaouche, S., 2012. Caractérisation d’une soudure hétérogéne réalisée par le procédé MAG (Doctoral dissertation, Université Mouloud Mammeri Tizi-Ouzou.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Références Bibliographiques [32] Csmofmi : Soudage et assemblage-soudage « Défauts de soudure * Chap"
+    },
+    {
+      "field": "supplier",
+      "value": "MIG - MAG",
+      "confidence": 0.6,
+      "source": "letterhead",
+      "raw_text": "MIG - MAG"
+    },
+    {
+      "field": "supplier",
+      "value": "MIG-MAG",
+      "confidence": 0.6,
+      "source": "letterhead",
+      "raw_text": "MIG-MAG"
+    },
+    {
+      "field": "material",
+      "value": "A33",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A33"
+    },
+    {
+      "field": "material",
+      "value": "A48",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A48"
+    },
+    {
+      "field": "material",
+      "value": "millimétre",
+      "confidence": 0.7,
+      "source": "trigger_matériau",
+      "raw_text": "Chapitre I Etude bibliographique (Soudage) par conduction produit des joints plus larges que profond"
+    },
+    {
+      "field": "material",
+      "value": "Les fissures peuvent étre décrites comme étant longitudinales ou transversales",
+      "confidence": 0.7,
+      "source": "trigger_métal de base",
+      "raw_text": "Chapitre IT Etude bibliographique (Les défauts de soudure) complétement éliminée avant de poursuivre"
+    },
+    {
+      "field": "material",
+      "value": "- Pour des fissures débouchant en surface : examen visuel",
+      "confidence": 0.7,
+      "source": "trigger_métal de base",
+      "raw_text": "Chapitre IT Etude bibliographique (Les défauts de soudure) 11.5.3. Méthodes de détection : - Pour de"
+    },
+    {
+      "field": "material",
+      "value": "- Pour des fissures débouchant en surface : examen visuel",
+      "confidence": 0.7,
+      "source": "trigger_métal de base",
+      "raw_text": "Chapitre IT Etude bibliographique (Les défauts de soudure) 11.6.3. Méthodes de détection : - Pour de"
+    },
+    {
+      "field": "material",
+      "value": "Les soufflures sont des défauts creux",
+      "confidence": 0.7,
+      "source": "trigger_métal de base",
+      "raw_text": "Chapitre IT Etude bibliographique (Les défauts de soudure) 11.9.3. Les soufflures : Les soufflures s"
+    },
+    {
+      "field": "material",
+      "value": "Ce sont des cavités a l’extrémité des cordons",
+      "confidence": 0.7,
+      "source": "trigger_métal de base",
+      "raw_text": "Chapitre IT Etude bibliographique (Les défauts de soudure) l’électrode, et de la température des pié"
+    },
+    {
+      "field": "material",
+      "value": "24]. 36",
+      "confidence": 0.7,
+      "source": "trigger_grade",
+      "raw_text": "Chapitre TI Etude bibliographique (Contréle Non Destructif (CND) III.1. Introduction Le Contréle Non"
+    },
+    {
+      "field": "material",
+      "value": "24]. 36",
+      "confidence": 0.7,
+      "source": "trigger_matériau",
+      "raw_text": "Chapitre TI Etude bibliographique (Contréle Non Destructif (CND) III.1. Introduction Le Contréle Non"
+    },
+    {
+      "field": "material",
+      "value": "t-elle avec celle de la physique moderne a la fin du XIXe siécle découverte des rayons X",
+      "confidence": 0.7,
+      "source": "trigger_grade",
+      "raw_text": "Chapitre TI Etude bibliographique (Contréle Non Destructif (CND) III.2. Historique Comme |’instrumen"
+    },
+    {
+      "field": "material",
+      "value": "l’estimation d’un parameéetre constitutif de la piéce comme par exemple |’épaisseur d’une paroi",
+      "confidence": 0.7,
+      "source": "trigger_matériau",
+      "raw_text": "Chapitre TI Etude bibliographique (Contréle Non Destructif (CND) consentir d'émettre un jugement d'a"
+    },
+    {
+      "field": "material",
+      "value": "entend toujours qu’il ne s’agit non pas d’une simple mesure d’une grandeur physique",
+      "confidence": 0.7,
+      "source": "trigger_matériau",
+      "raw_text": "Chapitre TI Etude bibliographique (Contréle Non Destructif (CND) diagnostic d'intégrité. La mise en "
+    },
+    {
+      "field": "material",
+      "value": "la. Cela dit",
+      "confidence": 0.7,
+      "source": "trigger_matériau",
+      "raw_text": "Chapitre TI Etude bibliographique (Contréle Non Destructif (CND) bien le rdle que joue le contréle n"
+    },
+    {
+      "field": "material",
+      "value": "cutanés. Toutefois",
+      "confidence": 0.7,
+      "source": "trigger_matériau",
+      "raw_text": "Chapitre HI Etude bibliographique (Contréle Non Destructif (CND) III.4.3. Magnétoscopie C’est une te"
+    },
+    {
+      "field": "material",
+      "value": "> charpente métallique et technologique . > chaudronnerie . > équipements de cimenterie",
+      "confidence": 0.7,
+      "source": "trigger_matériau",
+      "raw_text": "Chapitre IV Partie Expérimentale Et Applications Les activités de GTP Unité Adrar (wad zin) : > char"
+    },
+    {
+      "field": "material",
+      "value": "> charpente métallique et technologique . > chaudronnerie . > équipements de cimenterie",
+      "confidence": 0.7,
+      "source": "trigger_métal de base",
+      "raw_text": "Chapitre IV Partie Expérimentale Et Applications Les activités de GTP Unité Adrar (wad zin) : > char"
+    },
+    {
+      "field": "quantity",
+      "value": "15 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "15 mm"
+    },
+    {
+      "field": "quantity",
+      "value": "0.6 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "0,6 mm"
+    },
+    {
+      "field": "quantity",
+      "value": "5 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "5 mm"
+    },
+    {
+      "field": "quantity",
+      "value": "5 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "5 mm"
+    },
+    {
+      "field": "quantity",
+      "value": "12 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "12 mm"
+    },
+    {
+      "field": "quantity",
+      "value": "1 kg",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "1 Kg"
+    }
+  ],
+  "notes": [
+    "Multiple suppliers found (31), selected highest confidence",
+    "No project ID found"
+  ]
+}
