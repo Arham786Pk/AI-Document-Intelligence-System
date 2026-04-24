@@ -17,8 +17,10 @@ Thumbs.db
 # Claude Code session artifacts
 .claude/
 
-# Outputs (regenerable from src/pipeline.py)
+# Outputs (regenerable from pipeline)
 outputs/*.json
+outputs/ocr/*.txt
+outputs/ocr/*.json
 data/processed/*
 
 # Generator intermediates
