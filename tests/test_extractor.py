@@ -36,7 +36,7 @@ def test_material_cert_en():
     assert result.project_id == "EXP1390198", f"Expected EXP1390198, got {result.project_id}"
     assert result.material and "316" in result.material, f"Expected 316 in material, got {result.material}"
     assert result.quantity and "400" in result.quantity, f"Expected 400 in quantity, got {result.quantity}"
-    assert result.date == "2013-11-05", f"Expected 2013-11-05, got {result.date}"
+    assert result.date == "05/11/2013", f"Expected 05/11/2013, got {result.date}"
     
     print("  ✓ PASS\n")
 
@@ -64,7 +64,7 @@ def test_material_cert_fr():
     
     assert result.project_id == "134822", f"Expected 134822, got {result.project_id}"
     assert result.material and ("304" in result.material or "1.4307" in result.material), f"Expected 304 or 1.4307 in material, got {result.material}"
-    assert result.date == "2019-05-23", f"Expected 2019-05-23, got {result.date}"
+    assert result.date == "23/05/2019", f"Expected 23/05/2019, got {result.date}"
     
     print("  ✓ PASS\n")
 
@@ -92,7 +92,7 @@ def test_synthetic_welding_plan():
     assert result.project_id == "WO-98154", f"Expected WO-98154, got {result.project_id}"
     assert result.material and "PVC" in result.material, f"Expected PVC in material, got {result.material}"
     assert result.quantity and "287" in result.quantity, f"Expected 287 in quantity, got {result.quantity}"
-    assert result.date == "2024-03-18", f"Expected 2024-03-18, got {result.date}"
+    assert result.date == "18/03/2024", f"Expected 18/03/2024, got {result.date}"
     
     print("  ✓ PASS\n")
 
@@ -100,11 +100,11 @@ def test_synthetic_welding_plan():
 def test_date_formats():
     """Test various date format parsing."""
     test_cases = [
-        ("Date: 2025-10-12", "2025-10-12", "ISO"),
-        ("Date: 23.05.2019", "2019-05-23", "EU dot"),
-        ("Date: 18/03/2024", "2024-03-18", "Slash"),
-        ("Date: Mar 29, 2025", "2025-03-29", "EN textual"),
-        ("Date: 26.09.18", "2018-09-26", "2-digit year"),
+        ("Date: 2025-10-12", "12/10/2025", "ISO"),
+        ("Date: 23.05.2019", "23/05/2019", "EU dot"),
+        ("Date: 18/03/2024", "18/03/2024", "Slash"),
+        ("Date: Mar 29, 2025", "29/03/2025", "EN textual"),
+        ("Date: 26.09.18", "26/09/2018", "2-digit year"),
     ]
     
     print("Test: Date Format Parsing")

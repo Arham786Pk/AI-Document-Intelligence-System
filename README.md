@@ -315,7 +315,7 @@ Every filename tells you three things at a glance:
   (0.0–1.0) based on pattern match quality.
 - **Candidate selection:** Automatically selects the best candidate per field
   based on confidence scores.
-- **Date normalization:** All dates normalized to ISO format (YYYY-MM-DD)
+- **Date normalization:** All dates normalized to European format (DD/MM/YYYY)
   regardless of source format.
 - Output: **JSON files** (`outputs/extracted/*.json`) with extracted entities
   and all candidates for each field.
@@ -328,7 +328,7 @@ Every filename tells you three things at a glance:
   - **Quantity:** Numbers with units (kg, pcs, lbs, tons, m, mm), decimal
     support
   - **Date:** ISO (YYYY-MM-DD), European (DD.MM.YYYY), textual (Mar 29, 2025),
-    French textual
+    French textual → normalized to DD/MM/YYYY
 - Verification: `python tests/test_extractor.py` runs comprehensive tests
   covering all entity types and formats; `python src/run_extract.py` extracts
   from all OCR outputs.

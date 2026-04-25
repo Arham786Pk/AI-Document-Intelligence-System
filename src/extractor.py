@@ -357,7 +357,7 @@ def extract_quantity(text: str) -> list[ExtractedEntity]:
 
 
 def normalize_date(day: int, month: int, year: int) -> str:
-    """Normalize date to ISO format YYYY-MM-DD."""
+    """Normalize date to European format DD/MM/YYYY."""
     # Handle 2-digit years
     if year < 50:
         year += 2000
@@ -366,9 +366,9 @@ def normalize_date(day: int, month: int, year: int) -> str:
     
     try:
         dt = datetime(year, month, day)
-        return dt.strftime("%Y-%m-%d")
+        return dt.strftime("%d/%m/%Y")
     except ValueError:
-        return f"{year:04d}-{month:02d}-{day:02d}"  # return as-is if invalid
+        return f"{day:02d}/{month:02d}/{year:04d}"  # return as-is if invalid
 
 
 def extract_date(text: str, language: str = "EN") -> list[ExtractedEntity]:
