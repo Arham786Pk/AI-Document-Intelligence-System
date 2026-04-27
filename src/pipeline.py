@@ -17,7 +17,7 @@ from pathlib import Path
 from typing import Literal
 
 from preprocessor import preprocess_document
-from ocr_engine import ocr_document, OCRResult
+from ocr_engine import ocr_document, extract_text_digital_pdf, OCRResult
 from extractor import extract_entities, ExtractionResult
 
 log = logging.getLogger("pipeline")
@@ -152,10 +152,14 @@ class Pipeline:
             log.error("  ✗ preprocessing failed: %s", e)
             return result
         
-        # Stage 2: OCR
+        # Stage 2: OCR (or direct PDF text extraction for digital docs)
         try:
-            log.info("  [2/3] OCR...")
-            ocr_results = ocr_document(page_paths, fallback_to_paddle=self.fallback_to_paddle)
+            if modality == "digital":
+                log.info("  [2/3] direct PDF text extraction (digital fast path)...")
+                ocr_results = extract_text_digital_pdf(source_path)
+            else:
+                log.info("  [2/3] OCR...")
+                ocr_results = ocr_document(page_paths, fallback_to_paddle=self.fallback_to_paddle)
             result.ocr_results = ocr_results
             result.ocr_ok = True
             

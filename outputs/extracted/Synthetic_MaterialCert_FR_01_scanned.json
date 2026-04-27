@@ -1,0 +1,65 @@
+{
+  "document_name": "Synthetic_MaterialCert_FR_01_scanned",
+  "extracted_entities": {
+    "project_id": null,
+    "supplier": null,
+    "material": "A36",
+    "quantity": "127 kg",
+    "date": null
+  },
+  "all_candidates": [
+    {
+      "field": "material",
+      "value": "A36",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A36"
+    },
+    {
+      "field": "material",
+      "value": "A805",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A805"
+    },
+    {
+      "field": "material",
+      "value": "Carbon Steel",
+      "confidence": 0.75,
+      "source": "material_descriptor",
+      "raw_text": "Carbon Steel"
+    },
+    {
+      "field": "material",
+      "value": ". aan 7 T-N°.Projet: : Coote. : / . WLO-11641 an . 7 . | 2 csioveoes",
+      "confidence": 0.7,
+      "source": "trigger_steel",
+      "raw_text": "| | | : . aan 7 T-N°.Projet: : Coote. : / . WLO-11641 an . 7 . | 2 csioveoes ; ou © ; me Matiére:.’ "
+    },
+    {
+      "field": "material",
+      "value": ". aan 7 T-N°.Projet: : Coote. : / . WLO-11641 an . 7 . | 2 csioveoes",
+      "confidence": 0.7,
+      "source": "trigger_matière",
+      "raw_text": "| | | : . aan 7 T-N°.Projet: : Coote. : / . WLO-11641 an . 7 . | 2 csioveoes ; ou © ; me Matiére:.’ "
+    },
+    {
+      "field": "material",
+      "value": ". aan 7 T-N°.Projet: : Coote. : / . WLO-11641 an . 7 . | 2 csioveoes",
+      "confidence": 0.7,
+      "source": "trigger_nuance",
+      "raw_text": "| | | : . aan 7 T-N°.Projet: : Coote. : / . WLO-11641 an . 7 . | 2 csioveoes ; ou © ; me Matiére:.’ "
+    },
+    {
+      "field": "quantity",
+      "value": "127 kg",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "127 kg"
+    }
+  ],
+  "notes": [
+    "No project ID found",
+    "No supplier found"
+  ]
+}

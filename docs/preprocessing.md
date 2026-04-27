@@ -25,16 +25,18 @@ only prepares the pixels.
 
 | | Path | Count | Format |
 |--|------|------:|--------|
-| **Input**  | `data/raw/used/{digital_pdfs,scanned_docs}/*.pdf` | 20 PDFs | text-PDF or scanned-PDF |
-| **Output** | `data/processed/<doc_stem>_p<NN>.png` | 105 PNGs | grayscale or binarised PNG |
+| **Input**  | `data/raw/used/{digital_pdfs,scanned_docs}/*.pdf` and `data/raw/extra/{digital_pdfs,scanned_docs}/*.pdf` | 20 PDFs | text-PDF or scanned-PDF |
+| **Output** | `data/processed/<doc_stem>_p<NN>.png` | 51 PNGs | grayscale or binarised PNG |
 
 Naming pattern: `<original_filename_without_extension>_p01.png`,
 `_p02.png`, … one PNG per page.
 
 The pipeline reads **only** documents listed in
-[`docs/ground_truth.csv`](ground_truth.csv); the 117 unlabelled documents in
-`data/raw/extra/` are intentionally skipped (no point preprocessing what
-cannot be scored later).
+[`docs/ground_truth.csv`](ground_truth.csv) (20 FR docs total). Six of those
+20 live in `data/raw/extra/` because the GT refresh pulled in real-filled FR
+PDFs from the held-out pool; the loader is modality-aware and resolves both
+locations. The remaining ~117 unlabelled docs in `data/raw/extra/` are
+intentionally skipped — no point preprocessing what cannot be scored.
 
 ---
 
@@ -158,7 +160,7 @@ To rerun the full batch:
 ```bash
 python src/run_preprocess.py
 # expected output:
-# INFO preprocessed Real_MaterialCert_EN_NST_Inspection.pdf (4 pages, scanned)
+# INFO preprocessed Real_MaterialCert_FR_Larobinetterie_134822.pdf (1 pages, digital)
 # ...
 # INFO done: 20 ok, 0 missing, 0 failed (of 20)
 ```
@@ -171,7 +173,7 @@ python src/run_preprocess.py
 |------------------------------|------------|
 | Documents processed          | 20 / 20    |
 | Failed                       | 0          |
-| Total page PNGs produced     | 105        |
+| Total page PNGs produced     | 51         |
 | Disk footprint of `data/processed/` | ~42 MB |
 | Avg pages per document       | 5.25       |
 | Largest doc                  | `Real_FabricationSheet_EN_DOE_Module2A.pdf` (54 pages) |
@@ -223,4 +225,4 @@ Pages-per-document breakdown:
 | [`src/run_preprocess.py`](../src/run_preprocess.py) | CLI driver — reads ground truth, processes all 20 |
 | [`tests/test_preprocessor.py`](../tests/test_preprocessor.py) | Smoke test — verifies one PDF round-trips |
 | [`scripts/split_used_vs_extra.py`](../scripts/split_used_vs_extra.py) | One-shot — separated `data/raw/` into `used/` and `extra/` |
-| `data/processed/` | Output directory (105 PNGs, regenerable) |
+| `data/processed/` | Output directory (51 PNGs, regenerable) |

@@ -1,0 +1,58 @@
+{
+  "document_name": "Synthetic_InspectionReport_FR_01_scanned",
+  "extracted_entities": {
+    "project_id": null,
+    "supplier": ": “Report Nou IR- 64387, nu Î N° Projet: . So \"Date inspections,” 7 É * Fôurisseur: ; Wagner Le Golf SA, Fret . : _ ‘Inspecteur: = we Matière: | ‘Carbon Steel A36 Re “Quant | ‘ Constats d' Inspection . | ae : Fe an oe Résiltat . oe a] Contrôle dimensionnel selon . Eh ss er CONFÔRME : “ | DS . Bet Contrélevisuel dés soudures (AWS D Di. 1) | CONFORME ù .CONFORME | T'CONFORME. re | CONFORME: | cut, Résultat globa = arta mineurs ci-dessus. :! meet * Apptouyé par. Laure Berend | ser ets . Signature: a == ie hit CU",
+    "material": "A36",
+    "quantity": null,
+    "date": null
+  },
+  "all_candidates": [
+    {
+      "field": "supplier",
+      "value": ": “Report Nou IR- 64387, nu Î N° Projet: . So \"Date inspections,” 7 É * Fôurisseur: ; Wagner Le Golf SA, Fret . : _ ‘Inspecteur: = we Matière: | ‘Carbon Steel A36 Re “Quant | ‘ Constats d' Inspection . | ae : Fe an oe Résiltat . oe a] Contrôle dimensionnel selon . Eh ss er CONFÔRME : “ | DS . Bet Contrélevisuel dés soudures (AWS D Di. 1) | CONFORME ù .CONFORME | T'CONFORME. re | CONFORME: | cut, Résultat globa = arta mineurs ci-dessus. :! meet * Apptouyé par. Laure Berend | ser ets . Signature: a == ie hit CU",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": ": “Report Nou IR- 64387, nu Î N° Projet: . So \"Date inspections,” 7 É * Fôurisseur: ; Wagner Le Golf"
+    },
+    {
+      "field": "supplier",
+      "value": "Wagner Le Golf SA",
+      "confidence": 0.6,
+      "source": "letterhead",
+      "raw_text": "Wagner Le Golf SA"
+    },
+    {
+      "field": "material",
+      "value": "A36",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A36"
+    },
+    {
+      "field": "material",
+      "value": "Carbon Steel",
+      "confidence": 0.75,
+      "source": "material_descriptor",
+      "raw_text": "Carbon Steel"
+    },
+    {
+      "field": "material",
+      "value": "“Report Nou IR- 64387",
+      "confidence": 0.7,
+      "source": "trigger_steel",
+      "raw_text": ": “Report Nou IR- 64387, nu Î N° Projet: . So \"Date inspections,” 7 É * Fôurisseur: ; Wagner Le Golf"
+    },
+    {
+      "field": "material",
+      "value": "“Report Nou IR- 64387",
+      "confidence": 0.7,
+      "source": "trigger_matière",
+      "raw_text": ": “Report Nou IR- 64387, nu Î N° Projet: . So \"Date inspections,” 7 É * Fôurisseur: ; Wagner Le Golf"
+    }
+  ],
+  "notes": [
+    "Multiple suppliers found (2), selected highest confidence",
+    "No project ID found"
+  ]
+}

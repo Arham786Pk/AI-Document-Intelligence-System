@@ -48,13 +48,13 @@ sub-fields, not project ID).
 **Real examples from docs:**
 | Value          | Source                                                    | Trigger on page              |
 |----------------|-----------------------------------------------------------|------------------------------|
-| `EXP1390198`   | `Real_MaterialCert_EN_NST_Inspection.pdf`                 | `Certificate No. EXP1390198` |
 | `134822`       | `Real_MaterialCert_FR_Larobinetterie_134822.pdf`          | `Numéro de certificat : 134822` |
 | `59003730`     | `Real_MaterialCert_FR_Antelis_Dillinger_32.pdf`           | `No. Certificat 59003730`    |
-| `SS-011`       | `Real_WeldingPlan_EN_Sandvik.pdf`                         | `WPS: SS-011`                |
-| `JOB-2658`     | `Synthetic_MaterialCert_EN_01.pdf`                        | `Project: JOB-2658`          |
+| `736145`       | `Real_MaterialCert_FR_Larobinetterie_160629.pdf`          | `Cert N° 736145`             |
+| `409707-001`   | `Real_MaterialCert_FR_Dillinger_Antelis.pdf`              | `A03 No. Certificat 409707-001` |
+| `00CD5528`     | `Real_WeldingPlan_FR_Cahier_Soudage_Filtres.pdf`          | `N° Commande / Order n° : 00CD5528` |
 | `WO-98154`     | `Synthetic_WeldingPlan_FR_01.pdf`                         | `N° commande : WO-98154`     |
-| `PO-1053`      | `Synthetic_Invoice_EN_01.pdf`                             | `Purchase Order: PO-1053`    |
+| `PO-39290`     | `Synthetic_MaterialCert_FR_01.pdf`                        | `N° Projet: PO-39290`        |
 
 ---
 
@@ -88,19 +88,20 @@ page 1) combined with the corporate-suffix whitelist.
 **Real examples from docs:**
 | Value                                  | Source                                            |
 |----------------------------------------|---------------------------------------------------|
-| `Kuang Tai Metal Industrial Co., Ltd.` | `Real_MaterialCert_EN_NST_Inspection.pdf`         |
 | `La Robinetterie (LRI-Sodime)`         | `Real_MaterialCert_FR_Larobinetterie_134822.pdf`  |
 | `AG der Dillinger Hüttenwerke`         | `Real_MaterialCert_FR_Antelis_Dillinger_32.pdf`   |
-| `Sandvik`                              | `Real_WeldingPlan_EN_Sandvik.pdf`                 |
-| `Suarez LLC Steel Mills`               | `Synthetic_MaterialCert_EN_01.pdf`                |
+| `SIDERINOX`                            | `Real_MaterialCert_FR_Larobinetterie_160629.pdf`  |
+| `Ugitech SA`                           | `Real_MaterialCert_FR_Ugitech_Alim.pdf`           |
+| `CFCE` (manufacturer)                  | `Real_WeldingPlan_FR_Cahier_Soudage_Filtres.pdf`  |
 | `Bazin et Fils`                        | `Synthetic_WeldingPlan_FR_01.pdf`                 |
-| `Harris, Collins and Carney Ltd.`      | `Synthetic_Invoice_EN_01.pdf`                     |
+| `Moreau SARL`                          | `Synthetic_Invoice_FR_01.pdf`                     |
+| `Aubry Aciéries`                       | `Synthetic_MaterialCert_FR_01.pdf`                |
 
 **Edge cases to handle:**
 - Customer address block often appears near supplier — extractor must
-  not pick "Watanabe Trading Co., Ltd." (customer on NST cert) as the
-  supplier. Solution: prefer the company name in the document letterhead
-  / top-left, or the one following `Issued by`.
+  not pick the customer name (e.g. `ANTELIS, LEUDELANGE` on Dillinger
+  certs) as the supplier. Solution: prefer the company name in the
+  document letterhead / top-left, or the one following `Issued by` / `Émis par`.
 - Template documents (blank forms) have placeholder text like `Company
   Name` — extractor must return empty, not `Company Name`.
 
@@ -143,16 +144,17 @@ code (e.g. `SS 316`, `EN 1.4307`, `A106 Gr.B`) rather than plain text.
 `Désign. acier`, `Métal de base`.
 
 **Real examples from docs:**
-| Value                     | Source                                                |
-|---------------------------|-------------------------------------------------------|
-| `AWS A5.9 ER316LSi`       | `Real_MaterialCert_EN_NST_Inspection.pdf`             |
-| `1.4307 / 304L`           | `Real_MaterialCert_FR_Larobinetterie_134822.pdf`      |
-| `S355G10+N`               | `Real_MaterialCert_FR_Antelis_Dillinger_32.pdf`       |
-| `Hardox 450 / SS 2300 / SS 2000` | `Real_WeldingPlan_EN_Sandvik.pdf`              |
-| `Duplex 2205`             | `Synthetic_MaterialCert_EN_01.pdf`                    |
-| `PVC Sch 80`              | `Synthetic_WeldingPlan_FR_01.pdf`                     |
-| `Copper C110`             | `Synthetic_InspectionReport_EN_01.pdf`                |
-| `Aluminium 6061-T6`       | `Synthetic_Invoice_EN_01.pdf`                         |
+| Value                            | Source                                                |
+|----------------------------------|-------------------------------------------------------|
+| `1.4307 / 304L`                  | `Real_MaterialCert_FR_Larobinetterie_134822.pdf`      |
+| `S355G10+N`                      | `Real_MaterialCert_FR_Antelis_Dillinger_32.pdf`       |
+| `AISI 304/304L (EN 1.4301/1.4307)` | `Real_MaterialCert_FR_Larobinetterie_160629.pdf`    |
+| `S355K2+N`                       | `Real_MaterialCert_FR_Dillinger_Antelis.pdf`          |
+| `Acier inoxydable / alliage`     | `Real_MaterialCert_FR_Ugitech_Alim.pdf`               |
+| `P355 NL1 / API 5L X52`          | `Real_WeldingPlan_FR_Cahier_Soudage_Filtres.pdf`      |
+| `Monel 400`                      | `Synthetic_MaterialCert_FR_01.pdf`                    |
+| `PVC Sch 80`                     | `Synthetic_WeldingPlan_FR_01.pdf`                     |
+| `Aluminium 6061-T6`              | `Synthetic_InspectionReport_FR_01.pdf`                |
 
 **Edge cases to handle:**
 - Multiple materials on one doc (filler + base metal): capture both,
@@ -188,13 +190,14 @@ by the document. Always a number + a unit.
 **Real examples from docs:**
 | Value          | Source                                            |
 |----------------|---------------------------------------------------|
-| `400 Kgs`      | `Real_MaterialCert_EN_NST_Inspection.pdf` — `WEIGHT: 400 Kgs.` |
 | `15642 KG`     | `Real_MaterialCert_FR_Antelis_Dillinger_32.pdf` — `Masse théorique 15642 KG` |
-| `384 kg`       | `Synthetic_FabricationSheet_EN_01.pdf`            |
+| `25434 KG`     | `Real_MaterialCert_FR_Dillinger_Antelis.pdf`      |
+| `312 m`        | `Real_MaterialCert_FR_Larobinetterie_160629.pdf`  |
+| `38 mm`        | `Real_MaterialCert_FR_Larobinetterie_134822.pdf`  |
 | `287 pcs`      | `Synthetic_WeldingPlan_FR_01.pdf`                 |
-| `53.73 tons`   | `Synthetic_Invoice_EN_01.pdf`                     |
+| `381 tons`     | `Synthetic_Invoice_FR_01.pdf`                     |
 | `149.58 lbs`   | `Synthetic_FabricationSheet_FR_01.pdf`            |
-| `123.32 m`     | `Synthetic_MaterialCert_EN_01.pdf`                |
+| `220.39 pcs`   | `Synthetic_InspectionReport_FR_01.pdf`            |
 
 **Edge cases to handle:**
 - European number format uses `,` as decimal (e.g. `15,642` in some FR
@@ -240,13 +243,14 @@ effective date. Documents may have 2–5 dates; prefer the "headline" date
 **Real examples from docs:**
 | Value (normalised) | Raw form in doc | Source                                    |
 |--------------------|-----------------|-------------------------------------------|
-| `2013-11-05`       | `2013.11.05`    | `Real_MaterialCert_EN_NST_Inspection.pdf` |
 | `2019-05-23`       | `23.05.2019`    | `Real_MaterialCert_FR_Larobinetterie_134822.pdf` |
 | `2018-09-26`       | `26.09.18`      | `Real_MaterialCert_FR_Antelis_Dillinger_32.pdf` |
-| `2023-05-18`       | `18-May-23` / `18/05/23` | `Real_WeldingPlan_EN_Sandvik.pdf`|
-| `2025-03-28`       | `2025-03-28`    | `Synthetic_Invoice_EN_01.pdf`             |
+| `2024-06-26`       | `26.06.2024`    | `Real_MaterialCert_FR_Larobinetterie_160629.pdf` |
+| `2015-11-26`       | `26.11.15`      | `Real_MaterialCert_FR_Dillinger_Antelis.pdf` |
+| `2023-11-03`       | `03/11/2023`    | `Real_MaterialCert_FR_Ugitech_Alim.pdf`   |
+| `1998-04-21`       | `21/04/98`      | `Real_WeldingPlan_FR_Cahier_Soudage_Filtres.pdf` |
 | `2024-03-18`       | `18/03/2024`    | `Synthetic_WeldingPlan_FR_01.pdf`         |
-| `2025-08-12`       | `Aug 12, 2025`  | `Synthetic_InspectionReport_EN_01.pdf`    |
+| `2024-08-12`       | `12/08/2024`    | `Synthetic_Invoice_FR_01.pdf`             |
 
 **Edge cases to handle:**
 - `DD/MM/YY` vs `MM/DD/YY` ambiguity for `06/05/23` (could be 6 May or
@@ -268,8 +272,11 @@ effective date. Documents may have 2–5 dates; prefer the "headline" date
 | Quantity    | `Qty` / `Quantité` / `Weight` / `Poids`  | `number + unit`              | keep as written        |
 | Date        | `Date` / `Issue Date` / `Date facture`   | 4-format alternation         | ISO `YYYY-MM-DD`       |
 
-Schema reviewed against all 4 real-filled docs + 6 synthetics in the
-primary ground-truth set. When Task 8 starts, any miss or false positive
-observed during testing is added as a new edge-case row under the
-relevant entity section — this file is a living document through
-Milestone 1.
+Schema reviewed against the 20 FR documents in the primary ground-truth
+set (6 real-filled + 10 synthetic digital + 4 synthetic scanned). EN
+trigger words and regex patterns are retained because the held-out
+corpus in `data/raw/extra/` still contains EN documents that the rule-
+based extractor (Task 8) must generalise to. When Task 8 starts, any
+miss or false positive observed during testing is added as a new edge-
+case row under the relevant entity section — this file is a living
+document through Milestone 1.

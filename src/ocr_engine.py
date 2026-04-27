@@ -13,6 +13,7 @@ from pathlib import Path
 from typing import Literal
 
 import cv2
+import fitz  # pymupdf
 import numpy as np
 import pytesseract
 from paddleocr import PaddleOCR
@@ -21,12 +22,19 @@ log = logging.getLogger(__name__)
 
 # Configure Tesseract path for Windows if not in PATH
 if sys.platform == "win32":
-    tesseract_path = Path(r"C:\Program Files\Tesseract-OCR\tesseract.exe")
-    if tesseract_path.exists():
-        pytesseract.pytesseract.tesseract_cmd = str(tesseract_path)
+    candidate_paths = [
+        Path(r"C:\Program Files\Tesseract-OCR\tesseract.exe"),
+        Path(r"D:\scoop\apps\tesseract\current\tesseract.exe"),
+        Path.home() / "scoop" / "apps" / "tesseract" / "current" / "tesseract.exe",
+    ]
+    for tesseract_path in candidate_paths:
+        if tesseract_path.exists():
+            pytesseract.pytesseract.tesseract_cmd = str(tesseract_path)
+            break
 
 # Tesseract configuration
 TESSERACT_CONFIG = r"--oem 3 --psm 3"  # LSTM engine, auto page segmentation
+TESSERACT_LANG = "fra+eng"  # bilingual: handles both FR and EN docs in one pass
 CONFIDENCE_THRESHOLD = 60.0  # below this, try PaddleOCR fallback
 
 # PaddleOCR configuration (lazy-loaded)
@@ -69,6 +77,7 @@ def _ocr_tesseract(img: np.ndarray) -> OCRResult | None:
         data = pytesseract.image_to_data(
             img,
             config=TESSERACT_CONFIG,
+            lang=TESSERACT_LANG,
             output_type=pytesseract.Output.DICT,
         )
     except Exception as e:
@@ -221,6 +230,40 @@ def ocr_page(
         return result
 
     raise ValueError(f"all OCR engines failed on {img_path}")
+
+
+def extract_text_digital_pdf(pdf_path: str | Path) -> list[OCRResult]:
+    """Direct text extraction for digital PDFs via PyMuPDF — no OCR.
+
+    Per Project.pdf §3: digital PDFs have selectable text already, so OCR
+    is wasteful and lossy. PyMuPDF reads the embedded text layer directly
+    with perfect fidelity. Returns one OCRResult per page (engine field
+    set to "tesseract" since downstream code keys off the literal type;
+    word-level bboxes preserved from PyMuPDF's word coordinates).
+    """
+    pdf = Path(pdf_path)
+    results: list[OCRResult] = []
+    with fitz.open(pdf) as doc:
+        for page_num, page in enumerate(doc, start=1):
+            full_text = page.get_text("text") or ""
+            words: list[OCRWord] = []
+            for x0, y0, x1, y1, text, *_ in page.get_text("words"):
+                t = text.strip()
+                if not t:
+                    continue
+                words.append(OCRWord(
+                    text=t,
+                    confidence=100.0,  # direct extraction: no OCR uncertainty
+                    bbox=(int(x0), int(y0), int(x1 - x0), int(y1 - y0)),
+                ))
+            results.append(OCRResult(
+                page_path=Path(f"{pdf.stem}_p{page_num:02d}.pdf-text"),
+                full_text=full_text.strip(),
+                words=words,
+                avg_confidence=100.0 if words else 0.0,
+                engine="tesseract",
+            ))
+    return results
 
 
 def ocr_document(

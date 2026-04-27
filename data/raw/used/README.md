@@ -1,31 +1,47 @@
-# `data/raw/used/` — 20 documents in the Milestone-1 pipeline
+# `data/raw/used/` — primary documents seeding the ground-truth set
 
-These are the **only** documents the Milestone-1 pipeline (Tasks 6–10) reads.
-They map 1-to-1 with the rows in [`docs/ground_truth.csv`](../../../docs/ground_truth.csv),
-so every prediction can be scored against a labelled answer.
+These are the documents in `data/raw/used/` that Tasks 6–10 originally
+targeted. The Milestone-1 ground truth was later refined to a 20-doc
+French-only set with fully populated entity fields; **6 of those 20 docs
+live in `data/raw/extra/`** because the held-out folder turned out to
+contain real-filled FR PDFs that strengthen the eval set. The pipeline
+loaders (`src/run.py`, `src/run_preprocess.py`) search both `used/` and
+`extra/` so every row in [`docs/ground_truth.csv`](../../../docs/ground_truth.csv)
+resolves correctly.
 
 ## Layout
 
 ```
 used/
-├── digital_pdfs/   18 PDFs (text-searchable, light preprocessing path)
-└── scanned_docs/    2 PDFs (scanned, full deskew/denoise/threshold path)
+├── digital_pdfs/   original 18 digital PDFs (text-searchable)
+└── scanned_docs/    original 2 scanned PDFs (deskew/denoise/threshold path)
+
+extra/
+├── digital_pdfs/   held-out FR + EN; 2 docs are referenced from ground_truth
+├── scanned_docs/   held-out FR + EN; 6 docs (incl. 4 synthetic_FR_01_scanned variants) referenced from ground_truth
+└── images/         standalone PNG/JPG (not in ground truth)
 ```
 
-## Composition (matches ground_truth.csv)
+## Ground-truth composition (20 FR docs, all fully populated)
 
-| Doc type           | Real filled | Real template | Real educational | Synthetic | Total |
-|--------------------|:-----------:|:-------------:|:----------------:|:---------:|:-----:|
-| MaterialCert       | 3           | 1             | 0                | 1         | 5     |
-| WeldingPlan        | 1           | 1             | 1                | 1         | 4     |
-| FabricationSheet   | 0           | 0             | 2                | 2         | 4     |
-| InspectionReport   | 0           | 2             | 1                | 1         | 4     |
-| Invoice            | 0           | 2             | 0                | 1         | 3     |
-| **Total**          | **4**       | **6**         | **4**            | **6**     | **20**|
+See [`docs/ground_truth_README.md`](../../../docs/ground_truth_README.md)
+for the authoritative breakdown. Quick recap:
 
-## Why a separate folder?
+| Doc type         | real_filled | synthetic digital | synthetic scanned | total |
+|------------------|:-----------:|:-----------------:|:-----------------:|:-----:|
+| MaterialCert     | 5           | 2                 | 1                 | 8     |
+| WeldingPlan      | 1           | 2                 | 1                 | 4     |
+| FabricationSheet | 0           | 2                 | 0                 | 2     |
+| InspectionReport | 0           | 2                 | 1                 | 3     |
+| Invoice          | 0           | 2                 | 1                 | 3     |
+| **Total**        | **6**       | **10**            | **4**             | **20**|
 
-`data/raw/extra/` holds the other 117 files we collected (extra real samples
-+ synthetic-scanned variants + standalone images). They stayed in the repo for
-audit and future expansion but are **not** read by the pipeline — keeping them
-out of `used/` avoids any chance of silently scoring against unlabelled docs.
+## Why both `used/` and `extra/` are now in scope
+
+Originally `data/raw/extra/` was a held-out pool. The ground-truth refresh
+pulled in 6 FR docs from there — 4 real-filled (Larobinetterie 160629,
+Dillinger Antelis, Ugitech Alim, Cahier Soudage Filtres) plus 2 paired
+scanned-modality synthetic variants — because they had genuine project
+data missing from the original `used/` selection. The remaining ~110
+files in `extra/` (EN docs, blank templates, educational PDFs) are still
+the held-out test pool for Task 8 generalisation checks.

@@ -112,6 +112,8 @@ def test_pipeline_end_to_end():
     raw_dirs = [
         ROOT / "data" / "raw" / "used" / "digital_pdfs",
         ROOT / "data" / "raw" / "used" / "scanned_docs",
+        ROOT / "data" / "raw" / "extra" / "digital_pdfs",
+        ROOT / "data" / "raw" / "extra" / "scanned_docs",
     ]
     
     doc_path = None

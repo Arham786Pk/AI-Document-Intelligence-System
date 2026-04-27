@@ -45,9 +45,9 @@ pipeline = Pipeline(
 )
 
 result = pipeline.run_document(
-    source_path=Path("data/raw/used/digital_pdfs/Real_MaterialCert_EN_NST_Inspection.pdf"),
+    source_path=Path("data/raw/used/digital_pdfs/Real_MaterialCert_FR_Larobinetterie_134822.pdf"),
     modality="digital",
-    language="EN",
+    language="FR",
 )
 
 if result.success:
@@ -106,7 +106,7 @@ Processes all 20 documents from `docs/ground_truth.csv` and generates:
 ### 2. Process Single Document
 
 ```bash
-python src/run.py --doc Real_MaterialCert_EN_NST_Inspection.pdf
+python src/run.py --doc Real_MaterialCert_FR_Larobinetterie_134822.pdf
 ```
 
 ### 3. Process First N Documents
@@ -144,8 +144,8 @@ Uses Tesseract only (faster but lower accuracy on degraded scans).
 **Module:** `src/preprocessor.py`
 
 **Processing path:**
-- **Digital PDFs** (18 docs): render → grayscale → save
-- **Scanned PDFs** (2 docs): render → grayscale → deskew → denoise → threshold → save
+- **Digital PDFs** (16 of 20 docs in current GT): render → grayscale → save
+- **Scanned PDFs** (4 of 20 docs in current GT): render → grayscale → deskew → denoise → threshold → save
 
 **Failure modes:**
 - PDF file not found or corrupted
@@ -197,21 +197,21 @@ Uses Tesseract only (faster but lower accuracy on degraded scans).
 
 ```json
 {
-  "timestamp": "2025-01-15T14:30:00",
+  "timestamp": "2026-04-27T12:03:21",
   "total_documents": 20,
-  "successful": 18,
-  "failed": 2,
+  "successful": 20,
+  "failed": 0,
   "stage_failures": {
     "preprocessing": 0,
-    "ocr": 1,
-    "extraction": 1
+    "ocr": 0,
+    "extraction": 0
   },
-  "avg_ocr_confidence": 94.3,
-  "total_pages_processed": 105,
+  "avg_ocr_confidence": 85.0,
+  "total_pages_processed": 51,
   "documents": [
     {
-      "document_name": "Real_MaterialCert_EN_NST_Inspection",
-      "source_path": "data/raw/used/digital_pdfs/Real_MaterialCert_EN_NST_Inspection.pdf",
+      "document_name": "Real_MaterialCert_FR_Larobinetterie_134822",
+      "source_path": "data/raw/used/digital_pdfs/Real_MaterialCert_FR_Larobinetterie_134822.pdf",
       "success": true,
       "stages": {
         "preprocessing": true,
@@ -220,16 +220,16 @@ Uses Tesseract only (faster but lower accuracy on degraded scans).
       },
       "outputs": {
         "page_count": 1,
-        "preprocessed_pages": ["data/processed/Real_MaterialCert_EN_NST_Inspection_p01.png"],
-        "avg_ocr_confidence": 97.8,
+        "preprocessed_pages": ["data/processed/Real_MaterialCert_FR_Larobinetterie_134822_p01.png"],
+        "avg_ocr_confidence": 100.0,
         "total_text_length": 1234
       },
       "extracted_entities": {
-        "project_id": "EN 10204 3.1",
-        "supplier": "NST Inspection Services",
-        "material": "SS 316L",
-        "quantity": "400 Kgs",
-        "date": "05/11/2013"
+        "project_id": "134822",
+        "supplier": "La Robinetterie (LRI-Sodime)",
+        "material": "304L",
+        "quantity": null,
+        "date": "23/05/2019"
       },
       "error": null
     }
@@ -317,10 +317,10 @@ Running: Error handling
 ✓ Pipeline error handling test passed
 
 Running: End-to-end
-  Testing with: Real_MaterialCert_EN_NST_Inspection.pdf
+  Testing with: Real_MaterialCert_FR_Larobinetterie_134822.pdf
   ✓ Pipeline succeeded
     Pages: 1
-    OCR confidence: 97.8%
+    OCR confidence: 100.0%
     Text length: 1234 chars
 ✓ Pipeline end-to-end test passed
 
@@ -338,47 +338,35 @@ python src/run.py
 Expected output:
 ```
 14:30:00 [INFO] run: loaded 20 documents from ground truth
-14:30:00 [INFO] pipeline: starting pipeline for Real_MaterialCert_EN_NST_Inspection (modality=digital, language=EN)
+14:30:00 [INFO] pipeline: starting pipeline for Real_MaterialCert_FR_Larobinetterie_134822 (modality=digital, language=FR)
 14:30:00 [INFO] pipeline:   [1/3] preprocessing...
 14:30:01 [INFO] pipeline:   ✓ preprocessed 1 pages
-14:30:01 [INFO] pipeline:   [2/3] OCR...
-14:30:03 [INFO] pipeline:   ✓ OCR complete (avg confidence: 97.8%)
-14:30:03 [INFO] pipeline:   [3/3] extraction...
-14:30:03 [INFO] pipeline:   ✓ extraction complete
-14:30:03 [INFO] pipeline:     → project_id=EN 10204 3.1, supplier=NST Inspection Services, material=SS 316L, quantity=400 Kgs, date=05/11/2013
-14:30:03 [INFO] pipeline: ✓ pipeline complete for Real_MaterialCert_EN_NST_Inspection
+14:30:01 [INFO] pipeline:   [2/3] direct PDF text extraction (digital fast path)...
+14:30:01 [INFO] pipeline:   ✓ OCR complete (avg confidence: 100.0%)
+14:30:01 [INFO] pipeline:   [3/3] extraction...
+14:30:01 [INFO] pipeline:   ✓ extraction complete
+14:30:01 [INFO] pipeline:     → project_id=134822, supplier=La Robinetterie (LRI-Sodime), material=304L, quantity=(none), date=23/05/2019
+14:30:01 [INFO] pipeline: ✓ pipeline complete for Real_MaterialCert_FR_Larobinetterie_134822
 ...
-14:35:00 [INFO] run: saved pipeline results: outputs/pipeline_results/pipeline_run_20250115_143000.json
+14:33:00 [INFO] run: saved pipeline results: outputs/pipeline_results/pipeline_run_20260427_120321.json
 
 ================================================================================
 PIPELINE SUMMARY
 ================================================================================
 
 Total documents: 20
-  ✓ Successful: 18 (90.0%)
-  ✗ Failed: 2 (10.0%)
+  ✓ Successful: 20 (100.0%)
+  ✗ Failed: 0 (0.0%)
 
-Failure breakdown:
-  • OCR: 1
-  • Extraction: 1
+OCR average confidence: 85.0%
+Total pages processed: 51
 
-OCR average confidence: 94.3%
-Total pages processed: 105
-
-Extraction results (18 documents):
-  • project_id: 12/18 (66.7%)
-  • supplier: 15/18 (83.3%)
-  • material: 14/18 (77.8%)
-  • quantity: 10/18 (55.6%)
-  • date: 13/18 (72.2%)
-
-Failed documents:
-  ✗ Real_WeldingPlan_FR_Cewac_DMOS_QMOS
-    Stage: ocr
-    Error: Tesseract confidence too low and PaddleOCR failed
-  ✗ Synthetic_Invoice_FR_01
-    Stage: extraction
-    Error: No date pattern matched
+Extraction results (20 documents):
+  • project_id: 12/20 (60.0%)
+  • supplier: 16/20 (80.0%)
+  • material: 18/20 (90.0%)
+  • quantity: 14/20 (70.0%)
+  • date: 16/20 (80.0%)
 
 ================================================================================
 ```
@@ -387,15 +375,16 @@ Failed documents:
 
 ## Performance
 
-### Timing (20 documents, 105 pages)
+### Timing (20 documents, 51 pages)
 
 | Stage | Time | Per page |
 |-------|------|----------|
-| Preprocessing | ~30s | ~0.3s |
-| OCR (Tesseract) | ~90s | ~0.9s |
-| OCR (PaddleOCR fallback) | ~15s | ~3.0s (5% of pages) |
+| Preprocessing | ~15s | ~0.3s |
+| Digital fast path (PyMuPDF) | <1s | <0.05s (16 of 20 docs) |
+| OCR (Tesseract on 4 scanned docs) | ~10s | ~0.9s |
+| OCR (PaddleOCR fallback) | ~15s | ~3.0s (rare) |
 | Extraction | ~5s | ~0.05s |
-| **Total** | **~2.5 min** | **~1.4s** |
+| **Total** | **~1.5 min** | **~1.4s** |
 
 ### Resource Usage
 
@@ -414,17 +403,23 @@ Failed documents:
 
 ## Integration with Task 10
 
-Task 10 (Metrics + Summary) will:
-1. Load `outputs/pipeline_results/pipeline_run_*.json`
-2. Load `docs/ground_truth.csv`
-3. Compare extracted entities vs. ground truth
-4. Calculate precision, recall, F1 per field
-5. Generate `docs/results.md` with 1-page summary
+Task 10 (Metrics + Final Report) is **complete**. The flow is:
+1. [`generator/build_results_report.py`](../generator/build_results_report.py) loads
+   all 20 JSONs from `outputs/extracted/` and matches them against
+   `docs/ground_truth.csv` row-by-row.
+2. Per (doc × entity) pair, the comparator marks TP / FP / FN using
+   field-specific normalisation (alphanumeric for IDs, ISO for dates,
+   token-overlap ≥ 34% for free-text fields).
+3. Precision / Recall / F1 are computed per entity and macro-averaged.
+4. Six matplotlib charts are rendered to `outputs/report_assets/`.
+5. The polished PDF report is built with reportlab and written to
+   [`docs/Milestone1_Results_Report.pdf`](Milestone1_Results_Report.pdf).
+6. Machine-readable scores are saved to [`outputs/metrics.json`](../outputs/metrics.json).
 
 The pipeline outputs are designed to make Task 10 straightforward:
 - All results in structured JSON
-- Document names match ground truth CSV
-- Entity fields match schema exactly
+- Document names match ground-truth CSV stems exactly
+- Entity field keys identical across all documents
 
 ---
 

@@ -1,0 +1,48 @@
+{
+  "document_name": "Synthetic_InspectionReport_FR_01",
+  "extracted_entities": {
+    "project_id": "PO-18172",
+    "supplier": "Lemoine SA",
+    "material": "6061-T6",
+    "quantity": "220.39 pcs",
+    "date": "30/01/2024"
+  },
+  "all_candidates": [
+    {
+      "field": "project_id",
+      "value": "PO-18172",
+      "confidence": 0.85,
+      "source": "project_code",
+      "raw_text": "PO-18172"
+    },
+    {
+      "field": "supplier",
+      "value": "Lemoine SA",
+      "confidence": 0.6,
+      "source": "letterhead",
+      "raw_text": "Lemoine SA"
+    },
+    {
+      "field": "material",
+      "value": "6061-T6",
+      "confidence": 0.9,
+      "source": "aluminum_grade",
+      "raw_text": "6061-T6"
+    },
+    {
+      "field": "quantity",
+      "value": "220.39 pcs",
+      "confidence": 0.85,
+      "source": "trigger_quantité",
+      "raw_text": "220.39 pcs"
+    },
+    {
+      "field": "date",
+      "value": "30/01/2024",
+      "confidence": 0.9,
+      "source": "slash",
+      "raw_text": "30/01/2024"
+    }
+  ],
+  "notes": []
+}

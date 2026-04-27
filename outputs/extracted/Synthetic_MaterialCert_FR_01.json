@@ -1,61 +1,54 @@
 {
-  "document_name": "Synthetic_MaterialCert_FR_02",
+  "document_name": "Synthetic_MaterialCert_FR_01",
   "extracted_entities": {
-    "project_id": "PO-40824",
-    "supplier": "Meyer Aciéries",
-    "material": "SS 304",
-    "quantity": "30.94 lbs",
-    "date": "02/09/2025"
+    "project_id": "PO-39290",
+    "supplier": "Aubry Aciéries",
+    "material": "Monel 400",
+    "quantity": "32.88 pcs",
+    "date": "13/01/2024"
   },
   "all_candidates": [
     {
       "field": "project_id",
-      "value": "PO-40824",
+      "value": "PO-39290",
       "confidence": 0.85,
       "source": "project_code",
-      "raw_text": "PO-40824"
-    },
-    {
-      "field": "project_id",
-      "value": "SS 304",
-      "confidence": 0.8,
-      "source": "wps_code",
-      "raw_text": "SS 304"
+      "raw_text": "PO-39290"
     },
     {
       "field": "supplier",
-      "value": "Meyer Aciéries",
+      "value": "Aubry Aciéries",
       "confidence": 0.8,
       "source": "trigger_fabricant",
-      "raw_text": "Meyer Aciéries"
+      "raw_text": "Aubry Aciéries"
     },
     {
       "field": "supplier",
-      "value": "Meyer Aciéries",
+      "value": "Aubry Aciéries",
       "confidence": 0.6,
       "source": "letterhead",
-      "raw_text": "Meyer Aciéries"
+      "raw_text": "Aubry Aciéries"
     },
     {
       "field": "supplier",
-      "value": "Meyer Aciéries",
+      "value": "Aubry Aciéries",
       "confidence": 0.6,
       "source": "letterhead",
-      "raw_text": "Meyer Aciéries"
+      "raw_text": "Aubry Aciéries"
     },
     {
       "field": "material",
-      "value": "SS 304",
-      "confidence": 0.85,
-      "source": "steel_grade",
-      "raw_text": "SS 304"
-    },
-    {
-      "field": "material",
-      "value": "A331",
+      "value": "A580",
       "confidence": 0.8,
       "source": "astm_grade",
-      "raw_text": "A331"
+      "raw_text": "A580"
+    },
+    {
+      "field": "material",
+      "value": "Monel 400",
+      "confidence": 0.85,
+      "source": "named_alloy",
+      "raw_text": "Monel 400"
     },
     {
       "field": "material",
@@ -66,21 +59,20 @@
     },
     {
       "field": "quantity",
-      "value": "30.94 lbs",
+      "value": "32.88 pcs",
       "confidence": 0.85,
       "source": "trigger_quantité",
-      "raw_text": "30.94 lbs"
+      "raw_text": "32.88 pcs"
     },
     {
       "field": "date",
-      "value": "02/09/2025",
+      "value": "13/01/2024",
       "confidence": 0.9,
       "source": "slash",
-      "raw_text": "02/09/2025"
+      "raw_text": "13/01/2024"
     }
   ],
   "notes": [
-    "Multiple project IDs found (2), selected highest confidence",
     "Multiple suppliers found (3), selected highest confidence"
   ]
 }

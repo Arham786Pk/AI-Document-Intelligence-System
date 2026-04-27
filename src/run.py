@@ -23,9 +23,13 @@ from pipeline import Pipeline, PipelineResult
 
 ROOT = Path(__file__).resolve().parents[1]
 GT_CSV = ROOT / "docs" / "ground_truth.csv"
-RAW_DIRS = [
+RAW_DIGITAL_DIRS = [
     ROOT / "data" / "raw" / "used" / "digital_pdfs",
+    ROOT / "data" / "raw" / "extra" / "digital_pdfs",
+]
+RAW_SCANNED_DIRS = [
     ROOT / "data" / "raw" / "used" / "scanned_docs",
+    ROOT / "data" / "raw" / "extra" / "scanned_docs",
 ]
 PROCESSED_DIR = ROOT / "data" / "processed"
 OCR_DIR = ROOT / "outputs" / "ocr"
@@ -40,9 +44,14 @@ logging.basicConfig(
 log = logging.getLogger("run")
 
 
-def find_raw(name: str) -> Path | None:
-    """Find raw document by name in digital_pdfs or scanned_docs."""
-    for d in RAW_DIRS:
+def find_raw(name: str, modality: str = "digital") -> Path | None:
+    """Find raw document by name. Searches modality-matching dirs first,
+    then falls back to the other modality. Both `used/` and `extra/` are
+    checked to support held-out documents added to ground_truth.csv.
+    """
+    primary = RAW_SCANNED_DIRS if modality == "scanned" else RAW_DIGITAL_DIRS
+    secondary = RAW_DIGITAL_DIRS if modality == "scanned" else RAW_SCANNED_DIRS
+    for d in primary + secondary:
         p = d / name
         if p.exists():
             return p
@@ -273,7 +282,7 @@ def main() -> int:
         log.info("[%d/%d] processing %s", i, len(rows), name)
         
         # Find source file
-        src = find_raw(name)
+        src = find_raw(name, modality)
         if src is None:
             log.warning("MISSING raw file: %s", name)
             result = PipelineResult(

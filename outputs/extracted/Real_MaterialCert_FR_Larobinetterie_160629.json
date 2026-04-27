@@ -1,0 +1,177 @@
+{
+  "document_name": "Real_MaterialCert_FR_Larobinetterie_160629",
+  "extracted_entities": {
+    "project_id": null,
+    "supplier": "RESULTATS DES ESSAIS",
+    "material": "304",
+    "quantity": "1 mm",
+    "date": "01/09/2023"
+  },
+  "all_candidates": [
+    {
+      "field": "supplier",
+      "value": "RESULTATS DES ESSAIS",
+      "confidence": 0.8,
+      "source": "trigger_émis par",
+      "raw_text": "RESULTATS DES ESSAIS"
+    },
+    {
+      "field": "supplier",
+      "value": "RESULTATS DES ESSAIS",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "RESULTATS DES ESSAIS"
+    },
+    {
+      "field": "supplier",
+      "value": "ESSAI DE TRACTION en N/mm²=MPa",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "ESSAI DE TRACTION en N/mm²=MPa"
+    },
+    {
+      "field": "supplier",
+      "value": "Le passage à un certificat de contrôle 3.1 est confirmé dans la lettre du TÜV SÜD Industrie Service GmbH 2023-09-01 - Traitement thermique a T=1050 °C",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Le passage à un certificat de contrôle 3.1 est confirmé dans la lettre du TÜV SÜD Industrie Service "
+    },
+    {
+      "field": "supplier",
+      "value": "Le passage à un certificat de contrôle 3.1 est confirmé dans la lettre du TÜV SÜD Industrie Service GmbH 2023-09-01 - Traitement thermique a T=1050 °C",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Le passage à un certificat de contrôle 3.1 est confirmé dans la lettre du TÜV SÜD Industrie Service "
+    },
+    {
+      "field": "supplier",
+      "value": "Émis conformément à TüV SÜD Industrie Service GmbH. QS approuvé selon DESP, Annexe I, Paragraphe 4.3 par l'organisme notifié 0036 (Certification n° DGR-0036-QS-W",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Émis conformément à TüV SÜD Industrie Service GmbH. QS approuvé selon DESP, Annexe I, Paragraphe 4.3"
+    },
+    {
+      "field": "supplier",
+      "value": "Émis conformément à TüV SÜD Industrie Service GmbH. QS approuvé selon DESP, Annexe I, Paragraphe 4.3 par l'organisme notifié 0036 (Certification n° DGR-0036-QS-W",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Émis conformément à TüV SÜD Industrie Service GmbH. QS approuvé selon DESP, Annexe I, Paragraphe 4.3"
+    },
+    {
+      "field": "material",
+      "value": "304",
+      "confidence": 0.85,
+      "source": "steel_grade",
+      "raw_text": "304"
+    },
+    {
+      "field": "material",
+      "value": "304L",
+      "confidence": 0.85,
+      "source": "steel_grade",
+      "raw_text": "304L"
+    },
+    {
+      "field": "material",
+      "value": "304",
+      "confidence": 0.85,
+      "source": "steel_grade",
+      "raw_text": "304"
+    },
+    {
+      "field": "material",
+      "value": "304L",
+      "confidence": 0.85,
+      "source": "steel_grade",
+      "raw_text": "304L"
+    },
+    {
+      "field": "material",
+      "value": "1.4301",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4301"
+    },
+    {
+      "field": "material",
+      "value": "1.4307",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4307"
+    },
+    {
+      "field": "material",
+      "value": "A240",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A240"
+    },
+    {
+      "field": "quantity",
+      "value": "1 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "1 mm"
+    },
+    {
+      "field": "quantity",
+      "value": "1 mm",
+      "confidence": 0.85,
+      "source": "trigger_quantité",
+      "raw_text": "1 mm"
+    },
+    {
+      "field": "quantity",
+      "value": "312 m",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "312M"
+    },
+    {
+      "field": "date",
+      "value": "01/09/2023",
+      "confidence": 0.95,
+      "source": "iso",
+      "raw_text": "2023-09-01"
+    },
+    {
+      "field": "date",
+      "value": "26/06/2024",
+      "confidence": 0.85,
+      "source": "eu_dot",
+      "raw_text": "26.06.2024"
+    },
+    {
+      "field": "date",
+      "value": "26/06/2024",
+      "confidence": 0.85,
+      "source": "eu_dot",
+      "raw_text": "26.06.2024"
+    },
+    {
+      "field": "date",
+      "value": "30/04/2024",
+      "confidence": 0.85,
+      "source": "eu_dot",
+      "raw_text": "30.04.2024"
+    },
+    {
+      "field": "date",
+      "value": "30/04/2024",
+      "confidence": 0.85,
+      "source": "eu_dot",
+      "raw_text": "30.04.2024"
+    },
+    {
+      "field": "date",
+      "value": "27/06/2024",
+      "confidence": 0.8,
+      "source": "slash",
+      "raw_text": "27/06/2024"
+    }
+  ],
+  "notes": [
+    "Multiple suppliers found (7), selected highest confidence",
+    "No project ID found"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "document_name": "Synthetic_WeldingPlan_FR_01_scanned",
+  "extracted_entities": {
+    "project_id": null,
+    "supplier": null,
+    "material": null,
+    "quantity": null,
+    "date": null
+  },
+  "all_candidates": [],
+  "notes": [
+    "No project ID found",
+    "No supplier found"
+  ]
+}

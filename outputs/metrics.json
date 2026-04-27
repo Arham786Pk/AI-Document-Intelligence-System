@@ -1,0 +1,231 @@
+{
+  "per_entity": {
+    "project_id": {
+      "precision": 0.9166666666666666,
+      "recall": 0.55,
+      "f1": 0.6874999999999999,
+      "tp": 11,
+      "fp": 1,
+      "fn": 9
+    },
+    "supplier": {
+      "precision": 0.4375,
+      "recall": 0.35,
+      "f1": 0.38888888888888884,
+      "tp": 7,
+      "fp": 9,
+      "fn": 13
+    },
+    "material": {
+      "precision": 0.5,
+      "recall": 0.45,
+      "f1": 0.4736842105263158,
+      "tp": 9,
+      "fp": 9,
+      "fn": 11
+    },
+    "quantity": {
+      "precision": 0.7142857142857143,
+      "recall": 0.5,
+      "f1": 0.588235294117647,
+      "tp": 10,
+      "fp": 4,
+      "fn": 10
+    },
+    "date": {
+      "precision": 0.6875,
+      "recall": 0.55,
+      "f1": 0.6111111111111112,
+      "tp": 11,
+      "fp": 5,
+      "fn": 9
+    }
+  },
+  "macro": {
+    "precision": 0.6511904761904762,
+    "recall": 0.48,
+    "f1": 0.5498839009287926
+  },
+  "per_doc": [
+    {
+      "document_name": "Real_MaterialCert_FR_Larobinetterie_134822.pdf",
+      "doc_type": "MaterialCert",
+      "project_id": "OK",
+      "supplier": "WRONG",
+      "material": "OK",
+      "quantity": "MISS",
+      "date": "OK"
+    },
+    {
+      "document_name": "Real_MaterialCert_FR_Antelis_Dillinger_32.pdf",
+      "doc_type": "MaterialCert",
+      "project_id": "MISS",
+      "supplier": "OK",
+      "material": "OK",
+      "quantity": "WRONG",
+      "date": "OK"
+    },
+    {
+      "document_name": "Real_MaterialCert_FR_Larobinetterie_160629.pdf",
+      "doc_type": "MaterialCert",
+      "project_id": "MISS",
+      "supplier": "WRONG",
+      "material": "WRONG",
+      "quantity": "WRONG",
+      "date": "WRONG"
+    },
+    {
+      "document_name": "Real_MaterialCert_FR_Dillinger_Antelis.pdf",
+      "doc_type": "MaterialCert",
+      "project_id": "MISS",
+      "supplier": "WRONG",
+      "material": "OK",
+      "quantity": "MISS",
+      "date": "OK"
+    },
+    {
+      "document_name": "Real_MaterialCert_FR_Ugitech_Alim.pdf",
+      "doc_type": "MaterialCert",
+      "project_id": "MISS",
+      "supplier": "OK",
+      "material": "WRONG",
+      "quantity": "MISS",
+      "date": "WRONG"
+    },
+    {
+      "document_name": "Real_WeldingPlan_FR_Cahier_Soudage_Filtres.pdf",
+      "doc_type": "WeldingPlan",
+      "project_id": "WRONG",
+      "supplier": "WRONG",
+      "material": "WRONG",
+      "quantity": "WRONG",
+      "date": "WRONG"
+    },
+    {
+      "document_name": "Synthetic_MaterialCert_FR_01.pdf",
+      "doc_type": "MaterialCert",
+      "project_id": "OK",
+      "supplier": "OK",
+      "material": "OK",
+      "quantity": "OK",
+      "date": "OK"
+    },
+    {
+      "document_name": "Synthetic_MaterialCert_FR_02.pdf",
+      "doc_type": "MaterialCert",
+      "project_id": "OK",
+      "supplier": "OK",
+      "material": "OK",
+      "quantity": "OK",
+      "date": "OK"
+    },
+    {
+      "document_name": "Synthetic_WeldingPlan_FR_01.pdf",
+      "doc_type": "WeldingPlan",
+      "project_id": "OK",
+      "supplier": "WRONG",
+      "material": "OK",
+      "quantity": "OK",
+      "date": "OK"
+    },
+    {
+      "document_name": "Synthetic_WeldingPlan_FR_02.pdf",
+      "doc_type": "WeldingPlan",
+      "project_id": "OK",
+      "supplier": "WRONG",
+      "material": "WRONG",
+      "quantity": "OK",
+      "date": "OK"
+    },
+    {
+      "document_name": "Synthetic_FabricationSheet_FR_01.pdf",
+      "doc_type": "FabricationSheet",
+      "project_id": "OK",
+      "supplier": "WRONG",
+      "material": "WRONG",
+      "quantity": "OK",
+      "date": "OK"
+    },
+    {
+      "document_name": "Synthetic_FabricationSheet_FR_02.pdf",
+      "doc_type": "FabricationSheet",
+      "project_id": "OK",
+      "supplier": "OK",
+      "material": "WRONG",
+      "quantity": "OK",
+      "date": "OK"
+    },
+    {
+      "document_name": "Synthetic_InspectionReport_FR_01.pdf",
+      "doc_type": "InspectionReport",
+      "project_id": "OK",
+      "supplier": "WRONG",
+      "material": "OK",
+      "quantity": "OK",
+      "date": "OK"
+    },
+    {
+      "document_name": "Synthetic_InspectionReport_FR_02.pdf",
+      "doc_type": "InspectionReport",
+      "project_id": "OK",
+      "supplier": "MISS",
+      "material": "OK",
+      "quantity": "OK",
+      "date": "OK"
+    },
+    {
+      "document_name": "Synthetic_Invoice_FR_01.pdf",
+      "doc_type": "Invoice",
+      "project_id": "OK",
+      "supplier": "OK",
+      "material": "OK",
+      "quantity": "OK",
+      "date": "WRONG"
+    },
+    {
+      "document_name": "Synthetic_Invoice_FR_02.pdf",
+      "doc_type": "Invoice",
+      "project_id": "OK",
+      "supplier": "OK",
+      "material": "WRONG",
+      "quantity": "OK",
+      "date": "WRONG"
+    },
+    {
+      "document_name": "Synthetic_MaterialCert_FR_01_scanned.pdf",
+      "doc_type": "MaterialCert",
+      "project_id": "MISS",
+      "supplier": "MISS",
+      "material": "WRONG",
+      "quantity": "WRONG",
+      "date": "MISS"
+    },
+    {
+      "document_name": "Synthetic_WeldingPlan_FR_01_scanned.pdf",
+      "doc_type": "WeldingPlan",
+      "project_id": "MISS",
+      "supplier": "MISS",
+      "material": "MISS",
+      "quantity": "MISS",
+      "date": "MISS"
+    },
+    {
+      "document_name": "Synthetic_InspectionReport_FR_01_scanned.pdf",
+      "doc_type": "InspectionReport",
+      "project_id": "MISS",
+      "supplier": "WRONG",
+      "material": "WRONG",
+      "quantity": "MISS",
+      "date": "MISS"
+    },
+    {
+      "document_name": "Synthetic_Invoice_FR_01_scanned.pdf",
+      "doc_type": "Invoice",
+      "project_id": "MISS",
+      "supplier": "MISS",
+      "material": "MISS",
+      "quantity": "MISS",
+      "date": "MISS"
+    }
+  ]
+}

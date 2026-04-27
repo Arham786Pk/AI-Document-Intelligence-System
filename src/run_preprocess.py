@@ -14,9 +14,13 @@ from preprocessor import preprocess_document
 
 ROOT = Path(__file__).resolve().parents[1]
 GT_CSV = ROOT / "docs" / "ground_truth.csv"
-RAW_DIRS = [
+RAW_DIGITAL_DIRS = [
     ROOT / "data" / "raw" / "used" / "digital_pdfs",
+    ROOT / "data" / "raw" / "extra" / "digital_pdfs",
+]
+RAW_SCANNED_DIRS = [
     ROOT / "data" / "raw" / "used" / "scanned_docs",
+    ROOT / "data" / "raw" / "extra" / "scanned_docs",
 ]
 OUT_DIR = ROOT / "data" / "processed"
 
@@ -24,8 +28,10 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 log = logging.getLogger("run_preprocess")
 
 
-def find_raw(name: str) -> Path | None:
-    for d in RAW_DIRS:
+def find_raw(name: str, modality: str = "digital") -> Path | None:
+    primary = RAW_SCANNED_DIRS if modality == "scanned" else RAW_DIGITAL_DIRS
+    secondary = RAW_DIGITAL_DIRS if modality == "scanned" else RAW_SCANNED_DIRS
+    for d in primary + secondary:
         p = d / name
         if p.exists():
             return p
@@ -45,7 +51,7 @@ def main() -> int:
     for row in rows:
         name = row["document_name"]
         modality = row.get("modality", "digital").strip().lower()
-        src = find_raw(name)
+        src = find_raw(name, modality)
         if src is None:
             log.warning("MISSING raw file: %s", name)
             missing += 1

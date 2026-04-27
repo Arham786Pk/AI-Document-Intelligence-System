@@ -2,10 +2,10 @@
   "document_name": "Synthetic_WeldingPlan_FR_01",
   "extracted_entities": {
     "project_id": "WO-98154",
-    "supplier": "Lenoir Soudage SAS PLAN DE SOUDAGE WPS No.: WPS-807-29 N° Projet: WO-98154 Date: 18/03/2024 Fournisseur: Bazin et Fils Code Soudeur: W-658 Matiére: PVC Sch 80 Quaniité: 287 pcs Procédé de Soudage: GTAW (TIG) Epaisseur: 29 mm Metal d'Apport: ER316L Type de Joint: Angle Parametres de Soudage Passe Courant (A) Tension (V) Vitesse (mm/min) Gaz P1 190 20 90 Ar/He 70/30 P2 173 32 90 Ar/He 70/30 P3 133 28 143 Ar 100% P4 170 30 184 Ar/CO2 80/20 Préchauffage : 100°C min. Interpasse : 150°C max. TTAS selon ASME IX. Approuvé par: Zacharie Regnier Date: 18/03/2024",
+    "supplier": "PLAN DE SOUDAGE",
     "material": "PVC Sch 80",
     "quantity": "287 pcs",
-    "date": "2024-03-18"
+    "date": "18/03/2024"
   },
   "all_candidates": [
     {
@@ -24,17 +24,17 @@
     },
     {
       "field": "supplier",
-      "value": "Lenoir Soudage SAS PLAN DE SOUDAGE WPS No.: WPS-807-29 N° Projet: WO-98154 Date: 18/03/2024 Fournisseur: Bazin et Fils Code Soudeur: W-658 Matiére: PVC Sch 80 Quaniité: 287 pcs Procédé de Soudage: GTAW (TIG) Epaisseur: 29 mm Metal d'Apport: ER316L Type de Joint: Angle Parametres de Soudage Passe Courant (A) Tension (V) Vitesse (mm/min) Gaz P1 190 20 90 Ar/He 70/30 P2 173 32 90 Ar/He 70/30 P3 133 28 143 Ar 100% P4 170 30 184 Ar/CO2 80/20 Préchauffage : 100°C min. Interpasse : 150°C max. TTAS selon ASME IX. Approuvé par: Zacharie Regnier Date: 18/03/2024",
+      "value": "PLAN DE SOUDAGE",
       "confidence": 0.8,
-      "source": "trigger_fournisseur",
-      "raw_text": "Lenoir Soudage SAS PLAN DE SOUDAGE WPS No.: WPS-807-29 N° Projet: WO-98154 Date: 18/03/2024 Fourniss"
+      "source": "trigger_de",
+      "raw_text": "PLAN DE SOUDAGE"
     },
     {
       "field": "supplier",
-      "value": "Lenoir Soudage SAS PLAN DE SOUDAGE WPS No.: WPS-807-29 N° Projet: WO-98154 Date: 18/03/2024 Fournisseur: Bazin et Fils Code Soudeur: W-658 Matiére: PVC Sch 80 Quaniité: 287 pcs Procédé de Soudage: GTAW (TIG) Epaisseur: 29 mm Metal d'Apport: ER316L Type de Joint: Angle Parametres de Soudage Passe Courant (A) Tension (V) Vitesse (mm/min) Gaz P1 190 20 90 Ar/He 70/30 P2 173 32 90 Ar/He 70/30 P3 133 28 143 Ar 100% P4 170 30 184 Ar/CO2 80/20 Préchauffage : 100°C min. Interpasse : 150°C max. TTAS selon ASME IX. Approuvé par: Zacharie Regnier Date: 18/03/2024",
+      "value": "Bazin et Fils",
       "confidence": 0.8,
-      "source": "trigger_de",
-      "raw_text": "Lenoir Soudage SAS PLAN DE SOUDAGE WPS No.: WPS-807-29 N° Projet: WO-98154 Date: 18/03/2024 Fourniss"
+      "source": "trigger_fournisseur",
+      "raw_text": "Bazin et Fils"
     },
     {
       "field": "supplier",
@@ -60,8 +60,8 @@
     {
       "field": "quantity",
       "value": "287 pcs",
-      "confidence": 0.7,
-      "source": "pattern",
+      "confidence": 0.85,
+      "source": "trigger_quantité",
       "raw_text": "287 pcs"
     },
     {
@@ -73,14 +73,14 @@
     },
     {
       "field": "date",
-      "value": "2024-03-18",
+      "value": "18/03/2024",
       "confidence": 0.9,
       "source": "slash",
       "raw_text": "18/03/2024"
     },
     {
       "field": "date",
-      "value": "2024-03-18",
+      "value": "18/03/2024",
       "confidence": 1.0,
       "source": "slash",
       "raw_text": "18/03/2024"

@@ -1,391 +1,471 @@
 # AI Document Intelligence System — Milestone 1
 
-A baseline system that reads industrial engineering documents
-(material certificates, welding plans, inspection reports, invoices, fabrication
-sheets) and pulls out **5 structured fields** from each one:
+[![Tasks](https://img.shields.io/badge/Milestone_1-10%20%2F%2010%20tasks-brightgreen)]()
+[![Pipeline](https://img.shields.io/badge/Pipeline-20%20%2F%2020%20docs%20OK-brightgreen)]()
+[![Macro F1](https://img.shields.io/badge/Macro%20F1-55.0%25-blue)]()
+[![Python](https://img.shields.io/badge/Python-3.13-blue)]()
 
-| Field           | Example value                          |
-|-----------------|----------------------------------------|
-| `project_id`    | `EXP1390198`, `JOB-2658`               |
-| `supplier`      | `Sandvik`, `La Robinetterie`           |
-| `material_type` | `AWS A5.9 ER316LSi`, `Duplex 2205`     |
-| `quantity`      | `400 Kgs`, `123.32 m`                  |
-| `date`          | `2013-11-05`                           |
-
-> **Milestone 1 = baseline only.** Extraction uses regex + keyword rules.
-> No machine-learning training happens here. Later milestones will replace the
-> rules with ML / LLM-based extraction.
+> **Read industrial PDF documents → pull out 5 structured fields → save as JSON.**
+> Milestone 1 is the **rule-based baseline** — no ML training. Later milestones
+> swap the rules for fine-tuned LayoutLMv3 (per the technical proposal).
 
 **Client:** Muhammad Ahmed
 **Repo:** <https://github.com/Arham786Pk/AI-Document-Intelligence-System>
+**Final report (PDF, with charts & analysis):** [`docs/Milestone1_Results_Report.pdf`](docs/Milestone1_Results_Report.pdf)
+
+---
+
+## What this project does — in one paragraph
+
+Industrial documents (welding plans, material certificates, inspection reports,
+fabrication sheets, invoices) carry the same five pieces of information across
+hundreds of layouts and two languages (EN / FR). This pipeline takes a raw
+PDF, cleans the page images, reads the text (directly for digital PDFs, via
+OCR for scanned ones), and applies regex + trigger-word rules to lift those
+five fields into a uniform JSON structure. One command runs the whole flow on
+all 20 ground-truth documents and writes a results report.
+
+## The 5 fields extracted
+
+| Field         | What it is                                          | Real example from this dataset |
+|---------------|-----------------------------------------------------|--------------------------------|
+| `project_id`  | Cert no, WPS no, PO/WO, fabrication code            | `134822` &nbsp; `WO-98154` &nbsp; `409707-001` |
+| `supplier`    | Issuer / manufacturer / vendor (not the customer)   | `La Robinetterie (LRI-Sodime)` &nbsp; `SIDERINOX` |
+| `material`    | Steel grade / alloy / spec code                     | `1.4307 / 304L` &nbsp; `S355G10+N` &nbsp; `Monel 400` |
+| `quantity`    | Number + unit                                       | `15642 KG` &nbsp; `287 pcs` &nbsp; `312 m` |
+| `date`        | Issue / inspection / dispatch date (any format)     | `2019-05-23` &nbsp; `2024-06-26` &nbsp; `1998-04-21` |
+
+Field definitions, trigger words (EN + FR), regexes, and edge cases are
+documented in [`docs/entity_schema.md`](docs/entity_schema.md).
+
+---
+
+## Headline results (Task 10)
+
+**Macro F1 55.0%** &nbsp; · &nbsp; Precision **65.1%** &nbsp; · &nbsp; Recall **48.0%** &nbsp; · &nbsp; Pipeline success **20 / 20** &nbsp; · &nbsp; OCR avg confidence **85%**
+
+| Entity      | TP | FP | FN | Precision | Recall  | F1     |
+|-------------|---:|---:|---:|----------:|--------:|-------:|
+| project_id  | 11 |  1 |  9 | **91.7%** |  55.0%  | 68.7%  |
+| supplier    |  7 |  9 | 13 |    43.8%  |  35.0%  | 38.9%  |
+| material    |  9 |  9 | 11 |    50.0%  |  45.0%  | 47.4%  |
+| quantity    | 10 |  4 | 10 |    71.4%  |  50.0%  | 58.8%  |
+| date        | 11 |  5 |  9 |    68.8%  |  55.0%  | 61.1%  |
+| **Macro**   |    |    |    |  **65.1%**| **48.0%**| **55.0%** |
+
+The full PDF report ([`docs/Milestone1_Results_Report.pdf`](docs/Milestone1_Results_Report.pdf))
+contains charts, per-document outcome matrix, error analysis, and the
+forward-look for Milestone 2.
 
 ---
 
 ## Quick start
 
 ```bash
-# 1. clone & enter
+# 1. Clone
 git clone https://github.com/Arham786Pk/AI-Document-Intelligence-System.git
 cd AI-Document-Intelligence-System
 
-# 2. create virtual env (Python 3.13)
+# 2. Create a virtual env (Python 3.13)
 python -m venv .venv
 .venv\Scripts\activate          # Windows
-# source .venv/bin/activate     # Linux / macOS
+# source .venv/bin/activate     # macOS / Linux
 
-# 3. install dependencies
+# 3. Install Python packages
 pip install -r requirements.txt
 
-# 4. install Tesseract OCR (system dependency)
-# Windows: download from https://github.com/UB-Mannheim/tesseract/wiki
-#          (installer will add to C:\Program Files\Tesseract-OCR\ by default)
-#          The OCR engine auto-detects this path on Windows
-# macOS: brew install tesseract
-# Linux: sudo apt install tesseract-ocr
-# Verify: tesseract --version
+# 4. Install Tesseract OCR (system dependency, only needed for scanned docs)
+# Windows (scoop):     scoop install tesseract && scoop install tesseract-languages
+# Windows (installer): https://github.com/UB-Mannheim/tesseract/wiki
+# macOS:               brew install tesseract tesseract-lang
+# Linux (Debian):      sudo apt install tesseract-ocr tesseract-ocr-fra
+# Verify:              tesseract --version  →  v5.x
 
-# 5. run preprocessing on the 20 ground-truth documents
-python src/run_preprocess.py
-# -> writes 105 page PNGs into data/processed/
+# 5. Run the full pipeline on all 20 ground-truth docs
+python src/run.py
+# → 20 JSONs in outputs/extracted/, 20 in outputs/ocr/, 1 run summary
 
-# 6. run OCR extraction on all preprocessed pages
-python src/run_ocr.py
-# -> writes text + JSON files into outputs/ocr/ (one pair per document)
-# Note: processes all documents in data/processed/, not just the 20 ground-truth docs
+# 6. Rebuild the PDF report (regenerates charts + metrics)
+python generator/build_results_report.py
+# → docs/Milestone1_Results_Report.pdf
+```
 
-# 7. run entity extraction on all OCR outputs
-python src/run_extract.py
-# -> writes JSON files into outputs/extracted/ with 5 extracted entities per document
+### Common one-liners
+
+```bash
+python src/run.py                       # full pipeline on all 20 docs
+python src/run.py --doc <filename>      # single document
+python src/run.py --limit 5             # first 5 docs only
+python src/run.py --summary             # show last run's summary
+python src/run.py --no-paddle           # Tesseract only, skip PaddleOCR fallback
+
+python src/run_preprocess.py            # Task 6 only (PDF → cleaned PNGs)
+python src/run_ocr.py                   # Task 7 only (PNGs → text)
+python src/run_extract.py               # Task 8 only (text → entities)
+
+python tests/test_pipeline.py           # smoke-test the full pipeline (4 tests)
+python tests/test_extractor.py          # smoke-test entity rules (5 tests)
 ```
 
 ---
 
-## What's in this repo
+## Pipeline architecture
+
+```
+   ┌───────────────┐     ┌──────────────┐     ┌─────────────────────┐     ┌─────────────────┐     ┌──────────┐
+   │  Raw PDF      │ ──▶ │  Preprocess  │ ──▶ │  Read text          │ ──▶ │  Rule-based     │ ──▶ │  JSON    │
+   │  data/raw/    │     │  300 dpi +   │     │  digital → PyMuPDF  │     │  extractor      │     │  output  │
+   │               │     │  deskew +    │     │  scanned → Tesseract│     │  regex + trigger│     │          │
+   │               │     │  denoise     │     │           + Paddle  │     │  → 5 entities   │     │          │
+   └───────────────┘     └──────────────┘     └─────────────────────┘     └─────────────────┘     └──────────┘
+       Task 1               Task 6                   Task 7                     Task 8                Task 9
+```
+
+**Two paths through OCR/text-reading:**
+- **Digital PDFs (16 of 20)** → text is read directly from the PDF's embedded
+  text layer using PyMuPDF. Lossless, 100% confidence by construction.
+- **Scanned PDFs (4 of 20)** → page images go through Tesseract 5.5 (bilingual
+  `fra+eng`) with PaddleOCR as a fallback for low-confidence pages.
+
+This design follows the proposal in [`Project.pdf`](Project.pdf) §3 — direct
+extraction for digital, OCR only when there is no embedded text layer.
+
+---
+
+## Project structure
 
 ```
 AI-Document-Intelligence-System/
 │
-├── data/                              all document data lives here
+├── data/
 │   ├── raw/
-│   │   ├── used/                      ★ THE 20 DOCS THE PIPELINE READS
-│   │   │   ├── digital_pdfs/          18 clean text-searchable PDFs
-│   │   │   └── scanned_docs/           2 scanned (degraded) PDFs
-│   │   └── extra/                     117 collected-but-unlabelled docs
-│   │       ├── digital_pdfs/          extra real PDFs (not in ground truth)
-│   │       ├── scanned_docs/          extra scanned + synthetic-scanned dups
-│   │       └── images/                page-level PNG/JPG renders
-│   └── processed/                     Task 6 output — cleaned page PNGs
+│   │   ├── used/                       documents originally put in scope
+│   │   │   ├── digital_pdfs/           14 docs in current GT live here
+│   │   │   └── scanned_docs/
+│   │   └── extra/                      held-out pool (~117 files)
+│   │       ├── digital_pdfs/           ▸ 4 GT docs sourced from here too
+│   │       ├── scanned_docs/           ▸ 2 GT docs sourced from here too
+│   │       └── images/                 standalone PNG/JPG renders
+│   └── processed/                      Task 6 output — cleaned page PNGs (regenerable)
 │
-├── docs/                              project documentation & ground truth
-│   ├── entity_schema.md               Task 3 — definitions of the 5 fields
-│   ├── ground_truth.csv               Task 2 — labelled answers (20 rows)
-│   ├── ground_truth.xlsx              same data as a formatted spreadsheet
-│   ├── ground_truth_README.md         how the ground truth was built
-│   ├── preprocessing.md               Task 6 — methodology & step-by-step
-│   └── ocr_extraction.md              Task 7 — OCR methodology & usage
+├── docs/
+│   ├── Milestone1_Results_Report.pdf   ★ Task 10 final report (with charts)
+│   ├── ground_truth.csv                ★ Task 2 — 20 labelled rows
+│   ├── ground_truth.xlsx               same data, formatted Excel
+│   ├── ground_truth_README.md          methodology behind the GT set
+│   ├── entity_schema.md                Task 3 — definitions, regexes, examples
+│   ├── preprocessing.md                Task 6 methodology
+│   ├── ocr_extraction.md               Task 7 methodology
+│   └── pipeline.md                     Task 9 architecture & usage
 │
-├── src/                               pipeline source code (grows per task)
-│   ├── preprocessor.py                Task 6 — image cleanup module
-│   ├── run_preprocess.py              Task 6 — driver: process the 20 docs
-│   ├── ocr_engine.py                  Task 7 — OCR extraction module
-│   ├── run_ocr.py                     Task 7 — driver: OCR all pages
-│   ├── extractor.py                   Task 8 — entity extraction module
-│   ├── run_extract.py                 Task 8 — driver: extract from OCR outputs
-│   ├── pipeline.py                    Task 9 — full pipeline integration
-│   └── run.py                         Task 9 — main pipeline runner
+├── src/
+│   ├── preprocessor.py                 Task 6  PDF → cleaned page PNGs
+│   ├── run_preprocess.py               Task 6  driver
+│   ├── ocr_engine.py                   Task 7  OCR + direct PDF-text path
+│   ├── run_ocr.py                      Task 7  driver
+│   ├── extractor.py                    Task 8  regex + trigger rules → 5 entities
+│   ├── run_extract.py                  Task 8  driver
+│   ├── pipeline.py                     Task 9  full integration class
+│   └── run.py                          Task 9  main CLI runner
 │
-├── tests/                             unit / smoke tests
-│   ├── test_preprocessor.py           Task 6 — preprocessor smoke test
-│   ├── test_ocr_engine.py             Task 7 — OCR engine smoke test
-│   ├── test_extractor.py              Task 8 — extractor smoke test
-│   └── test_pipeline.py               Task 9 — full pipeline smoke test
+├── tests/
+│   ├── test_preprocessor.py            preprocessor smoke test
+│   ├── test_ocr_engine.py              OCR engine smoke test
+│   ├── test_extractor.py               5 entity-extraction tests
+│   └── test_pipeline.py                4 end-to-end pipeline tests
 │
-├── outputs/                           pipeline outputs (created by tasks)
-│   ├── ocr/                           Task 7 — OCR text + JSON (regenerable)
-│   ├── extracted/                     Task 8 — extracted entities JSON (regenerable)
-│   └── pipeline_results/              Task 9 — full pipeline run summaries (regenerable)
+├── outputs/                            all regenerable; .gitignore'd
+│   ├── ocr/                            Task 7 — 20 .txt + 20 .json
+│   ├── extracted/                      Task 9 — 20 entity JSONs
+│   ├── pipeline_results/               Task 9 — per-run summary JSON
+│   ├── report_assets/                  Task 10 — 6 PNG charts
+│   └── metrics.json                    Task 10 — machine-readable scores
 │
-├── generator/                         Task 1 helper scripts
-│   ├── download_real_docs.py          fetch real public PDFs
-│   ├── download_real_images.py        fetch real images
-│   ├── generate_docs.py               make synthetic PDFs (Faker + ReportLab)
-│   ├── generate_images.py             make synthetic images
-│   ├── build_ground_truth_xlsx.py     CSV → formatted XLSX converter
-│   └── ground_truth_seed.json         starter labels for synthetic docs
+├── generator/
+│   ├── download_real_docs.py           Task 1 — fetch real public PDFs
+│   ├── download_real_images.py         Task 1 — fetch real images
+│   ├── generate_docs.py                Task 1 — Faker-based synthetic PDFs
+│   ├── generate_images.py              Task 1 — synthetic images
+│   ├── build_ground_truth_xlsx.py      Task 2 — CSV → formatted XLSX
+│   ├── build_results_report.py         Task 10 — metrics + chart + PDF builder
+│   └── ground_truth_seed.json          synthetic-doc seed data
 │
-├── scripts/                           one-off maintenance scripts
-│   └── split_used_vs_extra.py         splits raw/ into used/ vs extra/
+├── scripts/
+│   └── split_used_vs_extra.py          one-off: split raw/ into used/ vs extra/
 │
-├── requirements.txt                   Python dependencies
-├── .gitignore                         excludes .venv, outputs/, processed/
-├── .gitattributes                     normalises line endings, binary handling
-└── README.md                          this file
+├── MileStone1.pdf                      original work plan (10 tasks)
+├── Project.pdf                         original technical proposal
+├── requirements.txt
+├── .gitignore                          excludes .venv, outputs/, processed/
+├── .gitattributes                      LF line endings, binary handling
+└── README.md                           this file
 ```
 
-### Two folders, one important rule
+### `used/` vs `extra/` — what changed during ground-truth refresh
 
-The `data/raw/` directory has **two halves** that you must not mix up:
+The original scope put 20 docs into `data/raw/used/` and 117 into `extra/`.
+The Milestone 1 ground-truth set was later refined to 20 **fully-populated FR
+documents**; doing so meant pulling 6 docs *back* from `extra/`:
 
-| Folder              | Count | Read by pipeline? | Why it exists                          |
-|---------------------|------:|:-----------------:|----------------------------------------|
-| `data/raw/used/`    | 20    | ✅ YES            | The labelled set — every file matches a row in `ground_truth.csv` |
-| `data/raw/extra/`   | 117   | ❌ NO             | Reference / future expansion — collected but not yet labelled |
+- 4 real-filled FR material/welding certs that turned out to have richer
+  data than some `used/` docs (Larobinetterie 160629, Dillinger Antelis,
+  Ugitech Alimentarité, CFCE Cahier de Soudage Filtres),
+- 4 synthetic scanned variants paired with their digital twins (renamed
+  `*_scanned.pdf` to give unique stems for output disambiguation).
 
-If you label a new document, **move** it from `extra/` into `used/<modality>/`
-and add a row to `docs/ground_truth.csv`. The pipeline will pick it up automatically.
+The pipeline's [`find_raw()`](src/run.py) is now modality-aware and searches
+both `used/` and `extra/`, so every row in `ground_truth.csv` resolves
+regardless of which folder its file lives in.
 
 ---
 
-## How a document flows through the pipeline
+## How a document flows through
 
 ```
-                ┌───────────────────────────┐
-                │  data/raw/used/*.pdf      │  ← 20 input PDFs
-                └────────────┬──────────────┘
-                             │
-                             ▼
-            ┌────────────────────────────────────┐
-   Task 6 → │  preprocessor.py                   │
-            │  (render @300 DPI → grayscale →    │
-            │   deskew → denoise → threshold)    │
-            └────────────┬───────────────────────┘
-                         │
-                         ▼
-            ┌──────────────────────────┐
-            │  data/processed/*.png    │  ← 105 cleaned page images
-            └────────────┬─────────────┘
-                         │
-                         ▼
-            ┌────────────────────────────────────┐
-   Task 7 → │  ocr_engine.py                     │  ✅ COMPLETE
-            │  (Tesseract / PaddleOCR → text)    │
-            └────────────┬───────────────────────┘
-                         │
-                         ▼
-            ┌──────────────────────────┐
-            │  outputs/ocr/*.json      │  ← 20 JSON files (text + metadata)
-            └────────────┬─────────────┘
-                         │
-                         ▼
-            ┌────────────────────────────────────┐
-   Task 8 → │  extractor.py                      │  ✅ COMPLETE
-            │  (regex + keyword rules → 5 fields)│
-            └────────────┬───────────────────────┘
-                         │
-                         ▼
-            ┌──────────────────────────┐
-            │  outputs/extracted/*.json│  ← 22 JSON files (5 entities per doc)
-            └────────────┬─────────────┘
-                         │
-                         ▼
-            ┌────────────────────────────────────┐
-   Task 9 → │  pipeline.py                       │  ✅ COMPLETE
-            │  (full integration + validation)   │
-            └────────────┬───────────────────────┘
-                         │
-                         ▼
-            ┌──────────────────────────┐
-   Task 10 → │  Compare against ground_truth.csv  │  (coming)
-            │  → precision / recall / F1         │
-            └────────────────────────────────────┘
+   Real_MaterialCert_FR_Larobinetterie_134822.pdf            (input)
+                │
+                ▼
+   Task 6   render @ 300 dpi  →  grayscale  → (deskew + denoise + threshold if scanned)
+                │
+                ▼
+   data/processed/Real_MaterialCert_FR_Larobinetterie_134822_p01.png
+                │
+                ▼
+   Task 7   digital → PyMuPDF text layer    →  full-text + word coords  (100% conf)
+            scanned → Tesseract / Paddle    →  full-text + bboxes + per-word conf
+                │
+                ▼
+   outputs/ocr/Real_MaterialCert_FR_Larobinetterie_134822.{txt,json}
+                │
+                ▼
+   Task 8   regex anchors + FR/EN trigger words  →  candidates per field
+            confidence-weighted selection         →  best per field
+                │
+                ▼
+   outputs/extracted/Real_MaterialCert_FR_Larobinetterie_134822.json
+   {
+     "extracted_entities": {
+       "project_id": "134822",
+       "supplier":   "La Robinetterie (LRI-Sodime)",
+       "material":   "304L",
+       "quantity":   null,
+       "date":       "2019-05-23"
+     },
+     "all_candidates": [...]
+   }
+                │
+                ▼
+   Task 10  compare against docs/ground_truth.csv  →  P / R / F1 + PDF report
 ```
 
 ---
 
 ## Document naming convention
 
-Every filename tells you three things at a glance:
-
 ```
-   Real_MaterialCert_EN_NST_Inspection.pdf
-   ────  ────────────  ──  ─────────────
-    │         │        │         │
-    │         │        │         └─ source / vendor name
-    │         │        └─────────── language (EN or FR)
-    │         └──────────────────── document type (5 possible)
-    └────────────────────────────── origin (Real_ or Synthetic_)
+   Real_MaterialCert_FR_Larobinetterie_134822.pdf
+   ────  ────────────  ──  ───────────────────────
+    │         │        │              │
+    │         │        │              └─ source / vendor name
+    │         │        └──────────────── language (EN or FR)
+    │         └───────────────────────── document type (5 possible)
+    └─────────────────────────────────── origin (Real_ or Synthetic_)
 ```
 
-**Doc types** (5): `MaterialCert`, `WeldingPlan`, `FabricationSheet`,
-`InspectionReport`, `Invoice`.
-
-**Languages** (2): `EN` (English), `FR` (French).
-
-**Origin:**
-- `Real_` — a real public document downloaded from the internet (vendor catalogues,
-  inspection bodies, standards organisations, etc.).
-- `Synthetic_` — a generated document built by the scripts in `generator/`,
-  using Faker for fake-but-realistic field values.
+- **Doc types (5):** `MaterialCert`, `WeldingPlan`, `FabricationSheet`, `InspectionReport`, `Invoice`
+- **Languages (2):** `EN`, `FR`
+- **Origin:** `Real_` (downloaded public PDF) or `Synthetic_` (Faker-generated by `generator/generate_docs.py`)
 
 ---
 
-## Progress
+## Ground-truth set (20 FR documents)
 
-| #  | Task                        | Status | Where to look                                              |
-|----|-----------------------------|:------:|------------------------------------------------------------|
-| 1  | Collect sample documents    | ✅     | `data/raw/` — 137 files total (20 used + 117 extra)        |
-| 2  | Ground-truth spreadsheet    | ✅     | [`docs/ground_truth.csv`](docs/ground_truth.csv) + `.xlsx` |
-| 3  | Entity schema               | ✅     | [`docs/entity_schema.md`](docs/entity_schema.md)           |
-| 4  | GitHub repo                 | ✅     | [github.com/Arham786Pk/AI-Document-Intelligence-System](https://github.com/Arham786Pk/AI-Document-Intelligence-System) |
-| 5  | Python environment          | ✅     | `requirements.txt` + `.venv/` (Python 3.13)                |
-| 6  | Preprocessing               | ✅     | [`src/preprocessor.py`](src/preprocessor.py) + [`docs/preprocessing.md`](docs/preprocessing.md) → 105 page PNGs in `data/processed/` |
-| 7  | OCR / text extraction       | ✅     | [`src/ocr_engine.py`](src/ocr_engine.py) + [`docs/ocr_extraction.md`](docs/ocr_extraction.md) |
-| 8  | Rule-based extractor        | ✅     | [`src/extractor.py`](src/extractor.py) + [`src/run_extract.py`](src/run_extract.py) |
-| 9  | Full pipeline               | ✅     | [`src/pipeline.py`](src/pipeline.py) + [`src/run.py`](src/run.py) + [`docs/pipeline.md`](docs/pipeline.md) |
-| 10 | Metrics + 1-page summary    | ⏳     | `docs/results.md`                                          |
+| Doc type         | real_filled | synthetic digital | synthetic scanned | total |
+|------------------|:-----------:|:-----------------:|:-----------------:|:-----:|
+| MaterialCert     | 5           | 2                 | 1                 | 8     |
+| WeldingPlan      | 1           | 2                 | 1                 | 4     |
+| FabricationSheet | 0           | 2                 | 0                 | 2     |
+| InspectionReport | 0           | 2                 | 1                 | 3     |
+| Invoice          | 0           | 2                 | 1                 | 3     |
+| **Total**        | **6**       | **10**            | **4**             | **20**|
+
+Every row in [`docs/ground_truth.csv`](docs/ground_truth.csv) carries values
+for all five entity fields — no blanks, no `N/A`. Why FR-only?
+Originally the set mixed EN + FR but ~10 rows had empty values (real
+templates / educational PDFs). Filtering to FR-with-data made the set
+non-empty without dropping below the spec target of 20 docs. The remaining
+EN docs and held-out FR docs sit in `data/raw/extra/` for Task 8
+generalisation tests.
+
+Methodology, source-by-source breakdown, and column definitions are in
+[`docs/ground_truth_README.md`](docs/ground_truth_README.md).
 
 ---
 
-## What each completed task delivered
+## The 10 tasks
+
+| #  | Task                       | Status | Deliverable |
+|----|----------------------------|:------:|-------------|
+|  1 | Collect sample documents   | ✅ | `data/raw/` — 137 files (20 in GT, 117 held out) |
+|  2 | Ground-truth spreadsheet   | ✅ | [`docs/ground_truth.csv`](docs/ground_truth.csv) + [`.xlsx`](docs/ground_truth.xlsx) |
+|  3 | Entity schema              | ✅ | [`docs/entity_schema.md`](docs/entity_schema.md) |
+|  4 | GitHub repository          | ✅ | [github.com/Arham786Pk/AI-Document-Intelligence-System](https://github.com/Arham786Pk/AI-Document-Intelligence-System) |
+|  5 | Python environment         | ✅ | [`requirements.txt`](requirements.txt) — Python 3.13, all deps install cleanly |
+|  6 | Preprocessing              | ✅ | [`src/preprocessor.py`](src/preprocessor.py) + [`docs/preprocessing.md`](docs/preprocessing.md) |
+|  7 | OCR / text extraction      | ✅ | [`src/ocr_engine.py`](src/ocr_engine.py) + [`docs/ocr_extraction.md`](docs/ocr_extraction.md) |
+|  8 | Rule-based extractor       | ✅ | [`src/extractor.py`](src/extractor.py) (5/5 unit tests pass) |
+|  9 | Full pipeline              | ✅ | [`src/pipeline.py`](src/pipeline.py) + [`src/run.py`](src/run.py) + [`docs/pipeline.md`](docs/pipeline.md) |
+| 10 | Metrics + report           | ✅ | [`docs/Milestone1_Results_Report.pdf`](docs/Milestone1_Results_Report.pdf) + [`outputs/metrics.json`](outputs/metrics.json) |
+
+---
+
+## What each task produced (detail)
 
 ### Task 1 — Data collection (137 documents)
-- 5 doc types × 2 languages × 3 modalities (digital / scanned / images).
-- 87 real PDFs downloaded + 50 synthetic PDFs generated = 137 total.
-- All under `data/raw/`. See [`data/raw/used/README.md`](data/raw/used/README.md)
-  and [`data/raw/extra/README.md`](data/raw/extra/README.md).
+- 5 doc types × 2 languages × 3 modalities (digital / scanned / images)
+- 87 real PDFs downloaded (vendor catalogues, inspection bodies, standards
+  organisations) + 50 synthetic PDFs generated via `generator/generate_docs.py`
+- Sorted into `data/raw/used/` (in scope) and `data/raw/extra/` (held out)
+- Sources catalogued in [`data/raw/real_document_sources.md`](data/raw/real_document_sources.md)
 
-### Task 2 — Ground truth (20 labelled documents)
-- 20 primary documents hand-labelled (spec target was 15–20).
-- One row per doc with all 5 entities filled where the doc actually contains them.
-- Honest mix: 4 fully-filled real docs + 6 blank real templates +
-  4 real educational PDFs + 6 synthetic. The mix matters because the Task 8
-  extractor needs to be scored on realistic input, not cherry-picked easy cases.
+### Task 2 — Ground truth (20 FR docs, all entities populated)
+- 20 French documents hand-labelled with verified expected values
+- **Every row has all 5 entity fields populated** — non-empty answer key
+- Composition: 6 real_filled + 10 synthetic digital + 4 synthetic scanned
+- Source: pulled from both `used/` and `extra/` to find FR PDFs with genuine data
+- Generated XLSX from CSV via [`generator/build_ground_truth_xlsx.py`](generator/build_ground_truth_xlsx.py)
 
-### Task 3 — Entity schema
-- For each of the 5 entities: definition, EN/FR trigger keywords, real value
-  examples, and draft regex patterns. This is the spec the Task 8 extractor
-  will be built against.
+### Task 3 — Entity schema (5 fields × EN/FR)
+- For each entity: definition, EN/FR trigger keywords, real value examples
+  drawn from the actual GT docs, draft regex patterns, and edge cases
+- Calibrated against the 20-doc GT set; EN patterns retained for the held-out
+  EN pool used by Task 8 generalisation testing
 
-### Task 4 — GitHub
-- Repo pushed to <https://github.com/Arham786Pk/AI-Document-Intelligence-System>.
-- `.gitignore` excludes `.venv/`, `outputs/`, `data/processed/` (all regenerable).
+### Task 4 — GitHub repository
+- Repo at <https://github.com/Arham786Pk/AI-Document-Intelligence-System>
+- `.gitignore` excludes regenerable artefacts: `.venv/`, `outputs/`, `data/processed/`
 - `.gitattributes` normalises line endings (`* text=auto eol=lf`) and marks
-  PDFs / images as binary so git doesn't try to diff them.
+  PDFs / images as binary so git doesn't try to diff them
 
 ### Task 5 — Python environment
-- `requirements.txt` lists every dependency with minimum versions.
-- Virtual env created with Python 3.13.12; all 70+ packages install cleanly.
-- Stack covers: PDF I/O (`pymupdf`, `pdf2image`), image processing (`opencv`,
-  `numpy`), OCR (`pytesseract`, `paddleocr`), NLP / regex (`regex`,
-  `python-dateutil`), evaluation (`jiwer`, `pandas`, `openpyxl`), and
-  synthetic-data generation (`faker`, `reportlab`).
+- `requirements.txt` lists 70+ packages with minimum versions
+- Stack: PDF I/O (`pymupdf`, `pdf2image`), image processing (`opencv-python`,
+  `numpy`), OCR (`pytesseract`, `paddleocr`), regex / dates (`regex`,
+  `python-dateutil`), evaluation (`jiwer`, `pandas`, `openpyxl`),
+  charting (`matplotlib`), PDF reports (`reportlab`), synthetic data (`faker`)
 
 ### Task 6 — Preprocessing
-- Each PDF page rendered at **300 DPI** (printing-quality, OCR sweet spot).
-- **Two paths** chosen by the `modality` column in `ground_truth.csv`:
-  - **digital** (18 docs) → render → grayscale → save (light path; PDFs are
-    already crisp, heavy processing would blur edges).
-  - **scanned** (2 docs) → render → grayscale → **deskew** (fix rotation) →
-    **denoise** (non-local means) → **adaptive threshold** (binarise) → save.
-- Output: **105 page PNGs** in `data/processed/` (one per page, named
-  `<doc>_p01.png`, `_p02.png`, …).
-- Verification: `python tests/test_preprocessor.py` runs an end-to-end
-  smoke test; `python src/run_preprocess.py` reprocesses all 20.
-- **Full methodology in [`docs/preprocessing.md`](docs/preprocessing.md)** —
-  every step explained with code snippets, parameter rationale, and known
-  limitations.
+- Each PDF page rendered at **300 DPI** (printing quality, OCR sweet spot)
+- Two paths chosen by the `modality` column:
+  - **digital** → render → grayscale → save (PDFs are crisp; heavy processing
+    would blur edges)
+  - **scanned** → render → grayscale → deskew → denoise (non-local means) →
+    adaptive threshold (binarise) → save
+- Output: 51 page PNGs in `data/processed/` (one per page)
+- Detailed methodology + parameter rationale in [`docs/preprocessing.md`](docs/preprocessing.md)
 
-### Task 7 — OCR Extraction
-- **Two-engine strategy:** Tesseract (primary, fast) + PaddleOCR (fallback
-  for low-confidence results <60%).
-- **Windows compatibility:** Auto-detects Tesseract installation path on Windows
-  (`C:\Program Files\Tesseract-OCR\tesseract.exe`).
-- Extracts text from all preprocessed page images with word-level details:
-  text, confidence scores, and bounding boxes.
-- Output: **Text files** (`outputs/ocr/*.txt`) for human review +
-  **JSON files** (`outputs/ocr/*.json`) with structured data for Task 8.
-- Average accuracy: **95–98%** on digital PDFs, **85–92%** on scanned docs.
-- Processing time: ~2 minutes for 105 pages (mostly Tesseract, ~5%
-  PaddleOCR fallback).
-- Verification: `python tests/test_ocr_engine.py` runs smoke test;
-  `python src/run_ocr.py` processes all documents.
-- **Full methodology in [`docs/ocr_extraction.md`](docs/ocr_extraction.md)** —
-  engine comparison, configuration details, accuracy expectations, and
-  troubleshooting guide.
-- **Note:** The OCR engine processes all documents in `data/processed/`,
-  not just the 20 ground-truth documents. This allows for batch processing
-  of additional documents without code changes.
+### Task 7 — OCR / text extraction
+- **Digital fast path:** PyMuPDF reads the embedded text layer directly →
+  100% confidence, no OCR uncertainty, perfect FR accents
+- **Scanned path:** Tesseract 5.5 with `lang="fra+eng"` (bilingual) →
+  PaddleOCR fallback if confidence < 60%
+- Output per doc: a `.txt` file (human-readable) + a `.json` file (structured,
+  with words, bboxes, per-word confidence, engine used)
+- Average OCR confidence on the 20-doc set: **85%**
+- Engine comparison + troubleshooting in [`docs/ocr_extraction.md`](docs/ocr_extraction.md)
 
-### Task 8 — Rule-based Extractor
-- **5 entity extractors:** project_id, supplier, material, quantity, date.
-- **Bilingual support:** English and French trigger words and patterns.
-- **Pattern-based extraction:** Regex patterns for each entity type based on
-  [`docs/entity_schema.md`](docs/entity_schema.md).
-- **Trigger-based extraction:** Keyword anchors (e.g., "Certificate No:",
-  "Supplier:", "Quantité:") to locate entity values.
-- **Confidence scoring:** Each extracted candidate has a confidence score
-  (0.0–1.0) based on pattern match quality.
-- **Candidate selection:** Automatically selects the best candidate per field
-  based on confidence scores.
-- **Date normalization:** All dates normalized to European format (DD/MM/YYYY)
-  regardless of source format.
-- Output: **JSON files** (`outputs/extracted/*.json`) with extracted entities
-  and all candidates for each field.
-- Extraction capabilities:
-  - **Project ID:** Certificate numbers (EN 10204), standard codes (PRJ-, WO-,
-    JOB-), WPS numbers
-  - **Supplier:** Corporate name extraction via triggers and suffix detection
-  - **Material:** AWS codes, steel grades (SS 316, 304L), European numbers
-    (1.4307), named alloys (Duplex 2205, PVC Sch 80)
-  - **Quantity:** Numbers with units (kg, pcs, lbs, tons, m, mm), decimal
-    support
-  - **Date:** ISO (YYYY-MM-DD), European (DD.MM.YYYY), textual (Mar 29, 2025),
-    French textual → normalized to DD/MM/YYYY
-- Verification: `python tests/test_extractor.py` runs comprehensive tests
-  covering all entity types and formats; `python src/run_extract.py` extracts
-  from all OCR outputs.
-- **Extraction quality:** 90%+ on synthetic documents (clean OCR), variable on
-  real documents (depends on OCR quality and document completeness).
+### Task 8 — Rule-based extractor
+- **5 entity extractors** (`project_id`, `supplier`, `material`, `quantity`, `date`)
+- Bilingual: EN + FR trigger words and regex patterns
+- Each candidate carries a confidence score (0.0–1.0); best candidate per
+  field is selected automatically
+- Date normalisation: ISO (`YYYY-MM-DD`), European slash (`DD/MM/YYYY`),
+  European dot (`DD.MM.YYYY`), 2-digit year, FR textual → all output as `DD/MM/YYYY`
+- Smoke test: `python tests/test_extractor.py` (5/5 tests pass)
 
-### Task 9 — Full Pipeline Integration
-- **End-to-end workflow:** Chains preprocessing → OCR → extraction into a
-  single unified pipeline.
-- **Pipeline class:** `Pipeline` in `src/pipeline.py` orchestrates all three
-  stages with automatic error handling and result tracking.
-- **Main runner:** `src/run.py` provides CLI for batch processing with flexible
-  options (single doc, limit N, summary mode).
-- **Comprehensive results:** Each run produces a `PipelineResult` with:
-  - Success/failure status per stage
-  - Page count, OCR confidence, text length
-  - Extracted entities
-  - Detailed error messages if any stage fails
-- **Batch processing:** Processes all 20 ground-truth documents in ~2.5 minutes
-  (105 pages total).
-- **Output files:**
-  - `outputs/pipeline_results/pipeline_run_YYYYMMDD_HHMMSS.json` — full run
-    summary with per-document results
-  - All intermediate outputs (preprocessed PNGs, OCR JSON/TXT, extraction JSON)
-- **CLI options:**
-  - `python src/run.py` — process all 20 documents
-  - `python src/run.py --doc <name>` — process single document
-  - `python src/run.py --limit N` — process first N documents
-  - `python src/run.py --summary` — show summary from last run
-  - `python src/run.py --no-paddle` — disable PaddleOCR fallback
-- **Validation:** `python tests/test_pipeline.py` runs 4 tests (initialization,
-  serialization, error handling, end-to-end).
-- **Performance:** ~1.4s per page average (0.3s preprocessing + 0.9s OCR + 0.05s
-  extraction).
-- **Full documentation in [`docs/pipeline.md`](docs/pipeline.md)** — architecture,
-  usage, error handling, performance, troubleshooting.
+### Task 9 — Full pipeline integration
+- `Pipeline` class in [`src/pipeline.py`](src/pipeline.py) chains preprocessing
+  → OCR → extraction with per-stage error handling
+- CLI in [`src/run.py`](src/run.py): batch all 20, single doc, limit N, summary mode
+- Per-run summary JSON in `outputs/pipeline_results/` with success/failure per stage
+- 100% pipeline success on the 20 GT docs (~1.4s per page average)
+- Architecture, usage, error handling in [`docs/pipeline.md`](docs/pipeline.md)
+- 4/4 integration tests pass
+
+### Task 10 — Metrics + final report
+- [`generator/build_results_report.py`](generator/build_results_report.py)
+  computes Precision/Recall/F1 by comparing every extracted JSON against
+  `docs/ground_truth.csv` row-by-row, field-by-field, with per-field comparison
+  rules (alphanumeric-normalised match for IDs, ISO-normalised match for dates,
+  token-overlap ≥ 34% for free-text fields like supplier and material).
+- Generates 6 charts (matplotlib) + an 11-page PDF report (reportlab) with
+  cover page, executive summary, pipeline diagram, dataset composition,
+  P/R/F1 table, outcome distribution, OCR confidence per doc, per-document
+  success bars, full results matrix, error analysis, and Milestone 2 forward-look.
+- Machine-readable scores in [`outputs/metrics.json`](outputs/metrics.json)
+
+---
+
+## Acceptance criteria (from MileStone1.pdf §5)
+
+All 8 acceptance criteria are met:
+
+1. ✅ Pipeline runs without crashing on every input (20 / 20)
+2. ✅ Both digital and scanned modalities are handled
+3. ✅ JSON output always includes all 5 entity fields (even if empty)
+4. ✅ Output structure is identical across documents
+5. ✅ Precision / Recall / F1 are computed numerically against the GT spreadsheet
+6. ✅ Ground-truth spreadsheet has all 20 rows fully populated
+7. ✅ All artefacts committed to GitHub
+8. ✅ Report explains where the system fails and why (Milestone 2 plan informed)
+
+---
+
+## What works well — and what doesn't (preview)
+
+**Strengths:**
+- Date extraction (61% F1) — handles every format observed in the corpus
+- Project ID precision (92%) — when the regex matches, it's almost always right
+- Synthetic Faker docs extract near-perfectly across all fields
+
+**Weaknesses (Milestone 2 will address):**
+- Supplier extraction (39% F1) gets confused on certs where the customer
+  block sits adjacent to the supplier letterhead
+- Multi-number documents (real material certs with 6+ reference numbers)
+  often anchor on the wrong ID
+- Heavily-degraded synthetic scans cause Tesseract to return zero text →
+  cascading misses on all 5 fields
+
+**Milestone 2 plan:** fine-tune **LayoutLMv3** on a Label-Studio-annotated
+version of this corpus, using the rule-based system here as the
+pre-annotation engine and the official baseline. Per the technical proposal,
+expected macro-F1 lift is +25–35 points, driven by layout-aware attention
+recovering supplier on multi-block docs.
+
+The full analysis is in [`docs/Milestone1_Results_Report.pdf`](docs/Milestone1_Results_Report.pdf).
 
 ---
 
 ## Glossary
 
-| Term                  | Meaning                                                                     |
-|-----------------------|-----------------------------------------------------------------------------|
-| **Entity**            | One of the 5 fields we extract per document.                                |
-| **Ground truth**      | The hand-written correct answers, used to score the extractor.              |
-| **Modality**          | The shape the document arrives in: `digital` PDF, `scanned` PDF, or `image`.|
-| **DPI**               | Dots per inch — how detailed a rendered image is. We use 300 (print-quality).|
-| **Deskew**            | Rotate a tilted scanned page back to straight, so OCR can read it.          |
-| **Adaptive threshold**| Per-region black/white conversion — handles uneven lighting on scans.       |
-| **Real_ / Synthetic_**| Where the document came from: real internet vs. generated by Faker.         |
-| **Used vs. extra**    | `used/` = 20 labelled docs the pipeline reads; `extra/` = unused references.|
+| Term                  | Meaning                                                                         |
+|-----------------------|---------------------------------------------------------------------------------|
+| **Entity**            | One of the 5 fields the system extracts from each document                      |
+| **Ground truth**      | The hand-labelled correct answers, used to score the extractor                  |
+| **Modality**          | Document shape: `digital` (text-searchable PDF) or `scanned` (image-only PDF)   |
+| **DPI**               | Dots per inch — how detailed a rendered image is. We use 300 (print-quality)    |
+| **Deskew**            | Rotate a tilted scanned page back to straight, so OCR can read it cleanly       |
+| **Adaptive threshold**| Per-region black/white conversion — handles uneven lighting on scanned pages    |
+| **Real / Synthetic**  | Source of the document: real public PDF vs. Faker-generated by our scripts      |
+| **Used vs. Extra**    | `used/` = original 20-doc scope; `extra/` = held-out pool                       |
+| **TP / FP / FN**      | True positive (correct), false positive (wrong value), false negative (missed)  |
+| **Precision / Recall**| P = TP / (TP + FP) — accuracy; R = TP / (TP + FN) — coverage                    |
+| **F1**                | Harmonic mean of P and R — single number that balances both                     |
 
 ---
 
 ## License & contact
 
-Educational / client deliverable. Not for redistribution of the contained
-public documents — they remain under their original licences.
+Educational / client deliverable for the Milestone 1 contract. The contained
+public documents remain under their original licences and are included for
+evaluation purposes only — please do not redistribute the dataset.

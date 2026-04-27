@@ -2,10 +2,10 @@
   "document_name": "Synthetic_WeldingPlan_FR_02",
   "extracted_entities": {
     "project_id": "WO-22299",
-    "supplier": "Lecog Soudage SAS PLAN DE SOUDAGE WPS No.: WPS-901-62 N° Projet: WO-22299 Date: 06/12/2024 Fournisseur: Marie Code Soudeur: W-921 Matiére: Carbon Steel A36 Quantite: 456 units Procédé de Soudage: SMAW Epaisseur: 11mm Metal d'Apport: ER308L Type de Joint: Bout a bout Parametres de Soudage Passe Courant (A) Tension (V) Vitesse (mm/min) Gaz Pt 177 31 89 - P2 136 21 197 Ar/He 70/30 P3 158 31 138 Ar/CO2 80/20 P4 86 28 129 - Préchauffage : 100°C min. Interpasse : 150°C max. TTAS selon ASME IX. Approuvé par: Martin Barbier du Bernard Date: 06/12/2024",
+    "supplier": "PLAN DE SOUDAGE",
     "material": "A36",
     "quantity": "456 units",
-    "date": "2024-12-06"
+    "date": "06/12/2024"
   },
   "all_candidates": [
     {
@@ -24,24 +24,17 @@
     },
     {
       "field": "supplier",
-      "value": "Lecog Soudage SAS PLAN DE SOUDAGE WPS No.: WPS-901-62 N° Projet: WO-22299 Date: 06/12/2024 Fournisseur: Marie Code Soudeur: W-921 Matiére: Carbon Steel A36 Quantite: 456 units Procédé de Soudage: SMAW Epaisseur: 11mm Metal d'Apport: ER308L Type de Joint: Bout a bout Parametres de Soudage Passe Courant (A) Tension (V) Vitesse (mm/min) Gaz Pt 177 31 89 - P2 136 21 197 Ar/He 70/30 P3 158 31 138 Ar/CO2 80/20 P4 86 28 129 - Préchauffage : 100°C min. Interpasse : 150°C max. TTAS selon ASME IX. Approuvé par: Martin Barbier du Bernard Date: 06/12/2024",
-      "confidence": 0.8,
-      "source": "trigger_fournisseur",
-      "raw_text": "Lecog Soudage SAS PLAN DE SOUDAGE WPS No.: WPS-901-62 N° Projet: WO-22299 Date: 06/12/2024 Fournisse"
-    },
-    {
-      "field": "supplier",
-      "value": "Lecog Soudage SAS PLAN DE SOUDAGE WPS No.: WPS-901-62 N° Projet: WO-22299 Date: 06/12/2024 Fournisseur: Marie Code Soudeur: W-921 Matiére: Carbon Steel A36 Quantite: 456 units Procédé de Soudage: SMAW Epaisseur: 11mm Metal d'Apport: ER308L Type de Joint: Bout a bout Parametres de Soudage Passe Courant (A) Tension (V) Vitesse (mm/min) Gaz Pt 177 31 89 - P2 136 21 197 Ar/He 70/30 P3 158 31 138 Ar/CO2 80/20 P4 86 28 129 - Préchauffage : 100°C min. Interpasse : 150°C max. TTAS selon ASME IX. Approuvé par: Martin Barbier du Bernard Date: 06/12/2024",
+      "value": "PLAN DE SOUDAGE",
       "confidence": 0.8,
       "source": "trigger_de",
-      "raw_text": "Lecog Soudage SAS PLAN DE SOUDAGE WPS No.: WPS-901-62 N° Projet: WO-22299 Date: 06/12/2024 Fournisse"
+      "raw_text": "PLAN DE SOUDAGE"
     },
     {
       "field": "supplier",
-      "value": "Lecog Soudage SAS",
+      "value": "Lecoq Soudage SAS",
       "confidence": 0.6,
       "source": "letterhead",
-      "raw_text": "Lecog Soudage SAS"
+      "raw_text": "Lecoq Soudage SAS"
     },
     {
       "field": "material",
@@ -60,8 +53,8 @@
     {
       "field": "quantity",
       "value": "456 units",
-      "confidence": 0.7,
-      "source": "pattern",
+      "confidence": 0.85,
+      "source": "trigger_quantité",
       "raw_text": "456 units"
     },
     {
@@ -69,18 +62,18 @@
       "value": "11 mm",
       "confidence": 0.7,
       "source": "pattern",
-      "raw_text": "11mm"
+      "raw_text": "11 mm"
     },
     {
       "field": "date",
-      "value": "2024-12-06",
+      "value": "06/12/2024",
       "confidence": 0.9,
       "source": "slash",
       "raw_text": "06/12/2024"
     },
     {
       "field": "date",
-      "value": "2024-12-06",
+      "value": "06/12/2024",
       "confidence": 1.0,
       "source": "slash",
       "raw_text": "06/12/2024"
@@ -88,6 +81,6 @@
   ],
   "notes": [
     "Multiple project IDs found (2), selected highest confidence",
-    "Multiple suppliers found (3), selected highest confidence"
+    "Multiple suppliers found (2), selected highest confidence"
   ]
 }

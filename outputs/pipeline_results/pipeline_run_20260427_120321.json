@@ -1,0 +1,566 @@
+{
+  "timestamp": "2026-04-27T12:03:21.278699",
+  "total_documents": 20,
+  "successful": 20,
+  "failed": 0,
+  "stage_failures": {
+    "preprocessing": 0,
+    "ocr": 0,
+    "extraction": 0
+  },
+  "avg_ocr_confidence": 85.05,
+  "total_pages_processed": 51,
+  "documents": [
+    {
+      "document_name": "Real_MaterialCert_FR_Larobinetterie_134822",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\raw\\used\\digital_pdfs\\Real_MaterialCert_FR_Larobinetterie_134822.pdf",
+      "success": true,
+      "stages": {
+        "preprocessing": true,
+        "ocr": true,
+        "extraction": true
+      },
+      "outputs": {
+        "page_count": 1,
+        "preprocessed_pages": [
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_MaterialCert_FR_Larobinetterie_134822_p01.png"
+        ],
+        "avg_ocr_confidence": 100.0,
+        "total_text_length": 1397
+      },
+      "extracted_entities": {
+        "project_id": "134822",
+        "supplier": "Libellé : TE SMS 38 INOX 304L SANS PARTIE DROITE",
+        "material": "304L",
+        "quantity": null,
+        "date": "23/05/2019"
+      },
+      "error": null
+    },
+    {
+      "document_name": "Real_MaterialCert_FR_Antelis_Dillinger_32",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\raw\\used\\digital_pdfs\\Real_MaterialCert_FR_Antelis_Dillinger_32.pdf",
+      "success": true,
+      "stages": {
+        "preprocessing": true,
+        "ocr": true,
+        "extraction": true
+      },
+      "outputs": {
+        "page_count": 4,
+        "preprocessed_pages": [
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_MaterialCert_FR_Antelis_Dillinger_32_p01.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_MaterialCert_FR_Antelis_Dillinger_32_p02.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_MaterialCert_FR_Antelis_Dillinger_32_p03.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_MaterialCert_FR_Antelis_Dillinger_32_p04.png"
+        ],
+        "avg_ocr_confidence": 100.0,
+        "total_text_length": 7919
+      },
+      "extracted_entities": {
+        "project_id": null,
+        "supplier": "AG der Dillinger Hüttenwerke",
+        "material": "S355G10+N",
+        "quantity": "15940 kg",
+        "date": "26/09/2018"
+      },
+      "error": null
+    },
+    {
+      "document_name": "Real_MaterialCert_FR_Larobinetterie_160629",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\raw\\extra\\digital_pdfs\\Real_MaterialCert_FR_Larobinetterie_160629.pdf",
+      "success": true,
+      "stages": {
+        "preprocessing": true,
+        "ocr": true,
+        "extraction": true
+      },
+      "outputs": {
+        "page_count": 1,
+        "preprocessed_pages": [
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_MaterialCert_FR_Larobinetterie_160629_p01.png"
+        ],
+        "avg_ocr_confidence": 100.0,
+        "total_text_length": 3107
+      },
+      "extracted_entities": {
+        "project_id": null,
+        "supplier": "RESULTATS DES ESSAIS",
+        "material": "304",
+        "quantity": "1 mm",
+        "date": "01/09/2023"
+      },
+      "error": null
+    },
+    {
+      "document_name": "Real_MaterialCert_FR_Dillinger_Antelis",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\raw\\extra\\digital_pdfs\\Real_MaterialCert_FR_Dillinger_Antelis.pdf",
+      "success": true,
+      "stages": {
+        "preprocessing": true,
+        "ocr": true,
+        "extraction": true
+      },
+      "outputs": {
+        "page_count": 2,
+        "preprocessed_pages": [
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_MaterialCert_FR_Dillinger_Antelis_p01.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_MaterialCert_FR_Dillinger_Antelis_p02.png"
+        ],
+        "avg_ocr_confidence": 100.0,
+        "total_text_length": 4242
+      },
+      "extracted_entities": {
+        "project_id": null,
+        "supplier": "NO. DE COULEE / SIGLE DU PRODUCTEUR / NO. TOLE MERE-NO. D'ESSAI",
+        "material": "S355K2+N",
+        "quantity": null,
+        "date": "26/11/2015"
+      },
+      "error": null
+    },
+    {
+      "document_name": "Real_MaterialCert_FR_Ugitech_Alim",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\raw\\extra\\scanned_docs\\Real_MaterialCert_FR_Ugitech_Alim.pdf",
+      "success": true,
+      "stages": {
+        "preprocessing": true,
+        "ocr": true,
+        "extraction": true
+      },
+      "outputs": {
+        "page_count": 5,
+        "preprocessed_pages": [
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_MaterialCert_FR_Ugitech_Alim_p01.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_MaterialCert_FR_Ugitech_Alim_p02.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_MaterialCert_FR_Ugitech_Alim_p03.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_MaterialCert_FR_Ugitech_Alim_p04.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_MaterialCert_FR_Ugitech_Alim_p05.png"
+        ],
+        "avg_ocr_confidence": 90.37,
+        "total_text_length": 11272
+      },
+      "extracted_entities": {
+        "project_id": null,
+        "supplier": "TT CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEG VAT code FR 894 10436158 Ugitech Italia Via G. Di Vittorio 34-36 - IT 20068 Peschiera Borromeo (Ml) EEC VAT code IT 10810010156 Ugitech TFA Srl Via Friuli 2 - IT 31020 San Vendemiano (TV) Contact EEC VAT code IT 08137100965 QMS.ugitech@ugitech.com ALIMENTARITE - ATTESTATION des articles en acier inoxydable et alliage de UGITECH SA, UGITECH ITALIA & UGITECH TFA Lorsque la demande en est faite, Ugitech fournit des nuances d'acier inoxydable compatibles avec le contact alimentaire. Ugitech ne fabrique pas de matériels en contact avec les aliments. La matière première fournie par Ugitech se situe en amont de nombreuses transformations. En général, l’article Ugitech n’est pas directement soumis aux obligations des réglementations du marché final. A ce titre, Ugitech rappelle que ce sont les produits finis qui doivent faire l'objet de caractérisations particulières telles que des tests de libération (migration). À charge du transformateur final de réaliser les tests requis dans le respect des conditions spécifiques demandées. Toutefois, à toute bonne fin, Ugitech rappelle que la surface de l'acier inoxydable de sa fourniture peut être nettoyée par ses clients de façon à garantir l'élimination de toute trace éventuelle de substance pouvant nuire à l'application visée. D'une façon générale, Ugitech est impliquée dans une démarche en responsabilité sociale. Ses nombreuses certifications (Médical ISO 13485, Environnemental ISO 14001, ….) et son évaluation « Silver » par EcoVadis en témoignent. Ugitech s’est défini des standards de bonne gestion de l'hygiène et des locaux en atelier en lien avec les principes de l'amélioration continue (aka 5S dans le World Class Manufacturing). Europe Depuis de très nombreuses années, les aciers inoxydables se sont révélés être un matériau de choix pour les applications au contact avec des denrées alimentaires ainsi qu'avec l’eau potable. Le Conseil de l'Europe a émis des recommandations dans sa résolution CM/Res(2013)9. Le Guide EDQM « Métaux et alliages constitutifs des matériaux et objets pour contact alimentaire » préconise des limites de libération de certains éléments chimiques. Le Conseil recommande aux acteurs mettant sur le marché des objets finaux entrant en contact avec des denrées alimentaires de réaliser les essais correspondants. Le Règlement 1935/2004/CE ne spécifie aucune contrainte spécifique applicable aux aciers inoxydables. > Nous certifions que les aciers inoxydables fournis par Ugitech sont conformes aux exigences du Ranlement du Parlement Européen n° 1935/2004/CE et 2023/2006/CE sur les matériaux et articles",
+        "material": "S31803",
+        "quantity": null,
+        "date": "29/05/1997"
+      },
+      "error": null
+    },
+    {
+      "document_name": "Real_WeldingPlan_FR_Cahier_Soudage_Filtres",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\raw\\extra\\scanned_docs\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres.pdf",
+      "success": true,
+      "stages": {
+        "preprocessing": true,
+        "ocr": true,
+        "extraction": true
+      },
+      "outputs": {
+        "page_count": 24,
+        "preprocessed_pages": [
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p01.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p02.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p03.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p04.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p05.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p06.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p07.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p08.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p09.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p10.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p11.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p12.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p13.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p14.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p15.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p16.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p17.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p18.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p19.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p20.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p21.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p22.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p23.png",
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Real_WeldingPlan_FR_Cahier_Soudage_Filtres_p24.png"
+        ],
+        "avg_ocr_confidence": 83.09,
+        "total_text_length": 37884
+      },
+      "extracted_entities": {
+        "project_id": "PO 1032",
+        "supplier": "CAHIER DE SOUDAGE FILTRES SEPARATEURS N° Commande / Order n°: 00CD5528 N° Document / Dcoument n° : 5528 — 16 - 100 Page-Sheet: 1/ Rev.B",
+        "material": "S355k2G3",
+        "quantity": "32 mm",
+        "date": "02/12/1997"
+      },
+      "error": null
+    },
+    {
+      "document_name": "Synthetic_MaterialCert_FR_01",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\raw\\extra\\digital_pdfs\\Synthetic_MaterialCert_FR_01.pdf",
+      "success": true,
+      "stages": {
+        "preprocessing": true,
+        "ocr": true,
+        "extraction": true
+      },
+      "outputs": {
+        "page_count": 1,
+        "preprocessed_pages": [
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Synthetic_MaterialCert_FR_01_p01.png"
+        ],
+        "avg_ocr_confidence": 100.0,
+        "total_text_length": 631
+      },
+      "extracted_entities": {
+        "project_id": "PO-39290",
+        "supplier": "Aubry Aciéries",
+        "material": "Monel 400",
+        "quantity": "32.88 pcs",
+        "date": "13/01/2024"
+      },
+      "error": null
+    },
+    {
+      "document_name": "Synthetic_MaterialCert_FR_02",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\raw\\used\\digital_pdfs\\Synthetic_MaterialCert_FR_02.pdf",
+      "success": true,
+      "stages": {
+        "preprocessing": true,
+        "ocr": true,
+        "extraction": true
+      },
+      "outputs": {
+        "page_count": 1,
+        "preprocessed_pages": [
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Synthetic_MaterialCert_FR_02_p01.png"
+        ],
+        "avg_ocr_confidence": 100.0,
+        "total_text_length": 634
+      },
+      "extracted_entities": {
+        "project_id": "PO-40824",
+        "supplier": "Meyer Aciéries",
+        "material": "SS 304",
+        "quantity": "30.94 lbs",
+        "date": "02/09/2025"
+      },
+      "error": null
+    },
+    {
+      "document_name": "Synthetic_WeldingPlan_FR_01",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\raw\\used\\digital_pdfs\\Synthetic_WeldingPlan_FR_01.pdf",
+      "success": true,
+      "stages": {
+        "preprocessing": true,
+        "ocr": true,
+        "extraction": true
+      },
+      "outputs": {
+        "page_count": 1,
+        "preprocessed_pages": [
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Synthetic_WeldingPlan_FR_01_p01.png"
+        ],
+        "avg_ocr_confidence": 100.0,
+        "total_text_length": 558
+      },
+      "extracted_entities": {
+        "project_id": "WO-98154",
+        "supplier": "PLAN DE SOUDAGE",
+        "material": "PVC Sch 80",
+        "quantity": "287 pcs",
+        "date": "18/03/2024"
+      },
+      "error": null
+    },
+    {
+      "document_name": "Synthetic_WeldingPlan_FR_02",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\raw\\used\\digital_pdfs\\Synthetic_WeldingPlan_FR_02.pdf",
+      "success": true,
+      "stages": {
+        "preprocessing": true,
+        "ocr": true,
+        "extraction": true
+      },
+      "outputs": {
+        "page_count": 1,
+        "preprocessed_pages": [
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Synthetic_WeldingPlan_FR_02_p01.png"
+        ],
+        "avg_ocr_confidence": 100.0,
+        "total_text_length": 550
+      },
+      "extracted_entities": {
+        "project_id": "WO-22299",
+        "supplier": "PLAN DE SOUDAGE",
+        "material": "A36",
+        "quantity": "456 units",
+        "date": "06/12/2024"
+      },
+      "error": null
+    },
+    {
+      "document_name": "Synthetic_FabricationSheet_FR_01",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\raw\\used\\digital_pdfs\\Synthetic_FabricationSheet_FR_01.pdf",
+      "success": true,
+      "stages": {
+        "preprocessing": true,
+        "ocr": true,
+        "extraction": true
+      },
+      "outputs": {
+        "page_count": 1,
+        "preprocessed_pages": [
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Synthetic_FabricationSheet_FR_01_p01.png"
+        ],
+        "avg_ocr_confidence": 100.0,
+        "total_text_length": 854
+      },
+      "extracted_entities": {
+        "project_id": "PO-9326",
+        "supplier": "Laurent et Fils",
+        "material": "6061-T6",
+        "quantity": "149.58 lbs",
+        "date": "14/09/2024"
+      },
+      "error": null
+    },
+    {
+      "document_name": "Synthetic_FabricationSheet_FR_02",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\raw\\extra\\digital_pdfs\\Synthetic_FabricationSheet_FR_02.pdf",
+      "success": true,
+      "stages": {
+        "preprocessing": true,
+        "ocr": true,
+        "extraction": true
+      },
+      "outputs": {
+        "page_count": 1,
+        "preprocessed_pages": [
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Synthetic_FabricationSheet_FR_02_p01.png"
+        ],
+        "avg_ocr_confidence": 100.0,
+        "total_text_length": 837
+      },
+      "extracted_entities": {
+        "project_id": "WLD-67540",
+        "supplier": "Gillet SA",
+        "material": "SS 304",
+        "quantity": "106 lbs",
+        "date": "08/03/2026"
+      },
+      "error": null
+    },
+    {
+      "document_name": "Synthetic_InspectionReport_FR_01",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\raw\\extra\\digital_pdfs\\Synthetic_InspectionReport_FR_01.pdf",
+      "success": true,
+      "stages": {
+        "preprocessing": true,
+        "ocr": true,
+        "extraction": true
+      },
+      "outputs": {
+        "page_count": 1,
+        "preprocessed_pages": [
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Synthetic_InspectionReport_FR_01_p01.png"
+        ],
+        "avg_ocr_confidence": 100.0,
+        "total_text_length": 745
+      },
+      "extracted_entities": {
+        "project_id": "PO-18172",
+        "supplier": "Lemoine SA",
+        "material": "6061-T6",
+        "quantity": "220.39 pcs",
+        "date": "30/01/2024"
+      },
+      "error": null
+    },
+    {
+      "document_name": "Synthetic_InspectionReport_FR_02",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\raw\\used\\digital_pdfs\\Synthetic_InspectionReport_FR_02.pdf",
+      "success": true,
+      "stages": {
+        "preprocessing": true,
+        "ocr": true,
+        "extraction": true
+      },
+      "outputs": {
+        "page_count": 1,
+        "preprocessed_pages": [
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Synthetic_InspectionReport_FR_02_p01.png"
+        ],
+        "avg_ocr_confidence": 100.0,
+        "total_text_length": 807
+      },
+      "extracted_entities": {
+        "project_id": "PRJ-30451",
+        "supplier": null,
+        "material": "SS 304",
+        "quantity": "241 tons",
+        "date": "03/01/2026"
+      },
+      "error": null
+    },
+    {
+      "document_name": "Synthetic_Invoice_FR_01",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\raw\\extra\\digital_pdfs\\Synthetic_Invoice_FR_01.pdf",
+      "success": true,
+      "stages": {
+        "preprocessing": true,
+        "ocr": true,
+        "extraction": true
+      },
+      "outputs": {
+        "page_count": 1,
+        "preprocessed_pages": [
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Synthetic_Invoice_FR_01_p01.png"
+        ],
+        "avg_ocr_confidence": 100.0,
+        "total_text_length": 701
+      },
+      "extracted_entities": {
+        "project_id": "FAB-71545",
+        "supplier": "Moreau SARL",
+        "material": "Monel 400",
+        "quantity": "381 tons",
+        "date": "22/03/2025"
+      },
+      "error": null
+    },
+    {
+      "document_name": "Synthetic_Invoice_FR_02",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\raw\\used\\digital_pdfs\\Synthetic_Invoice_FR_02.pdf",
+      "success": true,
+      "stages": {
+        "preprocessing": true,
+        "ocr": true,
+        "extraction": true
+      },
+      "outputs": {
+        "page_count": 1,
+        "preprocessed_pages": [
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Synthetic_Invoice_FR_02_p01.png"
+        ],
+        "avg_ocr_confidence": 100.0,
+        "total_text_length": 690
+      },
+      "extracted_entities": {
+        "project_id": "WLD-4552",
+        "supplier": "Leconte SARL",
+        "material": "6061-T6",
+        "quantity": "108.01 kg",
+        "date": "23/01/2025"
+      },
+      "error": null
+    },
+    {
+      "document_name": "Synthetic_MaterialCert_FR_01_scanned",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\raw\\extra\\scanned_docs\\Synthetic_MaterialCert_FR_01_scanned.pdf",
+      "success": true,
+      "stages": {
+        "preprocessing": true,
+        "ocr": true,
+        "extraction": true
+      },
+      "outputs": {
+        "page_count": 1,
+        "preprocessed_pages": [
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Synthetic_MaterialCert_FR_01_scanned_p01.png"
+        ],
+        "avg_ocr_confidence": 42.71,
+        "total_text_length": 526
+      },
+      "extracted_entities": {
+        "project_id": null,
+        "supplier": null,
+        "material": "A36",
+        "quantity": "127 kg",
+        "date": null
+      },
+      "error": null
+    },
+    {
+      "document_name": "Synthetic_WeldingPlan_FR_01_scanned",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\raw\\extra\\scanned_docs\\Synthetic_WeldingPlan_FR_01_scanned.pdf",
+      "success": true,
+      "stages": {
+        "preprocessing": true,
+        "ocr": true,
+        "extraction": true
+      },
+      "outputs": {
+        "page_count": 1,
+        "preprocessed_pages": [
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Synthetic_WeldingPlan_FR_01_scanned_p01.png"
+        ],
+        "avg_ocr_confidence": 35.27,
+        "total_text_length": 174
+      },
+      "extracted_entities": {
+        "project_id": null,
+        "supplier": null,
+        "material": null,
+        "quantity": null,
+        "date": null
+      },
+      "error": null
+    },
+    {
+      "document_name": "Synthetic_InspectionReport_FR_01_scanned",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\raw\\extra\\scanned_docs\\Synthetic_InspectionReport_FR_01_scanned.pdf",
+      "success": true,
+      "stages": {
+        "preprocessing": true,
+        "ocr": true,
+        "extraction": true
+      },
+      "outputs": {
+        "page_count": 1,
+        "preprocessed_pages": [
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Synthetic_InspectionReport_FR_01_scanned_p01.png"
+        ],
+        "avg_ocr_confidence": 49.52,
+        "total_text_length": 514
+      },
+      "extracted_entities": {
+        "project_id": null,
+        "supplier": ": “Report Nou IR- 64387, nu Î N° Projet: . So \"Date inspections,” 7 É * Fôurisseur: ; Wagner Le Golf SA, Fret . : _ ‘Inspecteur: = we Matière: | ‘Carbon Steel A36 Re “Quant | ‘ Constats d' Inspection . | ae : Fe an oe Résiltat . oe a] Contrôle dimensionnel selon . Eh ss er CONFÔRME : “ | DS . Bet Contrélevisuel dés soudures (AWS D Di. 1) | CONFORME ù .CONFORME | T'CONFORME. re | CONFORME: | cut, Résultat globa = arta mineurs ci-dessus. :! meet * Apptouyé par. Laure Berend | ser ets . Signature: a == ie hit CU",
+        "material": "A36",
+        "quantity": null,
+        "date": null
+      },
+      "error": null
+    },
+    {
+      "document_name": "Synthetic_Invoice_FR_01_scanned",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\raw\\extra\\scanned_docs\\Synthetic_Invoice_FR_01_scanned.pdf",
+      "success": true,
+      "stages": {
+        "preprocessing": true,
+        "ocr": true,
+        "extraction": true
+      },
+      "outputs": {
+        "page_count": 1,
+        "preprocessed_pages": [
+          "D:\\AI-Document-Intelligence-System\\data\\processed\\Synthetic_Invoice_FR_01_scanned_p01.png"
+        ],
+        "avg_ocr_confidence": 0.0,
+        "total_text_length": 0
+      },
+      "extracted_entities": {
+        "project_id": null,
+        "supplier": null,
+        "material": null,
+        "quantity": null,
+        "date": null
+      },
+      "error": null
+    }
+  ]
+}

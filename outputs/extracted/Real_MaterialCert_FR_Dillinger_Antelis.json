@@ -1,0 +1,261 @@
+{
+  "document_name": "Real_MaterialCert_FR_Dillinger_Antelis",
+  "extracted_entities": {
+    "project_id": null,
+    "supplier": "NO. DE COULEE / SIGLE DU PRODUCTEUR / NO. TOLE MERE-NO. D'ESSAI",
+    "material": "S355K2+N",
+    "quantity": null,
+    "date": "26/11/2015"
+  },
+  "all_candidates": [
+    {
+      "field": "supplier",
+      "value": "NO. DE COULEE / SIGLE DU PRODUCTEUR / NO. TOLE MERE-NO. D'ESSAI",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "NO. DE COULEE / SIGLE DU PRODUCTEUR / NO. TOLE MERE-NO. D'ESSAI"
+    },
+    {
+      "field": "supplier",
+      "value": "NO. DE COULEE / SIGLE DU PRODUCTEUR / NO. TOLE MERE-NO. D'ESSAI",
+      "confidence": 0.8,
+      "source": "trigger_producteur",
+      "raw_text": "NO. DE COULEE / SIGLE DU PRODUCTEUR / NO. TOLE MERE-NO. D'ESSAI"
+    },
+    {
+      "field": "supplier",
+      "value": "NO. DE COULEE / SIGLE DU PRODUCTEUR / NO. TOLE MERE-NO. D'ESSAI",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "NO. DE COULEE / SIGLE DU PRODUCTEUR / NO. TOLE MERE-NO. D'ESSAI"
+    },
+    {
+      "field": "supplier",
+      "value": "CONTROLE DE MARQUAGE, SURFACE, FORME ET DIMENSIONS: LES RESULTATS REPONDENT AUX EXIGENCES.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "CONTROLE DE MARQUAGE, SURFACE, FORME ET DIMENSIONS: LES RESULTATS REPONDENT AUX EXIGENCES."
+    },
+    {
+      "field": "supplier",
+      "value": "CONTROLE DE MARQUAGE, SURFACE, FORME ET DIMENSIONS: LES RESULTATS REPONDENT AUX EXIGENCES.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "CONTROLE DE MARQUAGE, SURFACE, FORME ET DIMENSIONS: LES RESULTATS REPONDENT AUX EXIGENCES."
+    },
+    {
+      "field": "material",
+      "value": "S355K2+N",
+      "confidence": 0.85,
+      "source": "steel_grade",
+      "raw_text": "S355K2+N"
+    },
+    {
+      "field": "material",
+      "value": "S355K2+N",
+      "confidence": 0.85,
+      "source": "steel_grade",
+      "raw_text": "S355K2+N"
+    },
+    {
+      "field": "material",
+      "value": "S355K2+N",
+      "confidence": 0.85,
+      "source": "steel_grade",
+      "raw_text": "S355K2+N"
+    },
+    {
+      "field": "material",
+      "value": "A02",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A02"
+    },
+    {
+      "field": "material",
+      "value": "A05",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A05"
+    },
+    {
+      "field": "material",
+      "value": "A06",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A06"
+    },
+    {
+      "field": "material",
+      "value": "A10",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A10"
+    },
+    {
+      "field": "material",
+      "value": "A07",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A07"
+    },
+    {
+      "field": "material",
+      "value": "A08",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A08"
+    },
+    {
+      "field": "material",
+      "value": "A03",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A03"
+    },
+    {
+      "field": "material",
+      "value": "A01",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A01"
+    },
+    {
+      "field": "material",
+      "value": "A07",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A07"
+    },
+    {
+      "field": "material",
+      "value": "A09",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A09"
+    },
+    {
+      "field": "material",
+      "value": "A04",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A04"
+    },
+    {
+      "field": "material",
+      "value": "A02",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A02"
+    },
+    {
+      "field": "material",
+      "value": "A05",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A05"
+    },
+    {
+      "field": "material",
+      "value": "A06",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A06"
+    },
+    {
+      "field": "material",
+      "value": "A10",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A10"
+    },
+    {
+      "field": "material",
+      "value": "A07",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A07"
+    },
+    {
+      "field": "material",
+      "value": "A08",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A08"
+    },
+    {
+      "field": "material",
+      "value": "A03",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A03"
+    },
+    {
+      "field": "material",
+      "value": "A01",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A01"
+    },
+    {
+      "field": "material",
+      "value": "A07",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A07"
+    },
+    {
+      "field": "material",
+      "value": "A1",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A1"
+    },
+    {
+      "field": "material",
+      "value": "A04",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A04"
+    },
+    {
+      "field": "material",
+      "value": "B99 Description du produit",
+      "confidence": 0.7,
+      "source": "trigger_description",
+      "raw_text": "B01-B99 Description du produit"
+    },
+    {
+      "field": "date",
+      "value": "26/11/2015",
+      "confidence": 0.85,
+      "source": "eu_dot",
+      "raw_text": "26.11.15"
+    },
+    {
+      "field": "date",
+      "value": "27/11/2015",
+      "confidence": 0.85,
+      "source": "eu_dot",
+      "raw_text": "27.11.15"
+    },
+    {
+      "field": "date",
+      "value": "26/11/2015",
+      "confidence": 0.85,
+      "source": "eu_dot",
+      "raw_text": "26.11.15"
+    },
+    {
+      "field": "date",
+      "value": "27/11/2015",
+      "confidence": 0.85,
+      "source": "eu_dot",
+      "raw_text": "27.11.15"
+    }
+  ],
+  "notes": [
+    "Multiple suppliers found (5), selected highest confidence",
+    "No project ID found"
+  ]
+}

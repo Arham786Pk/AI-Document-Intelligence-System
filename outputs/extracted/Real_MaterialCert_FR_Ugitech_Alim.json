@@ -1,0 +1,380 @@
+{
+  "document_name": "Real_MaterialCert_FR_Ugitech_Alim",
+  "extracted_entities": {
+    "project_id": null,
+    "supplier": "TT CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEG VAT code FR 894 10436158 Ugitech Italia Via G. Di Vittorio 34-36 - IT 20068 Peschiera Borromeo (Ml) EEC VAT code IT 10810010156 Ugitech TFA Srl Via Friuli 2 - IT 31020 San Vendemiano (TV) Contact EEC VAT code IT 08137100965 QMS.ugitech@ugitech.com ALIMENTARITE - ATTESTATION des articles en acier inoxydable et alliage de UGITECH SA, UGITECH ITALIA & UGITECH TFA Lorsque la demande en est faite, Ugitech fournit des nuances d'acier inoxydable compatibles avec le contact alimentaire. Ugitech ne fabrique pas de matériels en contact avec les aliments. La matière première fournie par Ugitech se situe en amont de nombreuses transformations. En général, l’article Ugitech n’est pas directement soumis aux obligations des réglementations du marché final. A ce titre, Ugitech rappelle que ce sont les produits finis qui doivent faire l'objet de caractérisations particulières telles que des tests de libération (migration). À charge du transformateur final de réaliser les tests requis dans le respect des conditions spécifiques demandées. Toutefois, à toute bonne fin, Ugitech rappelle que la surface de l'acier inoxydable de sa fourniture peut être nettoyée par ses clients de façon à garantir l'élimination de toute trace éventuelle de substance pouvant nuire à l'application visée. D'une façon générale, Ugitech est impliquée dans une démarche en responsabilité sociale. Ses nombreuses certifications (Médical ISO 13485, Environnemental ISO 14001, ….) et son évaluation « Silver » par EcoVadis en témoignent. Ugitech s’est défini des standards de bonne gestion de l'hygiène et des locaux en atelier en lien avec les principes de l'amélioration continue (aka 5S dans le World Class Manufacturing). Europe Depuis de très nombreuses années, les aciers inoxydables se sont révélés être un matériau de choix pour les applications au contact avec des denrées alimentaires ainsi qu'avec l’eau potable. Le Conseil de l'Europe a émis des recommandations dans sa résolution CM/Res(2013)9. Le Guide EDQM « Métaux et alliages constitutifs des matériaux et objets pour contact alimentaire » préconise des limites de libération de certains éléments chimiques. Le Conseil recommande aux acteurs mettant sur le marché des objets finaux entrant en contact avec des denrées alimentaires de réaliser les essais correspondants. Le Règlement 1935/2004/CE ne spécifie aucune contrainte spécifique applicable aux aciers inoxydables. > Nous certifions que les aciers inoxydables fournis par Ugitech sont conformes aux exigences du Ranlement du Parlement Européen n° 1935/2004/CE et 2023/2006/CE sur les matériaux et articles",
+    "material": "S31803",
+    "quantity": null,
+    "date": "29/05/1997"
+  },
+  "all_candidates": [
+    {
+      "field": "supplier",
+      "value": "TT CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEG VAT code FR 894 10436158 Ugitech Italia Via G. Di Vittorio 34-36 - IT 20068 Peschiera Borromeo (Ml) EEC VAT code IT 10810010156 Ugitech TFA Srl Via Friuli 2 - IT 31020 San Vendemiano (TV) Contact EEC VAT code IT 08137100965 QMS.ugitech@ugitech.com ALIMENTARITE - ATTESTATION des articles en acier inoxydable et alliage de UGITECH SA, UGITECH ITALIA & UGITECH TFA Lorsque la demande en est faite, Ugitech fournit des nuances d'acier inoxydable compatibles avec le contact alimentaire. Ugitech ne fabrique pas de matériels en contact avec les aliments. La matière première fournie par Ugitech se situe en amont de nombreuses transformations. En général, l’article Ugitech n’est pas directement soumis aux obligations des réglementations du marché final. A ce titre, Ugitech rappelle que ce sont les produits finis qui doivent faire l'objet de caractérisations particulières telles que des tests de libération (migration). À charge du transformateur final de réaliser les tests requis dans le respect des conditions spécifiques demandées. Toutefois, à toute bonne fin, Ugitech rappelle que la surface de l'acier inoxydable de sa fourniture peut être nettoyée par ses clients de façon à garantir l'élimination de toute trace éventuelle de substance pouvant nuire à l'application visée. D'une façon générale, Ugitech est impliquée dans une démarche en responsabilité sociale. Ses nombreuses certifications (Médical ISO 13485, Environnemental ISO 14001, ….) et son évaluation « Silver » par EcoVadis en témoignent. Ugitech s’est défini des standards de bonne gestion de l'hygiène et des locaux en atelier en lien avec les principes de l'amélioration continue (aka 5S dans le World Class Manufacturing). Europe Depuis de très nombreuses années, les aciers inoxydables se sont révélés être un matériau de choix pour les applications au contact avec des denrées alimentaires ainsi qu'avec l’eau potable. Le Conseil de l'Europe a émis des recommandations dans sa résolution CM/Res(2013)9. Le Guide EDQM « Métaux et alliages constitutifs des matériaux et objets pour contact alimentaire » préconise des limites de libération de certains éléments chimiques. Le Conseil recommande aux acteurs mettant sur le marché des objets finaux entrant en contact avec des denrées alimentaires de réaliser les essais correspondants. Le Règlement 1935/2004/CE ne spécifie aucune contrainte spécifique applicable aux aciers inoxydables. > Nous certifions que les aciers inoxydables fournis par Ugitech sont conformes aux exigences du Ranlement du Parlement Européen n° 1935/2004/CE et 2023/2006/CE sur les matériaux et articles",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "TT CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEG VAT code FR 894 10436158 Ugitech Italia Via "
+    },
+    {
+      "field": "supplier",
+      "value": "dt RS CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEC VAT code FR 894 10436158 Ugitech Italia Via G. Di Vittorio 34-36 - IT 20068 Peschiera Borromeo (Ml) EEC VAT code IT 10810010156 Ugitech TFA Srl Via Friuli 2 - IT 31020 San Vendemiano (TV) Contact EEC VAT code IT 08137100965 QMS.ugitech@ugitech.com ALIMENTARITE - ATTESTATION des articles en acier inoxydable et alliage de UGITECH SA, UGITECH ITALIA & UGITECH TFA France La majorité des aciers inoxydables fournis par Ugitech sont conformes à la réglementation selon le tableau en annexe. Pour toute autre nuance inox ne figurant pas dans le tableau : Vérifier sa composition chimique sur le certificat matière type 3.1. Elle est définie par la norme EN 10204. L’acier doit respecter la règle suivante : Cr 2 13%, Mo, Ti, Al et Cu <4% pour chacun, Ta, Nb et Zr <1% pour chacun. Hormis Fe et les éléments ci-dessus, l'acier peut contenir du Ni et Mn. > Nous certifions que les aciers inoxydables fournis par Ugitech et destinés au contact alimentaire sont conformes - aux arrêtés - du 29 mai 1997 (aciers inoxydables destinés au contact de l'eau potable) - du 13 janvier 1976 (aciers inoxydables destinés au contact alimentaire) - aux dispositions de la norme NFA 36-711 de avril 2002 « Aciers hors emballage : Aciers inoxydables destinés a entrer au contact des denrées, produits et boissons pour l'alimentation de l'homme et des animaux » Les conditions d’usage des aciers inoxydables en contact avec alimentaire sont définis dans la fiche MCDA N°1 « Aptitude au contact alimentaire des métaux et alliages destinés a entrer en contact avec des denrées alimentaires — Fiche N°1 : Aciers inoxydables non revétus » établie par la DGCCREF. ltalie Dans le cadre du MOCA (Materiali ed Oggetti a Contatto con gli Alimenti), le gouvernement italien a publié une liste de nuances inox conformes au contact alimentaire dans le DECRETO 11 novembre 2013. n. 140 *. Cette liste est dite « liste positive » (Allegato | de l’articolo 2, comma 1 du 16 décembre a ———— 2013). Elle a été révisée le 25 novembre 2022 selon le DECRETO 25 novembre 2022, n.208** *Regolamento recante aggiornamento al decreto del Ministro della sanità 21 marzo 1973 recante: \"Disciplina igienica degli imballaggi, recipienti, utensili destinati a venire a contatto con le sostanze alimentari o con sostanze d'uso personale\" limitatamente agli acciai inossidabili. (13G00184 - GU Serie Generale n.294 del 1 6-12-2013) “Regolamento recante l’aggiornamento al decreto de! Ministro della sanita 21 marzo 1973,recante: «Disciplina igienica degli imballaggi,recipienti, utensili, destinati a venire a contatto con le sostanze alimentari o con sostanze d’uso personale», limitatamente agli acciai inossidabili. (23G00009) S Nous certifions que tout acier inoxydable d’Ugitech est conforme pour le contact alimentaire et/ou",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "dt RS CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEC VAT code FR 894 10436158 Ugitech Italia V"
+    },
+    {
+      "field": "supplier",
+      "value": "dt RS CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEC VAT code FR 894 10436158 Ugitech Italia Via G. Di Vittorio 34-36 - IT 20068 Peschiera Borromeo (Ml) EEC VAT code IT 10810010156 Ugitech TFA Srl Via Friuli 2 - IT 31020 San Vendemiano (TV) Contact EEC VAT code IT 08137100965 QMS.ugitech@ugitech.com ALIMENTARITE - ATTESTATION des articles en acier inoxydable et alliage de UGITECH SA, UGITECH ITALIA & UGITECH TFA France La majorité des aciers inoxydables fournis par Ugitech sont conformes à la réglementation selon le tableau en annexe. Pour toute autre nuance inox ne figurant pas dans le tableau : Vérifier sa composition chimique sur le certificat matière type 3.1. Elle est définie par la norme EN 10204. L’acier doit respecter la règle suivante : Cr 2 13%, Mo, Ti, Al et Cu <4% pour chacun, Ta, Nb et Zr <1% pour chacun. Hormis Fe et les éléments ci-dessus, l'acier peut contenir du Ni et Mn. > Nous certifions que les aciers inoxydables fournis par Ugitech et destinés au contact alimentaire sont conformes - aux arrêtés - du 29 mai 1997 (aciers inoxydables destinés au contact de l'eau potable) - du 13 janvier 1976 (aciers inoxydables destinés au contact alimentaire) - aux dispositions de la norme NFA 36-711 de avril 2002 « Aciers hors emballage : Aciers inoxydables destinés a entrer au contact des denrées, produits et boissons pour l'alimentation de l'homme et des animaux » Les conditions d’usage des aciers inoxydables en contact avec alimentaire sont définis dans la fiche MCDA N°1 « Aptitude au contact alimentaire des métaux et alliages destinés a entrer en contact avec des denrées alimentaires — Fiche N°1 : Aciers inoxydables non revétus » établie par la DGCCREF. ltalie Dans le cadre du MOCA (Materiali ed Oggetti a Contatto con gli Alimenti), le gouvernement italien a publié une liste de nuances inox conformes au contact alimentaire dans le DECRETO 11 novembre 2013. n. 140 *. Cette liste est dite « liste positive » (Allegato | de l’articolo 2, comma 1 du 16 décembre a ———— 2013). Elle a été révisée le 25 novembre 2022 selon le DECRETO 25 novembre 2022, n.208** *Regolamento recante aggiornamento al decreto del Ministro della sanità 21 marzo 1973 recante: \"Disciplina igienica degli imballaggi, recipienti, utensili destinati a venire a contatto con le sostanze alimentari o con sostanze d'uso personale\" limitatamente agli acciai inossidabili. (13G00184 - GU Serie Generale n.294 del 1 6-12-2013) “Regolamento recante l’aggiornamento al decreto de! Ministro della sanita 21 marzo 1973,recante: «Disciplina igienica degli imballaggi,recipienti, utensili, destinati a venire a contatto con le sostanze alimentari o con sostanze d’uso personale», limitatamente agli acciai inossidabili. (23G00009) S Nous certifions que tout acier inoxydable d’Ugitech est conforme pour le contact alimentaire et/ou",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "dt RS CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEC VAT code FR 894 10436158 Ugitech Italia V"
+    },
+    {
+      "field": "supplier",
+      "value": "D Deer CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEC VAT code FR 894 10436158 Ugitech Italia Via G. Di Vittorio 34-36 - IT 20068 Peschiera Borromeo (Ml) EEC VAT code IT 10810010156 Ugitech TFA Srl Via Friuli 2 - IT 31020 San Vendemiano (TV) Contact ; EEC VAT code IT 08137100965 QMS.ugitech@ugitech.com ALIMENTARITE - ATTESTATION des articles en acier inoxydable et alliage de UGITECH SA, UGITECH ITALIA & UGITECH TFA Belgique La liste de la majorité des aciers inoxydables fournis par Ugitech sont conformes à la réglementation selon le tableau en annexe. Pour toute autre nuance inox ne figurant pas dans le tableau : Vérifier sa composition chimique sur le certificat matière type 3.1. Elle est définie par la norme EN 10204. L’acier doit respecter la règle suivante : Cr z 13%, Mo, Ti, Al et Cu <4% pour chacun, Ta, Nb et Zr <1% pour chacun. Hormis Fe et les éléments ci-dessus, l'acier peut contenir du Ni et Mn. > Nous certifions que les aciers inoxydables fournis par Ugitech et destinés au contact alimentaire sont conformes à l’Arrété royal du 17 février 2021 publié le 15 mars 2021 concernant les matériaux et objets en métal et alliage destinés à entrer en contact avec les denrées alimentaires. Par ailleurs cette attestation vaut information en réponse à l'exigence de déclaration de l’article 6 de l'arrêté du 17 février 2021 dans le format défini au chapitre II. Conformément à l'article 6 et par dérogation pour les produits qui ne sont pas encore considérés comme produit final, seuls les points 1, 2, 3 et 5 de la déclaration doivent figurer a minima. En particulier, la définition des spécifications concernant l'utilisation du matériau ou de l'objet (alinéa 7) telles que : - type(s) de denrée(s) alimentaire(s) destinée(s) à être mise(s) en contact avec ceux-ci ; - durée et température du traitement et de l'entreposage au contact de la denrée alimentaire ; - rapport surface/volume en contact avec la denrée alimentaire utilisé pour établir la conformité du matériau ou de l'objet, appartient à l'utilisateur intermédiaire ou final de nos articles en fonction des usages auxquels il les destine.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "D Deer CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEC VAT code FR 894 10436158 Ugitech Italia "
+    },
+    {
+      "field": "supplier",
+      "value": "D Deer CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEC VAT code FR 894 10436158 Ugitech Italia Via G. Di Vittorio 34-36 - IT 20068 Peschiera Borromeo (Ml) EEC VAT code IT 10810010156 Ugitech TFA Srl Via Friuli 2 - IT 31020 San Vendemiano (TV) Contact ; EEC VAT code IT 08137100965 QMS.ugitech@ugitech.com ALIMENTARITE - ATTESTATION des articles en acier inoxydable et alliage de UGITECH SA, UGITECH ITALIA & UGITECH TFA Belgique La liste de la majorité des aciers inoxydables fournis par Ugitech sont conformes à la réglementation selon le tableau en annexe. Pour toute autre nuance inox ne figurant pas dans le tableau : Vérifier sa composition chimique sur le certificat matière type 3.1. Elle est définie par la norme EN 10204. L’acier doit respecter la règle suivante : Cr z 13%, Mo, Ti, Al et Cu <4% pour chacun, Ta, Nb et Zr <1% pour chacun. Hormis Fe et les éléments ci-dessus, l'acier peut contenir du Ni et Mn. > Nous certifions que les aciers inoxydables fournis par Ugitech et destinés au contact alimentaire sont conformes à l’Arrété royal du 17 février 2021 publié le 15 mars 2021 concernant les matériaux et objets en métal et alliage destinés à entrer en contact avec les denrées alimentaires. Par ailleurs cette attestation vaut information en réponse à l'exigence de déclaration de l’article 6 de l'arrêté du 17 février 2021 dans le format défini au chapitre II. Conformément à l'article 6 et par dérogation pour les produits qui ne sont pas encore considérés comme produit final, seuls les points 1, 2, 3 et 5 de la déclaration doivent figurer a minima. En particulier, la définition des spécifications concernant l'utilisation du matériau ou de l'objet (alinéa 7) telles que : - type(s) de denrée(s) alimentaire(s) destinée(s) à être mise(s) en contact avec ceux-ci ; - durée et température du traitement et de l'entreposage au contact de la denrée alimentaire ; - rapport surface/volume en contact avec la denrée alimentaire utilisé pour établir la conformité du matériau ou de l'objet, appartient à l'utilisateur intermédiaire ou final de nos articles en fonction des usages auxquels il les destine.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "D Deer CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEC VAT code FR 894 10436158 Ugitech Italia "
+    },
+    {
+      "field": "supplier",
+      "value": "D Deer CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEC VAT code FR 894 10436158 Ugitech Italia Via G. Di Vittorio 34-36 - IT 20068 Peschiera Borromeo (Ml) EEC VAT code IT 10810010156 Ugitech TFA Srl Via Friuli 2 - IT 31020 San Vendemiano (TV) Contact ; EEC VAT code IT 08137100965 QMS.ugitech@ugitech.com ALIMENTARITÉ - ATTESTATION des articles en acier inoxydable et alliage de UGITECH SA, UGITECH ITALIA & UGITECH TFA USA Selon les exigences de la F.D.A. (United States of America Food and Drug Administration), des normes NSF/ANSI 51 - 2012 “Food equipment materials” (§ 7.1) concernant les matériaux destinés au contact alimentaire et NSF/ANSI/CAN 61 — 2022 « Drinking water system components », les aciers inoxydables commercialisés par Ugitech et utilisés dans les équipements en contact avec la nourriture doivent étre du type des séries SAE 200, SAE 300 ou SAE 400. Lorsqu'ils sont utilisés dans une “food zone”, les aciers inoxydables doivent avoir au minimum 16% Cr. Les aciers inoxydables <16% Cr peuvent être utilisés pour la coutellerie, les lames ou applications similaires demandant un bord coupant, pourvu qu'ils soient durcis ou trempés par un traitement thermique approprié après soudure. Pour répondre favorablement aux exigences de la NSF/ANSI/CAN 61, les tests dépendent grandement de la forme et de l'utilisation des articles finaux réalisés sur la base de nos produits (impactant la surface de contact). Ceci dépend donc de la responsabilité du transformateur final de nos produits. Une liste de nuances d’aciers inoxydables commercialisées par Ugitech et reconnues comme satisfaisant à la NSF/ANSI/CAN 61 est présentée en annexe de cette attestation. Comme spécifié à l'article 1.4 de cette norme, les produits qui sont conformes aux autres standards NSF relatifs aux exigences pour la santé sont recevables pour les applications en lien avec l’eau potable sans nécessité d'évaluation supplémentaire selon la NSF/ANSI/CAN 61. > Nous certifions que les nuances d'acier inoxydable fournis par Ugitech listées sous leurs marques commerciales dans le tableau en annexe sont conformes aux exigences de la FDA. et alan NSF/ANSI 51 — 2012. NOM Etabli au nom d’Ugitech Fonction S & EFQM Date VISA' Signature",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "D Deer CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEC VAT code FR 894 10436158 Ugitech Italia "
+    },
+    {
+      "field": "supplier",
+      "value": "D Deer CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEC VAT code FR 894 10436158 Ugitech Italia Via G. Di Vittorio 34-36 - IT 20068 Peschiera Borromeo (Ml) EEC VAT code IT 10810010156 Ugitech TFA Srl Via Friuli 2 - IT 31020 San Vendemiano (TV) Contact ; EEC VAT code IT 08137100965 QMS.ugitech@ugitech.com ALIMENTARITÉ - ATTESTATION des articles en acier inoxydable et alliage de UGITECH SA, UGITECH ITALIA & UGITECH TFA USA Selon les exigences de la F.D.A. (United States of America Food and Drug Administration), des normes NSF/ANSI 51 - 2012 “Food equipment materials” (§ 7.1) concernant les matériaux destinés au contact alimentaire et NSF/ANSI/CAN 61 — 2022 « Drinking water system components », les aciers inoxydables commercialisés par Ugitech et utilisés dans les équipements en contact avec la nourriture doivent étre du type des séries SAE 200, SAE 300 ou SAE 400. Lorsqu'ils sont utilisés dans une “food zone”, les aciers inoxydables doivent avoir au minimum 16% Cr. Les aciers inoxydables <16% Cr peuvent être utilisés pour la coutellerie, les lames ou applications similaires demandant un bord coupant, pourvu qu'ils soient durcis ou trempés par un traitement thermique approprié après soudure. Pour répondre favorablement aux exigences de la NSF/ANSI/CAN 61, les tests dépendent grandement de la forme et de l'utilisation des articles finaux réalisés sur la base de nos produits (impactant la surface de contact). Ceci dépend donc de la responsabilité du transformateur final de nos produits. Une liste de nuances d’aciers inoxydables commercialisées par Ugitech et reconnues comme satisfaisant à la NSF/ANSI/CAN 61 est présentée en annexe de cette attestation. Comme spécifié à l'article 1.4 de cette norme, les produits qui sont conformes aux autres standards NSF relatifs aux exigences pour la santé sont recevables pour les applications en lien avec l’eau potable sans nécessité d'évaluation supplémentaire selon la NSF/ANSI/CAN 61. > Nous certifions que les nuances d'acier inoxydable fournis par Ugitech listées sous leurs marques commerciales dans le tableau en annexe sont conformes aux exigences de la FDA. et alan NSF/ANSI 51 — 2012. NOM Etabli au nom d’Ugitech Fonction S & EFQM Date VISA' Signature",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "D Deer CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEC VAT code FR 894 10436158 Ugitech Italia "
+    },
+    {
+      "field": "supplier",
+      "value": "CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEC VAT code FR 894 10436158 Ugitech Italia Via G. Di Vittorio 34-36 - IT 20068 Peschiera Borromeo (Ml) EEC VAT code IT 10810010156 Ugitech TFA Srl Via Friuli 2 - IT 31020 San Vendemiano (TV) EEC VAT code IT 08137100965 Fr ALIMENTARITÉ des articles en acier in UGITECH SA, UGITECH Contact QMS.ugitech@ugitech.com - ATTESTATION oxydable et alliage de ITALIA & UGITECH TFA ANNEXE : Aciers inoxydables Ugitech pour contact avec des denrées alimentaires et/ou avec l’eau potable. THEN | 801, 802 (1.4310, 1.4325 302HQ | 1.4567 | 803 1.4305 | BO< | [1.4301] | 8040, B05 | 1.4306, 17.4307, [1.4303 | B14 1.4401), [1.4436 | 8160, B16N_ (1.4404, 1.4435, [4432 | Type 31671, B21] 4571), 1.4541] | 829, 847 “11.4460, 1.4550 S31803, S32304, S32205, S32202 | 1.4462, 1.4362, 1.4062 | 410, 416 (14006), [1.4005 hog | 1.4021], (1.40288), 1.403 7° | Type 420 _ 1.4116, 1.4118, 11.4509 | 430,430\", 437 ff-4016, 1.4708, [1.4057 1.4510 | Type 630 © 517400 © | {1.4542 @ 1.4418 14598 | 1.4114 1.4106) {) Dans la nuance d’Ugitech, le silicium est compri (2) La nuance d’Ugitech est certifiée avec Cu <4%. mM™ LÉ Cl lt CAT FROM dNnNnO0oO 4 MMA A Les nuances de la « liste positive » italienne selon le DM208/2022 sont Surlignées en vert. is entre 1,7 et 2,0%. (3) Pour un usage alimentaire en France, certaines nuances doivent également répondre a la condition supplémentaire pour le chrome Cr 2 13%.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEC VAT code FR 894 10436158 Ugitech Italia Via G. "
+    },
+    {
+      "field": "supplier",
+      "value": "CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEC VAT code FR 894 10436158 Ugitech Italia Via G. Di Vittorio 34-36 - IT 20068 Peschiera Borromeo (Ml) EEC VAT code IT 10810010156 Ugitech TFA Srl Via Friuli 2 - IT 31020 San Vendemiano (TV) EEC VAT code IT 08137100965 Fr ALIMENTARITÉ des articles en acier in UGITECH SA, UGITECH Contact QMS.ugitech@ugitech.com - ATTESTATION oxydable et alliage de ITALIA & UGITECH TFA ANNEXE : Aciers inoxydables Ugitech pour contact avec des denrées alimentaires et/ou avec l’eau potable. THEN | 801, 802 (1.4310, 1.4325 302HQ | 1.4567 | 803 1.4305 | BO< | [1.4301] | 8040, B05 | 1.4306, 17.4307, [1.4303 | B14 1.4401), [1.4436 | 8160, B16N_ (1.4404, 1.4435, [4432 | Type 31671, B21] 4571), 1.4541] | 829, 847 “11.4460, 1.4550 S31803, S32304, S32205, S32202 | 1.4462, 1.4362, 1.4062 | 410, 416 (14006), [1.4005 hog | 1.4021], (1.40288), 1.403 7° | Type 420 _ 1.4116, 1.4118, 11.4509 | 430,430\", 437 ff-4016, 1.4708, [1.4057 1.4510 | Type 630 © 517400 © | {1.4542 @ 1.4418 14598 | 1.4114 1.4106) {) Dans la nuance d’Ugitech, le silicium est compri (2) La nuance d’Ugitech est certifiée avec Cu <4%. mM™ LÉ Cl lt CAT FROM dNnNnO0oO 4 MMA A Les nuances de la « liste positive » italienne selon le DM208/2022 sont Surlignées en vert. is entre 1,7 et 2,0%. (3) Pour un usage alimentaire en France, certaines nuances doivent également répondre a la condition supplémentaire pour le chrome Cr 2 13%.",
+      "confidence": 0.8,
+      "source": "trigger_from",
+      "raw_text": "CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEC VAT code FR 894 10436158 Ugitech Italia Via G. "
+    },
+    {
+      "field": "supplier",
+      "value": "CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEC VAT code FR 894 10436158 Ugitech Italia Via G. Di Vittorio 34-36 - IT 20068 Peschiera Borromeo (Ml) EEC VAT code IT 10810010156 Ugitech TFA Srl Via Friuli 2 - IT 31020 San Vendemiano (TV) EEC VAT code IT 08137100965 Fr ALIMENTARITÉ des articles en acier in UGITECH SA, UGITECH Contact QMS.ugitech@ugitech.com - ATTESTATION oxydable et alliage de ITALIA & UGITECH TFA ANNEXE : Aciers inoxydables Ugitech pour contact avec des denrées alimentaires et/ou avec l’eau potable. THEN | 801, 802 (1.4310, 1.4325 302HQ | 1.4567 | 803 1.4305 | BO< | [1.4301] | 8040, B05 | 1.4306, 17.4307, [1.4303 | B14 1.4401), [1.4436 | 8160, B16N_ (1.4404, 1.4435, [4432 | Type 31671, B21] 4571), 1.4541] | 829, 847 “11.4460, 1.4550 S31803, S32304, S32205, S32202 | 1.4462, 1.4362, 1.4062 | 410, 416 (14006), [1.4005 hog | 1.4021], (1.40288), 1.403 7° | Type 420 _ 1.4116, 1.4118, 11.4509 | 430,430\", 437 ff-4016, 1.4708, [1.4057 1.4510 | Type 630 © 517400 © | {1.4542 @ 1.4418 14598 | 1.4114 1.4106) {) Dans la nuance d’Ugitech, le silicium est compri (2) La nuance d’Ugitech est certifiée avec Cu <4%. mM™ LÉ Cl lt CAT FROM dNnNnO0oO 4 MMA A Les nuances de la « liste positive » italienne selon le DM208/2022 sont Surlignées en vert. is entre 1,7 et 2,0%. (3) Pour un usage alimentaire en France, certaines nuances doivent également répondre a la condition supplémentaire pour le chrome Cr 2 13%.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "CS 90100 - Avenue Paul Girod - 73403 UGINE CEDEX EEC VAT code FR 894 10436158 Ugitech Italia Via G. "
+    },
+    {
+      "field": "supplier",
+      "value": "ALIMENTARITE - ATTESTATION des articles en acier inoxydable et alliage de UGITECH SA",
+      "confidence": 0.6,
+      "source": "letterhead",
+      "raw_text": "ALIMENTARITE - ATTESTATION des articles en acier inoxydable et alliage de UGITECH SA"
+    },
+    {
+      "field": "supplier",
+      "value": "ALIMENTARITE - ATTESTATION des articles en acier inoxydable et alliage de UGITECH SA",
+      "confidence": 0.6,
+      "source": "letterhead",
+      "raw_text": "ALIMENTARITE - ATTESTATION des articles en acier inoxydable et alliage de UGITECH SA"
+    },
+    {
+      "field": "supplier",
+      "value": "ALIMENTARITE - ATTESTATION des articles en acier inoxydable et alliage de UGITECH SA",
+      "confidence": 0.6,
+      "source": "letterhead",
+      "raw_text": "ALIMENTARITE - ATTESTATION des articles en acier inoxydable et alliage de UGITECH SA"
+    },
+    {
+      "field": "material",
+      "value": "S31803",
+      "confidence": 0.85,
+      "source": "steel_grade",
+      "raw_text": "S31803"
+    },
+    {
+      "field": "material",
+      "value": "S32304",
+      "confidence": 0.85,
+      "source": "steel_grade",
+      "raw_text": "S32304"
+    },
+    {
+      "field": "material",
+      "value": "S32205",
+      "confidence": 0.85,
+      "source": "steel_grade",
+      "raw_text": "S32205"
+    },
+    {
+      "field": "material",
+      "value": "S32202",
+      "confidence": 0.85,
+      "source": "steel_grade",
+      "raw_text": "S32202"
+    },
+    {
+      "field": "material",
+      "value": "1.4310",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4310"
+    },
+    {
+      "field": "material",
+      "value": "1.4325",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4325"
+    },
+    {
+      "field": "material",
+      "value": "1.4567",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4567"
+    },
+    {
+      "field": "material",
+      "value": "1.4305",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4305"
+    },
+    {
+      "field": "material",
+      "value": "1.4301",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4301"
+    },
+    {
+      "field": "material",
+      "value": "1.4306",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4306"
+    },
+    {
+      "field": "material",
+      "value": "1.4303",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4303"
+    },
+    {
+      "field": "material",
+      "value": "1.4401",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4401"
+    },
+    {
+      "field": "material",
+      "value": "1.4436",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4436"
+    },
+    {
+      "field": "material",
+      "value": "1.4404",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4404"
+    },
+    {
+      "field": "material",
+      "value": "1.4435",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4435"
+    },
+    {
+      "field": "material",
+      "value": "1.4541",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4541"
+    },
+    {
+      "field": "material",
+      "value": "1.4550",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4550"
+    },
+    {
+      "field": "material",
+      "value": "1.4462",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4462"
+    },
+    {
+      "field": "material",
+      "value": "1.4362",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4362"
+    },
+    {
+      "field": "material",
+      "value": "1.4062",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4062"
+    },
+    {
+      "field": "material",
+      "value": "1.4005",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4005"
+    },
+    {
+      "field": "material",
+      "value": "1.4021",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4021"
+    },
+    {
+      "field": "material",
+      "value": "1.4116",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4116"
+    },
+    {
+      "field": "material",
+      "value": "1.4118",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4118"
+    },
+    {
+      "field": "material",
+      "value": "1.4708",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4708"
+    },
+    {
+      "field": "material",
+      "value": "1.4057",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4057"
+    },
+    {
+      "field": "material",
+      "value": "1.4510",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4510"
+    },
+    {
+      "field": "material",
+      "value": "1.4542",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4542"
+    },
+    {
+      "field": "material",
+      "value": "1.4418",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4418"
+    },
+    {
+      "field": "material",
+      "value": "1.4114",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4114"
+    },
+    {
+      "field": "material",
+      "value": "1.4106",
+      "confidence": 0.85,
+      "source": "eu_steel_number",
+      "raw_text": "1.4106"
+    },
+    {
+      "field": "date",
+      "value": "29/05/1997",
+      "confidence": 0.9,
+      "source": "fr_textual",
+      "raw_text": "29 mai 1997"
+    },
+    {
+      "field": "date",
+      "value": "13/01/1976",
+      "confidence": 0.9,
+      "source": "fr_textual",
+      "raw_text": "13 janvier 1976"
+    },
+    {
+      "field": "date",
+      "value": "11/11/2013",
+      "confidence": 0.9,
+      "source": "fr_textual",
+      "raw_text": "11 novembre 2013"
+    },
+    {
+      "field": "date",
+      "value": "25/11/2022",
+      "confidence": 0.9,
+      "source": "fr_textual",
+      "raw_text": "25 novembre 2022"
+    },
+    {
+      "field": "date",
+      "value": "25/11/2022",
+      "confidence": 0.9,
+      "source": "fr_textual",
+      "raw_text": "25 novembre 2022"
+    },
+    {
+      "field": "date",
+      "value": "17/02/2021",
+      "confidence": 0.9,
+      "source": "fr_textual",
+      "raw_text": "17 février 2021"
+    },
+    {
+      "field": "date",
+      "value": "15/03/2021",
+      "confidence": 0.9,
+      "source": "fr_textual",
+      "raw_text": "15 mars 2021"
+    },
+    {
+      "field": "date",
+      "value": "17/02/2021",
+      "confidence": 0.9,
+      "source": "fr_textual",
+      "raw_text": "17 février 2021"
+    }
+  ],
+  "notes": [
+    "Multiple suppliers found (13), selected highest confidence",
+    "No project ID found"
+  ]
+}

@@ -1,0 +1,869 @@
+{
+  "document_name": "Real_WeldingPlan_FR_Cahier_Soudage_Filtres",
+  "extracted_entities": {
+    "project_id": "PO 1032",
+    "supplier": "CAHIER DE SOUDAGE FILTRES SEPARATEURS N° Commande / Order n°: 00CD5528 N° Document / Dcoument n° : 5528 — 16 - 100 Page-Sheet: 1/ Rev.B",
+    "material": "S355k2G3",
+    "quantity": "32 mm",
+    "date": "02/12/1997"
+  },
+  "all_candidates": [
+    {
+      "field": "project_id",
+      "value": "PO 1032",
+      "confidence": 0.85,
+      "source": "project_code",
+      "raw_text": "Po 1032"
+    },
+    {
+      "field": "supplier",
+      "value": "CAHIER DE SOUDAGE FILTRES SEPARATEURS N° Commande / Order n°: 00CD5528 N° Document / Dcoument n° : 5528 — 16 - 100 Page-Sheet: 1/ Rev.B",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "CAHIER DE SOUDAGE FILTRES SEPARATEURS N° Commande / Order n°: 00CD5528 N° Document / Dcoument n° : 5"
+    },
+    {
+      "field": "supplier",
+      "value": "ES JOINTS SOUD A 104 MAS ~ 101 LOCALISATION DES Pon Témoin 1 cou",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "ES JOINTS SOUD A 104 MAS ~ 101 LOCALISATION DES Pon Témoin 1 cou"
+    },
+    {
+      "field": "supplier",
+      "value": "ES JOINTS SOUD A 104 MAS ~ 101 LOCALISATION DES Pon Témoin 1 cou",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "ES JOINTS SOUD A 104 MAS ~ 101 LOCALISATION DES Pon Témoin 1 cou"
+    },
+    {
+      "field": "supplier",
+      "value": "Procédure de soudage Lo METHODE D’ACCOSTAGE / POINTAGE Page Révision Welding procedure specification Joining and tacking method Sheet fabien CFCE Entreprise (23) Affaire 00CD5243 | 4 | A | ASSEMBLAGES PRINCIPAUX 3 Taquets orientés à 120° Pointage de taquets provisoires pour accostage des éléments de tubulures. Taquets plats de 5mm en: - FE360B (ENIOO25) pour acier carbone - A240TP304L pour aciers inoxydables Ci-dessous. Clams ep.1Omm env. en: - FE360B (ENIOO25) pour acier carbone - A240TP304L pour aciers inoxydables Ronds en : FE360B (EN10025) pour acier carbone A240TP304L pour aciers inoxydables UTILISATION DE RONDS POUR EP.>15MM 1. Les accessoires provisoires (taquet / clamps / ronds) sont soudés suivant la première passe duMOS C1 - procédé AEE - du cahier de soudage. 2. Ces accessoires sont enlevés soigneusement par meulage à plat, afin d'éviter tout arrachement de métal du coté de l' appareil. 3. Après leur enlèvement, un contrôle visuel à 100 % est effectué par le service Qualité CFCE selon les critères du code de construction.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Procédure de soudage Lo METHODE D’ACCOSTAGE / POINTAGE Page Révision Welding procedure specification"
+    },
+    {
+      "field": "supplier",
+      "value": "Procédure de soudage Lo METHODE D’ACCOSTAGE / POINTAGE Page Révision Welding procedure specification Joining and tacking method Sheet fabien CFCE Entreprise (23) Affaire 00CD5243 | 4 | A | ASSEMBLAGES PRINCIPAUX 3 Taquets orientés à 120° Pointage de taquets provisoires pour accostage des éléments de tubulures. Taquets plats de 5mm en: - FE360B (ENIOO25) pour acier carbone - A240TP304L pour aciers inoxydables Ci-dessous. Clams ep.1Omm env. en: - FE360B (ENIOO25) pour acier carbone - A240TP304L pour aciers inoxydables Ronds en : FE360B (EN10025) pour acier carbone A240TP304L pour aciers inoxydables UTILISATION DE RONDS POUR EP.>15MM 1. Les accessoires provisoires (taquet / clamps / ronds) sont soudés suivant la première passe duMOS C1 - procédé AEE - du cahier de soudage. 2. Ces accessoires sont enlevés soigneusement par meulage à plat, afin d'éviter tout arrachement de métal du coté de l' appareil. 3. Après leur enlèvement, un contrôle visuel à 100 % est effectué par le service Qualité CFCE selon les critères du code de construction.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Procédure de soudage Lo METHODE D’ACCOSTAGE / POINTAGE Page Révision Welding procedure specification"
+    },
+    {
+      "field": "supplier",
+      "value": "Naf ef ee EEE 104 à 108 rue des Usines 59330 HAUTMONT France N° de commande SOCOMAS 18483 01 - DEFINITION DU JOINT (joint definition) METAL DE BASE (base material) P355 NL1 - EN 10028-3 ÉPAISSEUR (Thickness) PLAN (Drawing) ° VIROLES CYLINDRIQUES PLAT (PA vi COUTTIERE (PA) |_IIMANUEL ARC (SMA CORNICHE (PC) |_|[PLAFOND (PE) | MG MAG (GMAW) soutien _131/135 | _|FAUTOMATIQUE SOUS FLUX SOLIDE (SAW VERTICAL MONTANT (8G 06 - PRODUIT D'APPORT (Filter Metal) ELECTRODES IL (Naked wire TYPE DE JOINT (joint) BOUT A BOUT (butt weld) EN ANGLE (filer weld) Inside intérieur 08 - CONTROLE APRES SOUDAGE {inspection after welding) RADIO RESSUAGE (liquid penettrant test) MAGNETOSCOPIE (magnaflux) EPREUVE HYDRAULIQUE (hyditest CRITERES (criteria) CODAP 1.1.5.1a, Z=1 CODAP 1.1.5.2, Z=1 (welding Procedure Specification) DMOS / WPS qualification de procédé (QMOS n° 1032 / 59 du 01.04.97 par IS (NF EN 288-3 Spécification applicable CODAP 95 rev. 98 / 12 catégorie B, Z=0,85 Client (Customer) CFCE Entreprise Affaire (project) Cde 2001-2153 du 29,01,2000 02 - CONTROLES AVANT SOUDAGE 03 - PREPARATION (inspection before welding) (preparation) ASPECT (Aspect) | v [TOXYCOUPAGE MEULAGE MAGNETOSCOPIE (Magnaflux) |_lftoxycutting Grinding RESSUAGE (liquid penetrant test) Lv] GOUGEAGE MEULAGE CRITERES (criteria) CODAP 1.1.5.1b, Z=1 PT / 023 rev. 0 |_[TARC SIMPLE (single |v [ARC MULTIPLE (tandem | v [[POLARITE (polarity + a l'éléctrode COURANT CC (DC) (current) CA (AC) 07 - SOUDAGE (welding) APPAREIL DE SOUDAGE (welding set) SAFMIG 355 + SAF 1000 TR MARQUE REPRISE ENVERS | GOUGEAGE (back gouging) | ORELIKON | ORELIKON| 4 | 6924 ___ JMEULAGE(back grinding) | SAF [ i1[ ___________ JRESSUAGE (liquid penetrant test PO SROINTAGE ET / OU SOUTIENT PORELIKON[ [| 908568 tacking and / or backing) ff ÉLIMINE LORS DE LA REPRISE C] OE S2 Ni2 | J etirinated during back gouging PROCEDURE PRECHAUEEAGE (preheating) Oui (yes) dv] Non (no) =[ | o MINI 20°C TEMPERATURE INTERPASSES MAXI Ÿ < 280°C NETTOYAGE ENTRE PASSES (cleaning) Oui (yes lV] E POST CHAUFFAGE (postheating) COURS DE SOUDAGE (during welding) APRES SOUDAGE (after welding) 5 à 14 (A) 15à 17 (B) REFROIDISSEMENT (cooling) AIR CALME SOUS CALORIFUGE (under insuating) ENFOURNEMENT IMMEDIAT 09 - TRAITEMENT THEMIQUE (heat treatement) BRUT DE SOUDAGE (au welded) FOUR (fumace) 7 ET (heating) PALIER (level rin) TT (duration) REFROIDISSEMENT (cooling) DATE (data) 12 janvier 2001 ING. SOUDEUR (welding engineer) J.P. MARION Traitement éxécuté ultériel",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Naf ef ee EEE 104 à 108 rue des Usines 59330 HAUTMONT France N° de commande SOCOMAS 18483 01 - DEFIN"
+    },
+    {
+      "field": "supplier",
+      "value": "Naf ef ee EEE 104 à 108 rue des Usines 59330 HAUTMONT France N° de commande SOCOMAS 18483 01 - DEFINITION DU JOINT (joint definition) METAL DE BASE (base material) P355 NL1 - EN 10028-3 ÉPAISSEUR (Thickness) PLAN (Drawing) ° VIROLES CYLINDRIQUES PLAT (PA vi COUTTIERE (PA) |_IIMANUEL ARC (SMA CORNICHE (PC) |_|[PLAFOND (PE) | MG MAG (GMAW) soutien _131/135 | _|FAUTOMATIQUE SOUS FLUX SOLIDE (SAW VERTICAL MONTANT (8G 06 - PRODUIT D'APPORT (Filter Metal) ELECTRODES IL (Naked wire TYPE DE JOINT (joint) BOUT A BOUT (butt weld) EN ANGLE (filer weld) Inside intérieur 08 - CONTROLE APRES SOUDAGE {inspection after welding) RADIO RESSUAGE (liquid penettrant test) MAGNETOSCOPIE (magnaflux) EPREUVE HYDRAULIQUE (hyditest CRITERES (criteria) CODAP 1.1.5.1a, Z=1 CODAP 1.1.5.2, Z=1 (welding Procedure Specification) DMOS / WPS qualification de procédé (QMOS n° 1032 / 59 du 01.04.97 par IS (NF EN 288-3 Spécification applicable CODAP 95 rev. 98 / 12 catégorie B, Z=0,85 Client (Customer) CFCE Entreprise Affaire (project) Cde 2001-2153 du 29,01,2000 02 - CONTROLES AVANT SOUDAGE 03 - PREPARATION (inspection before welding) (preparation) ASPECT (Aspect) | v [TOXYCOUPAGE MEULAGE MAGNETOSCOPIE (Magnaflux) |_lftoxycutting Grinding RESSUAGE (liquid penetrant test) Lv] GOUGEAGE MEULAGE CRITERES (criteria) CODAP 1.1.5.1b, Z=1 PT / 023 rev. 0 |_[TARC SIMPLE (single |v [ARC MULTIPLE (tandem | v [[POLARITE (polarity + a l'éléctrode COURANT CC (DC) (current) CA (AC) 07 - SOUDAGE (welding) APPAREIL DE SOUDAGE (welding set) SAFMIG 355 + SAF 1000 TR MARQUE REPRISE ENVERS | GOUGEAGE (back gouging) | ORELIKON | ORELIKON| 4 | 6924 ___ JMEULAGE(back grinding) | SAF [ i1[ ___________ JRESSUAGE (liquid penetrant test PO SROINTAGE ET / OU SOUTIENT PORELIKON[ [| 908568 tacking and / or backing) ff ÉLIMINE LORS DE LA REPRISE C] OE S2 Ni2 | J etirinated during back gouging PROCEDURE PRECHAUEEAGE (preheating) Oui (yes) dv] Non (no) =[ | o MINI 20°C TEMPERATURE INTERPASSES MAXI Ÿ < 280°C NETTOYAGE ENTRE PASSES (cleaning) Oui (yes lV] E POST CHAUFFAGE (postheating) COURS DE SOUDAGE (during welding) APRES SOUDAGE (after welding) 5 à 14 (A) 15à 17 (B) REFROIDISSEMENT (cooling) AIR CALME SOUS CALORIFUGE (under insuating) ENFOURNEMENT IMMEDIAT 09 - TRAITEMENT THEMIQUE (heat treatement) BRUT DE SOUDAGE (au welded) FOUR (fumace) 7 ET (heating) PALIER (level rin) TT (duration) REFROIDISSEMENT (cooling) DATE (data) 12 janvier 2001 ING. SOUDEUR (welding engineer) J.P. MARION Traitement éxécuté ultériel",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Naf ef ee EEE 104 à 108 rue des Usines 59330 HAUTMONT France N° de commande SOCOMAS 18483 01 - DEFIN"
+    },
+    {
+      "field": "supplier",
+      "value": "CONTROLES DES BORDS A SOUDER / Controls of edges eee Suivant according CODAP95 Dimensions des bords à souder / | Tolérances rev.98/12 Edges dimensions / Allowances [LJ Autre /Other | Non [| DL Talon / Edge | T=0.5mm_ PARAMETRES / Parameters Run n° Procédé | | TIG (141) TIG (141) UM (12) UM (12) UM (12) Process Marque Elect./Fil BOHLER BOHLER ESAB ESAB ESAB Welding mark Désignation EML 5 EML 5 OK 13.27 OK 13.27 OK 13.27 Description GS1 GSI SA2 Ni2 SA2 Ni2 SA2 Ni2 Agrément/Kennblat | Nr | ona [| ma. | ma. | na. | na | 9 m. apport /product Q | «| \"24 | 24 Tension / Voltage Pew | PS PE CE RE EE RE EE 31 500 Courant & Polarité Curent and Polarity © Tungsténe (TIG) Tungsten @ (GTAW) Gaz endroit/Shield gas Débit/ Flow rate gas CONTROLES APRES SOUDAGE / Controls after welding Examen / Type Etendue / Extent Commentaires / Remarks DT Visuel VS | 100% | DT Ressuage / PT | 10% | Avant et Après TTAS CL] Magnéto /MT | Non D Radio /RT 10% +100%N | Avant TTAS",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "CONTROLES DES BORDS A SOUDER / Controls of edges eee Suivant according CODAP95 Dimensions des bords "
+    },
+    {
+      "field": "supplier",
+      "value": "CONTROLES DES BORDS A SOUDER / Controls of edges eee Suivant according CODAP95 Dimensions des bords à souder / | Tolérances rev.98/12 Edges dimensions / Allowances [LJ Autre /Other | Non [| DL Talon / Edge | T=0.5mm_ PARAMETRES / Parameters Run n° Procédé | | TIG (141) TIG (141) UM (12) UM (12) UM (12) Process Marque Elect./Fil BOHLER BOHLER ESAB ESAB ESAB Welding mark Désignation EML 5 EML 5 OK 13.27 OK 13.27 OK 13.27 Description GS1 GSI SA2 Ni2 SA2 Ni2 SA2 Ni2 Agrément/Kennblat | Nr | ona [| ma. | ma. | na. | na | 9 m. apport /product Q | «| \"24 | 24 Tension / Voltage Pew | PS PE CE RE EE RE EE 31 500 Courant & Polarité Curent and Polarity © Tungsténe (TIG) Tungsten @ (GTAW) Gaz endroit/Shield gas Débit/ Flow rate gas CONTROLES APRES SOUDAGE / Controls after welding Examen / Type Etendue / Extent Commentaires / Remarks DT Visuel VS | 100% | DT Ressuage / PT | 10% | Avant et Après TTAS CL] Magnéto /MT | Non D Radio /RT 10% +100%N | Avant TTAS",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "CONTROLES DES BORDS A SOUDER / Controls of edges eee Suivant according CODAP95 Dimensions des bords "
+    },
+    {
+      "field": "supplier",
+      "value": "NASTUPTANUYG À Métal de base / Base metal (2) : P355 NLI — EN 10028-2 Diamètre ©: 800mm ext Epaisseur / Thickness: 16mm D Visuel /VS Suivant according CODAP95 Dimensions des bords à souder / | Tolérances rev.98/12 Edges dimensions / = Allowances Ciresuse PT | Na | Ame | ne LTUS/UT | Non | AY MBB Ne | Jeu/Gap | na: PARAMETRES / Parameters | , 3 je | Run n° Cr J Procédé Process Marque Elect./Fil Welding mark Désignation Description Courant & Polarité Curent and Polarity Flux (UM) ESAB Flux (SAW) OK 10.62 © Tungsténe (TIG) Mm n.a. Tungsten @ (GTAW) Gaz endroit/Shield gas n.a. Débit/ Flow rate Vmin Gaz envers / Backing n.a. gas Vmin CONTROLES APRES SOUDAGE / Controls after welding Examen/Type | Etendue / Extent | Commentaires / Remarks KI Visuel VS\" |\" 100% LTRessuage PT | Non []Magnéto/Mr | Non L]Radio/RT | Non | rm trim Et",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "NASTUPTANUYG À Métal de base / Base metal (2) : P355 NLI — EN 10028-2 Diamètre ©: 800mm ext Epaisseu"
+    },
+    {
+      "field": "supplier",
+      "value": "NASTUPTANUYG À Métal de base / Base metal (2) : P355 NLI — EN 10028-2 Diamètre ©: 800mm ext Epaisseur / Thickness: 16mm D Visuel /VS Suivant according CODAP95 Dimensions des bords à souder / | Tolérances rev.98/12 Edges dimensions / = Allowances Ciresuse PT | Na | Ame | ne LTUS/UT | Non | AY MBB Ne | Jeu/Gap | na: PARAMETRES / Parameters | , 3 je | Run n° Cr J Procédé Process Marque Elect./Fil Welding mark Désignation Description Courant & Polarité Curent and Polarity Flux (UM) ESAB Flux (SAW) OK 10.62 © Tungsténe (TIG) Mm n.a. Tungsten @ (GTAW) Gaz endroit/Shield gas n.a. Débit/ Flow rate Vmin Gaz envers / Backing n.a. gas Vmin CONTROLES APRES SOUDAGE / Controls after welding Examen/Type | Etendue / Extent | Commentaires / Remarks KI Visuel VS\" |\" 100% LTRessuage PT | Non []Magnéto/Mr | Non L]Radio/RT | Non | rm trim Et",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "NASTUPTANUYG À Métal de base / Base metal (2) : P355 NLI — EN 10028-2 Diamètre ©: 800mm ext Epaisseu"
+    },
+    {
+      "field": "supplier",
+      "value": "DEI Poo Métal de base / Base metal (2) : BF 48 F — NFE 29.204 Diamètre ©: 508mm Epaisseur / Thickness: 32mm CONTROLES DES BORDS A SOUDER / Controls of edges D Visuel /VS 100% Suivant according CODAP95 Dimensions des bords à souder / | Tolérances rev.98/12 Edges dimensions / Allowances CTRessuage 7 | Non [SSS CV [Ne ES CT Autre / Omer _ [Non] —s—‘“‘C*dC Talon /Edge [t=0.5mm | +05mm | Run n° Procédé | AEE (111) AFE (111) UM (12) UM (12) — Process Marque Elect./Fil Welding mark Désignation Description Courant & Polarité Curent and Polarity @® Tungstène (TIG) Tungsten @ (GTAW) Gaz endroit/Shield gas Débit/ Flow rate Gaz envers / Backing gas CONTROLES APRES SOUDAGE / Controls after welding Examen / Type Etendue / Extent Commentaires / Remarks Bivins [0% | —OOOOOCOC“‘S;SSCOCSOOCC*d DT Ressuage / PT | 10% | Avant et Après TTAS CL] Magnéto /MT | Non DT Radio /RT 10% +100%N | Avant TTAS",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "DEI Poo Métal de base / Base metal (2) : BF 48 F — NFE 29.204 Diamètre ©: 508mm Epaisseur / Thicknes"
+    },
+    {
+      "field": "supplier",
+      "value": "DEI Poo Métal de base / Base metal (2) : BF 48 F — NFE 29.204 Diamètre ©: 508mm Epaisseur / Thickness: 32mm CONTROLES DES BORDS A SOUDER / Controls of edges D Visuel /VS 100% Suivant according CODAP95 Dimensions des bords à souder / | Tolérances rev.98/12 Edges dimensions / Allowances CTRessuage 7 | Non [SSS CV [Ne ES CT Autre / Omer _ [Non] —s—‘“‘C*dC Talon /Edge [t=0.5mm | +05mm | Run n° Procédé | AEE (111) AFE (111) UM (12) UM (12) — Process Marque Elect./Fil Welding mark Désignation Description Courant & Polarité Curent and Polarity @® Tungstène (TIG) Tungsten @ (GTAW) Gaz endroit/Shield gas Débit/ Flow rate Gaz envers / Backing gas CONTROLES APRES SOUDAGE / Controls after welding Examen / Type Etendue / Extent Commentaires / Remarks Bivins [0% | —OOOOOCOC“‘S;SSCOCSOOCC*d DT Ressuage / PT | 10% | Avant et Après TTAS CL] Magnéto /MT | Non DT Radio /RT 10% +100%N | Avant TTAS",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "DEI Poo Métal de base / Base metal (2) : BF 48 F — NFE 29.204 Diamètre ©: 508mm Epaisseur / Thicknes"
+    },
+    {
+      "field": "supplier",
+      "value": "IAGUNPISAUUE Métal de base / Base metal (2) : Bride / Té BF 48 F — NFE 29.204 Diamètre ©: 60.3mm Epaisseur / Thickness: 7mm daxg Intérieur CONTROLES DES BORDS A SOUDER / Controls of edges DT Visuel /VS 100% | Suivant according CODAP95 rev.98/12 CTRessuage 7 | Now| CS CTus ur [No [SSS Jeu / Gap 3mm CT Autre / Omer _ [Non] —~—“‘Ci*dC Talon / Edge ECTS PARAMETRES / Parameters Run n° Process Marque Elect/Fil HLER Welding mark Désignation Description Dimensions des bords à souder / | Tolérances Edges dimensions / Allowances Courant & Polarité Curent and Polarity @® Tungstène (TIG) Tungsten @ (GTAW) Gaz endroit/Shield gas Débit/ Flow rate Gaz envers / Backing gas CONTROLES APRES SOUDAGE / Controls after welding Examen / Type Etendue / Extent Commentaires / Remarks Riviuei/vs 200 DT Ressuage / PT | 10% | Avant et Après TTAS LT] Magnéto/MT | Non | |_| Radio/RT Non",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "IAGUNPISAUUE Métal de base / Base metal (2) : Bride / Té BF 48 F — NFE 29.204 Diamètre ©: 60.3mm Epa"
+    },
+    {
+      "field": "supplier",
+      "value": "IAGUNPISAUUE Métal de base / Base metal (2) : Bride / Té BF 48 F — NFE 29.204 Diamètre ©: 60.3mm Epaisseur / Thickness: 7mm daxg Intérieur CONTROLES DES BORDS A SOUDER / Controls of edges DT Visuel /VS 100% | Suivant according CODAP95 rev.98/12 CTRessuage 7 | Now| CS CTus ur [No [SSS Jeu / Gap 3mm CT Autre / Omer _ [Non] —~—“‘Ci*dC Talon / Edge ECTS PARAMETRES / Parameters Run n° Process Marque Elect/Fil HLER Welding mark Désignation Description Dimensions des bords à souder / | Tolérances Edges dimensions / Allowances Courant & Polarité Curent and Polarity @® Tungstène (TIG) Tungsten @ (GTAW) Gaz endroit/Shield gas Débit/ Flow rate Gaz envers / Backing gas CONTROLES APRES SOUDAGE / Controls after welding Examen / Type Etendue / Extent Commentaires / Remarks Riviuei/vs 200 DT Ressuage / PT | 10% | Avant et Après TTAS LT] Magnéto/MT | Non | |_| Radio/RT Non",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "IAGUNPISAUUE Métal de base / Base metal (2) : Bride / Té BF 48 F — NFE 29.204 Diamètre ©: 60.3mm Epa"
+    },
+    {
+      "field": "supplier",
+      "value": "Procédure de soudage M.O.S QMOS support Welding procedure specification WPS Supporting POR Sheet Revision CFCE Entreprise 23) Position de soudage / Welding position: Angulaire Métal de base / Base metal (1): Remplissage P355 NL1 — EN 10028-3 Métal de base / Base metal (2): Remplissage Intérieur / Diamètre ©: 508mm Epaisseur / Thickness: 32mm DT Visuel /VS 100% Suivant according CORSR Dimensions des bords à souder / | Tolérances rev.98/12 ; ; Edges dimensions / fe (A ; +2 Allowances Cesu] Non | fie VAN pus [iso Teu / Gap E17-0 Talon / Edge + 0.5 mm 3 ALK TR Procédé TIG (141) TIG (141) FF (136) Process Marque Elect./Fil BOHLER BOHLER AVESTA Welding mark Désignation EML 5 EML 5 Fab Cor 86R Description GSi G2Si E70C-6MH4 Agrément / Kennblatt | Nr | ona [| ns | | | Om.apport/produtO | | 24 || Tension / Voltage Pee | PS PS RS PS Intensité / Intensity RER PE ECS OS PE EE 27 Vitesse/ Speed(cm/min) | #4 | 6 6 | 19200 28900 | t4gon— | | | | Curent and Polarity re = = = DS Flux (SAW) Tungsten @ (GTAW) Gaz endroit/Shield gas Argon Argon Carboxar M21 pf FE PS CONTROLES APRES SOUDAGE / Controls after welding Commentaires / Remarks Avant et Après TTAS [L]Magnéto/MT | Non CHAUFFAGE ET TECHNIQUE / Heating and technic DT T° maxi entre passes / Interpass max °c. Préparation DÜMeulage [ Méca. D Préchauffage / Preheating Reprise envers L_] Grinding [] Gougeage XX] T .T.A.S / PWHT Visa QA/QC t. FONTEIX [_] Postchauffage / Postheating = X 7",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Procédure de soudage M.O.S QMOS support Welding procedure specification WPS Supporting POR Sheet Rev"
+    },
+    {
+      "field": "supplier",
+      "value": "Procédure de soudage M.O.S QMOS support Welding procedure specification WPS Supporting POR Sheet Revision CFCE Entreprise 23) Position de soudage / Welding position: Angulaire Métal de base / Base metal (1): Remplissage P355 NL1 — EN 10028-3 Métal de base / Base metal (2): Remplissage Intérieur / Diamètre ©: 508mm Epaisseur / Thickness: 32mm DT Visuel /VS 100% Suivant according CORSR Dimensions des bords à souder / | Tolérances rev.98/12 ; ; Edges dimensions / fe (A ; +2 Allowances Cesu] Non | fie VAN pus [iso Teu / Gap E17-0 Talon / Edge + 0.5 mm 3 ALK TR Procédé TIG (141) TIG (141) FF (136) Process Marque Elect./Fil BOHLER BOHLER AVESTA Welding mark Désignation EML 5 EML 5 Fab Cor 86R Description GSi G2Si E70C-6MH4 Agrément / Kennblatt | Nr | ona [| ns | | | Om.apport/produtO | | 24 || Tension / Voltage Pee | PS PS RS PS Intensité / Intensity RER PE ECS OS PE EE 27 Vitesse/ Speed(cm/min) | #4 | 6 6 | 19200 28900 | t4gon— | | | | Curent and Polarity re = = = DS Flux (SAW) Tungsten @ (GTAW) Gaz endroit/Shield gas Argon Argon Carboxar M21 pf FE PS CONTROLES APRES SOUDAGE / Controls after welding Commentaires / Remarks Avant et Après TTAS [L]Magnéto/MT | Non CHAUFFAGE ET TECHNIQUE / Heating and technic DT T° maxi entre passes / Interpass max °c. Préparation DÜMeulage [ Méca. D Préchauffage / Preheating Reprise envers L_] Grinding [] Gougeage XX] T .T.A.S / PWHT Visa QA/QC t. FONTEIX [_] Postchauffage / Postheating = X 7",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Procédure de soudage M.O.S QMOS support Welding procedure specification WPS Supporting POR Sheet Rev"
+    },
+    {
+      "field": "supplier",
+      "value": "Procédure de soudage M.O.S QMOS support Welding procedure specification WPS Supporting POR Sheet Revision CFCE Entreprise 23) Position de soudage / Welding position: Angulaire Métal de base / Base metal (1): P355 NL1 — EN 10028-3 Métal de base / Base metal (2): BF 48 F— NFE 29.201 Diamètre ©: DN 150 Epaisseur / Thickness: 25mm D Visuel /VS Dimensions des bords à souder / | Tolérances . Edges dimensions / PR DT Allowances A Kyoto NG Creuse Pr | Now | #7 GA NX Ly Autre / Other | Non | El >\" Arr El Talon / Edge + 0.5 mm F LU “ zh i PARAMETRES / Parameters Wi say ; Bel Ae i af cc OS Process ee we em ee EE Welding mark Désignation EML 5 EML 5 NF 58 PS es | Tess || Agrément / Kennblatt | Nr | ona | mas | ma 9 m. apport/produtO | | 242A Tension / Voltage | /- | St \"À\" 20 Intensité/Intensity | /- | 228 | À | Vitesse/ Speed(cm/imin) | ¥- | 6 | 6 19200 28900 asm | Curent and Polarity 2 A EE Flux (SAW) Tungsten @ (GTAW) ë RS EN | CONTROLES APRES SOUDAGE / Controls after welding Commentaires / Remarks Avant et Après TTAS [L]Magnéto/MT | Non CHAUFFAGE ET TECHNIQUE / Heating and technic DT T° maxi entre passes / Interpass max °c. 350°C Préparation DÜMeulage [ Méca. D Préchauffage / Preheating Reprise envers L_] Grinding [] Gougeage XX] T.T.A.S / PWHT Visa QA/QC t. FONTEIX [_] Postchauffage / Postheating = X 7",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Procédure de soudage M.O.S QMOS support Welding procedure specification WPS Supporting POR Sheet Rev"
+    },
+    {
+      "field": "supplier",
+      "value": "Procédure de soudage M.O.S QMOS support Welding procedure specification WPS Supporting POR Sheet Revision CFCE Entreprise 23) Position de soudage / Welding position: Angulaire Métal de base / Base metal (1): P355 NL1 — EN 10028-3 Métal de base / Base metal (2): BF 48 F— NFE 29.201 Diamètre ©: DN 150 Epaisseur / Thickness: 25mm D Visuel /VS Dimensions des bords à souder / | Tolérances . Edges dimensions / PR DT Allowances A Kyoto NG Creuse Pr | Now | #7 GA NX Ly Autre / Other | Non | El >\" Arr El Talon / Edge + 0.5 mm F LU “ zh i PARAMETRES / Parameters Wi say ; Bel Ae i af cc OS Process ee we em ee EE Welding mark Désignation EML 5 EML 5 NF 58 PS es | Tess || Agrément / Kennblatt | Nr | ona | mas | ma 9 m. apport/produtO | | 242A Tension / Voltage | /- | St \"À\" 20 Intensité/Intensity | /- | 228 | À | Vitesse/ Speed(cm/imin) | ¥- | 6 | 6 19200 28900 asm | Curent and Polarity 2 A EE Flux (SAW) Tungsten @ (GTAW) ë RS EN | CONTROLES APRES SOUDAGE / Controls after welding Commentaires / Remarks Avant et Après TTAS [L]Magnéto/MT | Non CHAUFFAGE ET TECHNIQUE / Heating and technic DT T° maxi entre passes / Interpass max °c. 350°C Préparation DÜMeulage [ Méca. D Préchauffage / Preheating Reprise envers L_] Grinding [] Gougeage XX] T.T.A.S / PWHT Visa QA/QC t. FONTEIX [_] Postchauffage / Postheating = X 7",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Procédure de soudage M.O.S QMOS support Welding procedure specification WPS Supporting POR Sheet Rev"
+    },
+    {
+      "field": "supplier",
+      "value": "Procédure de soudage M.O.S QMOS support Welding procedure specification WPS Supporting POR Sheet CFCE Entreprise 23) [PS [2207 [| 17 | Position de soudage / Welding position: Angulaire Métal de base / Base metal (1): Remplissage - P355 NL1 — EN 10028-3 Métal de base / Base metal (2): Virole de Corps BF 48 F— NFE 29.201 Diamètre ©: DN 50 Epaisseur / Thickness: 25mm XX] Visuel /VS 100% Suivant according CODAP95 Dimensions des bords a souder / Tolerances rev.98/12 Edges dimensions a DUST : Allowances Jeu / Gap Talon / Edge Process [pee eee pep Welding mark Désignation EML 5 EML 5 NF 58 GE A EE RS an aot aka [fk 3 [Tension / Voltage | /- | 2 | | mening nee ee es SP PS EE Vitesse Speed (m/min) 20571 14571 ee Curent and Polarity 2 PC PS ES Flux (SAW) Tungsten 0 ( GTAW) Débit/ Flow rate Vmin Gaz envers/ Backing RP RE RS ES CONTROLES APRES SOUDAGE / Controls after welding Commentaires / Remarks Bd Visuel/VS Avant et Après TTAS DS Radio/RT [Non CHAUFFAGE ET TECHNIQUE / Heating and technic DT T° maxi entre passes / Interpass max °c. 350°C Préparation DÜMeulage [ Méca. D Préchauffage / Preheating Reprise envers L_] Grinding [] Gougeage XX] T .T.A.S / PWHT | Oui Visa QA/QC tFONTEIX [_] Postchauffage / Postheating | Non",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Procédure de soudage M.O.S QMOS support Welding procedure specification WPS Supporting POR Sheet CFC"
+    },
+    {
+      "field": "supplier",
+      "value": "Procédure de soudage M.O.S QMOS support Welding procedure specification WPS Supporting POR Sheet CFCE Entreprise 23) [PS [2207 [| 17 | Position de soudage / Welding position: Angulaire Métal de base / Base metal (1): Remplissage - P355 NL1 — EN 10028-3 Métal de base / Base metal (2): Virole de Corps BF 48 F— NFE 29.201 Diamètre ©: DN 50 Epaisseur / Thickness: 25mm XX] Visuel /VS 100% Suivant according CODAP95 Dimensions des bords a souder / Tolerances rev.98/12 Edges dimensions a DUST : Allowances Jeu / Gap Talon / Edge Process [pee eee pep Welding mark Désignation EML 5 EML 5 NF 58 GE A EE RS an aot aka [fk 3 [Tension / Voltage | /- | 2 | | mening nee ee es SP PS EE Vitesse Speed (m/min) 20571 14571 ee Curent and Polarity 2 PC PS ES Flux (SAW) Tungsten 0 ( GTAW) Débit/ Flow rate Vmin Gaz envers/ Backing RP RE RS ES CONTROLES APRES SOUDAGE / Controls after welding Commentaires / Remarks Bd Visuel/VS Avant et Après TTAS DS Radio/RT [Non CHAUFFAGE ET TECHNIQUE / Heating and technic DT T° maxi entre passes / Interpass max °c. 350°C Préparation DÜMeulage [ Méca. D Préchauffage / Preheating Reprise envers L_] Grinding [] Gougeage XX] T .T.A.S / PWHT | Oui Visa QA/QC tFONTEIX [_] Postchauffage / Postheating | Non",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Procédure de soudage M.O.S QMOS support Welding procedure specification WPS Supporting POR Sheet CFC"
+    },
+    {
+      "field": "supplier",
+      "value": "Procédure de soudage M.O.S QMOS support Welding procedure specification WPS Supporting POR Sheet Revision CFCE Entreprise (23) Position de soudage / Welding position: Angulaire Métal de base / Base metal (1): Remplissage BF 48 F— NFE 29.204 Métal de base / Base metal (2): Virole de Gorps Diamètre ©: 33.7 à 60.3mm Racine Epaisseur / Thickness: 5.8 à 7mm Intérieur R:4mm CONTROLES DES BORDS A SOUDER / Controls of edges XX] Visuel /VS 100% Suivant according CODAP95 Dimensions des bords à souder / | Tolérances rev.98/12 Edges dimensions Allowances b°=40° Q'US/UT | No | PRIT NO | LJ Autre / Other Ae Ne PARAMETRES / Parameters Procédé Process ER A2 Welding mark Désignation EML 5 EML 5 po Den || es | ewe | Agrément / Kennblatt | Nr | ona | mas PT 9 m. apport/produtO | | 242A [Tension / Voltage | /- | 3B Intensité/Intensity | /- | 35 | | Vitesse/ Speed(om/imin) | W- | 6 |S 17550 21840 | Courant & Polarité DC - Curent and Polarity Flux (UM) Flux (SAW) Tungsten @ (GTAW) Débit/ Flow rate Vmin 8 8 Gaz envers/ Backing D RP | CONTROLES APRES SOUDAGE / Controls after welding Commentaires / Remarks Bd Visuel /vs Avant et Aprés TTAS DS Radio/RT [Nom PT CHAUFFAGE ET TECHNIQUE / Heating and technic DT T° maxi entre passes / Interpass max °c. Préparation DÜMeulage [_|Méca. [_] Préchauffage / Preheating Reprise envers L_] Grinding [_] Gougeage DT T.T.A.S / PWHT i Visa QA/QC t.FONTEIX [_] Postchauffage / Postheating = À 7",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Procédure de soudage M.O.S QMOS support Welding procedure specification WPS Supporting POR Sheet Rev"
+    },
+    {
+      "field": "supplier",
+      "value": "Procédure de soudage M.O.S QMOS support Welding procedure specification WPS Supporting POR Sheet Revision CFCE Entreprise (23) Position de soudage / Welding position: Angulaire Métal de base / Base metal (1): Remplissage BF 48 F— NFE 29.204 Métal de base / Base metal (2): Virole de Gorps Diamètre ©: 33.7 à 60.3mm Racine Epaisseur / Thickness: 5.8 à 7mm Intérieur R:4mm CONTROLES DES BORDS A SOUDER / Controls of edges XX] Visuel /VS 100% Suivant according CODAP95 Dimensions des bords à souder / | Tolérances rev.98/12 Edges dimensions Allowances b°=40° Q'US/UT | No | PRIT NO | LJ Autre / Other Ae Ne PARAMETRES / Parameters Procédé Process ER A2 Welding mark Désignation EML 5 EML 5 po Den || es | ewe | Agrément / Kennblatt | Nr | ona | mas PT 9 m. apport/produtO | | 242A [Tension / Voltage | /- | 3B Intensité/Intensity | /- | 35 | | Vitesse/ Speed(om/imin) | W- | 6 |S 17550 21840 | Courant & Polarité DC - Curent and Polarity Flux (UM) Flux (SAW) Tungsten @ (GTAW) Débit/ Flow rate Vmin 8 8 Gaz envers/ Backing D RP | CONTROLES APRES SOUDAGE / Controls after welding Commentaires / Remarks Bd Visuel /vs Avant et Aprés TTAS DS Radio/RT [Nom PT CHAUFFAGE ET TECHNIQUE / Heating and technic DT T° maxi entre passes / Interpass max °c. Préparation DÜMeulage [_|Méca. [_] Préchauffage / Preheating Reprise envers L_] Grinding [_] Gougeage DT T.T.A.S / PWHT i Visa QA/QC t.FONTEIX [_] Postchauffage / Postheating = À 7",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Procédure de soudage M.O.S QMOS support Welding procedure specification WPS Supporting POR Sheet Rev"
+    },
+    {
+      "field": "supplier",
+      "value": "Rernplissage Remplissage Métal de base / Base metal (2) : P355 NLI — EN 10028-3 32 mm Virole de Corps Diamètre ©: n.a. Epaisseur / Thickness: 6 à 16mm Intérieur CONTROLES DES BORDS A SOUDER / Controls of edges DT Visuel /VS 100% | Suivant according CODAP95 rev.98/12 CT Ressuage/PT | Non | CIUS/UT | Non | [_] Autre / Other | Non | PARAMETRES / Parameters Dimensions des bords à souder / | Tolérances Edges dimensions / Allowances | Angle [na | +10°/-5° | | Jeu/Gap [nas +1/-Omm | Procédé Process Marque Elect./Fil Welding mark Désignation Fab Cor 86R Description E70C-6MH4 Agrément / Kennblatt | Nr_| ona Tension / Voltage Intensité / Intensity Vitesse/ Speed (cm/min) Energie / Heat input Courant & Polarité Curent and Polarity Flux (UM) Flux (SAW) © Tungstène (TIG) Mm Tungsten @ (GTAW) Gaz endroit/Shield gas Carboxar M21 Débit/ Flow rate Vmin 18 Gaz envers / Backing gas Vmin CONTROLES APRES SOUDAGE / Controls after welding | Examen/Type | Etendue / Extent | Commentaires / Remarks [XI Visuel/vs_ | 100% rRessuage/PF| Non _| CL] Magnéto /MT | Non | [LT Radio/RT | Non Non UIUS/UT",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Rernplissage Remplissage Métal de base / Base metal (2) : P355 NLI — EN 10028-3 32 mm Virole de Corp"
+    },
+    {
+      "field": "supplier",
+      "value": "Rernplissage Remplissage Métal de base / Base metal (2) : P355 NLI — EN 10028-3 32 mm Virole de Corps Diamètre ©: n.a. Epaisseur / Thickness: 6 à 16mm Intérieur CONTROLES DES BORDS A SOUDER / Controls of edges DT Visuel /VS 100% | Suivant according CODAP95 rev.98/12 CT Ressuage/PT | Non | CIUS/UT | Non | [_] Autre / Other | Non | PARAMETRES / Parameters Dimensions des bords à souder / | Tolérances Edges dimensions / Allowances | Angle [na | +10°/-5° | | Jeu/Gap [nas +1/-Omm | Procédé Process Marque Elect./Fil Welding mark Désignation Fab Cor 86R Description E70C-6MH4 Agrément / Kennblatt | Nr_| ona Tension / Voltage Intensité / Intensity Vitesse/ Speed (cm/min) Energie / Heat input Courant & Polarité Curent and Polarity Flux (UM) Flux (SAW) © Tungstène (TIG) Mm Tungsten @ (GTAW) Gaz endroit/Shield gas Carboxar M21 Débit/ Flow rate Vmin 18 Gaz envers / Backing gas Vmin CONTROLES APRES SOUDAGE / Controls after welding | Examen/Type | Etendue / Extent | Commentaires / Remarks [XI Visuel/vs_ | 100% rRessuage/PF| Non _| CL] Magnéto /MT | Non | [LT Radio/RT | Non Non UIUS/UT",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Rernplissage Remplissage Métal de base / Base metal (2) : P355 NLI — EN 10028-3 32 mm Virole de Corp"
+    },
+    {
+      "field": "supplier",
+      "value": "CAQ 0520-94 — Rév : 1]4 non par : APAVE DE L'OUEST le: 14.5.97 sur soudure monopasse : — sur soudure multipasse : 320 N° Résultats mesures ie filiation MB 178 175 178. ZAT 183 188 197.ZS 185 180 181. ZAT 225 215 209.MB 206 203 197 MB 178 182 182.ZAT 203 203 205.ZS 215 — 213 215. ZAT 215 209 209.MB 191 189 191 RAHIQUES exécutés par : APAVE DE L'OUEST le: 13 05 1997 re de fer Grandissement : 1,4 7184 D de la soudure mpacité onforme U ESSAIS Nom et signature de l’examinateur Nom et signature du représentant de l’organisme d’inspection du constructeur ou fabricant CFCE ENTREPRISE 23360 PONTAUMUR Tél. 04 05 00 23 11 RC B 343 694 458 89 B 85 APE 263 C- Télécopie : 04 05 00 23 12 ASSOCIATION POLIR | QUALIFICATION D’UN MODE OPERATOIRE DE SOU Suivant NF EN 288-3 PROCES VERBAL Délivré au constructeur ou fabricant: CFCE à la suite de l’exécution d’un assemblage d’essai effectué le: 1° avril 1997 à: Pontaumur (23) en présence de M. : RAUPRETRE P. appartenant à l'organisme d’inspection : Groupement des APAVE lequel certifie que le mode opératoire de soudage présenté suivant le descriptif (DMOSP) en annexe établi par le constructeur ou le fabricant a donné des rés: de la norme NF EN 288-3 Edition 92. Procès verbal établi le : 15 mai 1997 Sous la référence (PV QMOS N°) : 2673 07 EN Nom et signature de la personne autorisée et cachet de l’organisme d’inspection : O. NOWHERE Agence 6, rue de la J 44803 SAIN Tél. 40 38 8",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "CAQ 0520-94 — Rév : 1]4 non par : APAVE DE L'OUEST le: 14.5.97 sur soudure monopasse : — sur soudure"
+    },
+    {
+      "field": "supplier",
+      "value": "CAQ 0520-94 — Rév : 1]4 non par : APAVE DE L'OUEST le: 14.5.97 sur soudure monopasse : — sur soudure multipasse : 320 N° Résultats mesures ie filiation MB 178 175 178. ZAT 183 188 197.ZS 185 180 181. ZAT 225 215 209.MB 206 203 197 MB 178 182 182.ZAT 203 203 205.ZS 215 — 213 215. ZAT 215 209 209.MB 191 189 191 RAHIQUES exécutés par : APAVE DE L'OUEST le: 13 05 1997 re de fer Grandissement : 1,4 7184 D de la soudure mpacité onforme U ESSAIS Nom et signature de l’examinateur Nom et signature du représentant de l’organisme d’inspection du constructeur ou fabricant CFCE ENTREPRISE 23360 PONTAUMUR Tél. 04 05 00 23 11 RC B 343 694 458 89 B 85 APE 263 C- Télécopie : 04 05 00 23 12 ASSOCIATION POLIR | QUALIFICATION D’UN MODE OPERATOIRE DE SOU Suivant NF EN 288-3 PROCES VERBAL Délivré au constructeur ou fabricant: CFCE à la suite de l’exécution d’un assemblage d’essai effectué le: 1° avril 1997 à: Pontaumur (23) en présence de M. : RAUPRETRE P. appartenant à l'organisme d’inspection : Groupement des APAVE lequel certifie que le mode opératoire de soudage présenté suivant le descriptif (DMOSP) en annexe établi par le constructeur ou le fabricant a donné des rés: de la norme NF EN 288-3 Edition 92. Procès verbal établi le : 15 mai 1997 Sous la référence (PV QMOS N°) : 2673 07 EN Nom et signature de la personne autorisée et cachet de l’organisme d’inspection : O. NOWHERE Agence 6, rue de la J 44803 SAIN Tél. 40 38 8",
+      "confidence": 0.8,
+      "source": "trigger_fabricant",
+      "raw_text": "CAQ 0520-94 — Rév : 1]4 non par : APAVE DE L'OUEST le: 14.5.97 sur soudure monopasse : — sur soudure"
+    },
+    {
+      "field": "supplier",
+      "value": "LC I. DESCRIPTIF DU MODE OPÉRATOIRE DE SOUDAGE ; + DU CONSTRUCTEUR OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI Nuances 1 Nuance 2 DMOSP N° 078 EN 288-02 Spécification matériau de base : S355k2G3 Type de joint: Bout à bout tôles N° coulée : 08 4074629 Méthode de préparation et nettoyage Groupe de matériau : 1 Oxycoupage + Moulage Epaisseur du matériau de base (mm) : 40 Diamétre du matériau de base (mm) : TT Schéma de préparation Disposition des passes N° des passes : Procédés de soudage : Position de soudage : Soudage auto. nb de têtes balayage * fréquence oscillations temporisation _ L Soudeur ou soudeur opérateur : SKOWRONECK GOURBE LON Produit d’ apport : Fil (F) ou Electrode (E) E | E F Codification (Désignation normalisée) : £515: B 110 26 BH 512 Marque et type : SRF NF 58 ESAB Diamètre : ee 25 32 4,0 Conservation ou étuvage : << of ——— Gaz de protection— flux Pulvérulent - codification (Dés. Norma.) : - marque et type : FP/B 24/33 FBI Gazeux - codification (Dés. Norma.) : ESAB OK FLUX 10 - 62 - marque et type : Envers - débit t/ min. : Endroit - débit t/ min. : Plasmagène : Electrode réfractaire / type et diamètre : Nature du courant : Polarité de l’électrode ou du fil : Intensité I en Ampère : Tension U en Volts : Soudage puisé : Vitesse d’exécution V d’une passe : cm/min.: Vitesse de déroulement du fil : cm/min.: Ux1x60 Energie en Joules / cm = V en cm/min. 14 400 19200 T° mini. préchauffage en C° 100 100 T° maxi. entre passes en C° | 300 300 Matériel de soudage - Machine - Poste Support envers (nature) : Gougeage (nature) Commercy TE 320 Post-chauffage: Non \\_ Oui Température °C : — Durée du maintien : — Traitement thermique après soudage : Non Oui N Réf. : 707 Vitesse de montée en température en °C/h : 150 Température max. en °C et durée du maintien : 580/1h35 Vitesse de refroidissement en °C/h : 150 de 580 à 300 air calme de 300 à 20 AUTRES INFORMATIONS : Néant * balayage (largeur maximale) oscillation: — Fréquence, temporisation : — Soudage puisé détails : — Angle de torche : — Distance de maintien: — Détail du plasma : — PV QMOS N°2673-07-EN h II. RÉSULTATS DES CONTROLES, EXAMENS ET ESSAIS 1- CONTROLES NON DESTRUCTIFS (EN 288-3 ET ANNEXES III Exécuté par: N° PV et dat À L'ARRÊTÉ DU 24 MARS 1978 KÉCUIS par : et eate Visuel : APAVE DE L'OUEST V/22273 du2-4-97 Ressuage : RS 22274 du 2-4 - 97 Magnétoscopique : ” ” Radiographique : Ultrasonore : 2- ESSAIS DE TRACTION : exécutés par: APAVE DE L'OUEST le: 14 05 1997 Localisation de la i i i Re N/mm? Dimension de la section de Rm N/mm? eww] ae |e cassure l’éprouvette mm Repére de éprouvette | éprouvette cylindrique uniquement | uniquement Péprouvette | transversale intéressant | | transversale intéressant | Valeurs 4 obtenir 2 Métal de Métal toute une fraction de base fondu l'épaisseur | l'épaisseur 25,1 x 20,1 } 530 Satis faisant 25,0 x 20,1 Satis faisant 25,1 x 20,1 } 530 Satis faisant 25,1 x 20,1 Satis faisant 3- ESSAIS DE PLIAGE: exécutés par: APAVE DE L'OUEST le: 14 05 1997 Éprouvette Sens du pliage et dimensions de la section mm g Repère de : “eon Poingon Côté intéressant REMARQUES l’éprouvette oe ite : Transversale | Longitudinale (4 \"t\") mm Endroit Envers REMARQUES totalité de \"t\" fraction de \"t\" Satis faisant Satis faisant Satis faisant Satis faisant «t»: épaisseur DM - T/P N° 24260 4- ESSAIS DE RESILIENCE: exécutés par: APAVE DE L'OUEST le: 14 05 1997 Minimales TOF Dimension des éprouvettes : 10 x 10 Ployenne [5] 7 Position de KCV J/cm? l’éprouvette Emplacement de l’entaille Repère de l’éprouvette Peau=p ZAT (VHT) REMARQUES Mi-épaisseur =e MF(VWT) Racine =r ESSAIS COMPLEME NTAIRES Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant P P P € € € P P P € € €",
+      "confidence": 0.8,
+      "source": "trigger_fabricant",
+      "raw_text": "LC I. DESCRIPTIF DU MODE OPÉRATOIRE DE SOUDAGE ; + DU CONSTRUCTEUR OU DU FABRICANT : PARAMETRES RELE"
+    },
+    {
+      "field": "supplier",
+      "value": "CAQ 0520-94 — Rév : 1]4 non par : APAVE DE L'OUEST le: 14.5.97 sur soudure monopasse : — sur soudure multipasse : 320 N° Résultats mesures ie filiation MB 178 175 178. ZAT 183 188 197.ZS 185 180 181. ZAT 225 215 209.MB 206 203 197 MB 178 182 182.ZAT 203 203 205.ZS 215 — 213 215. ZAT 215 209 209.MB 191 189 191 RAHIQUES exécutés par : APAVE DE L'OUEST le: 13 05 1997 re de fer Grandissement : 1,4 7184 D de la soudure mpacité onforme U ESSAIS Nom et signature de l’examinateur Nom et signature du représentant de l’organisme d’inspection du constructeur ou fabricant CFCE ENTREPRISE 23360 PONTAUMUR Tél. 04 05 00 23 11 RC B 343 694 458 89 B 85 APE 263 C- Télécopie : 04 05 00 23 12 ASSOCIATION POLIR | QUALIFICATION D’UN MODE OPERATOIRE DE SOU Suivant NF EN 288-3 PROCES VERBAL Délivré au constructeur ou fabricant: CFCE à la suite de l’exécution d’un assemblage d’essai effectué le: 1° avril 1997 à: Pontaumur (23) en présence de M. : RAUPRETRE P. appartenant à l'organisme d’inspection : Groupement des APAVE lequel certifie que le mode opératoire de soudage présenté suivant le descriptif (DMOSP) en annexe établi par le constructeur ou le fabricant a donné des rés: de la norme NF EN 288-3 Edition 92. Procès verbal établi le : 15 mai 1997 Sous la référence (PV QMOS N°) : 2673 07 EN Nom et signature de la personne autorisée et cachet de l’organisme d’inspection : O. NOWHERE Agence 6, rue de la J 44803 SAIN Tél. 40 38 8",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "CAQ 0520-94 — Rév : 1]4 non par : APAVE DE L'OUEST le: 14.5.97 sur soudure monopasse : — sur soudure"
+    },
+    {
+      "field": "supplier",
+      "value": "LC I. DESCRIPTIF DU MODE OPÉRATOIRE DE SOUDAGE ; + DU CONSTRUCTEUR OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI Nuances 1 Nuance 2 DMOSP N° 078 EN 288-02 Spécification matériau de base : S355k2G3 Type de joint: Bout à bout tôles N° coulée : 08 4074629 Méthode de préparation et nettoyage Groupe de matériau : 1 Oxycoupage + Moulage Epaisseur du matériau de base (mm) : 40 Diamétre du matériau de base (mm) : TT Schéma de préparation Disposition des passes N° des passes : Procédés de soudage : Position de soudage : Soudage auto. nb de têtes balayage * fréquence oscillations temporisation _ L Soudeur ou soudeur opérateur : SKOWRONECK GOURBE LON Produit d’ apport : Fil (F) ou Electrode (E) E | E F Codification (Désignation normalisée) : £515: B 110 26 BH 512 Marque et type : SRF NF 58 ESAB Diamètre : ee 25 32 4,0 Conservation ou étuvage : << of ——— Gaz de protection— flux Pulvérulent - codification (Dés. Norma.) : - marque et type : FP/B 24/33 FBI Gazeux - codification (Dés. Norma.) : ESAB OK FLUX 10 - 62 - marque et type : Envers - débit t/ min. : Endroit - débit t/ min. : Plasmagène : Electrode réfractaire / type et diamètre : Nature du courant : Polarité de l’électrode ou du fil : Intensité I en Ampère : Tension U en Volts : Soudage puisé : Vitesse d’exécution V d’une passe : cm/min.: Vitesse de déroulement du fil : cm/min.: Ux1x60 Energie en Joules / cm = V en cm/min. 14 400 19200 T° mini. préchauffage en C° 100 100 T° maxi. entre passes en C° | 300 300 Matériel de soudage - Machine - Poste Support envers (nature) : Gougeage (nature) Commercy TE 320 Post-chauffage: Non \\_ Oui Température °C : — Durée du maintien : — Traitement thermique après soudage : Non Oui N Réf. : 707 Vitesse de montée en température en °C/h : 150 Température max. en °C et durée du maintien : 580/1h35 Vitesse de refroidissement en °C/h : 150 de 580 à 300 air calme de 300 à 20 AUTRES INFORMATIONS : Néant * balayage (largeur maximale) oscillation: — Fréquence, temporisation : — Soudage puisé détails : — Angle de torche : — Distance de maintien: — Détail du plasma : — PV QMOS N°2673-07-EN h II. RÉSULTATS DES CONTROLES, EXAMENS ET ESSAIS 1- CONTROLES NON DESTRUCTIFS (EN 288-3 ET ANNEXES III Exécuté par: N° PV et dat À L'ARRÊTÉ DU 24 MARS 1978 KÉCUIS par : et eate Visuel : APAVE DE L'OUEST V/22273 du2-4-97 Ressuage : RS 22274 du 2-4 - 97 Magnétoscopique : ” ” Radiographique : Ultrasonore : 2- ESSAIS DE TRACTION : exécutés par: APAVE DE L'OUEST le: 14 05 1997 Localisation de la i i i Re N/mm? Dimension de la section de Rm N/mm? eww] ae |e cassure l’éprouvette mm Repére de éprouvette | éprouvette cylindrique uniquement | uniquement Péprouvette | transversale intéressant | | transversale intéressant | Valeurs 4 obtenir 2 Métal de Métal toute une fraction de base fondu l'épaisseur | l'épaisseur 25,1 x 20,1 } 530 Satis faisant 25,0 x 20,1 Satis faisant 25,1 x 20,1 } 530 Satis faisant 25,1 x 20,1 Satis faisant 3- ESSAIS DE PLIAGE: exécutés par: APAVE DE L'OUEST le: 14 05 1997 Éprouvette Sens du pliage et dimensions de la section mm g Repère de : “eon Poingon Côté intéressant REMARQUES l’éprouvette oe ite : Transversale | Longitudinale (4 \"t\") mm Endroit Envers REMARQUES totalité de \"t\" fraction de \"t\" Satis faisant Satis faisant Satis faisant Satis faisant «t»: épaisseur DM - T/P N° 24260 4- ESSAIS DE RESILIENCE: exécutés par: APAVE DE L'OUEST le: 14 05 1997 Minimales TOF Dimension des éprouvettes : 10 x 10 Ployenne [5] 7 Position de KCV J/cm? l’éprouvette Emplacement de l’entaille Repère de l’éprouvette Peau=p ZAT (VHT) REMARQUES Mi-épaisseur =e MF(VWT) Racine =r ESSAIS COMPLEME NTAIRES Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant P P P € € € P P P € € €",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "LC I. DESCRIPTIF DU MODE OPÉRATOIRE DE SOUDAGE ; + DU CONSTRUCTEUR OU DU FABRICANT : PARAMETRES RELE"
+    },
+    {
+      "field": "supplier",
+      "value": "LC I. DESCRIPTIF DU MODE OPÉRATOIRE DE SOUDAGE ; + DU CONSTRUCTEUR OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI Nuances 1 Nuance 2 DMOSP N° 078 EN 288-02 Spécification matériau de base : S355k2G3 Type de joint: Bout à bout tôles N° coulée : 08 4074629 Méthode de préparation et nettoyage Groupe de matériau : 1 Oxycoupage + Moulage Epaisseur du matériau de base (mm) : 40 Diamétre du matériau de base (mm) : TT Schéma de préparation Disposition des passes N° des passes : Procédés de soudage : Position de soudage : Soudage auto. nb de têtes balayage * fréquence oscillations temporisation _ L Soudeur ou soudeur opérateur : SKOWRONECK GOURBE LON Produit d’ apport : Fil (F) ou Electrode (E) E | E F Codification (Désignation normalisée) : £515: B 110 26 BH 512 Marque et type : SRF NF 58 ESAB Diamètre : ee 25 32 4,0 Conservation ou étuvage : << of ——— Gaz de protection— flux Pulvérulent - codification (Dés. Norma.) : - marque et type : FP/B 24/33 FBI Gazeux - codification (Dés. Norma.) : ESAB OK FLUX 10 - 62 - marque et type : Envers - débit t/ min. : Endroit - débit t/ min. : Plasmagène : Electrode réfractaire / type et diamètre : Nature du courant : Polarité de l’électrode ou du fil : Intensité I en Ampère : Tension U en Volts : Soudage puisé : Vitesse d’exécution V d’une passe : cm/min.: Vitesse de déroulement du fil : cm/min.: Ux1x60 Energie en Joules / cm = V en cm/min. 14 400 19200 T° mini. préchauffage en C° 100 100 T° maxi. entre passes en C° | 300 300 Matériel de soudage - Machine - Poste Support envers (nature) : Gougeage (nature) Commercy TE 320 Post-chauffage: Non \\_ Oui Température °C : — Durée du maintien : — Traitement thermique après soudage : Non Oui N Réf. : 707 Vitesse de montée en température en °C/h : 150 Température max. en °C et durée du maintien : 580/1h35 Vitesse de refroidissement en °C/h : 150 de 580 à 300 air calme de 300 à 20 AUTRES INFORMATIONS : Néant * balayage (largeur maximale) oscillation: — Fréquence, temporisation : — Soudage puisé détails : — Angle de torche : — Distance de maintien: — Détail du plasma : — PV QMOS N°2673-07-EN h II. RÉSULTATS DES CONTROLES, EXAMENS ET ESSAIS 1- CONTROLES NON DESTRUCTIFS (EN 288-3 ET ANNEXES III Exécuté par: N° PV et dat À L'ARRÊTÉ DU 24 MARS 1978 KÉCUIS par : et eate Visuel : APAVE DE L'OUEST V/22273 du2-4-97 Ressuage : RS 22274 du 2-4 - 97 Magnétoscopique : ” ” Radiographique : Ultrasonore : 2- ESSAIS DE TRACTION : exécutés par: APAVE DE L'OUEST le: 14 05 1997 Localisation de la i i i Re N/mm? Dimension de la section de Rm N/mm? eww] ae |e cassure l’éprouvette mm Repére de éprouvette | éprouvette cylindrique uniquement | uniquement Péprouvette | transversale intéressant | | transversale intéressant | Valeurs 4 obtenir 2 Métal de Métal toute une fraction de base fondu l'épaisseur | l'épaisseur 25,1 x 20,1 } 530 Satis faisant 25,0 x 20,1 Satis faisant 25,1 x 20,1 } 530 Satis faisant 25,1 x 20,1 Satis faisant 3- ESSAIS DE PLIAGE: exécutés par: APAVE DE L'OUEST le: 14 05 1997 Éprouvette Sens du pliage et dimensions de la section mm g Repère de : “eon Poingon Côté intéressant REMARQUES l’éprouvette oe ite : Transversale | Longitudinale (4 \"t\") mm Endroit Envers REMARQUES totalité de \"t\" fraction de \"t\" Satis faisant Satis faisant Satis faisant Satis faisant «t»: épaisseur DM - T/P N° 24260 4- ESSAIS DE RESILIENCE: exécutés par: APAVE DE L'OUEST le: 14 05 1997 Minimales TOF Dimension des éprouvettes : 10 x 10 Ployenne [5] 7 Position de KCV J/cm? l’éprouvette Emplacement de l’entaille Repère de l’éprouvette Peau=p ZAT (VHT) REMARQUES Mi-épaisseur =e MF(VWT) Racine =r ESSAIS COMPLEME NTAIRES Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant P P P € € € P P P € € €",
+      "confidence": 0.8,
+      "source": "trigger_fabricant",
+      "raw_text": "LC I. DESCRIPTIF DU MODE OPÉRATOIRE DE SOUDAGE ; + DU CONSTRUCTEUR OU DU FABRICANT : PARAMETRES RELE"
+    },
+    {
+      "field": "supplier",
+      "value": "CAQ 0520-94 — Rév : 1]4 non par : APAVE DE L'OUEST le: 02.12.97 sur soudure monopasse : — sur soudure multipasse : 320 N° Résultats mesures ie filiation 144 147 142 / 154 162 177 / 183 201 173 / 183 165 160 / 146 147 151 148 150 144 / 164 166 167 / 165 160159 / — 177 169169 / 161 156 156 RAHIQUES exécutés par : APAVE DE L'OUEST le: 13 05 1997 re de fer Grandissement : 2 75 52 B de la soudure mpacité onforme U ESSAIS Nom et signature de l’examinateur Nom et signature du représentant de l’organisme d’inspection du constructeur ou fabricant CFCE ENTREPRISE 23360 PONTAUMUR Tél. 04 05 00 23 11 RC B 343 694 493 88 B 86 APE 263 C- Télécopie : 04 05 00 23 12 S. Rodriguez ASSOCIATION POUR | A QUAI ITF DFS APPARFII S À PRESSIC KL X QUALIFICATION D’UN MODE OPÉRATOIRE DE SOU Suivant NF EN 288-3 PROCÈS VERBAL Délivré au constructeur ou fabricant : CFCE à la suite de l’exécution d’un assemblage d’essai effectué le : 20 novembre 1997 à: Pontaumur (23) en présence de M. : S. Rodriguez appartenant à l’organisme d’inspection : Groupement des APAVE lequel certifie que le mode opératoire de soudage présenté suivant le descriptif (DMOSP) en annexe établi par le constructeur ou le fabricant a donné des rés de la norme NF EN 288-3 Edition 92. Procès verbal établi le : 02 décembre 1997 Sous la référence (PV QMOS N°) : 2745. 07. EN Nom et signature de la personne autorisée et cachet de l’organisme d’inspection : O. NOWHERE Agence 6, rue de la J 44803 SAIN Tél. 40 38 8",
+      "confidence": 0.8,
+      "source": "trigger_fabricant",
+      "raw_text": "CAQ 0520-94 — Rév : 1]4 non par : APAVE DE L'OUEST le: 02.12.97 sur soudure monopasse : — sur soudur"
+    },
+    {
+      "field": "supplier",
+      "value": "LC I. DESCRIPTIF DU MODE OPÉRATOIRE DE SOUDAGE ; + DU CONSTRUCTEUR OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI Nuances 1 Nuance 2 DMOSP N° 078 EN 288-02 Spécification matériau de base : S355k2G3 Type de joint: Bout à bout tôles N° coulée : 08 4074629 Méthode de préparation et nettoyage Groupe de matériau : 1 Oxycoupage + Moulage Epaisseur du matériau de base (mm) : 40 Diamétre du matériau de base (mm) : TT Schéma de préparation Disposition des passes N° des passes : Procédés de soudage : Position de soudage : Soudage auto. nb de têtes balayage * fréquence oscillations temporisation _ L Soudeur ou soudeur opérateur : SKOWRONECK GOURBE LON Produit d’ apport : Fil (F) ou Electrode (E) E | E F Codification (Désignation normalisée) : £515: B 110 26 BH 512 Marque et type : SRF NF 58 ESAB Diamètre : ee 25 32 4,0 Conservation ou étuvage : << of ——— Gaz de protection— flux Pulvérulent - codification (Dés. Norma.) : - marque et type : FP/B 24/33 FBI Gazeux - codification (Dés. Norma.) : ESAB OK FLUX 10 - 62 - marque et type : Envers - débit t/ min. : Endroit - débit t/ min. : Plasmagène : Electrode réfractaire / type et diamètre : Nature du courant : Polarité de l’électrode ou du fil : Intensité I en Ampère : Tension U en Volts : Soudage puisé : Vitesse d’exécution V d’une passe : cm/min.: Vitesse de déroulement du fil : cm/min.: Ux1x60 Energie en Joules / cm = V en cm/min. 14 400 19200 T° mini. préchauffage en C° 100 100 T° maxi. entre passes en C° | 300 300 Matériel de soudage - Machine - Poste Support envers (nature) : Gougeage (nature) Commercy TE 320 Post-chauffage: Non \\_ Oui Température °C : — Durée du maintien : — Traitement thermique après soudage : Non Oui N Réf. : 707 Vitesse de montée en température en °C/h : 150 Température max. en °C et durée du maintien : 580/1h35 Vitesse de refroidissement en °C/h : 150 de 580 à 300 air calme de 300 à 20 AUTRES INFORMATIONS : Néant * balayage (largeur maximale) oscillation: — Fréquence, temporisation : — Soudage puisé détails : — Angle de torche : — Distance de maintien: — Détail du plasma : — PV QMOS N°2673-07-EN h II. RÉSULTATS DES CONTROLES, EXAMENS ET ESSAIS 1- CONTROLES NON DESTRUCTIFS (EN 288-3 ET ANNEXES III Exécuté par: N° PV et dat À L'ARRÊTÉ DU 24 MARS 1978 KÉCUIS par : et eate Visuel : APAVE DE L'OUEST V/22273 du2-4-97 Ressuage : RS 22274 du 2-4 - 97 Magnétoscopique : ” ” Radiographique : Ultrasonore : 2- ESSAIS DE TRACTION : exécutés par: APAVE DE L'OUEST le: 14 05 1997 Localisation de la i i i Re N/mm? Dimension de la section de Rm N/mm? eww] ae |e cassure l’éprouvette mm Repére de éprouvette | éprouvette cylindrique uniquement | uniquement Péprouvette | transversale intéressant | | transversale intéressant | Valeurs 4 obtenir 2 Métal de Métal toute une fraction de base fondu l'épaisseur | l'épaisseur 25,1 x 20,1 } 530 Satis faisant 25,0 x 20,1 Satis faisant 25,1 x 20,1 } 530 Satis faisant 25,1 x 20,1 Satis faisant 3- ESSAIS DE PLIAGE: exécutés par: APAVE DE L'OUEST le: 14 05 1997 Éprouvette Sens du pliage et dimensions de la section mm g Repère de : “eon Poingon Côté intéressant REMARQUES l’éprouvette oe ite : Transversale | Longitudinale (4 \"t\") mm Endroit Envers REMARQUES totalité de \"t\" fraction de \"t\" Satis faisant Satis faisant Satis faisant Satis faisant «t»: épaisseur DM - T/P N° 24260 4- ESSAIS DE RESILIENCE: exécutés par: APAVE DE L'OUEST le: 14 05 1997 Minimales TOF Dimension des éprouvettes : 10 x 10 Ployenne [5] 7 Position de KCV J/cm? l’éprouvette Emplacement de l’entaille Repère de l’éprouvette Peau=p ZAT (VHT) REMARQUES Mi-épaisseur =e MF(VWT) Racine =r ESSAIS COMPLEME NTAIRES Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant Satis faisant P P P € € € P P P € € €",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "LC I. DESCRIPTIF DU MODE OPÉRATOIRE DE SOUDAGE ; + DU CONSTRUCTEUR OU DU FABRICANT : PARAMETRES RELE"
+    },
+    {
+      "field": "supplier",
+      "value": "CAQ 0520-94 — Rév : 1]4 non par : APAVE DE L'OUEST le: 02.12.97 sur soudure monopasse : — sur soudure multipasse : 320 N° Résultats mesures ie filiation 144 147 142 / 154 162 177 / 183 201 173 / 183 165 160 / 146 147 151 148 150 144 / 164 166 167 / 165 160159 / — 177 169169 / 161 156 156 RAHIQUES exécutés par : APAVE DE L'OUEST le: 13 05 1997 re de fer Grandissement : 2 75 52 B de la soudure mpacité onforme U ESSAIS Nom et signature de l’examinateur Nom et signature du représentant de l’organisme d’inspection du constructeur ou fabricant CFCE ENTREPRISE 23360 PONTAUMUR Tél. 04 05 00 23 11 RC B 343 694 493 88 B 86 APE 263 C- Télécopie : 04 05 00 23 12 S. Rodriguez ASSOCIATION POUR | A QUAI ITF DFS APPARFII S À PRESSIC KL X QUALIFICATION D’UN MODE OPÉRATOIRE DE SOU Suivant NF EN 288-3 PROCÈS VERBAL Délivré au constructeur ou fabricant : CFCE à la suite de l’exécution d’un assemblage d’essai effectué le : 20 novembre 1997 à: Pontaumur (23) en présence de M. : S. Rodriguez appartenant à l’organisme d’inspection : Groupement des APAVE lequel certifie que le mode opératoire de soudage présenté suivant le descriptif (DMOSP) en annexe établi par le constructeur ou le fabricant a donné des rés de la norme NF EN 288-3 Edition 92. Procès verbal établi le : 02 décembre 1997 Sous la référence (PV QMOS N°) : 2745. 07. EN Nom et signature de la personne autorisée et cachet de l’organisme d’inspection : O. NOWHERE Agence 6, rue de la J 44803 SAIN Tél. 40 38 8",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "CAQ 0520-94 — Rév : 1]4 non par : APAVE DE L'OUEST le: 02.12.97 sur soudure monopasse : — sur soudur"
+    },
+    {
+      "field": "supplier",
+      "value": "CAQ 0520-94 — Rév : 1]4 non par : APAVE DE L'OUEST le: 02.12.97 sur soudure monopasse : — sur soudure multipasse : 320 N° Résultats mesures ie filiation 144 147 142 / 154 162 177 / 183 201 173 / 183 165 160 / 146 147 151 148 150 144 / 164 166 167 / 165 160159 / — 177 169169 / 161 156 156 RAHIQUES exécutés par : APAVE DE L'OUEST le: 13 05 1997 re de fer Grandissement : 2 75 52 B de la soudure mpacité onforme U ESSAIS Nom et signature de l’examinateur Nom et signature du représentant de l’organisme d’inspection du constructeur ou fabricant CFCE ENTREPRISE 23360 PONTAUMUR Tél. 04 05 00 23 11 RC B 343 694 493 88 B 86 APE 263 C- Télécopie : 04 05 00 23 12 S. Rodriguez ASSOCIATION POUR | A QUAI ITF DFS APPARFII S À PRESSIC KL X QUALIFICATION D’UN MODE OPÉRATOIRE DE SOU Suivant NF EN 288-3 PROCÈS VERBAL Délivré au constructeur ou fabricant : CFCE à la suite de l’exécution d’un assemblage d’essai effectué le : 20 novembre 1997 à: Pontaumur (23) en présence de M. : S. Rodriguez appartenant à l’organisme d’inspection : Groupement des APAVE lequel certifie que le mode opératoire de soudage présenté suivant le descriptif (DMOSP) en annexe établi par le constructeur ou le fabricant a donné des rés de la norme NF EN 288-3 Edition 92. Procès verbal établi le : 02 décembre 1997 Sous la référence (PV QMOS N°) : 2745. 07. EN Nom et signature de la personne autorisée et cachet de l’organisme d’inspection : O. NOWHERE Agence 6, rue de la J 44803 SAIN Tél. 40 38 8",
+      "confidence": 0.8,
+      "source": "trigger_fabricant",
+      "raw_text": "CAQ 0520-94 — Rév : 1]4 non par : APAVE DE L'OUEST le: 02.12.97 sur soudure monopasse : — sur soudur"
+    },
+    {
+      "field": "supplier",
+      "value": "ns 2 DE OPÉRATOIRE DE SOUDAGE PV QMOS N° 2745- 07- EN . R OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI II. RESULTATS DES CONTROLES, EXAMENS ET ESSAIS Nuances 1 Nuance 2 es , 1- CONTRÔLES NON DESTRUCTIFS (EN 288-3 ET ANNEXES III PP Spécification matériau de base : BF 48 F (NF E29204) À L'ARRÊTÉ DU 24 MARS 1978 Exécuté par : be N° coulée : . 90557 Visuel: APAVE DE L'OUEST age Groupe de matériau : 1 Ressuage : ” ” Epaisseur oe mae an ease (mm) : ; Magnétoscopique : ” » iamètre du matériau de base (mm) : Fe) Radiographique : APAVE DE L'OUEST préparation Disposition des passes Ultrasonore : \" ” 2- ESSAIS DE TRACTION : exécutés par: APAVE DE L'OUEST le: 02 12 1997 Dimension de la section de l’éprouvette mm Repère de +2 l'éprouvette transversale intéressant toute une fraction de l'épaisseur | l'épaisseur 12,1 x 7,0 12,1 x 6,8 ns 3- ESSAIS DE PLIAGE: exécutés par: APAVE DE L'OUEST le: 02 12 1997 SKOWRONECK 1 SKOWRONECK | powers | Sens du pliage et dimensions de la sect ctrode (E) ée) : E E F | Repère de 3 sée) : 651 (NFA 21311) 651 (NFA 81811) l'éprouvette Poinçon Côté inté BOHLER EML 5 BOHLER Transversale | Longitudinale | (4\"t\")mm | Endroit Envers 24 24 24 totalité de \"t” Gaz Norma.) : - 1x8 © 1x8 Norma.) : EN 439 mètre : WTh Ô 24 WTh Ô 2,4 JET «t» : épaisseur DM = TF Continu Continu ink ee i à 4- ESSAIS DE RESILIENCE: aleurs à obtenir KCV | i =, exécutés par: APAVE DE L'OUEST le: 02 12 1997 Dimension des éprouvettes : 10x 5 Position de KCV J/cm? se : cm/min.: l’éprouvette Emplacement de Pentaille m/min. : Repère de l’éprouvette Peau =p ZAT (VHT) x 60 Mi-épaisseur =e MF(VWT) n/min. 17 550 21 840 Racine =r | Nunel | - 250° - - 155 - 127 - - - 135 Oui Température °C : — Durée du maintien : — ge: Non Oui \\ Réf. : 193 EN 288-05 Vitesse de montée en température en °C/h: 70 u maintien : 580 /1h20 Vitesse de refroidissement en °C/h : < 70 ° de 580 à 300 air calme de 300 à ambiante cillation: — — Soudage puisé détails : — Distance de maintien: — Détail du plasma : —",
+      "confidence": 0.8,
+      "source": "trigger_fabricant",
+      "raw_text": "ns 2 DE OPÉRATOIRE DE SOUDAGE PV QMOS N° 2745- 07- EN . R OU DU FABRICANT : PARAMETRES RELEVES LORS "
+    },
+    {
+      "field": "supplier",
+      "value": "CAQ 0520-94 — Rév : 1]4 non par : APAVE DE L'OUEST le: 02.12.97 sur soudure monopasse : — sur soudure multipasse : 320 N° Résultats mesures ie filiation 144 147 142 / 154 162 177 / 183 201 173 / 183 165 160 / 146 147 151 148 150 144 / 164 166 167 / 165 160159 / — 177 169169 / 161 156 156 RAHIQUES exécutés par : APAVE DE L'OUEST le: 13 05 1997 re de fer Grandissement : 2 75 52 B de la soudure mpacité onforme U ESSAIS Nom et signature de l’examinateur Nom et signature du représentant de l’organisme d’inspection du constructeur ou fabricant CFCE ENTREPRISE 23360 PONTAUMUR Tél. 04 05 00 23 11 RC B 343 694 493 88 B 86 APE 263 C- Télécopie : 04 05 00 23 12 S. Rodriguez ASSOCIATION POUR | A QUAI ITF DFS APPARFII S À PRESSIC KL X QUALIFICATION D’UN MODE OPÉRATOIRE DE SOU Suivant NF EN 288-3 PROCÈS VERBAL Délivré au constructeur ou fabricant : CFCE à la suite de l’exécution d’un assemblage d’essai effectué le : 20 novembre 1997 à: Pontaumur (23) en présence de M. : S. Rodriguez appartenant à l’organisme d’inspection : Groupement des APAVE lequel certifie que le mode opératoire de soudage présenté suivant le descriptif (DMOSP) en annexe établi par le constructeur ou le fabricant a donné des rés de la norme NF EN 288-3 Edition 92. Procès verbal établi le : 02 décembre 1997 Sous la référence (PV QMOS N°) : 2745. 07. EN Nom et signature de la personne autorisée et cachet de l’organisme d’inspection : O. NOWHERE Agence 6, rue de la J 44803 SAIN Tél. 40 38 8",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "CAQ 0520-94 — Rév : 1]4 non par : APAVE DE L'OUEST le: 02.12.97 sur soudure monopasse : — sur soudur"
+    },
+    {
+      "field": "supplier",
+      "value": "ns 2 DE OPÉRATOIRE DE SOUDAGE PV QMOS N° 2745- 07- EN . R OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI II. RESULTATS DES CONTROLES, EXAMENS ET ESSAIS Nuances 1 Nuance 2 es , 1- CONTRÔLES NON DESTRUCTIFS (EN 288-3 ET ANNEXES III PP Spécification matériau de base : BF 48 F (NF E29204) À L'ARRÊTÉ DU 24 MARS 1978 Exécuté par : be N° coulée : . 90557 Visuel: APAVE DE L'OUEST age Groupe de matériau : 1 Ressuage : ” ” Epaisseur oe mae an ease (mm) : ; Magnétoscopique : ” » iamètre du matériau de base (mm) : Fe) Radiographique : APAVE DE L'OUEST préparation Disposition des passes Ultrasonore : \" ” 2- ESSAIS DE TRACTION : exécutés par: APAVE DE L'OUEST le: 02 12 1997 Dimension de la section de l’éprouvette mm Repère de +2 l'éprouvette transversale intéressant toute une fraction de l'épaisseur | l'épaisseur 12,1 x 7,0 12,1 x 6,8 ns 3- ESSAIS DE PLIAGE: exécutés par: APAVE DE L'OUEST le: 02 12 1997 SKOWRONECK 1 SKOWRONECK | powers | Sens du pliage et dimensions de la sect ctrode (E) ée) : E E F | Repère de 3 sée) : 651 (NFA 21311) 651 (NFA 81811) l'éprouvette Poinçon Côté inté BOHLER EML 5 BOHLER Transversale | Longitudinale | (4\"t\")mm | Endroit Envers 24 24 24 totalité de \"t” Gaz Norma.) : - 1x8 © 1x8 Norma.) : EN 439 mètre : WTh Ô 24 WTh Ô 2,4 JET «t» : épaisseur DM = TF Continu Continu ink ee i à 4- ESSAIS DE RESILIENCE: aleurs à obtenir KCV | i =, exécutés par: APAVE DE L'OUEST le: 02 12 1997 Dimension des éprouvettes : 10x 5 Position de KCV J/cm? se : cm/min.: l’éprouvette Emplacement de Pentaille m/min. : Repère de l’éprouvette Peau =p ZAT (VHT) x 60 Mi-épaisseur =e MF(VWT) n/min. 17 550 21 840 Racine =r | Nunel | - 250° - - 155 - 127 - - - 135 Oui Température °C : — Durée du maintien : — ge: Non Oui \\ Réf. : 193 EN 288-05 Vitesse de montée en température en °C/h: 70 u maintien : 580 /1h20 Vitesse de refroidissement en °C/h : < 70 ° de 580 à 300 air calme de 300 à ambiante cillation: — — Soudage puisé détails : — Distance de maintien: — Détail du plasma : —",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "ns 2 DE OPÉRATOIRE DE SOUDAGE PV QMOS N° 2745- 07- EN . R OU DU FABRICANT : PARAMETRES RELEVES LORS "
+    },
+    {
+      "field": "supplier",
+      "value": "ns 2 DE OPÉRATOIRE DE SOUDAGE PV QMOS N° 2745- 07- EN . R OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI II. RESULTATS DES CONTROLES, EXAMENS ET ESSAIS Nuances 1 Nuance 2 es , 1- CONTRÔLES NON DESTRUCTIFS (EN 288-3 ET ANNEXES III PP Spécification matériau de base : BF 48 F (NF E29204) À L'ARRÊTÉ DU 24 MARS 1978 Exécuté par : be N° coulée : . 90557 Visuel: APAVE DE L'OUEST age Groupe de matériau : 1 Ressuage : ” ” Epaisseur oe mae an ease (mm) : ; Magnétoscopique : ” » iamètre du matériau de base (mm) : Fe) Radiographique : APAVE DE L'OUEST préparation Disposition des passes Ultrasonore : \" ” 2- ESSAIS DE TRACTION : exécutés par: APAVE DE L'OUEST le: 02 12 1997 Dimension de la section de l’éprouvette mm Repère de +2 l'éprouvette transversale intéressant toute une fraction de l'épaisseur | l'épaisseur 12,1 x 7,0 12,1 x 6,8 ns 3- ESSAIS DE PLIAGE: exécutés par: APAVE DE L'OUEST le: 02 12 1997 SKOWRONECK 1 SKOWRONECK | powers | Sens du pliage et dimensions de la sect ctrode (E) ée) : E E F | Repère de 3 sée) : 651 (NFA 21311) 651 (NFA 81811) l'éprouvette Poinçon Côté inté BOHLER EML 5 BOHLER Transversale | Longitudinale | (4\"t\")mm | Endroit Envers 24 24 24 totalité de \"t” Gaz Norma.) : - 1x8 © 1x8 Norma.) : EN 439 mètre : WTh Ô 24 WTh Ô 2,4 JET «t» : épaisseur DM = TF Continu Continu ink ee i à 4- ESSAIS DE RESILIENCE: aleurs à obtenir KCV | i =, exécutés par: APAVE DE L'OUEST le: 02 12 1997 Dimension des éprouvettes : 10x 5 Position de KCV J/cm? se : cm/min.: l’éprouvette Emplacement de Pentaille m/min. : Repère de l’éprouvette Peau =p ZAT (VHT) x 60 Mi-épaisseur =e MF(VWT) n/min. 17 550 21 840 Racine =r | Nunel | - 250° - - 155 - 127 - - - 135 Oui Température °C : — Durée du maintien : — ge: Non Oui \\ Réf. : 193 EN 288-05 Vitesse de montée en température en °C/h: 70 u maintien : 580 /1h20 Vitesse de refroidissement en °C/h : < 70 ° de 580 à 300 air calme de 300 à ambiante cillation: — — Soudage puisé détails : — Distance de maintien: — Détail du plasma : —",
+      "confidence": 0.8,
+      "source": "trigger_fabricant",
+      "raw_text": "ns 2 DE OPÉRATOIRE DE SOUDAGE PV QMOS N° 2745- 07- EN . R OU DU FABRICANT : PARAMETRES RELEVES LORS "
+    },
+    {
+      "field": "supplier",
+      "value": "non par : CEREC le: 01.04.97 sur soudure monopasse : — sur soudure multipasse : 320 N° Résultats mesures wpe gt filiation 4 > 1 MB 181 181 181.ZAT 236 236 236.MF 221 221 221 221 221 221 221. ZAT 228 228 228 .MB 193 187 187 MB 181 181 181.ZAT 221221 221.MF 221 221 228 221 221.ZAT 221 221 221. MB 181 181 181 \\ 3 MB 176 176 181. ZAT 221 221 221. MF 221 221 221 221 ASSOCIATION POURI À GLIAL ITE DES —+ | 221 221 221 221. ZAT 228 228 228 228. MB 176 176176 | K à MF 221 221 221 206 206 206 221 221 221 PARFIl S À PRESS 5 x RAHIQUES exécutés par : CEREC le: 01 04 1997 % Grandissement : x 1 QUALIFICATION D’UN MODE OPÉRATOIRE DE SOU 1E MACROGRAPHIQUE N ANNEXE Suivant NF EN 288-3 Vals rue €. Bourseul PROCÈS VERBAL 59508 DOUAI CEDEX & : 03 27 71 24 94 Fax : 03 27 98 45 63 17341/Q2 Délivré au constructeur ou fabricant : SOCOMAS ‘de compacité Résultat : à la suite de l’exécution d’un assemblage d’essai effectué le: 20 mars 1997 à: HAUTMONT Il a été remis a en présence de M. : APPACHE - N - 1 Ori appartenant à l'organisme d’inspection : - 1 Du Institut de Soudure de ce prac JU ESSAIS men micrographique ; lequel certifie que le mode opératoire de soudage présenté suivant le descriptif (DMOSP) en annexe établi par le constructeur ou le fabricant a donné des rés: de la norme NF EN 288-3 Edition 92. Procès verbal établi le : Of avril 1997 Sous la référence (PV QMOS N°) : 1032 / 59 Nom et signature de la personne autorisée et cachet de l’organisme d’inspect P. SEBASTIAN/ Nom et signature de l’examinateur Nom et signature du représentant de l’organisme d’inspection du constructeur ou fabricant ANACHE. P INSTITUT DE SOUDURE 141, rue C. Bourseul BP 838 59508 DOUAI CEDEX @ : 03 27 71 24 94 Fax : 03 27 98 45 63",
+      "confidence": 0.8,
+      "source": "trigger_fabricant",
+      "raw_text": "non par : CEREC le: 01.04.97 sur soudure monopasse : — sur soudure multipasse : 320 N° Résultats mes"
+    },
+    {
+      "field": "supplier",
+      "value": "ns 2 DE OPÉRATOIRE DE SOUDAGE PV QMOS N° 2745- 07- EN . R OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI II. RESULTATS DES CONTROLES, EXAMENS ET ESSAIS Nuances 1 Nuance 2 es , 1- CONTRÔLES NON DESTRUCTIFS (EN 288-3 ET ANNEXES III PP Spécification matériau de base : BF 48 F (NF E29204) À L'ARRÊTÉ DU 24 MARS 1978 Exécuté par : be N° coulée : . 90557 Visuel: APAVE DE L'OUEST age Groupe de matériau : 1 Ressuage : ” ” Epaisseur oe mae an ease (mm) : ; Magnétoscopique : ” » iamètre du matériau de base (mm) : Fe) Radiographique : APAVE DE L'OUEST préparation Disposition des passes Ultrasonore : \" ” 2- ESSAIS DE TRACTION : exécutés par: APAVE DE L'OUEST le: 02 12 1997 Dimension de la section de l’éprouvette mm Repère de +2 l'éprouvette transversale intéressant toute une fraction de l'épaisseur | l'épaisseur 12,1 x 7,0 12,1 x 6,8 ns 3- ESSAIS DE PLIAGE: exécutés par: APAVE DE L'OUEST le: 02 12 1997 SKOWRONECK 1 SKOWRONECK | powers | Sens du pliage et dimensions de la sect ctrode (E) ée) : E E F | Repère de 3 sée) : 651 (NFA 21311) 651 (NFA 81811) l'éprouvette Poinçon Côté inté BOHLER EML 5 BOHLER Transversale | Longitudinale | (4\"t\")mm | Endroit Envers 24 24 24 totalité de \"t” Gaz Norma.) : - 1x8 © 1x8 Norma.) : EN 439 mètre : WTh Ô 24 WTh Ô 2,4 JET «t» : épaisseur DM = TF Continu Continu ink ee i à 4- ESSAIS DE RESILIENCE: aleurs à obtenir KCV | i =, exécutés par: APAVE DE L'OUEST le: 02 12 1997 Dimension des éprouvettes : 10x 5 Position de KCV J/cm? se : cm/min.: l’éprouvette Emplacement de Pentaille m/min. : Repère de l’éprouvette Peau =p ZAT (VHT) x 60 Mi-épaisseur =e MF(VWT) n/min. 17 550 21 840 Racine =r | Nunel | - 250° - - 155 - 127 - - - 135 Oui Température °C : — Durée du maintien : — ge: Non Oui \\ Réf. : 193 EN 288-05 Vitesse de montée en température en °C/h: 70 u maintien : 580 /1h20 Vitesse de refroidissement en °C/h : < 70 ° de 580 à 300 air calme de 300 à ambiante cillation: — — Soudage puisé détails : — Distance de maintien: — Détail du plasma : —",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "ns 2 DE OPÉRATOIRE DE SOUDAGE PV QMOS N° 2745- 07- EN . R OU DU FABRICANT : PARAMETRES RELEVES LORS "
+    },
+    {
+      "field": "supplier",
+      "value": "non par : CEREC le: 01.04.97 sur soudure monopasse : — sur soudure multipasse : 320 N° Résultats mesures wpe gt filiation 4 > 1 MB 181 181 181.ZAT 236 236 236.MF 221 221 221 221 221 221 221. ZAT 228 228 228 .MB 193 187 187 MB 181 181 181.ZAT 221221 221.MF 221 221 228 221 221.ZAT 221 221 221. MB 181 181 181 \\ 3 MB 176 176 181. ZAT 221 221 221. MF 221 221 221 221 ASSOCIATION POURI À GLIAL ITE DES —+ | 221 221 221 221. ZAT 228 228 228 228. MB 176 176176 | K à MF 221 221 221 206 206 206 221 221 221 PARFIl S À PRESS 5 x RAHIQUES exécutés par : CEREC le: 01 04 1997 % Grandissement : x 1 QUALIFICATION D’UN MODE OPÉRATOIRE DE SOU 1E MACROGRAPHIQUE N ANNEXE Suivant NF EN 288-3 Vals rue €. Bourseul PROCÈS VERBAL 59508 DOUAI CEDEX & : 03 27 71 24 94 Fax : 03 27 98 45 63 17341/Q2 Délivré au constructeur ou fabricant : SOCOMAS ‘de compacité Résultat : à la suite de l’exécution d’un assemblage d’essai effectué le: 20 mars 1997 à: HAUTMONT Il a été remis a en présence de M. : APPACHE - N - 1 Ori appartenant à l'organisme d’inspection : - 1 Du Institut de Soudure de ce prac JU ESSAIS men micrographique ; lequel certifie que le mode opératoire de soudage présenté suivant le descriptif (DMOSP) en annexe établi par le constructeur ou le fabricant a donné des rés: de la norme NF EN 288-3 Edition 92. Procès verbal établi le : Of avril 1997 Sous la référence (PV QMOS N°) : 1032 / 59 Nom et signature de la personne autorisée et cachet de l’organisme d’inspect P. SEBASTIAN/ Nom et signature de l’examinateur Nom et signature du représentant de l’organisme d’inspection du constructeur ou fabricant ANACHE. P INSTITUT DE SOUDURE 141, rue C. Bourseul BP 838 59508 DOUAI CEDEX @ : 03 27 71 24 94 Fax : 03 27 98 45 63",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "non par : CEREC le: 01.04.97 sur soudure monopasse : — sur soudure multipasse : 320 N° Résultats mes"
+    },
+    {
+      "field": "supplier",
+      "value": "non par : CEREC le: 01.04.97 sur soudure monopasse : — sur soudure multipasse : 320 N° Résultats mesures wpe gt filiation 4 > 1 MB 181 181 181.ZAT 236 236 236.MF 221 221 221 221 221 221 221. ZAT 228 228 228 .MB 193 187 187 MB 181 181 181.ZAT 221221 221.MF 221 221 228 221 221.ZAT 221 221 221. MB 181 181 181 \\ 3 MB 176 176 181. ZAT 221 221 221. MF 221 221 221 221 ASSOCIATION POURI À GLIAL ITE DES —+ | 221 221 221 221. ZAT 228 228 228 228. MB 176 176176 | K à MF 221 221 221 206 206 206 221 221 221 PARFIl S À PRESS 5 x RAHIQUES exécutés par : CEREC le: 01 04 1997 % Grandissement : x 1 QUALIFICATION D’UN MODE OPÉRATOIRE DE SOU 1E MACROGRAPHIQUE N ANNEXE Suivant NF EN 288-3 Vals rue €. Bourseul PROCÈS VERBAL 59508 DOUAI CEDEX & : 03 27 71 24 94 Fax : 03 27 98 45 63 17341/Q2 Délivré au constructeur ou fabricant : SOCOMAS ‘de compacité Résultat : à la suite de l’exécution d’un assemblage d’essai effectué le: 20 mars 1997 à: HAUTMONT Il a été remis a en présence de M. : APPACHE - N - 1 Ori appartenant à l'organisme d’inspection : - 1 Du Institut de Soudure de ce prac JU ESSAIS men micrographique ; lequel certifie que le mode opératoire de soudage présenté suivant le descriptif (DMOSP) en annexe établi par le constructeur ou le fabricant a donné des rés: de la norme NF EN 288-3 Edition 92. Procès verbal établi le : Of avril 1997 Sous la référence (PV QMOS N°) : 1032 / 59 Nom et signature de la personne autorisée et cachet de l’organisme d’inspect P. SEBASTIAN/ Nom et signature de l’examinateur Nom et signature du représentant de l’organisme d’inspection du constructeur ou fabricant ANACHE. P INSTITUT DE SOUDURE 141, rue C. Bourseul BP 838 59508 DOUAI CEDEX @ : 03 27 71 24 94 Fax : 03 27 98 45 63",
+      "confidence": 0.8,
+      "source": "trigger_fabricant",
+      "raw_text": "non par : CEREC le: 01.04.97 sur soudure monopasse : — sur soudure multipasse : 320 N° Résultats mes"
+    },
+    {
+      "field": "supplier",
+      "value": "I. DESCRIPTIF DU MODE OPÉRATOIRE DE SOUDAGE - DU CONSTRUCTEUR OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI Nuances 1 Nuance 2 DMOSP N° §/17341- P2 Spécification matériau de base : P 355 NL 2 Type de joint: Bout à bout N° coulée : 57430 Méthode de préparation et nettoyage Groupe de matériau : 1 Oxycoupage + Moulage Epaisseur du matériau de base (mm) : 54 Diamètre du matériau de base (mm) : Schéma de préparation Disposition des passes N° des passes : Procédés de soudage : Position de soudage : Soudage auto. nb de têtes balayage * fréquence oscillations temporisation Soudeur ou soudeur opérateur : M. DUFRESNE Produit d’apport : Fil (F) ou Electrode (E) F F Codification (Désignation normalisée) : e 51 81-316-SA-Ni2 Marque et type : SAË NI 705 DERL/KON- OF S2 Ni 2 Diamètre : 1 4 Conservation ou étuvage : oui oui Gaz de protection — flux G Pulvérulent - codification (Dés. Norma.) : - marque et type : - codification (Dés. Norma.) : - marque et type : Envers - débit t/ min. : Endroit -débitt/min.: Plasmagène : Electrode réfractaire / type et diamètre : Nature du courant : Polarité de l’électrode ou du fil : + Intensité I en Ampère : 600 Tension U en Volts : 32 Soudage puisé : Vitesse d'exécution V d’une passe : cm/min.: Vitesse de déroulement du fil : cm/min.: Ux1x60 F FP 334 / 24 FBI DERLIKON-OP 121 TT Gazeux 1121 AR-AL21 Continu 600/ 650 30/38 50 90 Energie en Joules / cm = V en cm/min. 12 00016 466 T° mini. préchauffage en C° T° maxi. entre passes en C° Matériel de soudage - Machine - Poste Support envers (nature) : Gougeage (nature) ESAB LAC 1000/ TAC 1000 SAF HG 353 : Gougeage arc = air + moulage 1 prof. 25 mm ; fg. 30 mm Post-chauffage: Non \\ Oui Traitement thermique après soudage : Température °C : — Durée du maintien : — Non Oui N Réf :F296 Vitesse de montée en température en °C/h : 40 Température max. en °C et durée du maintien : 570/1h50 Vitesse de refroidissement en °C/h : 45 de 570 à 300 air calme de 300 à ambiante AUTRES INFORMATIONS : — * balayage (largeur maximale) oscillation: — Fréquence, temporisation : — Soudage puisé détails : — Angle de torche : — Distance de maintien: —— Détail du plasma : — 1432 FA7 [DO 4548 | 52627 | 509 | 3 SOCOMAS + IS VT/17341=-Q2 21-03-97 SOCOMAS + #S PT /17341=Q2 21-03-97 PV Qmos N° 59 . II. RÉSULTATS DES CONTROLES, EXAMENS ET ESSAIS 1- CONTROLES NON DESTRUCTIFS (EN 288-3 ET ANNEXES III À L’?ARRETE DU 24 MARS 1978 Visuel : Ressuage : Magnétoscopique : Radiographique : Ultrasonore : 2- ESSAIS DE TRACTION : exécutés par: CEREC le: 01 04 1997 Re N/mm? À % Z% Rm N/mm? éprouvette cylindrique uniquement Valeurs à obtenir Localisation de la Dimension de la section de cassure l’éprouvette mm transversale intéressant Repère de l'éprouvette 25 x 52,5 25 x 52,6 Fm = 707470 N Fm= 46018 N le: 01 04 1997 Sens du pliage et dimensions de la section mm REMARQUES Rs (4 \"t\") mm Endroit Envers totalité de \"t\" fraction de \"t\" 3- ESSAIS DE PLIAGE; exécutés par: CEREC Épr ouvette _ Repére de l’éprouvette «t»: épaisseur 4- ESSAIS DE RESILIENCE: exécutés pays; HEG px, Dimer É Hel S epro P à KCV J/cm? : iy Emplacement de l’entaille MF(VWT) [int Moy [oa [Moy | tek] Mov le: Of 04 1997 x10x10 mm",
+      "confidence": 0.8,
+      "source": "trigger_fabricant",
+      "raw_text": "I. DESCRIPTIF DU MODE OPÉRATOIRE DE SOUDAGE - DU CONSTRUCTEUR OU DU FABRICANT : PARAMETRES RELEVES L"
+    },
+    {
+      "field": "supplier",
+      "value": "non par : CEREC le: 01.04.97 sur soudure monopasse : — sur soudure multipasse : 320 N° Résultats mesures wpe gt filiation 4 > 1 MB 181 181 181.ZAT 236 236 236.MF 221 221 221 221 221 221 221. ZAT 228 228 228 .MB 193 187 187 MB 181 181 181.ZAT 221221 221.MF 221 221 228 221 221.ZAT 221 221 221. MB 181 181 181 \\ 3 MB 176 176 181. ZAT 221 221 221. MF 221 221 221 221 ASSOCIATION POURI À GLIAL ITE DES —+ | 221 221 221 221. ZAT 228 228 228 228. MB 176 176176 | K à MF 221 221 221 206 206 206 221 221 221 PARFIl S À PRESS 5 x RAHIQUES exécutés par : CEREC le: 01 04 1997 % Grandissement : x 1 QUALIFICATION D’UN MODE OPÉRATOIRE DE SOU 1E MACROGRAPHIQUE N ANNEXE Suivant NF EN 288-3 Vals rue €. Bourseul PROCÈS VERBAL 59508 DOUAI CEDEX & : 03 27 71 24 94 Fax : 03 27 98 45 63 17341/Q2 Délivré au constructeur ou fabricant : SOCOMAS ‘de compacité Résultat : à la suite de l’exécution d’un assemblage d’essai effectué le: 20 mars 1997 à: HAUTMONT Il a été remis a en présence de M. : APPACHE - N - 1 Ori appartenant à l'organisme d’inspection : - 1 Du Institut de Soudure de ce prac JU ESSAIS men micrographique ; lequel certifie que le mode opératoire de soudage présenté suivant le descriptif (DMOSP) en annexe établi par le constructeur ou le fabricant a donné des rés: de la norme NF EN 288-3 Edition 92. Procès verbal établi le : Of avril 1997 Sous la référence (PV QMOS N°) : 1032 / 59 Nom et signature de la personne autorisée et cachet de l’organisme d’inspect P. SEBASTIAN/ Nom et signature de l’examinateur Nom et signature du représentant de l’organisme d’inspection du constructeur ou fabricant ANACHE. P INSTITUT DE SOUDURE 141, rue C. Bourseul BP 838 59508 DOUAI CEDEX @ : 03 27 71 24 94 Fax : 03 27 98 45 63",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "non par : CEREC le: 01.04.97 sur soudure monopasse : — sur soudure multipasse : 320 N° Résultats mes"
+    },
+    {
+      "field": "supplier",
+      "value": "I. DESCRIPTIF DU MODE OPÉRATOIRE DE SOUDAGE - DU CONSTRUCTEUR OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI Nuances 1 Nuance 2 DMOSP N° §/17341- P2 Spécification matériau de base : P 355 NL 2 Type de joint: Bout à bout N° coulée : 57430 Méthode de préparation et nettoyage Groupe de matériau : 1 Oxycoupage + Moulage Epaisseur du matériau de base (mm) : 54 Diamètre du matériau de base (mm) : Schéma de préparation Disposition des passes N° des passes : Procédés de soudage : Position de soudage : Soudage auto. nb de têtes balayage * fréquence oscillations temporisation Soudeur ou soudeur opérateur : M. DUFRESNE Produit d’apport : Fil (F) ou Electrode (E) F F Codification (Désignation normalisée) : e 51 81-316-SA-Ni2 Marque et type : SAË NI 705 DERL/KON- OF S2 Ni 2 Diamètre : 1 4 Conservation ou étuvage : oui oui Gaz de protection — flux G Pulvérulent - codification (Dés. Norma.) : - marque et type : - codification (Dés. Norma.) : - marque et type : Envers - débit t/ min. : Endroit -débitt/min.: Plasmagène : Electrode réfractaire / type et diamètre : Nature du courant : Polarité de l’électrode ou du fil : + Intensité I en Ampère : 600 Tension U en Volts : 32 Soudage puisé : Vitesse d'exécution V d’une passe : cm/min.: Vitesse de déroulement du fil : cm/min.: Ux1x60 F FP 334 / 24 FBI DERLIKON-OP 121 TT Gazeux 1121 AR-AL21 Continu 600/ 650 30/38 50 90 Energie en Joules / cm = V en cm/min. 12 00016 466 T° mini. préchauffage en C° T° maxi. entre passes en C° Matériel de soudage - Machine - Poste Support envers (nature) : Gougeage (nature) ESAB LAC 1000/ TAC 1000 SAF HG 353 : Gougeage arc = air + moulage 1 prof. 25 mm ; fg. 30 mm Post-chauffage: Non \\ Oui Traitement thermique après soudage : Température °C : — Durée du maintien : — Non Oui N Réf :F296 Vitesse de montée en température en °C/h : 40 Température max. en °C et durée du maintien : 570/1h50 Vitesse de refroidissement en °C/h : 45 de 570 à 300 air calme de 300 à ambiante AUTRES INFORMATIONS : — * balayage (largeur maximale) oscillation: — Fréquence, temporisation : — Soudage puisé détails : — Angle de torche : — Distance de maintien: —— Détail du plasma : — 1432 FA7 [DO 4548 | 52627 | 509 | 3 SOCOMAS + IS VT/17341=-Q2 21-03-97 SOCOMAS + #S PT /17341=Q2 21-03-97 PV Qmos N° 59 . II. RÉSULTATS DES CONTROLES, EXAMENS ET ESSAIS 1- CONTROLES NON DESTRUCTIFS (EN 288-3 ET ANNEXES III À L’?ARRETE DU 24 MARS 1978 Visuel : Ressuage : Magnétoscopique : Radiographique : Ultrasonore : 2- ESSAIS DE TRACTION : exécutés par: CEREC le: 01 04 1997 Re N/mm? À % Z% Rm N/mm? éprouvette cylindrique uniquement Valeurs à obtenir Localisation de la Dimension de la section de cassure l’éprouvette mm transversale intéressant Repère de l'éprouvette 25 x 52,5 25 x 52,6 Fm = 707470 N Fm= 46018 N le: 01 04 1997 Sens du pliage et dimensions de la section mm REMARQUES Rs (4 \"t\") mm Endroit Envers totalité de \"t\" fraction de \"t\" 3- ESSAIS DE PLIAGE; exécutés par: CEREC Épr ouvette _ Repére de l’éprouvette «t»: épaisseur 4- ESSAIS DE RESILIENCE: exécutés pays; HEG px, Dimer É Hel S epro P à KCV J/cm? : iy Emplacement de l’entaille MF(VWT) [int Moy [oa [Moy | tek] Mov le: Of 04 1997 x10x10 mm",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "I. DESCRIPTIF DU MODE OPÉRATOIRE DE SOUDAGE - DU CONSTRUCTEUR OU DU FABRICANT : PARAMETRES RELEVES L"
+    },
+    {
+      "field": "supplier",
+      "value": "I. DESCRIPTIF DU MODE OPÉRATOIRE DE SOUDAGE - DU CONSTRUCTEUR OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI Nuances 1 Nuance 2 DMOSP N° §/17341- P2 Spécification matériau de base : P 355 NL 2 Type de joint: Bout à bout N° coulée : 57430 Méthode de préparation et nettoyage Groupe de matériau : 1 Oxycoupage + Moulage Epaisseur du matériau de base (mm) : 54 Diamètre du matériau de base (mm) : Schéma de préparation Disposition des passes N° des passes : Procédés de soudage : Position de soudage : Soudage auto. nb de têtes balayage * fréquence oscillations temporisation Soudeur ou soudeur opérateur : M. DUFRESNE Produit d’apport : Fil (F) ou Electrode (E) F F Codification (Désignation normalisée) : e 51 81-316-SA-Ni2 Marque et type : SAË NI 705 DERL/KON- OF S2 Ni 2 Diamètre : 1 4 Conservation ou étuvage : oui oui Gaz de protection — flux G Pulvérulent - codification (Dés. Norma.) : - marque et type : - codification (Dés. Norma.) : - marque et type : Envers - débit t/ min. : Endroit -débitt/min.: Plasmagène : Electrode réfractaire / type et diamètre : Nature du courant : Polarité de l’électrode ou du fil : + Intensité I en Ampère : 600 Tension U en Volts : 32 Soudage puisé : Vitesse d'exécution V d’une passe : cm/min.: Vitesse de déroulement du fil : cm/min.: Ux1x60 F FP 334 / 24 FBI DERLIKON-OP 121 TT Gazeux 1121 AR-AL21 Continu 600/ 650 30/38 50 90 Energie en Joules / cm = V en cm/min. 12 00016 466 T° mini. préchauffage en C° T° maxi. entre passes en C° Matériel de soudage - Machine - Poste Support envers (nature) : Gougeage (nature) ESAB LAC 1000/ TAC 1000 SAF HG 353 : Gougeage arc = air + moulage 1 prof. 25 mm ; fg. 30 mm Post-chauffage: Non \\ Oui Traitement thermique après soudage : Température °C : — Durée du maintien : — Non Oui N Réf :F296 Vitesse de montée en température en °C/h : 40 Température max. en °C et durée du maintien : 570/1h50 Vitesse de refroidissement en °C/h : 45 de 570 à 300 air calme de 300 à ambiante AUTRES INFORMATIONS : — * balayage (largeur maximale) oscillation: — Fréquence, temporisation : — Soudage puisé détails : — Angle de torche : — Distance de maintien: —— Détail du plasma : — 1432 FA7 [DO 4548 | 52627 | 509 | 3 SOCOMAS + IS VT/17341=-Q2 21-03-97 SOCOMAS + #S PT /17341=Q2 21-03-97 PV Qmos N° 59 . II. RÉSULTATS DES CONTROLES, EXAMENS ET ESSAIS 1- CONTROLES NON DESTRUCTIFS (EN 288-3 ET ANNEXES III À L’?ARRETE DU 24 MARS 1978 Visuel : Ressuage : Magnétoscopique : Radiographique : Ultrasonore : 2- ESSAIS DE TRACTION : exécutés par: CEREC le: 01 04 1997 Re N/mm? À % Z% Rm N/mm? éprouvette cylindrique uniquement Valeurs à obtenir Localisation de la Dimension de la section de cassure l’éprouvette mm transversale intéressant Repère de l'éprouvette 25 x 52,5 25 x 52,6 Fm = 707470 N Fm= 46018 N le: 01 04 1997 Sens du pliage et dimensions de la section mm REMARQUES Rs (4 \"t\") mm Endroit Envers totalité de \"t\" fraction de \"t\" 3- ESSAIS DE PLIAGE; exécutés par: CEREC Épr ouvette _ Repére de l’éprouvette «t»: épaisseur 4- ESSAIS DE RESILIENCE: exécutés pays; HEG px, Dimer É Hel S epro P à KCV J/cm? : iy Emplacement de l’entaille MF(VWT) [int Moy [oa [Moy | tek] Mov le: Of 04 1997 x10x10 mm",
+      "confidence": 0.8,
+      "source": "trigger_fabricant",
+      "raw_text": "I. DESCRIPTIF DU MODE OPÉRATOIRE DE SOUDAGE - DU CONSTRUCTEUR OU DU FABRICANT : PARAMETRES RELEVES L"
+    },
+    {
+      "field": "supplier",
+      "value": "5 - DURETÉS HV 10: ECS 74 ER 4 Essais exécutés ou non par : APAVE DE L'OUEST le: 12 mai 1998 Valeur maximale acceptable sur soudure monopasse : — sur soudure multipasse : 320 N° Résultats Emplacement des mesures ne gs filiation 1 165 163 160 / 173 193 242 / 219 175 220 / | x 210 189 161 / 186 166 179 fan oP ad | 2 160 168 166 / 168 183 181 / 181 183185 / Sah eC 2 186 183 182 / 168 162 164 ASSOCIATION POUR LAQUA ITF DFS APPAREILS À PRESSION 6 - EXAMENS MACROGRAHIQUES exécutés par : APAVE DE L'OUEST le : 12 mai 1998 Réactif d’attaque : Perchlorure de fer Grandissement : 2 QUALIFICATION D’UN MODE OPERATOIRE DE SOUDAGE Suivant NF EN 288-3 PROCES VERBAL Repère éprouvette n° 1: 8189 A Repère éprouvette n° 2 : = Délivré au constructeur ou fabricant : CFCE Résultat : Bonne pénétration de la soudure Résultat : à la suite de l’exécution d’un assemblage d’essai effectué Absence de défaut de compacité le: 21 avril 1998 à: Pontaumur (23) Imperfections de forme conforme en présence de M. : S. Rodriguez à la NFEN 25817 classe B appartenant à l’organisme d’inspection : Groupement des APAVE 7 - AUTRES EXAMENS OU ESSAIS lequel certifie que le mode opératoire de soudage présenté suivant le descriptif de mode opératoire préliminair (DMOSP) en annexe établi par le constructeur ou le fabricant a donné des résultats conformes aux exigences de la norme NF EN 288-3 Edition 92. Désignation Nom et signature de l’examinateur i é De Procès verbal établi le : 13 mai 1998 Li F L££ ON annexes de l'organisme d'inspection Sous la référence (PV QMOS N°) : - 2782. 07. EN | | Nom et signature de la personne autorisée et cachet de l’organisme 1. DMOS P N° 295 EN 288-04 CFCE ENTREPRISE d'inspection : 2. Certificat matière 3. PV examen visuel . 23360 PONTAUMUR Ri 4. PV examen par ressuage S: Rodriguez Tél. 0405 00 2311 5. PV examen radiographique RC B 343 694 493 88 B 86 6. Diagramme TTAS APE 263 C- Télécopie : 04 05 00 23 12",
+      "confidence": 0.8,
+      "source": "trigger_fabricant",
+      "raw_text": "5 - DURETÉS HV 10: ECS 74 ER 4 Essais exécutés ou non par : APAVE DE L'OUEST le: 12 mai 1998 Valeur "
+    },
+    {
+      "field": "supplier",
+      "value": "I. DESCRIPTIF DU MODE OPÉRATOIRE DE SOUDAGE - DU CONSTRUCTEUR OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI Nuances 1 Nuance 2 DMOSP N° §/17341- P2 Spécification matériau de base : P 355 NL 2 Type de joint: Bout à bout N° coulée : 57430 Méthode de préparation et nettoyage Groupe de matériau : 1 Oxycoupage + Moulage Epaisseur du matériau de base (mm) : 54 Diamètre du matériau de base (mm) : Schéma de préparation Disposition des passes N° des passes : Procédés de soudage : Position de soudage : Soudage auto. nb de têtes balayage * fréquence oscillations temporisation Soudeur ou soudeur opérateur : M. DUFRESNE Produit d’apport : Fil (F) ou Electrode (E) F F Codification (Désignation normalisée) : e 51 81-316-SA-Ni2 Marque et type : SAË NI 705 DERL/KON- OF S2 Ni 2 Diamètre : 1 4 Conservation ou étuvage : oui oui Gaz de protection — flux G Pulvérulent - codification (Dés. Norma.) : - marque et type : - codification (Dés. Norma.) : - marque et type : Envers - débit t/ min. : Endroit -débitt/min.: Plasmagène : Electrode réfractaire / type et diamètre : Nature du courant : Polarité de l’électrode ou du fil : + Intensité I en Ampère : 600 Tension U en Volts : 32 Soudage puisé : Vitesse d'exécution V d’une passe : cm/min.: Vitesse de déroulement du fil : cm/min.: Ux1x60 F FP 334 / 24 FBI DERLIKON-OP 121 TT Gazeux 1121 AR-AL21 Continu 600/ 650 30/38 50 90 Energie en Joules / cm = V en cm/min. 12 00016 466 T° mini. préchauffage en C° T° maxi. entre passes en C° Matériel de soudage - Machine - Poste Support envers (nature) : Gougeage (nature) ESAB LAC 1000/ TAC 1000 SAF HG 353 : Gougeage arc = air + moulage 1 prof. 25 mm ; fg. 30 mm Post-chauffage: Non \\ Oui Traitement thermique après soudage : Température °C : — Durée du maintien : — Non Oui N Réf :F296 Vitesse de montée en température en °C/h : 40 Température max. en °C et durée du maintien : 570/1h50 Vitesse de refroidissement en °C/h : 45 de 570 à 300 air calme de 300 à ambiante AUTRES INFORMATIONS : — * balayage (largeur maximale) oscillation: — Fréquence, temporisation : — Soudage puisé détails : — Angle de torche : — Distance de maintien: —— Détail du plasma : — 1432 FA7 [DO 4548 | 52627 | 509 | 3 SOCOMAS + IS VT/17341=-Q2 21-03-97 SOCOMAS + #S PT /17341=Q2 21-03-97 PV Qmos N° 59 . II. RÉSULTATS DES CONTROLES, EXAMENS ET ESSAIS 1- CONTROLES NON DESTRUCTIFS (EN 288-3 ET ANNEXES III À L’?ARRETE DU 24 MARS 1978 Visuel : Ressuage : Magnétoscopique : Radiographique : Ultrasonore : 2- ESSAIS DE TRACTION : exécutés par: CEREC le: 01 04 1997 Re N/mm? À % Z% Rm N/mm? éprouvette cylindrique uniquement Valeurs à obtenir Localisation de la Dimension de la section de cassure l’éprouvette mm transversale intéressant Repère de l'éprouvette 25 x 52,5 25 x 52,6 Fm = 707470 N Fm= 46018 N le: 01 04 1997 Sens du pliage et dimensions de la section mm REMARQUES Rs (4 \"t\") mm Endroit Envers totalité de \"t\" fraction de \"t\" 3- ESSAIS DE PLIAGE; exécutés par: CEREC Épr ouvette _ Repére de l’éprouvette «t»: épaisseur 4- ESSAIS DE RESILIENCE: exécutés pays; HEG px, Dimer É Hel S epro P à KCV J/cm? : iy Emplacement de l’entaille MF(VWT) [int Moy [oa [Moy | tek] Mov le: Of 04 1997 x10x10 mm",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "I. DESCRIPTIF DU MODE OPÉRATOIRE DE SOUDAGE - DU CONSTRUCTEUR OU DU FABRICANT : PARAMETRES RELEVES L"
+    },
+    {
+      "field": "supplier",
+      "value": "5 - DURETÉS HV 10: ECS 74 ER 4 Essais exécutés ou non par : APAVE DE L'OUEST le: 12 mai 1998 Valeur maximale acceptable sur soudure monopasse : — sur soudure multipasse : 320 N° Résultats Emplacement des mesures ne gs filiation 1 165 163 160 / 173 193 242 / 219 175 220 / | x 210 189 161 / 186 166 179 fan oP ad | 2 160 168 166 / 168 183 181 / 181 183185 / Sah eC 2 186 183 182 / 168 162 164 ASSOCIATION POUR LAQUA ITF DFS APPAREILS À PRESSION 6 - EXAMENS MACROGRAHIQUES exécutés par : APAVE DE L'OUEST le : 12 mai 1998 Réactif d’attaque : Perchlorure de fer Grandissement : 2 QUALIFICATION D’UN MODE OPERATOIRE DE SOUDAGE Suivant NF EN 288-3 PROCES VERBAL Repère éprouvette n° 1: 8189 A Repère éprouvette n° 2 : = Délivré au constructeur ou fabricant : CFCE Résultat : Bonne pénétration de la soudure Résultat : à la suite de l’exécution d’un assemblage d’essai effectué Absence de défaut de compacité le: 21 avril 1998 à: Pontaumur (23) Imperfections de forme conforme en présence de M. : S. Rodriguez à la NFEN 25817 classe B appartenant à l’organisme d’inspection : Groupement des APAVE 7 - AUTRES EXAMENS OU ESSAIS lequel certifie que le mode opératoire de soudage présenté suivant le descriptif de mode opératoire préliminair (DMOSP) en annexe établi par le constructeur ou le fabricant a donné des résultats conformes aux exigences de la norme NF EN 288-3 Edition 92. Désignation Nom et signature de l’examinateur i é De Procès verbal établi le : 13 mai 1998 Li F L££ ON annexes de l'organisme d'inspection Sous la référence (PV QMOS N°) : - 2782. 07. EN | | Nom et signature de la personne autorisée et cachet de l’organisme 1. DMOS P N° 295 EN 288-04 CFCE ENTREPRISE d'inspection : 2. Certificat matière 3. PV examen visuel . 23360 PONTAUMUR Ri 4. PV examen par ressuage S: Rodriguez Tél. 0405 00 2311 5. PV examen radiographique RC B 343 694 493 88 B 86 6. Diagramme TTAS APE 263 C- Télécopie : 04 05 00 23 12",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "5 - DURETÉS HV 10: ECS 74 ER 4 Essais exécutés ou non par : APAVE DE L'OUEST le: 12 mai 1998 Valeur "
+    },
+    {
+      "field": "supplier",
+      "value": "5 - DURETÉS HV 10: ECS 74 ER 4 Essais exécutés ou non par : APAVE DE L'OUEST le: 12 mai 1998 Valeur maximale acceptable sur soudure monopasse : — sur soudure multipasse : 320 N° Résultats Emplacement des mesures ne gs filiation 1 165 163 160 / 173 193 242 / 219 175 220 / | x 210 189 161 / 186 166 179 fan oP ad | 2 160 168 166 / 168 183 181 / 181 183185 / Sah eC 2 186 183 182 / 168 162 164 ASSOCIATION POUR LAQUA ITF DFS APPAREILS À PRESSION 6 - EXAMENS MACROGRAHIQUES exécutés par : APAVE DE L'OUEST le : 12 mai 1998 Réactif d’attaque : Perchlorure de fer Grandissement : 2 QUALIFICATION D’UN MODE OPERATOIRE DE SOUDAGE Suivant NF EN 288-3 PROCES VERBAL Repère éprouvette n° 1: 8189 A Repère éprouvette n° 2 : = Délivré au constructeur ou fabricant : CFCE Résultat : Bonne pénétration de la soudure Résultat : à la suite de l’exécution d’un assemblage d’essai effectué Absence de défaut de compacité le: 21 avril 1998 à: Pontaumur (23) Imperfections de forme conforme en présence de M. : S. Rodriguez à la NFEN 25817 classe B appartenant à l’organisme d’inspection : Groupement des APAVE 7 - AUTRES EXAMENS OU ESSAIS lequel certifie que le mode opératoire de soudage présenté suivant le descriptif de mode opératoire préliminair (DMOSP) en annexe établi par le constructeur ou le fabricant a donné des résultats conformes aux exigences de la norme NF EN 288-3 Edition 92. Désignation Nom et signature de l’examinateur i é De Procès verbal établi le : 13 mai 1998 Li F L££ ON annexes de l'organisme d'inspection Sous la référence (PV QMOS N°) : - 2782. 07. EN | | Nom et signature de la personne autorisée et cachet de l’organisme 1. DMOS P N° 295 EN 288-04 CFCE ENTREPRISE d'inspection : 2. Certificat matière 3. PV examen visuel . 23360 PONTAUMUR Ri 4. PV examen par ressuage S: Rodriguez Tél. 0405 00 2311 5. PV examen radiographique RC B 343 694 493 88 B 86 6. Diagramme TTAS APE 263 C- Télécopie : 04 05 00 23 12",
+      "confidence": 0.8,
+      "source": "trigger_fabricant",
+      "raw_text": "5 - DURETÉS HV 10: ECS 74 ER 4 Essais exécutés ou non par : APAVE DE L'OUEST le: 12 mai 1998 Valeur "
+    },
+    {
+      "field": "supplier",
+      "value": "DE OPÉRATOIRE DE SOUDAGE ; R OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI Nuances 1 Nuance 2 Spécification matériau de base : APISLX 52 be N° coulée : 364970 age Groupe de matériau : 1 Epaisseur du matériau de base (mm) : 254 Diamétre du matériau de base (mm) : 168,3 préparation Disposition des passes / v M a. =) ns SKOWRONECK ctrode {E) F F sée) : 651 (NFA 81311) E 51 BOHLER EML5 SAF 24 24 4,0 5,0 Norma.) : Jorma.) : mètre : WThÔ2/ | WThÔ24 Continu Continu Continu Continu . 120 160 170 250 Ô 20 23 ] Ts se : cm/min. : 5 | m/min. : x 60 - m/min. J Py ui ae oe : Sh FAL VUE Commercy TE 320 Commercy TE 320 1 ~ moulage moulage Oui Température °C : — Durée du maintien : — ge: Non Oui Ré. : 296 EN 288-04 Vitesse de montée en température en °C/h : < 150 lu maintien : 580 ° / 1h00 Vitesse de refroidissement en °C/h : < 150 ° de 50 à 300 air calme de 300 à ambiante cillation: — — Soudage puisé détails : — Distance de maintien: — Détail du plasma : — ns en ul US 4- ESSAIS DE RÉSILIENCE: 1- CONTRÔLES NON DESTRUCTIFS (EN 288-3 ET ANNEXES Visuel : Ressuage : ” | Magnétoscopique : ” Radiographique : Ultrasonore : 2- ESSAIS DE TRACTION : exécutés par : - ESSAIS DE PLIAGE: exécutés par : «t>: cutés par : D Seni des éprouvettes : 10x 10 PV QMOS N° 2782 - 07- EN a II. RESULTATS DES CONTROLES, EXAMENS ET ESSAIS APAVE DE L'OUEST III À L'ARRÊTÉ DU 24 MARS 1978 APAVE DE L'OUEST le: Dimension de la section de l’éprouvette mm Repére de +2 l'éprouvette transversale intéressant une fraction de l'épaisseur toute l'épaisseur 25,0 x 23,2 25,0 x 23,4 APAVE DE L'OUEST | érwx | @ Poingon Transversale | Longitudinale Repére de l’éprouvette épaisseur DM - TP APAVE DE L'OUEST le: 12 mai 1998 Position de KCV J/cm? l’éprouvette Emplacement de l’entaille ZAT (VHT) | ind | Moy. | me | Moy. | Ind. Peau =p Mi-épaisseur = e Racine =r MF(VWT) P Ligne de fusion P a2mmde la ligne de fusion P à 5 mm de la ligne de fusion",
+      "confidence": 0.8,
+      "source": "trigger_fabricant",
+      "raw_text": "DE OPÉRATOIRE DE SOUDAGE ; R OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI Nuances 1 Nuance 2"
+    },
+    {
+      "field": "supplier",
+      "value": "5 - DURETÉS HV 10: ECS 74 ER 4 Essais exécutés ou non par : APAVE DE L'OUEST le: 12 mai 1998 Valeur maximale acceptable sur soudure monopasse : — sur soudure multipasse : 320 N° Résultats Emplacement des mesures ne gs filiation 1 165 163 160 / 173 193 242 / 219 175 220 / | x 210 189 161 / 186 166 179 fan oP ad | 2 160 168 166 / 168 183 181 / 181 183185 / Sah eC 2 186 183 182 / 168 162 164 ASSOCIATION POUR LAQUA ITF DFS APPAREILS À PRESSION 6 - EXAMENS MACROGRAHIQUES exécutés par : APAVE DE L'OUEST le : 12 mai 1998 Réactif d’attaque : Perchlorure de fer Grandissement : 2 QUALIFICATION D’UN MODE OPERATOIRE DE SOUDAGE Suivant NF EN 288-3 PROCES VERBAL Repère éprouvette n° 1: 8189 A Repère éprouvette n° 2 : = Délivré au constructeur ou fabricant : CFCE Résultat : Bonne pénétration de la soudure Résultat : à la suite de l’exécution d’un assemblage d’essai effectué Absence de défaut de compacité le: 21 avril 1998 à: Pontaumur (23) Imperfections de forme conforme en présence de M. : S. Rodriguez à la NFEN 25817 classe B appartenant à l’organisme d’inspection : Groupement des APAVE 7 - AUTRES EXAMENS OU ESSAIS lequel certifie que le mode opératoire de soudage présenté suivant le descriptif de mode opératoire préliminair (DMOSP) en annexe établi par le constructeur ou le fabricant a donné des résultats conformes aux exigences de la norme NF EN 288-3 Edition 92. Désignation Nom et signature de l’examinateur i é De Procès verbal établi le : 13 mai 1998 Li F L££ ON annexes de l'organisme d'inspection Sous la référence (PV QMOS N°) : - 2782. 07. EN | | Nom et signature de la personne autorisée et cachet de l’organisme 1. DMOS P N° 295 EN 288-04 CFCE ENTREPRISE d'inspection : 2. Certificat matière 3. PV examen visuel . 23360 PONTAUMUR Ri 4. PV examen par ressuage S: Rodriguez Tél. 0405 00 2311 5. PV examen radiographique RC B 343 694 493 88 B 86 6. Diagramme TTAS APE 263 C- Télécopie : 04 05 00 23 12",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "5 - DURETÉS HV 10: ECS 74 ER 4 Essais exécutés ou non par : APAVE DE L'OUEST le: 12 mai 1998 Valeur "
+    },
+    {
+      "field": "supplier",
+      "value": "DE OPÉRATOIRE DE SOUDAGE ; R OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI Nuances 1 Nuance 2 Spécification matériau de base : APISLX 52 be N° coulée : 364970 age Groupe de matériau : 1 Epaisseur du matériau de base (mm) : 254 Diamétre du matériau de base (mm) : 168,3 préparation Disposition des passes / v M a. =) ns SKOWRONECK ctrode {E) F F sée) : 651 (NFA 81311) E 51 BOHLER EML5 SAF 24 24 4,0 5,0 Norma.) : Jorma.) : mètre : WThÔ2/ | WThÔ24 Continu Continu Continu Continu . 120 160 170 250 Ô 20 23 ] Ts se : cm/min. : 5 | m/min. : x 60 - m/min. J Py ui ae oe : Sh FAL VUE Commercy TE 320 Commercy TE 320 1 ~ moulage moulage Oui Température °C : — Durée du maintien : — ge: Non Oui Ré. : 296 EN 288-04 Vitesse de montée en température en °C/h : < 150 lu maintien : 580 ° / 1h00 Vitesse de refroidissement en °C/h : < 150 ° de 50 à 300 air calme de 300 à ambiante cillation: — — Soudage puisé détails : — Distance de maintien: — Détail du plasma : — ns en ul US 4- ESSAIS DE RÉSILIENCE: 1- CONTRÔLES NON DESTRUCTIFS (EN 288-3 ET ANNEXES Visuel : Ressuage : ” | Magnétoscopique : ” Radiographique : Ultrasonore : 2- ESSAIS DE TRACTION : exécutés par : - ESSAIS DE PLIAGE: exécutés par : «t>: cutés par : D Seni des éprouvettes : 10x 10 PV QMOS N° 2782 - 07- EN a II. RESULTATS DES CONTROLES, EXAMENS ET ESSAIS APAVE DE L'OUEST III À L'ARRÊTÉ DU 24 MARS 1978 APAVE DE L'OUEST le: Dimension de la section de l’éprouvette mm Repére de +2 l'éprouvette transversale intéressant une fraction de l'épaisseur toute l'épaisseur 25,0 x 23,2 25,0 x 23,4 APAVE DE L'OUEST | érwx | @ Poingon Transversale | Longitudinale Repére de l’éprouvette épaisseur DM - TP APAVE DE L'OUEST le: 12 mai 1998 Position de KCV J/cm? l’éprouvette Emplacement de l’entaille ZAT (VHT) | ind | Moy. | me | Moy. | Ind. Peau =p Mi-épaisseur = e Racine =r MF(VWT) P Ligne de fusion P a2mmde la ligne de fusion P à 5 mm de la ligne de fusion",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "DE OPÉRATOIRE DE SOUDAGE ; R OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI Nuances 1 Nuance 2"
+    },
+    {
+      "field": "supplier",
+      "value": "DE OPÉRATOIRE DE SOUDAGE ; R OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI Nuances 1 Nuance 2 Spécification matériau de base : APISLX 52 be N° coulée : 364970 age Groupe de matériau : 1 Epaisseur du matériau de base (mm) : 254 Diamétre du matériau de base (mm) : 168,3 préparation Disposition des passes / v M a. =) ns SKOWRONECK ctrode {E) F F sée) : 651 (NFA 81311) E 51 BOHLER EML5 SAF 24 24 4,0 5,0 Norma.) : Jorma.) : mètre : WThÔ2/ | WThÔ24 Continu Continu Continu Continu . 120 160 170 250 Ô 20 23 ] Ts se : cm/min. : 5 | m/min. : x 60 - m/min. J Py ui ae oe : Sh FAL VUE Commercy TE 320 Commercy TE 320 1 ~ moulage moulage Oui Température °C : — Durée du maintien : — ge: Non Oui Ré. : 296 EN 288-04 Vitesse de montée en température en °C/h : < 150 lu maintien : 580 ° / 1h00 Vitesse de refroidissement en °C/h : < 150 ° de 50 à 300 air calme de 300 à ambiante cillation: — — Soudage puisé détails : — Distance de maintien: — Détail du plasma : — ns en ul US 4- ESSAIS DE RÉSILIENCE: 1- CONTRÔLES NON DESTRUCTIFS (EN 288-3 ET ANNEXES Visuel : Ressuage : ” | Magnétoscopique : ” Radiographique : Ultrasonore : 2- ESSAIS DE TRACTION : exécutés par : - ESSAIS DE PLIAGE: exécutés par : «t>: cutés par : D Seni des éprouvettes : 10x 10 PV QMOS N° 2782 - 07- EN a II. RESULTATS DES CONTROLES, EXAMENS ET ESSAIS APAVE DE L'OUEST III À L'ARRÊTÉ DU 24 MARS 1978 APAVE DE L'OUEST le: Dimension de la section de l’éprouvette mm Repére de +2 l'éprouvette transversale intéressant une fraction de l'épaisseur toute l'épaisseur 25,0 x 23,2 25,0 x 23,4 APAVE DE L'OUEST | érwx | @ Poingon Transversale | Longitudinale Repére de l’éprouvette épaisseur DM - TP APAVE DE L'OUEST le: 12 mai 1998 Position de KCV J/cm? l’éprouvette Emplacement de l’entaille ZAT (VHT) | ind | Moy. | me | Moy. | Ind. Peau =p Mi-épaisseur = e Racine =r MF(VWT) P Ligne de fusion P a2mmde la ligne de fusion P à 5 mm de la ligne de fusion",
+      "confidence": 0.8,
+      "source": "trigger_fabricant",
+      "raw_text": "DE OPÉRATOIRE DE SOUDAGE ; R OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI Nuances 1 Nuance 2"
+    },
+    {
+      "field": "supplier",
+      "value": "CAQ 0520-94 — Rév : 1 VA non par: APAVE NORD OUEST le: 02 05 2001 sur soudure monopasse : — sur soudure multipasse : 320 HV 10 N° mesures Ve filiation Résultats MB : 140 140 143 ZAT:154 153 179 MF:237 210 219 ZAT: 247 231 177 MB:147 145 147 MB : 153 153 154 ZAT:182 170 170 MF:171 170 170 ZAT:297 195 171 MB:175 170 171 RAHIQUES exécutés par : APAVE NORD OUEST le : 02 05 2001 Grandissement : x 1,7 12 32 À Repère éprouvette n° 2 : ‘de compacité Résultat : soudure ments satis faisants JU ESSAIS Nom et signature de l’examinateur de l’organisme d’inspection ‘gu fi = CFCE ENTREPRISEALX TAY Pr 23360 PONTAUMUR 16 APS Niv. ILIWT/EWT Tél. 04 05 00 23 11 RC B 343 694 493 88 B 86 APE 263 C- Télécopie : 04 05 00 23 12 a Ww ASSOCIATION POUR 1 A QUAL ITE NFS APPARFII S A PRFSSI + QUALIFICATION D’UN MODE OPÉRATOIRE DE SOU Suivant NF EN 288-3 PROCÈS VERBAL Délivré au constructeur ou fabricant : CFCE à la suite de l'exécution d’un assemblage d’essai effectué le: 18 avril 2001 à: Pontaumur (23) en présence de M. : Etienne MALLABARD appartenant à l’organisme d’inspection : Groupement des APAVE lequel certifie que le mode opératoire de soudage présenté suivant le descriptif (DMOSP) en annexe établi par le constructeur ou le fabricant a donné des rés de la norme NF EN 288-3 Edition 92. Procès verbal établi le : 11 mai 2001 Sous la référence (PV QMOS N°) : 3105. 07. EN Nom et signature de la personne autorisée et cachet de l’organisme d’inspection : GAPA Agenc 6, rue de la J 44803 SAIN Tél. 40 38 8",
+      "confidence": 0.8,
+      "source": "trigger_fabricant",
+      "raw_text": "CAQ 0520-94 — Rév : 1 VA non par: APAVE NORD OUEST le: 02 05 2001 sur soudure monopasse : — sur soud"
+    },
+    {
+      "field": "supplier",
+      "value": "DE OPÉRATOIRE DE SOUDAGE ; R OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI Nuances 1 Nuance 2 Spécification matériau de base : APISLX 52 be N° coulée : 364970 age Groupe de matériau : 1 Epaisseur du matériau de base (mm) : 254 Diamétre du matériau de base (mm) : 168,3 préparation Disposition des passes / v M a. =) ns SKOWRONECK ctrode {E) F F sée) : 651 (NFA 81311) E 51 BOHLER EML5 SAF 24 24 4,0 5,0 Norma.) : Jorma.) : mètre : WThÔ2/ | WThÔ24 Continu Continu Continu Continu . 120 160 170 250 Ô 20 23 ] Ts se : cm/min. : 5 | m/min. : x 60 - m/min. J Py ui ae oe : Sh FAL VUE Commercy TE 320 Commercy TE 320 1 ~ moulage moulage Oui Température °C : — Durée du maintien : — ge: Non Oui Ré. : 296 EN 288-04 Vitesse de montée en température en °C/h : < 150 lu maintien : 580 ° / 1h00 Vitesse de refroidissement en °C/h : < 150 ° de 50 à 300 air calme de 300 à ambiante cillation: — — Soudage puisé détails : — Distance de maintien: — Détail du plasma : — ns en ul US 4- ESSAIS DE RÉSILIENCE: 1- CONTRÔLES NON DESTRUCTIFS (EN 288-3 ET ANNEXES Visuel : Ressuage : ” | Magnétoscopique : ” Radiographique : Ultrasonore : 2- ESSAIS DE TRACTION : exécutés par : - ESSAIS DE PLIAGE: exécutés par : «t>: cutés par : D Seni des éprouvettes : 10x 10 PV QMOS N° 2782 - 07- EN a II. RESULTATS DES CONTROLES, EXAMENS ET ESSAIS APAVE DE L'OUEST III À L'ARRÊTÉ DU 24 MARS 1978 APAVE DE L'OUEST le: Dimension de la section de l’éprouvette mm Repére de +2 l'éprouvette transversale intéressant une fraction de l'épaisseur toute l'épaisseur 25,0 x 23,2 25,0 x 23,4 APAVE DE L'OUEST | érwx | @ Poingon Transversale | Longitudinale Repére de l’éprouvette épaisseur DM - TP APAVE DE L'OUEST le: 12 mai 1998 Position de KCV J/cm? l’éprouvette Emplacement de l’entaille ZAT (VHT) | ind | Moy. | me | Moy. | Ind. Peau =p Mi-épaisseur = e Racine =r MF(VWT) P Ligne de fusion P a2mmde la ligne de fusion P à 5 mm de la ligne de fusion",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "DE OPÉRATOIRE DE SOUDAGE ; R OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI Nuances 1 Nuance 2"
+    },
+    {
+      "field": "supplier",
+      "value": "CAQ 0520-94 — Rév : 1 VA non par: APAVE NORD OUEST le: 02 05 2001 sur soudure monopasse : — sur soudure multipasse : 320 HV 10 N° mesures Ve filiation Résultats MB : 140 140 143 ZAT:154 153 179 MF:237 210 219 ZAT: 247 231 177 MB:147 145 147 MB : 153 153 154 ZAT:182 170 170 MF:171 170 170 ZAT:297 195 171 MB:175 170 171 RAHIQUES exécutés par : APAVE NORD OUEST le : 02 05 2001 Grandissement : x 1,7 12 32 À Repère éprouvette n° 2 : ‘de compacité Résultat : soudure ments satis faisants JU ESSAIS Nom et signature de l’examinateur de l’organisme d’inspection ‘gu fi = CFCE ENTREPRISEALX TAY Pr 23360 PONTAUMUR 16 APS Niv. ILIWT/EWT Tél. 04 05 00 23 11 RC B 343 694 493 88 B 86 APE 263 C- Télécopie : 04 05 00 23 12 a Ww ASSOCIATION POUR 1 A QUAL ITE NFS APPARFII S A PRFSSI + QUALIFICATION D’UN MODE OPÉRATOIRE DE SOU Suivant NF EN 288-3 PROCÈS VERBAL Délivré au constructeur ou fabricant : CFCE à la suite de l'exécution d’un assemblage d’essai effectué le: 18 avril 2001 à: Pontaumur (23) en présence de M. : Etienne MALLABARD appartenant à l’organisme d’inspection : Groupement des APAVE lequel certifie que le mode opératoire de soudage présenté suivant le descriptif (DMOSP) en annexe établi par le constructeur ou le fabricant a donné des rés de la norme NF EN 288-3 Edition 92. Procès verbal établi le : 11 mai 2001 Sous la référence (PV QMOS N°) : 3105. 07. EN Nom et signature de la personne autorisée et cachet de l’organisme d’inspection : GAPA Agenc 6, rue de la J 44803 SAIN Tél. 40 38 8",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "CAQ 0520-94 — Rév : 1 VA non par: APAVE NORD OUEST le: 02 05 2001 sur soudure monopasse : — sur soud"
+    },
+    {
+      "field": "supplier",
+      "value": "CAQ 0520-94 — Rév : 1 VA non par: APAVE NORD OUEST le: 02 05 2001 sur soudure monopasse : — sur soudure multipasse : 320 HV 10 N° mesures Ve filiation Résultats MB : 140 140 143 ZAT:154 153 179 MF:237 210 219 ZAT: 247 231 177 MB:147 145 147 MB : 153 153 154 ZAT:182 170 170 MF:171 170 170 ZAT:297 195 171 MB:175 170 171 RAHIQUES exécutés par : APAVE NORD OUEST le : 02 05 2001 Grandissement : x 1,7 12 32 À Repère éprouvette n° 2 : ‘de compacité Résultat : soudure ments satis faisants JU ESSAIS Nom et signature de l’examinateur de l’organisme d’inspection ‘gu fi = CFCE ENTREPRISEALX TAY Pr 23360 PONTAUMUR 16 APS Niv. ILIWT/EWT Tél. 04 05 00 23 11 RC B 343 694 493 88 B 86 APE 263 C- Télécopie : 04 05 00 23 12 a Ww ASSOCIATION POUR 1 A QUAL ITE NFS APPARFII S A PRFSSI + QUALIFICATION D’UN MODE OPÉRATOIRE DE SOU Suivant NF EN 288-3 PROCÈS VERBAL Délivré au constructeur ou fabricant : CFCE à la suite de l'exécution d’un assemblage d’essai effectué le: 18 avril 2001 à: Pontaumur (23) en présence de M. : Etienne MALLABARD appartenant à l’organisme d’inspection : Groupement des APAVE lequel certifie que le mode opératoire de soudage présenté suivant le descriptif (DMOSP) en annexe établi par le constructeur ou le fabricant a donné des rés de la norme NF EN 288-3 Edition 92. Procès verbal établi le : 11 mai 2001 Sous la référence (PV QMOS N°) : 3105. 07. EN Nom et signature de la personne autorisée et cachet de l’organisme d’inspection : GAPA Agenc 6, rue de la J 44803 SAIN Tél. 40 38 8",
+      "confidence": 0.8,
+      "source": "trigger_fabricant",
+      "raw_text": "CAQ 0520-94 — Rév : 1 VA non par: APAVE NORD OUEST le: 02 05 2001 sur soudure monopasse : — sur soud"
+    },
+    {
+      "field": "supplier",
+      "value": "[cae 0520-94 — Rév : 1 F 4 Ti. DESCRIPTIF DU MODE OPERATOIRE DE SOUDAGE . DU CONSTRUCTEUR OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI Nuances 1 Nuance 2 DMOSP N° 193 EN 288-05 Spécification matériau de base : BF 48 F (NF E29204) Type de joint: Bout à bout sur tube N° coulée : 90557 Méthode de préparation et nettoyage Groupe de matériau : 1 Usinage + Brassage Epaisseur du matériau de base (mm) : 8 Diamètre du matériau de base (mm) : 58 Disposition des passes Schéma de préparation N° des passes : Procédés de soudage : Position de soudage : Soudage auto. nb de têtes balayage * fréquence oscillations temporisation _ Soudeur ou soudeur opérateur : DERAMBURES Produit d’apport : Fil (F) ou Electrode (E) F F Codification (Désignation normalisée) : EN 440: G2Si AWS AS18E 70C- MH4 Marque et type : BOHLER EML 5 HOBART - | Fab Cor 86R Diamètre : 24 24 42 Conservation ou étuvage : Gaz de protection— flux Pulvérulent - codification (Dés. Norma.) : - marque et type: - codification (Dés. Norma.) : - marque et type: Envers - débit t/ min. : Endroit - débit t/ min. : Plasmagène : - - Electrode réfractaire / type et diamétre : Thioré 2% - @2,4 Nature du courant : cc ce Polarité de 1’ électrode ou du fil : (-) (-) Intensité Ten Ampère : 170 Tension U en Volts : 17 Soudage puisé : - Vitesse d’exécution V d’une passe : cm/min.: 5 Vitesse de dérouleme nt du fil : cm/min. : Ux1x60 SKOWRONECK Gazeux EN 439 : M21 Carboxar M21 Energi Il = nergie en Joules / cm 19200 21900 100 100 - 300 V en cm/min. T° mini. préchauffage en C° T° maxi. entre passes en C° Matériel de soudage - Machine - Poste Support envers (nature) : Gougeage (nature) KEMPOWELD 4000 MASTER 3500 - KEMPP/ Durée du maintien : — Vitesse de montée en température en °C/h : 170 à partir 300 Vitesse de refroidissement en °C/h : 170 ° de 560 à 300 librede 300 à ambiante Post-chauffage: Non NX Oui Température °C : — Traitement thermique aprés soudage: Non Oui \\ Réf. : 1232 A Température max. en °C et durée du maintien : 560 pendant 1 heure AUTRES INFORMATIONS: Voir annexe pour les paramètres et la courbe de TTAS * balayage (largeur maximale) oscillation: — Fréquence, temporisation : — Soudage puisé détails : — Angle de torche : _ Distance de maintien: — Détail du plasma : — PV QMOS N°2745-07-EN x II. RÉSULTATS DES CONTROLES, EXAMENS ET ESSAIS 1- CONTRÔLES NON DESTRUCTIFS (EN 288-3 ET ANNEXES III À L'ARRÊTÉ DU 24 MARS 1978 Visuel : Ressuage : Magnétoscopique : Radiographique : Ultrasonore : 2- ESSAIS DE TRACTION : exécutés par: APAVE Nord Ouest Dimension de la section de l’éprouvette mm Repère de l'éprouvette | transversale intéressant | | transversale intéressant | | Valeusaobtenr | à obtenir 25,1 x 16,1 25,0 x 15,9 25,0 x 16,1 25,0 x 16,1 P PLING exécutés par: APAVE Nord Ouest ‘ 9 Poinçon Longitudinale 40 40 40 40 «t»: épaisseur 4- ESSAIS DE RESILIENCE: exécutés par: APAVE Nord Ouest Dimension des éprouvettes : 10x5 le : 03 05 2001 Position de l'éprouvette Repère de l’éprouvette Peau =p Mi-épaisseur = e Racine =r GAMMA Service Re N/mm? Rm N/mm? éprouvette | éprouvette cylindrique uniquement | uniquement Métal de Métal toute une fraction de base fondu l'épaisseur | l'épaisseur x a 1 CAQ 0520-94 - Rév : 1] 3 APAVE Nord Ouest APAVE Nord Ouest 152 EA 0005Q 19 04 2001 152 EA 0005Q ? 19 04 2001 ” \" \" \" 2899 - 18.04.2001 : 03 05 2001 Localisation de la cassure REMARQUES Satis faisant Satis faisant Satis faisant Satis faisant le : 03 05 2001 Sens du pliage et dimensions de la section mm — | catsimessot | intéressant REMARQUES totalité de \"t\" fraction de \"t\" Satis faisant Satis faisant Satis faisant Satis faisant aleurs à obtenir KCV Jem? oyenne F i PE KCV J/cm? Emplacement de l’entaille “emasows ME VWT) Satis faisant Satis faisant",
+      "confidence": 0.8,
+      "source": "trigger_fabricant",
+      "raw_text": "[cae 0520-94 — Rév : 1 F 4 Ti. DESCRIPTIF DU MODE OPERATOIRE DE SOUDAGE . DU CONSTRUCTEUR OU DU FABR"
+    },
+    {
+      "field": "supplier",
+      "value": "CAQ 0520-94 — Rév : 1 VA non par: APAVE NORD OUEST le: 02 05 2001 sur soudure monopasse : — sur soudure multipasse : 320 HV 10 N° mesures Ve filiation Résultats MB : 140 140 143 ZAT:154 153 179 MF:237 210 219 ZAT: 247 231 177 MB:147 145 147 MB : 153 153 154 ZAT:182 170 170 MF:171 170 170 ZAT:297 195 171 MB:175 170 171 RAHIQUES exécutés par : APAVE NORD OUEST le : 02 05 2001 Grandissement : x 1,7 12 32 À Repère éprouvette n° 2 : ‘de compacité Résultat : soudure ments satis faisants JU ESSAIS Nom et signature de l’examinateur de l’organisme d’inspection ‘gu fi = CFCE ENTREPRISEALX TAY Pr 23360 PONTAUMUR 16 APS Niv. ILIWT/EWT Tél. 04 05 00 23 11 RC B 343 694 493 88 B 86 APE 263 C- Télécopie : 04 05 00 23 12 a Ww ASSOCIATION POUR 1 A QUAL ITE NFS APPARFII S A PRFSSI + QUALIFICATION D’UN MODE OPÉRATOIRE DE SOU Suivant NF EN 288-3 PROCÈS VERBAL Délivré au constructeur ou fabricant : CFCE à la suite de l'exécution d’un assemblage d’essai effectué le: 18 avril 2001 à: Pontaumur (23) en présence de M. : Etienne MALLABARD appartenant à l’organisme d’inspection : Groupement des APAVE lequel certifie que le mode opératoire de soudage présenté suivant le descriptif (DMOSP) en annexe établi par le constructeur ou le fabricant a donné des rés de la norme NF EN 288-3 Edition 92. Procès verbal établi le : 11 mai 2001 Sous la référence (PV QMOS N°) : 3105. 07. EN Nom et signature de la personne autorisée et cachet de l’organisme d’inspection : GAPA Agenc 6, rue de la J 44803 SAIN Tél. 40 38 8",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "CAQ 0520-94 — Rév : 1 VA non par: APAVE NORD OUEST le: 02 05 2001 sur soudure monopasse : — sur soud"
+    },
+    {
+      "field": "supplier",
+      "value": "[cae 0520-94 — Rév : 1 F 4 Ti. DESCRIPTIF DU MODE OPERATOIRE DE SOUDAGE . DU CONSTRUCTEUR OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI Nuances 1 Nuance 2 DMOSP N° 193 EN 288-05 Spécification matériau de base : BF 48 F (NF E29204) Type de joint: Bout à bout sur tube N° coulée : 90557 Méthode de préparation et nettoyage Groupe de matériau : 1 Usinage + Brassage Epaisseur du matériau de base (mm) : 8 Diamètre du matériau de base (mm) : 58 Disposition des passes Schéma de préparation N° des passes : Procédés de soudage : Position de soudage : Soudage auto. nb de têtes balayage * fréquence oscillations temporisation _ Soudeur ou soudeur opérateur : DERAMBURES Produit d’apport : Fil (F) ou Electrode (E) F F Codification (Désignation normalisée) : EN 440: G2Si AWS AS18E 70C- MH4 Marque et type : BOHLER EML 5 HOBART - | Fab Cor 86R Diamètre : 24 24 42 Conservation ou étuvage : Gaz de protection— flux Pulvérulent - codification (Dés. Norma.) : - marque et type: - codification (Dés. Norma.) : - marque et type: Envers - débit t/ min. : Endroit - débit t/ min. : Plasmagène : - - Electrode réfractaire / type et diamétre : Thioré 2% - @2,4 Nature du courant : cc ce Polarité de 1’ électrode ou du fil : (-) (-) Intensité Ten Ampère : 170 Tension U en Volts : 17 Soudage puisé : - Vitesse d’exécution V d’une passe : cm/min.: 5 Vitesse de dérouleme nt du fil : cm/min. : Ux1x60 SKOWRONECK Gazeux EN 439 : M21 Carboxar M21 Energi Il = nergie en Joules / cm 19200 21900 100 100 - 300 V en cm/min. T° mini. préchauffage en C° T° maxi. entre passes en C° Matériel de soudage - Machine - Poste Support envers (nature) : Gougeage (nature) KEMPOWELD 4000 MASTER 3500 - KEMPP/ Durée du maintien : — Vitesse de montée en température en °C/h : 170 à partir 300 Vitesse de refroidissement en °C/h : 170 ° de 560 à 300 librede 300 à ambiante Post-chauffage: Non NX Oui Température °C : — Traitement thermique aprés soudage: Non Oui \\ Réf. : 1232 A Température max. en °C et durée du maintien : 560 pendant 1 heure AUTRES INFORMATIONS: Voir annexe pour les paramètres et la courbe de TTAS * balayage (largeur maximale) oscillation: — Fréquence, temporisation : — Soudage puisé détails : — Angle de torche : _ Distance de maintien: — Détail du plasma : — PV QMOS N°2745-07-EN x II. RÉSULTATS DES CONTROLES, EXAMENS ET ESSAIS 1- CONTRÔLES NON DESTRUCTIFS (EN 288-3 ET ANNEXES III À L'ARRÊTÉ DU 24 MARS 1978 Visuel : Ressuage : Magnétoscopique : Radiographique : Ultrasonore : 2- ESSAIS DE TRACTION : exécutés par: APAVE Nord Ouest Dimension de la section de l’éprouvette mm Repère de l'éprouvette | transversale intéressant | | transversale intéressant | | Valeusaobtenr | à obtenir 25,1 x 16,1 25,0 x 15,9 25,0 x 16,1 25,0 x 16,1 P PLING exécutés par: APAVE Nord Ouest ‘ 9 Poinçon Longitudinale 40 40 40 40 «t»: épaisseur 4- ESSAIS DE RESILIENCE: exécutés par: APAVE Nord Ouest Dimension des éprouvettes : 10x5 le : 03 05 2001 Position de l'éprouvette Repère de l’éprouvette Peau =p Mi-épaisseur = e Racine =r GAMMA Service Re N/mm? Rm N/mm? éprouvette | éprouvette cylindrique uniquement | uniquement Métal de Métal toute une fraction de base fondu l'épaisseur | l'épaisseur x a 1 CAQ 0520-94 - Rév : 1] 3 APAVE Nord Ouest APAVE Nord Ouest 152 EA 0005Q 19 04 2001 152 EA 0005Q ? 19 04 2001 ” \" \" \" 2899 - 18.04.2001 : 03 05 2001 Localisation de la cassure REMARQUES Satis faisant Satis faisant Satis faisant Satis faisant le : 03 05 2001 Sens du pliage et dimensions de la section mm — | catsimessot | intéressant REMARQUES totalité de \"t\" fraction de \"t\" Satis faisant Satis faisant Satis faisant Satis faisant aleurs à obtenir KCV Jem? oyenne F i PE KCV J/cm? Emplacement de l’entaille “emasows ME VWT) Satis faisant Satis faisant",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "[cae 0520-94 — Rév : 1 F 4 Ti. DESCRIPTIF DU MODE OPERATOIRE DE SOUDAGE . DU CONSTRUCTEUR OU DU FABR"
+    },
+    {
+      "field": "supplier",
+      "value": "[cae 0520-94 — Rév : 1 F 4 Ti. DESCRIPTIF DU MODE OPERATOIRE DE SOUDAGE . DU CONSTRUCTEUR OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI Nuances 1 Nuance 2 DMOSP N° 193 EN 288-05 Spécification matériau de base : BF 48 F (NF E29204) Type de joint: Bout à bout sur tube N° coulée : 90557 Méthode de préparation et nettoyage Groupe de matériau : 1 Usinage + Brassage Epaisseur du matériau de base (mm) : 8 Diamètre du matériau de base (mm) : 58 Disposition des passes Schéma de préparation N° des passes : Procédés de soudage : Position de soudage : Soudage auto. nb de têtes balayage * fréquence oscillations temporisation _ Soudeur ou soudeur opérateur : DERAMBURES Produit d’apport : Fil (F) ou Electrode (E) F F Codification (Désignation normalisée) : EN 440: G2Si AWS AS18E 70C- MH4 Marque et type : BOHLER EML 5 HOBART - | Fab Cor 86R Diamètre : 24 24 42 Conservation ou étuvage : Gaz de protection— flux Pulvérulent - codification (Dés. Norma.) : - marque et type: - codification (Dés. Norma.) : - marque et type: Envers - débit t/ min. : Endroit - débit t/ min. : Plasmagène : - - Electrode réfractaire / type et diamétre : Thioré 2% - @2,4 Nature du courant : cc ce Polarité de 1’ électrode ou du fil : (-) (-) Intensité Ten Ampère : 170 Tension U en Volts : 17 Soudage puisé : - Vitesse d’exécution V d’une passe : cm/min.: 5 Vitesse de dérouleme nt du fil : cm/min. : Ux1x60 SKOWRONECK Gazeux EN 439 : M21 Carboxar M21 Energi Il = nergie en Joules / cm 19200 21900 100 100 - 300 V en cm/min. T° mini. préchauffage en C° T° maxi. entre passes en C° Matériel de soudage - Machine - Poste Support envers (nature) : Gougeage (nature) KEMPOWELD 4000 MASTER 3500 - KEMPP/ Durée du maintien : — Vitesse de montée en température en °C/h : 170 à partir 300 Vitesse de refroidissement en °C/h : 170 ° de 560 à 300 librede 300 à ambiante Post-chauffage: Non NX Oui Température °C : — Traitement thermique aprés soudage: Non Oui \\ Réf. : 1232 A Température max. en °C et durée du maintien : 560 pendant 1 heure AUTRES INFORMATIONS: Voir annexe pour les paramètres et la courbe de TTAS * balayage (largeur maximale) oscillation: — Fréquence, temporisation : — Soudage puisé détails : — Angle de torche : _ Distance de maintien: — Détail du plasma : — PV QMOS N°2745-07-EN x II. RÉSULTATS DES CONTROLES, EXAMENS ET ESSAIS 1- CONTRÔLES NON DESTRUCTIFS (EN 288-3 ET ANNEXES III À L'ARRÊTÉ DU 24 MARS 1978 Visuel : Ressuage : Magnétoscopique : Radiographique : Ultrasonore : 2- ESSAIS DE TRACTION : exécutés par: APAVE Nord Ouest Dimension de la section de l’éprouvette mm Repère de l'éprouvette | transversale intéressant | | transversale intéressant | | Valeusaobtenr | à obtenir 25,1 x 16,1 25,0 x 15,9 25,0 x 16,1 25,0 x 16,1 P PLING exécutés par: APAVE Nord Ouest ‘ 9 Poinçon Longitudinale 40 40 40 40 «t»: épaisseur 4- ESSAIS DE RESILIENCE: exécutés par: APAVE Nord Ouest Dimension des éprouvettes : 10x5 le : 03 05 2001 Position de l'éprouvette Repère de l’éprouvette Peau =p Mi-épaisseur = e Racine =r GAMMA Service Re N/mm? Rm N/mm? éprouvette | éprouvette cylindrique uniquement | uniquement Métal de Métal toute une fraction de base fondu l'épaisseur | l'épaisseur x a 1 CAQ 0520-94 - Rév : 1] 3 APAVE Nord Ouest APAVE Nord Ouest 152 EA 0005Q 19 04 2001 152 EA 0005Q ? 19 04 2001 ” \" \" \" 2899 - 18.04.2001 : 03 05 2001 Localisation de la cassure REMARQUES Satis faisant Satis faisant Satis faisant Satis faisant le : 03 05 2001 Sens du pliage et dimensions de la section mm — | catsimessot | intéressant REMARQUES totalité de \"t\" fraction de \"t\" Satis faisant Satis faisant Satis faisant Satis faisant aleurs à obtenir KCV Jem? oyenne F i PE KCV J/cm? Emplacement de l’entaille “emasows ME VWT) Satis faisant Satis faisant",
+      "confidence": 0.8,
+      "source": "trigger_fabricant",
+      "raw_text": "[cae 0520-94 — Rév : 1 F 4 Ti. DESCRIPTIF DU MODE OPERATOIRE DE SOUDAGE . DU CONSTRUCTEUR OU DU FABR"
+    },
+    {
+      "field": "supplier",
+      "value": "[cae 0520-94 — Rév : 1 F 4 Ti. DESCRIPTIF DU MODE OPERATOIRE DE SOUDAGE . DU CONSTRUCTEUR OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI Nuances 1 Nuance 2 DMOSP N° 193 EN 288-05 Spécification matériau de base : BF 48 F (NF E29204) Type de joint: Bout à bout sur tube N° coulée : 90557 Méthode de préparation et nettoyage Groupe de matériau : 1 Usinage + Brassage Epaisseur du matériau de base (mm) : 8 Diamètre du matériau de base (mm) : 58 Disposition des passes Schéma de préparation N° des passes : Procédés de soudage : Position de soudage : Soudage auto. nb de têtes balayage * fréquence oscillations temporisation _ Soudeur ou soudeur opérateur : DERAMBURES Produit d’apport : Fil (F) ou Electrode (E) F F Codification (Désignation normalisée) : EN 440: G2Si AWS AS18E 70C- MH4 Marque et type : BOHLER EML 5 HOBART - | Fab Cor 86R Diamètre : 24 24 42 Conservation ou étuvage : Gaz de protection— flux Pulvérulent - codification (Dés. Norma.) : - marque et type: - codification (Dés. Norma.) : - marque et type: Envers - débit t/ min. : Endroit - débit t/ min. : Plasmagène : - - Electrode réfractaire / type et diamétre : Thioré 2% - @2,4 Nature du courant : cc ce Polarité de 1’ électrode ou du fil : (-) (-) Intensité Ten Ampère : 170 Tension U en Volts : 17 Soudage puisé : - Vitesse d’exécution V d’une passe : cm/min.: 5 Vitesse de dérouleme nt du fil : cm/min. : Ux1x60 SKOWRONECK Gazeux EN 439 : M21 Carboxar M21 Energi Il = nergie en Joules / cm 19200 21900 100 100 - 300 V en cm/min. T° mini. préchauffage en C° T° maxi. entre passes en C° Matériel de soudage - Machine - Poste Support envers (nature) : Gougeage (nature) KEMPOWELD 4000 MASTER 3500 - KEMPP/ Durée du maintien : — Vitesse de montée en température en °C/h : 170 à partir 300 Vitesse de refroidissement en °C/h : 170 ° de 560 à 300 librede 300 à ambiante Post-chauffage: Non NX Oui Température °C : — Traitement thermique aprés soudage: Non Oui \\ Réf. : 1232 A Température max. en °C et durée du maintien : 560 pendant 1 heure AUTRES INFORMATIONS: Voir annexe pour les paramètres et la courbe de TTAS * balayage (largeur maximale) oscillation: — Fréquence, temporisation : — Soudage puisé détails : — Angle de torche : _ Distance de maintien: — Détail du plasma : — PV QMOS N°2745-07-EN x II. RÉSULTATS DES CONTROLES, EXAMENS ET ESSAIS 1- CONTRÔLES NON DESTRUCTIFS (EN 288-3 ET ANNEXES III À L'ARRÊTÉ DU 24 MARS 1978 Visuel : Ressuage : Magnétoscopique : Radiographique : Ultrasonore : 2- ESSAIS DE TRACTION : exécutés par: APAVE Nord Ouest Dimension de la section de l’éprouvette mm Repère de l'éprouvette | transversale intéressant | | transversale intéressant | | Valeusaobtenr | à obtenir 25,1 x 16,1 25,0 x 15,9 25,0 x 16,1 25,0 x 16,1 P PLING exécutés par: APAVE Nord Ouest ‘ 9 Poinçon Longitudinale 40 40 40 40 «t»: épaisseur 4- ESSAIS DE RESILIENCE: exécutés par: APAVE Nord Ouest Dimension des éprouvettes : 10x5 le : 03 05 2001 Position de l'éprouvette Repère de l’éprouvette Peau =p Mi-épaisseur = e Racine =r GAMMA Service Re N/mm? Rm N/mm? éprouvette | éprouvette cylindrique uniquement | uniquement Métal de Métal toute une fraction de base fondu l'épaisseur | l'épaisseur x a 1 CAQ 0520-94 - Rév : 1] 3 APAVE Nord Ouest APAVE Nord Ouest 152 EA 0005Q 19 04 2001 152 EA 0005Q ? 19 04 2001 ” \" \" \" 2899 - 18.04.2001 : 03 05 2001 Localisation de la cassure REMARQUES Satis faisant Satis faisant Satis faisant Satis faisant le : 03 05 2001 Sens du pliage et dimensions de la section mm — | catsimessot | intéressant REMARQUES totalité de \"t\" fraction de \"t\" Satis faisant Satis faisant Satis faisant Satis faisant aleurs à obtenir KCV Jem? oyenne F i PE KCV J/cm? Emplacement de l’entaille “emasows ME VWT) Satis faisant Satis faisant",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "[cae 0520-94 — Rév : 1 F 4 Ti. DESCRIPTIF DU MODE OPERATOIRE DE SOUDAGE . DU CONSTRUCTEUR OU DU FABR"
+    },
+    {
+      "field": "supplier",
+      "value": "MG MAG",
+      "confidence": 0.6,
+      "source": "letterhead",
+      "raw_text": "MG MAG"
+    },
+    {
+      "field": "material",
+      "value": "S355k2G3",
+      "confidence": 0.85,
+      "source": "steel_grade",
+      "raw_text": "S355k2G3"
+    },
+    {
+      "field": "material",
+      "value": "316",
+      "confidence": 0.85,
+      "source": "steel_grade",
+      "raw_text": "316"
+    },
+    {
+      "field": "material",
+      "value": "A2",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A2"
+    },
+    {
+      "field": "material",
+      "value": "07- EN . R OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI II. RESULTATS DES CONTROLES",
+      "confidence": 0.7,
+      "source": "trigger_matériau",
+      "raw_text": "ns 2 DE OPÉRATOIRE DE SOUDAGE PV QMOS N° 2745- 07- EN . R OU DU FABRICANT : PARAMETRES RELEVES LORS "
+    },
+    {
+      "field": "material",
+      "value": "07- EN . R OU DU FABRICANT : PARAMETRES RELEVES LORS DE L’ESSAI II. RESULTATS DES CONTROLES",
+      "confidence": 0.7,
+      "source": "trigger_nuance",
+      "raw_text": "ns 2 DE OPÉRATOIRE DE SOUDAGE PV QMOS N° 2745- 07- EN . R OU DU FABRICANT : PARAMETRES RELEVES LORS "
+    },
+    {
+      "field": "quantity",
+      "value": "32 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "32 mm"
+    },
+    {
+      "field": "quantity",
+      "value": "5 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "5mm"
+    },
+    {
+      "field": "quantity",
+      "value": "15 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "15MM"
+    },
+    {
+      "field": "quantity",
+      "value": "9 m",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "9 m"
+    },
+    {
+      "field": "quantity",
+      "value": "800 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "800mm"
+    },
+    {
+      "field": "quantity",
+      "value": "16 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "16mm"
+    },
+    {
+      "field": "quantity",
+      "value": "508 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "508mm"
+    },
+    {
+      "field": "quantity",
+      "value": "32 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "32mm"
+    },
+    {
+      "field": "quantity",
+      "value": "0.5 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "0.5mm"
+    },
+    {
+      "field": "quantity",
+      "value": "05 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "05mm"
+    },
+    {
+      "field": "quantity",
+      "value": "60.3 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "60.3mm"
+    },
+    {
+      "field": "quantity",
+      "value": "7 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "7mm"
+    },
+    {
+      "field": "quantity",
+      "value": "3 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "3mm"
+    },
+    {
+      "field": "quantity",
+      "value": "508 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "508mm"
+    },
+    {
+      "field": "quantity",
+      "value": "32 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "32mm"
+    },
+    {
+      "field": "quantity",
+      "value": "0.5 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "0.5 mm"
+    },
+    {
+      "field": "quantity",
+      "value": "25 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "25mm"
+    },
+    {
+      "field": "quantity",
+      "value": "0.5 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "0.5 mm"
+    },
+    {
+      "field": "quantity",
+      "value": "9 m",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "9 m"
+    },
+    {
+      "field": "quantity",
+      "value": "25 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "25mm"
+    },
+    {
+      "field": "quantity",
+      "value": "60.3 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "60.3mm"
+    },
+    {
+      "field": "quantity",
+      "value": "7 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "7mm"
+    },
+    {
+      "field": "quantity",
+      "value": "4 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "4mm"
+    },
+    {
+      "field": "quantity",
+      "value": "9 m",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "9 m"
+    },
+    {
+      "field": "quantity",
+      "value": "32 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "32 mm"
+    },
+    {
+      "field": "quantity",
+      "value": "16 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "16mm"
+    },
+    {
+      "field": "quantity",
+      "value": "25 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "25 mm"
+    },
+    {
+      "field": "quantity",
+      "value": "30 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "30 mm"
+    },
+    {
+      "field": "quantity",
+      "value": "5 mm",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "5 mm"
+    },
+    {
+      "field": "date",
+      "value": "01/04/1997",
+      "confidence": 0.85,
+      "source": "eu_dot",
+      "raw_text": "01.04.97"
+    },
+    {
+      "field": "date",
+      "value": "14/05/1997",
+      "confidence": 0.85,
+      "source": "eu_dot",
+      "raw_text": "14.5.97"
+    },
+    {
+      "field": "date",
+      "value": "02/12/1997",
+      "confidence": 0.85,
+      "source": "eu_dot",
+      "raw_text": "02.12.97"
+    },
+    {
+      "field": "date",
+      "value": "01/04/1997",
+      "confidence": 0.85,
+      "source": "eu_dot",
+      "raw_text": "01.04.97"
+    },
+    {
+      "field": "date",
+      "value": "18/04/2001",
+      "confidence": 0.85,
+      "source": "eu_dot",
+      "raw_text": "18.04.2001"
+    },
+    {
+      "field": "date",
+      "value": "12/01/2001",
+      "confidence": 1.0,
+      "source": "fr_textual",
+      "raw_text": "12 janvier 2001"
+    },
+    {
+      "field": "date",
+      "value": "15/05/1997",
+      "confidence": 1.0,
+      "source": "fr_textual",
+      "raw_text": "15 mai 1997"
+    },
+    {
+      "field": "date",
+      "value": "24/03/1978",
+      "confidence": 1.0,
+      "source": "fr_textual",
+      "raw_text": "24 MARS 1978"
+    },
+    {
+      "field": "date",
+      "value": "20/11/1997",
+      "confidence": 1.0,
+      "source": "fr_textual",
+      "raw_text": "20 novembre 1997"
+    },
+    {
+      "field": "date",
+      "value": "02/12/1997",
+      "confidence": 1.0,
+      "source": "fr_textual",
+      "raw_text": "02 décembre 1997"
+    },
+    {
+      "field": "date",
+      "value": "24/03/1978",
+      "confidence": 1.0,
+      "source": "fr_textual",
+      "raw_text": "24 MARS 1978"
+    },
+    {
+      "field": "date",
+      "value": "20/03/1997",
+      "confidence": 1.0,
+      "source": "fr_textual",
+      "raw_text": "20 mars 1997"
+    },
+    {
+      "field": "date",
+      "value": "24/03/1978",
+      "confidence": 1.0,
+      "source": "fr_textual",
+      "raw_text": "24 MARS 1978"
+    },
+    {
+      "field": "date",
+      "value": "12/05/1998",
+      "confidence": 1.0,
+      "source": "fr_textual",
+      "raw_text": "12 mai 1998"
+    },
+    {
+      "field": "date",
+      "value": "12/05/1998",
+      "confidence": 1.0,
+      "source": "fr_textual",
+      "raw_text": "12 mai 1998"
+    },
+    {
+      "field": "date",
+      "value": "21/04/1998",
+      "confidence": 1.0,
+      "source": "fr_textual",
+      "raw_text": "21 avril 1998"
+    },
+    {
+      "field": "date",
+      "value": "13/05/1998",
+      "confidence": 1.0,
+      "source": "fr_textual",
+      "raw_text": "13 mai 1998"
+    },
+    {
+      "field": "date",
+      "value": "24/03/1978",
+      "confidence": 1.0,
+      "source": "fr_textual",
+      "raw_text": "24 MARS 1978"
+    },
+    {
+      "field": "date",
+      "value": "12/05/1998",
+      "confidence": 1.0,
+      "source": "fr_textual",
+      "raw_text": "12 mai 1998"
+    },
+    {
+      "field": "date",
+      "value": "18/04/2001",
+      "confidence": 1.0,
+      "source": "fr_textual",
+      "raw_text": "18 avril 2001"
+    },
+    {
+      "field": "date",
+      "value": "11/05/2001",
+      "confidence": 1.0,
+      "source": "fr_textual",
+      "raw_text": "11 mai 2001"
+    },
+    {
+      "field": "date",
+      "value": "24/03/1978",
+      "confidence": 1.0,
+      "source": "fr_textual",
+      "raw_text": "24 MARS 1978"
+    }
+  ],
+  "notes": [
+    "Multiple suppliers found (65), selected highest confidence"
+  ]
+}

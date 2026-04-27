@@ -1,131 +1,124 @@
 {
   "document_name": "Real_MaterialCert_FR_Antelis_Dillinger_32",
   "extracted_entities": {
-    "project_id": "438251",
-    "supplier": "QM-Systeme: Certification selon ISO 9001 YD) | LLI N G E iz a Erlauterungen siehe Ruckseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate 7 . A10_ Avis d'expédition No./ A08/ Référence usine/ RECEPTION 3.2 SELON EN 10204:2004 Date d'expédition A03 No. Certificat RECEPTION 3.2 SELON ISO 10474:2013 651892-26.09.18 438251-001 BO1 Produit TOLES FORTES A05 Aut.du doc. Org. réception AO6 Client ‘ELIS, LEUDELANGE A07.1 No. 5990903730 VLNC Destinataire A07.2 No. BO2/ Désign. acier S355G10+N B03 Prescriptions EN-10225:09 supplément. B01-B99 Description du produit B14 = B08 Bog B10 B11 B12 Bo4 BO7.2 BO7.1 A09 Poste Nombre Epaisseur Largeur Longueur Masse Etat de livraison No. de No. téle mére/ Numéro d'article du client No. de piéces théorique du produit coulée No. d'essai MM KG 01 1 180,00 x 2460 x 4500 15642 N 460073 59173-01 kK 1 15642 Masse effective: 15940 KG B04 Etat de livraison du produit POSTE NO.: 01 N: HT: 910 GR.C +20 -15 GR.C DUREE DE MISE EN TEMPERATURE POUR ATTEINDRE EMPEKRATURE iE DANS TOUTE ECTION: 1-1,75 MIN/MM (25-45 MIN/INCH) REFROIDISSEMENT A L'AIR CALME BO6 Marquage du produit POSTE NO.: 01 DESIGNATION DE L'ACIER S355G10+N NO. DE COULEE / SIGLE DU PRODUCTEUR / NO. ‘RE-NO. D'ESSAI / POINCON DE i;CEPTIONNAIRI C10-C29 Essai de traction B14 B07.2 BO7.1 BO5 C01 C02/ C03 C10 C11 C14-C15 Poste No. de No.t6le mére/ Traitement (thermique) de référence C01 Temp. No. Coulée No.d'essai GR.C MPA REH REH/RM 01 460073 59173 QV RT 330 0, 68 01 460073 59177 * SV RT * SV RT * RT Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande. . AG der Dillinger Huttenwerke for DNV GL We hay Postfach 1580, D-66748 Dillingen/Saar ly “A This document has been digitally signed and DNV GL Cert. no. 33-11180 IDHH /s will therefore not have handwritten Service réception signatures. . Marque du K ‘Guy Briick, Roland DR. CH. KONIG producteur Z \" éceptionaire Responsable Réception i écept. Date 26.09.18",
+    "project_id": null,
+    "supplier": "AG der Dillinger Hüttenwerke",
     "material": "S355G10+N",
     "quantity": "15940 kg",
-    "date": "2018-09-26"
+    "date": "26/09/2018"
   },
   "all_candidates": [
     {
-      "field": "project_id",
-      "value": "438251",
-      "confidence": 0.95,
-      "source": "cert_trigger",
-      "raw_text": "Certificat 438251"
-    },
-    {
-      "field": "project_id",
-      "value": "438251",
-      "confidence": 0.95,
-      "source": "cert_trigger",
-      "raw_text": "Certificat 438251"
-    },
-    {
       "field": "supplier",
-      "value": "QM-Systeme: Certification selon ISO 9001 YD) | LLI N G E iz a Erlauterungen siehe Ruckseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate 7 . A10_ Avis d'expédition No./ A08/ Référence usine/ RECEPTION 3.2 SELON EN 10204:2004 Date d'expédition A03 No. Certificat RECEPTION 3.2 SELON ISO 10474:2013 651892-26.09.18 438251-001 BO1 Produit TOLES FORTES A05 Aut.du doc. Org. réception AO6 Client ‘ELIS, LEUDELANGE A07.1 No. 5990903730 VLNC Destinataire A07.2 No. BO2/ Désign. acier S355G10+N B03 Prescriptions EN-10225:09 supplément. B01-B99 Description du produit B14 = B08 Bog B10 B11 B12 Bo4 BO7.2 BO7.1 A09 Poste Nombre Epaisseur Largeur Longueur Masse Etat de livraison No. de No. téle mére/ Numéro d'article du client No. de piéces théorique du produit coulée No. d'essai MM KG 01 1 180,00 x 2460 x 4500 15642 N 460073 59173-01 kK 1 15642 Masse effective: 15940 KG B04 Etat de livraison du produit POSTE NO.: 01 N: HT: 910 GR.C +20 -15 GR.C DUREE DE MISE EN TEMPERATURE POUR ATTEINDRE EMPEKRATURE iE DANS TOUTE ECTION: 1-1,75 MIN/MM (25-45 MIN/INCH) REFROIDISSEMENT A L'AIR CALME BO6 Marquage du produit POSTE NO.: 01 DESIGNATION DE L'ACIER S355G10+N NO. DE COULEE / SIGLE DU PRODUCTEUR / NO. ‘RE-NO. D'ESSAI / POINCON DE i;CEPTIONNAIRI C10-C29 Essai de traction B14 B07.2 BO7.1 BO5 C01 C02/ C03 C10 C11 C14-C15 Poste No. de No.t6le mére/ Traitement (thermique) de référence C01 Temp. No. Coulée No.d'essai GR.C MPA REH REH/RM 01 460073 59173 QV RT 330 0, 68 01 460073 59177 * SV RT * SV RT * RT Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande. . AG der Dillinger Huttenwerke for DNV GL We hay Postfach 1580, D-66748 Dillingen/Saar ly “A This document has been digitally signed and DNV GL Cert. no. 33-11180 IDHH /s will therefore not have handwritten Service réception signatures. . Marque du K ‘Guy Briick, Roland DR. CH. KONIG producteur Z \" éceptionaire Responsable Réception i écept. Date 26.09.18",
-      "confidence": 0.8,
-      "source": "trigger_producteur",
-      "raw_text": "QM-Systeme: Certification selon ISO 9001 YD) | LLI N G E iz a Erlauterungen siehe Ruckseite/Explicat"
-    },
-    {
-      "field": "supplier",
-      "value": "QM-Systeme: Certification selon ISO 9001 Erlauterungen siehe Ruckseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate RECEPTION 3.2 SELON EN 10204:2004 RECEPTION 3.2 SELON ISO 10474:2013 A05 Aut.du doc. Org. réception AO6 Client A07.1 No. VLNC ‘ELIS, LEUDELANGE Destinataire A07.2 No. BO2/ Désign. acier $355G10+N B03 Prescriptions EN-10225:09 supplément. C40-C49 Essai de résilience BO7.2 BO7.1 Bo5 No. de No.t6le mére/ Traitement (thermique) de référence coulée No. d'essai 460073 59173 co1 Cco3 Temp. GR.C -30 -40 -30 -40 C41 Largeur I éprouvette K4 K4 K4 K4 QM QO QM QO C70-C99 Composition chimique % - Analyse sur coulée BO07.2 C70 Coulée c SI MN P Ss N 460073 Y 0,094 0,482 1,562 0,012 0,0006 0,0032 460073 59177 BO07.2 C70 Coulée Tl PB B SB CA BI 460073 Y 0,003 0,0007 00,0004 0,0009 00,0009 00,0001 C94 Analyse sur coulée Carbone équivalent / Limitation d'alliage BO07.2 Coulée 460073 FO-31= 0,21 FO-51= 0,02 FO-52= 0,02 C95 Traitement de la coulée POSTE NO.: 01 COULEE DU POSTE MENTIONNE: DEGAZAGE SOUS VID! Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande. for DNV GL DNV GL Cert. no. 33-11180 IDHH// signatures. Briick, Roland ptionaire Marque du producteur c40 Type de l'éprouvette CHP-V CHP-V CHP-V CHP-V This document has been digitally signed and will therefore not have handwritten A10_ Avis d'expédition No./ Date d'expédition 651892-26.09.18 59003730 C46 Energie Joule 750 750 750 750 c44 Méthode d'essai cu MoO NI 0,213 0,015 0,317 AL-T 0,030 Ol say — DR. CH. KONIG Responsable Réception C45 AV 2 AV 2 AV 2 AV 2 CR 0,051 DILLINGER® A08/ Référence usine/ A03_ No. Certificat 438251-001 BO1 Produit TOLES FORTES C43 Valeur moyenne 183 247 212 268 c42 Valeurs individuelles AV=J 136 274 246 287 198 234 193 270 Vv NB AS SN 0,001 0,020 0,0037 0,0024 AG der Dillinger Hittenwerke Postfach 1580, D-66748 Dillingen/Saar Service réception Date 26.09.18",
-      "confidence": 0.8,
-      "source": "trigger_producteur",
-      "raw_text": "QM-Systeme: Certification selon ISO 9001 Erlauterungen siehe Ruckseite/Explications voir au verso/Se"
-    },
-    {
-      "field": "supplier",
-      "value": "QM-Systeme: Certification selon ISO 9001 YD) | LLI N G E iz a Erlauterungen siehe Ruckseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate 7 . A10_ Avis d'expédition No./ A08/ Référence usine/ RECEPTION 3.2 SELON EN 10204:2004 Date d'expédition A03 No. Certificat RECEPTION 3.2 SELON ISO 10474:2013 651892-26.09.18 438251-001 BO1 Produit TOLES FORTES A05 Aut.du doc. Org. réception AO6 Client ‘ELIS, LEUDELANGE A07.1 No. 5990903730 VLNC Destinataire A07.2 No. BO2/ Désign. acier S355G10+N B03 Prescriptions EN-10225:09 supplément. B01-B99 Description du produit B14 = B08 Bog B10 B11 B12 Bo4 BO7.2 BO7.1 A09 Poste Nombre Epaisseur Largeur Longueur Masse Etat de livraison No. de No. téle mére/ Numéro d'article du client No. de piéces théorique du produit coulée No. d'essai MM KG 01 1 180,00 x 2460 x 4500 15642 N 460073 59173-01 kK 1 15642 Masse effective: 15940 KG B04 Etat de livraison du produit POSTE NO.: 01 N: HT: 910 GR.C +20 -15 GR.C DUREE DE MISE EN TEMPERATURE POUR ATTEINDRE EMPEKRATURE iE DANS TOUTE ECTION: 1-1,75 MIN/MM (25-45 MIN/INCH) REFROIDISSEMENT A L'AIR CALME BO6 Marquage du produit POSTE NO.: 01 DESIGNATION DE L'ACIER S355G10+N NO. DE COULEE / SIGLE DU PRODUCTEUR / NO. ‘RE-NO. D'ESSAI / POINCON DE i;CEPTIONNAIRI C10-C29 Essai de traction B14 B07.2 BO7.1 BO5 C01 C02/ C03 C10 C11 C14-C15 Poste No. de No.t6le mére/ Traitement (thermique) de référence C01 Temp. No. Coulée No.d'essai GR.C MPA REH REH/RM 01 460073 59173 QV RT 330 0, 68 01 460073 59177 * SV RT * SV RT * RT Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande. . AG der Dillinger Huttenwerke for DNV GL We hay Postfach 1580, D-66748 Dillingen/Saar ly “A This document has been digitally signed and DNV GL Cert. no. 33-11180 IDHH /s will therefore not have handwritten Service réception signatures. . Marque du K ‘Guy Briick, Roland DR. CH. KONIG producteur Z \" éceptionaire Responsable Réception i écept. Date 26.09.18",
+      "value": "AG der Dillinger Hüttenwerke",
       "confidence": 0.8,
       "source": "trigger_de",
-      "raw_text": "QM-Systeme: Certification selon ISO 9001 YD) | LLI N G E iz a Erlauterungen siehe Ruckseite/Explicat"
+      "raw_text": "AG der Dillinger Hüttenwerke"
     },
     {
       "field": "supplier",
-      "value": "QM-Systeme: Certification selon ISO 9001 Erlauterungen siehe Ruckseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate RECEPTION 3.2 SELON EN 10204:2004 RECEPTION 3.2 SELON ISO 10474:2013 A05 Aut.du doc. Org. réception AO6 Client A07.1 No. VLNC ‘ELIS, LEUDELANGE Destinataire A07.2 No. BO2/ Désign. acier $355G10+N B03 Prescriptions EN-10225:09 supplément. C40-C49 Essai de résilience BO7.2 BO7.1 Bo5 No. de No.t6le mére/ Traitement (thermique) de référence coulée No. d'essai 460073 59173 co1 Cco3 Temp. GR.C -30 -40 -30 -40 C41 Largeur I éprouvette K4 K4 K4 K4 QM QO QM QO C70-C99 Composition chimique % - Analyse sur coulée BO07.2 C70 Coulée c SI MN P Ss N 460073 Y 0,094 0,482 1,562 0,012 0,0006 0,0032 460073 59177 BO07.2 C70 Coulée Tl PB B SB CA BI 460073 Y 0,003 0,0007 00,0004 0,0009 00,0009 00,0001 C94 Analyse sur coulée Carbone équivalent / Limitation d'alliage BO07.2 Coulée 460073 FO-31= 0,21 FO-51= 0,02 FO-52= 0,02 C95 Traitement de la coulée POSTE NO.: 01 COULEE DU POSTE MENTIONNE: DEGAZAGE SOUS VID! Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande. for DNV GL DNV GL Cert. no. 33-11180 IDHH// signatures. Briick, Roland ptionaire Marque du producteur c40 Type de l'éprouvette CHP-V CHP-V CHP-V CHP-V This document has been digitally signed and will therefore not have handwritten A10_ Avis d'expédition No./ Date d'expédition 651892-26.09.18 59003730 C46 Energie Joule 750 750 750 750 c44 Méthode d'essai cu MoO NI 0,213 0,015 0,317 AL-T 0,030 Ol say — DR. CH. KONIG Responsable Réception C45 AV 2 AV 2 AV 2 AV 2 CR 0,051 DILLINGER® A08/ Référence usine/ A03_ No. Certificat 438251-001 BO1 Produit TOLES FORTES C43 Valeur moyenne 183 247 212 268 c42 Valeurs individuelles AV=J 136 274 246 287 198 234 193 270 Vv NB AS SN 0,001 0,020 0,0037 0,0024 AG der Dillinger Hittenwerke Postfach 1580, D-66748 Dillingen/Saar Service réception Date 26.09.18",
+      "value": "NO. DE COULEE / SIGLE DU PRODUCTEUR / NO. TOLE MERE-NO. D'ESSAI / POINCON DE L'AGENT RECEPTIONNAIRE",
       "confidence": 0.8,
       "source": "trigger_de",
-      "raw_text": "QM-Systeme: Certification selon ISO 9001 Erlauterungen siehe Ruckseite/Explications voir au verso/Se"
+      "raw_text": "NO. DE COULEE / SIGLE DU PRODUCTEUR / NO. TOLE MERE-NO. D'ESSAI / POINCON DE L'AGENT RECEPTIONNAIRE"
     },
     {
       "field": "supplier",
-      "value": "QM-Systeme: Certification selon ISO 9001 Erlauterungen siehe Ruckseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate RECEPTION 3.2 SELON EN 10204:2004 RECEPTION 3.2 SELON ISO 10474:2013 A05 Aut.du doc. Org. réception AO6 Client A07.1 No. VLNC ‘ELIS, LEUDELANGE Destinataire A07.2 No. BO2/ Désign. acier $355G10+N B03 Prescriptions EN-10225:09 supplément. C40-C49 Essai de résilience BO7.2 BO7.1 Bo5 No. de No.t6le mére/ Traitement (thermique) de référence coulée No. d'essai 460073 59173 co1 Cco3 Temp. GR.C -30 -40 -30 -40 C41 Largeur I éprouvette K4 K4 K4 K4 QM QO QM QO C70-C99 Composition chimique % - Analyse sur coulée BO07.2 C70 Coulée c SI MN P Ss N 460073 Y 0,094 0,482 1,562 0,012 0,0006 0,0032 460073 59177 BO07.2 C70 Coulée Tl PB B SB CA BI 460073 Y 0,003 0,0007 00,0004 0,0009 00,0009 00,0001 C94 Analyse sur coulée Carbone équivalent / Limitation d'alliage BO07.2 Coulée 460073 FO-31= 0,21 FO-51= 0,02 FO-52= 0,02 C95 Traitement de la coulée POSTE NO.: 01 COULEE DU POSTE MENTIONNE: DEGAZAGE SOUS VID! Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande. for DNV GL DNV GL Cert. no. 33-11180 IDHH// signatures. Briick, Roland ptionaire Marque du producteur c40 Type de l'éprouvette CHP-V CHP-V CHP-V CHP-V This document has been digitally signed and will therefore not have handwritten A10_ Avis d'expédition No./ Date d'expédition 651892-26.09.18 59003730 C46 Energie Joule 750 750 750 750 c44 Méthode d'essai cu MoO NI 0,213 0,015 0,317 AL-T 0,030 Ol say — DR. CH. KONIG Responsable Réception C45 AV 2 AV 2 AV 2 AV 2 CR 0,051 DILLINGER® A08/ Référence usine/ A03_ No. Certificat 438251-001 BO1 Produit TOLES FORTES C43 Valeur moyenne 183 247 212 268 c42 Valeurs individuelles AV=J 136 274 246 287 198 234 193 270 Vv NB AS SN 0,001 0,020 0,0037 0,0024 AG der Dillinger Hittenwerke Postfach 1580, D-66748 Dillingen/Saar Service réception Date 26.09.18",
+      "value": "NO. DE COULEE / SIGLE DU PRODUCTEUR / NO. TOLE MERE-NO. D'ESSAI / POINCON DE L'AGENT RECEPTIONNAIRE",
       "confidence": 0.8,
       "source": "trigger_producteur",
-      "raw_text": "QM-Systeme: Certification selon ISO 9001 Erlauterungen siehe Ruckseite/Explications voir au verso/Se"
+      "raw_text": "NO. DE COULEE / SIGLE DU PRODUCTEUR / NO. TOLE MERE-NO. D'ESSAI / POINCON DE L'AGENT RECEPTIONNAIRE"
     },
     {
       "field": "supplier",
-      "value": "QM-Systeme: Certification selon ISO 9001 Erlauterungen siehe Ruckseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate A05 Aut.du doc. Org. réception VLNC BO2/ Désign B03 Prescri . acier ptions supplément. BO07.2 Coulée 460073 460073 BO07.2 Coulée 460073 460073 BO07.2 Coulée 460073 460073 FO-31 FO-51 RECEPTION RECEPTION 3.2 SE 3.2 SE ON EN 10204:2004 ON ISO 10474:2013 AO6 Client ‘ELIS, LEUDELANGE A07.1_ No. Destinataire A07.2 No. $355G10+N EN-10225:09 C70-C99 Composition chimique % - Analyse sur produit BO7.1 No.essai 59173 59177 BO7.1 No.essai 59173 59177 co1 c sl 0,087 0,468 0,089 0,475 MN P 1,55 0,011 1,56 0,011 K4 K4 co1 AL-T 0,032 0,033 K4 K4 C94 Analyse sur produit Carbone équivalent / Limitation d'alliage BO7.1 No.essai 59173 59177 co1 K4 K4 FO-31= FO-31= 0,20 0,20 FO-51= FO-51= 0,02 0,02 FO-52= FO-52= C94 Formule carbone équivalent / Limitation d'alliage = C+SI/30+ (MN+CR+CU) /20+M0/15+V/10+NI/60+5B V +NB A10_ Avis d'expédition No./ 59003730 cu MO 0,212 0,212 FO-Al= 12 FO-Al= 13 0,014 0, 0,014 0, Date d'expédition 651892-26.09.18 NI CR 318 0,049 314 0,049 DILLINGER® A08/ Référence usine/ A03_ No. Certificat 438251-001 BO1 Produit TOLES FORTES NB TI 0,019 0,002 0,020 0,002 FO-52 FO-Al = V +NB+TI AT/N DO1 Marquage et identification, aspect de surface, forme et caractéristiques dimensionnelles POSTE NO.: 01 CONTROLE DE MARQUAGE, SURFACE, FORME SURFACE SELON EN-10225 EPAISSEUR SELON EN-10029:10-A LONGUEUR ET LARGEUR SELON EN-10029:10 PLANEIT! SELON EN-10225-L ET DIMENSIONS: LES RESULTATS REPONDENT AUX EXIGENCI Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande. for DNV GL This document has been digitally signed and will therefore not have handwritten signatures. Briick, Roland ptionaire AG der Dillinger Hittenwerke Postfach 1580, D-66748 Dillingen/Saar Service réception DNV GL Cert. no. 33-11180 IDHH// Ol say — DR. CH. KONIG Responsable Réception Marque du producteur Date 26.09.18",
-      "confidence": 0.8,
-      "source": "trigger_producteur",
-      "raw_text": "QM-Systeme: Certification selon ISO 9001 Erlauterungen siehe Ruckseite/Explications voir au verso/Se"
-    },
-    {
-      "field": "supplier",
-      "value": "QM-Systeme: Certification selon ISO 9001 Erlauterungen siehe Ruckseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate RECEPTION 3.2 SELON EN 10204:2004 RECEPTION 3.2 SELON ISO 10474:2013 A05 Aut.du doc. Org. réception AO6 Client A07.1 No. VLNC ‘ELIS, LEUDELANGE Destinataire A07.2 No. BO2/ Désign. acier $355G10+N B03 Prescriptions EN-10225:09 supplément. C40-C49 Essai de résilience BO7.2 BO7.1 Bo5 No. de No.t6le mére/ Traitement (thermique) de référence coulée No. d'essai 460073 59173 co1 Cco3 Temp. GR.C -30 -40 -30 -40 C41 Largeur I éprouvette K4 K4 K4 K4 QM QO QM QO C70-C99 Composition chimique % - Analyse sur coulée BO07.2 C70 Coulée c SI MN P Ss N 460073 Y 0,094 0,482 1,562 0,012 0,0006 0,0032 460073 59177 BO07.2 C70 Coulée Tl PB B SB CA BI 460073 Y 0,003 0,0007 00,0004 0,0009 00,0009 00,0001 C94 Analyse sur coulée Carbone équivalent / Limitation d'alliage BO07.2 Coulée 460073 FO-31= 0,21 FO-51= 0,02 FO-52= 0,02 C95 Traitement de la coulée POSTE NO.: 01 COULEE DU POSTE MENTIONNE: DEGAZAGE SOUS VID! Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande. for DNV GL DNV GL Cert. no. 33-11180 IDHH// signatures. Briick, Roland ptionaire Marque du producteur c40 Type de l'éprouvette CHP-V CHP-V CHP-V CHP-V This document has been digitally signed and will therefore not have handwritten A10_ Avis d'expédition No./ Date d'expédition 651892-26.09.18 59003730 C46 Energie Joule 750 750 750 750 c44 Méthode d'essai cu MoO NI 0,213 0,015 0,317 AL-T 0,030 Ol say — DR. CH. KONIG Responsable Réception C45 AV 2 AV 2 AV 2 AV 2 CR 0,051 DILLINGER® A08/ Référence usine/ A03_ No. Certificat 438251-001 BO1 Produit TOLES FORTES C43 Valeur moyenne 183 247 212 268 c42 Valeurs individuelles AV=J 136 274 246 287 198 234 193 270 Vv NB AS SN 0,001 0,020 0,0037 0,0024 AG der Dillinger Hittenwerke Postfach 1580, D-66748 Dillingen/Saar Service réception Date 26.09.18",
+      "value": "NO. DE COULEE / SIGLE DU PRODUCTEUR / NO. TOLE MERE-NO. D'ESSAI / POINCON DE L'AGENT RECEPTIONNAIRE",
       "confidence": 0.8,
       "source": "trigger_de",
-      "raw_text": "QM-Systeme: Certification selon ISO 9001 Erlauterungen siehe Ruckseite/Explications voir au verso/Se"
+      "raw_text": "NO. DE COULEE / SIGLE DU PRODUCTEUR / NO. TOLE MERE-NO. D'ESSAI / POINCON DE L'AGENT RECEPTIONNAIRE"
     },
     {
       "field": "supplier",
-      "value": "QM-Systeme: Certification selon ISO 9001 Erlauterungen siehe Ruckseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate A05 Aut.du doc. Org. réception VLNC BO2/ Désign B03 Prescri . acier ptions supplément. BO07.2 Coulée 460073 460073 BO07.2 Coulée 460073 460073 BO07.2 Coulée 460073 460073 FO-31 FO-51 RECEPTION RECEPTION 3.2 SE 3.2 SE ON EN 10204:2004 ON ISO 10474:2013 AO6 Client ‘ELIS, LEUDELANGE A07.1_ No. Destinataire A07.2 No. $355G10+N EN-10225:09 C70-C99 Composition chimique % - Analyse sur produit BO7.1 No.essai 59173 59177 BO7.1 No.essai 59173 59177 co1 c sl 0,087 0,468 0,089 0,475 MN P 1,55 0,011 1,56 0,011 K4 K4 co1 AL-T 0,032 0,033 K4 K4 C94 Analyse sur produit Carbone équivalent / Limitation d'alliage BO7.1 No.essai 59173 59177 co1 K4 K4 FO-31= FO-31= 0,20 0,20 FO-51= FO-51= 0,02 0,02 FO-52= FO-52= C94 Formule carbone équivalent / Limitation d'alliage = C+SI/30+ (MN+CR+CU) /20+M0/15+V/10+NI/60+5B V +NB A10_ Avis d'expédition No./ 59003730 cu MO 0,212 0,212 FO-Al= 12 FO-Al= 13 0,014 0, 0,014 0, Date d'expédition 651892-26.09.18 NI CR 318 0,049 314 0,049 DILLINGER® A08/ Référence usine/ A03_ No. Certificat 438251-001 BO1 Produit TOLES FORTES NB TI 0,019 0,002 0,020 0,002 FO-52 FO-Al = V +NB+TI AT/N DO1 Marquage et identification, aspect de surface, forme et caractéristiques dimensionnelles POSTE NO.: 01 CONTROLE DE MARQUAGE, SURFACE, FORME SURFACE SELON EN-10225 EPAISSEUR SELON EN-10029:10-A LONGUEUR ET LARGEUR SELON EN-10029:10 PLANEIT! SELON EN-10225-L ET DIMENSIONS: LES RESULTATS REPONDENT AUX EXIGENCI Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande. for DNV GL This document has been digitally signed and will therefore not have handwritten signatures. Briick, Roland ptionaire AG der Dillinger Hittenwerke Postfach 1580, D-66748 Dillingen/Saar Service réception DNV GL Cert. no. 33-11180 IDHH// Ol say — DR. CH. KONIG Responsable Réception Marque du producteur Date 26.09.18",
+      "value": "AG der Dillinger Hüttenwerke",
       "confidence": 0.8,
       "source": "trigger_de",
-      "raw_text": "QM-Systeme: Certification selon ISO 9001 Erlauterungen siehe Ruckseite/Explications voir au verso/Se"
+      "raw_text": "AG der Dillinger Hüttenwerke"
     },
     {
       "field": "supplier",
-      "value": "QM-Systeme: Certification selon ISO 9001 Erlauterungen siehe Ruckseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate A05 Aut.du doc. Org. réception VLNC BO2/ Désign B03 Prescri . acier ptions supplément. BO07.2 Coulée 460073 460073 BO07.2 Coulée 460073 460073 BO07.2 Coulée 460073 460073 FO-31 FO-51 RECEPTION RECEPTION 3.2 SE 3.2 SE ON EN 10204:2004 ON ISO 10474:2013 AO6 Client ‘ELIS, LEUDELANGE A07.1_ No. Destinataire A07.2 No. $355G10+N EN-10225:09 C70-C99 Composition chimique % - Analyse sur produit BO7.1 No.essai 59173 59177 BO7.1 No.essai 59173 59177 co1 c sl 0,087 0,468 0,089 0,475 MN P 1,55 0,011 1,56 0,011 K4 K4 co1 AL-T 0,032 0,033 K4 K4 C94 Analyse sur produit Carbone équivalent / Limitation d'alliage BO7.1 No.essai 59173 59177 co1 K4 K4 FO-31= FO-31= 0,20 0,20 FO-51= FO-51= 0,02 0,02 FO-52= FO-52= C94 Formule carbone équivalent / Limitation d'alliage = C+SI/30+ (MN+CR+CU) /20+M0/15+V/10+NI/60+5B V +NB A10_ Avis d'expédition No./ 59003730 cu MO 0,212 0,212 FO-Al= 12 FO-Al= 13 0,014 0, 0,014 0, Date d'expédition 651892-26.09.18 NI CR 318 0,049 314 0,049 DILLINGER® A08/ Référence usine/ A03_ No. Certificat 438251-001 BO1 Produit TOLES FORTES NB TI 0,019 0,002 0,020 0,002 FO-52 FO-Al = V +NB+TI AT/N DO1 Marquage et identification, aspect de surface, forme et caractéristiques dimensionnelles POSTE NO.: 01 CONTROLE DE MARQUAGE, SURFACE, FORME SURFACE SELON EN-10225 EPAISSEUR SELON EN-10029:10-A LONGUEUR ET LARGEUR SELON EN-10029:10 PLANEIT! SELON EN-10225-L ET DIMENSIONS: LES RESULTATS REPONDENT AUX EXIGENCI Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande. for DNV GL This document has been digitally signed and will therefore not have handwritten signatures. Briick, Roland ptionaire AG der Dillinger Hittenwerke Postfach 1580, D-66748 Dillingen/Saar Service réception DNV GL Cert. no. 33-11180 IDHH// Ol say — DR. CH. KONIG Responsable Réception Marque du producteur Date 26.09.18",
-      "confidence": 0.8,
-      "source": "trigger_producteur",
-      "raw_text": "QM-Systeme: Certification selon ISO 9001 Erlauterungen siehe Ruckseite/Explications voir au verso/Se"
-    },
-    {
-      "field": "supplier",
-      "value": "QM-Systeme: Certification selon ISO 9001 DILLINGER® Erlauterungen siehe Ruckseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate rc . A10_ Avis d'expédition No./ A08/ Référence usine/ RECEPTION 3.2 SELON EN 10204:2004 Date d'expédition A03 No. Certificat RECEPTION 3.2 SELON ISO 10474:2013 651892-26.09.18 438251-001 ‘ELIS, LEUDELANGE AQ7.1 No. 59003730 BO1 Produit Destinataire A07.2 No. TOLES FORTES BO2/ Désign. acier $355G10+N B03 Prescriptions EN-10225:09 supplément. A05 Aut.du doc. Org. réception AO6 Client VLNC DO2 Essais non déstructifs - Contrdle aux ultrasons POSTE NO.: 01 SPECIFICATION-US : EN-10160 CLASSE S1 ET E2 PLAN DE SONDAGE CORPS : LIGNES LONGITUDINALES E RIVES : 100 MM QUALIFICATION DES AGENTS: NIVEAU 2 SELON ISO 9712 LE RESULTAT DU SONDAGE EST CONFORME AUX PRESCRITIONS DE LA COMMANDE. ESPACEES DE 100 MM Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande. . - AG der Dillinger Hittenwerke SS isdoamen hecbeonagiay sgrevana hay Postfach 1580, D-66748 Dillingen/Saar DNV GL Cert. no. 33-11180 IDHH/ will therefore not have handwritten Service réception signatures. Brick, Roland DR. CH. KONIG ptionaire Responsable Réception i écept. Date 26.09.18 Marque du producteur",
-      "confidence": 0.8,
-      "source": "trigger_producteur",
-      "raw_text": "QM-Systeme: Certification selon ISO 9001 DILLINGER® Erlauterungen siehe Ruckseite/Explications voir "
-    },
-    {
-      "field": "supplier",
-      "value": "QM-Systeme: Certification selon ISO 9001 Erlauterungen siehe Ruckseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate A05 Aut.du doc. Org. réception VLNC BO2/ Désign B03 Prescri . acier ptions supplément. BO07.2 Coulée 460073 460073 BO07.2 Coulée 460073 460073 BO07.2 Coulée 460073 460073 FO-31 FO-51 RECEPTION RECEPTION 3.2 SE 3.2 SE ON EN 10204:2004 ON ISO 10474:2013 AO6 Client ‘ELIS, LEUDELANGE A07.1_ No. Destinataire A07.2 No. $355G10+N EN-10225:09 C70-C99 Composition chimique % - Analyse sur produit BO7.1 No.essai 59173 59177 BO7.1 No.essai 59173 59177 co1 c sl 0,087 0,468 0,089 0,475 MN P 1,55 0,011 1,56 0,011 K4 K4 co1 AL-T 0,032 0,033 K4 K4 C94 Analyse sur produit Carbone équivalent / Limitation d'alliage BO7.1 No.essai 59173 59177 co1 K4 K4 FO-31= FO-31= 0,20 0,20 FO-51= FO-51= 0,02 0,02 FO-52= FO-52= C94 Formule carbone équivalent / Limitation d'alliage = C+SI/30+ (MN+CR+CU) /20+M0/15+V/10+NI/60+5B V +NB A10_ Avis d'expédition No./ 59003730 cu MO 0,212 0,212 FO-Al= 12 FO-Al= 13 0,014 0, 0,014 0, Date d'expédition 651892-26.09.18 NI CR 318 0,049 314 0,049 DILLINGER® A08/ Référence usine/ A03_ No. Certificat 438251-001 BO1 Produit TOLES FORTES NB TI 0,019 0,002 0,020 0,002 FO-52 FO-Al = V +NB+TI AT/N DO1 Marquage et identification, aspect de surface, forme et caractéristiques dimensionnelles POSTE NO.: 01 CONTROLE DE MARQUAGE, SURFACE, FORME SURFACE SELON EN-10225 EPAISSEUR SELON EN-10029:10-A LONGUEUR ET LARGEUR SELON EN-10029:10 PLANEIT! SELON EN-10225-L ET DIMENSIONS: LES RESULTATS REPONDENT AUX EXIGENCI Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande. for DNV GL This document has been digitally signed and will therefore not have handwritten signatures. Briick, Roland ptionaire AG der Dillinger Hittenwerke Postfach 1580, D-66748 Dillingen/Saar Service réception DNV GL Cert. no. 33-11180 IDHH// Ol say — DR. CH. KONIG Responsable Réception Marque du producteur Date 26.09.18",
+      "value": "COULEE DU POSTE MENTIONNE: DEGAZAGE SOUS VIDE",
       "confidence": 0.8,
       "source": "trigger_de",
-      "raw_text": "QM-Systeme: Certification selon ISO 9001 Erlauterungen siehe Ruckseite/Explications voir au verso/Se"
+      "raw_text": "COULEE DU POSTE MENTIONNE: DEGAZAGE SOUS VIDE"
     },
     {
       "field": "supplier",
-      "value": "QM-Systeme: Certification selon ISO 9001 DILLINGER® Erlauterungen siehe Ruckseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate rc . A10_ Avis d'expédition No./ A08/ Référence usine/ RECEPTION 3.2 SELON EN 10204:2004 Date d'expédition A03 No. Certificat RECEPTION 3.2 SELON ISO 10474:2013 651892-26.09.18 438251-001 ‘ELIS, LEUDELANGE AQ7.1 No. 59003730 BO1 Produit Destinataire A07.2 No. TOLES FORTES BO2/ Désign. acier $355G10+N B03 Prescriptions EN-10225:09 supplément. A05 Aut.du doc. Org. réception AO6 Client VLNC DO2 Essais non déstructifs - Contrdle aux ultrasons POSTE NO.: 01 SPECIFICATION-US : EN-10160 CLASSE S1 ET E2 PLAN DE SONDAGE CORPS : LIGNES LONGITUDINALES E RIVES : 100 MM QUALIFICATION DES AGENTS: NIVEAU 2 SELON ISO 9712 LE RESULTAT DU SONDAGE EST CONFORME AUX PRESCRITIONS DE LA COMMANDE. ESPACEES DE 100 MM Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande. . - AG der Dillinger Hittenwerke SS isdoamen hecbeonagiay sgrevana hay Postfach 1580, D-66748 Dillingen/Saar DNV GL Cert. no. 33-11180 IDHH/ will therefore not have handwritten Service réception signatures. Brick, Roland DR. CH. KONIG ptionaire Responsable Réception i écept. Date 26.09.18 Marque du producteur",
+      "value": "COULEE DU POSTE MENTIONNE: DEGAZAGE SOUS VIDE",
       "confidence": 0.8,
       "source": "trigger_de",
-      "raw_text": "QM-Systeme: Certification selon ISO 9001 DILLINGER® Erlauterungen siehe Ruckseite/Explications voir "
+      "raw_text": "COULEE DU POSTE MENTIONNE: DEGAZAGE SOUS VIDE"
     },
     {
       "field": "supplier",
-      "value": "QM-Systeme: Certification selon ISO 9001 DILLINGER® Erlauterungen siehe Ruckseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate rc . A10_ Avis d'expédition No./ A08/ Référence usine/ RECEPTION 3.2 SELON EN 10204:2004 Date d'expédition A03 No. Certificat RECEPTION 3.2 SELON ISO 10474:2013 651892-26.09.18 438251-001 ‘ELIS, LEUDELANGE AQ7.1 No. 59003730 BO1 Produit Destinataire A07.2 No. TOLES FORTES BO2/ Désign. acier $355G10+N B03 Prescriptions EN-10225:09 supplément. A05 Aut.du doc. Org. réception AO6 Client VLNC DO2 Essais non déstructifs - Contrdle aux ultrasons POSTE NO.: 01 SPECIFICATION-US : EN-10160 CLASSE S1 ET E2 PLAN DE SONDAGE CORPS : LIGNES LONGITUDINALES E RIVES : 100 MM QUALIFICATION DES AGENTS: NIVEAU 2 SELON ISO 9712 LE RESULTAT DU SONDAGE EST CONFORME AUX PRESCRITIONS DE LA COMMANDE. ESPACEES DE 100 MM Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande. . - AG der Dillinger Hittenwerke SS isdoamen hecbeonagiay sgrevana hay Postfach 1580, D-66748 Dillingen/Saar DNV GL Cert. no. 33-11180 IDHH/ will therefore not have handwritten Service réception signatures. Brick, Roland DR. CH. KONIG ptionaire Responsable Réception i écept. Date 26.09.18 Marque du producteur",
-      "confidence": 0.8,
-      "source": "trigger_producteur",
-      "raw_text": "QM-Systeme: Certification selon ISO 9001 DILLINGER® Erlauterungen siehe Ruckseite/Explications voir "
-    },
-    {
-      "field": "supplier",
-      "value": "QM-Systeme: Certification selon ISO 9001 DILLINGER® Erlauterungen siehe Ruckseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate rc . A10_ Avis d'expédition No./ A08/ Référence usine/ RECEPTION 3.2 SELON EN 10204:2004 Date d'expédition A03 No. Certificat RECEPTION 3.2 SELON ISO 10474:2013 651892-26.09.18 438251-001 ‘ELIS, LEUDELANGE AQ7.1 No. 59003730 BO1 Produit Destinataire A07.2 No. TOLES FORTES BO2/ Désign. acier $355G10+N B03 Prescriptions EN-10225:09 supplément. A05 Aut.du doc. Org. réception AO6 Client VLNC DO2 Essais non déstructifs - Contrdle aux ultrasons POSTE NO.: 01 SPECIFICATION-US : EN-10160 CLASSE S1 ET E2 PLAN DE SONDAGE CORPS : LIGNES LONGITUDINALES E RIVES : 100 MM QUALIFICATION DES AGENTS: NIVEAU 2 SELON ISO 9712 LE RESULTAT DU SONDAGE EST CONFORME AUX PRESCRITIONS DE LA COMMANDE. ESPACEES DE 100 MM Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande. . - AG der Dillinger Hittenwerke SS isdoamen hecbeonagiay sgrevana hay Postfach 1580, D-66748 Dillingen/Saar DNV GL Cert. no. 33-11180 IDHH/ will therefore not have handwritten Service réception signatures. Brick, Roland DR. CH. KONIG ptionaire Responsable Réception i écept. Date 26.09.18 Marque du producteur",
+      "value": "AG der Dillinger Hüttenwerke",
       "confidence": 0.8,
       "source": "trigger_de",
-      "raw_text": "QM-Systeme: Certification selon ISO 9001 DILLINGER® Erlauterungen siehe Ruckseite/Explications voir "
+      "raw_text": "AG der Dillinger Hüttenwerke"
     },
     {
       "field": "supplier",
-      "value": "DNV GL This document has been digitally signed and will therefore not have handwritten signatures. Briick, Roland ptionaire AG",
-      "confidence": 0.6,
-      "source": "letterhead",
-      "raw_text": "DNV GL This document has been digitally signed and will therefore not have handwritten signatures. B"
+      "value": "CONTROLE DE MARQUAGE, SURFACE, FORME ET DIMENSIONS: LES RESULTATS REPONDENT AUX EXIGENCES.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "CONTROLE DE MARQUAGE, SURFACE, FORME ET DIMENSIONS: LES RESULTATS REPONDENT AUX EXIGENCES."
+    },
+    {
+      "field": "supplier",
+      "value": "CONTROLE DE MARQUAGE, SURFACE, FORME ET DIMENSIONS: LES RESULTATS REPONDENT AUX EXIGENCES.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "CONTROLE DE MARQUAGE, SURFACE, FORME ET DIMENSIONS: LES RESULTATS REPONDENT AUX EXIGENCES."
+    },
+    {
+      "field": "supplier",
+      "value": "AG der Dillinger Hüttenwerke",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "AG der Dillinger Hüttenwerke"
+    },
+    {
+      "field": "supplier",
+      "value": "PLAN DE SONDAGE CORPS : LIGNES LONGITUDINALES ESPACEES DE 100 MM",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "PLAN DE SONDAGE  CORPS  : LIGNES LONGITUDINALES ESPACEES DE 100 MM"
+    },
+    {
+      "field": "supplier",
+      "value": "QUALIFICATION DES AGENTS: NIVEAU 2 SELON ISO 9712",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "QUALIFICATION DES AGENTS: NIVEAU 2 SELON ISO 9712"
+    },
+    {
+      "field": "supplier",
+      "value": "QUALIFICATION DES AGENTS: NIVEAU 2 SELON ISO 9712",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "QUALIFICATION DES AGENTS: NIVEAU 2 SELON ISO 9712"
+    },
+    {
+      "field": "supplier",
+      "value": "LE RESULTAT DU SONDAGE EST CONFORME AUX PRESCRITIONS DE LA COMMANDE.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "LE RESULTAT DU SONDAGE EST CONFORME AUX PRESCRITIONS DE LA COMMANDE."
+    },
+    {
+      "field": "supplier",
+      "value": "LE RESULTAT DU SONDAGE EST CONFORME AUX PRESCRITIONS DE LA COMMANDE.",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "LE RESULTAT DU SONDAGE EST CONFORME AUX PRESCRITIONS DE LA COMMANDE."
     },
     {
       "field": "material",
@@ -140,6 +133,62 @@
       "confidence": 0.85,
       "source": "steel_grade",
       "raw_text": "S355G10+N"
+    },
+    {
+      "field": "material",
+      "value": "S355G10+N",
+      "confidence": 0.85,
+      "source": "steel_grade",
+      "raw_text": "S355G10+N"
+    },
+    {
+      "field": "material",
+      "value": "S355G10+N",
+      "confidence": 0.85,
+      "source": "steel_grade",
+      "raw_text": "S355G10+N"
+    },
+    {
+      "field": "material",
+      "value": "S355G10+N",
+      "confidence": 0.85,
+      "source": "steel_grade",
+      "raw_text": "S355G10+N"
+    },
+    {
+      "field": "material",
+      "value": "A02",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A02"
+    },
+    {
+      "field": "material",
+      "value": "A05",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A05"
+    },
+    {
+      "field": "material",
+      "value": "A06",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A06"
+    },
+    {
+      "field": "material",
+      "value": "A10",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A10"
+    },
+    {
+      "field": "material",
+      "value": "A07",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A07"
     },
     {
       "field": "material",
@@ -157,17 +206,10 @@
     },
     {
       "field": "material",
-      "value": "A05",
+      "value": "A01",
       "confidence": 0.8,
       "source": "astm_grade",
-      "raw_text": "A05"
-    },
-    {
-      "field": "material",
-      "value": "A07",
-      "confidence": 0.8,
-      "source": "astm_grade",
-      "raw_text": "A07"
+      "raw_text": "A01"
     },
     {
       "field": "material",
@@ -185,31 +227,17 @@
     },
     {
       "field": "material",
-      "value": "A05",
+      "value": "A04",
       "confidence": 0.8,
       "source": "astm_grade",
-      "raw_text": "A05"
+      "raw_text": "A04"
     },
     {
       "field": "material",
-      "value": "A07",
+      "value": "A02",
       "confidence": 0.8,
       "source": "astm_grade",
-      "raw_text": "A07"
-    },
-    {
-      "field": "material",
-      "value": "A07",
-      "confidence": 0.8,
-      "source": "astm_grade",
-      "raw_text": "A07"
-    },
-    {
-      "field": "material",
-      "value": "A08",
-      "confidence": 0.8,
-      "source": "astm_grade",
-      "raw_text": "A08"
+      "raw_text": "A02"
     },
     {
       "field": "material",
@@ -220,10 +248,17 @@
     },
     {
       "field": "material",
-      "value": "A07",
+      "value": "A06",
       "confidence": 0.8,
       "source": "astm_grade",
-      "raw_text": "A07"
+      "raw_text": "A06"
+    },
+    {
+      "field": "material",
+      "value": "A10",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A10"
     },
     {
       "field": "material",
@@ -231,13 +266,6 @@
       "confidence": 0.8,
       "source": "astm_grade",
       "raw_text": "A07"
-    },
-    {
-      "field": "material",
-      "value": "A08",
-      "confidence": 0.8,
-      "source": "astm_grade",
-      "raw_text": "A08"
     },
     {
       "field": "material",
@@ -255,6 +283,13 @@
     },
     {
       "field": "material",
+      "value": "A01",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A01"
+    },
+    {
+      "field": "material",
       "value": "A07",
       "confidence": 0.8,
       "source": "astm_grade",
@@ -262,10 +297,185 @@
     },
     {
       "field": "material",
+      "value": "A1",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A1"
+    },
+    {
+      "field": "material",
+      "value": "A04",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A04"
+    },
+    {
+      "field": "material",
+      "value": "A02",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A02"
+    },
+    {
+      "field": "material",
       "value": "A05",
       "confidence": 0.8,
       "source": "astm_grade",
       "raw_text": "A05"
+    },
+    {
+      "field": "material",
+      "value": "A06",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A06"
+    },
+    {
+      "field": "material",
+      "value": "A10",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A10"
+    },
+    {
+      "field": "material",
+      "value": "A07",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A07"
+    },
+    {
+      "field": "material",
+      "value": "A08",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A08"
+    },
+    {
+      "field": "material",
+      "value": "A03",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A03"
+    },
+    {
+      "field": "material",
+      "value": "A01",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A01"
+    },
+    {
+      "field": "material",
+      "value": "A07",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A07"
+    },
+    {
+      "field": "material",
+      "value": "A1",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A1"
+    },
+    {
+      "field": "material",
+      "value": "A1",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A1"
+    },
+    {
+      "field": "material",
+      "value": "A1",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A1"
+    },
+    {
+      "field": "material",
+      "value": "A04",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A04"
+    },
+    {
+      "field": "material",
+      "value": "A02",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A02"
+    },
+    {
+      "field": "material",
+      "value": "A05",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A05"
+    },
+    {
+      "field": "material",
+      "value": "A06",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A06"
+    },
+    {
+      "field": "material",
+      "value": "A10",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A10"
+    },
+    {
+      "field": "material",
+      "value": "A07",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A07"
+    },
+    {
+      "field": "material",
+      "value": "A08",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A08"
+    },
+    {
+      "field": "material",
+      "value": "A03",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A03"
+    },
+    {
+      "field": "material",
+      "value": "A01",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A01"
+    },
+    {
+      "field": "material",
+      "value": "A07",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A07"
+    },
+    {
+      "field": "material",
+      "value": "A04",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A04"
+    },
+    {
+      "field": "material",
+      "value": "B99 Description du produit",
+      "confidence": 0.7,
+      "source": "trigger_description",
+      "raw_text": "B01-B99 Description du produit"
     },
     {
       "field": "quantity",
@@ -290,63 +500,63 @@
     },
     {
       "field": "date",
-      "value": "2018-09-26",
+      "value": "26/09/2018",
       "confidence": 0.85,
       "source": "eu_dot",
       "raw_text": "26.09.18"
     },
     {
       "field": "date",
-      "value": "2018-09-26",
-      "confidence": 0.95,
+      "value": "26/09/2018",
+      "confidence": 0.85,
       "source": "eu_dot",
       "raw_text": "26.09.18"
     },
     {
       "field": "date",
-      "value": "2018-09-26",
-      "confidence": 1.0,
+      "value": "26/09/2018",
+      "confidence": 0.85,
       "source": "eu_dot",
       "raw_text": "26.09.18"
     },
     {
       "field": "date",
-      "value": "2018-09-26",
-      "confidence": 1.0,
+      "value": "26/09/2018",
+      "confidence": 0.85,
       "source": "eu_dot",
       "raw_text": "26.09.18"
     },
     {
       "field": "date",
-      "value": "2018-09-26",
-      "confidence": 1.0,
+      "value": "26/09/2018",
+      "confidence": 0.85,
       "source": "eu_dot",
       "raw_text": "26.09.18"
     },
     {
       "field": "date",
-      "value": "2018-09-26",
-      "confidence": 1.0,
+      "value": "26/09/2018",
+      "confidence": 0.85,
       "source": "eu_dot",
       "raw_text": "26.09.18"
     },
     {
       "field": "date",
-      "value": "2018-09-26",
-      "confidence": 1.0,
+      "value": "26/09/2018",
+      "confidence": 0.85,
       "source": "eu_dot",
       "raw_text": "26.09.18"
     },
     {
       "field": "date",
-      "value": "2018-09-26",
-      "confidence": 1.0,
+      "value": "26/09/2018",
+      "confidence": 0.85,
       "source": "eu_dot",
       "raw_text": "26.09.18"
     }
   ],
   "notes": [
-    "Multiple project IDs found (2), selected highest confidence",
-    "Multiple suppliers found (15), selected highest confidence"
+    "Multiple suppliers found (16), selected highest confidence",
+    "No project ID found"
   ]
 }

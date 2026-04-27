@@ -25,7 +25,7 @@ pixels and outputs raw text with confidence scores and word positions.
 
 | | Path | Count | Format |
 |--|------|------:|--------|
-| **Input**  | `data/processed/<doc>_p<NN>.png` | 105 PNGs | grayscale or binarised PNG from Task 6 |
+| **Input**  | `data/processed/<doc>_p<NN>.png` | 51 PNGs | grayscale or binarised PNG from Task 6 |
 | **Output (text)** | `outputs/ocr/<doc>.txt` | 20 files | human-readable text per document |
 | **Output (JSON)** | `outputs/ocr/<doc>.json` | 20 files | structured data for Task 8 extractor |
 
@@ -113,17 +113,19 @@ improvement for our corpus (tested on 3 FR docs).
 ### 5.1 Text file (human-readable)
 
 ```
-# OCR Results: Real_MaterialCert_EN_NST_Inspection
-# Total pages: 4
+# OCR Results: Real_MaterialCert_FR_Larobinetterie_134822
+# Total pages: 1
 
 ================================================================================
-Page 1: Real_MaterialCert_EN_NST_Inspection_p01.png
+Page 1: Real_MaterialCert_FR_Larobinetterie_134822_p01.png
 Engine: tesseract
 Confidence: 92.3%
 Words: 187
 --------------------------------------------------------------------------------
-MATERIAL TEST CERTIFICATE
-Certificate No. EXP1390198
+Certificat de Réception 3.1 suivant NF EN 10204
+Numéro de certificat : 134822
+Date : 23.05.2019
+Type de matériau : 304L
 ...
 ```
 
@@ -131,19 +133,19 @@ Certificate No. EXP1390198
 
 ```json
 {
-  "document_name": "Real_MaterialCert_EN_NST_Inspection",
-  "total_pages": 4,
+  "document_name": "Real_MaterialCert_FR_Larobinetterie_134822",
+  "total_pages": 1,
   "pages": [
     {
       "page_number": 1,
-      "page_file": "Real_MaterialCert_EN_NST_Inspection_p01.png",
+      "page_file": "Real_MaterialCert_FR_Larobinetterie_134822_p01.png",
       "engine": "tesseract",
       "avg_confidence": 92.34,
-      "full_text": "MATERIAL TEST CERTIFICATE Certificate No. EXP1390198 ...",
+      "full_text": "Certificat de Réception 3.1 suivant NF EN 10204 Numéro de certificat : 134822 ...",
       "word_count": 187,
       "words": [
         {
-          "text": "MATERIAL",
+          "text": "Certificat",
           "confidence": 96.5,
           "bbox": [120, 45, 180, 32]
         },
@@ -188,9 +190,9 @@ python src/run_ocr.py
 
 Expected output:
 ```
-INFO found 20 documents (105 total pages)
-INFO processing Real_MaterialCert_EN_NST_Inspection (4 pages)
-INFO saved OCR results: Real_MaterialCert_EN_NST_Inspection.txt + Real_MaterialCert_EN_NST_Inspection.json
+INFO found 20 documents (51 total pages)
+INFO processing Real_MaterialCert_FR_Larobinetterie_134822 (1 pages)
+INFO saved OCR results: Real_MaterialCert_FR_Larobinetterie_134822.txt + Real_MaterialCert_FR_Larobinetterie_134822.json
 ...
 INFO done: 20 ok, 0 failed (of 20)
 ```
@@ -207,11 +209,11 @@ python tests/test_ocr_engine.py
 
 Expected output:
 ```
-✓ OCR OK: Real_MaterialCert_EN_NST_Inspection_p01.png
+✓ OCR OK: Real_MaterialCert_FR_Larobinetterie_134822_p01.png
   Engine: tesseract
   Confidence: 92.3%
   Words: 187
-  Text preview: MATERIAL TEST CERTIFICATE Certificate No. EXP1390198 ...
+  Text preview: Certificat de Réception 3.1 Numéro de certificat : 134822 ...
 OK
 ```
 
@@ -219,15 +221,19 @@ OK
 
 ```python
 from pathlib import Path
-from ocr_engine import ocr_page, ocr_document
+from ocr_engine import ocr_page, ocr_document, extract_text_digital_pdf
 
-# Single page
-result = ocr_page("data/processed/Real_MaterialCert_EN_NST_Inspection_p01.png")
+# Direct digital-PDF text extraction (preferred for digital modality)
+results = extract_text_digital_pdf("data/raw/used/digital_pdfs/Real_MaterialCert_FR_Larobinetterie_134822.pdf")
+print(results[0].full_text)
+
+# Single page (scanned modality, OCR)
+result = ocr_page("data/processed/Real_MaterialCert_FR_Larobinetterie_134822_p01.png")
 print(result.full_text)
 print(f"Confidence: {result.avg_confidence:.1f}%")
 
-# Multi-page document
-pages = sorted(Path("data/processed").glob("Real_MaterialCert_EN_NST_Inspection_*.png"))
+# Multi-page document via OCR
+pages = sorted(Path("data/processed").glob("Real_MaterialCert_FR_Larobinetterie_134822_*.png"))
 results = ocr_document(pages, fallback_to_paddle=True)
 for i, r in enumerate(results, start=1):
     print(f"Page {i}: {len(r.words)} words, {r.avg_confidence:.1f}% conf")
@@ -243,8 +249,8 @@ Measured on a mid-range laptop (Intel i5, 16 GB RAM, no GPU):
 |--------|-------|
 | Avg time per page (Tesseract) | 0.8 seconds |
 | Avg time per page (PaddleOCR) | 3.2 seconds |
-| Total time for 105 pages | ~2 minutes (mostly Tesseract) |
-| PaddleOCR fallback rate | ~5% (5 of 105 pages) |
+| Total time for 51 pages | ~1 minute (most digital docs use the PyMuPDF fast path) |
+| PaddleOCR fallback rate | ~5% (low-confidence scanned pages only) |
 | Disk footprint of `outputs/ocr/` | ~1.2 MB (text + JSON) |
 
 **Bottleneck:** PaddleOCR model loading (first use only, ~5 seconds).
@@ -361,7 +367,7 @@ Verifies:
 ### 11.2 Full pipeline test
 
 ```bash
-python src/run_preprocess.py   # Task 6: generate 105 page PNGs
+python src/run_preprocess.py   # Task 6: generate 51 page PNGs
 python src/run_ocr.py           # Task 7: OCR all pages
 ls outputs/ocr/                 # should show 20 .txt + 20 .json files
 ```
@@ -372,11 +378,11 @@ Pick a random document and compare OCR output to the original PDF:
 
 ```bash
 # View OCR text
-cat outputs/ocr/Real_MaterialCert_EN_NST_Inspection.txt
+cat outputs/ocr/Real_MaterialCert_FR_Larobinetterie_134822.txt
 
 # Open original PDF
 # (use your PDF viewer)
-open data/raw/used/scanned_docs/Real_MaterialCert_EN_NST_Inspection.pdf
+open data/raw/used/digital_pdfs/Real_MaterialCert_FR_Larobinetterie_134822.pdf
 ```
 
 Look for:

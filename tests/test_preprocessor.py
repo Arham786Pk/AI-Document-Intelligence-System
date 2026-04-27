@@ -14,7 +14,12 @@ from preprocessor import preprocess_document  # noqa: E402
 
 def _first_existing_pdf() -> tuple[Path, str]:
     gt = ROOT / "docs" / "ground_truth.csv"
-    raw_dirs = [ROOT / "data" / "raw" / "digital_pdfs", ROOT / "data" / "raw" / "scanned_docs"]
+    raw_dirs = [
+        ROOT / "data" / "raw" / "used" / "digital_pdfs",
+        ROOT / "data" / "raw" / "used" / "scanned_docs",
+        ROOT / "data" / "raw" / "extra" / "digital_pdfs",
+        ROOT / "data" / "raw" / "extra" / "scanned_docs",
+    ]
     with gt.open(encoding="utf-8") as f:
         for row in csv.DictReader(f):
             for d in raw_dirs:

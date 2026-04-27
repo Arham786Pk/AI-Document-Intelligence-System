@@ -1,0 +1,156 @@
+{
+  "document_name": "Synthetic_FabricationSheet_FR_02",
+  "extracted_entities": {
+    "project_id": "WLD-67540",
+    "supplier": "Gillet SA",
+    "material": "SS 304",
+    "quantity": "106 lbs",
+    "date": "08/03/2026"
+  },
+  "all_candidates": [
+    {
+      "field": "project_id",
+      "value": "WLD-67540",
+      "confidence": 0.85,
+      "source": "project_code",
+      "raw_text": "WLD-67540"
+    },
+    {
+      "field": "project_id",
+      "value": "PO-79514",
+      "confidence": 0.85,
+      "source": "project_code",
+      "raw_text": "PO-79514"
+    },
+    {
+      "field": "project_id",
+      "value": "FAB-001",
+      "confidence": 0.85,
+      "source": "project_code",
+      "raw_text": "FAB-001"
+    },
+    {
+      "field": "project_id",
+      "value": "SS 304",
+      "confidence": 0.8,
+      "source": "wps_code",
+      "raw_text": "SS 304"
+    },
+    {
+      "field": "project_id",
+      "value": "PO-79514",
+      "confidence": 0.75,
+      "source": "ref_trigger",
+      "raw_text": "N° Commande:\nPO-79514"
+    },
+    {
+      "field": "supplier",
+      "value": "Gillet SA",
+      "confidence": 0.8,
+      "source": "trigger_fournisseur",
+      "raw_text": "Gillet SA"
+    },
+    {
+      "field": "supplier",
+      "value": "Gillet SA",
+      "confidence": 0.6,
+      "source": "letterhead",
+      "raw_text": "Gillet SA"
+    },
+    {
+      "field": "material",
+      "value": "SS 304",
+      "confidence": 0.85,
+      "source": "steel_grade",
+      "raw_text": "SS 304"
+    },
+    {
+      "field": "material",
+      "value": "A36",
+      "confidence": 0.8,
+      "source": "astm_grade",
+      "raw_text": "A36"
+    },
+    {
+      "field": "material",
+      "value": "Inconel 625",
+      "confidence": 0.85,
+      "source": "named_alloy",
+      "raw_text": "Inconel 625"
+    },
+    {
+      "field": "material",
+      "value": "Copper",
+      "confidence": 0.75,
+      "source": "material_descriptor",
+      "raw_text": "Copper"
+    },
+    {
+      "field": "material",
+      "value": "Copper",
+      "confidence": 0.75,
+      "source": "material_descriptor",
+      "raw_text": "Copper"
+    },
+    {
+      "field": "material",
+      "value": "Carbon Steel",
+      "confidence": 0.75,
+      "source": "material_descriptor",
+      "raw_text": "Carbon Steel"
+    },
+    {
+      "field": "material",
+      "value": "Toutes les matières sont inspectées selon la procédure QA-FAB-001. Les détails de soudage sont",
+      "confidence": 0.7,
+      "source": "trigger_matière",
+      "raw_text": "Notes : Toutes les matières sont inspectées selon la procédure QA-FAB-001. Les détails de soudage so"
+    },
+    {
+      "field": "quantity",
+      "value": "106 lbs",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "106 lbs"
+    },
+    {
+      "field": "quantity",
+      "value": "20 kg",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "20 kg"
+    },
+    {
+      "field": "quantity",
+      "value": "6 pcs",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "6 pcs"
+    },
+    {
+      "field": "quantity",
+      "value": "49 lbs",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "49 lbs"
+    },
+    {
+      "field": "quantity",
+      "value": "43 tons",
+      "confidence": 0.7,
+      "source": "pattern",
+      "raw_text": "43 tons"
+    },
+    {
+      "field": "date",
+      "value": "08/03/2026",
+      "confidence": 0.9,
+      "source": "slash",
+      "raw_text": "08/03/2026"
+    }
+  ],
+  "notes": [
+    "Multiple project IDs found (5), selected highest confidence",
+    "Multiple suppliers found (2), selected highest confidence"
+  ]
+}

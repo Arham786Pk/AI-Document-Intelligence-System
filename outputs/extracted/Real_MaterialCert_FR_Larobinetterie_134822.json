@@ -2,10 +2,10 @@
   "document_name": "Real_MaterialCert_FR_Larobinetterie_134822",
   "extracted_entities": {
     "project_id": "134822",
-    "supplier": "Retrouvez nos certificats sur notre site internet SODIME 3 p www.larobinetterie.com 48 chemin du Bouray Tel : +33 (0) 4 78 56 30 32 38200 Villette de Vienne Fax: +33 (0) 4 78 56 08 82 FRANCE certificats@Iri-sodime.com Certificat de Reception 3.1 suivant NF EN 10204 Numero de certificat : 134822 Type:3.1 Date : 23.05.2019 Designation du mateériau : 1.4307 Numero de coulée : A1804323 Type de mateériau : 304L Norme de rattachement : EN 10217-7 Code article : 8185X.38 Libellé : TE SMS 38 INOX 304L SANS PARTIE DROITE Norme : SMS Dimension 1 : 38 Angle : Dimension 2 : Rayon : Epaisseur : Coie | c [8 [ m |? Twn fo [0 | o | 0 Caractéristiques Mécaniques Alongement Dureté Résilience Limite élastique | Résistance a la rupture Arnaud CASSY",
+    "supplier": "Libellé : TE SMS 38 INOX 304L SANS PARTIE DROITE",
     "material": "304L",
     "quantity": null,
-    "date": "2019-05-23"
+    "date": "23/05/2019"
   },
   "all_candidates": [
     {
@@ -13,14 +13,21 @@
       "value": "134822",
       "confidence": 0.95,
       "source": "cert_trigger",
-      "raw_text": "certificat : 134822"
+      "raw_text": "Numéro de certificat : 134822"
     },
     {
       "field": "supplier",
-      "value": "Retrouvez nos certificats sur notre site internet SODIME 3 p www.larobinetterie.com 48 chemin du Bouray Tel : +33 (0) 4 78 56 30 32 38200 Villette de Vienne Fax: +33 (0) 4 78 56 08 82 FRANCE certificats@Iri-sodime.com Certificat de Reception 3.1 suivant NF EN 10204 Numero de certificat : 134822 Type:3.1 Date : 23.05.2019 Designation du mateériau : 1.4307 Numero de coulée : A1804323 Type de mateériau : 304L Norme de rattachement : EN 10217-7 Code article : 8185X.38 Libellé : TE SMS 38 INOX 304L SANS PARTIE DROITE Norme : SMS Dimension 1 : 38 Angle : Dimension 2 : Rayon : Epaisseur : Coie | c [8 [ m |? Twn fo [0 | o | 0 Caractéristiques Mécaniques Alongement Dureté Résilience Limite élastique | Résistance a la rupture Arnaud CASSY",
+      "value": "Libellé : TE SMS 38 INOX 304L SANS PARTIE DROITE",
       "confidence": 0.8,
       "source": "trigger_de",
-      "raw_text": "Retrouvez nos certificats sur notre site internet SODIME 3 p www.larobinetterie.com 48 chemin du Bou"
+      "raw_text": "Libellé : TE SMS 38 INOX 304L SANS PARTIE DROITE"
+    },
+    {
+      "field": "supplier",
+      "value": "Libellé : TE SMS 38 INOX 304L SANS PARTIE DROITE",
+      "confidence": 0.8,
+      "source": "trigger_de",
+      "raw_text": "Libellé : TE SMS 38 INOX 304L SANS PARTIE DROITE"
     },
     {
       "field": "material",
@@ -51,12 +58,49 @@
       "raw_text": "INOX 304L"
     },
     {
+      "field": "material",
+      "value": "1.4307",
+      "confidence": 0.7,
+      "source": "trigger_matériau",
+      "raw_text": "  Désignation du matériau : 1.4307"
+    },
+    {
+      "field": "material",
+      "value": "1.4307",
+      "confidence": 0.7,
+      "source": "trigger_désignation du matériau",
+      "raw_text": "  Désignation du matériau : 1.4307"
+    },
+    {
+      "field": "material",
+      "value": "1.4307",
+      "confidence": 0.7,
+      "source": "trigger_désignation",
+      "raw_text": "  Désignation du matériau : 1.4307"
+    },
+    {
+      "field": "material",
+      "value": "304L",
+      "confidence": 0.7,
+      "source": "trigger_matériau",
+      "raw_text": "Type de matériau : 304L"
+    },
+    {
+      "field": "material",
+      "value": "304L",
+      "confidence": 0.7,
+      "source": "trigger_type de matériau",
+      "raw_text": "Type de matériau : 304L"
+    },
+    {
       "field": "date",
-      "value": "2019-05-23",
+      "value": "23/05/2019",
       "confidence": 0.95,
       "source": "eu_dot",
       "raw_text": "23.05.2019"
     }
   ],
-  "notes": []
+  "notes": [
+    "Multiple suppliers found (2), selected highest confidence"
+  ]
 }
