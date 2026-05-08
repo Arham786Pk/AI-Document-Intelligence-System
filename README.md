@@ -87,7 +87,7 @@ Full synonym matrix and OCR-tolerance rules: [`docs/entity_schema.md`](docs/enti
 | 04 | GitHub repository setup | ✅ Done — repo refactored to French-invoice-only |
 | 05 | Python environment with French OCR | ✅ Done — `requirements.txt` + setup notes below |
 | 06 | Preprocessing module (`src/preprocessor.py`) | ✅ Done — see [`docs/preprocessing.md`](docs/preprocessing.md) |
-| 07 | OCR text extraction in French (`src/ocr_engine.py`) | ⬜ Pending |
+| 07 | OCR text extraction in French (`src/ocr_engine.py`) | ✅ Done — see [`docs/ocr_engine.md`](docs/ocr_engine.md) |
 | 08 | Rule-based extractor for 11 fields (`src/extractor.py`) | ⬜ Pending |
 | 09 | Full pipeline (`src/pipeline.py`, `src/run.py`) | ⬜ Pending |
 | 10 | Metrics + summary report | ⬜ Pending |
@@ -171,6 +171,15 @@ python -m src.preprocessor --input data/raw/french_invoices --output data/proces
 
 # Task 6 — smoke tests
 python -m pytest tests/test_preprocessor.py -v
+
+# Task 7 — OCR all preprocessed invoices
+python -m src.ocr_engine --input data/processed --output outputs/ocr_results
+
+# Task 7 — demo script (verify Tesseract + French language pack)
+python scripts/demo_ocr.py
+
+# Task 7 — smoke tests
+python -m pytest tests/test_ocr_engine.py -v
 ```
 
-Tasks 7–10 commands will be added as those modules land.
+Tasks 8–10 commands will be added as those modules land.
