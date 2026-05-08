@@ -58,12 +58,16 @@ Full synonym matrix and OCR-tolerance rules: [`docs/entity_schema.md`](docs/enti
 │   ├── entity_schema.md            ← contract for the extractor + synonyms
 │   ├── ground_truth.csv            ← labelled answer key, 19 × 11 fields
 │   ├── ground_truth.xlsx           ← formatted Excel for the client
-│   └── ground_truth_README.md      ← labelling rules
+│   ├── ground_truth_README.md      ← labelling rules
+│   └── preprocessing.md            ← Task 6 module spec
 ├── outputs/extracted/              ← one JSON per invoice (NOT committed)
 ├── scripts/
 │   └── build_ground_truth.py       ← regenerates CSV + XLSX from labelled rows
-├── src/                            ← Tasks 6–9 will populate this
-├── tests/                          ← Tasks 6–9 will populate this
+├── src/
+│   ├── __init__.py
+│   └── preprocessor.py             ← Task 6 — render/deskew/denoise/binarise
+├── tests/
+│   └── test_preprocessor.py        ← Task 6 smoke tests
 ├── requirements.txt
 └── README.md
 ```
@@ -82,7 +86,7 @@ Full synonym matrix and OCR-tolerance rules: [`docs/entity_schema.md`](docs/enti
 | 03 | Entity schema with full French synonyms | ✅ Done — `docs/entity_schema.md` |
 | 04 | GitHub repository setup | ✅ Done — repo refactored to French-invoice-only |
 | 05 | Python environment with French OCR | ✅ Done — `requirements.txt` + setup notes below |
-| 06 | Preprocessing module (`src/preprocessor.py`) | ⬜ Pending |
+| 06 | Preprocessing module (`src/preprocessor.py`) | ✅ Done — see [`docs/preprocessing.md`](docs/preprocessing.md) |
 | 07 | OCR text extraction in French (`src/ocr_engine.py`) | ⬜ Pending |
 | 08 | Rule-based extractor for 11 fields (`src/extractor.py`) | ⬜ Pending |
 | 09 | Full pipeline (`src/pipeline.py`, `src/run.py`) | ⬜ Pending |
@@ -161,6 +165,12 @@ python -c "from paddleocr import PaddleOCR; PaddleOCR(lang='fr', use_angle_cls=T
 ```bash
 # Regenerate ground truth files
 python scripts/build_ground_truth.py
+
+# Task 6 — preprocess every invoice into 300 DPI binarised PNGs
+python -m src.preprocessor --input data/raw/french_invoices --output data/processed
+
+# Task 6 — smoke tests
+python -m pytest tests/test_preprocessor.py -v
 ```
 
-Pipeline commands (Tasks 6–9) will be added as those modules land.
+Tasks 7–10 commands will be added as those modules land.
