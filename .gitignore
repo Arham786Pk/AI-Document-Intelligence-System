@@ -17,19 +17,21 @@ Thumbs.db
 # Claude Code session artifacts
 .claude/
 
-# Outputs (regenerable from pipeline)
-outputs/*.json
-outputs/ocr/*.txt
-outputs/ocr/*.json
-data/processed/*
+# Real client invoices must NOT be committed
+data/raw/french_invoices/*
+!data/raw/french_invoices/.gitkeep
+!data/raw/french_invoices/MANIFEST.md
 
-# Generator intermediates
-generator/_tmp/
-generator/_tmp_img/
+# Pipeline intermediates and outputs
+data/processed/*
+!data/processed/.gitkeep
+outputs/extracted/*
+!outputs/extracted/.gitkeep
 
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb
 
-# Keep placeholders
-!*/.gitkeep
+# Misc
+~$*.docx
+~$*.xlsx
