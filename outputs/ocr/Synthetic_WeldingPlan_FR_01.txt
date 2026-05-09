@@ -1,0 +1,62 @@
+# OCR Results: Synthetic_WeldingPlan_FR_01
+# Total pages: 1
+
+================================================================================
+Page 1: Synthetic_WeldingPlan_FR_01_p01.pdf-text
+Engine: tesseract
+Confidence: 100.0%
+Words: 96
+--------------------------------------------------------------------------------
+Lenoir Soudage SAS
+PLAN DE SOUDAGE
+WPS No.: WPS-807-29
+N° Projet:
+WO-98154
+Date:
+18/03/2024
+Fournisseur:
+Bazin et Fils
+Code Soudeur:
+W-658
+Matière:
+PVC Sch 80
+Quantité:
+287 pcs
+Procédé de Soudage:
+GTAW (TIG)
+Épaisseur:
+29 mm
+Métal d'Apport:
+ER316L
+Type de Joint:
+Angle
+Paramètres de Soudage
+Passe
+Courant (A)
+Tension (V)
+Vitesse (mm/min)
+Gaz
+P1
+190
+20
+90
+Ar/He 70/30
+P2
+173
+32
+90
+Ar/He 70/30
+P3
+133
+28
+143
+Ar 100%
+P4
+170
+30
+184
+Ar/CO2 80/20
+Préchauffage : 100°C min. Interpasse : 150°C max. TTAS selon ASME IX.
+Approuvé par: Zacharie Regnier
+Date: 18/03/2024
+

@@ -1,0 +1,60 @@
+# OCR Results: Synthetic_MaterialCert_FR_01
+# Total pages: 1
+
+================================================================================
+Page 1: Synthetic_MaterialCert_FR_01_p01.pdf-text
+Engine: tesseract
+Confidence: 100.0%
+Words: 95
+--------------------------------------------------------------------------------
+Aubry Aciéries
+CERTIFICAT MATIERE (EN 10204 3.1)
+Fabricant:
+Aubry Aciéries
+N° Coulée:
+H-701949
+N° Projet:
+PO-39290
+Date:
+13/01/2024
+Matière:
+Monel 400
+Quantité:
+32.88 pcs
+Nuance:
+B
+Spécification:
+ASTM A580 / EN 10025
+Composition Chimique (%)
+C
+Mn
+Si
+P
+S
+Cr
+Ni
+Mo
+0.149
+0.109
+0.290
+0.083
+0.260
+0.043
+0.029
+0.153
+Propriétés Mécaniques
+Limite élastique
+Résistance
+Allongement %
+Dureté HB
+Résilience (J)
+545
+722
+19
+158
+63
+Nous certifions par la présente que la matière décrite ci-dessus a été contrôlée conformément aux
+spécifications applicables et satisfait à toutes les exigences.
+Inspecteur: Louise Briand
+Signature: ______________
+

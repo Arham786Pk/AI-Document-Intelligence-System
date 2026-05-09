@@ -1,0 +1,1066 @@
+{
+  "document_name": "Synthetic_Invoice_FR_02",
+  "total_pages": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "page_file": "Synthetic_Invoice_FR_02_p01.pdf-text",
+      "engine": "tesseract",
+      "avg_confidence": 100.0,
+      "full_text": "Leconte SARL\nFACTURE\nFournisseur:\nLeconte SARL\nN° Facture:\nINV-44099\nClient:\nNavarro\nDate d'émission:\n21/02/2024\nrue Andre, 43121 Lenoir-sur-Rolland\nDate d'échéance: 23/01/2025\nN° Projet:\nWLD-4552\n#\nDésignation\nMatière\nQuantité\nPrix Unitaire\nTotal\n1\nBenchmark Magnetic Synergies\nSS 304\n108.01 kg\n170.40 €\n10053.60 €\n2\nOptimize Leading-Edge E-Services\nAluminium 6061-T6\n49 tons\n383.00 €\n18767.00 €\n3\nOptimize Robust Supply-Chains\nPVC Sch 80\n11 pcs\n133.61 €\n1469.71 €\n4\nOptimize Web-Enabled Niches\nInconel 625\n7 kg\n377.02 €\n2639.14 €\nSous-total:\n32929.45 €\nTVA 20%:\n6585.89 €\nTotal TTC:\n39515.34 €\nConditions de paiement : 30 jours net. Virement bancaire uniquement. Merci de votre confiance.",
+      "word_count": 105,
+      "words": [
+        {
+          "text": "Leconte",
+          "confidence": 100.0,
+          "bbox": [
+            48,
+            50,
+            53,
+            19
+          ]
+        },
+        {
+          "text": "SARL",
+          "confidence": 100.0,
+          "bbox": [
+            106,
+            50,
+            38,
+            19
+          ]
+        },
+        {
+          "text": "FACTURE",
+          "confidence": 100.0,
+          "bbox": [
+            254,
+            84,
+            85,
+            24
+          ]
+        },
+        {
+          "text": "Fournisseur:",
+          "confidence": 100.0,
+          "bbox": [
+            68,
+            131,
+            55,
+            12
+          ]
+        },
+        {
+          "text": "Leconte",
+          "confidence": 100.0,
+          "bbox": [
+            147,
+            131,
+            32,
+            12
+          ]
+        },
+        {
+          "text": "SARL",
+          "confidence": 100.0,
+          "bbox": [
+            182,
+            131,
+            23,
+            12
+          ]
+        },
+        {
+          "text": "N°",
+          "confidence": 100.0,
+          "bbox": [
+            317,
+            131,
+            10,
+            12
+          ]
+        },
+        {
+          "text": "Facture:",
+          "confidence": 100.0,
+          "bbox": [
+            330,
+            131,
+            35,
+            12
+          ]
+        },
+        {
+          "text": "INV-44099",
+          "confidence": 100.0,
+          "bbox": [
+            397,
+            131,
+            43,
+            12
+          ]
+        },
+        {
+          "text": "Client:",
+          "confidence": 100.0,
+          "bbox": [
+            68,
+            148,
+            27,
+            12
+          ]
+        },
+        {
+          "text": "Navarro",
+          "confidence": 100.0,
+          "bbox": [
+            147,
+            148,
+            32,
+            12
+          ]
+        },
+        {
+          "text": "Date",
+          "confidence": 100.0,
+          "bbox": [
+            317,
+            148,
+            19,
+            12
+          ]
+        },
+        {
+          "text": "d'émission:",
+          "confidence": 100.0,
+          "bbox": [
+            339,
+            148,
+            49,
+            12
+          ]
+        },
+        {
+          "text": "21/02/2024",
+          "confidence": 100.0,
+          "bbox": [
+            397,
+            148,
+            45,
+            12
+          ]
+        },
+        {
+          "text": "rue",
+          "confidence": 100.0,
+          "bbox": [
+            68,
+            164,
+            14,
+            12
+          ]
+        },
+        {
+          "text": "Andre,",
+          "confidence": 100.0,
+          "bbox": [
+            84,
+            164,
+            28,
+            12
+          ]
+        },
+        {
+          "text": "43121",
+          "confidence": 100.0,
+          "bbox": [
+            115,
+            164,
+            25,
+            12
+          ]
+        },
+        {
+          "text": "Lenoir-sur-Rolland",
+          "confidence": 100.0,
+          "bbox": [
+            143,
+            164,
+            80,
+            12
+          ]
+        },
+        {
+          "text": "Date",
+          "confidence": 100.0,
+          "bbox": [
+            317,
+            164,
+            19,
+            12
+          ]
+        },
+        {
+          "text": "d'échéance:",
+          "confidence": 100.0,
+          "bbox": [
+            339,
+            164,
+            51,
+            12
+          ]
+        },
+        {
+          "text": "23/01/2025",
+          "confidence": 100.0,
+          "bbox": [
+            397,
+            164,
+            45,
+            12
+          ]
+        },
+        {
+          "text": "N°",
+          "confidence": 100.0,
+          "bbox": [
+            317,
+            181,
+            10,
+            12
+          ]
+        },
+        {
+          "text": "Projet:",
+          "confidence": 100.0,
+          "bbox": [
+            330,
+            181,
+            28,
+            12
+          ]
+        },
+        {
+          "text": "WLD-4552",
+          "confidence": 100.0,
+          "bbox": [
+            397,
+            181,
+            43,
+            12
+          ]
+        },
+        {
+          "text": "#",
+          "confidence": 100.0,
+          "bbox": [
+            45,
+            215,
+            5,
+            12
+          ]
+        },
+        {
+          "text": "Désignation",
+          "confidence": 100.0,
+          "bbox": [
+            74,
+            215,
+            51,
+            12
+          ]
+        },
+        {
+          "text": "Matière",
+          "confidence": 100.0,
+          "bbox": [
+            258,
+            215,
+            31,
+            12
+          ]
+        },
+        {
+          "text": "Quantité",
+          "confidence": 100.0,
+          "bbox": [
+            348,
+            215,
+            36,
+            12
+          ]
+        },
+        {
+          "text": "Prix",
+          "confidence": 100.0,
+          "bbox": [
+            419,
+            215,
+            17,
+            12
+          ]
+        },
+        {
+          "text": "Unitaire",
+          "confidence": 100.0,
+          "bbox": [
+            439,
+            215,
+            33,
+            12
+          ]
+        },
+        {
+          "text": "Total",
+          "confidence": 100.0,
+          "bbox": [
+            490,
+            215,
+            21,
+            12
+          ]
+        },
+        {
+          "text": "1",
+          "confidence": 100.0,
+          "bbox": [
+            45,
+            232,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "Benchmark",
+          "confidence": 100.0,
+          "bbox": [
+            74,
+            232,
+            40,
+            10
+          ]
+        },
+        {
+          "text": "Magnetic",
+          "confidence": 100.0,
+          "bbox": [
+            116,
+            232,
+            32,
+            10
+          ]
+        },
+        {
+          "text": "Synergies",
+          "confidence": 100.0,
+          "bbox": [
+            151,
+            232,
+            35,
+            10
+          ]
+        },
+        {
+          "text": "SS",
+          "confidence": 100.0,
+          "bbox": [
+            258,
+            232,
+            10,
+            10
+          ]
+        },
+        {
+          "text": "304",
+          "confidence": 100.0,
+          "bbox": [
+            271,
+            232,
+            13,
+            10
+          ]
+        },
+        {
+          "text": "108.01",
+          "confidence": 100.0,
+          "bbox": [
+            372,
+            232,
+            24,
+            10
+          ]
+        },
+        {
+          "text": "kg",
+          "confidence": 100.0,
+          "bbox": [
+            399,
+            232,
+            8,
+            10
+          ]
+        },
+        {
+          "text": "170.40",
+          "confidence": 100.0,
+          "bbox": [
+            447,
+            232,
+            24,
+            10
+          ]
+        },
+        {
+          "text": "€",
+          "confidence": 100.0,
+          "bbox": [
+            474,
+            232,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "10053.60",
+          "confidence": 100.0,
+          "bbox": [
+            509,
+            232,
+            33,
+            10
+          ]
+        },
+        {
+          "text": "€",
+          "confidence": 100.0,
+          "bbox": [
+            545,
+            232,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "2",
+          "confidence": 100.0,
+          "bbox": [
+            45,
+            248,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "Optimize",
+          "confidence": 100.0,
+          "bbox": [
+            74,
+            248,
+            31,
+            10
+          ]
+        },
+        {
+          "text": "Leading-Edge",
+          "confidence": 100.0,
+          "bbox": [
+            107,
+            248,
+            49,
+            10
+          ]
+        },
+        {
+          "text": "E-Services",
+          "confidence": 100.0,
+          "bbox": [
+            159,
+            248,
+            38,
+            10
+          ]
+        },
+        {
+          "text": "Aluminium",
+          "confidence": 100.0,
+          "bbox": [
+            258,
+            248,
+            37,
+            10
+          ]
+        },
+        {
+          "text": "6061-T6",
+          "confidence": 100.0,
+          "bbox": [
+            297,
+            248,
+            29,
+            10
+          ]
+        },
+        {
+          "text": "49",
+          "confidence": 100.0,
+          "bbox": [
+            381,
+            248,
+            8,
+            10
+          ]
+        },
+        {
+          "text": "tons",
+          "confidence": 100.0,
+          "bbox": [
+            392,
+            248,
+            15,
+            10
+          ]
+        },
+        {
+          "text": "383.00",
+          "confidence": 100.0,
+          "bbox": [
+            447,
+            248,
+            24,
+            10
+          ]
+        },
+        {
+          "text": "€",
+          "confidence": 100.0,
+          "bbox": [
+            474,
+            248,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "18767.00",
+          "confidence": 100.0,
+          "bbox": [
+            509,
+            248,
+            33,
+            10
+          ]
+        },
+        {
+          "text": "€",
+          "confidence": 100.0,
+          "bbox": [
+            545,
+            248,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "3",
+          "confidence": 100.0,
+          "bbox": [
+            45,
+            263,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "Optimize",
+          "confidence": 100.0,
+          "bbox": [
+            74,
+            263,
+            31,
+            10
+          ]
+        },
+        {
+          "text": "Robust",
+          "confidence": 100.0,
+          "bbox": [
+            107,
+            263,
+            25,
+            10
+          ]
+        },
+        {
+          "text": "Supply-Chains",
+          "confidence": 100.0,
+          "bbox": [
+            135,
+            263,
+            52,
+            10
+          ]
+        },
+        {
+          "text": "PVC",
+          "confidence": 100.0,
+          "bbox": [
+            258,
+            263,
+            16,
+            10
+          ]
+        },
+        {
+          "text": "Sch",
+          "confidence": 100.0,
+          "bbox": [
+            276,
+            263,
+            13,
+            10
+          ]
+        },
+        {
+          "text": "80",
+          "confidence": 100.0,
+          "bbox": [
+            292,
+            263,
+            8,
+            10
+          ]
+        },
+        {
+          "text": "11",
+          "confidence": 100.0,
+          "bbox": [
+            384,
+            263,
+            8,
+            10
+          ]
+        },
+        {
+          "text": "pcs",
+          "confidence": 100.0,
+          "bbox": [
+            395,
+            263,
+            12,
+            10
+          ]
+        },
+        {
+          "text": "133.61",
+          "confidence": 100.0,
+          "bbox": [
+            447,
+            263,
+            24,
+            10
+          ]
+        },
+        {
+          "text": "€",
+          "confidence": 100.0,
+          "bbox": [
+            474,
+            263,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "1469.71",
+          "confidence": 100.0,
+          "bbox": [
+            514,
+            263,
+            28,
+            10
+          ]
+        },
+        {
+          "text": "€",
+          "confidence": 100.0,
+          "bbox": [
+            545,
+            263,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "4",
+          "confidence": 100.0,
+          "bbox": [
+            45,
+            279,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "Optimize",
+          "confidence": 100.0,
+          "bbox": [
+            74,
+            279,
+            31,
+            10
+          ]
+        },
+        {
+          "text": "Web-Enabled",
+          "confidence": 100.0,
+          "bbox": [
+            107,
+            279,
+            48,
+            10
+          ]
+        },
+        {
+          "text": "Niches",
+          "confidence": 100.0,
+          "bbox": [
+            158,
+            279,
+            24,
+            10
+          ]
+        },
+        {
+          "text": "Inconel",
+          "confidence": 100.0,
+          "bbox": [
+            258,
+            279,
+            25,
+            10
+          ]
+        },
+        {
+          "text": "625",
+          "confidence": 100.0,
+          "bbox": [
+            286,
+            279,
+            13,
+            10
+          ]
+        },
+        {
+          "text": "7",
+          "confidence": 100.0,
+          "bbox": [
+            392,
+            279,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "kg",
+          "confidence": 100.0,
+          "bbox": [
+            399,
+            279,
+            8,
+            10
+          ]
+        },
+        {
+          "text": "377.02",
+          "confidence": 100.0,
+          "bbox": [
+            447,
+            279,
+            24,
+            10
+          ]
+        },
+        {
+          "text": "€",
+          "confidence": 100.0,
+          "bbox": [
+            474,
+            279,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "2639.14",
+          "confidence": 100.0,
+          "bbox": [
+            514,
+            279,
+            28,
+            10
+          ]
+        },
+        {
+          "text": "€",
+          "confidence": 100.0,
+          "bbox": [
+            545,
+            279,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "Sous-total:",
+          "confidence": 100.0,
+          "bbox": [
+            404,
+            305,
+            43,
+            12
+          ]
+        },
+        {
+          "text": "32929.45",
+          "confidence": 100.0,
+          "bbox": [
+            487,
+            305,
+            37,
+            12
+          ]
+        },
+        {
+          "text": "€",
+          "confidence": 100.0,
+          "bbox": [
+            527,
+            305,
+            5,
+            12
+          ]
+        },
+        {
+          "text": "TVA",
+          "confidence": 100.0,
+          "bbox": [
+            406,
+            320,
+            17,
+            12
+          ]
+        },
+        {
+          "text": "20%:",
+          "confidence": 100.0,
+          "bbox": [
+            426,
+            320,
+            20,
+            12
+          ]
+        },
+        {
+          "text": "6585.89",
+          "confidence": 100.0,
+          "bbox": [
+            492,
+            320,
+            32,
+            12
+          ]
+        },
+        {
+          "text": "€",
+          "confidence": 100.0,
+          "bbox": [
+            527,
+            320,
+            5,
+            12
+          ]
+        },
+        {
+          "text": "Total",
+          "confidence": 100.0,
+          "bbox": [
+            397,
+            336,
+            23,
+            13
+          ]
+        },
+        {
+          "text": "TTC:",
+          "confidence": 100.0,
+          "bbox": [
+            424,
+            336,
+            22,
+            13
+          ]
+        },
+        {
+          "text": "39515.34",
+          "confidence": 100.0,
+          "bbox": [
+            482,
+            336,
+            41,
+            13
+          ]
+        },
+        {
+          "text": "€",
+          "confidence": 100.0,
+          "bbox": [
+            526,
+            336,
+            5,
+            13
+          ]
+        },
+        {
+          "text": "Conditions",
+          "confidence": 100.0,
+          "bbox": [
+            57,
+            380,
+            37,
+            10
+          ]
+        },
+        {
+          "text": "de",
+          "confidence": 100.0,
+          "bbox": [
+            97,
+            380,
+            8,
+            10
+          ]
+        },
+        {
+          "text": "paiement",
+          "confidence": 100.0,
+          "bbox": [
+            108,
+            380,
+            32,
+            10
+          ]
+        },
+        {
+          "text": ":",
+          "confidence": 100.0,
+          "bbox": [
+            143,
+            380,
+            2,
+            10
+          ]
+        },
+        {
+          "text": "30",
+          "confidence": 100.0,
+          "bbox": [
+            147,
+            380,
+            8,
+            10
+          ]
+        },
+        {
+          "text": "jours",
+          "confidence": 100.0,
+          "bbox": [
+            158,
+            380,
+            17,
+            10
+          ]
+        },
+        {
+          "text": "net.",
+          "confidence": 100.0,
+          "bbox": [
+            178,
+            380,
+            13,
+            10
+          ]
+        },
+        {
+          "text": "Virement",
+          "confidence": 100.0,
+          "bbox": [
+            193,
+            380,
+            32,
+            10
+          ]
+        },
+        {
+          "text": "bancaire",
+          "confidence": 100.0,
+          "bbox": [
+            228,
+            380,
+            30,
+            10
+          ]
+        },
+        {
+          "text": "uniquement.",
+          "confidence": 100.0,
+          "bbox": [
+            261,
+            380,
+            44,
+            10
+          ]
+        },
+        {
+          "text": "Merci",
+          "confidence": 100.0,
+          "bbox": [
+            307,
+            380,
+            19,
+            10
+          ]
+        },
+        {
+          "text": "de",
+          "confidence": 100.0,
+          "bbox": [
+            329,
+            380,
+            8,
+            10
+          ]
+        },
+        {
+          "text": "votre",
+          "confidence": 100.0,
+          "bbox": [
+            340,
+            380,
+            17,
+            10
+          ]
+        },
+        {
+          "text": "confiance.",
+          "confidence": 100.0,
+          "bbox": [
+            360,
+            380,
+            36,
+            10
+          ]
+        }
+      ]
+    }
+  ]
+}

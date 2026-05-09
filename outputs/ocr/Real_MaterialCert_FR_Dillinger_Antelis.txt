@@ -1,0 +1,330 @@
+# OCR Results: Real_MaterialCert_FR_Dillinger_Antelis
+# Total pages: 2
+
+================================================================================
+Page 1: Real_MaterialCert_FR_Dillinger_Antelis_p01.pdf-text
+Engine: tesseract
+Confidence: 100.0%
+Words: 350
+--------------------------------------------------------------------------------
+A02
+A05
+B02/
+A06
+A10
+A07.1
+A08/
+A03
+B01
+A01
+Erläuterungen siehe Rückseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate)
+A07.2
+B03
+QM-Système: Certification selon ISO 9001
+DILLINGER HÜTTE
+CERTIFICAT DE RECEPTION 3.1 SELON EN  10204:2004
+Avis d'expédition No./
+Date d'expédition
+Référence usine/
+No. Certificat
+Page
+CERTIFICAT DE RECEPTION 3.1 SELON ISO 10474:2013
+6048684-26.11.15
+MATERIAL TEST REPORT (MTR)
+ 409707-001
+59002578
+Aut.du doc.  Org. réception
+Client
+No.
+Produit
+DF
+TOLES FORTES
+ANTELIS,LEUDELANGE 
+Destinataire
+No.
+S355K2+N
+Désign. acier
+NF-EN10025-2:05
+Prescriptions
+supplément.
+Dillinger France
+Port 3032
+3032 rue du Comte Jean - CS 56317
+F-59379 Dunkerque Cedex 1 - FRANCE
+Service Qualité-Essais
+POISSONNET
+Marque du
+27.11.15
+JB
+ 1
+producteur
+Responsable Réception
+B01-B99 Description du produit
+du produit
+de pièces 
+coulée
+B07.1
+No. tôle mère/
+No. d'essai
+A09
+Numéro d'article du client
+B14
+B08
+B09
+B10
+Poste
+Nombre
+Epaisseur
+Largeur
+B11
+No.
+Longueur
+B12
+Masse
+théorique
+B04
+Etat de livraison
+B07.2
+No. de
+MM
+KG
+02
+1    20,00   x 3000
+x  6000
+2826  N
+427181
+521278-03  59002578
+02
+1    20,00   x 3000
+x  6000
+2826  N
+427181
+522007-01  59002578
+02
+1    20,00   x 3000
+x  6000
+2826  N
+427181
+522007-02  59002578
+02
+1    20,00   x 3000
+x  6000
+2826  N
+427181
+522007-03  59002578
+02
+1    20,00   x 3000
+x  6000
+2826  N
+427181
+522007-04  59002578
+02
+1    20,00   x 3000
+x  6000
+2826  N
+427181
+522008-01  59002578
+02
+1    20,00   x 3000
+x  6000
+2826  N
+427181
+522008-02  59002578
+02
+1    20,00   x 3000
+x  6000
+2826  N
+427181
+522008-03  59002578
+02
+1    20,00   x 3000
+x  6000
+2826  N
+427181
+522008-04  59002578
+**
+9
+25434
+***
+9
+25434
+B06 Marquage du produit
+POSTE NO.: 02
+DESIGNATION DE L'ACIER
+S355K2+N
+NO. DE COULEE / SIGLE DU PRODUCTEUR / NO. TOLE MERE-NO. D'ESSAI
+C10-C29 Essai de traction
+RM
+C11
+C13
+C01
+C12
+C14-C15
+C03
+Temp.
+Coulée
+B14
+B07.2
+PosteNo. de
+B05
+No.
+Traitement (thermique) de référence
+C01
+C02/
+B07.1
+No.tôle mère/
+No.d'essai
+C10
+GR.C
+MPA
+REH
+L0=5D
+A
+%
+02 427181 521278
+K4 QO   RT    426
+569
+31
+  1/...
+A04
+Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande.
+Date
+
+================================================================================
+Page 2: Real_MaterialCert_FR_Dillinger_Antelis_p02.pdf-text
+Engine: tesseract
+Confidence: 100.0%
+Words: 287
+--------------------------------------------------------------------------------
+A02
+A05
+B02/
+A06
+A10
+A07.1
+A08/
+A03
+B01
+A01
+Erläuterungen siehe Rückseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate)
+A07.2
+B03
+QM-Système: Certification selon ISO 9001
+DILLINGER HÜTTE
+CERTIFICAT DE RECEPTION 3.1 SELON EN  10204:2004
+Avis d'expédition No./
+Date d'expédition
+Référence usine/
+No. Certificat
+Page
+CERTIFICAT DE RECEPTION 3.1 SELON ISO 10474:2013
+6048684-26.11.15
+MATERIAL TEST REPORT (MTR)
+ 409707-001
+59002578
+Aut.du doc.  Org. réception
+Client
+No.
+Produit
+DF
+TOLES FORTES
+ANTELIS,LEUDELANGE 
+Destinataire
+No.
+S355K2+N
+Désign. acier
+NF-EN10025-2:05
+Prescriptions
+supplément.
+Dillinger France
+Port 3032
+3032 rue du Comte Jean - CS 56317
+F-59379 Dunkerque Cedex 1 - FRANCE
+Service Qualité-Essais
+POISSONNET
+Marque du
+27.11.15
+JB
+ 1
+producteur
+Responsable Réception
+C40-C49 Essai de résilience
+C46
+Energie
+C43
+C41
+Largeur l'
+éprouvette
+C40
+Type de
+l'éprouvette
+C45
+Valeur
+C01
+C44
+Méthode d'essai
+C42
+Valeurs individuelles
+C03
+Temp.
+coulée
+B14
+B07.2
+Poste
+No. de
+B05
+No.
+Traitement (thermique) de référence
+C01
+C02/
+B07.1
+No.tôle mère/
+No. d'essai
+moyenne
+GR.C
+AV=J
+Joule
+02   427181  521278
+K4  LO   -20
+CHP-V
+750   AV 2  278
+221
+229
+243
+C70-C99 Composition chimique % - Analyse sur coulée
+B07.2
+Coulée
+C70
+C
+SI
+MN
+P
+S
+CU
+MO
+NI
+CR
+V
+AL-T
+427181
+Y
+0,158   0,524   1,55    0,012   0,0010  0,024   0,007   0,026   0,031   0,001   0,047
+C94 Analyse sur coulée   Carbone équivalent / Limitation d'alliage
+B07.2
+Coulée
+427181
+FO-02=   0,43
+C94 Formule carbone équivalent / Limitation d'alliage
+FO-02 = C+(MN/6)+(CR+MO+V)/5+(NI+CU)/15
+D01 Marquage et identification, aspect de surface, forme et caractéristiques dimensionnelles 
+POSTE NO.: 02
+CONTROLE DE MARQUAGE, SURFACE, FORME ET DIMENSIONS: LES RESULTATS REPONDENT AUX EXIGENCES.
+SURFACE             SELON NF-EN10163-A1
+EPAISSEUR           SELON NF-EN10029:11-A
+LONGUEUR ET LARGEUR SELON NF-EN10029:11
+PLANEITE            SELON NF-EN10029:11-T4L
+  2
+A04
+Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande.
+Date
+

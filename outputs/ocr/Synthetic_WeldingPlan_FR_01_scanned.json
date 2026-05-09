@@ -1,0 +1,426 @@
+{
+  "document_name": "Synthetic_WeldingPlan_FR_01_scanned",
+  "total_pages": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "page_file": "Synthetic_WeldingPlan_FR_01_scanned_p01.png",
+      "engine": "tesseract",
+      "avg_confidence": 35.27,
+      "full_text": "Res * Épalsseur: | : Typed de Sent ° Ti ab 1 = . à. So | GMA MG) EROS 6, \"Tension M mecs, :Lprécrautage: “ro0re min. “inerpasse : 1 oc max: TTAS selon ASME IX. me tee LA oo *",
+      "word_count": 41,
+      "words": [
+        {
+          "text": "Res",
+          "confidence": 34.0,
+          "bbox": [
+            1929,
+            1538,
+            134,
+            228
+          ]
+        },
+        {
+          "text": "*",
+          "confidence": 0.0,
+          "bbox": [
+            1913,
+            1561,
+            4,
+            3
+          ]
+        },
+        {
+          "text": "Épalsseur:",
+          "confidence": 36.0,
+          "bbox": [
+            1877,
+            1588,
+            76,
+            161
+          ]
+        },
+        {
+          "text": "|",
+          "confidence": 35.0,
+          "bbox": [
+            1905,
+            1772,
+            27,
+            7
+          ]
+        },
+        {
+          "text": ":",
+          "confidence": 22.0,
+          "bbox": [
+            1886,
+            1776,
+            22,
+            4
+          ]
+        },
+        {
+          "text": "Typed",
+          "confidence": 85.0,
+          "bbox": [
+            1806,
+            1578,
+            71,
+            119
+          ]
+        },
+        {
+          "text": "de",
+          "confidence": 96.0,
+          "bbox": [
+            1815,
+            1680,
+            64,
+            37
+          ]
+        },
+        {
+          "text": "Sent",
+          "confidence": 7.0,
+          "bbox": [
+            1813,
+            1726,
+            59,
+            114
+          ]
+        },
+        {
+          "text": "°",
+          "confidence": 21.0,
+          "bbox": [
+            1867,
+            1834,
+            4,
+            4
+          ]
+        },
+        {
+          "text": "Ti",
+          "confidence": 10.0,
+          "bbox": [
+            1912,
+            434,
+            49,
+            73
+          ]
+        },
+        {
+          "text": "ab",
+          "confidence": 26.0,
+          "bbox": [
+            1866,
+            544,
+            106,
+            99
+          ]
+        },
+        {
+          "text": "1",
+          "confidence": 29.0,
+          "bbox": [
+            1905,
+            696,
+            4,
+            15
+          ]
+        },
+        {
+          "text": "=",
+          "confidence": 44.0,
+          "bbox": [
+            1894,
+            758,
+            86,
+            70
+          ]
+        },
+        {
+          "text": ".",
+          "confidence": 0.0,
+          "bbox": [
+            1966,
+            847,
+            2,
+            2
+          ]
+        },
+        {
+          "text": "à.",
+          "confidence": 22.0,
+          "bbox": [
+            1902,
+            876,
+            72,
+            29
+          ]
+        },
+        {
+          "text": "So",
+          "confidence": 19.0,
+          "bbox": [
+            1874,
+            926,
+            173,
+            237
+          ]
+        },
+        {
+          "text": "|",
+          "confidence": 90.0,
+          "bbox": [
+            1931,
+            1148,
+            4,
+            4
+          ]
+        },
+        {
+          "text": "GMA",
+          "confidence": 19.0,
+          "bbox": [
+            1857,
+            1018,
+            60,
+            93
+          ]
+        },
+        {
+          "text": "MG)",
+          "confidence": 0.0,
+          "bbox": [
+            1863,
+            1152,
+            78,
+            74
+          ]
+        },
+        {
+          "text": "EROS",
+          "confidence": 11.0,
+          "bbox": [
+            1779,
+            1000,
+            84,
+            134
+          ]
+        },
+        {
+          "text": "6,",
+          "confidence": 11.0,
+          "bbox": [
+            1792,
+            1141,
+            57,
+            55
+          ]
+        },
+        {
+          "text": "\"Tension",
+          "confidence": 0.0,
+          "bbox": [
+            1565,
+            1229,
+            66,
+            157
+          ]
+        },
+        {
+          "text": "M",
+          "confidence": 68.0,
+          "bbox": [
+            1593,
+            1389,
+            70,
+            50
+          ]
+        },
+        {
+          "text": "mecs,",
+          "confidence": 13.0,
+          "bbox": [
+            1257,
+            1258,
+            24,
+            67
+          ]
+        },
+        {
+          "text": ":Lprécrautage:",
+          "confidence": 0.0,
+          "bbox": [
+            1157,
+            652,
+            106,
+            270
+          ]
+        },
+        {
+          "text": "“ro0re",
+          "confidence": 0.0,
+          "bbox": [
+            1179,
+            912,
+            90,
+            121
+          ]
+        },
+        {
+          "text": "min.",
+          "confidence": 92.0,
+          "bbox": [
+            1181,
+            1044,
+            55,
+            66
+          ]
+        },
+        {
+          "text": "“inerpasse",
+          "confidence": 41.0,
+          "bbox": [
+            1173,
+            1104,
+            100,
+            180
+          ]
+        },
+        {
+          "text": ":",
+          "confidence": 43.0,
+          "bbox": [
+            1182,
+            1300,
+            56,
+            14
+          ]
+        },
+        {
+          "text": "1",
+          "confidence": 32.0,
+          "bbox": [
+            1187,
+            1310,
+            67,
+            48
+          ]
+        },
+        {
+          "text": "oc",
+          "confidence": 19.0,
+          "bbox": [
+            1197,
+            1360,
+            83,
+            59
+          ]
+        },
+        {
+          "text": "max:",
+          "confidence": 89.0,
+          "bbox": [
+            1210,
+            1430,
+            50,
+            80
+          ]
+        },
+        {
+          "text": "TTAS",
+          "confidence": 64.0,
+          "bbox": [
+            1210,
+            1516,
+            65,
+            92
+          ]
+        },
+        {
+          "text": "selon",
+          "confidence": 39.0,
+          "bbox": [
+            1213,
+            1619,
+            64,
+            84
+          ]
+        },
+        {
+          "text": "ASME",
+          "confidence": 91.0,
+          "bbox": [
+            1219,
+            1730,
+            68,
+            79
+          ]
+        },
+        {
+          "text": "IX.",
+          "confidence": 54.0,
+          "bbox": [
+            1235,
+            1824,
+            49,
+            60
+          ]
+        },
+        {
+          "text": "me",
+          "confidence": 46.0,
+          "bbox": [
+            1607,
+            2015,
+            7,
+            38
+          ]
+        },
+        {
+          "text": "tee",
+          "confidence": 47.0,
+          "bbox": [
+            1608,
+            2066,
+            8,
+            36
+          ]
+        },
+        {
+          "text": "LA",
+          "confidence": 37.0,
+          "bbox": [
+            1540,
+            2125,
+            84,
+            65
+          ]
+        },
+        {
+          "text": "oo",
+          "confidence": 9.0,
+          "bbox": [
+            1544,
+            2220,
+            71,
+            55
+          ]
+        },
+        {
+          "text": "*",
+          "confidence": 45.0,
+          "bbox": [
+            1555,
+            2305,
+            42,
+            11
+          ]
+        }
+      ]
+    }
+  ]
+}

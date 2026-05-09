@@ -1,0 +1,61 @@
+# OCR Results: Synthetic_Invoice_FR_01
+# Total pages: 1
+
+================================================================================
+Page 1: Synthetic_Invoice_FR_01_p01.pdf-text
+Engine: tesseract
+Confidence: 100.0%
+Words: 105
+--------------------------------------------------------------------------------
+Moreau SARL
+FACTURE
+Fournisseur:
+Moreau SARL
+N° Facture:
+INV-45774
+Client:
+Étienne SARL
+Date d'émission:
+12/08/2024
+boulevard Chevalier, 11849 Muller-les-Bains
+Date d'échéance: 22/03/2025
+N° Projet:
+FAB-71545
+#
+Désignation
+Matière
+Quantité
+Prix Unitaire
+Total
+1
+Enable Collaborative Schemas
+Monel 400
+381 tons
+247.96 €
+12398.00 €
+2
+Leverage Back-End Deliverables
+Monel 400
+52 kg
+342.78 €
+17824.56 €
+3
+Cultivate Cutting-Edge E-Tailers
+Copper C110
+17 lbs
+421.85 €
+7171.45 €
+4
+Re-Contextualize 24/365 Content
+Copper C110
+51 lbs
+23.21 €
+1183.71 €
+Sous-total:
+38577.72 €
+TVA 20%:
+7715.54 €
+Total TTC:
+46293.26 €
+Conditions de paiement : 30 jours net. Virement bancaire uniquement. Merci de votre confiance.
+

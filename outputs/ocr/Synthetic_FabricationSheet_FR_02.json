@@ -1,0 +1,1216 @@
+{
+  "document_name": "Synthetic_FabricationSheet_FR_02",
+  "total_pages": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "page_file": "Synthetic_FabricationSheet_FR_02_p01.pdf-text",
+      "engine": "tesseract",
+      "avg_confidence": 100.0,
+      "full_text": "Henry Ingénierie\nFICHE DE FABRICATION\nN° Projet:\nWLD-67540\nDate:\n08/03/2026\nFournisseur:\nGillet SA\nN° Commande:\nPO-79514\nClient:\nBarre\nInspecteur:\nJulie Bertrand du Regnier\nNomenclature\nArt.\nN° Pièce\nDésignation\nMatière\nQuantité\nSpécification\n1\nP-1009\nEmbrace Enterprise Infrastruct\nCopper C110\n106 lbs\nASTM A-119\n2\nP-2832\nEngage Distributed Functionali\nInconel 625\n20 kg\nASTM A-159\n3\nP-4946\nRe-Intermediate Bricks-And-Cli\nCopper C110\n6 pcs\nASTM A-849\n4\nP-8962\nAggregate Innovative Paradigms\nSS 304\n49 lbs\nASTM A-884\n5\nP-3060\nRepurpose Bleeding-Edge Techno\nCarbon Steel A36\n43 tons\nASTM A-662\nNotes : Toutes les matières sont inspectées selon la procédure QA-FAB-001. Les détails de soudage sont\nprécisés dans le DMOS joint.\nPréparé par: Gabriel Roussel\nApprouvé par: Laurence De Sousa\nSignature: ______________\nSignature: ______________",
+      "word_count": 120,
+      "words": [
+        {
+          "text": "Henry",
+          "confidence": 100.0,
+          "bbox": [
+            48,
+            50,
+            39,
+            19
+          ]
+        },
+        {
+          "text": "Ingénierie",
+          "confidence": 100.0,
+          "bbox": [
+            92,
+            50,
+            66,
+            19
+          ]
+        },
+        {
+          "text": "FICHE",
+          "confidence": 100.0,
+          "bbox": [
+            191,
+            84,
+            54,
+            24
+          ]
+        },
+        {
+          "text": "DE",
+          "confidence": 100.0,
+          "bbox": [
+            250,
+            84,
+            25,
+            24
+          ]
+        },
+        {
+          "text": "FABRICATION",
+          "confidence": 100.0,
+          "bbox": [
+            280,
+            84,
+            123,
+            24
+          ]
+        },
+        {
+          "text": "N°",
+          "confidence": 100.0,
+          "bbox": [
+            60,
+            131,
+            10,
+            12
+          ]
+        },
+        {
+          "text": "Projet:",
+          "confidence": 100.0,
+          "bbox": [
+            73,
+            131,
+            28,
+            12
+          ]
+        },
+        {
+          "text": "WLD-67540",
+          "confidence": 100.0,
+          "bbox": [
+            145,
+            131,
+            48,
+            12
+          ]
+        },
+        {
+          "text": "Date:",
+          "confidence": 100.0,
+          "bbox": [
+            315,
+            131,
+            22,
+            12
+          ]
+        },
+        {
+          "text": "08/03/2026",
+          "confidence": 100.0,
+          "bbox": [
+            400,
+            131,
+            45,
+            12
+          ]
+        },
+        {
+          "text": "Fournisseur:",
+          "confidence": 100.0,
+          "bbox": [
+            60,
+            148,
+            55,
+            12
+          ]
+        },
+        {
+          "text": "Gillet",
+          "confidence": 100.0,
+          "bbox": [
+            145,
+            148,
+            20,
+            12
+          ]
+        },
+        {
+          "text": "SA",
+          "confidence": 100.0,
+          "bbox": [
+            168,
+            148,
+            12,
+            12
+          ]
+        },
+        {
+          "text": "N°",
+          "confidence": 100.0,
+          "bbox": [
+            315,
+            148,
+            10,
+            12
+          ]
+        },
+        {
+          "text": "Commande:",
+          "confidence": 100.0,
+          "bbox": [
+            328,
+            148,
+            52,
+            12
+          ]
+        },
+        {
+          "text": "PO-79514",
+          "confidence": 100.0,
+          "bbox": [
+            400,
+            148,
+            41,
+            12
+          ]
+        },
+        {
+          "text": "Client:",
+          "confidence": 100.0,
+          "bbox": [
+            60,
+            164,
+            27,
+            12
+          ]
+        },
+        {
+          "text": "Barre",
+          "confidence": 100.0,
+          "bbox": [
+            145,
+            164,
+            22,
+            12
+          ]
+        },
+        {
+          "text": "Inspecteur:",
+          "confidence": 100.0,
+          "bbox": [
+            315,
+            164,
+            48,
+            12
+          ]
+        },
+        {
+          "text": "Julie",
+          "confidence": 100.0,
+          "bbox": [
+            400,
+            164,
+            18,
+            12
+          ]
+        },
+        {
+          "text": "Bertrand",
+          "confidence": 100.0,
+          "bbox": [
+            421,
+            164,
+            34,
+            12
+          ]
+        },
+        {
+          "text": "du",
+          "confidence": 100.0,
+          "bbox": [
+            458,
+            164,
+            10,
+            12
+          ]
+        },
+        {
+          "text": "Regnier",
+          "confidence": 100.0,
+          "bbox": [
+            471,
+            164,
+            31,
+            12
+          ]
+        },
+        {
+          "text": "Nomenclature",
+          "confidence": 100.0,
+          "bbox": [
+            57,
+            203,
+            80,
+            16
+          ]
+        },
+        {
+          "text": "Art.",
+          "confidence": 100.0,
+          "bbox": [
+            59,
+            228,
+            15,
+            12
+          ]
+        },
+        {
+          "text": "N°",
+          "confidence": 100.0,
+          "bbox": [
+            88,
+            228,
+            10,
+            12
+          ]
+        },
+        {
+          "text": "Pièce",
+          "confidence": 100.0,
+          "bbox": [
+            100,
+            228,
+            23,
+            12
+          ]
+        },
+        {
+          "text": "Désignation",
+          "confidence": 100.0,
+          "bbox": [
+            144,
+            228,
+            51,
+            12
+          ]
+        },
+        {
+          "text": "Matière",
+          "confidence": 100.0,
+          "bbox": [
+            300,
+            228,
+            31,
+            12
+          ]
+        },
+        {
+          "text": "Quantité",
+          "confidence": 100.0,
+          "bbox": [
+            391,
+            228,
+            36,
+            12
+          ]
+        },
+        {
+          "text": "Spécification",
+          "confidence": 100.0,
+          "bbox": [
+            462,
+            228,
+            56,
+            12
+          ]
+        },
+        {
+          "text": "1",
+          "confidence": 100.0,
+          "bbox": [
+            59,
+            245,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "P-1009",
+          "confidence": 100.0,
+          "bbox": [
+            88,
+            245,
+            25,
+            10
+          ]
+        },
+        {
+          "text": "Embrace",
+          "confidence": 100.0,
+          "bbox": [
+            144,
+            245,
+            32,
+            10
+          ]
+        },
+        {
+          "text": "Enterprise",
+          "confidence": 100.0,
+          "bbox": [
+            179,
+            245,
+            36,
+            10
+          ]
+        },
+        {
+          "text": "Infrastruct",
+          "confidence": 100.0,
+          "bbox": [
+            217,
+            245,
+            35,
+            10
+          ]
+        },
+        {
+          "text": "Copper",
+          "confidence": 100.0,
+          "bbox": [
+            300,
+            245,
+            26,
+            10
+          ]
+        },
+        {
+          "text": "C110",
+          "confidence": 100.0,
+          "bbox": [
+            329,
+            245,
+            19,
+            10
+          ]
+        },
+        {
+          "text": "106",
+          "confidence": 100.0,
+          "bbox": [
+            391,
+            245,
+            13,
+            10
+          ]
+        },
+        {
+          "text": "lbs",
+          "confidence": 100.0,
+          "bbox": [
+            407,
+            245,
+            10,
+            10
+          ]
+        },
+        {
+          "text": "ASTM",
+          "confidence": 100.0,
+          "bbox": [
+            462,
+            245,
+            22,
+            10
+          ]
+        },
+        {
+          "text": "A-119",
+          "confidence": 100.0,
+          "bbox": [
+            486,
+            245,
+            21,
+            10
+          ]
+        },
+        {
+          "text": "2",
+          "confidence": 100.0,
+          "bbox": [
+            59,
+            261,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "P-2832",
+          "confidence": 100.0,
+          "bbox": [
+            88,
+            261,
+            25,
+            10
+          ]
+        },
+        {
+          "text": "Engage",
+          "confidence": 100.0,
+          "bbox": [
+            144,
+            261,
+            27,
+            10
+          ]
+        },
+        {
+          "text": "Distributed",
+          "confidence": 100.0,
+          "bbox": [
+            174,
+            261,
+            38,
+            10
+          ]
+        },
+        {
+          "text": "Functionali",
+          "confidence": 100.0,
+          "bbox": [
+            215,
+            261,
+            38,
+            10
+          ]
+        },
+        {
+          "text": "Inconel",
+          "confidence": 100.0,
+          "bbox": [
+            300,
+            261,
+            25,
+            10
+          ]
+        },
+        {
+          "text": "625",
+          "confidence": 100.0,
+          "bbox": [
+            328,
+            261,
+            13,
+            10
+          ]
+        },
+        {
+          "text": "20",
+          "confidence": 100.0,
+          "bbox": [
+            391,
+            261,
+            8,
+            10
+          ]
+        },
+        {
+          "text": "kg",
+          "confidence": 100.0,
+          "bbox": [
+            402,
+            261,
+            8,
+            10
+          ]
+        },
+        {
+          "text": "ASTM",
+          "confidence": 100.0,
+          "bbox": [
+            462,
+            261,
+            22,
+            10
+          ]
+        },
+        {
+          "text": "A-159",
+          "confidence": 100.0,
+          "bbox": [
+            486,
+            261,
+            21,
+            10
+          ]
+        },
+        {
+          "text": "3",
+          "confidence": 100.0,
+          "bbox": [
+            59,
+            276,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "P-4946",
+          "confidence": 100.0,
+          "bbox": [
+            88,
+            276,
+            25,
+            10
+          ]
+        },
+        {
+          "text": "Re-Intermediate",
+          "confidence": 100.0,
+          "bbox": [
+            144,
+            276,
+            57,
+            10
+          ]
+        },
+        {
+          "text": "Bricks-And-Cli",
+          "confidence": 100.0,
+          "bbox": [
+            204,
+            276,
+            50,
+            10
+          ]
+        },
+        {
+          "text": "Copper",
+          "confidence": 100.0,
+          "bbox": [
+            300,
+            276,
+            26,
+            10
+          ]
+        },
+        {
+          "text": "C110",
+          "confidence": 100.0,
+          "bbox": [
+            329,
+            276,
+            19,
+            10
+          ]
+        },
+        {
+          "text": "6",
+          "confidence": 100.0,
+          "bbox": [
+            391,
+            276,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "pcs",
+          "confidence": 100.0,
+          "bbox": [
+            398,
+            276,
+            12,
+            10
+          ]
+        },
+        {
+          "text": "ASTM",
+          "confidence": 100.0,
+          "bbox": [
+            462,
+            276,
+            22,
+            10
+          ]
+        },
+        {
+          "text": "A-849",
+          "confidence": 100.0,
+          "bbox": [
+            486,
+            276,
+            21,
+            10
+          ]
+        },
+        {
+          "text": "4",
+          "confidence": 100.0,
+          "bbox": [
+            59,
+            292,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "P-8962",
+          "confidence": 100.0,
+          "bbox": [
+            88,
+            292,
+            25,
+            10
+          ]
+        },
+        {
+          "text": "Aggregate",
+          "confidence": 100.0,
+          "bbox": [
+            144,
+            292,
+            36,
+            10
+          ]
+        },
+        {
+          "text": "Innovative",
+          "confidence": 100.0,
+          "bbox": [
+            184,
+            292,
+            36,
+            10
+          ]
+        },
+        {
+          "text": "Paradigms",
+          "confidence": 100.0,
+          "bbox": [
+            222,
+            292,
+            38,
+            10
+          ]
+        },
+        {
+          "text": "SS",
+          "confidence": 100.0,
+          "bbox": [
+            300,
+            292,
+            10,
+            10
+          ]
+        },
+        {
+          "text": "304",
+          "confidence": 100.0,
+          "bbox": [
+            313,
+            292,
+            13,
+            10
+          ]
+        },
+        {
+          "text": "49",
+          "confidence": 100.0,
+          "bbox": [
+            391,
+            292,
+            8,
+            10
+          ]
+        },
+        {
+          "text": "lbs",
+          "confidence": 100.0,
+          "bbox": [
+            402,
+            292,
+            10,
+            10
+          ]
+        },
+        {
+          "text": "ASTM",
+          "confidence": 100.0,
+          "bbox": [
+            462,
+            292,
+            22,
+            10
+          ]
+        },
+        {
+          "text": "A-884",
+          "confidence": 100.0,
+          "bbox": [
+            486,
+            292,
+            21,
+            10
+          ]
+        },
+        {
+          "text": "5",
+          "confidence": 100.0,
+          "bbox": [
+            59,
+            308,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "P-3060",
+          "confidence": 100.0,
+          "bbox": [
+            88,
+            308,
+            25,
+            10
+          ]
+        },
+        {
+          "text": "Repurpose",
+          "confidence": 100.0,
+          "bbox": [
+            144,
+            308,
+            39,
+            10
+          ]
+        },
+        {
+          "text": "Bleeding-Edge",
+          "confidence": 100.0,
+          "bbox": [
+            186,
+            308,
+            52,
+            10
+          ]
+        },
+        {
+          "text": "Techno",
+          "confidence": 100.0,
+          "bbox": [
+            240,
+            308,
+            26,
+            10
+          ]
+        },
+        {
+          "text": "Carbon",
+          "confidence": 100.0,
+          "bbox": [
+            300,
+            308,
+            26,
+            10
+          ]
+        },
+        {
+          "text": "Steel",
+          "confidence": 100.0,
+          "bbox": [
+            329,
+            308,
+            18,
+            10
+          ]
+        },
+        {
+          "text": "A36",
+          "confidence": 100.0,
+          "bbox": [
+            349,
+            308,
+            14,
+            10
+          ]
+        },
+        {
+          "text": "43",
+          "confidence": 100.0,
+          "bbox": [
+            391,
+            308,
+            8,
+            10
+          ]
+        },
+        {
+          "text": "tons",
+          "confidence": 100.0,
+          "bbox": [
+            402,
+            308,
+            15,
+            10
+          ]
+        },
+        {
+          "text": "ASTM",
+          "confidence": 100.0,
+          "bbox": [
+            462,
+            308,
+            22,
+            10
+          ]
+        },
+        {
+          "text": "A-662",
+          "confidence": 100.0,
+          "bbox": [
+            486,
+            308,
+            21,
+            10
+          ]
+        },
+        {
+          "text": "Notes",
+          "confidence": 100.0,
+          "bbox": [
+            57,
+            337,
+            26,
+            13
+          ]
+        },
+        {
+          "text": ":",
+          "confidence": 100.0,
+          "bbox": [
+            85,
+            337,
+            2,
+            13
+          ]
+        },
+        {
+          "text": "Toutes",
+          "confidence": 100.0,
+          "bbox": [
+            91,
+            337,
+            30,
+            13
+          ]
+        },
+        {
+          "text": "les",
+          "confidence": 100.0,
+          "bbox": [
+            124,
+            337,
+            12,
+            13
+          ]
+        },
+        {
+          "text": "matières",
+          "confidence": 100.0,
+          "bbox": [
+            140,
+            337,
+            38,
+            13
+          ]
+        },
+        {
+          "text": "sont",
+          "confidence": 100.0,
+          "bbox": [
+            181,
+            337,
+            18,
+            13
+          ]
+        },
+        {
+          "text": "inspectées",
+          "confidence": 100.0,
+          "bbox": [
+            203,
+            337,
+            47,
+            13
+          ]
+        },
+        {
+          "text": "selon",
+          "confidence": 100.0,
+          "bbox": [
+            253,
+            337,
+            23,
+            13
+          ]
+        },
+        {
+          "text": "la",
+          "confidence": 100.0,
+          "bbox": [
+            280,
+            337,
+            7,
+            13
+          ]
+        },
+        {
+          "text": "procédure",
+          "confidence": 100.0,
+          "bbox": [
+            291,
+            337,
+            45,
+            13
+          ]
+        },
+        {
+          "text": "QA-FAB-001.",
+          "confidence": 100.0,
+          "bbox": [
+            338,
+            337,
+            60,
+            13
+          ]
+        },
+        {
+          "text": "Les",
+          "confidence": 100.0,
+          "bbox": [
+            401,
+            337,
+            16,
+            13
+          ]
+        },
+        {
+          "text": "détails",
+          "confidence": 100.0,
+          "bbox": [
+            420,
+            337,
+            28,
+            13
+          ]
+        },
+        {
+          "text": "de",
+          "confidence": 100.0,
+          "bbox": [
+            452,
+            337,
+            11,
+            13
+          ]
+        },
+        {
+          "text": "soudage",
+          "confidence": 100.0,
+          "bbox": [
+            466,
+            337,
+            38,
+            13
+          ]
+        },
+        {
+          "text": "sont",
+          "confidence": 100.0,
+          "bbox": [
+            507,
+            337,
+            18,
+            13
+          ]
+        },
+        {
+          "text": "précisés",
+          "confidence": 100.0,
+          "bbox": [
+            57,
+            349,
+            37,
+            13
+          ]
+        },
+        {
+          "text": "dans",
+          "confidence": 100.0,
+          "bbox": [
+            97,
+            349,
+            21,
+            13
+          ]
+        },
+        {
+          "text": "le",
+          "confidence": 100.0,
+          "bbox": [
+            121,
+            349,
+            7,
+            13
+          ]
+        },
+        {
+          "text": "DMOS",
+          "confidence": 100.0,
+          "bbox": [
+            132,
+            349,
+            30,
+            13
+          ]
+        },
+        {
+          "text": "joint.",
+          "confidence": 100.0,
+          "bbox": [
+            164,
+            349,
+            21,
+            13
+          ]
+        },
+        {
+          "text": "Préparé",
+          "confidence": 100.0,
+          "bbox": [
+            48,
+            399,
+            32,
+            12
+          ]
+        },
+        {
+          "text": "par:",
+          "confidence": 100.0,
+          "bbox": [
+            83,
+            399,
+            15,
+            12
+          ]
+        },
+        {
+          "text": "Gabriel",
+          "confidence": 100.0,
+          "bbox": [
+            101,
+            399,
+            29,
+            12
+          ]
+        },
+        {
+          "text": "Roussel",
+          "confidence": 100.0,
+          "bbox": [
+            132,
+            399,
+            32,
+            12
+          ]
+        },
+        {
+          "text": "Approuvé",
+          "confidence": 100.0,
+          "bbox": [
+            303,
+            399,
+            38,
+            12
+          ]
+        },
+        {
+          "text": "par:",
+          "confidence": 100.0,
+          "bbox": [
+            344,
+            399,
+            15,
+            12
+          ]
+        },
+        {
+          "text": "Laurence",
+          "confidence": 100.0,
+          "bbox": [
+            362,
+            399,
+            37,
+            12
+          ]
+        },
+        {
+          "text": "De",
+          "confidence": 100.0,
+          "bbox": [
+            402,
+            399,
+            11,
+            12
+          ]
+        },
+        {
+          "text": "Sousa",
+          "confidence": 100.0,
+          "bbox": [
+            416,
+            399,
+            25,
+            12
+          ]
+        },
+        {
+          "text": "Signature:",
+          "confidence": 100.0,
+          "bbox": [
+            48,
+            417,
+            41,
+            12
+          ]
+        },
+        {
+          "text": "______________",
+          "confidence": 100.0,
+          "bbox": [
+            92,
+            417,
+            70,
+            12
+          ]
+        },
+        {
+          "text": "Signature:",
+          "confidence": 100.0,
+          "bbox": [
+            303,
+            417,
+            41,
+            12
+          ]
+        },
+        {
+          "text": "______________",
+          "confidence": 100.0,
+          "bbox": [
+            347,
+            417,
+            70,
+            12
+          ]
+        }
+      ]
+    }
+  ]
+}

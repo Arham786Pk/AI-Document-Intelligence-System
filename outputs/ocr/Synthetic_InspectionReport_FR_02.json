@@ -1,0 +1,1146 @@
+{
+  "document_name": "Synthetic_InspectionReport_FR_02",
+  "total_pages": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "page_file": "Synthetic_InspectionReport_FR_02_p01.pdf-text",
+      "engine": "tesseract",
+      "avg_confidence": 100.0,
+      "full_text": "Payet Contrôle Qualité\nRAPPORT D'INSPECTION\nReport No.: IR-48254\nN° Projet:\nPRJ-30451\nDate d'inspection:\n03/01/2026\nFournisseur:\nAlbert\nInspecteur:\nArnaude Petit\nMatière:\nSS 304\nQuantité:\n241 tons\nConstats d'Inspection\n#\nDésignation\nRésultat\nRemarques\n1\nContrôle dimensionnel selon plan\nCONFORME\n-\n2\nContrôle visuel des soudures (AWS D1.1)\nNON CONFORME\nPaix moindre bois marquer lisser cerveau étranger.\n3\nRugosité de surface Ra <= 3.2\nNON CONFORME\nSouffrance famille ciel scène.\n4\nÉpaisseur revêtement 80-120 um\nNON CONFORME\nOr voile perdu accord rouge.\n5\nEssai d'étanchéité à 1,5x pression\nCONFORME\n-\nRésultat global : ACCEPTÉ sous réserve de traitement des constats mineurs ci-dessus.\nInspecteur: Vincent Duval de la Aubry\nApprouvé par: Bernard Bernier\nSignature: ______________\nSignature: ______________",
+      "word_count": 113,
+      "words": [
+        {
+          "text": "Payet",
+          "confidence": 100.0,
+          "bbox": [
+            48,
+            50,
+            37,
+            19
+          ]
+        },
+        {
+          "text": "Contrôle",
+          "confidence": 100.0,
+          "bbox": [
+            89,
+            50,
+            57,
+            19
+          ]
+        },
+        {
+          "text": "Qualité",
+          "confidence": 100.0,
+          "bbox": [
+            151,
+            50,
+            47,
+            19
+          ]
+        },
+        {
+          "text": "RAPPORT",
+          "confidence": 100.0,
+          "bbox": [
+            187,
+            84,
+            88,
+            24
+          ]
+        },
+        {
+          "text": "D'INSPECTION",
+          "confidence": 100.0,
+          "bbox": [
+            280,
+            84,
+            127,
+            24
+          ]
+        },
+        {
+          "text": "Report",
+          "confidence": 100.0,
+          "bbox": [
+            57,
+            122,
+            30,
+            13
+          ]
+        },
+        {
+          "text": "No.:",
+          "confidence": 100.0,
+          "bbox": [
+            89,
+            122,
+            18,
+            13
+          ]
+        },
+        {
+          "text": "IR-48254",
+          "confidence": 100.0,
+          "bbox": [
+            110,
+            122,
+            41,
+            13
+          ]
+        },
+        {
+          "text": "N°",
+          "confidence": 100.0,
+          "bbox": [
+            48,
+            149,
+            10,
+            12
+          ]
+        },
+        {
+          "text": "Projet:",
+          "confidence": 100.0,
+          "bbox": [
+            61,
+            149,
+            28,
+            12
+          ]
+        },
+        {
+          "text": "PRJ-30451",
+          "confidence": 100.0,
+          "bbox": [
+            156,
+            148,
+            45,
+            12
+          ]
+        },
+        {
+          "text": "Date",
+          "confidence": 100.0,
+          "bbox": [
+            326,
+            149,
+            19,
+            12
+          ]
+        },
+        {
+          "text": "d'inspection:",
+          "confidence": 100.0,
+          "bbox": [
+            348,
+            149,
+            55,
+            12
+          ]
+        },
+        {
+          "text": "03/01/2026",
+          "confidence": 100.0,
+          "bbox": [
+            425,
+            148,
+            45,
+            12
+          ]
+        },
+        {
+          "text": "Fournisseur:",
+          "confidence": 100.0,
+          "bbox": [
+            48,
+            165,
+            55,
+            12
+          ]
+        },
+        {
+          "text": "Albert",
+          "confidence": 100.0,
+          "bbox": [
+            156,
+            165,
+            23,
+            12
+          ]
+        },
+        {
+          "text": "Inspecteur:",
+          "confidence": 100.0,
+          "bbox": [
+            326,
+            165,
+            48,
+            12
+          ]
+        },
+        {
+          "text": "Arnaude",
+          "confidence": 100.0,
+          "bbox": [
+            425,
+            165,
+            34,
+            12
+          ]
+        },
+        {
+          "text": "Petit",
+          "confidence": 100.0,
+          "bbox": [
+            462,
+            165,
+            18,
+            12
+          ]
+        },
+        {
+          "text": "Matière:",
+          "confidence": 100.0,
+          "bbox": [
+            48,
+            182,
+            34,
+            12
+          ]
+        },
+        {
+          "text": "SS",
+          "confidence": 100.0,
+          "bbox": [
+            156,
+            182,
+            12,
+            12
+          ]
+        },
+        {
+          "text": "304",
+          "confidence": 100.0,
+          "bbox": [
+            170,
+            182,
+            15,
+            12
+          ]
+        },
+        {
+          "text": "Quantité:",
+          "confidence": 100.0,
+          "bbox": [
+            326,
+            182,
+            39,
+            12
+          ]
+        },
+        {
+          "text": "241",
+          "confidence": 100.0,
+          "bbox": [
+            425,
+            182,
+            15,
+            12
+          ]
+        },
+        {
+          "text": "tons",
+          "confidence": 100.0,
+          "bbox": [
+            443,
+            182,
+            17,
+            12
+          ]
+        },
+        {
+          "text": "Constats",
+          "confidence": 100.0,
+          "bbox": [
+            57,
+            221,
+            51,
+            16
+          ]
+        },
+        {
+          "text": "d'Inspection",
+          "confidence": 100.0,
+          "bbox": [
+            111,
+            221,
+            70,
+            16
+          ]
+        },
+        {
+          "text": "#",
+          "confidence": 100.0,
+          "bbox": [
+            48,
+            246,
+            5,
+            12
+          ]
+        },
+        {
+          "text": "Désignation",
+          "confidence": 100.0,
+          "bbox": [
+            76,
+            246,
+            51,
+            12
+          ]
+        },
+        {
+          "text": "Résultat",
+          "confidence": 100.0,
+          "bbox": [
+            297,
+            246,
+            35,
+            12
+          ]
+        },
+        {
+          "text": "Remarques",
+          "confidence": 100.0,
+          "bbox": [
+            383,
+            246,
+            49,
+            12
+          ]
+        },
+        {
+          "text": "1",
+          "confidence": 100.0,
+          "bbox": [
+            48,
+            263,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "Contrôle",
+          "confidence": 100.0,
+          "bbox": [
+            76,
+            263,
+            30,
+            10
+          ]
+        },
+        {
+          "text": "dimensionnel",
+          "confidence": 100.0,
+          "bbox": [
+            109,
+            263,
+            47,
+            10
+          ]
+        },
+        {
+          "text": "selon",
+          "confidence": 100.0,
+          "bbox": [
+            158,
+            263,
+            19,
+            10
+          ]
+        },
+        {
+          "text": "plan",
+          "confidence": 100.0,
+          "bbox": [
+            180,
+            263,
+            15,
+            10
+          ]
+        },
+        {
+          "text": "CONFORME",
+          "confidence": 100.0,
+          "bbox": [
+            297,
+            263,
+            46,
+            10
+          ]
+        },
+        {
+          "text": "-",
+          "confidence": 100.0,
+          "bbox": [
+            383,
+            263,
+            2,
+            10
+          ]
+        },
+        {
+          "text": "2",
+          "confidence": 100.0,
+          "bbox": [
+            48,
+            278,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "Contrôle",
+          "confidence": 100.0,
+          "bbox": [
+            76,
+            278,
+            30,
+            10
+          ]
+        },
+        {
+          "text": "visuel",
+          "confidence": 100.0,
+          "bbox": [
+            109,
+            278,
+            20,
+            10
+          ]
+        },
+        {
+          "text": "des",
+          "confidence": 100.0,
+          "bbox": [
+            131,
+            278,
+            12,
+            10
+          ]
+        },
+        {
+          "text": "soudures",
+          "confidence": 100.0,
+          "bbox": [
+            147,
+            278,
+            32,
+            10
+          ]
+        },
+        {
+          "text": "(AWS",
+          "confidence": 100.0,
+          "bbox": [
+            182,
+            278,
+            20,
+            10
+          ]
+        },
+        {
+          "text": "D1.1)",
+          "confidence": 100.0,
+          "bbox": [
+            205,
+            278,
+            19,
+            10
+          ]
+        },
+        {
+          "text": "NON",
+          "confidence": 100.0,
+          "bbox": [
+            297,
+            278,
+            17,
+            10
+          ]
+        },
+        {
+          "text": "CONFORME",
+          "confidence": 100.0,
+          "bbox": [
+            317,
+            278,
+            46,
+            10
+          ]
+        },
+        {
+          "text": "Paix",
+          "confidence": 100.0,
+          "bbox": [
+            383,
+            278,
+            15,
+            10
+          ]
+        },
+        {
+          "text": "moindre",
+          "confidence": 100.0,
+          "bbox": [
+            400,
+            278,
+            28,
+            10
+          ]
+        },
+        {
+          "text": "bois",
+          "confidence": 100.0,
+          "bbox": [
+            431,
+            278,
+            14,
+            10
+          ]
+        },
+        {
+          "text": "marquer",
+          "confidence": 100.0,
+          "bbox": [
+            448,
+            278,
+            29,
+            10
+          ]
+        },
+        {
+          "text": "lisser",
+          "confidence": 100.0,
+          "bbox": [
+            480,
+            278,
+            18,
+            10
+          ]
+        },
+        {
+          "text": "cerveau",
+          "confidence": 100.0,
+          "bbox": [
+            501,
+            278,
+            28,
+            10
+          ]
+        },
+        {
+          "text": "étranger.",
+          "confidence": 100.0,
+          "bbox": [
+            532,
+            278,
+            32,
+            10
+          ]
+        },
+        {
+          "text": "3",
+          "confidence": 100.0,
+          "bbox": [
+            48,
+            294,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "Rugosité",
+          "confidence": 100.0,
+          "bbox": [
+            76,
+            294,
+            31,
+            10
+          ]
+        },
+        {
+          "text": "de",
+          "confidence": 100.0,
+          "bbox": [
+            110,
+            294,
+            8,
+            10
+          ]
+        },
+        {
+          "text": "surface",
+          "confidence": 100.0,
+          "bbox": [
+            121,
+            294,
+            26,
+            10
+          ]
+        },
+        {
+          "text": "Ra",
+          "confidence": 100.0,
+          "bbox": [
+            150,
+            294,
+            10,
+            10
+          ]
+        },
+        {
+          "text": "<=",
+          "confidence": 100.0,
+          "bbox": [
+            162,
+            294,
+            9,
+            10
+          ]
+        },
+        {
+          "text": "3.2",
+          "confidence": 100.0,
+          "bbox": [
+            174,
+            294,
+            11,
+            10
+          ]
+        },
+        {
+          "text": "NON",
+          "confidence": 100.0,
+          "bbox": [
+            297,
+            294,
+            17,
+            10
+          ]
+        },
+        {
+          "text": "CONFORME",
+          "confidence": 100.0,
+          "bbox": [
+            317,
+            294,
+            46,
+            10
+          ]
+        },
+        {
+          "text": "Souffrance",
+          "confidence": 100.0,
+          "bbox": [
+            383,
+            294,
+            38,
+            10
+          ]
+        },
+        {
+          "text": "famille",
+          "confidence": 100.0,
+          "bbox": [
+            423,
+            294,
+            23,
+            10
+          ]
+        },
+        {
+          "text": "ciel",
+          "confidence": 100.0,
+          "bbox": [
+            449,
+            294,
+            12,
+            10
+          ]
+        },
+        {
+          "text": "scène.",
+          "confidence": 100.0,
+          "bbox": [
+            463,
+            294,
+            23,
+            10
+          ]
+        },
+        {
+          "text": "4",
+          "confidence": 100.0,
+          "bbox": [
+            48,
+            310,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "Épaisseur",
+          "confidence": 100.0,
+          "bbox": [
+            76,
+            310,
+            35,
+            10
+          ]
+        },
+        {
+          "text": "revêtement",
+          "confidence": 100.0,
+          "bbox": [
+            114,
+            310,
+            40,
+            10
+          ]
+        },
+        {
+          "text": "80-120",
+          "confidence": 100.0,
+          "bbox": [
+            156,
+            310,
+            24,
+            10
+          ]
+        },
+        {
+          "text": "um",
+          "confidence": 100.0,
+          "bbox": [
+            184,
+            310,
+            11,
+            10
+          ]
+        },
+        {
+          "text": "NON",
+          "confidence": 100.0,
+          "bbox": [
+            297,
+            310,
+            17,
+            10
+          ]
+        },
+        {
+          "text": "CONFORME",
+          "confidence": 100.0,
+          "bbox": [
+            317,
+            310,
+            46,
+            10
+          ]
+        },
+        {
+          "text": "Or",
+          "confidence": 100.0,
+          "bbox": [
+            383,
+            310,
+            8,
+            10
+          ]
+        },
+        {
+          "text": "voile",
+          "confidence": 100.0,
+          "bbox": [
+            394,
+            310,
+            16,
+            10
+          ]
+        },
+        {
+          "text": "perdu",
+          "confidence": 100.0,
+          "bbox": [
+            412,
+            310,
+            20,
+            10
+          ]
+        },
+        {
+          "text": "accord",
+          "confidence": 100.0,
+          "bbox": [
+            435,
+            310,
+            24,
+            10
+          ]
+        },
+        {
+          "text": "rouge.",
+          "confidence": 100.0,
+          "bbox": [
+            461,
+            310,
+            22,
+            10
+          ]
+        },
+        {
+          "text": "5",
+          "confidence": 100.0,
+          "bbox": [
+            48,
+            325,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "Essai",
+          "confidence": 100.0,
+          "bbox": [
+            76,
+            325,
+            19,
+            10
+          ]
+        },
+        {
+          "text": "d'étanchéité",
+          "confidence": 100.0,
+          "bbox": [
+            98,
+            325,
+            42,
+            10
+          ]
+        },
+        {
+          "text": "à",
+          "confidence": 100.0,
+          "bbox": [
+            143,
+            325,
+            4,
+            10
+          ]
+        },
+        {
+          "text": "1,5x",
+          "confidence": 100.0,
+          "bbox": [
+            150,
+            325,
+            15,
+            10
+          ]
+        },
+        {
+          "text": "pression",
+          "confidence": 100.0,
+          "bbox": [
+            167,
+            325,
+            30,
+            10
+          ]
+        },
+        {
+          "text": "CONFORME",
+          "confidence": 100.0,
+          "bbox": [
+            297,
+            325,
+            46,
+            10
+          ]
+        },
+        {
+          "text": "-",
+          "confidence": 100.0,
+          "bbox": [
+            383,
+            325,
+            2,
+            10
+          ]
+        },
+        {
+          "text": "Résultat",
+          "confidence": 100.0,
+          "bbox": [
+            57,
+            366,
+            36,
+            13
+          ]
+        },
+        {
+          "text": "global",
+          "confidence": 100.0,
+          "bbox": [
+            96,
+            366,
+            26,
+            13
+          ]
+        },
+        {
+          "text": ":",
+          "confidence": 100.0,
+          "bbox": [
+            125,
+            366,
+            2,
+            13
+          ]
+        },
+        {
+          "text": "ACCEPTÉ",
+          "confidence": 100.0,
+          "bbox": [
+            131,
+            366,
+            47,
+            13
+          ]
+        },
+        {
+          "text": "sous",
+          "confidence": 100.0,
+          "bbox": [
+            181,
+            366,
+            21,
+            13
+          ]
+        },
+        {
+          "text": "réserve",
+          "confidence": 100.0,
+          "bbox": [
+            205,
+            366,
+            33,
+            13
+          ]
+        },
+        {
+          "text": "de",
+          "confidence": 100.0,
+          "bbox": [
+            241,
+            366,
+            11,
+            13
+          ]
+        },
+        {
+          "text": "traitement",
+          "confidence": 100.0,
+          "bbox": [
+            255,
+            366,
+            44,
+            13
+          ]
+        },
+        {
+          "text": "des",
+          "confidence": 100.0,
+          "bbox": [
+            302,
+            366,
+            16,
+            13
+          ]
+        },
+        {
+          "text": "constats",
+          "confidence": 100.0,
+          "bbox": [
+            321,
+            366,
+            37,
+            13
+          ]
+        },
+        {
+          "text": "mineurs",
+          "confidence": 100.0,
+          "bbox": [
+            361,
+            366,
+            35,
+            13
+          ]
+        },
+        {
+          "text": "ci-dessus.",
+          "confidence": 100.0,
+          "bbox": [
+            399,
+            366,
+            45,
+            13
+          ]
+        },
+        {
+          "text": "Inspecteur:",
+          "confidence": 100.0,
+          "bbox": [
+            48,
+            409,
+            44,
+            12
+          ]
+        },
+        {
+          "text": "Vincent",
+          "confidence": 100.0,
+          "bbox": [
+            95,
+            409,
+            30,
+            12
+          ]
+        },
+        {
+          "text": "Duval",
+          "confidence": 100.0,
+          "bbox": [
+            128,
+            409,
+            23,
+            12
+          ]
+        },
+        {
+          "text": "de",
+          "confidence": 100.0,
+          "bbox": [
+            153,
+            409,
+            10,
+            12
+          ]
+        },
+        {
+          "text": "la",
+          "confidence": 100.0,
+          "bbox": [
+            166,
+            409,
+            7,
+            12
+          ]
+        },
+        {
+          "text": "Aubry",
+          "confidence": 100.0,
+          "bbox": [
+            175,
+            409,
+            23,
+            12
+          ]
+        },
+        {
+          "text": "Approuvé",
+          "confidence": 100.0,
+          "bbox": [
+            303,
+            409,
+            38,
+            12
+          ]
+        },
+        {
+          "text": "par:",
+          "confidence": 100.0,
+          "bbox": [
+            344,
+            409,
+            15,
+            12
+          ]
+        },
+        {
+          "text": "Bernard",
+          "confidence": 100.0,
+          "bbox": [
+            362,
+            409,
+            32,
+            12
+          ]
+        },
+        {
+          "text": "Bernier",
+          "confidence": 100.0,
+          "bbox": [
+            397,
+            409,
+            29,
+            12
+          ]
+        },
+        {
+          "text": "Signature:",
+          "confidence": 100.0,
+          "bbox": [
+            48,
+            426,
+            41,
+            12
+          ]
+        },
+        {
+          "text": "______________",
+          "confidence": 100.0,
+          "bbox": [
+            92,
+            426,
+            70,
+            12
+          ]
+        },
+        {
+          "text": "Signature:",
+          "confidence": 100.0,
+          "bbox": [
+            303,
+            426,
+            41,
+            12
+          ]
+        },
+        {
+          "text": "______________",
+          "confidence": 100.0,
+          "bbox": [
+            347,
+            426,
+            70,
+            12
+          ]
+        }
+      ]
+    }
+  ]
+}

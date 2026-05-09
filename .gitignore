@@ -17,16 +17,7 @@ Thumbs.db
 # Claude Code session artifacts
 .claude/
 
-# Real client invoices must NOT be committed
-data/raw/french_invoices/*
-!data/raw/french_invoices/.gitkeep
-!data/raw/french_invoices/MANIFEST.md
-
-# Pipeline intermediates and outputs
-data/processed/*
-!data/processed/.gitkeep
-outputs/extracted/*
-!outputs/extracted/.gitkeep
+# (Dataset is synthetic / non-confidential — committed to repo for reproducibility)
 
 # Jupyter
 .ipynb_checkpoints/

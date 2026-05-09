@@ -1,0 +1,1136 @@
+{
+  "document_name": "Synthetic_MaterialCert_FR_01_scanned",
+  "total_pages": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "page_file": "Synthetic_MaterialCert_FR_01_scanned_p01.png",
+      "engine": "tesseract",
+      "avg_confidence": 42.71,
+      "full_text": "| | | : . aan 7 T-N°.Projet: : Coote. : / . WLO-11641 an . 7 . | 2 csioveoes ; ou © ; me Matiére:.’ 77. Lire L ‘Carbon Steel.A36, ‘ “: . = 127 kg a cs oe vee . | “sy (Nuance: SB EU _ ASTM A805 / EN 10025 | ae Le ‘Composition Chimique (%) muet eee Propriétés Mécaniques. . - : we ; ef . Limite élastique | ,: 721\". Nois eetitfions pata présenie que la matière décrite Srdessis a été cOnrôlé conformément aux ‘|: mi ui ….Spécificatiohs applicables et Satisfait à loutes les exigencés. fe AUK a cans UE insbecteur An dré Mary _ |",
+      "word_count": 112,
+      "words": [
+        {
+          "text": "|",
+          "confidence": 16.0,
+          "bbox": [
+            2143,
+            442,
+            2,
+            2
+          ]
+        },
+        {
+          "text": "|",
+          "confidence": 3.0,
+          "bbox": [
+            2121,
+            464,
+            40,
+            12
+          ]
+        },
+        {
+          "text": "|",
+          "confidence": 46.0,
+          "bbox": [
+            2155,
+            500,
+            3,
+            4
+          ]
+        },
+        {
+          "text": ":",
+          "confidence": 46.0,
+          "bbox": [
+            2114,
+            527,
+            29,
+            8
+          ]
+        },
+        {
+          "text": ".",
+          "confidence": 0.0,
+          "bbox": [
+            2126,
+            552,
+            38,
+            32
+          ]
+        },
+        {
+          "text": "aan",
+          "confidence": 30.0,
+          "bbox": [
+            2131,
+            602,
+            24,
+            36
+          ]
+        },
+        {
+          "text": "7",
+          "confidence": 51.0,
+          "bbox": [
+            2109,
+            666,
+            33,
+            13
+          ]
+        },
+        {
+          "text": "T-N°.Projet:",
+          "confidence": 43.0,
+          "bbox": [
+            2101,
+            700,
+            56,
+            178
+          ]
+        },
+        {
+          "text": ":",
+          "confidence": 62.0,
+          "bbox": [
+            2099,
+            926,
+            12,
+            4
+          ]
+        },
+        {
+          "text": "Coote.",
+          "confidence": 0.0,
+          "bbox": [
+            2107,
+            952,
+            33,
+            96
+          ]
+        },
+        {
+          "text": ":",
+          "confidence": 35.0,
+          "bbox": [
+            2091,
+            1067,
+            35,
+            6
+          ]
+        },
+        {
+          "text": "/",
+          "confidence": 6.0,
+          "bbox": [
+            2100,
+            1084,
+            43,
+            18
+          ]
+        },
+        {
+          "text": ".",
+          "confidence": 45.0,
+          "bbox": [
+            2131,
+            1116,
+            7,
+            8
+          ]
+        },
+        {
+          "text": "WLO-11641",
+          "confidence": 77.0,
+          "bbox": [
+            2085,
+            1138,
+            45,
+            175
+          ]
+        },
+        {
+          "text": "an",
+          "confidence": 48.0,
+          "bbox": [
+            2083,
+            1327,
+            48,
+            46
+          ]
+        },
+        {
+          "text": ".",
+          "confidence": 0.0,
+          "bbox": [
+            2081,
+            1387,
+            44,
+            15
+          ]
+        },
+        {
+          "text": "7",
+          "confidence": 40.0,
+          "bbox": [
+            2075,
+            1424,
+            18,
+            32
+          ]
+        },
+        {
+          "text": ".",
+          "confidence": 74.0,
+          "bbox": [
+            2121,
+            1492,
+            5,
+            4
+          ]
+        },
+        {
+          "text": "|",
+          "confidence": 72.0,
+          "bbox": [
+            2075,
+            1618,
+            4,
+            4
+          ]
+        },
+        {
+          "text": "2",
+          "confidence": 6.0,
+          "bbox": [
+            2067,
+            1928,
+            18,
+            44
+          ]
+        },
+        {
+          "text": "csioveoes",
+          "confidence": 0.0,
+          "bbox": [
+            2046,
+            2006,
+            55,
+            175
+          ]
+        },
+        {
+          "text": ";",
+          "confidence": 33.0,
+          "bbox": [
+            2046,
+            2228,
+            38,
+            15
+          ]
+        },
+        {
+          "text": "ou",
+          "confidence": 3.0,
+          "bbox": [
+            2038,
+            2270,
+            35,
+            78
+          ]
+        },
+        {
+          "text": "©",
+          "confidence": 32.0,
+          "bbox": [
+            2033,
+            2362,
+            58,
+            35
+          ]
+        },
+        {
+          "text": ";",
+          "confidence": 50.0,
+          "bbox": [
+            2042,
+            2442,
+            35,
+            20
+          ]
+        },
+        {
+          "text": "me",
+          "confidence": 14.0,
+          "bbox": [
+            2085,
+            488,
+            22,
+            166
+          ]
+        },
+        {
+          "text": "Matiére:.’",
+          "confidence": 38.0,
+          "bbox": [
+            2037,
+            729,
+            61,
+            141
+          ]
+        },
+        {
+          "text": "77.",
+          "confidence": 4.0,
+          "bbox": [
+            2045,
+            902,
+            42,
+            56
+          ]
+        },
+        {
+          "text": "Lire",
+          "confidence": 39.0,
+          "bbox": [
+            2043,
+            982,
+            41,
+            97
+          ]
+        },
+        {
+          "text": "L",
+          "confidence": 0.0,
+          "bbox": [
+            2031,
+            1098,
+            29,
+            21
+          ]
+        },
+        {
+          "text": "‘Carbon",
+          "confidence": 87.0,
+          "bbox": [
+            2023,
+            1130,
+            53,
+            111
+          ]
+        },
+        {
+          "text": "Steel.A36,",
+          "confidence": 12.0,
+          "bbox": [
+            2022,
+            1252,
+            48,
+            154
+          ]
+        },
+        {
+          "text": "‘",
+          "confidence": 39.0,
+          "bbox": [
+            2052,
+            1501,
+            4,
+            3
+          ]
+        },
+        {
+          "text": "“:",
+          "confidence": 0.0,
+          "bbox": [
+            2010,
+            1525,
+            53,
+            49
+          ]
+        },
+        {
+          "text": ".",
+          "confidence": 0.0,
+          "bbox": [
+            2025,
+            1594,
+            27,
+            16
+          ]
+        },
+        {
+          "text": "=",
+          "confidence": 25.0,
+          "bbox": [
+            2008,
+            1627,
+            49,
+            23
+          ]
+        },
+        {
+          "text": "127",
+          "confidence": 42.0,
+          "bbox": [
+            1996,
+            1933,
+            50,
+            123
+          ]
+        },
+        {
+          "text": "kg",
+          "confidence": 89.0,
+          "bbox": [
+            1994,
+            2067,
+            34,
+            31
+          ]
+        },
+        {
+          "text": "a",
+          "confidence": 11.0,
+          "bbox": [
+            1995,
+            2124,
+            37,
+            42
+          ]
+        },
+        {
+          "text": "cs",
+          "confidence": 0.0,
+          "bbox": [
+            1983,
+            2180,
+            42,
+            36
+          ]
+        },
+        {
+          "text": "oe",
+          "confidence": 46.0,
+          "bbox": [
+            1990,
+            2232,
+            43,
+            96
+          ]
+        },
+        {
+          "text": "vee",
+          "confidence": 19.0,
+          "bbox": [
+            1987,
+            2384,
+            39,
+            60
+          ]
+        },
+        {
+          "text": ".",
+          "confidence": 23.0,
+          "bbox": [
+            1973,
+            2509,
+            26,
+            11
+          ]
+        },
+        {
+          "text": "|",
+          "confidence": 5.0,
+          "bbox": [
+            2032,
+            590,
+            5,
+            4
+          ]
+        },
+        {
+          "text": "“sy",
+          "confidence": 0.0,
+          "bbox": [
+            1969,
+            622,
+            73,
+            62
+          ]
+        },
+        {
+          "text": "(Nuance:",
+          "confidence": 32.0,
+          "bbox": [
+            1983,
+            727,
+            52,
+            127
+          ]
+        },
+        {
+          "text": "SB",
+          "confidence": 0.0,
+          "bbox": [
+            1982,
+            997,
+            45,
+            156
+          ]
+        },
+        {
+          "text": "EU",
+          "confidence": 4.0,
+          "bbox": [
+            1997,
+            1280,
+            12,
+            93
+          ]
+        },
+        {
+          "text": "_",
+          "confidence": 38.0,
+          "bbox": [
+            1993,
+            1528,
+            4,
+            45
+          ]
+        },
+        {
+          "text": "ASTM",
+          "confidence": 96.0,
+          "bbox": [
+            1919,
+            1999,
+            62,
+            79
+          ]
+        },
+        {
+          "text": "A805",
+          "confidence": 90.0,
+          "bbox": [
+            1931,
+            2098,
+            35,
+            73
+          ]
+        },
+        {
+          "text": "/",
+          "confidence": 92.0,
+          "bbox": [
+            1929,
+            2181,
+            33,
+            14
+          ]
+        },
+        {
+          "text": "EN",
+          "confidence": 95.0,
+          "bbox": [
+            1926,
+            2206,
+            43,
+            38
+          ]
+        },
+        {
+          "text": "10025",
+          "confidence": 75.0,
+          "bbox": [
+            1924,
+            2258,
+            46,
+            84
+          ]
+        },
+        {
+          "text": "|",
+          "confidence": 28.0,
+          "bbox": [
+            1929,
+            2364,
+            34,
+            21
+          ]
+        },
+        {
+          "text": "ae",
+          "confidence": 47.0,
+          "bbox": [
+            1917,
+            2507,
+            47,
+            97
+          ]
+        },
+        {
+          "text": "Le",
+          "confidence": 36.0,
+          "bbox": [
+            1836,
+            532,
+            47,
+            138
+          ]
+        },
+        {
+          "text": "‘Composition",
+          "confidence": 35.0,
+          "bbox": [
+            1810,
+            684,
+            87,
+            302
+          ]
+        },
+        {
+          "text": "Chimique",
+          "confidence": 69.0,
+          "bbox": [
+            1819,
+            1006,
+            57,
+            182
+          ]
+        },
+        {
+          "text": "(%)",
+          "confidence": 91.0,
+          "bbox": [
+            1814,
+            1209,
+            48,
+            65
+          ]
+        },
+        {
+          "text": "muet",
+          "confidence": 23.0,
+          "bbox": [
+            1584,
+            437,
+            58,
+            140
+          ]
+        },
+        {
+          "text": "eee",
+          "confidence": 23.0,
+          "bbox": [
+            1593,
+            614,
+            42,
+            93
+          ]
+        },
+        {
+          "text": "Propriétés",
+          "confidence": 96.0,
+          "bbox": [
+            1567,
+            715,
+            63,
+            210
+          ]
+        },
+        {
+          "text": "Mécaniques.",
+          "confidence": 83.0,
+          "bbox": [
+            1558,
+            941,
+            59,
+            265
+          ]
+        },
+        {
+          "text": ".",
+          "confidence": 41.0,
+          "bbox": [
+            1567,
+            1228,
+            5,
+            4
+          ]
+        },
+        {
+          "text": "-",
+          "confidence": 66.0,
+          "bbox": [
+            1551,
+            1249,
+            43,
+            29
+          ]
+        },
+        {
+          "text": ":",
+          "confidence": 66.0,
+          "bbox": [
+            1523,
+            2432,
+            27,
+            11
+          ]
+        },
+        {
+          "text": "we",
+          "confidence": 7.0,
+          "bbox": [
+            1545,
+            568,
+            9,
+            63
+          ]
+        },
+        {
+          "text": ";",
+          "confidence": 46.0,
+          "bbox": [
+            1505,
+            658,
+            6,
+            4
+          ]
+        },
+        {
+          "text": "ef",
+          "confidence": 44.0,
+          "bbox": [
+            1523,
+            686,
+            34,
+            81
+          ]
+        },
+        {
+          "text": ".",
+          "confidence": 54.0,
+          "bbox": [
+            1507,
+            788,
+            6,
+            4
+          ]
+        },
+        {
+          "text": "Limite",
+          "confidence": 96.0,
+          "bbox": [
+            1487,
+            811,
+            58,
+            87
+          ]
+        },
+        {
+          "text": "élastique",
+          "confidence": 91.0,
+          "bbox": [
+            1491,
+            907,
+            37,
+            124
+          ]
+        },
+        {
+          "text": "|",
+          "confidence": 87.0,
+          "bbox": [
+            1426,
+            2436,
+            8,
+            9
+          ]
+        },
+        {
+          "text": ",:",
+          "confidence": 15.0,
+          "bbox": [
+            1293,
+            526,
+            52,
+            27
+          ]
+        },
+        {
+          "text": "721\".",
+          "confidence": 34.0,
+          "bbox": [
+            1285,
+            603,
+            46,
+            49
+          ]
+        },
+        {
+          "text": "Nois",
+          "confidence": 30.0,
+          "bbox": [
+            1281,
+            690,
+            60,
+            164
+          ]
+        },
+        {
+          "text": "eetitfions",
+          "confidence": 30.0,
+          "bbox": [
+            1252,
+            799,
+            98,
+            132
+          ]
+        },
+        {
+          "text": "pata",
+          "confidence": 74.0,
+          "bbox": [
+            1277,
+            954,
+            51,
+            83
+          ]
+        },
+        {
+          "text": "présenie",
+          "confidence": 53.0,
+          "bbox": [
+            1267,
+            1049,
+            56,
+            209
+          ]
+        },
+        {
+          "text": "que",
+          "confidence": 95.0,
+          "bbox": [
+            1243,
+            1206,
+            84,
+            42
+          ]
+        },
+        {
+          "text": "la",
+          "confidence": 95.0,
+          "bbox": [
+            1271,
+            1269,
+            31,
+            27
+          ]
+        },
+        {
+          "text": "matière",
+          "confidence": 87.0,
+          "bbox": [
+            1261,
+            1307,
+            52,
+            118
+          ]
+        },
+        {
+          "text": "décrite",
+          "confidence": 1.0,
+          "bbox": [
+            1260,
+            1436,
+            41,
+            107
+          ]
+        },
+        {
+          "text": "Srdessis",
+          "confidence": 0.0,
+          "bbox": [
+            1239,
+            1554,
+            49,
+            182
+          ]
+        },
+        {
+          "text": "a",
+          "confidence": 93.0,
+          "bbox": [
+            1211,
+            1718,
+            81,
+            15
+          ]
+        },
+        {
+          "text": "été",
+          "confidence": 84.0,
+          "bbox": [
+            1241,
+            1746,
+            40,
+            49
+          ]
+        },
+        {
+          "text": "cOnrôlé",
+          "confidence": 54.0,
+          "bbox": [
+            1235,
+            1813,
+            50,
+            120
+          ]
+        },
+        {
+          "text": "conformément",
+          "confidence": 4.0,
+          "bbox": [
+            1226,
+            1968,
+            60,
+            226
+          ]
+        },
+        {
+          "text": "aux",
+          "confidence": 4.0,
+          "bbox": [
+            1222,
+            2204,
+            32,
+            57
+          ]
+        },
+        {
+          "text": "‘|:",
+          "confidence": 20.0,
+          "bbox": [
+            1215,
+            2300,
+            55,
+            194
+          ]
+        },
+        {
+          "text": "mi",
+          "confidence": 28.0,
+          "bbox": [
+            1205,
+            2522,
+            47,
+            157
+          ]
+        },
+        {
+          "text": "ui",
+          "confidence": 0.0,
+          "bbox": [
+            1261,
+            515,
+            26,
+            43
+          ]
+        },
+        {
+          "text": "….Spécificatiohs",
+          "confidence": 36.0,
+          "bbox": [
+            1238,
+            666,
+            43,
+            183
+          ]
+        },
+        {
+          "text": "applicables",
+          "confidence": 94.0,
+          "bbox": [
+            1223,
+            877,
+            52,
+            226
+          ]
+        },
+        {
+          "text": "et",
+          "confidence": 96.0,
+          "bbox": [
+            1227,
+            1115,
+            34,
+            29
+          ]
+        },
+        {
+          "text": "Satisfait",
+          "confidence": 87.0,
+          "bbox": [
+            1214,
+            1155,
+            47,
+            154
+          ]
+        },
+        {
+          "text": "à",
+          "confidence": 93.0,
+          "bbox": [
+            1191,
+            1292,
+            74,
+            14
+          ]
+        },
+        {
+          "text": "loutes",
+          "confidence": 79.0,
+          "bbox": [
+            1223,
+            1318,
+            31,
+            95
+          ]
+        },
+        {
+          "text": "les",
+          "confidence": 93.0,
+          "bbox": [
+            1214,
+            1425,
+            37,
+            41
+          ]
+        },
+        {
+          "text": "exigencés.",
+          "confidence": 61.0,
+          "bbox": [
+            1200,
+            1475,
+            48,
+            175
+          ]
+        },
+        {
+          "text": "fe",
+          "confidence": 0.0,
+          "bbox": [
+            1199,
+            1764,
+            31,
+            358
+          ]
+        },
+        {
+          "text": "AUK",
+          "confidence": 0.0,
+          "bbox": [
+            1200,
+            2222,
+            6,
+            4
+          ]
+        },
+        {
+          "text": "a",
+          "confidence": 5.0,
+          "bbox": [
+            1163,
+            2500,
+            45,
+            172
+          ]
+        },
+        {
+          "text": "cans",
+          "confidence": 29.0,
+          "bbox": [
+            1078,
+            427,
+            57,
+            125
+          ]
+        },
+        {
+          "text": "UE",
+          "confidence": 0.0,
+          "bbox": [
+            1072,
+            571,
+            58,
+            72
+          ]
+        },
+        {
+          "text": "insbecteur",
+          "confidence": 3.0,
+          "bbox": [
+            1062,
+            659,
+            61,
+            209
+          ]
+        },
+        {
+          "text": "An",
+          "confidence": 59.0,
+          "bbox": [
+            1058,
+            835,
+            90,
+            38
+          ]
+        },
+        {
+          "text": "dré",
+          "confidence": 85.0,
+          "bbox": [
+            1057,
+            870,
+            50,
+            46
+          ]
+        },
+        {
+          "text": "Mary",
+          "confidence": 72.0,
+          "bbox": [
+            1062,
+            926,
+            47,
+            72
+          ]
+        },
+        {
+          "text": "_",
+          "confidence": 33.0,
+          "bbox": [
+            1026,
+            2096,
+            37,
+            93
+          ]
+        },
+        {
+          "text": "|",
+          "confidence": 96.0,
+          "bbox": [
+            991,
+            2618,
+            6,
+            4
+          ]
+        }
+      ]
+    }
+  ]
+}

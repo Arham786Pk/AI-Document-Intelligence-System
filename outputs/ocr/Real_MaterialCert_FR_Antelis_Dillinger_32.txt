@@ -1,0 +1,535 @@
+# OCR Results: Real_MaterialCert_FR_Antelis_Dillinger_32
+# Total pages: 4
+
+================================================================================
+Page 1: Real_MaterialCert_FR_Antelis_Dillinger_32_p01.pdf-text
+Engine: tesseract
+Confidence: 100.0%
+Words: 336
+--------------------------------------------------------------------------------
+A02
+A05
+B02/
+A06
+A10
+A07.1
+A08/
+A03
+B01
+A01
+Erläuterungen siehe Rückseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate)
+A07.2
+B03
+QM-Système: Certification selon ISO 9001
+CERTIFICAT DE RECEPTION    3.2 SELON EN  10204:2004
+Avis d'expédition No./
+Date d'expédition
+Référence usine/
+No. Certificat
+Page
+CERTIFICAT DE RECEPTION    3.2 SELON ISO 10474:2013
+651892-26.09.18
+ 438251-001
+59003730
+Aut.du doc.  Org. réception
+Client
+No.
+Produit
+VLNC
+TOLES FORTES
+ANTELIS,LEUDELANGE 
+Destinataire
+No.
+S355G10+N
+Désign. acier
+EN-10225:09
+Prescriptions
+supplément.
+AG der Dillinger Hüttenwerke
+Postfach 1580, D-66748 Dillingen/Saar
+for DNV GL
+This document has been digitally signed and
+DNV GL Cert. no. 33-11180 IDHH
+Service réception
+will therefore not have handwritten
+signatures.
+DR. CH. KÖNIG
+Brück, Roland
+Marque du
+26.09.18
+ML
+ 1
+producteur
+L'agent réceptionaire
+Responsable Réception
+Poinçon récept.
+B01-B99 Description du produit
+du produit
+de pièces 
+coulée
+B07.1
+No. tôle mère/
+No. d'essai
+A09
+Numéro d'article du client
+B14
+B08
+B09
+B10
+Poste
+Nombre
+Epaisseur
+Largeur
+B11
+No.
+Longueur
+B12
+Masse
+théorique
+B04
+Etat de livraison
+B07.2
+No. de
+MM
+KG
+01
+1   180,00   x 2460
+x  4500
+15642  N
+460073
+59173-01
+***
+1
+15642  Masse effective: 15940 KG
+B04 Etat de livraison du produit
+POSTE NO.: 01
+N: HT: 910 GR.C +20 -15 GR.C
+DUREE DE MISE EN TEMPERATURE POUR ATTEINDRE LA TEMPERATURE VISEE DANS TOUTE LA SECTION: 1-1,75 MIN/MM (25-45 MIN/INCH)
+REFROIDISSEMENT A L'AIR CALME
+B06 Marquage du produit
+POSTE NO.: 01
+DESIGNATION DE L'ACIER
+S355G10+N
+NO. DE COULEE / SIGLE DU PRODUCTEUR / NO. TOLE MERE-NO. D'ESSAI / POINCON DE L'AGENT RECEPTIONNAIRE
+C10-C29 Essai de traction
+RM
+C11
+C13
+C01
+C12
+C14-C15
+C03
+Temp.
+Coulée
+B14
+B07.2
+PosteNo. de
+B05
+No.
+Traitement (thermique) de référence
+C01
+C02/
+B07.1
+No.tôle mère/
+No.d'essai
+C10
+GR.C
+MPA
+REH
+L0=5D
+A
+%
+REH/RM
+Z
+%
+01 460073 59173
+K4 QV   RT    330
+484
+33
+0,68
+01 460073 59177 *
+K2 SV   RT
+481
+79,0
+*
+K2 SV   RT
+480
+79,9
+*
+K2 SV   RT
+481
+79,6
+  1/...
+A04
+Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande.
+Date
+
+================================================================================
+Page 2: Real_MaterialCert_FR_Antelis_Dillinger_32_p02.pdf-text
+Engine: tesseract
+Confidence: 100.0%
+Words: 335
+--------------------------------------------------------------------------------
+A02
+A05
+B02/
+A06
+A10
+A07.1
+A08/
+A03
+B01
+A01
+Erläuterungen siehe Rückseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate)
+A07.2
+B03
+QM-Système: Certification selon ISO 9001
+CERTIFICAT DE RECEPTION    3.2 SELON EN  10204:2004
+Avis d'expédition No./
+Date d'expédition
+Référence usine/
+No. Certificat
+Page
+CERTIFICAT DE RECEPTION    3.2 SELON ISO 10474:2013
+651892-26.09.18
+ 438251-001
+59003730
+Aut.du doc.  Org. réception
+Client
+No.
+Produit
+VLNC
+TOLES FORTES
+ANTELIS,LEUDELANGE 
+Destinataire
+No.
+S355G10+N
+Désign. acier
+EN-10225:09
+Prescriptions
+supplément.
+AG der Dillinger Hüttenwerke
+Postfach 1580, D-66748 Dillingen/Saar
+for DNV GL
+This document has been digitally signed and
+DNV GL Cert. no. 33-11180 IDHH
+Service réception
+will therefore not have handwritten
+signatures.
+DR. CH. KÖNIG
+Brück, Roland
+Marque du
+26.09.18
+ML
+ 1
+producteur
+L'agent réceptionaire
+Responsable Réception
+Poinçon récept.
+C40-C49 Essai de résilience
+C46
+Energie
+C43
+C41
+Largeur l'
+éprouvette
+C40
+Type de
+l'éprouvette
+C45
+Valeur
+C01
+C44
+Méthode d'essai
+C42
+Valeurs individuelles
+C03
+Temp.
+coulée
+B14
+B07.2
+Poste
+No. de
+B05
+No.
+Traitement (thermique) de référence
+C01
+C02/
+B07.1
+No.tôle mère/
+No. d'essai
+moyenne
+GR.C
+AV=J
+Joule
+01   460073  59173
+K4  QM   -30
+CHP-V
+750   AV 2  136
+198
+215
+183
+K4  QO   -40
+CHP-V
+750   AV 2  274
+234
+234
+247
+01   460073  59177  *
+K4  QM   -30
+CHP-V
+750   AV 2  246
+193
+198
+212
+*
+K4  QO   -40
+CHP-V
+750   AV 2  287
+270
+247
+268
+C70-C99 Composition chimique % - Analyse sur coulée
+B07.2
+Coulée
+C70
+C
+SI
+MN
+P
+S
+N
+CU
+MO
+NI
+CR
+V
+NB
+AS
+SN
+460073
+Y
+0,094   0,482   1,562   0,012   0,0006  0,0032  0,213   0,015   0,317   0,051   0,001   0,020   0,0037  0,0024
+B07.2
+Coulée
+C70
+TI
+PB
+B
+SB
+CA
+BI
+AL-T
+460073
+Y
+0,003   0,0007  0,0004  0,0009  0,0009  0,0001  0,030
+C94 Analyse sur coulée   Carbone équivalent / Limitation d'alliage
+B07.2
+Coulée
+460073
+FO-31=   0,21   FO-51=   0,02   FO-52=   0,02   FO-A1=   9
+C95 Traitement de la coulée
+POSTE NO.: 01
+COULEE DU POSTE MENTIONNE: DEGAZAGE SOUS VIDE
+  2/...
+A04
+Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande.
+Date
+
+================================================================================
+Page 3: Real_MaterialCert_FR_Antelis_Dillinger_32_p03.pdf-text
+Engine: tesseract
+Confidence: 100.0%
+Words: 311
+--------------------------------------------------------------------------------
+A02
+A05
+B02/
+A06
+A10
+A07.1
+A08/
+A03
+B01
+A01
+Erläuterungen siehe Rückseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate)
+A07.2
+B03
+QM-Système: Certification selon ISO 9001
+CERTIFICAT DE RECEPTION    3.2 SELON EN  10204:2004
+Avis d'expédition No./
+Date d'expédition
+Référence usine/
+No. Certificat
+Page
+CERTIFICAT DE RECEPTION    3.2 SELON ISO 10474:2013
+651892-26.09.18
+ 438251-001
+59003730
+Aut.du doc.  Org. réception
+Client
+No.
+Produit
+VLNC
+TOLES FORTES
+ANTELIS,LEUDELANGE 
+Destinataire
+No.
+S355G10+N
+Désign. acier
+EN-10225:09
+Prescriptions
+supplément.
+AG der Dillinger Hüttenwerke
+Postfach 1580, D-66748 Dillingen/Saar
+for DNV GL
+This document has been digitally signed and
+DNV GL Cert. no. 33-11180 IDHH
+Service réception
+will therefore not have handwritten
+signatures.
+DR. CH. KÖNIG
+Brück, Roland
+Marque du
+26.09.18
+ML
+ 1
+producteur
+L'agent réceptionaire
+Responsable Réception
+Poinçon récept.
+C70-C99 Composition chimique % - Analyse sur produit
+C01
+No.essai
+B07.2
+B07.1
+Coulée
+C
+SI
+MN
+P
+S
+N
+CU
+MO
+NI
+CR
+V
+NB
+TI
+B
+460073 59173
+K4   0,087   0,468   1,55    0,011   0,0007  0,0026  0,212   0,014   0,318   0,049   0,001   0,019   0,002   0,0003
+460073 59177
+K4   0,089   0,475   1,56    0,011   0,0003  0,0025  0,212   0,014   0,314   0,049   0,001   0,020   0,002   0,0004
+C01
+No.essai
+B07.2
+B07.1
+Coulée
+AL-T
+460073 59173
+K4   0,032
+460073 59177
+K4   0,033
+C94 Analyse sur produit  Carbone équivalent / Limitation d'alliage
+C01
+No.essai
+B07.2
+B07.1
+Coulée
+460073 59173
+K4  FO-31=   0,20   FO-51=   0,02   FO-52=   0,02   FO-A1=  12
+460073 59177
+K4  FO-31=   0,20   FO-51=   0,02   FO-52=   0,02   FO-A1=  13
+C94 Formule carbone équivalent / Limitation d'alliage
+FO-31 = C+SI/30+(MN+CR+CU)/20+MO/15+V/10+NI/60+5B
+FO-51 = V +NB
+FO-52 = V +NB+TI
+FO-A1 = AT/N
+D01 Marquage et identification, aspect de surface, forme et caractéristiques dimensionnelles 
+POSTE NO.: 01
+CONTROLE DE MARQUAGE, SURFACE, FORME ET DIMENSIONS: LES RESULTATS REPONDENT AUX EXIGENCES.
+SURFACE             SELON EN-10225
+EPAISSEUR           SELON EN-10029:10-A
+LONGUEUR ET LARGEUR SELON EN-10029:10
+PLANEITE            SELON EN-10225-L
+  3/...
+A04
+Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande.
+Date
+
+================================================================================
+Page 4: Real_MaterialCert_FR_Antelis_Dillinger_32_p04.pdf-text
+Engine: tesseract
+Confidence: 100.0%
+Words: 191
+--------------------------------------------------------------------------------
+A02
+A05
+B02/
+A06
+A10
+A07.1
+A08/
+A03
+B01
+A01
+Erläuterungen siehe Rückseite/Explications voir au verso/See reverse for explanations (www.dillinger.de/certificate)
+A07.2
+B03
+QM-Système: Certification selon ISO 9001
+CERTIFICAT DE RECEPTION    3.2 SELON EN  10204:2004
+Avis d'expédition No./
+Date d'expédition
+Référence usine/
+No. Certificat
+Page
+CERTIFICAT DE RECEPTION    3.2 SELON ISO 10474:2013
+651892-26.09.18
+ 438251-001
+59003730
+Aut.du doc.  Org. réception
+Client
+No.
+Produit
+VLNC
+TOLES FORTES
+ANTELIS,LEUDELANGE 
+Destinataire
+No.
+S355G10+N
+Désign. acier
+EN-10225:09
+Prescriptions
+supplément.
+AG der Dillinger Hüttenwerke
+Postfach 1580, D-66748 Dillingen/Saar
+for DNV GL
+This document has been digitally signed and
+DNV GL Cert. no. 33-11180 IDHH
+Service réception
+will therefore not have handwritten
+signatures.
+DR. CH. KÖNIG
+Brück, Roland
+Marque du
+26.09.18
+ML
+ 1
+producteur
+L'agent réceptionaire
+Responsable Réception
+Poinçon récept.
+D02 Essais non déstructifs - Contrôle aux ultrasons
+POSTE NO.: 01
+SPECIFICATION-US        : EN-10160 CLASSE S1 ET E2
+PLAN DE SONDAGE  CORPS  : LIGNES LONGITUDINALES ESPACEES DE 100 MM
+RIVES  : 100 MM
+QUALIFICATION DES AGENTS: NIVEAU 2 SELON ISO 9712
+LE RESULTAT DU SONDAGE EST CONFORME AUX PRESCRITIONS DE LA COMMANDE.
+  4
+A04
+Z01/Z02/Z03 Nous attestons que les produits livrés sont conformes aux stipulations de la commande.
+Date
+

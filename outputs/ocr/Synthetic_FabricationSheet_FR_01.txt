@@ -1,0 +1,67 @@
+# OCR Results: Synthetic_FabricationSheet_FR_01
+# Total pages: 1
+
+================================================================================
+Page 1: Synthetic_FabricationSheet_FR_01_p01.pdf-text
+Engine: tesseract
+Confidence: 100.0%
+Words: 120
+--------------------------------------------------------------------------------
+Laurent et Fils Ingénierie
+FICHE DE FABRICATION
+N° Projet:
+PO-9326
+Date:
+14/09/2024
+Fournisseur:
+Moulin
+N° Commande:
+PO-82512
+Client:
+Joly Gallet SA
+Inspecteur:
+Aurore Maury-Briand
+Nomenclature
+Art.
+N° Pièce
+Désignation
+Matière
+Quantité
+Spécification
+1
+P-1188
+Integrate Proactive Infrastruc
+Duplex 2205
+149.58 lbs
+ASTM A-798
+2
+P-9797
+Architect Bleeding-Edge Mindsh
+Aluminium 6061-T6
+50 units
+ASTM A-448
+3
+P-2827
+Expedite Proactive Schemas
+Aluminium 6061-T6
+28 kg
+ASTM A-564
+4
+P-1053
+Aggregate Next-Generation E-Se
+Monel 400
+47 m
+ASTM A-612
+5
+P-3927
+Grow Efficient Synergies
+Hastelloy C-276
+7 units
+ASTM A-405
+Notes : Toutes les matières sont inspectées selon la procédure QA-FAB-001. Les détails de soudage sont
+précisés dans le DMOS joint.
+Préparé par: Marcel Leblanc
+Approuvé par: Denis-Franck Ledoux
+Signature: ______________
+Signature: ______________
+

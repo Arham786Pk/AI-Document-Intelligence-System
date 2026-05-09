@@ -1,0 +1,1086 @@
+{
+  "document_name": "Synthetic_InspectionReport_FR_01_scanned",
+  "total_pages": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "page_file": "Synthetic_InspectionReport_FR_01_scanned_p01.png",
+      "engine": "tesseract",
+      "avg_confidence": 49.52,
+      "full_text": ": “Report Nou IR- 64387, nu Î N° Projet: . So \"Date inspections,” 7 É * Fôurisseur: ; Wagner Le Golf SA, Fret . : _ ‘Inspecteur: = we Matière: | ‘Carbon Steel A36 Re “Quant | ‘ Constats d' Inspection . | ae : Fe an oe Résiltat . oe a] Contrôle dimensionnel selon . Eh ss er CONFÔRME : “ | DS . Bet Contrélevisuel dés soudures (AWS D Di. 1) | CONFORME ù .CONFORME | T'CONFORME. re | CONFORME: | cut, Résultat globa = arta mineurs ci-dessus. :! meet * Apptouyé par. Laure Berend | ser ets . Signature: a == ie hit CU",
+      "word_count": 107,
+      "words": [
+        {
+          "text": ":",
+          "confidence": 10.0,
+          "bbox": [
+            2163,
+            616,
+            52,
+            12
+          ]
+        },
+        {
+          "text": "“Report",
+          "confidence": 46.0,
+          "bbox": [
+            2130,
+            674,
+            91,
+            137
+          ]
+        },
+        {
+          "text": "Nou",
+          "confidence": 54.0,
+          "bbox": [
+            2123,
+            823,
+            101,
+            82
+          ]
+        },
+        {
+          "text": "IR-",
+          "confidence": 82.0,
+          "bbox": [
+            2147,
+            894,
+            45,
+            49
+          ]
+        },
+        {
+          "text": "64387,",
+          "confidence": 75.0,
+          "bbox": [
+            2129,
+            946,
+            83,
+            118
+          ]
+        },
+        {
+          "text": "nu",
+          "confidence": 0.0,
+          "bbox": [
+            2076,
+            483,
+            21,
+            16
+          ]
+        },
+        {
+          "text": "Î",
+          "confidence": 51.0,
+          "bbox": [
+            2104,
+            641,
+            4,
+            4
+          ]
+        },
+        {
+          "text": "N°",
+          "confidence": 91.0,
+          "bbox": [
+            2060,
+            672,
+            45,
+            34
+          ]
+        },
+        {
+          "text": "Projet:",
+          "confidence": 91.0,
+          "bbox": [
+            2055,
+            717,
+            61,
+            100
+          ]
+        },
+        {
+          "text": ".",
+          "confidence": 90.0,
+          "bbox": [
+            2075,
+            831,
+            4,
+            6
+          ]
+        },
+        {
+          "text": "So",
+          "confidence": 20.0,
+          "bbox": [
+            2047,
+            1482,
+            48,
+            141
+          ]
+        },
+        {
+          "text": "\"Date",
+          "confidence": 42.0,
+          "bbox": [
+            2027,
+            1648,
+            63,
+            91
+          ]
+        },
+        {
+          "text": "inspections,”",
+          "confidence": 51.0,
+          "bbox": [
+            2027,
+            1746,
+            76,
+            226
+          ]
+        },
+        {
+          "text": "7",
+          "confidence": 46.0,
+          "bbox": [
+            2013,
+            2003,
+            71,
+            16
+          ]
+        },
+        {
+          "text": "É",
+          "confidence": 81.0,
+          "bbox": [
+            2037,
+            2585,
+            21,
+            17
+          ]
+        },
+        {
+          "text": "*",
+          "confidence": 56.0,
+          "bbox": [
+            2028,
+            652,
+            15,
+            9
+          ]
+        },
+        {
+          "text": "Fôurisseur:",
+          "confidence": 14.0,
+          "bbox": [
+            1991,
+            674,
+            72,
+            192
+          ]
+        },
+        {
+          "text": ";",
+          "confidence": 41.0,
+          "bbox": [
+            2003,
+            920,
+            4,
+            6
+          ]
+        },
+        {
+          "text": "Wagner",
+          "confidence": 22.0,
+          "bbox": [
+            1990,
+            1047,
+            84,
+            124
+          ]
+        },
+        {
+          "text": "Le",
+          "confidence": 89.0,
+          "bbox": [
+            1994,
+            1180,
+            53,
+            39
+          ]
+        },
+        {
+          "text": "Golf",
+          "confidence": 57.0,
+          "bbox": [
+            1987,
+            1221,
+            71,
+            64
+          ]
+        },
+        {
+          "text": "SA,",
+          "confidence": 77.0,
+          "bbox": [
+            1979,
+            1294,
+            75,
+            76
+          ]
+        },
+        {
+          "text": "Fret",
+          "confidence": 6.0,
+          "bbox": [
+            1986,
+            1422,
+            39,
+            108
+          ]
+        },
+        {
+          "text": ".",
+          "confidence": 0.0,
+          "bbox": [
+            2022,
+            1553,
+            13,
+            12
+          ]
+        },
+        {
+          "text": ":",
+          "confidence": 50.0,
+          "bbox": [
+            1931,
+            1611,
+            92,
+            20
+          ]
+        },
+        {
+          "text": "_",
+          "confidence": 74.0,
+          "bbox": [
+            1972,
+            1635,
+            5,
+            2
+          ]
+        },
+        {
+          "text": "‘Inspecteur:",
+          "confidence": 38.0,
+          "bbox": [
+            1968,
+            1657,
+            64,
+            194
+          ]
+        },
+        {
+          "text": "=",
+          "confidence": 2.0,
+          "bbox": [
+            1962,
+            2595,
+            10,
+            15
+          ]
+        },
+        {
+          "text": "we",
+          "confidence": 30.0,
+          "bbox": [
+            1948,
+            480,
+            55,
+            80
+          ]
+        },
+        {
+          "text": "Matière:",
+          "confidence": 75.0,
+          "bbox": [
+            1928,
+            651,
+            77,
+            140
+          ]
+        },
+        {
+          "text": "|",
+          "confidence": 82.0,
+          "bbox": [
+            1979,
+            923,
+            4,
+            3
+          ]
+        },
+        {
+          "text": "‘Carbon",
+          "confidence": 77.0,
+          "bbox": [
+            1935,
+            1045,
+            51,
+            117
+          ]
+        },
+        {
+          "text": "Steel",
+          "confidence": 81.0,
+          "bbox": [
+            1930,
+            1170,
+            53,
+            174
+          ]
+        },
+        {
+          "text": "A36",
+          "confidence": 10.0,
+          "bbox": [
+            1926,
+            1257,
+            61,
+            47
+          ]
+        },
+        {
+          "text": "Re",
+          "confidence": 12.0,
+          "bbox": [
+            1927,
+            1346,
+            50,
+            131
+          ]
+        },
+        {
+          "text": "“Quant",
+          "confidence": 0.0,
+          "bbox": [
+            1900,
+            1635,
+            77,
+            143
+          ]
+        },
+        {
+          "text": "|",
+          "confidence": 85.0,
+          "bbox": [
+            1939,
+            2604,
+            4,
+            3
+          ]
+        },
+        {
+          "text": "‘",
+          "confidence": 67.0,
+          "bbox": [
+            1827,
+            656,
+            25,
+            9
+          ]
+        },
+        {
+          "text": "Constats",
+          "confidence": 87.0,
+          "bbox": [
+            1785,
+            699,
+            86,
+            178
+          ]
+        },
+        {
+          "text": "d'",
+          "confidence": 90.0,
+          "bbox": [
+            1801,
+            889,
+            53,
+            36
+          ]
+        },
+        {
+          "text": "Inspection",
+          "confidence": 87.0,
+          "bbox": [
+            1766,
+            924,
+            93,
+            207
+          ]
+        },
+        {
+          "text": ".",
+          "confidence": 77.0,
+          "bbox": [
+            1769,
+            1155,
+            84,
+            18
+          ]
+        },
+        {
+          "text": "|",
+          "confidence": 79.0,
+          "bbox": [
+            1764,
+            458,
+            7,
+            4
+          ]
+        },
+        {
+          "text": "ae",
+          "confidence": 34.0,
+          "bbox": [
+            1716,
+            490,
+            109,
+            78
+          ]
+        },
+        {
+          "text": ":",
+          "confidence": 7.0,
+          "bbox": [
+            1737,
+            546,
+            32,
+            19
+          ]
+        },
+        {
+          "text": "Fe",
+          "confidence": 46.0,
+          "bbox": [
+            1702,
+            616,
+            117,
+            361
+          ]
+        },
+        {
+          "text": "an",
+          "confidence": 38.0,
+          "bbox": [
+            1705,
+            1007,
+            49,
+            59
+          ]
+        },
+        {
+          "text": "oe",
+          "confidence": 13.0,
+          "bbox": [
+            1695,
+            1444,
+            49,
+            89
+          ]
+        },
+        {
+          "text": "Résiltat",
+          "confidence": 75.0,
+          "bbox": [
+            1687,
+            1560,
+            63,
+            126
+          ]
+        },
+        {
+          "text": ".",
+          "confidence": 36.0,
+          "bbox": [
+            1695,
+            448,
+            6,
+            4
+          ]
+        },
+        {
+          "text": "oe",
+          "confidence": 40.0,
+          "bbox": [
+            1665,
+            562,
+            40,
+            55
+          ]
+        },
+        {
+          "text": "a]",
+          "confidence": 30.0,
+          "bbox": [
+            1651,
+            639,
+            64,
+            103
+          ]
+        },
+        {
+          "text": "Contrôle",
+          "confidence": 85.0,
+          "bbox": [
+            1663,
+            762,
+            37,
+            108
+          ]
+        },
+        {
+          "text": "dimensionnel",
+          "confidence": 67.0,
+          "bbox": [
+            1648,
+            879,
+            54,
+            168
+          ]
+        },
+        {
+          "text": "selon",
+          "confidence": 67.0,
+          "bbox": [
+            1647,
+            1057,
+            47,
+            76
+          ]
+        },
+        {
+          "text": ".",
+          "confidence": 65.0,
+          "bbox": [
+            1659,
+            1236,
+            4,
+            4
+          ]
+        },
+        {
+          "text": "Eh",
+          "confidence": 9.0,
+          "bbox": [
+            1647,
+            1326,
+            43,
+            33
+          ]
+        },
+        {
+          "text": "ss",
+          "confidence": 0.0,
+          "bbox": [
+            1626,
+            1333,
+            64,
+            74
+          ]
+        },
+        {
+          "text": "er",
+          "confidence": 29.0,
+          "bbox": [
+            1646,
+            1427,
+            40,
+            102
+          ]
+        },
+        {
+          "text": "CONFÔRME",
+          "confidence": 28.0,
+          "bbox": [
+            1635,
+            1548,
+            54,
+            163
+          ]
+        },
+        {
+          "text": ":",
+          "confidence": 70.0,
+          "bbox": [
+            1645,
+            1728,
+            24,
+            10
+          ]
+        },
+        {
+          "text": "“",
+          "confidence": 0.0,
+          "bbox": [
+            1634,
+            2484,
+            29,
+            17
+          ]
+        },
+        {
+          "text": "|",
+          "confidence": 74.0,
+          "bbox": [
+            1611,
+            2592,
+            6,
+            4
+          ]
+        },
+        {
+          "text": "DS",
+          "confidence": 36.0,
+          "bbox": [
+            1607,
+            466,
+            44,
+            94
+          ]
+        },
+        {
+          "text": ".",
+          "confidence": 43.0,
+          "bbox": [
+            1620,
+            582,
+            35,
+            8
+          ]
+        },
+        {
+          "text": "Bet",
+          "confidence": 27.0,
+          "bbox": [
+            1546,
+            603,
+            109,
+            152
+          ]
+        },
+        {
+          "text": "Contrélevisuel",
+          "confidence": 31.0,
+          "bbox": [
+            1582,
+            761,
+            65,
+            189
+          ]
+        },
+        {
+          "text": "dés",
+          "confidence": 96.0,
+          "bbox": [
+            1594,
+            958,
+            49,
+            46
+          ]
+        },
+        {
+          "text": "soudures",
+          "confidence": 74.0,
+          "bbox": [
+            1578,
+            1007,
+            65,
+            124
+          ]
+        },
+        {
+          "text": "(AWS",
+          "confidence": 64.0,
+          "bbox": [
+            1598,
+            1141,
+            57,
+            72
+          ]
+        },
+        {
+          "text": "D",
+          "confidence": 90.0,
+          "bbox": [
+            1650,
+            1221,
+            7,
+            21
+          ]
+        },
+        {
+          "text": "Di.",
+          "confidence": 69.0,
+          "bbox": [
+            1600,
+            1224,
+            48,
+            42
+          ]
+        },
+        {
+          "text": "1)",
+          "confidence": 50.0,
+          "bbox": [
+            1589,
+            1265,
+            59,
+            41
+          ]
+        },
+        {
+          "text": "|",
+          "confidence": 49.0,
+          "bbox": [
+            1618,
+            1481,
+            11,
+            37
+          ]
+        },
+        {
+          "text": "CONFORME",
+          "confidence": 91.0,
+          "bbox": [
+            1589,
+            1557,
+            37,
+            166
+          ]
+        },
+        {
+          "text": "ù",
+          "confidence": 0.0,
+          "bbox": [
+            1558,
+            2583,
+            45,
+            15
+          ]
+        },
+        {
+          "text": ".CONFORME",
+          "confidence": 54.0,
+          "bbox": [
+            1519,
+            1540,
+            52,
+            182
+          ]
+        },
+        {
+          "text": "|",
+          "confidence": 56.0,
+          "bbox": [
+            1529,
+            1739,
+            4,
+            3
+          ]
+        },
+        {
+          "text": "T'CONFORME.",
+          "confidence": 5.0,
+          "bbox": [
+            1465,
+            1525,
+            51,
+            216
+          ]
+        },
+        {
+          "text": "re",
+          "confidence": 38.0,
+          "bbox": [
+            1441,
+            2556,
+            53,
+            60
+          ]
+        },
+        {
+          "text": "|",
+          "confidence": 69.0,
+          "bbox": [
+            1452,
+            1524,
+            3,
+            3
+          ]
+        },
+        {
+          "text": "CONFORME:",
+          "confidence": 33.0,
+          "bbox": [
+            1408,
+            1552,
+            49,
+            178
+          ]
+        },
+        {
+          "text": "|",
+          "confidence": 82.0,
+          "bbox": [
+            1426,
+            2558,
+            7,
+            5
+          ]
+        },
+        {
+          "text": "cut,",
+          "confidence": 2.0,
+          "bbox": [
+            1284,
+            526,
+            49,
+            139
+          ]
+        },
+        {
+          "text": "Résultat",
+          "confidence": 82.0,
+          "bbox": [
+            1266,
+            683,
+            69,
+            129
+          ]
+        },
+        {
+          "text": "globa",
+          "confidence": 92.0,
+          "bbox": [
+            1270,
+            828,
+            61,
+            82
+          ]
+        },
+        {
+          "text": "=",
+          "confidence": 64.0,
+          "bbox": [
+            1173,
+            878,
+            232,
+            34
+          ]
+        },
+        {
+          "text": "arta",
+          "confidence": 45.0,
+          "bbox": [
+            1169,
+            977,
+            240,
+            786
+          ]
+        },
+        {
+          "text": "mineurs",
+          "confidence": 89.0,
+          "bbox": [
+            1253,
+            1778,
+            46,
+            125
+          ]
+        },
+        {
+          "text": "ci-dessus.",
+          "confidence": 43.0,
+          "bbox": [
+            1241,
+            1915,
+            58,
+            167
+          ]
+        },
+        {
+          "text": ":!",
+          "confidence": 33.0,
+          "bbox": [
+            1250,
+            2170,
+            43,
+            31
+          ]
+        },
+        {
+          "text": "meet",
+          "confidence": 17.0,
+          "bbox": [
+            1241,
+            2436,
+            46,
+            176
+          ]
+        },
+        {
+          "text": "*",
+          "confidence": 64.0,
+          "bbox": [
+            1125,
+            1543,
+            42,
+            10
+          ]
+        },
+        {
+          "text": "Apptouyé",
+          "confidence": 32.0,
+          "bbox": [
+            1099,
+            1573,
+            74,
+            134
+          ]
+        },
+        {
+          "text": "par.",
+          "confidence": 92.0,
+          "bbox": [
+            1087,
+            1711,
+            69,
+            62
+          ]
+        },
+        {
+          "text": "Laure",
+          "confidence": 74.0,
+          "bbox": [
+            1084,
+            1772,
+            89,
+            85
+          ]
+        },
+        {
+          "text": "Berend",
+          "confidence": 10.0,
+          "bbox": [
+            1075,
+            1874,
+            90,
+            123
+          ]
+        },
+        {
+          "text": "|",
+          "confidence": 54.0,
+          "bbox": [
+            1143,
+            2019,
+            8,
+            8
+          ]
+        },
+        {
+          "text": "ser",
+          "confidence": 17.0,
+          "bbox": [
+            1090,
+            2050,
+            29,
+            52
+          ]
+        },
+        {
+          "text": "ets",
+          "confidence": 22.0,
+          "bbox": [
+            1097,
+            2135,
+            29,
+            59
+          ]
+        },
+        {
+          "text": ".",
+          "confidence": 74.0,
+          "bbox": [
+            1051,
+            1532,
+            4,
+            4
+          ]
+        },
+        {
+          "text": "Signature:",
+          "confidence": 89.0,
+          "bbox": [
+            1031,
+            1563,
+            62,
+            148
+          ]
+        },
+        {
+          "text": "a",
+          "confidence": 45.0,
+          "bbox": [
+            1056,
+            1762,
+            7,
+            23
+          ]
+        },
+        {
+          "text": "==",
+          "confidence": 46.0,
+          "bbox": [
+            1050,
+            1883,
+            23,
+            64
+          ]
+        },
+        {
+          "text": "ie",
+          "confidence": 14.0,
+          "bbox": [
+            1029,
+            1994,
+            58,
+            168
+          ]
+        },
+        {
+          "text": "hit",
+          "confidence": 0.0,
+          "bbox": [
+            1025,
+            2179,
+            56,
+            153
+          ]
+        },
+        {
+          "text": "CU",
+          "confidence": 34.0,
+          "bbox": [
+            1025,
+            2369,
+            46,
+            236
+          ]
+        }
+      ]
+    }
+  ]
+}

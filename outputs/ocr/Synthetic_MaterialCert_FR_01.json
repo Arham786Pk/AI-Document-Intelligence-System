@@ -1,0 +1,966 @@
+{
+  "document_name": "Synthetic_MaterialCert_FR_01",
+  "total_pages": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "page_file": "Synthetic_MaterialCert_FR_01_p01.pdf-text",
+      "engine": "tesseract",
+      "avg_confidence": 100.0,
+      "full_text": "Aubry Aciéries\nCERTIFICAT MATIERE (EN 10204 3.1)\nFabricant:\nAubry Aciéries\nN° Coulée:\nH-701949\nN° Projet:\nPO-39290\nDate:\n13/01/2024\nMatière:\nMonel 400\nQuantité:\n32.88 pcs\nNuance:\nB\nSpécification:\nASTM A580 / EN 10025\nComposition Chimique (%)\nC\nMn\nSi\nP\nS\nCr\nNi\nMo\n0.149\n0.109\n0.290\n0.083\n0.260\n0.043\n0.029\n0.153\nPropriétés Mécaniques\nLimite élastique\nRésistance\nAllongement %\nDureté HB\nRésilience (J)\n545\n722\n19\n158\n63\nNous certifions par la présente que la matière décrite ci-dessus a été contrôlée conformément aux\nspécifications applicables et satisfait à toutes les exigences.\nInspecteur: Louise Briand\nSignature: ______________",
+      "word_count": 95,
+      "words": [
+        {
+          "text": "Aubry",
+          "confidence": 100.0,
+          "bbox": [
+            48,
+            50,
+            40,
+            19
+          ]
+        },
+        {
+          "text": "Aciéries",
+          "confidence": 100.0,
+          "bbox": [
+            92,
+            50,
+            54,
+            19
+          ]
+        },
+        {
+          "text": "CERTIFICAT",
+          "confidence": 100.0,
+          "bbox": [
+            137,
+            84,
+            106,
+            24
+          ]
+        },
+        {
+          "text": "MATIERE",
+          "confidence": 100.0,
+          "bbox": [
+            249,
+            84,
+            81,
+            24
+          ]
+        },
+        {
+          "text": "(EN",
+          "confidence": 100.0,
+          "bbox": [
+            335,
+            84,
+            30,
+            24
+          ]
+        },
+        {
+          "text": "10204",
+          "confidence": 100.0,
+          "bbox": [
+            371,
+            84,
+            50,
+            24
+          ]
+        },
+        {
+          "text": "3.1)",
+          "confidence": 100.0,
+          "bbox": [
+            426,
+            84,
+            31,
+            24
+          ]
+        },
+        {
+          "text": "Fabricant:",
+          "confidence": 100.0,
+          "bbox": [
+            55,
+            131,
+            43,
+            12
+          ]
+        },
+        {
+          "text": "Aubry",
+          "confidence": 100.0,
+          "bbox": [
+            168,
+            131,
+            23,
+            12
+          ]
+        },
+        {
+          "text": "Aciéries",
+          "confidence": 100.0,
+          "bbox": [
+            195,
+            131,
+            32,
+            12
+          ]
+        },
+        {
+          "text": "N°",
+          "confidence": 100.0,
+          "bbox": [
+            324,
+            131,
+            10,
+            12
+          ]
+        },
+        {
+          "text": "Coulée:",
+          "confidence": 100.0,
+          "bbox": [
+            337,
+            131,
+            33,
+            12
+          ]
+        },
+        {
+          "text": "H-701949",
+          "confidence": 100.0,
+          "bbox": [
+            409,
+            131,
+            39,
+            12
+          ]
+        },
+        {
+          "text": "N°",
+          "confidence": 100.0,
+          "bbox": [
+            55,
+            148,
+            10,
+            12
+          ]
+        },
+        {
+          "text": "Projet:",
+          "confidence": 100.0,
+          "bbox": [
+            68,
+            148,
+            28,
+            12
+          ]
+        },
+        {
+          "text": "PO-39290",
+          "confidence": 100.0,
+          "bbox": [
+            168,
+            148,
+            41,
+            12
+          ]
+        },
+        {
+          "text": "Date:",
+          "confidence": 100.0,
+          "bbox": [
+            324,
+            148,
+            22,
+            12
+          ]
+        },
+        {
+          "text": "13/01/2024",
+          "confidence": 100.0,
+          "bbox": [
+            409,
+            148,
+            45,
+            12
+          ]
+        },
+        {
+          "text": "Matière:",
+          "confidence": 100.0,
+          "bbox": [
+            55,
+            164,
+            34,
+            12
+          ]
+        },
+        {
+          "text": "Monel",
+          "confidence": 100.0,
+          "bbox": [
+            168,
+            164,
+            24,
+            12
+          ]
+        },
+        {
+          "text": "400",
+          "confidence": 100.0,
+          "bbox": [
+            196,
+            164,
+            15,
+            12
+          ]
+        },
+        {
+          "text": "Quantité:",
+          "confidence": 100.0,
+          "bbox": [
+            324,
+            164,
+            39,
+            12
+          ]
+        },
+        {
+          "text": "32.88",
+          "confidence": 100.0,
+          "bbox": [
+            409,
+            164,
+            22,
+            12
+          ]
+        },
+        {
+          "text": "pcs",
+          "confidence": 100.0,
+          "bbox": [
+            434,
+            164,
+            14,
+            12
+          ]
+        },
+        {
+          "text": "Nuance:",
+          "confidence": 100.0,
+          "bbox": [
+            55,
+            181,
+            35,
+            12
+          ]
+        },
+        {
+          "text": "B",
+          "confidence": 100.0,
+          "bbox": [
+            168,
+            181,
+            6,
+            12
+          ]
+        },
+        {
+          "text": "Spécification:",
+          "confidence": 100.0,
+          "bbox": [
+            324,
+            181,
+            59,
+            12
+          ]
+        },
+        {
+          "text": "ASTM",
+          "confidence": 100.0,
+          "bbox": [
+            409,
+            181,
+            25,
+            12
+          ]
+        },
+        {
+          "text": "A580",
+          "confidence": 100.0,
+          "bbox": [
+            437,
+            181,
+            21,
+            12
+          ]
+        },
+        {
+          "text": "/",
+          "confidence": 100.0,
+          "bbox": [
+            460,
+            181,
+            2,
+            12
+          ]
+        },
+        {
+          "text": "EN",
+          "confidence": 100.0,
+          "bbox": [
+            465,
+            181,
+            12,
+            12
+          ]
+        },
+        {
+          "text": "10025",
+          "confidence": 100.0,
+          "bbox": [
+            480,
+            181,
+            25,
+            12
+          ]
+        },
+        {
+          "text": "Composition",
+          "confidence": 100.0,
+          "bbox": [
+            57,
+            220,
+            73,
+            16
+          ]
+        },
+        {
+          "text": "Chimique",
+          "confidence": 100.0,
+          "bbox": [
+            133,
+            220,
+            54,
+            16
+          ]
+        },
+        {
+          "text": "(%)",
+          "confidence": 100.0,
+          "bbox": [
+            191,
+            220,
+            18,
+            16
+          ]
+        },
+        {
+          "text": "C",
+          "confidence": 100.0,
+          "bbox": [
+            96,
+            245,
+            5,
+            11
+          ]
+        },
+        {
+          "text": "Mn",
+          "confidence": 100.0,
+          "bbox": [
+            150,
+            245,
+            11,
+            11
+          ]
+        },
+        {
+          "text": "Si",
+          "confidence": 100.0,
+          "bbox": [
+            208,
+            245,
+            7,
+            11
+          ]
+        },
+        {
+          "text": "P",
+          "confidence": 100.0,
+          "bbox": [
+            266,
+            245,
+            5,
+            11
+          ]
+        },
+        {
+          "text": "S",
+          "confidence": 100.0,
+          "bbox": [
+            323,
+            245,
+            5,
+            11
+          ]
+        },
+        {
+          "text": "Cr",
+          "confidence": 100.0,
+          "bbox": [
+            378,
+            245,
+            8,
+            11
+          ]
+        },
+        {
+          "text": "Ni",
+          "confidence": 100.0,
+          "bbox": [
+            435,
+            245,
+            8,
+            11
+          ]
+        },
+        {
+          "text": "Mo",
+          "confidence": 100.0,
+          "bbox": [
+            490,
+            245,
+            11,
+            11
+          ]
+        },
+        {
+          "text": "0.149",
+          "confidence": 100.0,
+          "bbox": [
+            89,
+            261,
+            20,
+            10
+          ]
+        },
+        {
+          "text": "0.109",
+          "confidence": 100.0,
+          "bbox": [
+            145,
+            261,
+            20,
+            10
+          ]
+        },
+        {
+          "text": "0.290",
+          "confidence": 100.0,
+          "bbox": [
+            202,
+            261,
+            20,
+            10
+          ]
+        },
+        {
+          "text": "0.083",
+          "confidence": 100.0,
+          "bbox": [
+            259,
+            261,
+            20,
+            10
+          ]
+        },
+        {
+          "text": "0.260",
+          "confidence": 100.0,
+          "bbox": [
+            315,
+            261,
+            20,
+            10
+          ]
+        },
+        {
+          "text": "0.043",
+          "confidence": 100.0,
+          "bbox": [
+            372,
+            261,
+            20,
+            10
+          ]
+        },
+        {
+          "text": "0.029",
+          "confidence": 100.0,
+          "bbox": [
+            429,
+            261,
+            20,
+            10
+          ]
+        },
+        {
+          "text": "0.153",
+          "confidence": 100.0,
+          "bbox": [
+            486,
+            261,
+            20,
+            10
+          ]
+        },
+        {
+          "text": "Propriétés",
+          "confidence": 100.0,
+          "bbox": [
+            57,
+            292,
+            59,
+            16
+          ]
+        },
+        {
+          "text": "Mécaniques",
+          "confidence": 100.0,
+          "bbox": [
+            119,
+            292,
+            68,
+            16
+          ]
+        },
+        {
+          "text": "Limite",
+          "confidence": 100.0,
+          "bbox": [
+            85,
+            318,
+            23,
+            11
+          ]
+        },
+        {
+          "text": "élastique",
+          "confidence": 100.0,
+          "bbox": [
+            111,
+            318,
+            34,
+            11
+          ]
+        },
+        {
+          "text": "Résistance",
+          "confidence": 100.0,
+          "bbox": [
+            185,
+            318,
+            42,
+            11
+          ]
+        },
+        {
+          "text": "Allongement",
+          "confidence": 100.0,
+          "bbox": [
+            268,
+            318,
+            48,
+            11
+          ]
+        },
+        {
+          "text": "%",
+          "confidence": 100.0,
+          "bbox": [
+            319,
+            318,
+            7,
+            11
+          ]
+        },
+        {
+          "text": "Dureté",
+          "confidence": 100.0,
+          "bbox": [
+            368,
+            318,
+            25,
+            11
+          ]
+        },
+        {
+          "text": "HB",
+          "confidence": 100.0,
+          "bbox": [
+            396,
+            318,
+            11,
+            11
+          ]
+        },
+        {
+          "text": "Résilience",
+          "confidence": 100.0,
+          "bbox": [
+            453,
+            318,
+            39,
+            11
+          ]
+        },
+        {
+          "text": "(J)",
+          "confidence": 100.0,
+          "bbox": [
+            495,
+            318,
+            9,
+            11
+          ]
+        },
+        {
+          "text": "545",
+          "confidence": 100.0,
+          "bbox": [
+            108,
+            333,
+            15,
+            12
+          ]
+        },
+        {
+          "text": "722",
+          "confidence": 100.0,
+          "bbox": [
+            199,
+            333,
+            15,
+            12
+          ]
+        },
+        {
+          "text": "19",
+          "confidence": 100.0,
+          "bbox": [
+            292,
+            333,
+            10,
+            12
+          ]
+        },
+        {
+          "text": "158",
+          "confidence": 100.0,
+          "bbox": [
+            380,
+            333,
+            15,
+            12
+          ]
+        },
+        {
+          "text": "63",
+          "confidence": 100.0,
+          "bbox": [
+            474,
+            333,
+            10,
+            12
+          ]
+        },
+        {
+          "text": "Nous",
+          "confidence": 100.0,
+          "bbox": [
+            57,
+            375,
+            23,
+            13
+          ]
+        },
+        {
+          "text": "certifions",
+          "confidence": 100.0,
+          "bbox": [
+            83,
+            375,
+            40,
+            13
+          ]
+        },
+        {
+          "text": "par",
+          "confidence": 100.0,
+          "bbox": [
+            125,
+            375,
+            14,
+            13
+          ]
+        },
+        {
+          "text": "la",
+          "confidence": 100.0,
+          "bbox": [
+            143,
+            375,
+            7,
+            13
+          ]
+        },
+        {
+          "text": "présente",
+          "confidence": 100.0,
+          "bbox": [
+            153,
+            375,
+            38,
+            13
+          ]
+        },
+        {
+          "text": "que",
+          "confidence": 100.0,
+          "bbox": [
+            195,
+            375,
+            16,
+            13
+          ]
+        },
+        {
+          "text": "la",
+          "confidence": 100.0,
+          "bbox": [
+            214,
+            375,
+            7,
+            13
+          ]
+        },
+        {
+          "text": "matière",
+          "confidence": 100.0,
+          "bbox": [
+            225,
+            375,
+            33,
+            13
+          ]
+        },
+        {
+          "text": "décrite",
+          "confidence": 100.0,
+          "bbox": [
+            261,
+            375,
+            30,
+            13
+          ]
+        },
+        {
+          "text": "ci-dessus",
+          "confidence": 100.0,
+          "bbox": [
+            294,
+            375,
+            42,
+            13
+          ]
+        },
+        {
+          "text": "a",
+          "confidence": 100.0,
+          "bbox": [
+            339,
+            375,
+            5,
+            13
+          ]
+        },
+        {
+          "text": "été",
+          "confidence": 100.0,
+          "bbox": [
+            347,
+            375,
+            13,
+            13
+          ]
+        },
+        {
+          "text": "contrôlée",
+          "confidence": 100.0,
+          "bbox": [
+            364,
+            375,
+            41,
+            13
+          ]
+        },
+        {
+          "text": "conformément",
+          "confidence": 100.0,
+          "bbox": [
+            408,
+            375,
+            63,
+            13
+          ]
+        },
+        {
+          "text": "aux",
+          "confidence": 100.0,
+          "bbox": [
+            474,
+            375,
+            16,
+            13
+          ]
+        },
+        {
+          "text": "spécifications",
+          "confidence": 100.0,
+          "bbox": [
+            57,
+            387,
+            60,
+            13
+          ]
+        },
+        {
+          "text": "applicables",
+          "confidence": 100.0,
+          "bbox": [
+            119,
+            387,
+            50,
+            13
+          ]
+        },
+        {
+          "text": "et",
+          "confidence": 100.0,
+          "bbox": [
+            172,
+            387,
+            8,
+            13
+          ]
+        },
+        {
+          "text": "satisfait",
+          "confidence": 100.0,
+          "bbox": [
+            183,
+            387,
+            33,
+            13
+          ]
+        },
+        {
+          "text": "à",
+          "confidence": 100.0,
+          "bbox": [
+            220,
+            387,
+            5,
+            13
+          ]
+        },
+        {
+          "text": "toutes",
+          "confidence": 100.0,
+          "bbox": [
+            228,
+            387,
+            27,
+            13
+          ]
+        },
+        {
+          "text": "les",
+          "confidence": 100.0,
+          "bbox": [
+            258,
+            387,
+            12,
+            13
+          ]
+        },
+        {
+          "text": "exigences.",
+          "confidence": 100.0,
+          "bbox": [
+            274,
+            387,
+            47,
+            13
+          ]
+        },
+        {
+          "text": "Inspecteur:",
+          "confidence": 100.0,
+          "bbox": [
+            48,
+            436,
+            44,
+            12
+          ]
+        },
+        {
+          "text": "Louise",
+          "confidence": 100.0,
+          "bbox": [
+            95,
+            436,
+            26,
+            12
+          ]
+        },
+        {
+          "text": "Briand",
+          "confidence": 100.0,
+          "bbox": [
+            124,
+            436,
+            26,
+            12
+          ]
+        },
+        {
+          "text": "Signature:",
+          "confidence": 100.0,
+          "bbox": [
+            317,
+            436,
+            41,
+            12
+          ]
+        },
+        {
+          "text": "______________",
+          "confidence": 100.0,
+          "bbox": [
+            361,
+            436,
+            70,
+            12
+          ]
+        }
+      ]
+    }
+  ]
+}
