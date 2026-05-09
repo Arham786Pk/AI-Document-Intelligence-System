@@ -20,7 +20,7 @@ the entity count moved from 10 → **11** with the addition of `solde_du`.
 |---------------------|--------------------|
 | 5 document types | French invoices only |
 | 10 entities | 11 entities (added `solde_du`) |
-| English + French + synthetic | Real French only — 19 unique invoices |
+| English + French + synthetic | French only — 19 unique invoices (16 photos + 5 scanned PDFs) |
 
 The full task brief is `Milestone1_Simple_Final.docx` (kept locally — not committed).
 
@@ -51,29 +51,36 @@ Full synonym matrix and OCR-tolerance rules: [`docs/entity_schema.md`](docs/enti
 ```
 .
 ├── data/
-│   ├── raw/french_invoices/        ← 19 real French invoices (NOT committed)
-│   │   └── MANIFEST.md             ← inventory of source files
-│   └── processed/                  ← cleaned images (NOT committed)
+│   ├── Images/                     ← 16 phone-photo JPGs (IMG-20260507-WA0143…WA0158)
+│   ├── Scanned_PDF/                ← 5 scanned PDFs (Invoice_FR_016_scanned…FR_020)
+│   ├── processed/                  ← cleaned 300-DPI page PNGs (one folder per invoice)
+│   └── MANIFEST.md                 ← inventory of all source files
 ├── docs/
 │   ├── entity_schema.md            ← contract for the extractor + synonyms
 │   ├── ground_truth.csv            ← labelled answer key, 19 × 11 fields
 │   ├── ground_truth.xlsx           ← formatted Excel for the client
 │   ├── ground_truth_README.md      ← labelling rules
-│   └── preprocessing.md            ← Task 6 module spec
-├── outputs/extracted/              ← one JSON per invoice (NOT committed)
+│   ├── preprocessing.md            ← Task 6 module spec
+│   └── ocr_engine.md               ← Task 7 module spec
+├── outputs/
+│   ├── ocr/                        ← one JSON per invoice (Task 7 output)
+│   └── extracted/                  ← one JSON per invoice (Task 9 output, pending)
 ├── scripts/
-│   └── build_ground_truth.py       ← regenerates CSV + XLSX from labelled rows
+│   ├── build_ground_truth.py       ← regenerates CSV + XLSX from labelled rows
+│   └── demo_ocr.py                 ← Task 7 demo / smoke check
 ├── src/
 │   ├── __init__.py
-│   └── preprocessor.py             ← Task 6 — render/deskew/denoise/binarise
+│   ├── preprocessor.py             ← Task 6 — render/deskew/denoise/binarise
+│   └── ocr_engine.py               ← Task 7 — Tesseract + PaddleOCR fallback
 ├── tests/
-│   └── test_preprocessor.py        ← Task 6 smoke tests
+│   ├── test_preprocessor.py        ← Task 6 smoke tests
+│   └── test_ocr_engine.py          ← Task 7 smoke tests
 ├── requirements.txt
 └── README.md
 ```
 
-`data/raw/french_invoices/` and `outputs/extracted/` are **gitignored** — see
-`.gitignore`. Real client invoices stay on the local machine.
+The full dataset (16 photos + 5 scanned PDFs) and all pipeline outputs are
+committed to the repository for full reproducibility.
 
 ---
 
@@ -81,7 +88,7 @@ Full synonym matrix and OCR-tolerance rules: [`docs/entity_schema.md`](docs/enti
 
 | Task | Description | Status |
 |------|-------------|--------|
-| 01 | Collect 15–20 French invoices (`data/raw/french_invoices/`) | ✅ Done — 19 unique invoices (5 PDFs, 16 photos collapsed to 14 unique) |
+| 01 | Collect 15–20 French invoices (`data/Images/` + `data/Scanned_PDF/`) | ✅ Done — 19 unique invoices (5 PDFs + 16 photos collapsed to 14 unique) |
 | 02 | Ground-truth spreadsheet with 11 fields | ✅ Done — `docs/ground_truth.csv` + `.xlsx` |
 | 03 | Entity schema with full French synonyms | ✅ Done — `docs/entity_schema.md` |
 | 04 | GitHub repository setup | ✅ Done — repo refactored to French-invoice-only |
@@ -142,7 +149,7 @@ sudo apt-get install -y tesseract-ocr tesseract-ocr-fra
 
 ```bash
 python -c "import pytesseract; from PIL import Image; \
-  print(pytesseract.image_to_string(Image.open('data/raw/french_invoices/IMG-20260507-WA0148.jpg'), lang='fra')[:300])"
+  print(pytesseract.image_to_string(Image.open('data/Images/IMG-20260507-WA0148.jpg'), lang='fra')[:300])"
 ```
 
 The output must contain accented words like `Échéance`, `règlement`,
@@ -167,13 +174,14 @@ python -c "from paddleocr import PaddleOCR; PaddleOCR(lang='fr', use_angle_cls=T
 python scripts/build_ground_truth.py
 
 # Task 6 — preprocess every invoice into 300 DPI binarised PNGs
-python -m src.preprocessor --input data/raw/french_invoices --output data/processed
+python -m src.preprocessor --input data/Images --output data/processed
+python -m src.preprocessor --input data/Scanned_PDF --output data/processed
 
 # Task 6 — smoke tests
 python -m pytest tests/test_preprocessor.py -v
 
 # Task 7 — OCR all preprocessed invoices
-python -m src.ocr_engine --input data/processed --output outputs/ocr_results
+python -m src.ocr_engine --input data/processed --output outputs/ocr
 
 # Task 7 — demo script (verify Tesseract + French language pack)
 python scripts/demo_ocr.py

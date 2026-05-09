@@ -1,8 +1,8 @@
 """Smoke tests for the preprocessing module.
 
-These run against the real French-invoice dataset in
-``data/raw/french_invoices/``. They are skipped when the dataset is not
-present (e.g. CI without the gitignored client files).
+These run against the French-invoice dataset committed under
+``data/Images/`` (JPGs) and ``data/Scanned_PDF/`` (PDFs). They are skipped
+when neither folder is populated.
 """
 from __future__ import annotations
 
@@ -17,24 +17,28 @@ from src.preprocessor import (
 )
 
 ROOT = Path(__file__).resolve().parents[1]
-RAW = ROOT / "data" / "raw" / "french_invoices"
+SOURCE_DIRS = [
+    ROOT / "data" / "Images",
+    ROOT / "data" / "Scanned_PDF",
+]
 
 
 def _has_dataset() -> bool:
-    return RAW.exists() and any(RAW.iterdir())
+    return any(d.exists() and any(d.iterdir()) for d in SOURCE_DIRS)
 
 
 pytestmark = pytest.mark.skipif(
     not _has_dataset(),
-    reason="data/raw/french_invoices/ not populated (gitignored client files)",
+    reason="data/Images/ and data/Scanned_PDF/ are both empty",
 )
 
 
 def _sample(*candidates: str) -> Path:
     for name in candidates:
-        path = RAW / name
-        if path.exists():
-            return path
+        for d in SOURCE_DIRS:
+            path = d / name
+            if path.exists():
+                return path
     pytest.skip(f"None of {candidates} present in dataset")
 
 

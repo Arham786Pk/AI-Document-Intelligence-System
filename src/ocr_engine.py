@@ -20,7 +20,7 @@ Usage:
 
     # CLI:
     #   python -m src.ocr_engine --input data/processed \
-    #                            --output outputs/ocr_results
+    #                            --output outputs/ocr
 """
 from __future__ import annotations
 
@@ -412,7 +412,7 @@ def _cli() -> None:
     )
     parser.add_argument(
         "--output",
-        default="outputs/ocr_results",
+        default="outputs/ocr",
         help="Folder to write OCR JSON files and manifest."
     )
     parser.add_argument(

@@ -1,7 +1,9 @@
 # Preprocessing — Task 6
 
 Module: [`src/preprocessor.py`](../src/preprocessor.py)
-CLI: `python -m src.preprocessor --input data/raw/french_invoices --output data/processed`
+CLI (run once per source folder):
+- `python -m src.preprocessor --input data/Images       --output data/processed`
+- `python -m src.preprocessor --input data/Scanned_PDF  --output data/processed`
 
 Per-page pipeline that turns a French invoice (PDF or phone photo) into a clean,
 binarised, deskewed 300-DPI PNG ready for the OCR engine in Task 7.

@@ -1,0 +1,22 @@
+{
+  "invoice_name": "IMG-20260507-WA0152",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "data\\processed\\IMG-20260507-WA0152\\page_01.png",
+      "text": "Numéro Date Code client / Date échéance Mode de règlement N° de Tva intracom\nFC20251175 l 28/04/2025 |  SCA010 28/05/2025 VIREMENT 30)j net | FR33845175751\nCode Description Qté P.U.HT  MontantHT TVA\n103 | AUDIT INITIAL ISO 19443 Etape 1 & Etape 2 1.00° 2772.67 2772.67. 20.0\n\n‘IMPORTANT : :\n‘ Le règlement doit intervenir dès réception de la facture. Ce n'est qu'à partir : |\nde cette étape que la prestation débutera. l\n\n061 Certification ISO 9001 version 2015 1.00 589.38 589.38 20.0\nAUDIT INITIAL ISO Etape 1 & Etape 2 l\nl l\nIMPORTANT : | |\n| Le règlement doit intervenir dès réception de la facture. Ce n'est qu'à partir,\nde cette étape que la prestation débutera. |\n\n: TXT00001 | Selon les termes du contrat n° 25-443\n\n: | Dossier 426 Q : |\n\n| :\nl\n\ni :\n. 4\n\nnnant lieu à facture sont constituées exclusivement de prestations de services\n\nLes opérations do\n\nent anticipé : 0% oc nat _ ee .\nEsconPe POLE paiement Une pénalité égale à 3 fois le taux d'intérêt légal sera exigible, ainsi qu'une indemnité forfaitaire pour\n\nini uros pour les professionnels\nfrais de recouvrement d'un montant minimum de 40 e p p\n\nTotal HT Net 3 362.05\nTotal TVA 20.00 %\n2 962J34 Total TTC 57241\nRIB : nn D0070862434 ota 4 034.46\n: FR43300020\n\nBIC : CRLYFRPP\n\nSolde dû\n\n4 034.46 €\n\n1]",
+      "confidence": 0.8058506224066391,
+      "char_count": 1266,
+      "word_count": 235,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Numéro Date Code client / Date échéance Mode de règlement N° de Tva intracom\nFC20251175 l 28/04/2025 |  SCA010 28/05/2025 VIREMENT 30)j net | FR33845175751\nCode Description Qté P.U.HT  MontantHT TVA\n103 | AUDIT INITIAL ISO 19443 Etape 1 & Etape 2 1.00° 2772.67 2772.67. 20.0\n\n‘IMPORTANT : :\n‘ Le règlement doit intervenir dès réception de la facture. Ce n'est qu'à partir : |\nde cette étape que la prestation débutera. l\n\n061 Certification ISO 9001 version 2015 1.00 589.38 589.38 20.0\nAUDIT INITIAL ISO Etape 1 & Etape 2 l\nl l\nIMPORTANT : | |\n| Le règlement doit intervenir dès réception de la facture. Ce n'est qu'à partir,\nde cette étape que la prestation débutera. |\n\n: TXT00001 | Selon les termes du contrat n° 25-443\n\n: | Dossier 426 Q : |\n\n| :\nl\n\ni :\n. 4\n\nnnant lieu à facture sont constituées exclusivement de prestations de services\n\nLes opérations do\n\nent anticipé : 0% oc nat _ ee .\nEsconPe POLE paiement Une pénalité égale à 3 fois le taux d'intérêt légal sera exigible, ainsi qu'une indemnité forfaitaire pour\n\nini uros pour les professionnels\nfrais de recouvrement d'un montant minimum de 40 e p p\n\nTotal HT Net 3 362.05\nTotal TVA 20.00 %\n2 962J34 Total TTC 57241\nRIB : nn D0070862434 ota 4 034.46\n: FR43300020\n\nBIC : CRLYFRPP\n\nSolde dû\n\n4 034.46 €\n\n1]",
+  "mean_confidence": 0.8058506224066391,
+  "total_char_count": 1266,
+  "total_word_count": 235,
+  "low_quality_pages": [],
+  "error": ""
+}

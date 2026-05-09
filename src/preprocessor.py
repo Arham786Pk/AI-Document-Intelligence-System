@@ -14,11 +14,11 @@ Per Milestone 1 spec:
 Usage:
     from src.preprocessor import preprocess_invoice, preprocess_folder
 
-    result = preprocess_invoice("data/raw/french_invoices/Invoice_FR_016_scanned_260508_103316.pdf",
+    result = preprocess_invoice("data/Scanned_PDF/Invoice_FR_016_scanned_260508_103316.pdf",
                                 "data/processed")
-    # CLI:
-    #   python -m src.preprocessor --input data/raw/french_invoices \
-    #                              --output data/processed
+    # CLI (run once per source folder):
+    #   python -m src.preprocessor --input data/Images       --output data/processed
+    #   python -m src.preprocessor --input data/Scanned_PDF  --output data/processed
 """
 from __future__ import annotations
 
@@ -313,8 +313,9 @@ def write_manifest(results: Iterable[InvoiceResult], output_root: str | Path) ->
 
 def _cli() -> None:
     parser = argparse.ArgumentParser(description="Preprocess French invoices for OCR.")
-    parser.add_argument("--input", default="data/raw/french_invoices",
-                        help="Folder of raw invoices (PDF or image).")
+    parser.add_argument("--input", default="data/Images",
+                        help="Folder of raw invoices (PDF or image). "
+                             "Run once per folder: data/Images then data/Scanned_PDF.")
     parser.add_argument("--output", default="data/processed",
                         help="Folder where cleaned page PNGs are written.")
     parser.add_argument("--single", default=None,

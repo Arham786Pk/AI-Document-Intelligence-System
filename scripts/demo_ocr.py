@@ -27,7 +27,8 @@ def demo_single_page():
     if not processed_dir.exists():
         print(f"❌ Preprocessed directory not found: {processed_dir}")
         print("   Run Task 6 preprocessor first:")
-        print("   python -m src.preprocessor --input data/raw/french_invoices --output data/processed")
+        print("   python -m src.preprocessor --input data/Images      --output data/processed")
+        print("   python -m src.preprocessor --input data/Scanned_PDF --output data/processed")
         return
     
     # Look for any PNG file
@@ -175,6 +176,6 @@ if __name__ == "__main__":
     print("=" * 60)
     print("\nNext steps:")
     print("  1. Run full OCR on all invoices:")
-    print("     python -m src.ocr_engine --input data/processed --output outputs/ocr_results")
+    print("     python -m src.ocr_engine --input data/processed --output outputs/ocr")
     print("  2. Proceed to Task 8 (rule-based extractor)")
     print("=" * 60)

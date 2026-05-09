@@ -1,0 +1,22 @@
+{
+  "invoice_name": "Invoice_FR_020_scanned_260508_103334",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "data\\processed\\Invoice_FR_020_scanned_260508_103334\\page_01.png",
+      "text": "12 CnERRSSS\n\nSIRET : g6612890100212\n\nN° TVA : FR66612890100 £cheance : 08/03/2042\n\nDESTINATAIRE 8\n\nRésidence Les oiiviers\n\n45 Avenue des Pins» 34090 Montpellier\n\nDESIGNATION\n\ntonte pelouse + ramassage (x4 passages)\n\ntaille haies et arbustes\n\nplantation massif fleuri {x15 plants)\n\non déchets verts\n\névacuati\n\nMontant HT : 735,00 EUR\n\n73,50 EUR\n\nLe\nO\nE\nË\nEE\nHi\n(el\n\n0000 — À\n\nconditions de réglement: virement JIBAN FR76 3000 4028 3700 0100\nrégler avant le 08/03/2024\n\nBon pour accord : gignature et cachet :\n\nnn —————— ————\n\npénalités de retard applicables au taux légal en vigueur. Jndemnité forfaitaire de recouvrement : 40 EUR-",
+      "confidence": 0.7722794117647059,
+      "char_count": 630,
+      "word_count": 101,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "12 CnERRSSS\n\nSIRET : g6612890100212\n\nN° TVA : FR66612890100 £cheance : 08/03/2042\n\nDESTINATAIRE 8\n\nRésidence Les oiiviers\n\n45 Avenue des Pins» 34090 Montpellier\n\nDESIGNATION\n\ntonte pelouse + ramassage (x4 passages)\n\ntaille haies et arbustes\n\nplantation massif fleuri {x15 plants)\n\non déchets verts\n\névacuati\n\nMontant HT : 735,00 EUR\n\n73,50 EUR\n\nLe\nO\nE\nË\nEE\nHi\n(el\n\n0000 — À\n\nconditions de réglement: virement JIBAN FR76 3000 4028 3700 0100\nrégler avant le 08/03/2024\n\nBon pour accord : gignature et cachet :\n\nnn —————— ————\n\npénalités de retard applicables au taux légal en vigueur. Jndemnité forfaitaire de recouvrement : 40 EUR-",
+  "mean_confidence": 0.7722794117647059,
+  "total_char_count": 630,
+  "total_word_count": 101,
+  "low_quality_pages": [],
+  "error": ""
+}

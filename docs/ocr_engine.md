@@ -1,7 +1,7 @@
 # OCR Engine — Task 7
 
 Module: [`src/ocr_engine.py`](../src/ocr_engine.py)  
-CLI: `python -m src.ocr_engine --input data/processed --output outputs/ocr_results`
+CLI: `python -m src.ocr_engine --input data/processed --output outputs/ocr`
 
 Extracts text from preprocessed French invoice images using Tesseract OCR with French language pack, with automatic fallback to PaddleOCR for low-confidence pages.
 
@@ -168,7 +168,7 @@ page_result = ocr_page(Path("data/processed/Invoice_FR_016/page_01.png"), page_i
 invoice_result = ocr_invoice("data/processed/Invoice_FR_016")
 
 # Batch processing
-results = ocr_folder("data/processed", output_dir="outputs/ocr_results")
+results = ocr_folder("data/processed", output_dir="outputs/ocr")
 ```
 
 ---
@@ -178,17 +178,17 @@ results = ocr_folder("data/processed", output_dir="outputs/ocr_results")
 ### Process all invoices
 
 ```bash
-python -m src.ocr_engine --input data/processed --output outputs/ocr_results
+python -m src.ocr_engine --input data/processed --output outputs/ocr
 ```
 
 Output:
-- One JSON file per invoice in `outputs/ocr_results/`
-- Manifest file: `outputs/ocr_results/ocr_manifest.json`
+- One JSON file per invoice in `outputs/ocr/`
+- Manifest file: `outputs/ocr/ocr_manifest.json`
 
 ### Process single invoice
 
 ```bash
-python -m src.ocr_engine --input data/processed --output outputs/ocr_results --single data/processed/Invoice_FR_016
+python -m src.ocr_engine --input data/processed --output outputs/ocr --single data/processed/Invoice_FR_016
 ```
 
 ---
