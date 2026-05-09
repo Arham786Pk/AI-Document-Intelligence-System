@@ -13,6 +13,7 @@ Run:
 from __future__ import annotations
 
 import json
+from dataclasses import asdict
 from pathlib import Path
 
 import pytest
@@ -379,17 +380,7 @@ def test_end_to_end_ocr_pipeline(tmp_path):
     output_dir.mkdir(parents=True, exist_ok=True)
     json_path = output_dir / f"{result.invoice_name}.json"
     json_path.write_text(
-        json.dumps(result.__dict__ if hasattr(result, '__dict__') else {
-            'invoice_name': result.invoice_name,
-            'page_count': result.page_count,
-            'pages': [p.__dict__ if hasattr(p, '__dict__') else {} for p in result.pages],
-            'full_text': result.full_text,
-            'mean_confidence': result.mean_confidence,
-            'total_char_count': result.total_char_count,
-            'total_word_count': result.total_word_count,
-            'low_quality_pages': result.low_quality_pages,
-            'error': result.error,
-        }, indent=2, ensure_ascii=False),
+        json.dumps(asdict(result), indent=2, ensure_ascii=False),
         encoding="utf-8"
     )
     
