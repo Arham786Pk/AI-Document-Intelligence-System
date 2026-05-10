@@ -96,7 +96,7 @@ committed to the repository for full reproducibility.
 | 06 | Preprocessing module (`src/preprocessor.py`) | ✅ Done — see [`docs/preprocessing.md`](docs/preprocessing.md) |
 | 07 | OCR text extraction in French (`src/ocr_engine.py`) | ✅ Done — see [`docs/ocr_engine.md`](docs/ocr_engine.md) |
 | 08 | Rule-based extractor for 11 fields (`src/extractor.py`) | ✅ Done — extracts all 11 entity fields with accent tolerance |
-| 09 | Full pipeline (`src/pipeline.py`, `src/run.py`) | ⬜ Pending |
+| 09 | Full pipeline (`src/pipeline.py`, `src/run.py`) | ✅ Done — orchestrates preprocessing, OCR, and extraction |
 | 10 | Metrics + summary report | ⬜ Pending |
 
 ---
@@ -250,8 +250,23 @@ python -m src.extractor --input outputs/ocr_results --output outputs/extracted
 
 # Task 8 — smoke tests
 python -m pytest tests/test_extractor.py -v
+
+# Task 9 — run full pipeline from preprocessed images (most common)
+python -m src.pipeline --input data/processed --output outputs --from processed
+
+# Task 9 — run full pipeline from raw invoices
+python -m src.pipeline --input data/raw/french_invoices --output outputs --from raw
+
+# Task 9 — run extraction only (from OCR results)
+python -m src.pipeline --input outputs/ocr_results --output outputs --from ocr
+
+# Task 9 — using run.py convenience script
+python src/run.py --input data/processed --output outputs
+
+# Task 9 — smoke tests
+python -m pytest tests/test_pipeline.py -v
 ```
 
 **Note:** Task 7 OCR engine intelligently skips files that are already processed. It only re-processes invoices when source PNG files are newer than the output JSON files.
 
-Tasks 9–10 commands will be added as those modules land.
+Task 10 commands will be added as that module lands.
