@@ -50,32 +50,58 @@ Full synonym matrix and OCR-tolerance rules: [`docs/entity_schema.md`](docs/enti
 
 ```
 .
+├── .claude/
+│   └── settings.local.json         ← Kiro IDE settings
+├── .venv/                          ← Python virtual environment
 ├── data/
 │   ├── Images/                     ← 16 phone-photo JPGs (IMG-20260507-WA0143…WA0158)
-│   ├── Scanned_PDF/                ← 5 scanned PDFs (Invoice_FR_016_scanned…FR_020)
-│   ├── processed/                  ← cleaned 300-DPI page PNGs (one folder per invoice)
-│   └── MANIFEST.md                 ← inventory of all source files
+│   ├── Scanned_PDF/                ← 5 scanned PDFs (Invoice_FR_016…FR_020)
+│   ├── processed/                  ← Cleaned 300-DPI page PNGs (organized by invoice)
+│   │   ├── IMG-20260507-WA0143/
+│   │   │   └── page_01.png
+│   │   ├── IMG-20260507-WA0144/
+│   │   │   └── page_01.png
+│   │   ├── ... (25 invoice subdirectories total)
+│   │   └── preprocessing_manifest.json
+│   └── MANIFEST.md                 ← Inventory of all source files
 ├── docs/
-│   ├── entity_schema.md            ← contract for the extractor + synonyms
-│   ├── ground_truth.csv            ← labelled answer key, 19 × 11 fields
-│   ├── ground_truth.xlsx           ← formatted Excel for the client
-│   ├── ground_truth_README.md      ← labelling rules
+│   ├── entity_schema.md            ← Contract for extractor + 11 entity definitions
+│   ├── ground_truth.csv            ← Labelled answer key, 19 × 11 fields
+│   ├── ground_truth.xlsx           ← Formatted Excel for the client
+│   ├── ground_truth_README.md      ← Labelling rules
 │   ├── preprocessing.md            ← Task 6 module spec
-│   └── ocr_engine.md               ← Task 7 module spec
+│   ├── ocr_engine.md               ← Task 7 module spec
+│   └── TESSERACT_INSTALLATION.md   ← Tesseract setup guide
 ├── outputs/
 │   ├── ocr_results/                ← OCR JSON files + manifest (Task 7 output)
-│   └── extracted/                  ← entity extraction JSONs (Task 8 output, pending)
+│   │   ├── IMG-20260507-WA0143.json
+│   │   ├── IMG-20260507-WA0144.json
+│   │   ├── ... (25 OCR JSON files)
+│   │   └── ocr_manifest.json
+│   ├── extracted/                  ← Entity extraction JSONs (Task 8 output)
+│   │   ├── IMG-20260507-WA0143.json
+│   │   ├── IMG-20260507-WA0144.json
+│   │   └── ... (25 extracted entity JSON files)
+│   └── pipeline_report.json        ← Pipeline execution statistics (Task 9 output)
 ├── scripts/
-│   ├── build_ground_truth.py       ← regenerates CSV + XLSX from labelled rows
+│   ├── build_ground_truth.py       ← Regenerates CSV + XLSX from labelled rows
 │   └── demo_ocr.py                 ← Task 7 demo / smoke check
 ├── src/
 │   ├── __init__.py
 │   ├── preprocessor.py             ← Task 6 — render/deskew/denoise/binarise
-│   └── ocr_engine.py               ← Task 7 — Tesseract + PaddleOCR fallback
+│   ├── ocr_engine.py               ← Task 7 — Tesseract + PaddleOCR fallback
+│   ├── extractor.py                ← Task 8 — rule-based entity extraction
+│   ├── pipeline.py                 ← Task 9 — full pipeline orchestration
+│   └── run.py                      ← Task 9 — convenient entry point
 ├── tests/
 │   ├── test_preprocessor.py        ← Task 6 smoke tests
-│   └── test_ocr_engine.py          ← Task 7 smoke tests
-├── requirements.txt
+│   ├── test_ocr_engine.py          ← Task 7 smoke tests
+│   ├── test_extractor.py           ← Task 8 smoke tests
+│   └── test_pipeline.py            ← Task 9 smoke tests
+├── .gitattributes
+├── .gitignore
+├── requirements.txt                ← Python dependencies
+├── TASK_7_SUMMARY.md               ← Task 7 completion summary
 └── README.md
 ```
 
