@@ -63,8 +63,8 @@ Full synonym matrix and OCR-tolerance rules: [`docs/entity_schema.md`](docs/enti
 │   ├── preprocessing.md            ← Task 6 module spec
 │   └── ocr_engine.md               ← Task 7 module spec
 ├── outputs/
-│   ├── ocr/                        ← one JSON per invoice (Task 7 output)
-│   └── extracted/                  ← one JSON per invoice (Task 9 output, pending)
+│   ├── ocr_results/                ← OCR JSON files + manifest (Task 7 output)
+│   └── extracted/                  ← entity extraction JSONs (Task 8 output, pending)
 ├── scripts/
 │   ├── build_ground_truth.py       ← regenerates CSV + XLSX from labelled rows
 │   └── demo_ocr.py                 ← Task 7 demo / smoke check
@@ -167,6 +167,59 @@ python -c "from paddleocr import PaddleOCR; PaddleOCR(lang='fr', use_angle_cls=T
 
 ---
 
+## Task 7 — OCR Engine Features
+
+The OCR engine (`src/ocr_engine.py`) extracts text from preprocessed French invoice images with the following features:
+
+### Core Capabilities
+
+- **Tesseract OCR** with French language pack (`fra`) as primary engine
+- **PaddleOCR fallback** for low-confidence pages (< 60% confidence)
+- **Multi-page support** with page break markers for proper text concatenation
+- **Confidence scoring** at both page and invoice level
+- **Smart file handling** — automatically skips already processed files (compares modification times)
+- **Batch processing** with summary manifest generation
+
+### Output Structure
+
+Each invoice produces a JSON file with:
+- Full extracted text
+- Per-page confidence scores
+- Character and word counts
+- Engine used (Tesseract or PaddleOCR)
+- Quality indicators
+
+### Performance
+
+Successfully processed **25 French invoices (31 pages)** with:
+- Mean confidence: **82.5%**
+- Total characters: **36,376**
+- Total words: **5,935**
+- Zero errors
+
+### Incremental Processing
+
+The OCR engine is optimized for repeated runs:
+- **First run:** Processes all invoices
+- **Subsequent runs:** Only processes new or modified files
+- **Modification detection:** Compares PNG file timestamps with JSON output timestamps
+
+Example:
+```bash
+# First run: processes 25 invoices (~30 seconds)
+python -m src.ocr_engine --input data/processed --output outputs/ocr_results
+
+# Second run: skips all 25 (already up-to-date, ~2 seconds)
+python -m src.ocr_engine --input data/processed --output outputs/ocr_results
+
+# After modifying one file: processes 1, skips 24
+python -m src.ocr_engine --input data/processed --output outputs/ocr_results
+```
+
+For detailed documentation, see [`docs/ocr_engine.md`](docs/ocr_engine.md).
+
+---
+
 ## Quick rebuild commands
 
 ```bash
@@ -180,8 +233,11 @@ python -m src.preprocessor --input data/Scanned_PDF --output data/processed
 # Task 6 — smoke tests
 python -m pytest tests/test_preprocessor.py -v
 
-# Task 7 — OCR all preprocessed invoices
-python -m src.ocr_engine --input data/processed --output outputs/ocr
+# Task 7 — OCR all preprocessed invoices (automatically skips already processed files)
+python -m src.ocr_engine --input data/processed --output outputs/ocr_results
+
+# Task 7 — OCR single invoice
+python -m src.ocr_engine --single data/processed/Invoice_FR_016 --output outputs/ocr_results
 
 # Task 7 — demo script (verify Tesseract + French language pack)
 python scripts/demo_ocr.py
@@ -189,5 +245,7 @@ python scripts/demo_ocr.py
 # Task 7 — smoke tests
 python -m pytest tests/test_ocr_engine.py -v
 ```
+
+**Note:** Task 7 OCR engine intelligently skips files that are already processed. It only re-processes invoices when source PNG files are newer than the output JSON files.
 
 Tasks 8–10 commands will be added as those modules land.

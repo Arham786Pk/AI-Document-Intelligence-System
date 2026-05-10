@@ -309,15 +309,55 @@ def ocr_invoice(invoice_dir: str | Path) -> InvoiceOCRResult:
 def ocr_folder(input_dir: str | Path, output_dir: str | Path | None = None) -> list[InvoiceOCRResult]:
     """OCR all invoices in a preprocessed folder.
     
+    Handles two directory structures:
+    1. Subdirectories with page_*.png files (standard preprocessing output)
+    2. Flat structure with *_p01.png, *_p02.png files (reorganizes automatically)
+    
+    Skips processing if output JSON exists and source files haven't changed.
+    
     Args:
-        input_dir: Path to data/processed/ containing invoice subdirectories.
+        input_dir: Path to data/processed/ containing invoice subdirectories or flat files.
         output_dir: Optional path to write individual JSON files per invoice.
     
     Returns:
         List of InvoiceOCRResult objects.
     """
+    import re
+    import shutil
+    import os
+    
     input_dir = Path(input_dir)
     results: list[InvoiceOCRResult] = []
+    
+    # Check for flat structure (files like Real_Invoice_FR_Name_p01.png)
+    flat_files = list(input_dir.glob("*_p[0-9][0-9].png"))
+    
+    if flat_files:
+        print(f"[INFO] Found {len(flat_files)} flat PNG files. Reorganizing into subdirectories...")
+        
+        # Group files by invoice name
+        invoices = {}
+        for file in flat_files:
+            match = re.match(r'(.+)_p(\d+)\.png$', file.name)
+            if match:
+                invoice_name = match.group(1)
+                page_num = int(match.group(2))
+                if invoice_name not in invoices:
+                    invoices[invoice_name] = []
+                invoices[invoice_name].append((page_num, file))
+        
+        # Create subdirectories and copy files
+        for invoice_name, files in invoices.items():
+            invoice_dir = input_dir / invoice_name
+            invoice_dir.mkdir(exist_ok=True)
+            
+            files.sort(key=lambda x: x[0])
+            for idx, (page_num, src_file) in enumerate(files, start=1):
+                dst_file = invoice_dir / f"page_{idx:02d}.png"
+                if not dst_file.exists():
+                    shutil.copy2(src_file, dst_file)
+        
+        print(f"[INFO] Reorganized into {len(invoices)} invoice directories")
     
     # Find all invoice directories (skip files like preprocessing_manifest.json)
     invoice_dirs = sorted([d for d in input_dir.iterdir() if d.is_dir()])
@@ -326,28 +366,71 @@ def ocr_folder(input_dir: str | Path, output_dir: str | Path | None = None) -> l
         print(f"[WARNING] No invoice directories found in {input_dir}")
         return results
     
+    # Create output directory if specified (only once)
+    if output_dir:
+        output_dir = Path(output_dir)
+        output_dir.mkdir(parents=True, exist_ok=True)
+    
     print(f"Found {len(invoice_dirs)} invoices to process...")
     
+    processed_count = 0
+    skipped_count = 0
+    
     for invoice_dir in invoice_dirs:
-        print(f"Processing {invoice_dir.name}...", end=" ")
-        result = ocr_invoice(invoice_dir)
-        results.append(result)
-        
-        if result.error:
-            print(f"ERROR: {result.error}")
-        else:
-            print(f"OK ({result.page_count} pages, {result.total_char_count} chars, "
-                  f"{result.mean_confidence:.1%} confidence)")
-        
-        # Write individual JSON if output directory specified
+        # Check if we should skip this invoice
+        should_skip = False
         if output_dir:
-            output_dir = Path(output_dir)
-            output_dir.mkdir(parents=True, exist_ok=True)
             json_path = output_dir / f"{invoice_dir.name}.json"
-            json_path.write_text(
-                json.dumps(asdict(result), indent=2, ensure_ascii=False),
-                encoding="utf-8"
-            )
+            
+            if json_path.exists():
+                # Get modification time of JSON output
+                json_mtime = os.path.getmtime(json_path)
+                
+                # Get latest modification time of all page PNG files
+                page_files = list(invoice_dir.glob("page_*.png"))
+                if page_files:
+                    latest_page_mtime = max(os.path.getmtime(f) for f in page_files)
+                    
+                    # Skip if JSON is newer than all source files
+                    if json_mtime > latest_page_mtime:
+                        should_skip = True
+                        skipped_count += 1
+                        print(f"Skipping {invoice_dir.name}... (already processed)")
+                        
+                        # Load existing result for manifest
+                        try:
+                            existing_data = json.loads(json_path.read_text(encoding="utf-8"))
+                            # Reconstruct PageOCRResult objects
+                            pages = [PageOCRResult(**p) for p in existing_data.get('pages', [])]
+                            existing_data['pages'] = pages
+                            result = InvoiceOCRResult(**existing_data)
+                            results.append(result)
+                        except Exception:
+                            # If we can't load existing, we'll reprocess
+                            should_skip = False
+        
+        if not should_skip:
+            print(f"Processing {invoice_dir.name}...", end=" ")
+            result = ocr_invoice(invoice_dir)
+            results.append(result)
+            processed_count += 1
+            
+            if result.error:
+                print(f"ERROR: {result.error}")
+            else:
+                print(f"OK ({result.page_count} pages, {result.total_char_count} chars, "
+                      f"{result.mean_confidence:.1%} confidence)")
+            
+            # Write individual JSON if output directory specified
+            if output_dir:
+                json_path = output_dir / f"{invoice_dir.name}.json"
+                json_path.write_text(
+                    json.dumps(asdict(result), indent=2, ensure_ascii=False),
+                    encoding="utf-8"
+                )
+    
+    if skipped_count > 0:
+        print(f"\n[INFO] Processed: {processed_count}, Skipped: {skipped_count} (already up-to-date)")
     
     return results
 
