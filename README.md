@@ -51,7 +51,7 @@ Full synonym matrix and OCR-tolerance rules: [`docs/entity_schema.md`](docs/enti
 ```
 .
 ├── .claude/
-│   └── settings.local.json         ← Kiro IDE settings
+│   └── settings.local.json         IDE settings
 ├── .venv/                          ← Python virtual environment
 ├── data/
 │   ├── Images/                     ← 16 phone-photo JPGs (IMG-20260507-WA0143…WA0158)
