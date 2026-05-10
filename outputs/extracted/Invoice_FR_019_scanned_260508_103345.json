@@ -1,0 +1,30 @@
+{
+  "file_name": "Invoice_FR_019_scanned_260508_103345",
+  "supplier_name": "US/U1/2U424a",
+  "invoice_number": "",
+  "invoice_date": "09/01/2024",
+  "siret": "",
+  "echeance": "08/02/2024",
+  "invoice_content": [
+    {
+      "description": "Cours de piano — trimestre ( séances)",
+      "quantity": "1",
+      "unit_price": "12"
+    },
+    {
+      "description": "Location salle de répétition (h)",
+      "quantity": "",
+      "unit_price": "4"
+    },
+    {
+      "description": "Partition recueil Bach",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "127.70",
+  "total_amount": "766.20",
+  "payment_status": "UNKNOWN",
+  "solde_du": ""
+}

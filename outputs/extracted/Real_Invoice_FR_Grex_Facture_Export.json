@@ -1,0 +1,415 @@
+{
+  "file_name": "Real_Invoice_FR_Grex_Facture_Export",
+  "supplier_name": "s qui",
+  "invoice_number": "que l",
+  "invoice_date": "04/08/94",
+  "siret": "",
+  "echeance": "",
+  "invoice_content": [
+    {
+      "description": "de services)",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "Elle matérialise à défaut de contrat l’accord intervenu et sert à établir les déclarations d'eportation",
+      "quantity": ",",
+      "unit_price": "."
+    },
+    {
+      "description": "d'importation les titres de transport la valeur en douane les certificats les licences",
+      "quantity": ",",
+      "unit_price": "."
+    },
+    {
+      "description": "I n'eiste qu’un seul original de facture et autant de copies que nécessaire Celles-ci doivent avoir le",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "même numéro que l'original et porter la mention « copie »",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": ") PRESENTATION",
+      "quantity": "",
+      "unit_price": "2"
+    },
+    {
+      "description": "Il n’y a pas de formalisme particulier pour présenter une facture eport",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "La directive / du juillet prévoit l’égalité de traitement entre facture électronique et",
+      "quantity": "13",
+      "unit_price": "2010"
+    },
+    {
+      "description": "facture papier",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "En France la facture doit obligatoirement être rédigée en français Cependant les entreprises qui",
+      "quantity": ".",
+      "unit_price": "."
+    },
+    {
+      "description": "travaillent à l'international peuvent la libeller dans une autre langue (circulaire du mars en",
+      "quantity": "19",
+      "unit_price": "1996"
+    },
+    {
+      "description": "application de la loi Toubon du //) Si elle est rédigée en langue étrangère les services fiscau",
+      "quantity": ".",
+      "unit_price": "."
+    },
+    {
+      "description": "peuvent en demander une traduction certifiée à l’occasion d’un contrôle",
+      "quantity": ",",
+      "unit_price": "."
+    },
+    {
+      "description": "La facture doit répondre aux exigences de la législation française et communautaire mais parfois",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "également à celle du pays de l’acheteur",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "Grex International est membre de EXPORT",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "WORLD TRADE CENTERS\"",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "} ASSOCIATION",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "T - F - gre@grefr",
+      "quantity": "35",
+      "unit_price": "."
+    },
+    {
+      "description": "Les auteurs s'efforcent de diffuser des informations eactes et à jour et corrigeront dans la mesure du possible",
+      "quantity": ",",
+      "unit_price": "."
+    },
+    {
+      "description": "les erreurs qui leur seront signalées",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "Toutefois ils ne peuvent en aucun cas être tenus responsables de l’utilisation et de l'interprétation de l'information contenue dans cette",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "fiche technique qui ne vise pas à délivrer des conseils personnalisés ou liés à des cas particuliers",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "La directive //CE précise la territorialité qui s'applique pour les règles de facturation Les règles",
+      "quantity": "45",
+      "unit_price": "."
+    },
+    {
+      "description": "de facturation françaises s'appliquent notamment dans les cas ci-après :",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "- exportations effectuées par des entreprises françaises ;",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "-__ livraisons intracommunautaires réalisées par des entreprises françaises à des clients établis dans",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "un autre Etat membre ;",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "-_ facturation de prestations de services à des clients établis dans un autre Etat Membre ou dans un",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "pays tiers à l’Union Européenne",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "- _ Auto-facturation réalisée en France par un acquéreur de biens ou un preneur de prestations de",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "services à la place du fournisseur ou du prestataire",
+      "quantity": ",",
+      "unit_price": "."
+    },
+    {
+      "description": "MENTIONS OBLIGATOIRES EN FRANCE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Une facture doit comporter les mentions suivantes :",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Mentions relatives aux parties :",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "\" Nomet adresse des parties ;",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "“\" adresse de livraison si elle est différente de l’adresse de facturation ;",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "\" numéro SIREN du vendeur/prestataire numéro d'immatriculation au RCS + greffe numéro",
+      "quantity": ",",
+      "unit_price": "."
+    },
+    {
+      "description": "d'immatriculation au RM lieu du siège social ;",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "“\" forme juridique et montant du capital ;",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "\" numéro individuel d'identification à la TVA (n° TVA intracommunautaire);",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "“\" pour les professionnels soumis à une assurance professionnelle obligatoire (par exemple : garantie",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "décennale) : l'assurance souscrite au titre de leur activité les coordonnées de l'assureur ou du garant",
+      "quantity": ",",
+      "unit_price": "."
+    },
+    {
+      "description": "la couverture géographique du contrat ou de la garantie ;",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "\"numéro de TVA intracommunautaire de l’acquéreur/preneur (dans le cas d’une livraison/prestation",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "intracommunautaire ou d’une opération soumise à autoliquidation)",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "Mentions propres à la facture :",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "“\" date d'émission de la facture ;",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "\"numéro de facture (un numéro séquentiel basé sur une ou plusieurs séries qui identifie la facture",
+      "quantity": ",",
+      "unit_price": "."
+    },
+    {
+      "description": "de façon unique) ;",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "“\" date à laquelle le règlement doit intervenir ;",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "“\" conditions d’escompte applicables en cas de paiement à une date antérieure à celle résultant de",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "l'application des conditions générales de vente ou du contrat (si aucun escompte applicable le",
+      "quantity": ",",
+      "unit_price": "."
+    },
+    {
+      "description": "préciser) ;",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "\" tau des pénalités de retard (qui doit être au moins égal à fois le tau d'intérêt légal) eigibles le",
+      "quantity": "",
+      "unit_price": "3"
+    },
+    {
+      "description": "jour suivant la date de règlement inscrite sur la facture (les pénalités de retard sont exigibles sans",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "qu'un rappel soit nécessaire) ;",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "“\" le montant de l'indemnité forfaitaire pour frais de recouvrement dû au créancier en cas de retard",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "de paiement ( €);",
+      "quantity": "",
+      "unit_price": "40"
+    },
+    {
+      "description": "“\" mention « auto-facturation » lorsque le destinataire de la livraison (acquéreur) ou de la prestation",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "de service (preneur) émet une facture pour le compte du fournisseur ou du prestataire assujettis",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "' | —e FRANCE",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "évè WORLD TRADE CENTERS ch Grex International est membre de EXPORT",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "T - F - gre@grefr",
+      "quantity": "35",
+      "unit_price": "."
+    },
+    {
+      "description": "Les auteurs s'efforcent de diffuser des informations eactes et à jour et corrigeront dans la mesure du possible",
+      "quantity": ",",
+      "unit_price": "."
+    },
+    {
+      "description": "les erreurs qui leur seront signalées",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "Toutefois ils ne peuvent en aucun cas être tenus responsables de l’utilisation et de l'interprétation de l'information contenue dans cette",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "fiche technique qui ne vise pas à délivrer des conseils personnalisés ou liés à des cas particuliers",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "Mentions propres à l’opération :",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "“\" Date de la vente ou de la prestation de service ;",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "\"numéro du bon de commande lorsqu'il a été préalablement établi par l'acheteur",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "\" dénomination précise des biens et/ou services vendus ;",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "“pour chacun des biens livrés ou des services rendus la quantité la dénomination précise le pri",
+      "quantity": ",",
+      "unit_price": "."
+    },
+    {
+      "description": "unitaire hors taes et le tau de TVA légalement applicable ou le cas échéant le bénéfice d'une",
+      "quantity": ",",
+      "unit_price": "."
+    },
+    {
+      "description": "exonération ;",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "“\" tous rabais ristournes remises ou escomptes acquis et chiffrables lors de l'opération et",
+      "quantity": ",",
+      "unit_price": "."
+    },
+    {
+      "description": "directement liés à cette opération ;",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "“ |a monnaie de facturation ;",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "“\" le montant total hors TVA;",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "“\" le montant total de la TVA à payer et par tau d'imposition le",
+      "quantity": ",",
+      "unit_price": "."
+    }
+  ],
+  "tva_percentage": "",
+  "tva_amount": "",
+  "total_amount": "",
+  "payment_status": "UNKNOWN",
+  "solde_du": ""
+}

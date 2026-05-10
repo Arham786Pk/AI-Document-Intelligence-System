@@ -1,0 +1,85 @@
+{
+  "file_name": "Real_Invoice_FR_Noyon",
+  "supplier_name": "Modèle de facture commerciale ou proforma",
+  "invoice_number": "commerciale",
+  "invoice_date": "",
+  "siret": "",
+  "echeance": "",
+  "invoice_content": [
+    {
+      "description": "DES ARTICLES (en code ou en clair) POIDS NET /kg QUANTITE PRIX UNITAIRE MONTANT",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Description of goods Net weight/kg Quantity Unit price Amount",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "MONTANT TOTAL / Total Amount",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "EMBALLAGE / Packing FRET / Freight AUTRES COUTS / Assurance /",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Other costs Insurance",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "DEDUCTIONS /Deductions TOTAL DEDUCTIONS / Total deductions",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "CLAUSES PARTICULIERES / Particular clauses / VISAS",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Eonéré de TVA article - du CGI",
+      "quantity": "262",
+      "unit_price": "1"
+    },
+    {
+      "description": "MENTIONS SPECIALES / Special mentions LIEU D’ETABLISSEMENT",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Place of issue",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "NOM / Name",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "TÉL /TEL",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "SIGNATURE / Signature",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Source : Patrick NAGGIAR consultant",
+      "quantity": "",
+      "unit_price": "."
+    }
+  ],
+  "tva_percentage": "",
+  "tva_amount": "",
+  "total_amount": "",
+  "payment_status": "UNKNOWN",
+  "solde_du": ""
+}
