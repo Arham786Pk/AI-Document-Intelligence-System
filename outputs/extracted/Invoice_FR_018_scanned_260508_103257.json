@@ -1,0 +1,14 @@
+{
+  "file_name": "Invoice_FR_018_scanned_260508_103257",
+  "supplier_name": "Garage Mécanique Verdier - FACTURE",
+  "invoice_number": "GMV-2023-0789",
+  "invoice_date": "28/10/2023",
+  "siret": "88801234600190",
+  "echeance": "12/11/2023",
+  "invoice_content": [],
+  "tva_percentage": "20",
+  "tva_amount": "",
+  "total_amount": "727.20",
+  "payment_status": "UNKNOWN",
+  "solde_du": ""
+}

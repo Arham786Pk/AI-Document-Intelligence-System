@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "invoice_name": "Invoice_FR_016_scanned_260508_103316",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\Scanned_PDF\\Invoice_FR_016_scanned_260508_103316.pdf",
+      "source_type": "scanned_pdf",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_index": 0,
+          "output_path": "data\\processed\\Invoice_FR_016_scanned_260508_103316\\page_01.png",
+          "width": 2481,
+          "height": 3507,
+          "dpi": 300,
+          "quality_score": 0.439
+        }
+      ],
+      "invoice_quality_score": 0.439,
+      "degraded": false
+    },
+    {
+      "invoice_name": "Invoice_FR_017_scanned_260508_103241",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\Scanned_PDF\\Invoice_FR_017_scanned_260508_103241.pdf",
+      "source_type": "scanned_pdf",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_index": 0,
+          "output_path": "data\\processed\\Invoice_FR_017_scanned_260508_103241\\page_01.png",
+          "width": 2481,
+          "height": 3507,
+          "dpi": 300,
+          "quality_score": 0.497
+        }
+      ],
+      "invoice_quality_score": 0.497,
+      "degraded": false
+    },
+    {
+      "invoice_name": "Invoice_FR_018_scanned_260508_103257",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\Scanned_PDF\\Invoice_FR_018_scanned_260508_103257.pdf",
+      "source_type": "scanned_pdf",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_index": 0,
+          "output_path": "data\\processed\\Invoice_FR_018_scanned_260508_103257\\page_01.png",
+          "width": 2481,
+          "height": 3507,
+          "dpi": 300,
+          "quality_score": 0.632
+        }
+      ],
+      "invoice_quality_score": 0.632,
+      "degraded": false
+    },
+    {
+      "invoice_name": "Invoice_FR_019_scanned_260508_103345",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\Scanned_PDF\\Invoice_FR_019_scanned_260508_103345.pdf",
+      "source_type": "scanned_pdf",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_index": 0,
+          "output_path": "data\\processed\\Invoice_FR_019_scanned_260508_103345\\page_01.png",
+          "width": 2481,
+          "height": 3507,
+          "dpi": 300,
+          "quality_score": 0.488
+        }
+      ],
+      "invoice_quality_score": 0.488,
+      "degraded": false
+    },
+    {
+      "invoice_name": "Invoice_FR_020_scanned_260508_103334",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\Scanned_PDF\\Invoice_FR_020_scanned_260508_103334.pdf",
+      "source_type": "scanned_pdf",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_index": 0,
+          "output_path": "data\\processed\\Invoice_FR_020_scanned_260508_103334\\page_01.png",
+          "width": 2481,
+          "height": 3507,
+          "dpi": 300,
+          "quality_score": 0.622
+        }
+      ],
+      "invoice_quality_score": 0.622,
+      "degraded": false
+    }
+  ],
+  "degraded_files": [],
+  "summary": {
+    "total": 5,
+    "digital_pdf": 0,
+    "scanned_pdf": 5,
+    "image": 0,
+    "errors": 0,
+    "degraded": 0,
+    "mean_quality": 0.536
+  }
+}

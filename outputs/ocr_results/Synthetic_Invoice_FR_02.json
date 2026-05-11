@@ -1,0 +1,22 @@
+{
+  "invoice_name": "Synthetic_Invoice_FR_02",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "data\\processed\\Synthetic_Invoice_FR_02\\page_01.png",
+      "text": "Leconte SARL\n\nFACTURE\n\nFournisseur: Leconte SARL\n\nClient: Navarro\n\nrue Andre, 43121 Lenoir-sur-Rolland\n\nN° Facture: INV-44099\nDate d'émission: 21/02/2024\nDate d'échéance: 23/01/2025\n\nN° Projet: WLD-4552\nDésignation EU Quantité Prix Unitaire Total\n\n1 Benchmark Magnetic Synergies SS 304 108.01 kg 170.40 € 10053.60 €\n2 Optimize Leading-Edge E-Services Aluminium 6061-T6 49 tons 383.00 € 18767.00 €\n3 Optimize Robust Supply-Chains PVC Sch 80 11 pcs 133.61 € 1469.71 €\n4 Optimize Web-Enabled Niches Inconel 625 7 kg 377.02 € 2639.14 €\n\nSous-total: 32929.45 €\n\nTVA 20%: 6585.89 €\n\nTotal TTC: 39515.34 €\n\nConditions de paiement : 30 jours net. Virement bancaire uniquement. Merci de votre confiance.",
+      "confidence": 0.9292105263157895,
+      "char_count": 694,
+      "word_count": 104,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Leconte SARL\n\nFACTURE\n\nFournisseur: Leconte SARL\n\nClient: Navarro\n\nrue Andre, 43121 Lenoir-sur-Rolland\n\nN° Facture: INV-44099\nDate d'émission: 21/02/2024\nDate d'échéance: 23/01/2025\n\nN° Projet: WLD-4552\nDésignation EU Quantité Prix Unitaire Total\n\n1 Benchmark Magnetic Synergies SS 304 108.01 kg 170.40 € 10053.60 €\n2 Optimize Leading-Edge E-Services Aluminium 6061-T6 49 tons 383.00 € 18767.00 €\n3 Optimize Robust Supply-Chains PVC Sch 80 11 pcs 133.61 € 1469.71 €\n4 Optimize Web-Enabled Niches Inconel 625 7 kg 377.02 € 2639.14 €\n\nSous-total: 32929.45 €\n\nTVA 20%: 6585.89 €\n\nTotal TTC: 39515.34 €\n\nConditions de paiement : 30 jours net. Virement bancaire uniquement. Merci de votre confiance.",
+  "mean_confidence": 0.9292105263157895,
+  "total_char_count": 694,
+  "total_word_count": 104,
+  "low_quality_pages": [],
+  "error": ""
+}

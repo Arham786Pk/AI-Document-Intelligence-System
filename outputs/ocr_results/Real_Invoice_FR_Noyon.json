@@ -1,0 +1,22 @@
+{
+  "invoice_name": "Real_Invoice_FR_Noyon",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "data\\processed\\Real_Invoice_FR_Noyon\\page_01.png",
+      "text": "Modèle de facture commerciale ou proforma\nCommercial or Proforma invoice\n\nEXPORTATEUR }/ Exporter N° FACTURE / Invoice n° DATE FACTURE / Invoice\nNumber of sheets : date\n\nAUTRES REFERENCES / Other references\n\nDESTINATAIRE / Consignee ACHETEUR /Buyer\n\nNOTIFIER A / Notify BANQUE DU VENDEUR / Seller’s bank\n\nPAYS D’ORIGINE N°GUICHET BANQUE\nCountry of origin Bank counter no\n\nDATE DE MISE A DISPOSITION / DATE D’EXPEDITION DEMANDEE / CONDITIONS DE VENTE (INCOTERMS) / Terms of sale\nDate of disposal date of dispatch requested\n\nPRE-TRANSPORT PAR }/ Pre-carriage by LIEU DE RECEPTION / Place of CONDITIONS DE PAIEMENT / MONNAIE DE PAIEMENT /\nreceipt Terms of payment Currency of payment\n\nIDENTITE DU MOYEN DE TRANSPORT / LIEU DE CHARGEMENT /\nMain Transport by Place of loading\n\nLIEU DE DECHARGEMENT / LIEU DE DESTINATION /\nPlace of discharge Place of destination\n\nDESIGNATION DES ARTICLES (en code ou en clair) POIDS NET /kg QUANTITE PRIX UNITAIRE MONTANT\nDescription of goods Net weight/kg Quantity Unit price Amount\n\nMONTANT TOTAL / Total Amount\n\nEMBALLAGE / Packing FRET / Freight AUTRES COUTS / Assurance /\nOther costs Insurance\n\nTOTAL DES FRAIS / Total Charges\n\nDEDUCTIONS /Deductions TOTAL DEDUCTIONS / Total deductions\n\nTOTAL A PAYER / Total To Pay\n\nCLAUSES PARTICULIERES / Particular clauses / VISAS\n\nExonéré de TVA article 262-1 du CGI\n\nMENTIONS SPECIALES / Special mentions LIEU D’ETABLISSEMENT\nPlace of issue\n\nNOM / Name\n\nTÉL. /TEL\n\nSIGNATURE / Signature\n\nSource : Patrick NAGGIAR, consultant",
+      "confidence": 0.9239442231075696,
+      "char_count": 1497,
+      "word_count": 238,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Modèle de facture commerciale ou proforma\nCommercial or Proforma invoice\n\nEXPORTATEUR }/ Exporter N° FACTURE / Invoice n° DATE FACTURE / Invoice\nNumber of sheets : date\n\nAUTRES REFERENCES / Other references\n\nDESTINATAIRE / Consignee ACHETEUR /Buyer\n\nNOTIFIER A / Notify BANQUE DU VENDEUR / Seller’s bank\n\nPAYS D’ORIGINE N°GUICHET BANQUE\nCountry of origin Bank counter no\n\nDATE DE MISE A DISPOSITION / DATE D’EXPEDITION DEMANDEE / CONDITIONS DE VENTE (INCOTERMS) / Terms of sale\nDate of disposal date of dispatch requested\n\nPRE-TRANSPORT PAR }/ Pre-carriage by LIEU DE RECEPTION / Place of CONDITIONS DE PAIEMENT / MONNAIE DE PAIEMENT /\nreceipt Terms of payment Currency of payment\n\nIDENTITE DU MOYEN DE TRANSPORT / LIEU DE CHARGEMENT /\nMain Transport by Place of loading\n\nLIEU DE DECHARGEMENT / LIEU DE DESTINATION /\nPlace of discharge Place of destination\n\nDESIGNATION DES ARTICLES (en code ou en clair) POIDS NET /kg QUANTITE PRIX UNITAIRE MONTANT\nDescription of goods Net weight/kg Quantity Unit price Amount\n\nMONTANT TOTAL / Total Amount\n\nEMBALLAGE / Packing FRET / Freight AUTRES COUTS / Assurance /\nOther costs Insurance\n\nTOTAL DES FRAIS / Total Charges\n\nDEDUCTIONS /Deductions TOTAL DEDUCTIONS / Total deductions\n\nTOTAL A PAYER / Total To Pay\n\nCLAUSES PARTICULIERES / Particular clauses / VISAS\n\nExonéré de TVA article 262-1 du CGI\n\nMENTIONS SPECIALES / Special mentions LIEU D’ETABLISSEMENT\nPlace of issue\n\nNOM / Name\n\nTÉL. /TEL\n\nSIGNATURE / Signature\n\nSource : Patrick NAGGIAR, consultant",
+  "mean_confidence": 0.9239442231075696,
+  "total_char_count": 1497,
+  "total_word_count": 238,
+  "low_quality_pages": [],
+  "error": ""
+}

@@ -1,0 +1,100 @@
+{
+  "file_name": "IMG-20260507-WA0157",
+  "supplier_name": "Numéro Date Code client / Date échéance Mode de règlement N° de Tvaintracom",
+  "invoice_number": "FC20251175",
+  "invoice_date": "28/04/2025",
+  "siret": "16490000070962",
+  "echeance": "",
+  "invoice_content": [
+    {
+      "description": "Qté PUHT MontantHT TVA",
+      "quantity": ".",
+      "unit_price": "."
+    },
+    {
+      "description": "AUDIT INITIAL ISO Etape & Etape !",
+      "quantity": "2772.67",
+      "unit_price": "20.0"
+    },
+    {
+      "description": "IMPORTANT : |",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "‘ Le règlement doit intervenir dès réception de la facture Ce n'est qu'à partir !",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "‘de cette étape que la prestation débutera",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "Certification ISO version :",
+      "quantity": "589.38",
+      "unit_price": "20.0"
+    },
+    {
+      "description": "‘AUDIT INITIAL ISO Etape & Etape",
+      "quantity": "1",
+      "unit_price": "2"
+    },
+    {
+      "description": "| IMPORTANT :",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "| Le règlement doit intervenir dès réception de la facture Ce n'est qu'à partir",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "| de cette étape que la prestation débutera",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "TXT Selon les termes du contrat n° -",
+      "quantity": "25",
+      "unit_price": "443"
+    },
+    {
+      "description": "Dossier Q !",
+      "quantity": "",
+      "unit_price": "426"
+    },
+    {
+      "description": "Les opérations donnant lieu à facture sont constituées exclusivement de prestations de services",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "EsonPe pour nement une pénalité égale à fois le tau d'intérêt légal sera eigible ainsi qu'une indemnité forfaitaire pour",
+      "quantity": "3",
+      "unit_price": "."
+    },
+    {
+      "description": "n ca :",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "ini de euros pour les professionnels",
+      "quantity": "",
+      "unit_price": "40"
+    },
+    {
+      "description": "frais de recouvrement d'un montant minimum p",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20.00",
+  "tva_amount": "20.00",
+  "total_amount": "4034.46",
+  "payment_status": "UNKNOWN",
+  "solde_du": ""
+}

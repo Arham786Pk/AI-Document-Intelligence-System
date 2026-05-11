@@ -1,0 +1,290 @@
+{
+  "file_name": "Real_Invoice_FR_Cbsa_Customs",
+  "supplier_name": "(name and address) - Vendeur (nom et adresse)",
+  "invoice_number": "",
+  "invoice_date": "",
+  "siret": "",
+  "echeance": "",
+  "invoice_content": [
+    {
+      "description": "and characteristics ie grade quality) (state unit) Unit pri Total",
+      "quantity": "14",
+      "unit_price": "15"
+    },
+    {
+      "description": "packages Désignation des articles (nature des colis marques et numéros description générale Quantité \"hp ni Pia : ota",
+      "quantity": ",",
+      "unit_price": "."
+    },
+    {
+      "description": "Nombre et caractéristiques p e classe qualité) (précisez l'unité) r unitaire",
+      "quantity": ".",
+      "unit_price": "."
+    },
+    {
+      "description": "de colis",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "If any of fields to are included on an attached commercial invoice check this bo Total weight - Poids total Invoice total",
+      "quantity": "16.",
+      "unit_price": "17."
+    },
+    {
+      "description": "Si tout renseignement relativement au zones à figure sur une ou des factures [| Net Gross - Brut Total de la facture",
+      "quantity": "1",
+      "unit_price": "17"
+    },
+    {
+      "description": "Eporter's name and address (if other than vendor)",
+      "quantity": "",
+      "unit_price": "19."
+    },
+    {
+      "description": "Nom et adresse de l'exportateur (s'il diffère du vendeur)",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Originator (name and address) - Epéditeur d'origine (nom",
+      "quantity": "",
+      "unit_price": "20."
+    },
+    {
+      "description": "et adresse)",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Agency ruling (if applicable) - Décision de l'Agence (s'il y a lieu)",
+      "quantity": "",
+      "unit_price": "21."
+    },
+    {
+      "description": ":",
+      "quantity": "",
+      "unit_price": "22."
+    },
+    {
+      "description": "If fields to are not applicable check this bo",
+      "quantity": "25",
+      "unit_price": "."
+    },
+    {
+      "description": "Si les zones à sont sans objet cochez cette case",
+      "quantity": "25",
+      "unit_price": "."
+    },
+    {
+      "description": "lf included in field indicate amount:",
+      "quantity": "23.",
+      "unit_price": "17"
+    },
+    {
+      "description": "Si compris dans le total à la zone précisez :",
+      "quantity": "",
+      "unit_price": "17."
+    },
+    {
+      "description": "(i) Transportation charges epenses and insurance",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "from the place of direct shipment to Canada",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Les frais de transport dépenses et assurances",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "à partir du point d'expédition directe vers le Canada",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "(ii) Costs for construction erection and assembly",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "incurred after importation into Canada",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Les coûts de construction d'érection et",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "d'assemblage après importation au Canada",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "(iii) Export packing",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Le coût de l'emballage d'exportation",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "If not included in field indicate amount:",
+      "quantity": "",
+      "unit_price": "17"
+    },
+    {
+      "description": "Si non compris dans le total à la zone précisez :",
+      "quantity": "",
+      "unit_price": "17."
+    },
+    {
+      "description": "Check (if applicable):",
+      "quantity": "",
+      "unit_price": "25."
+    },
+    {
+      "description": "(i) Transportation charges epenses and insurance",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "to the place of direct shipment to Canada",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Les frais de transport dépenses et assurances",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "jusqu'au point d'expédition directe vers le Canada",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "(ii) Amounits for commissions other than buying",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "commissions",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Les commissions autres que celles versées",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "pour l'achat",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "(iii) Export packing",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Le coût de l'emballage d'exportation",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Cochez (s'il y a lieu) :",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "(i) Royalty payments or subsequent proceeds are",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "paid or payable by the purchaser",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Des redevances ou produits ont été ou seront",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "versés par l'acheteur",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "(ii) The purchaser has supplied goods or services",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "for use in the production of these goods",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "L'acheteur a fourni des",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "services pour la produc:",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "marchandises",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Dans ce formulaire toutes les epressions désignant des personnes visent à la fois les hommes et les femmes",
+      "quantity": ",",
+      "unit_price": "."
+    },
+    {
+      "description": "marchandises ou des",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "ion de ces",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "CI (/)",
+      "quantity": "08",
+      "unit_price": "09"
+    },
+    {
+      "description": "If you require more space please attach another sheet - Si vous avez besoin de plus d'espace veuillez joindre une autre feuille",
+      "quantity": ",",
+      "unit_price": "."
+    },
+    {
+      "description": "BSF",
+      "quantity": "",
+      "unit_price": "189"
+    }
+  ],
+  "tva_percentage": "",
+  "tva_amount": "",
+  "total_amount": "",
+  "payment_status": "UNKNOWN",
+  "solde_du": ""
+}
