@@ -12,10 +12,10 @@
           "width": 2481,
           "height": 3507,
           "dpi": 300,
-          "quality_score": 0.439
+          "quality_score": 0.8
         }
       ],
-      "invoice_quality_score": 0.439,
+      "invoice_quality_score": 0.8,
       "degraded": false
     },
     {
@@ -30,10 +30,10 @@
           "width": 2481,
           "height": 3507,
           "dpi": 300,
-          "quality_score": 0.497
+          "quality_score": 0.8
         }
       ],
-      "invoice_quality_score": 0.497,
+      "invoice_quality_score": 0.8,
       "degraded": false
     },
     {
@@ -48,10 +48,10 @@
           "width": 2481,
           "height": 3507,
           "dpi": 300,
-          "quality_score": 0.632
+          "quality_score": 0.8
         }
       ],
-      "invoice_quality_score": 0.632,
+      "invoice_quality_score": 0.8,
       "degraded": false
     },
     {
@@ -66,10 +66,10 @@
           "width": 2481,
           "height": 3507,
           "dpi": 300,
-          "quality_score": 0.488
+          "quality_score": 0.8
         }
       ],
-      "invoice_quality_score": 0.488,
+      "invoice_quality_score": 0.8,
       "degraded": false
     },
     {
@@ -84,10 +84,10 @@
           "width": 2481,
           "height": 3507,
           "dpi": 300,
-          "quality_score": 0.622
+          "quality_score": 0.8
         }
       ],
-      "invoice_quality_score": 0.622,
+      "invoice_quality_score": 0.8,
       "degraded": false
     }
   ],
@@ -99,6 +99,6 @@
     "image": 0,
     "errors": 0,
     "degraded": 0,
-    "mean_quality": 0.536
+    "mean_quality": 0.8
   }
 }
