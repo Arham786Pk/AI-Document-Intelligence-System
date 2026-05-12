@@ -258,8 +258,12 @@ For detailed documentation, see [`docs/ocr_engine.md`](docs/ocr_engine.md).
 python scripts/build_ground_truth.py
 
 # Task 6 — preprocess every invoice into 300 DPI binarised PNGs
+# (Smart mode: skips already processed files by default)
 python -m src.preprocessor --input data/Images --output data/processed
 python -m src.preprocessor --input data/Scanned_PDF --output data/processed
+
+# Task 6 — force reprocessing (ignore existing files)
+python -m src.preprocessor --input data/Images --output data/processed --force
 
 # Task 6 — smoke tests
 python -m pytest tests/test_preprocessor.py -v
@@ -282,10 +286,11 @@ python -m src.extractor --input outputs/ocr_results --output outputs/extracted
 # Task 8 — smoke tests
 python -m pytest tests/test_extractor.py -v
 
-# Task 9 — run full pipeline from preprocessed images (most common)
-python -m src.pipeline --input data/processed --output outputs --from processed
+# Task 9 — run full pipeline from preprocessed images (RECOMMENDED)
+# Includes smart preprocessing: checks raw sources and only processes new/modified files
+python -m src.pipeline --input data/processed --output outputs --from processed --raw-sources data/Images data/Scanned_PDF
 
-# Task 9 — run full pipeline from raw invoices
+# Task 9 — run full pipeline from raw invoices (includes preprocessing)
 python -m src.pipeline --input data/raw/french_invoices --output outputs --from raw
 
 # Task 9 — run extraction only (from OCR results)
@@ -307,7 +312,10 @@ python -m pytest tests/test_metrics.py -v
 python -m pytest tests/ -v
 ```
 
-**Note:** Task 7 OCR engine intelligently skips files that are already processed. It only re-processes invoices when source PNG files are newer than the output JSON files.
+**Note:** 
+- **Task 6 (Preprocessing)**: Now intelligently skips files that are already processed (compares modification times). Use `--force` to reprocess everything.
+- **Task 7 (OCR)**: Intelligently skips files that are already processed. Only re-processes invoices when source PNG files are newer than output JSON files.
+- **Task 9 (Pipeline)**: Use `--raw-sources` to include preprocessing with smart skipping, or omit it to skip preprocessing entirely.
 
 ---
 

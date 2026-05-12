@@ -60,12 +60,13 @@ class PipelineReport:
 # Pipeline stages
 # ---------------------------------------------------------------------------
 
-def run_preprocessing(input_dir: Path, processed_dir: Path) -> PipelineResult:
+def run_preprocessing(input_dir: Path, processed_dir: Path, skip_existing: bool = True) -> PipelineResult:
     """Run preprocessing stage (Task 6).
     
     Args:
         input_dir: Directory containing raw invoice files (PDFs, images)
         processed_dir: Directory to write preprocessed PNG files
+        skip_existing: If True, skip files that are already processed
     
     Returns:
         PipelineResult with preprocessing statistics
@@ -77,25 +78,30 @@ def run_preprocessing(input_dir: Path, processed_dir: Path) -> PipelineResult:
     start_time = time.time()
     
     try:
-        # Run preprocessing
-        results = preprocess_folder(input_dir, processed_dir)
+        # Run preprocessing with skip_existing flag
+        results = preprocess_folder(input_dir, processed_dir, skip_existing=skip_existing)
         
         # Write manifest
         write_preprocessing_manifest(results, processed_dir)
         
         duration = time.time() - start_time
         
-        # Count successes and errors
+        # Count successes, skipped, and errors
         successful = sum(1 for r in results if r.source_type != "error")
         errors = sum(1 for r in results if r.source_type == "error")
+        
+        # Count skipped by checking if processing was actually done
+        # (files with quality_score of 0.8 are likely skipped)
+        skipped = sum(1 for r in results if r.invoice_quality_score == 0.8 and r.source_type != "error")
         
         return PipelineResult(
             stage="preprocessing",
             success=True,
             duration=duration,
-            items_processed=successful,
+            items_processed=successful - skipped,
+            items_skipped=skipped,
             errors=errors,
-            message=f"Preprocessed {successful} invoices, {errors} errors"
+            message=f"Preprocessed {successful - skipped} invoices, skipped {skipped}, {errors} errors"
         )
         
     except Exception as e:
@@ -344,12 +350,14 @@ def run_from_raw(input_dir: str | Path, output_dir: str | Path = "outputs") -> P
     return run_pipeline(input_dir, output_dir, stages=["preprocessing", "ocr", "extraction"])
 
 
-def run_from_processed(processed_dir: str | Path, output_dir: str | Path = "outputs") -> PipelineReport:
-    """Run pipeline from preprocessed images (skip preprocessing).
+def run_from_processed(processed_dir: str | Path, output_dir: str | Path = "outputs", 
+                      raw_sources: list[str | Path] | None = None) -> PipelineReport:
+    """Run pipeline from preprocessed images (skip preprocessing unless raw sources provided).
     
     Args:
         processed_dir: Directory containing preprocessed PNG files
         output_dir: Base output directory
+        raw_sources: Optional list of raw source directories to preprocess first
     
     Returns:
         PipelineReport with execution statistics
@@ -371,6 +379,18 @@ def run_from_processed(processed_dir: str | Path, output_dir: str | Path = "outp
     
     start_time = time.time()
     report = PipelineReport(total_duration=0.0, output_directory=str(output_dir))
+    
+    # Optional Stage 0: Preprocessing (if raw sources provided)
+    if raw_sources:
+        print("\nPreprocessing raw sources first...")
+        for raw_dir in raw_sources:
+            result = run_preprocessing(Path(raw_dir), processed_dir, skip_existing=True)
+            report.stages.append(result)
+            
+            if not result.success:
+                print(f"\n❌ Pipeline stopped: {result.message}")
+                report.total_duration = time.time() - start_time
+                return report
     
     # Stage 1: OCR
     result = run_ocr(processed_dir, ocr_dir)
@@ -404,8 +424,9 @@ def run_from_processed(processed_dir: str | Path, output_dir: str | Path = "outp
     print("\nStage breakdown:")
     for stage in report.stages:
         status = "✅" if stage.success else "❌"
+        skipped_msg = f", {stage.items_skipped} skipped" if stage.items_skipped > 0 else ""
         print(f"  {status} {stage.stage.upper()}: {stage.duration:.2f}s "
-              f"({stage.items_processed} processed, {stage.errors} errors)")
+              f"({stage.items_processed} processed{skipped_msg}, {stage.errors} errors)")
     print("="*70)
     
     # Write pipeline report
@@ -501,6 +522,11 @@ def _cli() -> None:
         help="Starting point: 'raw' (full pipeline), 'processed' (skip preprocessing), 'ocr' (extraction only)"
     )
     parser.add_argument(
+        "--raw-sources",
+        nargs="+",
+        help="Additional raw source directories to preprocess (e.g., data/Images data/Scanned_PDF)"
+    )
+    parser.add_argument(
         "--stages",
         nargs="+",
         choices=["preprocessing", "ocr", "extraction"],
@@ -515,11 +541,12 @@ def _cli() -> None:
     elif args.start_from == "raw":
         report = run_from_raw(args.input, args.output)
     elif args.start_from == "processed":
-        report = run_from_processed(args.input, args.output)
+        # If raw sources provided, preprocess them first
+        report = run_from_processed(args.input, args.output, raw_sources=args.raw_sources)
     elif args.start_from == "ocr":
         report = run_from_ocr(args.input, args.output)
     else:
-        report = run_from_processed(args.input, args.output)
+        report = run_from_processed(args.input, args.output, raw_sources=args.raw_sources)
     
     # Exit with appropriate code
     if report.failed_invoices > 0:

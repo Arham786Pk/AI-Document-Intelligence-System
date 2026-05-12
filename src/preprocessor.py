@@ -216,13 +216,54 @@ def _process_page(rgb: np.ndarray, source_type: str) -> tuple[np.ndarray, float]
 # Public API
 # ---------------------------------------------------------------------------
 
-def preprocess_invoice(source: str | Path, output_root: str | Path) -> InvoiceResult:
-    """Preprocess one invoice (PDF or image), write outputs, return a report."""
+def preprocess_invoice(source: str | Path, output_root: str | Path, skip_existing: bool = True) -> InvoiceResult:
+    """Preprocess one invoice (PDF or image), write outputs, return a report.
+    
+    Args:
+        source: Path to source invoice file (PDF or image)
+        output_root: Root directory for preprocessed outputs
+        skip_existing: If True, skip processing if output is newer than source
+    
+    Returns:
+        InvoiceResult with preprocessing details
+    """
     source_path = Path(source).resolve()
     output_root = Path(output_root)
     invoice_name = source_path.stem
     out_dir = output_root / invoice_name
     out_dir.mkdir(parents=True, exist_ok=True)
+
+    # Check if we should skip (output exists and is newer than source)
+    if skip_existing:
+        first_page = out_dir / "page_01.png"
+        if first_page.exists():
+            source_mtime = source_path.stat().st_mtime
+            output_mtime = first_page.stat().st_mtime
+            
+            if output_mtime > source_mtime:
+                # Output is newer - load existing result from manifest or create minimal result
+                print(f"  [SKIP] {invoice_name} (already processed)")
+                
+                # Count existing pages
+                existing_pages = sorted(out_dir.glob("page_*.png"))
+                pages = []
+                for idx, page_path in enumerate(existing_pages):
+                    # Load image to get dimensions
+                    img = cv2.imread(str(page_path), cv2.IMREAD_GRAYSCALE)
+                    if img is not None:
+                        h, w = img.shape[:2]
+                        pages.append(PageResult(idx, str(page_path), w, h, TARGET_DPI, 0.8))
+                
+                source_type = detect_source_type(source_path)
+                return InvoiceResult(
+                    invoice_name=invoice_name,
+                    source_path=str(source_path),
+                    source_type=source_type,
+                    page_count=len(pages),
+                    pages=pages,
+                    invoice_quality_score=0.8,
+                    degraded=False,
+                )
 
     source_type = detect_source_type(source_path)
     pages: list[PageResult] = []
@@ -257,8 +298,17 @@ def preprocess_invoice(source: str | Path, output_root: str | Path) -> InvoiceRe
     return result
 
 
-def preprocess_folder(input_dir: str | Path, output_root: str | Path) -> list[InvoiceResult]:
-    """Preprocess every supported file in ``input_dir`` (non-recursive)."""
+def preprocess_folder(input_dir: str | Path, output_root: str | Path, skip_existing: bool = True) -> list[InvoiceResult]:
+    """Preprocess every supported file in ``input_dir`` (non-recursive).
+    
+    Args:
+        input_dir: Directory containing source invoice files
+        output_root: Root directory for preprocessed outputs
+        skip_existing: If True, skip files that are already processed
+    
+    Returns:
+        List of InvoiceResult objects
+    """
     input_dir = Path(input_dir)
     output_root = Path(output_root)
     output_root.mkdir(parents=True, exist_ok=True)
@@ -269,7 +319,7 @@ def preprocess_folder(input_dir: str | Path, output_root: str | Path) -> list[In
         if path.suffix.lower() not in SUPPORTED_IMAGE_EXTS and path.suffix.lower() != ".pdf":
             continue
         try:
-            result = preprocess_invoice(path, output_root)
+            result = preprocess_invoice(path, output_root, skip_existing=skip_existing)
             results.append(result)
         except Exception as exc:  # pragma: no cover — surfaced in the manifest
             results.append(
@@ -320,14 +370,18 @@ def _cli() -> None:
                         help="Folder where cleaned page PNGs are written.")
     parser.add_argument("--single", default=None,
                         help="Process a single invoice file instead of the whole folder.")
+    parser.add_argument("--force", action="store_true",
+                        help="Force reprocessing even if output already exists.")
     args = parser.parse_args()
 
+    skip_existing = not args.force
+
     if args.single:
-        result = preprocess_invoice(args.single, args.output)
+        result = preprocess_invoice(args.single, args.output, skip_existing=skip_existing)
         print(json.dumps(asdict(result), indent=2, ensure_ascii=False))
         return
 
-    results = preprocess_folder(args.input, args.output)
+    results = preprocess_folder(args.input, args.output, skip_existing=skip_existing)
     manifest = write_manifest(results, args.output)
     summary = json.loads(manifest.read_text(encoding="utf-8"))["summary"]
     print(f"Wrote {manifest}")
