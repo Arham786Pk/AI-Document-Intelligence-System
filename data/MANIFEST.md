@@ -1,7 +1,7 @@
 # French Invoice Dataset – Inventory
 
 **Scope:** AI French Invoice Data Extraction – Milestones 1 + 2
-**Total physical files (M1 + M2 Task 02):** 73 (16 M1 phone-photo JPGs + 5 M1 scanned PDFs + 52 M2 sourced-internet PDFs — all scoring ≥7/12 entities)
+**Total physical files (M1 + M2 Task 02):** 73 in repo (16 M1 phone-photo JPGs + 5 M1 scanned PDFs + 52 M2 sourced-internet PDFs — all scoring ≥7/12 entities). 3 additional real-PII PDFs held locally only in `_pii_review/` (git-ignored).
 **Total unique invoices (M1 ground-truth labelled):** 19
 **Languages:** French only
 **Sources:**

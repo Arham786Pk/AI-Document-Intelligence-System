@@ -36,7 +36,7 @@ python -m src.metrics --extracted outputs/extracted --ground-truth docs/ground_t
 
 - `data/Images/` — 16 phone photos (M1 dataset)
 - `data/Scanned_PDF/` — 5 M1 scanned PDFs + `sourced_internet/` subfolder with 52 high-quality French invoice PDFs collected from public sources for M2 AI training (all scoring ≥7/12 on the 12-entity audit)
-- **Total dataset: 73 documents** (target was ≥50)
+- **Total dataset in repo: 73 documents** (target was ≥50). 3 additional real-PII French invoices (Orange Business 2024, France Telecom 2012, GMC Internet 2016) are held locally only in `_pii_review/` (git-ignored, never pushed) — available for layout-diversity training if PII is redacted first.
 - See [`data/Scanned_PDF/sourced_internet/MANIFEST.md`](data/Scanned_PDF/sourced_internet/MANIFEST.md) for per-file entity audit score, source attribution, and content classification (gold-tier Securibox/factur-x-ng invoices, real Iberdrola bill, Chorus Pro government test invoices, "comprendre votre facture" educational PDFs)
 
 

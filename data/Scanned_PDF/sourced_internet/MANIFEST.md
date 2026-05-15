@@ -1,9 +1,10 @@
 # Sourced Internet — French Invoice PDFs (Milestone 2 Task 02)
 
-> Documents downloaded from public sources to expand the training dataset from M1's 21 invoices to ≥50 for AI training in M2. All sources are publicly published — no PII-containing real invoices.
+> Documents downloaded from public sources to expand the training dataset from M1's 21 invoices to ≥50 for AI training in M2. All committed sources are publicly published with no real customer PII (fictional sample data only).
 >
 > Collected: 2026-05-15
-> Total in folder: **52 PDFs** (after entity-coverage filtering)
+> Total in folder: **52 PDFs** in main set (after entity-coverage filtering)
+> Plus 3 real PII-containing PDFs held locally only in `_pii_review/` (git-ignored, never pushed) — see _pii_review note below.
 
 ---
 
@@ -15,9 +16,13 @@ All 52 PDFs were audited against the 12 M2 entities using broadened French label
 |---|---|---|---|
 | **12/12 perfect** | **9 PDFs** | **17%** | All entity labels and values present |
 | 11/12 | 24 PDFs | 46% | Only 1 entity missing — usually `solde_du` (when invoice is unpaid) or `consumer_name` (when label is implicit) |
-| 10/12 | 1 PDF | 2% | Real Iberdrola electricity bill |
+| 10/12 | 1 PDF | 2% | Real Iberdrola electricity bill (anonymized example published by veillemag) |
 | 9/12 | 6 PDFs | 12% | Facture_UE variants + SFR guide + Euresto |
 | 8/12 | 12 PDFs | 23% | Chorus Pro FSO government test invoices (use simpler labels) |
+
+### `_pii_review/` — held locally only (git-ignored)
+
+3 real anonymized French invoices were found from non-Factur-X sources (Orange Business Services 2024, France Telecom 2012, GMC Internet 2016), each scoring 9-11/12. They contain real customer names, addresses, and account numbers. Per user decision, they are kept locally in `_pii_review/` for potential annotation use but git-ignored (never pushed to public GitHub). If Person 1 chooses to use them during Task 05 annotation, PII should be redacted first.
 
 ### The 9 perfect 12/12 PDFs
 
