@@ -1,0 +1,18 @@
+Entity,Precision,Recall,F1,Status,Notes
+supplier_name,21.05,100.00,34.78,Needs work,Rules tag every header line; precision is the bottleneck
+invoice_number,77.78,46.67,58.33,Moderate,9-pattern regex; misses non-standard prefixes
+invoice_date,41.18,87.50,56.00,Moderate,Multiple date formats not all covered
+siret,57.14,36.36,44.44,Weak,14-digit detection often confuses with other numeric IDs
+echeance,100.00,64.29,78.26,Good,Strong precision; recall limited when label is implicit
+invoice_content,77.78,41.18,53.85,Moderate,Free-text field; recall hurts when description spans rows
+tva_percentage,90.00,50.00,64.29,Good,Easy when "TVA 20%" pattern present
+tva_amount,87.50,38.89,53.85,Moderate,Confuses TVA with subtotals on some layouts
+total_amount,90.00,50.00,64.29,Good,Strong on "Total TTC" label; weak when label missing
+payment_status,89.47,100.00,94.44,Excellent,Card detection fix landed in M1 Complete commit
+solde_du,100.00,100.00,100.00,Perfect,Trivial rule on "Solde du" label
+,,,,,
+MACRO AVERAGE (11 fields),75.63,64.99,63.87,M1 BASELINE,Computed as arithmetic mean of per-field metrics
+,,,,,
+M2 TARGET (per brief),,,55.00,Must exceed,Brief says target is 55% macro F1
+GAP (current - target),,,+8.87,,M1 rules already beat brief target — LayoutLMv3 must beat 63.87% to be worth deploying
+consumer_name (NEW for M2),N/A,N/A,N/A,To be built,12th entity — rules cannot reliably extract this
