@@ -1,7 +1,7 @@
 # French Invoice Dataset – Inventory
 
 **Scope:** AI French Invoice Data Extraction – Milestones 1 + 2
-**Total physical files (M1 + M2 Task 02):** 57 (16 M1 phone-photo JPGs + 5 M1 scanned PDFs + 36 M2 sourced-internet PDFs)
+**Total physical files (M1 + M2 Task 02):** 73 (16 M1 phone-photo JPGs + 5 M1 scanned PDFs + 52 M2 sourced-internet PDFs — all scoring ≥7/12 entities)
 **Total unique invoices (M1 ground-truth labelled):** 19
 **Languages:** French only
 **Sources:**
@@ -11,8 +11,9 @@
 **Layout on disk:**
 - `data/Images/` — 16 phone-photo JPGs (`IMG-20260507-WA0143.jpg` … `WA0158.jpg`) — M1
 - `data/Scanned_PDF/` — 5 scanned PDFs (`Invoice_FR_016_scanned_*.pdf` … `Invoice_FR_020_scanned_*.pdf`) — M1
-- `data/Scanned_PDF/sourced_internet/` — 36 additional French invoice PDFs from public sources (Factur-X reference invoices, 1 real Iberdrola electricity bill, URSSAF/StartBusinessInFrance/Stripe templates, EDF/ENGIE/SFR "comprendre votre facture" educational PDFs) — added in M2 Task 02
+- `data/Scanned_PDF/sourced_internet/` — 52 high-quality French invoice PDFs (Factur-X reference invoices from Securibox/invoice-x/Tiime, real Iberdrola electricity bill, Chorus Pro government test invoices, EDF/ENGIE/SFR/Sigerly/Euresto "comprendre votre facture" educational PDFs) — added in M2 Task 02, all scoring ≥7/12 entities
 - `data/Scanned_PDF/sourced_internet/_not_invoices/` — 15 quarantined PDFs (help guides, FAQs, broken downloads, Lorem ipsum placeholders) preserved for traceability, excluded from training
+- `data/Scanned_PDF/sourced_internet/_low_quality/` — 22 quarantined PDFs that scored ≤6/12 entities (templates with placeholder data, ENGIE image-only PDFs, Chorus FSO simple test cases), excluded from training per user request
 
 The M1 dataset is referenced by the ground-truth spreadsheet (`docs/ground_truth.csv`).
 The M2 Task 02 additions will be annotated in Label Studio during Task 05.

@@ -35,9 +35,9 @@ python -m src.metrics --extracted outputs/extracted --ground-truth docs/ground_t
 **Note on dataset (updated for Milestone 2 Task 02 — 2026-05-15):**
 
 - `data/Images/` — 16 phone photos (M1 dataset)
-- `data/Scanned_PDF/` — 5 M1 scanned PDFs + `sourced_internet/` subfolder with 36 additional French invoice PDFs collected from public sources for M2 AI training
-- **Total dataset: 57 documents** (meets M2 Task 02 target of ≥50)
-- See [`data/Scanned_PDF/sourced_internet/MANIFEST.md`](data/Scanned_PDF/sourced_internet/MANIFEST.md) for per-file source attribution and content classification (real invoices, Factur-X references, templates, "comprendre votre facture" educational PDFs)
+- `data/Scanned_PDF/` — 5 M1 scanned PDFs + `sourced_internet/` subfolder with 52 high-quality French invoice PDFs collected from public sources for M2 AI training (all scoring ≥7/12 on the 12-entity audit)
+- **Total dataset: 73 documents** (target was ≥50)
+- See [`data/Scanned_PDF/sourced_internet/MANIFEST.md`](data/Scanned_PDF/sourced_internet/MANIFEST.md) for per-file entity audit score, source attribution, and content classification (gold-tier Securibox/factur-x-ng invoices, real Iberdrola bill, Chorus Pro government test invoices, "comprendre votre facture" educational PDFs)
 
 
 ---
