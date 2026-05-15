@@ -7,17 +7,33 @@
 
 ---
 
-## Entity coverage audit
+## Entity coverage audit (corrected 2026-05-15 with proper UTF-8 encoding)
 
-All 52 PDFs were audited against the 12 M2 entities (12 keyword patterns). PDFs scoring below 7/12 were quarantined into `_low_quality/` (not used for training).
+All 52 PDFs were audited against the 12 M2 entities using broadened French label patterns and forced UTF-8 encoding. PDFs scoring below 7/12 in the original buggy audit (which stripped French accents during decode) were quarantined into `_low_quality/`. With the corrected audit, **9 PDFs score full 12/12** and **33 PDFs (63%) score 11/12 or higher**.
 
-| Entity score | Count | Quality tier |
-|---|---|---|
-| **9/12** | **20 PDFs** | Gold — all major fields present, ideal for training |
-| 8/12 | 16 PDFs | All Factur-X invoices from `invoice-x/factur-x-ng` — **visually contain all 12 entities** but audit missed `échéance` (uses "Conditions de paiement" instead), `payment_status` (no literal word), `solde_du` (no literal phrase) |
-| 7/12 | 16 PDFs | Chorus Pro government test invoices + utility company "comprendre votre facture" guides with sample invoice pages |
+| Entity score | Count | % | Quality tier |
+|---|---|---|---|
+| **12/12 perfect** | **9 PDFs** | **17%** | All entity labels and values present |
+| 11/12 | 24 PDFs | 46% | Only 1 entity missing — usually `solde_du` (when invoice is unpaid) or `consumer_name` (when label is implicit) |
+| 10/12 | 1 PDF | 2% | Real Iberdrola electricity bill |
+| 9/12 | 6 PDFs | 12% | Facture_UE variants + SFR guide + Euresto |
+| 8/12 | 12 PDFs | 23% | Chorus Pro FSO government test invoices (use simpler labels) |
 
-**Important:** The 8/12 Factur-X PDFs are functionally 12/12 — they have the actual entity values (e.g., "13/12/2017" as échéance date) but use different label wording than my audit regex looked for. I verified `Facture_FR_EN16931.pdf` by visual inspection: all 12 entities including consumer name (Ma jolie boutique / Alexandre Payet) are present and well-formatted.
+### The 9 perfect 12/12 PDFs
+
+| File | Notes |
+|---|---|
+| FR_edf_facture_gaz_naturel.pdf | EDF natural gas bill — unique layout |
+| FR_facturx_ng_Facture_DOM_BASIC.pdf | DOM-TOM invoice FA-2017-0009, BASIC profile |
+| FR_facturx_ng_Facture_DOM_BASICWL.pdf | Same invoice, BASICWL metadata variant (visually identical) |
+| FR_facturx_ng_Facture_DOM_EN16931.pdf | Same invoice, EN16931 metadata variant |
+| FR_facturx_ng_Facture_DOM_MINIMUM.pdf | Same invoice, MINIMUM metadata variant |
+| FR_facturx_ng_Facture_FR_BASIC.pdf | France invoice FA-2017-0010 (Au bon moulin → Ma jolie boutique), BASIC |
+| FR_facturx_ng_Facture_FR_BASICWL.pdf | Same invoice, BASICWL variant |
+| FR_facturx_ng_Facture_FR_EN16931.pdf | Same invoice, EN16931 variant |
+| FR_facturx_ng_Facture_FR_MINIMUM.pdf | Same invoice, MINIMUM variant |
+
+**Visually-distinct 12/12 layouts: 3** (EDF gas + DOM template + FR template). Factur-X metadata variants within each group are visually identical.
 
 ---
 
