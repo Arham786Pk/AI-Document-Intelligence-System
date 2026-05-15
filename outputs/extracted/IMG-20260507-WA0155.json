@@ -1,0 +1,65 @@
+{
+  "file_name": "IMG-20260507-WA0155",
+  "supplier_name": "cture cpta",
+  "invoice_number": "",
+  "invoice_date": "31/03/26",
+  "siret": "",
+  "echeance": "",
+  "invoice_content": [
+    {
+      "description": "Cornière S JR BC",
+      "quantity": "120",
+      "unit_price": "12"
+    },
+    {
+      "description": "Poutrelle S JR IPE BC",
+      "quantity": "275",
+      "unit_price": "270"
+    },
+    {
+      "description": "Rond serrurier S JR Diam BC",
+      "quantity": "235",
+      "unit_price": "18"
+    },
+    {
+      "description": "X Cornière S JR BC",
+      "quantity": "25",
+      "unit_price": "3"
+    },
+    {
+      "description": "TAC tole à chaud S JR",
+      "quantity": "2000",
+      "unit_price": "15"
+    },
+    {
+      "description": "X Poutrelle S JR UPN GB ml",
+      "quantity": "100",
+      "unit_price": "12.15"
+    },
+    {
+      "description": "Transport",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "X Cornière S JR BC",
+      "quantity": "80",
+      "unit_price": "8"
+    },
+    {
+      "description": "LIV //",
+      "quantity": "02",
+      "unit_price": "2026"
+    },
+    {
+      "description": "Base Taux Taxe",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "",
+  "tva_amount": "",
+  "total_amount": "",
+  "payment_status": "UNKNOWN",
+  "solde_du": ""
+}

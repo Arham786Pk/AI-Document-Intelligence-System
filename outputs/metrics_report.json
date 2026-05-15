@@ -1,0 +1,1624 @@
+{
+  "total_invoices": 19,
+  "overall_accuracy": 45.50561797752809,
+  "field_metrics": [
+    {
+      "field_name": "supplier_name",
+      "total_invoices": 19,
+      "correct": 4,
+      "incorrect": 15,
+      "missing_in_extracted": 0,
+      "missing_in_ground_truth": 0,
+      "precision": 21.052631578947366,
+      "recall": 100.0,
+      "f1_score": 34.78260869565217,
+      "accuracy": 21.052631578947366
+    },
+    {
+      "field_name": "invoice_number",
+      "total_invoices": 17,
+      "correct": 7,
+      "incorrect": 10,
+      "missing_in_extracted": 8,
+      "missing_in_ground_truth": 0,
+      "precision": 77.77777777777779,
+      "recall": 46.666666666666664,
+      "f1_score": 58.333333333333336,
+      "accuracy": 41.17647058823529
+    },
+    {
+      "field_name": "invoice_date",
+      "total_invoices": 18,
+      "correct": 7,
+      "incorrect": 11,
+      "missing_in_extracted": 1,
+      "missing_in_ground_truth": 2,
+      "precision": 41.17647058823529,
+      "recall": 87.5,
+      "f1_score": 56.00000000000001,
+      "accuracy": 38.88888888888889
+    },
+    {
+      "field_name": "siret",
+      "total_invoices": 14,
+      "correct": 4,
+      "incorrect": 10,
+      "missing_in_extracted": 7,
+      "missing_in_ground_truth": 1,
+      "precision": 57.14285714285714,
+      "recall": 36.36363636363637,
+      "f1_score": 44.44444444444444,
+      "accuracy": 28.57142857142857
+    },
+    {
+      "field_name": "echeance",
+      "total_invoices": 14,
+      "correct": 9,
+      "incorrect": 5,
+      "missing_in_extracted": 5,
+      "missing_in_ground_truth": 0,
+      "precision": 100.0,
+      "recall": 64.28571428571429,
+      "f1_score": 78.26086956521739,
+      "accuracy": 64.28571428571429
+    },
+    {
+      "field_name": "invoice_content",
+      "total_invoices": 19,
+      "correct": 7,
+      "incorrect": 12,
+      "missing_in_extracted": 10,
+      "missing_in_ground_truth": 0,
+      "precision": 77.77777777777779,
+      "recall": 41.17647058823529,
+      "f1_score": 53.84615384615385,
+      "accuracy": 36.84210526315789
+    },
+    {
+      "field_name": "tva_percentage",
+      "total_invoices": 19,
+      "correct": 9,
+      "incorrect": 10,
+      "missing_in_extracted": 9,
+      "missing_in_ground_truth": 0,
+      "precision": 90.0,
+      "recall": 50.0,
+      "f1_score": 64.28571428571429,
+      "accuracy": 47.368421052631575
+    },
+    {
+      "field_name": "tva_amount",
+      "total_invoices": 19,
+      "correct": 7,
+      "incorrect": 12,
+      "missing_in_extracted": 11,
+      "missing_in_ground_truth": 0,
+      "precision": 87.5,
+      "recall": 38.88888888888889,
+      "f1_score": 53.846153846153854,
+      "accuracy": 36.84210526315789
+    },
+    {
+      "field_name": "total_amount",
+      "total_invoices": 19,
+      "correct": 9,
+      "incorrect": 10,
+      "missing_in_extracted": 9,
+      "missing_in_ground_truth": 0,
+      "precision": 90.0,
+      "recall": 50.0,
+      "f1_score": 64.28571428571429,
+      "accuracy": 47.368421052631575
+    },
+    {
+      "field_name": "payment_status",
+      "total_invoices": 19,
+      "correct": 17,
+      "incorrect": 2,
+      "missing_in_extracted": 0,
+      "missing_in_ground_truth": 0,
+      "precision": 89.47368421052632,
+      "recall": 100.0,
+      "f1_score": 94.44444444444444,
+      "accuracy": 89.47368421052632
+    },
+    {
+      "field_name": "solde_du",
+      "total_invoices": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "missing_in_extracted": 0,
+      "missing_in_ground_truth": 0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "accuracy": 100.0
+    }
+  ],
+  "invoice_comparisons": [
+    {
+      "file_name": "IMG-20260507-WA0143",
+      "matched_fields": 3,
+      "total_fields": 9,
+      "accuracy": 33.33333333333333,
+      "field_details": {
+        "supplier_name": {
+          "extracted": "AOYAMA",
+          "ground_truth": "AOYAMA",
+          "match": true
+        },
+        "invoice_number": {
+          "extracted": "T108200",
+          "ground_truth": "T109200",
+          "match": false
+        },
+        "invoice_date": {
+          "extracted": "31/03/2026",
+          "ground_truth": "31/03/2026",
+          "match": true
+        },
+        "siret": {
+          "extracted": "",
+          "ground_truth": "44418819700016",
+          "match": false
+        },
+        "invoice_content": {
+          "extracted": [],
+          "ground_truth": "1 Repas complet",
+          "match": false
+        },
+        "tva_percentage": {
+          "extracted": "",
+          "ground_truth": "10%; 20%",
+          "match": false
+        },
+        "tva_amount": {
+          "extracted": "",
+          "ground_truth": "3,40 EUR",
+          "match": false
+        },
+        "total_amount": {
+          "extracted": "",
+          "ground_truth": "33,90 EUR",
+          "match": false
+        },
+        "payment_status": {
+          "extracted": "PAID",
+          "ground_truth": "PAID",
+          "match": true
+        }
+      }
+    },
+    {
+      "file_name": "IMG-20260507-WA0144",
+      "matched_fields": 1,
+      "total_fields": 9,
+      "accuracy": 11.11111111111111,
+      "field_details": {
+        "supplier_name": {
+          "extracted": "71 SHALON SUR SA",
+          "ground_truth": "Hyper Carrefour Chalon",
+          "match": false
+        },
+        "invoice_number": {
+          "extracted": "",
+          "ground_truth": "00031 00 02 00550383",
+          "match": false
+        },
+        "invoice_date": {
+          "extracted": "31/03/26",
+          "ground_truth": "31/03/2026",
+          "match": false
+        },
+        "siret": {
+          "extracted": "99269214500912",
+          "ground_truth": "99269214500012",
+          "match": false
+        },
+        "invoice_content": {
+          "extracted": [],
+          "ground_truth": "Gazole 24,03 L @ 2,279 EUR/L",
+          "match": false
+        },
+        "tva_percentage": {
+          "extracted": "",
+          "ground_truth": "20%",
+          "match": false
+        },
+        "tva_amount": {
+          "extracted": "",
+          "ground_truth": "9,13 EUR",
+          "match": false
+        },
+        "total_amount": {
+          "extracted": "",
+          "ground_truth": "54,76 EUR",
+          "match": false
+        },
+        "payment_status": {
+          "extracted": "PAID",
+          "ground_truth": "PAID",
+          "match": true
+        }
+      }
+    },
+    {
+      "file_name": "IMG-20260507-WA0145",
+      "matched_fields": 2,
+      "total_fields": 8,
+      "accuracy": 25.0,
+      "field_details": {
+        "supplier_name": {
+          "extracted": "COC: 20260331-002-601-229",
+          "ground_truth": "Orano Le Prisme",
+          "match": false
+        },
+        "invoice_number": {
+          "extracted": "",
+          "ground_truth": "002-001-305604",
+          "match": false
+        },
+        "invoice_date": {
+          "extracted": "31/03/2026",
+          "ground_truth": "31/03/2026",
+          "match": true
+        },
+        "invoice_content": {
+          "extracted": [],
+          "ground_truth": "Petit pain individuel; Conte AOP; Beurre portion x2; Eminence de boeuf",
+          "match": false
+        },
+        "tva_percentage": {
+          "extracted": "",
+          "ground_truth": "10%; 20%",
+          "match": false
+        },
+        "tva_amount": {
+          "extracted": "",
+          "ground_truth": "1,07 EUR",
+          "match": false
+        },
+        "total_amount": {
+          "extracted": "",
+          "ground_truth": "12,84 EUR",
+          "match": false
+        },
+        "payment_status": {
+          "extracted": "UNKNOWN",
+          "ground_truth": "UNKNOWN",
+          "match": true
+        }
+      }
+    },
+    {
+      "file_name": "IMG-20260507-WA0146",
+      "matched_fields": 2,
+      "total_fields": 9,
+      "accuracy": 22.22222222222222,
+      "field_details": {
+        "supplier_name": {
+          "extracted": "JUSTIFICATIF DF PAIEHERT",
+          "ground_truth": "Le Creusot Gare TGV (Effia)",
+          "match": false
+        },
+        "invoice_number": {
+          "extracted": "25557",
+          "ground_truth": "25557",
+          "match": true
+        },
+        "invoice_date": {
+          "extracted": "31/02/26",
+          "ground_truth": "31/03/2026",
+          "match": false
+        },
+        "siret": {
+          "extracted": "38792128101407",
+          "ground_truth": "",
+          "match": false
+        },
+        "invoice_content": {
+          "extracted": [],
+          "ground_truth": "Stationnement Tarif 5 (Entree 17:31 / Paiement 22:31)",
+          "match": false
+        },
+        "tva_percentage": {
+          "extracted": "",
+          "ground_truth": "20%",
+          "match": false
+        },
+        "tva_amount": {
+          "extracted": "",
+          "ground_truth": "0,73 EUR",
+          "match": false
+        },
+        "total_amount": {
+          "extracted": "",
+          "ground_truth": "4,40 EUR",
+          "match": false
+        },
+        "payment_status": {
+          "extracted": "PAID",
+          "ground_truth": "PAID",
+          "match": true
+        }
+      }
+    },
+    {
+      "file_name": "IMG-20260507-WA0147",
+      "matched_fields": 2,
+      "total_fields": 9,
+      "accuracy": 22.22222222222222,
+      "field_details": {
+        "supplier_name": {
+          "extracted": "<FAX>",
+          "ground_truth": "La Boucherie Restaurant",
+          "match": false
+        },
+        "invoice_number": {
+          "extracted": "",
+          "ground_truth": "134788",
+          "match": false
+        },
+        "invoice_date": {
+          "extracted": "",
+          "ground_truth": "29/03/2026",
+          "match": false
+        },
+        "siret": {
+          "extracted": "85214553800029",
+          "ground_truth": "85214583800029",
+          "match": false
+        },
+        "invoice_content": {
+          "extracted": [],
+          "ground_truth": "1664 33CL; Tresor Louchebem; Garniture supplement; Supp sauce",
+          "match": false
+        },
+        "tva_percentage": {
+          "extracted": "",
+          "ground_truth": "10%; 20%",
+          "match": false
+        },
+        "tva_amount": {
+          "extracted": "",
+          "ground_truth": "4,39 EUR",
+          "match": false
+        },
+        "total_amount": {
+          "extracted": "43.50",
+          "ground_truth": "43,50 EUR",
+          "match": true
+        },
+        "payment_status": {
+          "extracted": "PAID",
+          "ground_truth": "PAID",
+          "match": true
+        }
+      }
+    },
+    {
+      "file_name": "IMG-20260507-WA0148",
+      "matched_fields": 6,
+      "total_fields": 10,
+      "accuracy": 60.0,
+      "field_details": {
+        "supplier_name": {
+          "extracted": "AJ/Vs/ LUS",
+          "ground_truth": "Studio Photo Lumiere & Art",
+          "match": false
+        },
+        "invoice_number": {
+          "extracted": "",
+          "ground_truth": "SPL-2024-0198",
+          "match": false
+        },
+        "invoice_date": {
+          "extracted": "04/05/2024",
+          "ground_truth": "19/04/2024",
+          "match": false
+        },
+        "siret": {
+          "extracted": "",
+          "ground_truth": "77789012300234",
+          "match": false
+        },
+        "echeance": {
+          "extracted": "04/05/2024",
+          "ground_truth": "04/05/2024",
+          "match": true
+        },
+        "invoice_content": {
+          "extracted": [
+            {
+              "description": "Séance photo mariage (h)",
+              "quantity": "",
+              "unit_price": "4"
+            },
+            {
+              "description": "Retouches numériques ()",
+              "quantity": "",
+              "unit_price": "80"
+            },
+            {
+              "description": "Album photo cm",
+              "quantity": "30",
+              "unit_price": "30"
+            }
+          ],
+          "ground_truth": "Seance photo mariage (4h); Retouches numeriques (x80); Album photo 30x30 cm",
+          "match": true
+        },
+        "tva_percentage": {
+          "extracted": "20",
+          "ground_truth": "20%",
+          "match": true
+        },
+        "tva_amount": {
+          "extracted": "270.00",
+          "ground_truth": "270,00 EUR",
+          "match": true
+        },
+        "total_amount": {
+          "extracted": "1620.00",
+          "ground_truth": "1 620,00 EUR",
+          "match": true
+        },
+        "payment_status": {
+          "extracted": "UNKNOWN",
+          "ground_truth": "UNKNOWN",
+          "match": true
+        }
+      }
+    },
+    {
+      "file_name": "IMG-20260507-WA0149",
+      "matched_fields": 9,
+      "total_fields": 10,
+      "accuracy": 90.0,
+      "field_details": {
+        "supplier_name": {
+          "extracted": "Clinique Dentaire Sourire - FACTURE",
+          "ground_truth": "Clinique Dentaire Sourire",
+          "match": true
+        },
+        "invoice_number": {
+          "extracted": "CDS-2024-0345",
+          "ground_truth": "CDS-2024-0345",
+          "match": true
+        },
+        "invoice_date": {
+          "extracted": "16/04/2024",
+          "ground_truth": "16/04/2024",
+          "match": true
+        },
+        "siret": {
+          "extracted": "44456789100223",
+          "ground_truth": "44456789100223",
+          "match": true
+        },
+        "echeance": {
+          "extracted": "01/05/2024",
+          "ground_truth": "01/05/2024",
+          "match": true
+        },
+        "invoice_content": {
+          "extracted": [
+            {
+              "description": "Détartrage Complet",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "Soin carie molaire",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "Radiographie Panoramique",
+              "quantity": "",
+              "unit_price": ""
+            }
+          ],
+          "ground_truth": "Detartrage complet; Soin carie molaire; Radiographie panoramique",
+          "match": true
+        },
+        "tva_percentage": {
+          "extracted": "20",
+          "ground_truth": "20%",
+          "match": true
+        },
+        "tva_amount": {
+          "extracted": "59.00",
+          "ground_truth": "59,00 EUR",
+          "match": true
+        },
+        "total_amount": {
+          "extracted": "354.00",
+          "ground_truth": "354,00 EUR",
+          "match": true
+        },
+        "payment_status": {
+          "extracted": "UNKNOWN",
+          "ground_truth": "PAID",
+          "match": false
+        }
+      }
+    },
+    {
+      "file_name": "IMG-20260507-WA0150",
+      "matched_fields": 6,
+      "total_fields": 10,
+      "accuracy": 60.0,
+      "field_details": {
+        "supplier_name": {
+          "extracted": "SCI Les Alpes Immobilier",
+          "ground_truth": "Chauffage & Climatisation Roux",
+          "match": false
+        },
+        "invoice_number": {
+          "extracted": "CCR-2024-0423",
+          "ground_truth": "CCR-2024-0423",
+          "match": true
+        },
+        "invoice_date": {
+          "extracted": "25/04/2024",
+          "ground_truth": "25/04/2024",
+          "match": true
+        },
+        "siret": {
+          "extracted": "",
+          "ground_truth": "99956789200267",
+          "match": false
+        },
+        "echeance": {
+          "extracted": "25/05/2024",
+          "ground_truth": "25/05/2024",
+          "match": true
+        },
+        "invoice_content": {
+          "extracted": [],
+          "ground_truth": "Installation climatisation reversible; Mise en service et reglages; Garantie extension 3 ans",
+          "match": false
+        },
+        "tva_percentage": {
+          "extracted": "10",
+          "ground_truth": "10%",
+          "match": true
+        },
+        "tva_amount": {
+          "extracted": "225.00",
+          "ground_truth": "225,00 EUR",
+          "match": true
+        },
+        "total_amount": {
+          "extracted": "",
+          "ground_truth": "2 475,00 EUR",
+          "match": false
+        },
+        "payment_status": {
+          "extracted": "UNKNOWN",
+          "ground_truth": "UNKNOWN",
+          "match": true
+        }
+      }
+    },
+    {
+      "file_name": "IMG-20260507-WA0151",
+      "matched_fields": 8,
+      "total_fields": 10,
+      "accuracy": 80.0,
+      "field_details": {
+        "supplier_name": {
+          "extracted": "Fleuriste Jardin d'Éden | FACTURE",
+          "ground_truth": "Fleuriste Jardin d'Eden",
+          "match": true
+        },
+        "invoice_number": {
+          "extracted": "FJE-2024-0087",
+          "ground_truth": "FJE-2024-0087",
+          "match": true
+        },
+        "invoice_date": {
+          "extracted": "23/04/2024",
+          "ground_truth": "23/04/2024",
+          "match": true
+        },
+        "siret": {
+          "extracted": "66623456700256",
+          "ground_truth": "66623456700256",
+          "match": true
+        },
+        "echeance": {
+          "extracted": "08/05/2024",
+          "ground_truth": "08/05/2024",
+          "match": true
+        },
+        "invoice_content": {
+          "extracted": [],
+          "ground_truth": "Bouquet mariee rose & pivoine; Decoration florale tables (x8); Composition entree salle",
+          "match": false
+        },
+        "tva_percentage": {
+          "extracted": "10",
+          "ground_truth": "10%",
+          "match": true
+        },
+        "tva_amount": {
+          "extracted": "",
+          "ground_truth": "82,00 EUR",
+          "match": false
+        },
+        "total_amount": {
+          "extracted": "902.00",
+          "ground_truth": "902,00 EUR",
+          "match": true
+        },
+        "payment_status": {
+          "extracted": "PAID",
+          "ground_truth": "PAID",
+          "match": true
+        }
+      }
+    },
+    {
+      "file_name": "IMG-20260507-WA0152",
+      "matched_fields": 3,
+      "total_fields": 10,
+      "accuracy": 30.0,
+      "field_details": {
+        "supplier_name": {
+          "extracted": "Numéro Date Code client / Date échéance Mode de règlement N° de Tva intracom",
+          "ground_truth": "(non lisible - facture SCA010)",
+          "match": false
+        },
+        "invoice_number": {
+          "extracted": "FC20251175",
+          "ground_truth": "FC20251175",
+          "match": true
+        },
+        "invoice_date": {
+          "extracted": "28/04/2025",
+          "ground_truth": "28/04/2025",
+          "match": true
+        },
+        "echeance": {
+          "extracted": "",
+          "ground_truth": "28/05/2025",
+          "match": false
+        },
+        "invoice_content": {
+          "extracted": [
+            {
+              "description": "Qté PUHT MontantHT TVA",
+              "quantity": ".",
+              "unit_price": "."
+            },
+            {
+              "description": "| AUDIT INITIAL ISO Etape & Etape °",
+              "quantity": "2772.67.",
+              "unit_price": "20.0"
+            },
+            {
+              "description": "‘IMPORTANT : :",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "‘ Le règlement doit intervenir dès réception de la facture Ce n'est qu'à partir : |",
+              "quantity": "",
+              "unit_price": "."
+            },
+            {
+              "description": "de cette étape que la prestation débutera l",
+              "quantity": "",
+              "unit_price": "."
+            },
+            {
+              "description": "Certification ISO version",
+              "quantity": "589.38",
+              "unit_price": "20.0"
+            },
+            {
+              "description": "AUDIT INITIAL ISO Etape & Etape l",
+              "quantity": "1",
+              "unit_price": "2"
+            },
+            {
+              "description": "l l",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "IMPORTANT : | |",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "| Le règlement doit intervenir dès réception de la facture Ce n'est qu'à partir",
+              "quantity": ".",
+              "unit_price": "."
+            },
+            {
+              "description": "de cette étape que la prestation débutera |",
+              "quantity": "",
+              "unit_price": "."
+            },
+            {
+              "description": ": TXT | Selon les termes du contrat n° -",
+              "quantity": "25",
+              "unit_price": "443"
+            },
+            {
+              "description": ": | Dossier Q : |",
+              "quantity": "",
+              "unit_price": "426"
+            },
+            {
+              "description": "| :",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "i :",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "nnant lieu à facture sont constituées exclusivement de prestations de services",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "Les opérations do",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "ent anticipé : % oc nat _ ee",
+              "quantity": "0",
+              "unit_price": "."
+            },
+            {
+              "description": "EsconPe POLE paiement Une pénalité égale à fois le tau d'intérêt légal sera eigible ainsi qu'une indemnité forfaitaire pour",
+              "quantity": "3",
+              "unit_price": "."
+            },
+            {
+              "description": "ini uros pour les professionnels",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "frais de recouvrement d'un montant minimum de e p p",
+              "quantity": "",
+              "unit_price": "40"
+            }
+          ],
+          "ground_truth": "AUDIT INITIAL ISO 19443 Etape 1 & Etape 2; Certification ISO 9001 version 2015",
+          "match": false
+        },
+        "tva_percentage": {
+          "extracted": "20.00",
+          "ground_truth": "20%",
+          "match": false
+        },
+        "tva_amount": {
+          "extracted": "20.00",
+          "ground_truth": "672,41 EUR",
+          "match": false
+        },
+        "total_amount": {
+          "extracted": "572",
+          "ground_truth": "4 034,46 EUR",
+          "match": false
+        },
+        "payment_status": {
+          "extracted": "UNKNOWN",
+          "ground_truth": "UNPAID",
+          "match": false
+        },
+        "solde_du": {
+          "extracted": "4034.46",
+          "ground_truth": "4 034,46 EUR",
+          "match": true
+        }
+      }
+    },
+    {
+      "file_name": "IMG-20260507-WA0153",
+      "matched_fields": 6,
+      "total_fields": 10,
+      "accuracy": 60.0,
+      "field_details": {
+        "supplier_name": {
+          "extracted": "27 Rue de l'Innovation,",
+          "ground_truth": "Informatique Solutions Pro",
+          "match": false
+        },
+        "invoice_number": {
+          "extracted": "",
+          "ground_truth": "ISP-2024-0512",
+          "match": false
+        },
+        "invoice_date": {
+          "extracted": "22/04/2024",
+          "ground_truth": "21/04/2024",
+          "match": false
+        },
+        "siret": {
+          "extracted": "",
+          "ground_truth": "33390123400245",
+          "match": false
+        },
+        "echeance": {
+          "extracted": "21/05/2024",
+          "ground_truth": "21/05/2024",
+          "match": true
+        },
+        "invoice_content": {
+          "extracted": [
+            {
+              "description": "Remplacement disque SSD To",
+              "quantity": "",
+              "unit_price": "1"
+            },
+            {
+              "description": "Réinstallation Windows",
+              "quantity": "",
+              "unit_price": "11"
+            },
+            {
+              "description": "Sauvegarde données (h)",
+              "quantity": "",
+              "unit_price": "2"
+            },
+            {
+              "description": "Antivirus licence an",
+              "quantity": "",
+              "unit_price": "1"
+            },
+            {
+              "description": "i",
+              "quantity": "",
+              "unit_price": "."
+            }
+          ],
+          "ground_truth": "Remplacement disque SSD 1To; Reinstallation Windows 11; Sauvegarde donnees (2h); Antivirus licence 1 an",
+          "match": true
+        },
+        "tva_percentage": {
+          "extracted": "20",
+          "ground_truth": "20%",
+          "match": true
+        },
+        "tva_amount": {
+          "extracted": "78.80",
+          "ground_truth": "78,80 EUR",
+          "match": true
+        },
+        "total_amount": {
+          "extracted": "472.80",
+          "ground_truth": "472,80 EUR",
+          "match": true
+        },
+        "payment_status": {
+          "extracted": "PAID",
+          "ground_truth": "PAID",
+          "match": true
+        }
+      }
+    },
+    {
+      "file_name": "IMG-20260507-WA0154",
+      "matched_fields": 1,
+      "total_fields": 8,
+      "accuracy": 12.5,
+      "field_details": {
+        "supplier_name": {
+          "extracted": "? LEchéance : 1571112029",
+          "ground_truth": "(non lisible - fournisseur SCAI Systems)",
+          "match": false
+        },
+        "invoice_date": {
+          "extracted": "08/09/2025",
+          "ground_truth": "",
+          "match": false
+        },
+        "echeance": {
+          "extracted": "",
+          "ground_truth": "15/11/2025",
+          "match": false
+        },
+        "invoice_content": {
+          "extracted": [],
+          "ground_truth": "Scie radiale 1800W D355MM MKAS35 +2 lames; Lame scie D355x25,4x2,2mm 66 dts acier (x9); Lame scie supplementaire (x1)",
+          "match": false
+        },
+        "tva_percentage": {
+          "extracted": "",
+          "ground_truth": "20%",
+          "match": false
+        },
+        "tva_amount": {
+          "extracted": "",
+          "ground_truth": "419,80 EUR",
+          "match": false
+        },
+        "total_amount": {
+          "extracted": "",
+          "ground_truth": "2 518,81 EUR",
+          "match": false
+        },
+        "payment_status": {
+          "extracted": "UNKNOWN",
+          "ground_truth": "UNKNOWN",
+          "match": true
+        }
+      }
+    },
+    {
+      "file_name": "IMG-20260507-WA0155",
+      "matched_fields": 2,
+      "total_fields": 8,
+      "accuracy": 25.0,
+      "field_details": {
+        "supplier_name": {
+          "extracted": "cture cpta",
+          "ground_truth": "Fers et Metaux du Chalonnais",
+          "match": false
+        },
+        "invoice_date": {
+          "extracted": "31/03/26",
+          "ground_truth": "",
+          "match": false
+        },
+        "echeance": {
+          "extracted": "",
+          "ground_truth": "31/03/2026",
+          "match": false
+        },
+        "invoice_content": {
+          "extracted": [
+            {
+              "description": "Cornière S JR BC",
+              "quantity": "120",
+              "unit_price": "12"
+            },
+            {
+              "description": "Poutrelle S JR IPE BC",
+              "quantity": "275",
+              "unit_price": "270"
+            },
+            {
+              "description": "Rond serrurier S JR Diam BC",
+              "quantity": "235",
+              "unit_price": "18"
+            },
+            {
+              "description": "X Cornière S JR BC",
+              "quantity": "25",
+              "unit_price": "3"
+            },
+            {
+              "description": "TAC tole à chaud S JR",
+              "quantity": "2000",
+              "unit_price": "15"
+            },
+            {
+              "description": "X Poutrelle S JR UPN GB ml",
+              "quantity": "100",
+              "unit_price": "12.15"
+            },
+            {
+              "description": "Transport",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "X Cornière S JR BC",
+              "quantity": "80",
+              "unit_price": "8"
+            },
+            {
+              "description": "LIV //",
+              "quantity": "02",
+              "unit_price": "2026"
+            },
+            {
+              "description": "Base Taux Taxe",
+              "quantity": "",
+              "unit_price": ""
+            }
+          ],
+          "ground_truth": "Corniere S235 JR 120x120x12; Poutrelle S275 JR IPE 270; Rond serrurier S235 JR Diam18; Corniere 25x25x3; TAC tole a chaud 1000x2000x15; Poutrelle UPN 100; Transport; Corniere 80x80x8",
+          "match": true
+        },
+        "tva_percentage": {
+          "extracted": "",
+          "ground_truth": "20%",
+          "match": false
+        },
+        "tva_amount": {
+          "extracted": "",
+          "ground_truth": "1 309,13 EUR",
+          "match": false
+        },
+        "total_amount": {
+          "extracted": "",
+          "ground_truth": "7 854,77 EUR",
+          "match": false
+        },
+        "payment_status": {
+          "extracted": "UNKNOWN",
+          "ground_truth": "UNKNOWN",
+          "match": true
+        }
+      }
+    },
+    {
+      "file_name": "IMG-20260507-WA0156",
+      "matched_fields": 2,
+      "total_fields": 8,
+      "accuracy": 25.0,
+      "field_details": {
+        "supplier_name": {
+          "extracted": "Pos. fiv. Désignation Article EUR EUR",
+          "ground_truth": "Wurth Proxi Shop Le Creusot",
+          "match": false
+        },
+        "invoice_number": {
+          "extracted": "4330739666",
+          "ground_truth": "4330739666",
+          "match": true
+        },
+        "echeance": {
+          "extracted": "",
+          "ground_truth": "25/12/2024",
+          "match": false
+        },
+        "invoice_content": {
+          "extracted": [
+            {
+              "description": "Article EUR EUR",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "Votre pos Origine / N° tarif douanier",
+              "quantity": "",
+              "unit_price": "."
+            },
+            {
+              "description": "Disques à meuler Polds b",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "MEULE EBARBER ZIRCO+ X X osent RG",
+              "quantity": "22.2",
+              "unit_price": "1288"
+            },
+            {
+              "description": "DEP",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "Niveau électroniques sonores Poids brut KG",
+              "quantity": "40",
+              "unit_price": "1.130"
+            },
+            {
+              "description": "NIVEAU DIGITAL P CM",
+              "quantity": "65",
+              "unit_price": "61"
+            },
+            {
+              "description": "ZEBRA",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "Numèro do séra NO °",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "WAG",
+              "quantity": "1",
+              "unit_price": "0.0"
+            },
+            {
+              "description": "Briquet Poids brut KG",
+              "quantity": "50",
+              "unit_price": "0.036"
+            },
+            {
+              "description": "BRIQUET USB ELECTRIQUE",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "Oflert",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "C",
+              "quantity": "1",
+              "unit_price": "0."
+            },
+            {
+              "description": "Offre commerciale de réduction",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "Coupon Cadeau Palier Mag Novembre",
+              "quantity": "1",
+              "unit_price": "2024"
+            },
+            {
+              "description": "I ———_—_——_—————— © —————",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "Poids total KG",
+              "quantity": "",
+              "unit_price": "3.641"
+            },
+            {
+              "description": "\" —",
+              "quantity": "",
+              "unit_price": "5"
+            },
+            {
+              "description": "Mont de base Tau TVA Montant TVA Montant net",
+              "quantity": ".",
+              "unit_price": "682.4"
+            },
+            {
+              "description": "Code EUR EUR TVA :",
+              "quantity": "",
+              "unit_price": "136."
+            },
+            {
+              "description": "——————",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "A %",
+              "quantity": "20,00",
+              "unit_price": "136.50"
+            },
+            {
+              "description": "Montant TTC en EUR ;",
+              "quantity": "",
+              "unit_price": "818.9"
+            },
+            {
+              "description": "Vos conditions de règlement:",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "JOURS",
+              "quantity": "",
+              "unit_price": "30"
+            },
+            {
+              "description": "Sans esc jusqu'au",
+              "quantity": ".",
+              "unit_price": "2512.2024"
+            },
+            {
+              "description": "Mode de paiement: Traite directe",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "Vireme]",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "Votro magasin",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "WURTH PROXI SHOP LE CREUSOT RUE JEAN VILAR TORCY",
+              "quantity": ",",
+              "unit_price": "71210."
+            },
+            {
+              "description": "WII]",
+              "quantity": "",
+              "unit_price": ""
+            }
+          ],
+          "ground_truth": "Disques a meuler MEULE EBARBER ZIRCO+ 230x6.4x22.2; Niveau digital IP65 61CM Zebra; Briquet USB electrique (offert); Coupon cadeau",
+          "match": false
+        },
+        "tva_percentage": {
+          "extracted": "",
+          "ground_truth": "20%",
+          "match": false
+        },
+        "tva_amount": {
+          "extracted": "",
+          "ground_truth": "136,50 EUR",
+          "match": false
+        },
+        "total_amount": {
+          "extracted": "",
+          "ground_truth": "818,98 EUR",
+          "match": false
+        },
+        "payment_status": {
+          "extracted": "UNKNOWN",
+          "ground_truth": "UNKNOWN",
+          "match": true
+        }
+      }
+    },
+    {
+      "file_name": "Invoice_FR_016_scanned_260508_103316",
+      "matched_fields": 7,
+      "total_fields": 10,
+      "accuracy": 70.0,
+      "field_details": {
+        "supplier_name": {
+          "extracted": "Mme Isabelle Renard",
+          "ground_truth": "Epicerie Fine Marchand",
+          "match": false
+        },
+        "invoice_number": {
+          "extracted": "",
+          "ground_truth": "EFM-2023-0412",
+          "match": false
+        },
+        "invoice_date": {
+          "extracted": "13/11/2023",
+          "ground_truth": "12/11/2023",
+          "match": false
+        },
+        "siret": {
+          "extracted": "12378945600178",
+          "ground_truth": "12378945600178",
+          "match": true
+        },
+        "echeance": {
+          "extracted": "27/11/2023",
+          "ground_truth": "27/11/2023",
+          "match": true
+        },
+        "invoice_content": {
+          "extracted": [
+            {
+              "description": "Foie gras mi-cuit ( boîtes)",
+              "quantity": "",
+              "unit_price": "6"
+            },
+            {
+              "description": "confiture artisanale ()",
+              "quantity": "",
+              "unit_price": "12"
+            },
+            {
+              "description": "Huile d'olive AOC ( flacons)",
+              "quantity": "",
+              "unit_price": "4"
+            }
+          ],
+          "ground_truth": "Foie gras mi-cuit (4 boites) x6; Confiture artisanale (x12) x12; Huile d'olive AOC (4 flacons) x4",
+          "match": true
+        },
+        "tva_percentage": {
+          "extracted": "5.5",
+          "ground_truth": "5,5%",
+          "match": true
+        },
+        "tva_amount": {
+          "extracted": "19.24",
+          "ground_truth": "19,24 EUR",
+          "match": true
+        },
+        "total_amount": {
+          "extracted": "369.04",
+          "ground_truth": "369,04 EUR",
+          "match": true
+        },
+        "payment_status": {
+          "extracted": "PAID",
+          "ground_truth": "PAID",
+          "match": true
+        }
+      }
+    },
+    {
+      "file_name": "Invoice_FR_017_scanned_260508_103241",
+      "matched_fields": 5,
+      "total_fields": 10,
+      "accuracy": 50.0,
+      "field_details": {
+        "supplier_name": {
+          "extracted": "DIREL : 33235430 /0U00103 VALLE ° VJ/Léf LU",
+          "ground_truth": "Atelier Couture & Retouches Blondel",
+          "match": false
+        },
+        "invoice_number": {
+          "extracted": "2023-1205",
+          "ground_truth": "ACR-2023-1205",
+          "match": false
+        },
+        "invoice_date": {
+          "extracted": "20/12/2023",
+          "ground_truth": "05/12/2023",
+          "match": false
+        },
+        "siret": {
+          "extracted": "",
+          "ground_truth": "55534567900169",
+          "match": false
+        },
+        "echeance": {
+          "extracted": "20/12/2023",
+          "ground_truth": "20/12/2023",
+          "match": true
+        },
+        "invoice_content": {
+          "extracted": [],
+          "ground_truth": "Retouche robe de mariee; Ourlet pantalon (x3); Remplacement fermeture eclair",
+          "match": false
+        },
+        "tva_percentage": {
+          "extracted": "20",
+          "ground_truth": "20%",
+          "match": true
+        },
+        "tva_amount": {
+          "extracted": "50.00",
+          "ground_truth": "50,00 EUR",
+          "match": true
+        },
+        "total_amount": {
+          "extracted": "300.00",
+          "ground_truth": "300,00 EUR",
+          "match": true
+        },
+        "payment_status": {
+          "extracted": "PAID",
+          "ground_truth": "PAID",
+          "match": true
+        }
+      }
+    },
+    {
+      "file_name": "Invoice_FR_018_scanned_260508_103257",
+      "matched_fields": 8,
+      "total_fields": 10,
+      "accuracy": 80.0,
+      "field_details": {
+        "supplier_name": {
+          "extracted": "Garage Mécanique Verdier - FACTURE",
+          "ground_truth": "Garage Mecanique Verdier",
+          "match": true
+        },
+        "invoice_number": {
+          "extracted": "GMV-2023-0789",
+          "ground_truth": "GMV-2023-0789",
+          "match": true
+        },
+        "invoice_date": {
+          "extracted": "28/10/2023",
+          "ground_truth": "28/10/2023",
+          "match": true
+        },
+        "siret": {
+          "extracted": "88801234600190",
+          "ground_truth": "88801234600190",
+          "match": true
+        },
+        "echeance": {
+          "extracted": "12/11/2023",
+          "ground_truth": "12/11/2023",
+          "match": true
+        },
+        "invoice_content": {
+          "extracted": [],
+          "ground_truth": "Vidange + filtre huile; Remplacement plaquettes frein AV; Main d'oeuvre revision (3h); Pneumatiques 195/65 R15 (x2)",
+          "match": false
+        },
+        "tva_percentage": {
+          "extracted": "20",
+          "ground_truth": "20%",
+          "match": true
+        },
+        "tva_amount": {
+          "extracted": "",
+          "ground_truth": "121,20 EUR",
+          "match": false
+        },
+        "total_amount": {
+          "extracted": "727.20",
+          "ground_truth": "727,20 EUR",
+          "match": true
+        },
+        "payment_status": {
+          "extracted": "UNKNOWN",
+          "ground_truth": "UNKNOWN",
+          "match": true
+        }
+      }
+    },
+    {
+      "file_name": "Invoice_FR_019_scanned_260508_103345",
+      "matched_fields": 6,
+      "total_fields": 10,
+      "accuracy": 60.0,
+      "field_details": {
+        "supplier_name": {
+          "extracted": "US/U1/2U424a",
+          "ground_truth": "Ecole de Musique Harmonie",
+          "match": false
+        },
+        "invoice_number": {
+          "extracted": "",
+          "ground_truth": "EMH-2024-0023",
+          "match": false
+        },
+        "invoice_date": {
+          "extracted": "09/01/2024",
+          "ground_truth": "08/01/2024",
+          "match": false
+        },
+        "siret": {
+          "extracted": "",
+          "ground_truth": "33345678900201",
+          "match": false
+        },
+        "echeance": {
+          "extracted": "08/02/2024",
+          "ground_truth": "08/02/2024",
+          "match": true
+        },
+        "invoice_content": {
+          "extracted": [
+            {
+              "description": "Cours de piano — trimestre ( séances)",
+              "quantity": "1",
+              "unit_price": "12"
+            },
+            {
+              "description": "Location salle de répétition (h)",
+              "quantity": "",
+              "unit_price": "4"
+            },
+            {
+              "description": "Partition recueil Bach",
+              "quantity": "",
+              "unit_price": ""
+            }
+          ],
+          "ground_truth": "Cours de piano - trimestre 1 (x12 seances); Location salle de repetition (x4h); Partition recueil Bach",
+          "match": true
+        },
+        "tva_percentage": {
+          "extracted": "20",
+          "ground_truth": "20%",
+          "match": true
+        },
+        "tva_amount": {
+          "extracted": "127.70",
+          "ground_truth": "127,70 EUR",
+          "match": true
+        },
+        "total_amount": {
+          "extracted": "766.20",
+          "ground_truth": "766,20 EUR",
+          "match": true
+        },
+        "payment_status": {
+          "extracted": "PAID",
+          "ground_truth": "PAID",
+          "match": true
+        }
+      }
+    },
+    {
+      "file_name": "Invoice_FR_020_scanned_260508_103334",
+      "matched_fields": 2,
+      "total_fields": 10,
+      "accuracy": 20.0,
+      "field_details": {
+        "supplier_name": {
+          "extracted": "12 CnERRSSS",
+          "ground_truth": "Paysagiste Terrain Vert EURL",
+          "match": false
+        },
+        "invoice_number": {
+          "extracted": "",
+          "ground_truth": "PTV-2024-0156",
+          "match": false
+        },
+        "invoice_date": {
+          "extracted": "08/03/2024",
+          "ground_truth": "22/02/2024",
+          "match": false
+        },
+        "siret": {
+          "extracted": "",
+          "ground_truth": "66612890100212",
+          "match": false
+        },
+        "echeance": {
+          "extracted": "",
+          "ground_truth": "08/03/2024",
+          "match": false
+        },
+        "invoice_content": {
+          "extracted": [
+            {
+              "description": "tonte pelouse + ramassage ( passages)",
+              "quantity": "",
+              "unit_price": "4"
+            },
+            {
+              "description": "taille haies et arbustes",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "plantation massif fleuri { plants)",
+              "quantity": "",
+              "unit_price": "15"
+            },
+            {
+              "description": "on déchets verts",
+              "quantity": "",
+              "unit_price": ""
+            },
+            {
+              "description": "évacuati",
+              "quantity": "",
+              "unit_price": ""
+            }
+          ],
+          "ground_truth": "Tonte pelouse + ramassage (x4 passages); Taille haies et arbustes; Plantation massif fleuri (x15 plants); Evacuation dechets verts",
+          "match": true
+        },
+        "tva_percentage": {
+          "extracted": "",
+          "ground_truth": "10%",
+          "match": false
+        },
+        "tva_amount": {
+          "extracted": "",
+          "ground_truth": "73,50 EUR",
+          "match": false
+        },
+        "total_amount": {
+          "extracted": "",
+          "ground_truth": "808,50 EUR",
+          "match": false
+        },
+        "payment_status": {
+          "extracted": "UNKNOWN",
+          "ground_truth": "UNKNOWN",
+          "match": true
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_invoices_compared": 19,
+    "total_fields_compared": 178,
+    "total_fields_matched": 81,
+    "overall_accuracy": 45.50561797752809,
+    "invoices_with_matches": 19,
+    "perfect_matches": 0
+  }
+}

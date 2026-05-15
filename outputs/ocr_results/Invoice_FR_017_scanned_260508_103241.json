@@ -1,0 +1,22 @@
+{
+  "invoice_name": "Invoice_FR_017_scanned_260508_103241",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "data\\processed\\Invoice_FR_017_scanned_260508_103241\\page_01.png",
+      "text": "DIREL : 33235430 /0U00103 VALLE ° VJ/Léf LU\n\nN° TVA : FR55534567800 - Echeance 20/12/2023\n\nDESTINATAIRE :\n\nMme Julie Fontaine\n\n22 Rue de la Soie, 69001 Lyon\n\nRetouche robe de mariée\nOurlet pantalon (*x3)\n\nRemplacement fermeture éclaire\n\nMontant HT : 250,00 EUR\nTVA 20% : 50,00 EUR\nTOTAL TTC : 300,00 EUR\n\nREGLEMENT : Espèces reçues — reçu N° 2023-1205\n\nBon pour accord : Signature et cachet :\n\nPénalités de retard applicables au taux légal en vigueur. Indemnité forfaitaire de recouvrement : 40 EUR.",
+      "confidence": 0.8629213483146068,
+      "char_count": 499,
+      "word_count": 84,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "DIREL : 33235430 /0U00103 VALLE ° VJ/Léf LU\n\nN° TVA : FR55534567800 - Echeance 20/12/2023\n\nDESTINATAIRE :\n\nMme Julie Fontaine\n\n22 Rue de la Soie, 69001 Lyon\n\nRetouche robe de mariée\nOurlet pantalon (*x3)\n\nRemplacement fermeture éclaire\n\nMontant HT : 250,00 EUR\nTVA 20% : 50,00 EUR\nTOTAL TTC : 300,00 EUR\n\nREGLEMENT : Espèces reçues — reçu N° 2023-1205\n\nBon pour accord : Signature et cachet :\n\nPénalités de retard applicables au taux légal en vigueur. Indemnité forfaitaire de recouvrement : 40 EUR.",
+  "mean_confidence": 0.8629213483146068,
+  "total_char_count": 499,
+  "total_word_count": 84,
+  "low_quality_pages": [],
+  "error": ""
+}

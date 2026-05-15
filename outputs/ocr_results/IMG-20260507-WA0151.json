@@ -1,0 +1,22 @@
+{
+  "invoice_name": "IMG-20260507-WA0151",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "data\\processed\\IMG-20260507-WA0151\\page_01.png",
+      "text": "Fleuriste Jardin d'Éden | FACTURE\n\nSIRET : 66623456700256 N° : FJE-2024-0087\n\n2 Rue des Fleurs, 06000 Nice . Date 23/04/2024\n\nN° TVA : FR66623456700 Echeance : 08/05/2024\n\nDESTINATAIRE :\n\nFamille Bertrand\n\n88 Promenade des Anglais, 06000 Nice\n\nBouquet mariée rose & pivoine 180,00 180,00\nComposition entrée salle 120,00 120,00\n\n. Montant HT : 820,00 EUR\nTVA 10% : | 82,00 EUR\n————_—_—_——_——@———\n. ° TOTAL TTC : 902,00 EUR\nREGLEMENT : Solde payé par American Express **** 8872 le 23/04/2024\nBon pour accord : Signature et cachet :\n\n#0 ne\n\npenalites de retard applicables au taux legal en vigueur. indemnite forfaitaire : 40 EUR.",
+      "confidence": 0.8830434782608695,
+      "char_count": 627,
+      "word_count": 104,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Fleuriste Jardin d'Éden | FACTURE\n\nSIRET : 66623456700256 N° : FJE-2024-0087\n\n2 Rue des Fleurs, 06000 Nice . Date 23/04/2024\n\nN° TVA : FR66623456700 Echeance : 08/05/2024\n\nDESTINATAIRE :\n\nFamille Bertrand\n\n88 Promenade des Anglais, 06000 Nice\n\nBouquet mariée rose & pivoine 180,00 180,00\nComposition entrée salle 120,00 120,00\n\n. Montant HT : 820,00 EUR\nTVA 10% : | 82,00 EUR\n————_—_—_——_——@———\n. ° TOTAL TTC : 902,00 EUR\nREGLEMENT : Solde payé par American Express **** 8872 le 23/04/2024\nBon pour accord : Signature et cachet :\n\n#0 ne\n\npenalites de retard applicables au taux legal en vigueur. indemnite forfaitaire : 40 EUR.",
+  "mean_confidence": 0.8830434782608695,
+  "total_char_count": 627,
+  "total_word_count": 104,
+  "low_quality_pages": [],
+  "error": ""
+}

@@ -1,0 +1,179 @@
+Invoice,Field,Extracted,Ground Truth,Match
+IMG-20260507-WA0143,supplier_name,AOYAMA,AOYAMA,YES
+IMG-20260507-WA0143,invoice_number,T108200,T109200,NO
+IMG-20260507-WA0143,invoice_date,31/03/2026,31/03/2026,YES
+IMG-20260507-WA0143,siret,,44418819700016,NO
+IMG-20260507-WA0143,invoice_content,[],1 Repas complet,NO
+IMG-20260507-WA0143,tva_percentage,,10%; 20%,NO
+IMG-20260507-WA0143,tva_amount,,"3,40 EUR",NO
+IMG-20260507-WA0143,total_amount,,"33,90 EUR",NO
+IMG-20260507-WA0143,payment_status,PAID,PAID,YES
+IMG-20260507-WA0144,supplier_name,71 SHALON SUR SA,Hyper Carrefour Chalon,NO
+IMG-20260507-WA0144,invoice_number,,00031 00 02 00550383,NO
+IMG-20260507-WA0144,invoice_date,31/03/26,31/03/2026,NO
+IMG-20260507-WA0144,siret,99269214500912,99269214500012,NO
+IMG-20260507-WA0144,invoice_content,[],"Gazole 24,03 L @ 2,279 EUR/L",NO
+IMG-20260507-WA0144,tva_percentage,,20%,NO
+IMG-20260507-WA0144,tva_amount,,"9,13 EUR",NO
+IMG-20260507-WA0144,total_amount,,"54,76 EUR",NO
+IMG-20260507-WA0144,payment_status,PAID,PAID,YES
+IMG-20260507-WA0145,supplier_name,COC: 20260331-002-601-229,Orano Le Prisme,NO
+IMG-20260507-WA0145,invoice_number,,002-001-305604,NO
+IMG-20260507-WA0145,invoice_date,31/03/2026,31/03/2026,YES
+IMG-20260507-WA0145,invoice_content,[],Petit pain individuel; Conte AOP; Beurre portion x2; Eminence de boeuf,NO
+IMG-20260507-WA0145,tva_percentage,,10%; 20%,NO
+IMG-20260507-WA0145,tva_amount,,"1,07 EUR",NO
+IMG-20260507-WA0145,total_amount,,"12,84 EUR",NO
+IMG-20260507-WA0145,payment_status,UNKNOWN,UNKNOWN,YES
+IMG-20260507-WA0146,supplier_name,JUSTIFICATIF DF PAIEHERT,Le Creusot Gare TGV (Effia),NO
+IMG-20260507-WA0146,invoice_number,25557,25557,YES
+IMG-20260507-WA0146,invoice_date,31/02/26,31/03/2026,NO
+IMG-20260507-WA0146,siret,38792128101407,,NO
+IMG-20260507-WA0146,invoice_content,[],Stationnement Tarif 5 (Entree 17:31 / Paiement 22:31),NO
+IMG-20260507-WA0146,tva_percentage,,20%,NO
+IMG-20260507-WA0146,tva_amount,,"0,73 EUR",NO
+IMG-20260507-WA0146,total_amount,,"4,40 EUR",NO
+IMG-20260507-WA0146,payment_status,PAID,PAID,YES
+IMG-20260507-WA0147,supplier_name,<FAX>,La Boucherie Restaurant,NO
+IMG-20260507-WA0147,invoice_number,,134788,NO
+IMG-20260507-WA0147,invoice_date,,29/03/2026,NO
+IMG-20260507-WA0147,siret,85214553800029,85214583800029,NO
+IMG-20260507-WA0147,invoice_content,[],1664 33CL; Tresor Louchebem; Garniture supplement; Supp sauce,NO
+IMG-20260507-WA0147,tva_percentage,,10%; 20%,NO
+IMG-20260507-WA0147,tva_amount,,"4,39 EUR",NO
+IMG-20260507-WA0147,total_amount,43.50,"43,50 EUR",YES
+IMG-20260507-WA0147,payment_status,PAID,PAID,YES
+IMG-20260507-WA0148,supplier_name,AJ/Vs/ LUS,Studio Photo Lumiere & Art,NO
+IMG-20260507-WA0148,invoice_number,,SPL-2024-0198,NO
+IMG-20260507-WA0148,invoice_date,04/05/2024,19/04/2024,NO
+IMG-20260507-WA0148,siret,,77789012300234,NO
+IMG-20260507-WA0148,echeance,04/05/2024,04/05/2024,YES
+IMG-20260507-WA0148,invoice_content,"[{'description': 'Séance photo mariage (h)', 'quantity': '', 'unit_price': '4'}, {'description': 'Retouches numériques ()', 'quantity': '', 'unit_price': '80'}, {'description': 'Album photo cm', 'quantity': '30', 'unit_price': '30'}]",Seance photo mariage (4h); Retouches numeriques (x80); Album photo 30x30 cm,YES
+IMG-20260507-WA0148,tva_percentage,20,20%,YES
+IMG-20260507-WA0148,tva_amount,270.00,"270,00 EUR",YES
+IMG-20260507-WA0148,total_amount,1620.00,"1 620,00 EUR",YES
+IMG-20260507-WA0148,payment_status,UNKNOWN,UNKNOWN,YES
+IMG-20260507-WA0149,supplier_name,Clinique Dentaire Sourire - FACTURE,Clinique Dentaire Sourire,YES
+IMG-20260507-WA0149,invoice_number,CDS-2024-0345,CDS-2024-0345,YES
+IMG-20260507-WA0149,invoice_date,16/04/2024,16/04/2024,YES
+IMG-20260507-WA0149,siret,44456789100223,44456789100223,YES
+IMG-20260507-WA0149,echeance,01/05/2024,01/05/2024,YES
+IMG-20260507-WA0149,invoice_content,"[{'description': 'Détartrage Complet', 'quantity': '', 'unit_price': ''}, {'description': 'Soin carie molaire', 'quantity': '', 'unit_price': ''}, {'description': 'Radiographie Panoramique', 'quantity': '', 'unit_price': ''}]",Detartrage complet; Soin carie molaire; Radiographie panoramique,YES
+IMG-20260507-WA0149,tva_percentage,20,20%,YES
+IMG-20260507-WA0149,tva_amount,59.00,"59,00 EUR",YES
+IMG-20260507-WA0149,total_amount,354.00,"354,00 EUR",YES
+IMG-20260507-WA0149,payment_status,UNKNOWN,PAID,NO
+IMG-20260507-WA0150,supplier_name,SCI Les Alpes Immobilier,Chauffage & Climatisation Roux,NO
+IMG-20260507-WA0150,invoice_number,CCR-2024-0423,CCR-2024-0423,YES
+IMG-20260507-WA0150,invoice_date,25/04/2024,25/04/2024,YES
+IMG-20260507-WA0150,siret,,99956789200267,NO
+IMG-20260507-WA0150,echeance,25/05/2024,25/05/2024,YES
+IMG-20260507-WA0150,invoice_content,[],Installation climatisation reversible; Mise en service et reglages; Garantie extension 3 ans,NO
+IMG-20260507-WA0150,tva_percentage,10,10%,YES
+IMG-20260507-WA0150,tva_amount,225.00,"225,00 EUR",YES
+IMG-20260507-WA0150,total_amount,,"2 475,00 EUR",NO
+IMG-20260507-WA0150,payment_status,UNKNOWN,UNKNOWN,YES
+IMG-20260507-WA0151,supplier_name,Fleuriste Jardin d'Éden | FACTURE,Fleuriste Jardin d'Eden,YES
+IMG-20260507-WA0151,invoice_number,FJE-2024-0087,FJE-2024-0087,YES
+IMG-20260507-WA0151,invoice_date,23/04/2024,23/04/2024,YES
+IMG-20260507-WA0151,siret,66623456700256,66623456700256,YES
+IMG-20260507-WA0151,echeance,08/05/2024,08/05/2024,YES
+IMG-20260507-WA0151,invoice_content,[],Bouquet mariee rose & pivoine; Decoration florale tables (x8); Composition entree salle,NO
+IMG-20260507-WA0151,tva_percentage,10,10%,YES
+IMG-20260507-WA0151,tva_amount,,"82,00 EUR",NO
+IMG-20260507-WA0151,total_amount,902.00,"902,00 EUR",YES
+IMG-20260507-WA0151,payment_status,PAID,PAID,YES
+IMG-20260507-WA0152,supplier_name,Numéro Date Code client / Date échéance Mode de règlement N° de Tva intracom,(non lisible - facture SCA010),NO
+IMG-20260507-WA0152,invoice_number,FC20251175,FC20251175,YES
+IMG-20260507-WA0152,invoice_date,28/04/2025,28/04/2025,YES
+IMG-20260507-WA0152,echeance,,28/05/2025,NO
+IMG-20260507-WA0152,invoice_content,"[{'description': 'Qté PUHT MontantHT TVA', 'quantity': '.', 'unit_price': '.'}, {'description': '| AUDIT INITIAL ISO Etape & Etape °', 'quantity': '2772.67.', 'unit_price': '20.0'}, {'description': '‘IMPORTANT : :', 'quantity': '', 'unit_price': ''}, {'description': ""‘ Le règlement doit intervenir dès réception de la facture Ce n'est qu'à partir : |"", 'quantity': '', 'unit_price': '.'}, {'description': 'de cette étape que la prestation débutera l', 'quantity': '', 'unit_price': '.'}, {'description': 'Certification ISO version', 'quantity': '589.38', 'unit_price': '20.0'}, {'description': 'AUDIT INITIAL ISO Etape & Etape l', 'quantity': '1', 'unit_price': '2'}, {'description': 'l l', 'quantity': '', 'unit_price': ''}, {'description': 'IMPORTANT : | |', 'quantity': '', 'unit_price': ''}, {'description': ""| Le règlement doit intervenir dès réception de la facture Ce n'est qu'à partir"", 'quantity': '.', 'unit_price': '.'}, {'description': 'de cette étape que la prestation débutera |', 'quantity': '', 'unit_price': '.'}, {'description': ': TXT | Selon les termes du contrat n° -', 'quantity': '25', 'unit_price': '443'}, {'description': ': | Dossier Q : |', 'quantity': '', 'unit_price': '426'}, {'description': '| :', 'quantity': '', 'unit_price': ''}, {'description': 'i :', 'quantity': '', 'unit_price': ''}, {'description': 'nnant lieu à facture sont constituées exclusivement de prestations de services', 'quantity': '', 'unit_price': ''}, {'description': 'Les opérations do', 'quantity': '', 'unit_price': ''}, {'description': 'ent anticipé : % oc nat _ ee', 'quantity': '0', 'unit_price': '.'}, {'description': ""EsconPe POLE paiement Une pénalité égale à fois le tau d'intérêt légal sera eigible ainsi qu'une indemnité forfaitaire pour"", 'quantity': '3', 'unit_price': '.'}, {'description': 'ini uros pour les professionnels', 'quantity': '', 'unit_price': ''}, {'description': ""frais de recouvrement d'un montant minimum de e p p"", 'quantity': '', 'unit_price': '40'}]",AUDIT INITIAL ISO 19443 Etape 1 & Etape 2; Certification ISO 9001 version 2015,NO
+IMG-20260507-WA0152,tva_percentage,20.00,20%,NO
+IMG-20260507-WA0152,tva_amount,20.00,"672,41 EUR",NO
+IMG-20260507-WA0152,total_amount,572,"4 034,46 EUR",NO
+IMG-20260507-WA0152,payment_status,UNKNOWN,UNPAID,NO
+IMG-20260507-WA0152,solde_du,4034.46,"4 034,46 EUR",YES
+IMG-20260507-WA0153,supplier_name,"27 Rue de l'Innovation,",Informatique Solutions Pro,NO
+IMG-20260507-WA0153,invoice_number,,ISP-2024-0512,NO
+IMG-20260507-WA0153,invoice_date,22/04/2024,21/04/2024,NO
+IMG-20260507-WA0153,siret,,33390123400245,NO
+IMG-20260507-WA0153,echeance,21/05/2024,21/05/2024,YES
+IMG-20260507-WA0153,invoice_content,"[{'description': 'Remplacement disque SSD To', 'quantity': '', 'unit_price': '1'}, {'description': 'Réinstallation Windows', 'quantity': '', 'unit_price': '11'}, {'description': 'Sauvegarde données (h)', 'quantity': '', 'unit_price': '2'}, {'description': 'Antivirus licence an', 'quantity': '', 'unit_price': '1'}, {'description': 'i', 'quantity': '', 'unit_price': '.'}]",Remplacement disque SSD 1To; Reinstallation Windows 11; Sauvegarde donnees (2h); Antivirus licence 1 an,YES
+IMG-20260507-WA0153,tva_percentage,20,20%,YES
+IMG-20260507-WA0153,tva_amount,78.80,"78,80 EUR",YES
+IMG-20260507-WA0153,total_amount,472.80,"472,80 EUR",YES
+IMG-20260507-WA0153,payment_status,PAID,PAID,YES
+IMG-20260507-WA0154,supplier_name,? LEchéance : 1571112029,(non lisible - fournisseur SCAI Systems),NO
+IMG-20260507-WA0154,invoice_date,08/09/2025,,NO
+IMG-20260507-WA0154,echeance,,15/11/2025,NO
+IMG-20260507-WA0154,invoice_content,[],"Scie radiale 1800W D355MM MKAS35 +2 lames; Lame scie D355x25,4x2,2mm 66 dts acier (x9); Lame scie supplementaire (x1)",NO
+IMG-20260507-WA0154,tva_percentage,,20%,NO
+IMG-20260507-WA0154,tva_amount,,"419,80 EUR",NO
+IMG-20260507-WA0154,total_amount,,"2 518,81 EUR",NO
+IMG-20260507-WA0154,payment_status,UNKNOWN,UNKNOWN,YES
+IMG-20260507-WA0155,supplier_name,cture cpta,Fers et Metaux du Chalonnais,NO
+IMG-20260507-WA0155,invoice_date,31/03/26,,NO
+IMG-20260507-WA0155,echeance,,31/03/2026,NO
+IMG-20260507-WA0155,invoice_content,"[{'description': 'Cornière S JR BC', 'quantity': '120', 'unit_price': '12'}, {'description': 'Poutrelle S JR IPE BC', 'quantity': '275', 'unit_price': '270'}, {'description': 'Rond serrurier S JR Diam BC', 'quantity': '235', 'unit_price': '18'}, {'description': 'X Cornière S JR BC', 'quantity': '25', 'unit_price': '3'}, {'description': 'TAC tole à chaud S JR', 'quantity': '2000', 'unit_price': '15'}, {'description': 'X Poutrelle S JR UPN GB ml', 'quantity': '100', 'unit_price': '12.15'}, {'description': 'Transport', 'quantity': '', 'unit_price': ''}, {'description': 'X Cornière S JR BC', 'quantity': '80', 'unit_price': '8'}, {'description': 'LIV //', 'quantity': '02', 'unit_price': '2026'}, {'description': 'Base Taux Taxe', 'quantity': '', 'unit_price': ''}]",Corniere S235 JR 120x120x12; Poutrelle S275 JR IPE 270; Rond serrurier S235 JR Diam18; Corniere 25x25x3; TAC tole a chaud 1000x2000x15; Poutrelle UPN 100; Transport; Corniere 80x80x8,YES
+IMG-20260507-WA0155,tva_percentage,,20%,NO
+IMG-20260507-WA0155,tva_amount,,"1 309,13 EUR",NO
+IMG-20260507-WA0155,total_amount,,"7 854,77 EUR",NO
+IMG-20260507-WA0155,payment_status,UNKNOWN,UNKNOWN,YES
+IMG-20260507-WA0156,supplier_name,Pos. fiv. Désignation Article EUR EUR,Wurth Proxi Shop Le Creusot,NO
+IMG-20260507-WA0156,invoice_number,4330739666,4330739666,YES
+IMG-20260507-WA0156,echeance,,25/12/2024,NO
+IMG-20260507-WA0156,invoice_content,"[{'description': 'Article EUR EUR', 'quantity': '', 'unit_price': ''}, {'description': 'Votre pos Origine / N° tarif douanier', 'quantity': '', 'unit_price': '.'}, {'description': 'Disques à meuler Polds b', 'quantity': '', 'unit_price': ''}, {'description': 'MEULE EBARBER ZIRCO+ X X osent RG', 'quantity': '22.2', 'unit_price': '1288'}, {'description': 'DEP', 'quantity': '', 'unit_price': ''}, {'description': 'Niveau électroniques sonores Poids brut KG', 'quantity': '40', 'unit_price': '1.130'}, {'description': 'NIVEAU DIGITAL P CM', 'quantity': '65', 'unit_price': '61'}, {'description': 'ZEBRA', 'quantity': '', 'unit_price': ''}, {'description': 'Numèro do séra NO °', 'quantity': '', 'unit_price': ''}, {'description': 'WAG', 'quantity': '1', 'unit_price': '0.0'}, {'description': 'Briquet Poids brut KG', 'quantity': '50', 'unit_price': '0.036'}, {'description': 'BRIQUET USB ELECTRIQUE', 'quantity': '', 'unit_price': ''}, {'description': 'Oflert', 'quantity': '', 'unit_price': ''}, {'description': 'C', 'quantity': '1', 'unit_price': '0.'}, {'description': 'Offre commerciale de réduction', 'quantity': '', 'unit_price': ''}, {'description': 'Coupon Cadeau Palier Mag Novembre', 'quantity': '1', 'unit_price': '2024'}, {'description': 'I ———_—_——_—————— © —————', 'quantity': '', 'unit_price': ''}, {'description': 'Poids total KG', 'quantity': '', 'unit_price': '3.641'}, {'description': '"" —', 'quantity': '', 'unit_price': '5'}, {'description': 'Mont de base Tau TVA Montant TVA Montant net', 'quantity': '.', 'unit_price': '682.4'}, {'description': 'Code EUR EUR TVA :', 'quantity': '', 'unit_price': '136.'}, {'description': '——————', 'quantity': '', 'unit_price': ''}, {'description': 'A %', 'quantity': '20,00', 'unit_price': '136.50'}, {'description': 'Montant TTC en EUR ;', 'quantity': '', 'unit_price': '818.9'}, {'description': 'Vos conditions de règlement:', 'quantity': '', 'unit_price': ''}, {'description': 'JOURS', 'quantity': '', 'unit_price': '30'}, {'description': ""Sans esc jusqu'au"", 'quantity': '.', 'unit_price': '2512.2024'}, {'description': 'Mode de paiement: Traite directe', 'quantity': '', 'unit_price': ''}, {'description': 'Vireme]', 'quantity': '', 'unit_price': ''}, {'description': 'Votro magasin', 'quantity': '', 'unit_price': ''}, {'description': 'WURTH PROXI SHOP LE CREUSOT RUE JEAN VILAR TORCY', 'quantity': ',', 'unit_price': '71210.'}, {'description': 'WII]', 'quantity': '', 'unit_price': ''}]",Disques a meuler MEULE EBARBER ZIRCO+ 230x6.4x22.2; Niveau digital IP65 61CM Zebra; Briquet USB electrique (offert); Coupon cadeau,NO
+IMG-20260507-WA0156,tva_percentage,,20%,NO
+IMG-20260507-WA0156,tva_amount,,"136,50 EUR",NO
+IMG-20260507-WA0156,total_amount,,"818,98 EUR",NO
+IMG-20260507-WA0156,payment_status,UNKNOWN,UNKNOWN,YES
+Invoice_FR_016_scanned_260508_103316,supplier_name,Mme Isabelle Renard,Epicerie Fine Marchand,NO
+Invoice_FR_016_scanned_260508_103316,invoice_number,,EFM-2023-0412,NO
+Invoice_FR_016_scanned_260508_103316,invoice_date,13/11/2023,12/11/2023,NO
+Invoice_FR_016_scanned_260508_103316,siret,12378945600178,12378945600178,YES
+Invoice_FR_016_scanned_260508_103316,echeance,27/11/2023,27/11/2023,YES
+Invoice_FR_016_scanned_260508_103316,invoice_content,"[{'description': 'Foie gras mi-cuit ( boîtes)', 'quantity': '', 'unit_price': '6'}, {'description': 'confiture artisanale ()', 'quantity': '', 'unit_price': '12'}, {'description': ""Huile d'olive AOC ( flacons)"", 'quantity': '', 'unit_price': '4'}]",Foie gras mi-cuit (4 boites) x6; Confiture artisanale (x12) x12; Huile d'olive AOC (4 flacons) x4,YES
+Invoice_FR_016_scanned_260508_103316,tva_percentage,5.5,"5,5%",YES
+Invoice_FR_016_scanned_260508_103316,tva_amount,19.24,"19,24 EUR",YES
+Invoice_FR_016_scanned_260508_103316,total_amount,369.04,"369,04 EUR",YES
+Invoice_FR_016_scanned_260508_103316,payment_status,PAID,PAID,YES
+Invoice_FR_017_scanned_260508_103241,supplier_name,DIREL : 33235430 /0U00103 VALLE ° VJ/Léf LU,Atelier Couture & Retouches Blondel,NO
+Invoice_FR_017_scanned_260508_103241,invoice_number,2023-1205,ACR-2023-1205,NO
+Invoice_FR_017_scanned_260508_103241,invoice_date,20/12/2023,05/12/2023,NO
+Invoice_FR_017_scanned_260508_103241,siret,,55534567900169,NO
+Invoice_FR_017_scanned_260508_103241,echeance,20/12/2023,20/12/2023,YES
+Invoice_FR_017_scanned_260508_103241,invoice_content,[],Retouche robe de mariee; Ourlet pantalon (x3); Remplacement fermeture eclair,NO
+Invoice_FR_017_scanned_260508_103241,tva_percentage,20,20%,YES
+Invoice_FR_017_scanned_260508_103241,tva_amount,50.00,"50,00 EUR",YES
+Invoice_FR_017_scanned_260508_103241,total_amount,300.00,"300,00 EUR",YES
+Invoice_FR_017_scanned_260508_103241,payment_status,PAID,PAID,YES
+Invoice_FR_018_scanned_260508_103257,supplier_name,Garage Mécanique Verdier - FACTURE,Garage Mecanique Verdier,YES
+Invoice_FR_018_scanned_260508_103257,invoice_number,GMV-2023-0789,GMV-2023-0789,YES
+Invoice_FR_018_scanned_260508_103257,invoice_date,28/10/2023,28/10/2023,YES
+Invoice_FR_018_scanned_260508_103257,siret,88801234600190,88801234600190,YES
+Invoice_FR_018_scanned_260508_103257,echeance,12/11/2023,12/11/2023,YES
+Invoice_FR_018_scanned_260508_103257,invoice_content,[],Vidange + filtre huile; Remplacement plaquettes frein AV; Main d'oeuvre revision (3h); Pneumatiques 195/65 R15 (x2),NO
+Invoice_FR_018_scanned_260508_103257,tva_percentage,20,20%,YES
+Invoice_FR_018_scanned_260508_103257,tva_amount,,"121,20 EUR",NO
+Invoice_FR_018_scanned_260508_103257,total_amount,727.20,"727,20 EUR",YES
+Invoice_FR_018_scanned_260508_103257,payment_status,UNKNOWN,UNKNOWN,YES
+Invoice_FR_019_scanned_260508_103345,supplier_name,US/U1/2U424a,Ecole de Musique Harmonie,NO
+Invoice_FR_019_scanned_260508_103345,invoice_number,,EMH-2024-0023,NO
+Invoice_FR_019_scanned_260508_103345,invoice_date,09/01/2024,08/01/2024,NO
+Invoice_FR_019_scanned_260508_103345,siret,,33345678900201,NO
+Invoice_FR_019_scanned_260508_103345,echeance,08/02/2024,08/02/2024,YES
+Invoice_FR_019_scanned_260508_103345,invoice_content,"[{'description': 'Cours de piano — trimestre ( séances)', 'quantity': '1', 'unit_price': '12'}, {'description': 'Location salle de répétition (h)', 'quantity': '', 'unit_price': '4'}, {'description': 'Partition recueil Bach', 'quantity': '', 'unit_price': ''}]",Cours de piano - trimestre 1 (x12 seances); Location salle de repetition (x4h); Partition recueil Bach,YES
+Invoice_FR_019_scanned_260508_103345,tva_percentage,20,20%,YES
+Invoice_FR_019_scanned_260508_103345,tva_amount,127.70,"127,70 EUR",YES
+Invoice_FR_019_scanned_260508_103345,total_amount,766.20,"766,20 EUR",YES
+Invoice_FR_019_scanned_260508_103345,payment_status,PAID,PAID,YES
+Invoice_FR_020_scanned_260508_103334,supplier_name,12 CnERRSSS,Paysagiste Terrain Vert EURL,NO
+Invoice_FR_020_scanned_260508_103334,invoice_number,,PTV-2024-0156,NO
+Invoice_FR_020_scanned_260508_103334,invoice_date,08/03/2024,22/02/2024,NO
+Invoice_FR_020_scanned_260508_103334,siret,,66612890100212,NO
+Invoice_FR_020_scanned_260508_103334,echeance,,08/03/2024,NO
+Invoice_FR_020_scanned_260508_103334,invoice_content,"[{'description': 'tonte pelouse + ramassage ( passages)', 'quantity': '', 'unit_price': '4'}, {'description': 'taille haies et arbustes', 'quantity': '', 'unit_price': ''}, {'description': 'plantation massif fleuri { plants)', 'quantity': '', 'unit_price': '15'}, {'description': 'on déchets verts', 'quantity': '', 'unit_price': ''}, {'description': 'évacuati', 'quantity': '', 'unit_price': ''}]",Tonte pelouse + ramassage (x4 passages); Taille haies et arbustes; Plantation massif fleuri (x15 plants); Evacuation dechets verts,YES
+Invoice_FR_020_scanned_260508_103334,tva_percentage,,10%,NO
+Invoice_FR_020_scanned_260508_103334,tva_amount,,"73,50 EUR",NO
+Invoice_FR_020_scanned_260508_103334,total_amount,,"808,50 EUR",NO
+Invoice_FR_020_scanned_260508_103334,payment_status,UNKNOWN,UNKNOWN,YES

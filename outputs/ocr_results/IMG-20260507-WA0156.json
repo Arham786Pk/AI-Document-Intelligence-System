@@ -1,0 +1,22 @@
+{
+  "invoice_name": "IMG-20260507-WA0156",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "data\\processed\\IMG-20260507-WA0156\\page_01.png",
+      "text": "N° de facture 4330739666\n\nN° client 1071176663\nPage 213\nN° pos. Réf. Articlo Boîtage Quantité” Prix net UP Montant net\nPos. fiv. Désignation Article EUR EUR\nVotre pos. Origine / N° tarif douanier\n4 0669230064 961 25 2 7,70 1 15,4\nDisques à meuler Polds b\nMEULE EBARBER ZIRCO+ 230 X 6.4 X22.2 osent 1288 RG\nDEP\n690422180000\n5 0714644060 961 .1 1 247,50 1 247,5\n40 Niveaux électroniques sonores Poids brut 1,130 KG\nNIVEAU DIGITAL 1P65 61CM\nZEBRA\n903180200000\nNumèro do séra NO °\n6 0WAG003430 990 1 1 1 0,0\n50 Briquet Poids brut 0,036 KG\nBRIQUET USB ELECTRIQUE\n961380000000\nOflert\n7 0996890003 090 1 1 1 0,C\nOffre commerciale de réduction\nCoupon Cadeau Palier 1 Mag Novembre 2024\n854370900990\n\nI ———_—_——_—————— © —————\nPoids total 3,641 KG\n\n\"5 —\n\nMont. de base Taux TVA Montant TVA Montant net 682,4\nCode EUR EUR TVA 136,:\n——————\nA8 682,48 20,00 % 136,50\nMontant TTC en EUR 818,9;\nVos conditions de règlement:\n\n30 JOURS\nSans esc. jusqu'au 25.12.2024\nMode de paiement: Traite directe\n\nVireme]\nVotro magasin\n\nWURTH PROXI SHOP LE CREUSOT, 8 RUE JEAN VILAR, 71210, TORCY\n\nll\n\nWII]",
+      "confidence": 0.8358333333333333,
+      "char_count": 1074,
+      "word_count": 189,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "N° de facture 4330739666\n\nN° client 1071176663\nPage 213\nN° pos. Réf. Articlo Boîtage Quantité” Prix net UP Montant net\nPos. fiv. Désignation Article EUR EUR\nVotre pos. Origine / N° tarif douanier\n4 0669230064 961 25 2 7,70 1 15,4\nDisques à meuler Polds b\nMEULE EBARBER ZIRCO+ 230 X 6.4 X22.2 osent 1288 RG\nDEP\n690422180000\n5 0714644060 961 .1 1 247,50 1 247,5\n40 Niveaux électroniques sonores Poids brut 1,130 KG\nNIVEAU DIGITAL 1P65 61CM\nZEBRA\n903180200000\nNumèro do séra NO °\n6 0WAG003430 990 1 1 1 0,0\n50 Briquet Poids brut 0,036 KG\nBRIQUET USB ELECTRIQUE\n961380000000\nOflert\n7 0996890003 090 1 1 1 0,C\nOffre commerciale de réduction\nCoupon Cadeau Palier 1 Mag Novembre 2024\n854370900990\n\nI ———_—_——_—————— © —————\nPoids total 3,641 KG\n\n\"5 —\n\nMont. de base Taux TVA Montant TVA Montant net 682,4\nCode EUR EUR TVA 136,:\n——————\nA8 682,48 20,00 % 136,50\nMontant TTC en EUR 818,9;\nVos conditions de règlement:\n\n30 JOURS\nSans esc. jusqu'au 25.12.2024\nMode de paiement: Traite directe\n\nVireme]\nVotro magasin\n\nWURTH PROXI SHOP LE CREUSOT, 8 RUE JEAN VILAR, 71210, TORCY\n\nll\n\nWII]",
+  "mean_confidence": 0.8358333333333333,
+  "total_char_count": 1074,
+  "total_word_count": 189,
+  "low_quality_pages": [],
+  "error": ""
+}
