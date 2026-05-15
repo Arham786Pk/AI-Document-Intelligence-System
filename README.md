@@ -5,7 +5,7 @@ extracts **11 entity fields** with full synonym tolerance, detects payment
 status, and writes one structured JSON per invoice.
 
 > Repository: <https://github.com/Arham786Pk/AI-Document-Intelligence-System>
-> Client: Muhammad Ahmed · Milestone 1 of 4 · 11 entities · No model training in this milestone
+> Client: Muhammad Ahmed · Milestone 1 of 4 complete · Milestone 2 in progress · 11 entities (M1) → 12 (M2 will add `consumer_name`)
 
 ---
 
@@ -32,9 +32,12 @@ python -m src.pipeline --from ocr --input outputs/ocr_results --output outputs
 python -m src.metrics --extracted outputs/extracted --ground-truth docs/ground_truth.csv --output outputs
 ```
 
-**Note:** Raw invoice data lives in `data/Images/` (16 phone photos) and
-`data/Scanned_PDF/` (5 scanned PDFs). There is no `data/raw/french_invoices/`
-folder — run the pipeline pointing to `data/Images` or `data/Scanned_PDF` directly.
+**Note on dataset (updated for Milestone 2 Task 02 — 2026-05-15):**
+
+- `data/Images/` — 16 phone photos (M1 dataset)
+- `data/Scanned_PDF/` — 5 M1 scanned PDFs + `sourced_internet/` subfolder with 36 additional French invoice PDFs collected from public sources for M2 AI training
+- **Total dataset: 57 documents** (meets M2 Task 02 target of ≥50)
+- See [`data/Scanned_PDF/sourced_internet/MANIFEST.md`](data/Scanned_PDF/sourced_internet/MANIFEST.md) for per-file source attribution and content classification (real invoices, Factur-X references, templates, "comprendre votre facture" educational PDFs)
 
 
 ---
