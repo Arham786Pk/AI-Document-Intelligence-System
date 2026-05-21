@@ -1,22 +1,22 @@
 Invoice,Field,Extracted,Ground Truth,Match
-IMG-20260507-WA0143,supplier_name,AOYAMA |,AOYAMA,YES
-IMG-20260507-WA0143,invoice_number,,T109200,NO
+IMG-20260507-WA0143,supplier_name,AOYAMA,AOYAMA,YES
+IMG-20260507-WA0143,invoice_number,T108200,T109200,NO
 IMG-20260507-WA0143,invoice_date,31/03/2026,31/03/2026,YES
 IMG-20260507-WA0143,siret,,44418819700016,NO
 IMG-20260507-WA0143,invoice_content,[],1 Repas complet,NO
 IMG-20260507-WA0143,tva_percentage,,10%; 20%,NO
 IMG-20260507-WA0143,tva_amount,,"3,40 EUR",NO
 IMG-20260507-WA0143,total_amount,,"33,90 EUR",NO
-IMG-20260507-WA0143,payment_status,UNKNOWN,PAID,NO
-IMG-20260507-WA0144,supplier_name,Carrefour,Hyper Carrefour Chalon,YES
-IMG-20260507-WA0144,invoice_number,AUTO,00031 00 02 00550383,NO
+IMG-20260507-WA0143,payment_status,PAID,PAID,YES
+IMG-20260507-WA0144,supplier_name,71 SHALON SUR SA,Hyper Carrefour Chalon,NO
+IMG-20260507-WA0144,invoice_number,,00031 00 02 00550383,NO
 IMG-20260507-WA0144,invoice_date,31/03/26,31/03/2026,NO
 IMG-20260507-WA0144,siret,99269214500912,99269214500012,NO
 IMG-20260507-WA0144,invoice_content,[],"Gazole 24,03 L @ 2,279 EUR/L",NO
 IMG-20260507-WA0144,tva_percentage,,20%,NO
 IMG-20260507-WA0144,tva_amount,,"9,13 EUR",NO
 IMG-20260507-WA0144,total_amount,,"54,76 EUR",NO
-IMG-20260507-WA0144,payment_status,UNKNOWN,PAID,NO
+IMG-20260507-WA0144,payment_status,PAID,PAID,YES
 IMG-20260507-WA0145,supplier_name,COC: 20260331-002-601-229,Orano Le Prisme,NO
 IMG-20260507-WA0145,invoice_number,,002-001-305604,NO
 IMG-20260507-WA0145,invoice_date,31/03/2026,31/03/2026,YES
@@ -26,23 +26,23 @@ IMG-20260507-WA0145,tva_amount,,"1,07 EUR",NO
 IMG-20260507-WA0145,total_amount,,"12,84 EUR",NO
 IMG-20260507-WA0145,payment_status,UNKNOWN,UNKNOWN,YES
 IMG-20260507-WA0146,supplier_name,JUSTIFICATIF DF PAIEHERT,Le Creusot Gare TGV (Effia),NO
-IMG-20260507-WA0146,invoice_number,AUTO,25557,NO
+IMG-20260507-WA0146,invoice_number,25557,25557,YES
 IMG-20260507-WA0146,invoice_date,31/02/26,31/03/2026,NO
 IMG-20260507-WA0146,siret,38792128101407,,NO
 IMG-20260507-WA0146,invoice_content,[],Stationnement Tarif 5 (Entree 17:31 / Paiement 22:31),NO
 IMG-20260507-WA0146,tva_percentage,,20%,NO
-IMG-20260507-WA0146,tva_amount,3.67,"0,73 EUR",NO
+IMG-20260507-WA0146,tva_amount,,"0,73 EUR",NO
 IMG-20260507-WA0146,total_amount,,"4,40 EUR",NO
-IMG-20260507-WA0146,payment_status,UNKNOWN,PAID,NO
+IMG-20260507-WA0146,payment_status,PAID,PAID,YES
 IMG-20260507-WA0147,supplier_name,<FAX>,La Boucherie Restaurant,NO
-IMG-20260507-WA0147,invoice_number,131 Merct de volie visite,134788,NO
+IMG-20260507-WA0147,invoice_number,,134788,NO
 IMG-20260507-WA0147,invoice_date,,29/03/2026,NO
 IMG-20260507-WA0147,siret,85214553800029,85214583800029,NO
-IMG-20260507-WA0147,invoice_content,"[{'description': ':', 'quantity': '', 'unit_price': '131'}, {'description': 'Merct de volie visite à bientôt', 'quantity': ',', 'unit_price': '.'}, {'description': 'To: Notes Vestes', 'quantity': '', 'unit_price': ''}, {'description': 'MONTCHANINTOSI', 'quantity': '', 'unit_price': ''}]",1664 33CL; Tresor Louchebem; Garniture supplement; Supp sauce,YES
+IMG-20260507-WA0147,invoice_content,[],1664 33CL; Tresor Louchebem; Garniture supplement; Supp sauce,NO
 IMG-20260507-WA0147,tva_percentage,,10%; 20%,NO
 IMG-20260507-WA0147,tva_amount,,"4,39 EUR",NO
 IMG-20260507-WA0147,total_amount,43.50,"43,50 EUR",YES
-IMG-20260507-WA0147,payment_status,UNKNOWN,PAID,NO
+IMG-20260507-WA0147,payment_status,PAID,PAID,YES
 IMG-20260507-WA0148,supplier_name,AJ/Vs/ LUS,Studio Photo Lumiere & Art,NO
 IMG-20260507-WA0148,invoice_number,,SPL-2024-0198,NO
 IMG-20260507-WA0148,invoice_date,04/05/2024,19/04/2024,NO
@@ -54,7 +54,7 @@ IMG-20260507-WA0148,tva_amount,270.00,"270,00 EUR",YES
 IMG-20260507-WA0148,total_amount,1620.00,"1 620,00 EUR",YES
 IMG-20260507-WA0148,payment_status,UNKNOWN,UNKNOWN,YES
 IMG-20260507-WA0149,supplier_name,Clinique Dentaire Sourire - FACTURE,Clinique Dentaire Sourire,YES
-IMG-20260507-WA0149,invoice_number,SIRET,CDS-2024-0345,NO
+IMG-20260507-WA0149,invoice_number,CDS-2024-0345,CDS-2024-0345,YES
 IMG-20260507-WA0149,invoice_date,16/04/2024,16/04/2024,YES
 IMG-20260507-WA0149,siret,44456789100223,44456789100223,YES
 IMG-20260507-WA0149,echeance,01/05/2024,01/05/2024,YES
@@ -63,8 +63,8 @@ IMG-20260507-WA0149,tva_percentage,20,20%,YES
 IMG-20260507-WA0149,tva_amount,59.00,"59,00 EUR",YES
 IMG-20260507-WA0149,total_amount,354.00,"354,00 EUR",YES
 IMG-20260507-WA0149,payment_status,UNKNOWN,PAID,NO
-IMG-20260507-WA0150,supplier_name,Echeance : 25/05/2024,Chauffage & Climatisation Roux,NO
-IMG-20260507-WA0150,invoice_number,,CCR-2024-0423,NO
+IMG-20260507-WA0150,supplier_name,SCI Les Alpes Immobilier,Chauffage & Climatisation Roux,NO
+IMG-20260507-WA0150,invoice_number,CCR-2024-0423,CCR-2024-0423,YES
 IMG-20260507-WA0150,invoice_date,25/04/2024,25/04/2024,YES
 IMG-20260507-WA0150,siret,,99956789200267,NO
 IMG-20260507-WA0150,echeance,25/05/2024,25/05/2024,YES
@@ -74,7 +74,7 @@ IMG-20260507-WA0150,tva_amount,225.00,"225,00 EUR",YES
 IMG-20260507-WA0150,total_amount,,"2 475,00 EUR",NO
 IMG-20260507-WA0150,payment_status,UNKNOWN,UNKNOWN,YES
 IMG-20260507-WA0151,supplier_name,Fleuriste Jardin d'Éden | FACTURE,Fleuriste Jardin d'Eden,YES
-IMG-20260507-WA0151,invoice_number,SIRET,FJE-2024-0087,NO
+IMG-20260507-WA0151,invoice_number,FJE-2024-0087,FJE-2024-0087,YES
 IMG-20260507-WA0151,invoice_date,23/04/2024,23/04/2024,YES
 IMG-20260507-WA0151,siret,66623456700256,66623456700256,YES
 IMG-20260507-WA0151,echeance,08/05/2024,08/05/2024,YES
@@ -84,7 +84,7 @@ IMG-20260507-WA0151,tva_amount,,"82,00 EUR",NO
 IMG-20260507-WA0151,total_amount,902.00,"902,00 EUR",YES
 IMG-20260507-WA0151,payment_status,PAID,PAID,YES
 IMG-20260507-WA0152,supplier_name,Numéro Date Code client / Date échéance Mode de règlement N° de Tva intracom,(non lisible - facture SCA010),NO
-IMG-20260507-WA0152,invoice_number,Date Code client / Date,FC20251175,NO
+IMG-20260507-WA0152,invoice_number,FC20251175,FC20251175,YES
 IMG-20260507-WA0152,invoice_date,28/04/2025,28/04/2025,YES
 IMG-20260507-WA0152,echeance,,28/05/2025,NO
 IMG-20260507-WA0152,invoice_content,"[{'description': 'Qté PUHT MontantHT TVA', 'quantity': '.', 'unit_price': '.'}, {'description': '| AUDIT INITIAL ISO Etape & Etape °', 'quantity': '2772.67.', 'unit_price': '20.0'}, {'description': '‘IMPORTANT : :', 'quantity': '', 'unit_price': ''}, {'description': ""‘ Le règlement doit intervenir dès réception de la facture Ce n'est qu'à partir : |"", 'quantity': '', 'unit_price': '.'}, {'description': 'de cette étape que la prestation débutera l', 'quantity': '', 'unit_price': '.'}, {'description': 'Certification ISO version', 'quantity': '589.38', 'unit_price': '20.0'}, {'description': 'AUDIT INITIAL ISO Etape & Etape l', 'quantity': '1', 'unit_price': '2'}, {'description': 'l l', 'quantity': '', 'unit_price': ''}, {'description': 'IMPORTANT : | |', 'quantity': '', 'unit_price': ''}, {'description': ""| Le règlement doit intervenir dès réception de la facture Ce n'est qu'à partir"", 'quantity': '.', 'unit_price': '.'}, {'description': 'de cette étape que la prestation débutera |', 'quantity': '', 'unit_price': '.'}, {'description': ': TXT | Selon les termes du contrat n° -', 'quantity': '25', 'unit_price': '443'}, {'description': ': | Dossier Q : |', 'quantity': '', 'unit_price': '426'}, {'description': '| :', 'quantity': '', 'unit_price': ''}, {'description': 'i :', 'quantity': '', 'unit_price': ''}, {'description': 'nnant lieu à facture sont constituées exclusivement de prestations de services', 'quantity': '', 'unit_price': ''}, {'description': 'Les opérations do', 'quantity': '', 'unit_price': ''}, {'description': 'ent anticipé : % oc nat _ ee', 'quantity': '0', 'unit_price': '.'}, {'description': ""EsconPe POLE paiement Une pénalité égale à fois le tau d'intérêt légal sera eigible ainsi qu'une indemnité forfaitaire pour"", 'quantity': '3', 'unit_price': '.'}, {'description': 'ini uros pour les professionnels', 'quantity': '', 'unit_price': ''}, {'description': ""frais de recouvrement d'un montant minimum de e p p"", 'quantity': '', 'unit_price': '40'}]",AUDIT INITIAL ISO 19443 Etape 1 & Etape 2; Certification ISO 9001 version 2015,NO
@@ -104,10 +104,9 @@ IMG-20260507-WA0153,tva_amount,78.80,"78,80 EUR",YES
 IMG-20260507-WA0153,total_amount,472.80,"472,80 EUR",YES
 IMG-20260507-WA0153,payment_status,PAID,PAID,YES
 IMG-20260507-WA0154,supplier_name,? LEchéance : 1571112029,(non lisible - fournisseur SCAI Systems),NO
-IMG-20260507-WA0154,invoice_number,LNFRO525-094140 du 09/09/2,,NO
 IMG-20260507-WA0154,invoice_date,08/09/2025,,NO
 IMG-20260507-WA0154,echeance,,15/11/2025,NO
-IMG-20260507-WA0154,invoice_content,"[{'description': 'LNFRO- du //', 'quantity': '09', 'unit_price': '2025'}, {'description': 'ALL ALBERT EINSTEIN LE CREUSOT', 'quantity': '285', 'unit_price': '71200'}, {'description': 'FRANCE', 'quantity': '', 'unit_price': ''}, {'description': 'SCIE RADIALE W DMM MKAS + LAMES', 'quantity': '35', 'unit_price': '2'}, {'description': 'Client Commande CVFRO', 'quantity': '164480,', 'unit_price': '525'}, {'description': 'Bon de livralson', 'quantity': '', 'unit_price': '7783590738.'}, {'description': 'Livré à SCA] SYSTEMS', 'quantity': '', 'unit_price': ''}, {'description': '/', 'quantity': '', 'unit_price': '12227559'}, {'description': 'UN UN', 'quantity': '1', 'unit_price': '749.0'}, {'description': 'Réf catalogue :', 'quantity': '', 'unit_price': '72365460000'}, {'description': 'DEEE :', 'quantity': '', 'unit_price': '0.7'}, {'description': 'Masse Nette G', 'quantity': '', 'unit_price': '28600'}, {'description': 'RE RrtA LAME SCIE DXXMM DTS ACIER UN TUN', 'quantity': '134,93', 'unit_price': '1214.37'}, {'description': 'Réf catalogue :', 'quantity': '', 'unit_price': '63502301000'}, {'description': 'PIECES DIPSONIBLES PLATEFORME == LIVRABLES SOUS H /// LE SOLDE: DELAI À CONVENIR', 'quantity': '48', 'unit_price': '.'}, {'description': 'toioiet DEEE A ardent A', 'quantity': '', 'unit_price': ''}, {'description': 'RÉ tin PR Er D aa a ee', 'quantity': '', 'unit_price': ''}, {'description': 'LAMES POUR ACIER DE CONSTRUCTION', 'quantity': '', 'unit_price': '.'}, {'description': 'oilsiatete eh LA LEE ELLE DIET ere ee tenta', 'quantity': '', 'unit_price': ''}, {'description': 'Masse Nette G', 'quantity': '', 'unit_price': '15300'}, {'description': 'Bon de Ilvralson autre référence LNFRO- du //', 'quantity': '09', 'unit_price': '2025'}, {'description': 'Livré à SCAI SYSTEMS ALL ALBERT EINSTEIN dE CREUSOT', 'quantity': '285', 'unit_price': '71200'}, {'description': '/ LAME SCIE DXXMM DTS ACIER UN TUN', 'quantity': '134,93', 'unit_price': '134.93'}, {'description': 'Réf catalogue :', 'quantity': '', 'unit_price': '63502301000'}, {'description': 'PRES RRQNERES PEATERORME LIVRABLES SOUS H LE SOLDE: DELAI À CONVENIR', 'quantity': '48', 'unit_price': '.'}, {'description': 'LAES POUR ACIER DE CONSTRUCTION', 'quantity': '', 'unit_price': '.'}, {'description': 'SOUSIOTAMEMAREEGRTE E', 'quantity': '2090', 'unit_price': '91'}]","Scie radiale 1800W D355MM MKAS35 +2 lames; Lame scie D355x25,4x2,2mm 66 dts acier (x9); Lame scie supplementaire (x1)",NO
+IMG-20260507-WA0154,invoice_content,[],"Scie radiale 1800W D355MM MKAS35 +2 lames; Lame scie D355x25,4x2,2mm 66 dts acier (x9); Lame scie supplementaire (x1)",NO
 IMG-20260507-WA0154,tva_percentage,,20%,NO
 IMG-20260507-WA0154,tva_amount,,"419,80 EUR",NO
 IMG-20260507-WA0154,total_amount,,"2 518,81 EUR",NO
@@ -120,8 +119,8 @@ IMG-20260507-WA0155,tva_percentage,,20%,NO
 IMG-20260507-WA0155,tva_amount,,"1 309,13 EUR",NO
 IMG-20260507-WA0155,total_amount,,"7 854,77 EUR",NO
 IMG-20260507-WA0155,payment_status,UNKNOWN,UNKNOWN,YES
-IMG-20260507-WA0156,supplier_name,Page 213,Wurth Proxi Shop Le Creusot,NO
-IMG-20260507-WA0156,invoice_number,4330739666 N,4330739666,NO
+IMG-20260507-WA0156,supplier_name,Pos. fiv. Désignation Article EUR EUR,Wurth Proxi Shop Le Creusot,NO
+IMG-20260507-WA0156,invoice_number,4330739666,4330739666,YES
 IMG-20260507-WA0156,echeance,,25/12/2024,NO
 IMG-20260507-WA0156,invoice_content,"[{'description': 'Article EUR EUR', 'quantity': '', 'unit_price': ''}, {'description': 'Votre pos Origine / N° tarif douanier', 'quantity': '', 'unit_price': '.'}, {'description': 'Disques à meuler Polds b', 'quantity': '', 'unit_price': ''}, {'description': 'MEULE EBARBER ZIRCO+ X X osent RG', 'quantity': '22.2', 'unit_price': '1288'}, {'description': 'DEP', 'quantity': '', 'unit_price': ''}, {'description': 'Niveau électroniques sonores Poids brut KG', 'quantity': '40', 'unit_price': '1.130'}, {'description': 'NIVEAU DIGITAL P CM', 'quantity': '65', 'unit_price': '61'}, {'description': 'ZEBRA', 'quantity': '', 'unit_price': ''}, {'description': 'Numèro do séra NO °', 'quantity': '', 'unit_price': ''}, {'description': 'WAG', 'quantity': '1', 'unit_price': '0.0'}, {'description': 'Briquet Poids brut KG', 'quantity': '50', 'unit_price': '0.036'}, {'description': 'BRIQUET USB ELECTRIQUE', 'quantity': '', 'unit_price': ''}, {'description': 'Oflert', 'quantity': '', 'unit_price': ''}, {'description': 'C', 'quantity': '1', 'unit_price': '0.'}, {'description': 'Offre commerciale de réduction', 'quantity': '', 'unit_price': ''}, {'description': 'Coupon Cadeau Palier Mag Novembre', 'quantity': '1', 'unit_price': '2024'}, {'description': 'I ———_—_——_—————— © —————', 'quantity': '', 'unit_price': ''}, {'description': 'Poids total KG', 'quantity': '', 'unit_price': '3.641'}, {'description': '"" —', 'quantity': '', 'unit_price': '5'}, {'description': 'Mont de base Tau TVA Montant TVA Montant net', 'quantity': '.', 'unit_price': '682.4'}, {'description': 'Code EUR EUR TVA :', 'quantity': '', 'unit_price': '136.'}, {'description': '——————', 'quantity': '', 'unit_price': ''}, {'description': 'A %', 'quantity': '20,00', 'unit_price': '136.50'}, {'description': 'Montant TTC en EUR ;', 'quantity': '', 'unit_price': '818.9'}, {'description': 'Vos conditions de règlement:', 'quantity': '', 'unit_price': ''}, {'description': 'JOURS', 'quantity': '', 'unit_price': '30'}, {'description': ""Sans esc jusqu'au"", 'quantity': '.', 'unit_price': '2512.2024'}, {'description': 'Mode de paiement: Traite directe', 'quantity': '', 'unit_price': ''}, {'description': 'Vireme]', 'quantity': '', 'unit_price': ''}, {'description': 'Votro magasin', 'quantity': '', 'unit_price': ''}, {'description': 'WURTH PROXI SHOP LE CREUSOT RUE JEAN VILAR TORCY', 'quantity': ',', 'unit_price': '71210.'}, {'description': 'WII]', 'quantity': '', 'unit_price': ''}]",Disques a meuler MEULE EBARBER ZIRCO+ 230x6.4x22.2; Niveau digital IP65 61CM Zebra; Briquet USB electrique (offert); Coupon cadeau,NO
 IMG-20260507-WA0156,tva_percentage,,20%,NO
@@ -147,9 +146,9 @@ Invoice_FR_017_scanned_260508_103241,invoice_content,[],Retouche robe de mariee;
 Invoice_FR_017_scanned_260508_103241,tva_percentage,20,20%,YES
 Invoice_FR_017_scanned_260508_103241,tva_amount,50.00,"50,00 EUR",YES
 Invoice_FR_017_scanned_260508_103241,total_amount,300.00,"300,00 EUR",YES
-Invoice_FR_017_scanned_260508_103241,payment_status,UNKNOWN,PAID,NO
+Invoice_FR_017_scanned_260508_103241,payment_status,PAID,PAID,YES
 Invoice_FR_018_scanned_260508_103257,supplier_name,Garage Mécanique Verdier - FACTURE,Garage Mecanique Verdier,YES
-Invoice_FR_018_scanned_260508_103257,invoice_number,Zone,GMV-2023-0789,NO
+Invoice_FR_018_scanned_260508_103257,invoice_number,GMV-2023-0789,GMV-2023-0789,YES
 Invoice_FR_018_scanned_260508_103257,invoice_date,28/10/2023,28/10/2023,YES
 Invoice_FR_018_scanned_260508_103257,siret,88801234600190,88801234600190,YES
 Invoice_FR_018_scanned_260508_103257,echeance,12/11/2023,12/11/2023,YES
@@ -167,7 +166,7 @@ Invoice_FR_019_scanned_260508_103345,invoice_content,"[{'description': 'Cours de
 Invoice_FR_019_scanned_260508_103345,tva_percentage,20,20%,YES
 Invoice_FR_019_scanned_260508_103345,tva_amount,127.70,"127,70 EUR",YES
 Invoice_FR_019_scanned_260508_103345,total_amount,766.20,"766,20 EUR",YES
-Invoice_FR_019_scanned_260508_103345,payment_status,UNKNOWN,PAID,NO
+Invoice_FR_019_scanned_260508_103345,payment_status,PAID,PAID,YES
 Invoice_FR_020_scanned_260508_103334,supplier_name,12 CnERRSSS,Paysagiste Terrain Vert EURL,NO
 Invoice_FR_020_scanned_260508_103334,invoice_number,,PTV-2024-0156,NO
 Invoice_FR_020_scanned_260508_103334,invoice_date,08/03/2024,22/02/2024,NO

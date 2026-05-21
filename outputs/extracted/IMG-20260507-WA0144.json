@@ -1,7 +1,7 @@
 {
   "file_name": "IMG-20260507-WA0144",
-  "supplier_name": "Carrefour",
-  "invoice_number": "AUTO",
+  "supplier_name": "71 SHALON SUR SA",
+  "invoice_number": "",
   "invoice_date": "31/03/26",
   "siret": "99269214500912",
   "echeance": "",
@@ -9,6 +9,6 @@
   "tva_percentage": "",
   "tva_amount": "",
   "total_amount": "",
-  "payment_status": "UNKNOWN",
+  "payment_status": "PAID",
   "solde_du": ""
 }

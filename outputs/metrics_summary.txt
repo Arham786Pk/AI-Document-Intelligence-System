@@ -5,26 +5,26 @@ FRENCH INVOICE EXTRACTION - METRICS REPORT
 OVERALL SUMMARY
 ----------------------------------------------------------------------
 Total Invoices Compared:    19
-Total Fields Compared:      179
-Total Fields Matched:       70
-Overall Accuracy:           39.11%
+Total Fields Compared:      178
+Total Fields Matched:       81
+Overall Accuracy:           45.51%
 Perfect Matches:            0
-Invoices with Matches:      18
+Invoices with Matches:      19
 
 FIELD-LEVEL METRICS
 ----------------------------------------------------------------------
 Field                     Accuracy   Precision  Recall     F1        
 ----------------------------------------------------------------------
-supplier_name               26.32%    26.32%   100.00%    41.67%
-invoice_number               0.00%     0.00%     0.00%     0.00%
+supplier_name               21.05%    21.05%   100.00%    34.78%
+invoice_number              41.18%    77.78%    46.67%    58.33%
 invoice_date                38.89%    41.18%    87.50%    56.00%
 siret                       28.57%    57.14%    36.36%    44.44%
 echeance                    64.29%   100.00%    64.29%    78.26%
-invoice_content             42.11%    72.73%    50.00%    59.26%
+invoice_content             36.84%    77.78%    41.18%    53.85%
 tva_percentage              47.37%    90.00%    50.00%    64.29%
-tva_amount                  36.84%    77.78%    41.18%    53.85%
+tva_amount                  36.84%    87.50%    38.89%    53.85%
 total_amount                47.37%    90.00%    50.00%    64.29%
-payment_status              57.89%    57.89%   100.00%    73.33%
+payment_status              89.47%    89.47%   100.00%    94.44%
 solde_du                   100.00%   100.00%   100.00%   100.00%
 
 DETAILED FIELD STATISTICS
@@ -32,19 +32,19 @@ DETAILED FIELD STATISTICS
 
 supplier_name:
   Total invoices:           19
-  Correct:                  5
-  Incorrect:                14
+  Correct:                  4
+  Incorrect:                15
   Missing in extracted:     0
   Missing in ground truth:  0
-  Accuracy:                 26.32%
+  Accuracy:                 21.05%
 
 invoice_number:
-  Total invoices:           18
-  Correct:                  0
-  Incorrect:                18
+  Total invoices:           17
+  Correct:                  7
+  Incorrect:                10
   Missing in extracted:     8
-  Missing in ground truth:  1
-  Accuracy:                 0.00%
+  Missing in ground truth:  0
+  Accuracy:                 41.18%
 
 invoice_date:
   Total invoices:           18
@@ -72,11 +72,11 @@ echeance:
 
 invoice_content:
   Total invoices:           19
-  Correct:                  8
-  Incorrect:                11
-  Missing in extracted:     8
+  Correct:                  7
+  Incorrect:                12
+  Missing in extracted:     10
   Missing in ground truth:  0
-  Accuracy:                 42.11%
+  Accuracy:                 36.84%
 
 tva_percentage:
   Total invoices:           19
@@ -90,7 +90,7 @@ tva_amount:
   Total invoices:           19
   Correct:                  7
   Incorrect:                12
-  Missing in extracted:     10
+  Missing in extracted:     11
   Missing in ground truth:  0
   Accuracy:                 36.84%
 
@@ -104,11 +104,11 @@ total_amount:
 
 payment_status:
   Total invoices:           19
-  Correct:                  11
-  Incorrect:                8
+  Correct:                  17
+  Incorrect:                2
   Missing in extracted:     0
   Missing in ground truth:  0
-  Accuracy:                 57.89%
+  Accuracy:                 89.47%
 
 solde_du:
   Total invoices:           1
@@ -122,24 +122,24 @@ PER-INVOICE ACCURACY
 ----------------------------------------------------------------------
 Invoice                                            Matched    Accuracy  
 ----------------------------------------------------------------------
-IMG-20260507-WA0149                                8/10         80.0%
-IMG-20260507-WA0151                                7/10         70.0%
+IMG-20260507-WA0149                                9/10         90.0%
+IMG-20260507-WA0151                                8/10         80.0%
+Invoice_FR_018_scanned_260508_103257               8/10         80.0%
 Invoice_FR_016_scanned_260508_103316               7/10         70.0%
-Invoice_FR_018_scanned_260508_103257               7/10         70.0%
 IMG-20260507-WA0148                                6/10         60.0%
+IMG-20260507-WA0150                                6/10         60.0%
 IMG-20260507-WA0153                                6/10         60.0%
-IMG-20260507-WA0150                                5/10         50.0%
-Invoice_FR_019_scanned_260508_103345               5/10         50.0%
-Invoice_FR_017_scanned_260508_103241               4/10         40.0%
+Invoice_FR_019_scanned_260508_103345               6/10         60.0%
+Invoice_FR_017_scanned_260508_103241               5/10         50.0%
+IMG-20260507-WA0143                                3/9          33.3%
+IMG-20260507-WA0152                                3/10         30.0%
 IMG-20260507-WA0145                                2/8          25.0%
 IMG-20260507-WA0155                                2/8          25.0%
-IMG-20260507-WA0143                                2/9          22.2%
+IMG-20260507-WA0156                                2/8          25.0%
+IMG-20260507-WA0146                                2/9          22.2%
 IMG-20260507-WA0147                                2/9          22.2%
-IMG-20260507-WA0152                                2/10         20.0%
 Invoice_FR_020_scanned_260508_103334               2/10         20.0%
-IMG-20260507-WA0156                                1/8          12.5%
+IMG-20260507-WA0154                                1/8          12.5%
 IMG-20260507-WA0144                                1/9          11.1%
-IMG-20260507-WA0154                                1/9          11.1%
-IMG-20260507-WA0146                                0/9           0.0%
 
 ======================================================================

@@ -5,7 +5,40 @@ extracts **11 entity fields** with full synonym tolerance, detects payment
 status, and writes one structured JSON per invoice.
 
 > Repository: <https://github.com/Arham786Pk/AI-Document-Intelligence-System>
-> Client: Muhammad Ahmed · Milestone 1 of 4 · 11 entities · No model training in this milestone
+> Client: Muhammad Ahmed · Milestone 1 of 4 complete · Milestone 2 in progress · 11 entities (M1) → 12 (M2 will add `consumer_name`)
+
+---
+
+## Quick Start — Run the Pipeline
+
+```bash
+# Step 1: Install dependencies
+pip install -r requirements.txt
+# Also install Tesseract + French pack — see docs/TESSERACT_INSTALLATION.md
+
+# Step 2: Run from phone photo images
+python -m src.pipeline --from raw --input data/Images --output outputs
+
+# Step 3: Run from scanned PDFs
+python -m src.pipeline --from raw --input data/Scanned_PDF --output outputs
+
+# Step 4: Run from already-preprocessed images (skip preprocessing)
+python -m src.pipeline --from processed --input data/processed --output outputs
+
+# Step 5: Run entity extraction only (if OCR already done)
+python -m src.pipeline --from ocr --input outputs/ocr_results --output outputs
+
+# Step 6: Calculate metrics against ground truth
+python -m src.metrics --extracted outputs/extracted --ground-truth docs/ground_truth.csv --output outputs
+```
+
+**Note on dataset (updated for Milestone 2 Task 02 — 2026-05-15):**
+
+- `data/Images/` — 16 phone photos (M1 dataset)
+- `data/Scanned_PDF/` — 5 M1 scanned PDFs + `sourced_internet/` subfolder with 52 high-quality French invoice PDFs collected from public sources for M2 AI training (all scoring ≥7/12 on the 12-entity audit)
+- **Total dataset in repo: 73 documents** (target was ≥50). 3 additional real-PII French invoices (Orange Business 2024, France Telecom 2012, GMC Internet 2016) are held locally only in `_pii_review/` (git-ignored, never pushed) — available for layout-diversity training if PII is redacted first.
+- See [`data/Scanned_PDF/sourced_internet/MANIFEST.md`](data/Scanned_PDF/sourced_internet/MANIFEST.md) for per-file entity audit score, source attribution, and content classification (gold-tier Securibox/factur-x-ng invoices, real Iberdrola bill, Chorus Pro government test invoices, "comprendre votre facture" educational PDFs)
+
 
 ---
 
@@ -258,12 +291,8 @@ For detailed documentation, see [`docs/ocr_engine.md`](docs/ocr_engine.md).
 python scripts/build_ground_truth.py
 
 # Task 6 — preprocess every invoice into 300 DPI binarised PNGs
-# (Smart mode: skips already processed files by default)
 python -m src.preprocessor --input data/Images --output data/processed
 python -m src.preprocessor --input data/Scanned_PDF --output data/processed
-
-# Task 6 — force reprocessing (ignore existing files)
-python -m src.preprocessor --input data/Images --output data/processed --force
 
 # Task 6 — smoke tests
 python -m pytest tests/test_preprocessor.py -v
@@ -286,11 +315,10 @@ python -m src.extractor --input outputs/ocr_results --output outputs/extracted
 # Task 8 — smoke tests
 python -m pytest tests/test_extractor.py -v
 
-# Task 9 — run full pipeline from preprocessed images (RECOMMENDED)
-# Includes smart preprocessing: checks raw sources and only processes new/modified files
-python -m src.pipeline --input data/processed --output outputs --from processed --raw-sources data/Images data/Scanned_PDF
+# Task 9 — run full pipeline from preprocessed images (most common)
+python -m src.pipeline --input data/processed --output outputs --from processed
 
-# Task 9 — run full pipeline from raw invoices (includes preprocessing)
+# Task 9 — run full pipeline from raw invoices
 python -m src.pipeline --input data/raw/french_invoices --output outputs --from raw
 
 # Task 9 — run extraction only (from OCR results)
@@ -312,10 +340,7 @@ python -m pytest tests/test_metrics.py -v
 python -m pytest tests/ -v
 ```
 
-**Note:** 
-- **Task 6 (Preprocessing)**: Now intelligently skips files that are already processed (compares modification times). Use `--force` to reprocess everything.
-- **Task 7 (OCR)**: Intelligently skips files that are already processed. Only re-processes invoices when source PNG files are newer than output JSON files.
-- **Task 9 (Pipeline)**: Use `--raw-sources` to include preprocessing with smart skipping, or omit it to skip preprocessing entirely.
+**Note:** Task 7 OCR engine intelligently skips files that are already processed. It only re-processes invoices when source PNG files are newer than the output JSON files.
 
 ---
 

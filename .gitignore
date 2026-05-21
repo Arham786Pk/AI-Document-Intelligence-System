@@ -26,3 +26,6 @@ Thumbs.db
 # Misc
 ~$*.docx
 ~$*.xlsx
+
+# Real-PII invoices held locally for review — never push to public repo (M2 Task 02)
+data/Scanned_PDF/sourced_internet/_pii_review/

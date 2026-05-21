@@ -9,6 +9,6 @@
   "tva_percentage": "20",
   "tva_amount": "50.00",
   "total_amount": "300.00",
-  "payment_status": "UNKNOWN",
+  "payment_status": "PAID",
   "solde_du": ""
 }

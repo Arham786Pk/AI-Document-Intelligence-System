@@ -1,16 +1,22 @@
-# French Invoice Dataset – Task 1 Inventory
+# French Invoice Dataset – Inventory
 
-**Scope:** AI French Invoice Data Extraction – Milestone 1
-**Total physical files:** 21 (5 scanned PDFs + 16 phone-photo JPGs)
-**Total unique invoices:** 19 (some images are extra views or extra pages of the same invoice)
+**Scope:** AI French Invoice Data Extraction – Milestones 1 + 2
+**Total physical files (M1 + M2 Task 02):** 73 in repo (16 M1 phone-photo JPGs + 5 M1 scanned PDFs + 52 M2 sourced-internet PDFs — all scoring ≥7/12 entities). 3 additional real-PII PDFs held locally only in `_pii_review/` (git-ignored).
+**Total unique invoices (M1 ground-truth labelled):** 19
 **Languages:** French only
-**Source:** Sample invoices provided by Muhammad Ahmed (2026-05-07)
-**Layout on disk:**
-- `data/Images/` — 16 phone-photo JPGs (`IMG-20260507-WA0143.jpg` … `WA0158.jpg`)
-- `data/Scanned_PDF/` — 5 scanned PDFs (`Invoice_FR_016_scanned_*.pdf` … `Invoice_FR_020_scanned_*.pdf`)
+**Sources:**
+- M1: Sample invoices provided by Muhammad Ahmed (2026-05-07)
+- M2 Task 02: 36 additional French invoice PDFs downloaded from public sources (2026-05-15) — see [`data/Scanned_PDF/sourced_internet/MANIFEST.md`](Scanned_PDF/sourced_internet/MANIFEST.md)
 
-The full dataset is committed to the repository for reproducibility and is
-referenced by the ground-truth spreadsheet (`docs/ground_truth.csv`).
+**Layout on disk:**
+- `data/Images/` — 16 phone-photo JPGs (`IMG-20260507-WA0143.jpg` … `WA0158.jpg`) — M1
+- `data/Scanned_PDF/` — 5 scanned PDFs (`Invoice_FR_016_scanned_*.pdf` … `Invoice_FR_020_scanned_*.pdf`) — M1
+- `data/Scanned_PDF/sourced_internet/` — 52 high-quality French invoice PDFs (Factur-X reference invoices from Securibox/invoice-x/Tiime, real Iberdrola electricity bill, Chorus Pro government test invoices, EDF/ENGIE/SFR/Sigerly/Euresto "comprendre votre facture" educational PDFs) — added in M2 Task 02, all scoring ≥7/12 entities
+- `data/Scanned_PDF/sourced_internet/_not_invoices/` — 15 quarantined PDFs (help guides, FAQs, broken downloads, Lorem ipsum placeholders) preserved for traceability, excluded from training
+- `data/Scanned_PDF/sourced_internet/_low_quality/` — 22 quarantined PDFs that scored ≤6/12 entities (templates with placeholder data, ENGIE image-only PDFs, Chorus FSO simple test cases), excluded from training per user request
+
+The M1 dataset is referenced by the ground-truth spreadsheet (`docs/ground_truth.csv`).
+The M2 Task 02 additions will be annotated in Label Studio during Task 05.
 
 ---
 

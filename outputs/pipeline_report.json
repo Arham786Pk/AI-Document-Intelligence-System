@@ -1,28 +1,10 @@
 {
-  "total_duration": 34.14242625236511,
+  "total_duration": 0.7071714401245117,
   "stages": [
-    {
-      "stage": "preprocessing",
-      "success": true,
-      "duration": 16.6609206199646,
-      "items_processed": 0,
-      "items_skipped": 16,
-      "errors": 0,
-      "message": "Preprocessed 0 invoices, skipped 16, 0 errors"
-    },
-    {
-      "stage": "preprocessing",
-      "success": true,
-      "duration": 5.073808193206787,
-      "items_processed": 0,
-      "items_skipped": 5,
-      "errors": 0,
-      "message": "Preprocessed 0 invoices, skipped 5, 0 errors"
-    },
     {
       "stage": "ocr",
       "success": true,
-      "duration": 5.4384918212890625,
+      "duration": 0.3072090148925781,
       "items_processed": 25,
       "items_skipped": 0,
       "errors": 0,
@@ -31,7 +13,7 @@
     {
       "stage": "extraction",
       "success": true,
-      "duration": 5.1435370445251465,
+      "duration": 0.3937520980834961,
       "items_processed": 25,
       "items_skipped": 0,
       "errors": 0,

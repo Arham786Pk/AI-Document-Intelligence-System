@@ -1,30 +1,30 @@
 {
   "total_invoices": 19,
-  "overall_accuracy": 39.10614525139665,
+  "overall_accuracy": 45.50561797752809,
   "field_metrics": [
     {
       "field_name": "supplier_name",
       "total_invoices": 19,
-      "correct": 5,
-      "incorrect": 14,
+      "correct": 4,
+      "incorrect": 15,
       "missing_in_extracted": 0,
       "missing_in_ground_truth": 0,
-      "precision": 26.31578947368421,
+      "precision": 21.052631578947366,
       "recall": 100.0,
-      "f1_score": 41.66666666666667,
-      "accuracy": 26.31578947368421
+      "f1_score": 34.78260869565217,
+      "accuracy": 21.052631578947366
     },
     {
       "field_name": "invoice_number",
-      "total_invoices": 18,
-      "correct": 0,
-      "incorrect": 18,
+      "total_invoices": 17,
+      "correct": 7,
+      "incorrect": 10,
       "missing_in_extracted": 8,
-      "missing_in_ground_truth": 1,
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1_score": 0.0,
-      "accuracy": 0.0
+      "missing_in_ground_truth": 0,
+      "precision": 77.77777777777779,
+      "recall": 46.666666666666664,
+      "f1_score": 58.333333333333336,
+      "accuracy": 41.17647058823529
     },
     {
       "field_name": "invoice_date",
@@ -65,14 +65,14 @@
     {
       "field_name": "invoice_content",
       "total_invoices": 19,
-      "correct": 8,
-      "incorrect": 11,
-      "missing_in_extracted": 8,
+      "correct": 7,
+      "incorrect": 12,
+      "missing_in_extracted": 10,
       "missing_in_ground_truth": 0,
-      "precision": 72.72727272727273,
-      "recall": 50.0,
-      "f1_score": 59.25925925925925,
-      "accuracy": 42.10526315789473
+      "precision": 77.77777777777779,
+      "recall": 41.17647058823529,
+      "f1_score": 53.84615384615385,
+      "accuracy": 36.84210526315789
     },
     {
       "field_name": "tva_percentage",
@@ -91,11 +91,11 @@
       "total_invoices": 19,
       "correct": 7,
       "incorrect": 12,
-      "missing_in_extracted": 10,
+      "missing_in_extracted": 11,
       "missing_in_ground_truth": 0,
-      "precision": 77.77777777777779,
-      "recall": 41.17647058823529,
-      "f1_score": 53.84615384615385,
+      "precision": 87.5,
+      "recall": 38.88888888888889,
+      "f1_score": 53.846153846153854,
       "accuracy": 36.84210526315789
     },
     {
@@ -113,14 +113,14 @@
     {
       "field_name": "payment_status",
       "total_invoices": 19,
-      "correct": 11,
-      "incorrect": 8,
+      "correct": 17,
+      "incorrect": 2,
       "missing_in_extracted": 0,
       "missing_in_ground_truth": 0,
-      "precision": 57.89473684210527,
+      "precision": 89.47368421052632,
       "recall": 100.0,
-      "f1_score": 73.33333333333334,
-      "accuracy": 57.89473684210527
+      "f1_score": 94.44444444444444,
+      "accuracy": 89.47368421052632
     },
     {
       "field_name": "solde_du",
@@ -138,17 +138,17 @@
   "invoice_comparisons": [
     {
       "file_name": "IMG-20260507-WA0143",
-      "matched_fields": 2,
+      "matched_fields": 3,
       "total_fields": 9,
-      "accuracy": 22.22222222222222,
+      "accuracy": 33.33333333333333,
       "field_details": {
         "supplier_name": {
-          "extracted": "AOYAMA |",
+          "extracted": "AOYAMA",
           "ground_truth": "AOYAMA",
           "match": true
         },
         "invoice_number": {
-          "extracted": "",
+          "extracted": "T108200",
           "ground_truth": "T109200",
           "match": false
         },
@@ -183,9 +183,9 @@
           "match": false
         },
         "payment_status": {
-          "extracted": "UNKNOWN",
+          "extracted": "PAID",
           "ground_truth": "PAID",
-          "match": false
+          "match": true
         }
       }
     },
@@ -196,12 +196,12 @@
       "accuracy": 11.11111111111111,
       "field_details": {
         "supplier_name": {
-          "extracted": "Carrefour",
+          "extracted": "71 SHALON SUR SA",
           "ground_truth": "Hyper Carrefour Chalon",
-          "match": true
+          "match": false
         },
         "invoice_number": {
-          "extracted": "AUTO",
+          "extracted": "",
           "ground_truth": "00031 00 02 00550383",
           "match": false
         },
@@ -236,9 +236,9 @@
           "match": false
         },
         "payment_status": {
-          "extracted": "UNKNOWN",
+          "extracted": "PAID",
           "ground_truth": "PAID",
-          "match": false
+          "match": true
         }
       }
     },
@@ -292,9 +292,9 @@
     },
     {
       "file_name": "IMG-20260507-WA0146",
-      "matched_fields": 0,
+      "matched_fields": 2,
       "total_fields": 9,
-      "accuracy": 0.0,
+      "accuracy": 22.22222222222222,
       "field_details": {
         "supplier_name": {
           "extracted": "JUSTIFICATIF DF PAIEHERT",
@@ -302,9 +302,9 @@
           "match": false
         },
         "invoice_number": {
-          "extracted": "AUTO",
+          "extracted": "25557",
           "ground_truth": "25557",
-          "match": false
+          "match": true
         },
         "invoice_date": {
           "extracted": "31/02/26",
@@ -327,7 +327,7 @@
           "match": false
         },
         "tva_amount": {
-          "extracted": "3.67",
+          "extracted": "",
           "ground_truth": "0,73 EUR",
           "match": false
         },
@@ -337,9 +337,9 @@
           "match": false
         },
         "payment_status": {
-          "extracted": "UNKNOWN",
+          "extracted": "PAID",
           "ground_truth": "PAID",
-          "match": false
+          "match": true
         }
       }
     },
@@ -355,7 +355,7 @@
           "match": false
         },
         "invoice_number": {
-          "extracted": "131 Merct de volie visite",
+          "extracted": "",
           "ground_truth": "134788",
           "match": false
         },
@@ -370,30 +370,9 @@
           "match": false
         },
         "invoice_content": {
-          "extracted": [
-            {
-              "description": ":",
-              "quantity": "",
-              "unit_price": "131"
-            },
-            {
-              "description": "Merct de volie visite à bientôt",
-              "quantity": ",",
-              "unit_price": "."
-            },
-            {
-              "description": "To: Notes Vestes",
-              "quantity": "",
-              "unit_price": ""
-            },
-            {
-              "description": "MONTCHANINTOSI",
-              "quantity": "",
-              "unit_price": ""
-            }
-          ],
+          "extracted": [],
           "ground_truth": "1664 33CL; Tresor Louchebem; Garniture supplement; Supp sauce",
-          "match": true
+          "match": false
         },
         "tva_percentage": {
           "extracted": "",
@@ -411,9 +390,9 @@
           "match": true
         },
         "payment_status": {
-          "extracted": "UNKNOWN",
+          "extracted": "PAID",
           "ground_truth": "PAID",
-          "match": false
+          "match": true
         }
       }
     },
@@ -493,9 +472,9 @@
     },
     {
       "file_name": "IMG-20260507-WA0149",
-      "matched_fields": 8,
+      "matched_fields": 9,
       "total_fields": 10,
-      "accuracy": 80.0,
+      "accuracy": 90.0,
       "field_details": {
         "supplier_name": {
           "extracted": "Clinique Dentaire Sourire - FACTURE",
@@ -503,9 +482,9 @@
           "match": true
         },
         "invoice_number": {
-          "extracted": "SIRET",
+          "extracted": "CDS-2024-0345",
           "ground_truth": "CDS-2024-0345",
-          "match": false
+          "match": true
         },
         "invoice_date": {
           "extracted": "16/04/2024",
@@ -567,19 +546,19 @@
     },
     {
       "file_name": "IMG-20260507-WA0150",
-      "matched_fields": 5,
+      "matched_fields": 6,
       "total_fields": 10,
-      "accuracy": 50.0,
+      "accuracy": 60.0,
       "field_details": {
         "supplier_name": {
-          "extracted": "Echeance : 25/05/2024",
+          "extracted": "SCI Les Alpes Immobilier",
           "ground_truth": "Chauffage & Climatisation Roux",
           "match": false
         },
         "invoice_number": {
-          "extracted": "",
+          "extracted": "CCR-2024-0423",
           "ground_truth": "CCR-2024-0423",
-          "match": false
+          "match": true
         },
         "invoice_date": {
           "extracted": "25/04/2024",
@@ -625,9 +604,9 @@
     },
     {
       "file_name": "IMG-20260507-WA0151",
-      "matched_fields": 7,
+      "matched_fields": 8,
       "total_fields": 10,
-      "accuracy": 70.0,
+      "accuracy": 80.0,
       "field_details": {
         "supplier_name": {
           "extracted": "Fleuriste Jardin d'Éden | FACTURE",
@@ -635,9 +614,9 @@
           "match": true
         },
         "invoice_number": {
-          "extracted": "SIRET",
+          "extracted": "FJE-2024-0087",
           "ground_truth": "FJE-2024-0087",
-          "match": false
+          "match": true
         },
         "invoice_date": {
           "extracted": "23/04/2024",
@@ -683,9 +662,9 @@
     },
     {
       "file_name": "IMG-20260507-WA0152",
-      "matched_fields": 2,
+      "matched_fields": 3,
       "total_fields": 10,
-      "accuracy": 20.0,
+      "accuracy": 30.0,
       "field_details": {
         "supplier_name": {
           "extracted": "Numéro Date Code client / Date échéance Mode de règlement N° de Tva intracom",
@@ -693,9 +672,9 @@
           "match": false
         },
         "invoice_number": {
-          "extracted": "Date Code client / Date",
+          "extracted": "FC20251175",
           "ground_truth": "FC20251175",
-          "match": false
+          "match": true
         },
         "invoice_date": {
           "extracted": "28/04/2025",
@@ -932,17 +911,12 @@
     {
       "file_name": "IMG-20260507-WA0154",
       "matched_fields": 1,
-      "total_fields": 9,
-      "accuracy": 11.11111111111111,
+      "total_fields": 8,
+      "accuracy": 12.5,
       "field_details": {
         "supplier_name": {
           "extracted": "? LEchéance : 1571112029",
           "ground_truth": "(non lisible - fournisseur SCAI Systems)",
-          "match": false
-        },
-        "invoice_number": {
-          "extracted": "LNFRO525-094140 du 09/09/2",
-          "ground_truth": "",
           "match": false
         },
         "invoice_date": {
@@ -956,143 +930,7 @@
           "match": false
         },
         "invoice_content": {
-          "extracted": [
-            {
-              "description": "LNFRO- du //",
-              "quantity": "09",
-              "unit_price": "2025"
-            },
-            {
-              "description": "ALL ALBERT EINSTEIN LE CREUSOT",
-              "quantity": "285",
-              "unit_price": "71200"
-            },
-            {
-              "description": "FRANCE",
-              "quantity": "",
-              "unit_price": ""
-            },
-            {
-              "description": "SCIE RADIALE W DMM MKAS + LAMES",
-              "quantity": "35",
-              "unit_price": "2"
-            },
-            {
-              "description": "Client Commande CVFRO",
-              "quantity": "164480,",
-              "unit_price": "525"
-            },
-            {
-              "description": "Bon de livralson",
-              "quantity": "",
-              "unit_price": "7783590738."
-            },
-            {
-              "description": "Livré à SCA] SYSTEMS",
-              "quantity": "",
-              "unit_price": ""
-            },
-            {
-              "description": "/",
-              "quantity": "",
-              "unit_price": "12227559"
-            },
-            {
-              "description": "UN UN",
-              "quantity": "1",
-              "unit_price": "749.0"
-            },
-            {
-              "description": "Réf catalogue :",
-              "quantity": "",
-              "unit_price": "72365460000"
-            },
-            {
-              "description": "DEEE :",
-              "quantity": "",
-              "unit_price": "0.7"
-            },
-            {
-              "description": "Masse Nette G",
-              "quantity": "",
-              "unit_price": "28600"
-            },
-            {
-              "description": "RE RrtA LAME SCIE DXXMM DTS ACIER UN TUN",
-              "quantity": "134,93",
-              "unit_price": "1214.37"
-            },
-            {
-              "description": "Réf catalogue :",
-              "quantity": "",
-              "unit_price": "63502301000"
-            },
-            {
-              "description": "PIECES DIPSONIBLES PLATEFORME == LIVRABLES SOUS H /// LE SOLDE: DELAI À CONVENIR",
-              "quantity": "48",
-              "unit_price": "."
-            },
-            {
-              "description": "toioiet DEEE A ardent A",
-              "quantity": "",
-              "unit_price": ""
-            },
-            {
-              "description": "RÉ tin PR Er D aa a ee",
-              "quantity": "",
-              "unit_price": ""
-            },
-            {
-              "description": "LAMES POUR ACIER DE CONSTRUCTION",
-              "quantity": "",
-              "unit_price": "."
-            },
-            {
-              "description": "oilsiatete eh LA LEE ELLE DIET ere ee tenta",
-              "quantity": "",
-              "unit_price": ""
-            },
-            {
-              "description": "Masse Nette G",
-              "quantity": "",
-              "unit_price": "15300"
-            },
-            {
-              "description": "Bon de Ilvralson autre référence LNFRO- du //",
-              "quantity": "09",
-              "unit_price": "2025"
-            },
-            {
-              "description": "Livré à SCAI SYSTEMS ALL ALBERT EINSTEIN dE CREUSOT",
-              "quantity": "285",
-              "unit_price": "71200"
-            },
-            {
-              "description": "/ LAME SCIE DXXMM DTS ACIER UN TUN",
-              "quantity": "134,93",
-              "unit_price": "134.93"
-            },
-            {
-              "description": "Réf catalogue :",
-              "quantity": "",
-              "unit_price": "63502301000"
-            },
-            {
-              "description": "PRES RRQNERES PEATERORME LIVRABLES SOUS H LE SOLDE: DELAI À CONVENIR",
-              "quantity": "48",
-              "unit_price": "."
-            },
-            {
-              "description": "LAES POUR ACIER DE CONSTRUCTION",
-              "quantity": "",
-              "unit_price": "."
-            },
-            {
-              "description": "SOUSIOTAMEMAREEGRTE E",
-              "quantity": "2090",
-              "unit_price": "91"
-            }
-          ],
+          "extracted": [],
           "ground_truth": "Scie radiale 1800W D355MM MKAS35 +2 lames; Lame scie D355x25,4x2,2mm 66 dts acier (x9); Lame scie supplementaire (x1)",
           "match": false
         },
@@ -1219,19 +1057,19 @@
     },
     {
       "file_name": "IMG-20260507-WA0156",
-      "matched_fields": 1,
+      "matched_fields": 2,
       "total_fields": 8,
-      "accuracy": 12.5,
+      "accuracy": 25.0,
       "field_details": {
         "supplier_name": {
-          "extracted": "Page 213",
+          "extracted": "Pos. fiv. Désignation Article EUR EUR",
           "ground_truth": "Wurth Proxi Shop Le Creusot",
           "match": false
         },
         "invoice_number": {
-          "extracted": "4330739666 N",
+          "extracted": "4330739666",
           "ground_truth": "4330739666",
-          "match": false
+          "match": true
         },
         "echeance": {
           "extracted": "",
@@ -1502,9 +1340,9 @@
     },
     {
       "file_name": "Invoice_FR_017_scanned_260508_103241",
-      "matched_fields": 4,
+      "matched_fields": 5,
       "total_fields": 10,
-      "accuracy": 40.0,
+      "accuracy": 50.0,
       "field_details": {
         "supplier_name": {
           "extracted": "DIREL : 33235430 /0U00103 VALLE ° VJ/Léf LU",
@@ -1552,17 +1390,17 @@
           "match": true
         },
         "payment_status": {
-          "extracted": "UNKNOWN",
+          "extracted": "PAID",
           "ground_truth": "PAID",
-          "match": false
+          "match": true
         }
       }
     },
     {
       "file_name": "Invoice_FR_018_scanned_260508_103257",
-      "matched_fields": 7,
+      "matched_fields": 8,
       "total_fields": 10,
-      "accuracy": 70.0,
+      "accuracy": 80.0,
       "field_details": {
         "supplier_name": {
           "extracted": "Garage Mécanique Verdier - FACTURE",
@@ -1570,9 +1408,9 @@
           "match": true
         },
         "invoice_number": {
-          "extracted": "Zone",
+          "extracted": "GMV-2023-0789",
           "ground_truth": "GMV-2023-0789",
-          "match": false
+          "match": true
         },
         "invoice_date": {
           "extracted": "28/10/2023",
@@ -1618,9 +1456,9 @@
     },
     {
       "file_name": "Invoice_FR_019_scanned_260508_103345",
-      "matched_fields": 5,
+      "matched_fields": 6,
       "total_fields": 10,
-      "accuracy": 50.0,
+      "accuracy": 60.0,
       "field_details": {
         "supplier_name": {
           "extracted": "US/U1/2U424a",
@@ -1684,9 +1522,9 @@
           "match": true
         },
         "payment_status": {
-          "extracted": "UNKNOWN",
+          "extracted": "PAID",
           "ground_truth": "PAID",
-          "match": false
+          "match": true
         }
       }
     },
@@ -1777,10 +1615,10 @@
   ],
   "summary": {
     "total_invoices_compared": 19,
-    "total_fields_compared": 179,
-    "total_fields_matched": 70,
-    "overall_accuracy": 39.10614525139665,
-    "invoices_with_matches": 18,
+    "total_fields_compared": 178,
+    "total_fields_matched": 81,
+    "overall_accuracy": 45.50561797752809,
+    "invoices_with_matches": 19,
     "perfect_matches": 0
   }
 }

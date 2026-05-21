@@ -1,7 +1,7 @@
 {
   "file_name": "IMG-20260507-WA0143",
-  "supplier_name": "AOYAMA |",
-  "invoice_number": "",
+  "supplier_name": "AOYAMA",
+  "invoice_number": "T108200",
   "invoice_date": "31/03/2026",
   "siret": "",
   "echeance": "",
@@ -9,6 +9,6 @@
   "tva_percentage": "",
   "tva_amount": "",
   "total_amount": "",
-  "payment_status": "UNKNOWN",
+  "payment_status": "PAID",
   "solde_du": ""
 }
