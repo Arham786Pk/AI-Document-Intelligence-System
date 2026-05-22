@@ -148,7 +148,7 @@ committed to the repository for full reproducibility.
 
 ---
 
-## Task progress
+## Milestone 1 Progress (✅ Complete — all 10 tasks)
 
 | Task | Description | Status |
 |------|-------------|--------|
