@@ -1,0 +1,75 @@
+{
+  "file_name": "FR_invoice_real_067",
+  "supplier_name": "Au bon moulin SARL - 1242 chemin de l'olive -",
+  "invoice_number": "",
+  "invoice_date": "08/12/2017",
+  "siret": "99999999800010",
+  "echeance": "08/12/2017",
+  "invoice_content": [
+    {
+      "description": "Nougat de l'Abbaye g Unit(s) € % €",
+      "quantity": "10",
+      "unit_price": "32.76"
+    },
+    {
+      "description": "Biscuits au raisins g Unit(s) € €",
+      "quantity": "3.20",
+      "unit_price": "64.00"
+    },
+    {
+      "description": "Huile d'olive à l'ancienne Liter(s) € €",
+      "quantity": "19.80",
+      "unit_price": "1980.00"
+    },
+    {
+      "description": "Ta Base Amount Net total €",
+      "quantity": "",
+      "unit_price": "2076.76"
+    },
+    {
+      "description": "Lente) livraisons intracommunautaires € € Ta Total €",
+      "quantity": "0.00",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "Payment Date Amount :",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "SEPA Wire transfer // € Residual €",
+      "quantity": "623.00",
+      "unit_price": "1453.76"
+    },
+    {
+      "description": "Notes Free shipping (amount > €)",
+      "quantity": "",
+      "unit_price": "300"
+    },
+    {
+      "description": "Payment Invoice to pay by wire transfer to the following bank account:",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "y IBAN : FR - BIC : FIDCFRXXX - Bank: Banque Fiducial",
+      "quantity": "124",
+      "unit_price": "21"
+    },
+    {
+      "description": "French VAT eemption according to articles ter | (for products) and/or - (for services) of \"CGI\"",
+      "quantity": "283",
+      "unit_price": "2"
+    },
+    {
+      "description": "Page /",
+      "quantity": "1",
+      "unit_price": "1"
+    }
+  ],
+  "tva_percentage": "",
+  "tva_amount": "",
+  "total_amount": "",
+  "payment_status": "UNKNOWN",
+  "solde_du": ""
+}

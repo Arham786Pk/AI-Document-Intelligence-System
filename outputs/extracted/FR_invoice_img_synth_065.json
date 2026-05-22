@@ -1,0 +1,75 @@
+{
+  "file_name": "FR_invoice_img_synth_065",
+  "supplier_name": "Regnier SCI",
+  "invoice_number": "Facture",
+  "invoice_date": "28/05/2025",
+  "siret": "29927965977692",
+  "echeance": "06/07/2025",
+  "invoice_content": [
+    {
+      "description": "Transport de marchandises",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Développement logiciel",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Non payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "38",
+      "unit_price": "696.51"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "N° Facture : F--",
+      "quantity": "2025",
+      "unit_price": "4044"
+    },
+    {
+      "description": "Date : //",
+      "quantity": "05",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Date limite de paiement : //",
+      "quantity": "07",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "13,25",
+      "unit_price": "463.75"
+    },
+    {
+      "description": "€ €",
+      "quantity": "30",
+      "unit_price": "169.44"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "10",
+  "tva_amount": "8063.32",
+  "total_amount": "33696.51",
+  "payment_status": "PAID",
+  "solde_du": "38696.51"
+}

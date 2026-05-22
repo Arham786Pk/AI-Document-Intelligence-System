@@ -1,0 +1,95 @@
+{
+  "file_name": "FR_invoice_img_synth_028",
+  "supplier_name": "Menard SAS",
+  "invoice_number": "",
+  "invoice_date": "02/07/2024",
+  "siret": "54764277252874",
+  "echeance": "27/11/2025",
+  "invoice_content": [
+    {
+      "description": "Location d'équipement",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Support technique",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Fourniture de matériel",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Prestation de conseil",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Numéro de facture : FAC--",
+      "quantity": "2024",
+      "unit_price": "1066"
+    },
+    {
+      "description": "Date facture : //",
+      "quantity": "07",
+      "unit_price": "2024"
+    },
+    {
+      "description": "Date d'échéance : //",
+      "quantity": "11",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "19",
+      "unit_price": "978.77"
+    },
+    {
+      "description": "€ €",
+      "quantity": "84",
+      "unit_price": "037.74"
+    },
+    {
+      "description": "€ €",
+      "quantity": "10",
+      "unit_price": "160.78"
+    },
+    {
+      "description": "€ €",
+      "quantity": "8",
+      "unit_price": "010.20"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "18437.50",
+  "total_amount": "80624.99",
+  "payment_status": "PAID",
+  "solde_du": "0.00"
+}

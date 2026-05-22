@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_synth_002",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_synth_002\\page_01.png",
+      "text": "Marchal SA\n\n621, rue Chantal Laine, 97271 Grégoire-sur-Delaunay\nSIRET : 58215707879869\n\nDestinataire :\nChauveau SCI\n22, chemin de Germain, 43470 Le Roux\n\nDésignation\n\nHébergement web\nTransport de marchandises\nFourniture de matériel\n\nStatut : Non payé\nSolde dû : 22 724,70 €\n\nFACTURE\n\nN° Facture : FAC-2025-9441\nDate facture : 20/03/2025\nÉchéance : 17/05/2026\n\nQuantité Prix Unitaire Total\n7 559,41 € 8 915,87 €\n22 346,67 € 7 626,74 €\n22 336,12 € 7 394,64 €\nSous-total HT 18 937,25 €\nTVA 20% 3 787,45 €\nTotal TTC 22 724,70 €",
+      "confidence": 0.9345054945054945,
+      "char_count": 523,
+      "word_count": 90,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Marchal SA\n\n621, rue Chantal Laine, 97271 Grégoire-sur-Delaunay\nSIRET : 58215707879869\n\nDestinataire :\nChauveau SCI\n22, chemin de Germain, 43470 Le Roux\n\nDésignation\n\nHébergement web\nTransport de marchandises\nFourniture de matériel\n\nStatut : Non payé\nSolde dû : 22 724,70 €\n\nFACTURE\n\nN° Facture : FAC-2025-9441\nDate facture : 20/03/2025\nÉchéance : 17/05/2026\n\nQuantité Prix Unitaire Total\n7 559,41 € 8 915,87 €\n22 346,67 € 7 626,74 €\n22 336,12 € 7 394,64 €\nSous-total HT 18 937,25 €\nTVA 20% 3 787,45 €\nTotal TTC 22 724,70 €",
+  "mean_confidence": 0.9345054945054945,
+  "total_char_count": 523,
+  "total_word_count": 90,
+  "low_quality_pages": [],
+  "error": ""
+}

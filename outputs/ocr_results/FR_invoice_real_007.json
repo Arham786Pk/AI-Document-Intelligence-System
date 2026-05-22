@@ -1,0 +1,24 @@
+{
+  "invoice_name": "FR_invoice_real_007",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_real_007\\page_01.png",
+      "text": "D'1-0$- 20- PRO\n\nPROLBUAGE CHALON CRHREF\n26 BD DE LA DEFENSE\n21000 OTJON\nTEL: 038084160552\nRÈS : 6800603707\n\nFACTURE 0038770\nDESCRIPTION:\nFORFAIT PROLAUVAGE +1 IE TON GFFE\n\nsal\nJETON OFFERT\n\nMONTANT 50.00 EURO\nDONT TUR . L,.00 EURO C29.00%2\n\nCÉRTE BANCAIRE SANS CONTACT\n\nhé DD CRD D ot ne tee ut ct mé oué ete unD no et Due Re Up ut mes use RS De D es rt ne\n\nAGOG00000:A1010\nDISR\n\nLE 01/05/76 À 16:11\nPRÔ-LAUAGE\nCHALON-SUR-SAQNE\n\n74109\n\n2791865 800603/89001071\nRAARARARAAR AT LOS\nG2APCS6F FL AD?\n\n091 000021 000177? LC\n\nMONTANT :\n30.00 EUR\n\nDEBIT\nTICHET CLIENT\nA CONSERVER",
+      "confidence": 0.4868,
+      "char_count": 572,
+      "word_count": 100,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "D'1-0$- 20- PRO\n\nPROLBUAGE CHALON CRHREF\n26 BD DE LA DEFENSE\n21000 OTJON\nTEL: 038084160552\nRÈS : 6800603707\n\nFACTURE 0038770\nDESCRIPTION:\nFORFAIT PROLAUVAGE +1 IE TON GFFE\n\nsal\nJETON OFFERT\n\nMONTANT 50.00 EURO\nDONT TUR . L,.00 EURO C29.00%2\n\nCÉRTE BANCAIRE SANS CONTACT\n\nhé DD CRD D ot ne tee ut ct mé oué ete unD no et Due Re Up ut mes use RS De D es rt ne\n\nAGOG00000:A1010\nDISR\n\nLE 01/05/76 À 16:11\nPRÔ-LAUAGE\nCHALON-SUR-SAQNE\n\n74109\n\n2791865 800603/89001071\nRAARARARAAR AT LOS\nG2APCS6F FL AD?\n\n091 000021 000177? LC\n\nMONTANT :\n30.00 EUR\n\nDEBIT\nTICHET CLIENT\nA CONSERVER",
+  "mean_confidence": 0.4868,
+  "total_char_count": 572,
+  "total_word_count": 100,
+  "low_quality_pages": [
+    0
+  ],
+  "error": ""
+}

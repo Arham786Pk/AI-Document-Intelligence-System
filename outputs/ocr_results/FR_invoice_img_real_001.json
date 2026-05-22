@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_real_001",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_real_001\\page_01.png",
+      "text": "AOYAMA |\n134 AV DE PARIS\n92320 CHATILLON France\nTel:01 46 57 72 70\nSiret: 4441 8819700016\nCode NAF:5610À\nN° TVA:FR 40 444188197\n\njustificatif de palement\n\nDate de consommation - 31/03/2026\nDate d'impression - 31/03/2026 20:03:29\noperateur:ro0t\n\nGaissier.root\n4 Repas complet\n\nCODE Taux VA HT TTC\nÀ 40,00 % 2,70 27,00 29,70\nB 20,00 % 0,70 3,50 20\nTOTAL HT: 30,50€\n33,90€\n\nTOTAL TTC:\n\nannee\n\nMERCI DE VOTRE VISITE ET À BIENTOT\n\n_ NES25:B0050CULB \\eShop Caisse 1.7.\nN : T108200-1\n\nN Ticket : 7109200\nTerminal:01 Nombre impression:\nJUSTIFICATIF NON VALABLE POUR\nENCAISSEMENT\n\na\n\na",
+      "confidence": 0.8094680851063829,
+      "char_count": 576,
+      "word_count": 94,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "AOYAMA |\n134 AV DE PARIS\n92320 CHATILLON France\nTel:01 46 57 72 70\nSiret: 4441 8819700016\nCode NAF:5610À\nN° TVA:FR 40 444188197\n\njustificatif de palement\n\nDate de consommation - 31/03/2026\nDate d'impression - 31/03/2026 20:03:29\noperateur:ro0t\n\nGaissier.root\n4 Repas complet\n\nCODE Taux VA HT TTC\nÀ 40,00 % 2,70 27,00 29,70\nB 20,00 % 0,70 3,50 20\nTOTAL HT: 30,50€\n33,90€\n\nTOTAL TTC:\n\nannee\n\nMERCI DE VOTRE VISITE ET À BIENTOT\n\n_ NES25:B0050CULB \\eShop Caisse 1.7.\nN : T108200-1\n\nN Ticket : 7109200\nTerminal:01 Nombre impression:\nJUSTIFICATIF NON VALABLE POUR\nENCAISSEMENT\n\na\n\na",
+  "mean_confidence": 0.8094680851063829,
+  "total_char_count": 576,
+  "total_word_count": 94,
+  "low_quality_pages": [],
+  "error": ""
+}

@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_synth_009",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_synth_009\\page_01.png",
+      "text": "Camus EURL\n\n70, chemin Alexandrie Carlier, 53382 Sainte CélinaBourg\nSIRET : 26406555664184\n\nClient :\nWagner EURL\n631, chemin Célina Weber, 95442 Bonneau-sur-Mer\n\nDésignation\n\nFourniture de matériel\nHébergement web\nLocation d'équipement\n\nStatut : Payé\nSolde dû : 0,00 €\n\nFACTURE\n\nNuméro de facture : F-2025-1712\nDate facture : 06/05/2025\nÉchéance : 12/05/2026\n\nQuantité Prix Unitaire Total\n13 477,79 € 6211,27€\n7 329,20 € 2 304,40 €\n30 743,54 € 22 306,20 €\nSous-total HT 80 821,87 €\nTVA 20 % 6 164,37 €\nTotal TTC 36 986,24 €",
+      "confidence": 0.9378409090909091,
+      "char_count": 523,
+      "word_count": 87,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Camus EURL\n\n70, chemin Alexandrie Carlier, 53382 Sainte CélinaBourg\nSIRET : 26406555664184\n\nClient :\nWagner EURL\n631, chemin Célina Weber, 95442 Bonneau-sur-Mer\n\nDésignation\n\nFourniture de matériel\nHébergement web\nLocation d'équipement\n\nStatut : Payé\nSolde dû : 0,00 €\n\nFACTURE\n\nNuméro de facture : F-2025-1712\nDate facture : 06/05/2025\nÉchéance : 12/05/2026\n\nQuantité Prix Unitaire Total\n13 477,79 € 6211,27€\n7 329,20 € 2 304,40 €\n30 743,54 € 22 306,20 €\nSous-total HT 80 821,87 €\nTVA 20 % 6 164,37 €\nTotal TTC 36 986,24 €",
+  "mean_confidence": 0.9378409090909091,
+  "total_char_count": 523,
+  "total_word_count": 87,
+  "low_quality_pages": [],
+  "error": ""
+}

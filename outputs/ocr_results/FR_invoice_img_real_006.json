@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_real_006",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_real_006\\page_01.png",
+      "text": "Studio Photo Lumière & Art\nSIRET : 77789012300234\n\n9 Rue des Photographes, 13001 Marseille\n\nN° TVA : FR77789012300\n\nDESTINATAIRE :\nM. & Mme Dupuis\n\n14 Avenue de la Corniche, 13008 Marseille\n\nREGLEMENT :\n\nFACTURE\n\nN° : SPL-2024-0198\nDate 19/04/2024\n\nEcheance : 04/05/2024\n\n. 800,00 800,00\n\nMontant HT : 1 350,00 EUR\nTVA 20% : 270,00 EUR\nTOTAL TTC : 1 620,00 EUR\n\nConditions de règlement: Virement bancaire sous 15 jours\n\nBon pour accord :\n\nPenalites de retard applicables au taux legal en vigueur. Indemnite forfaitaire :\n\nSignature et cachet :\n\n40 EUR.",
+      "confidence": 0.9128421052631579,
+      "char_count": 552,
+      "word_count": 92,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Studio Photo Lumière & Art\nSIRET : 77789012300234\n\n9 Rue des Photographes, 13001 Marseille\n\nN° TVA : FR77789012300\n\nDESTINATAIRE :\nM. & Mme Dupuis\n\n14 Avenue de la Corniche, 13008 Marseille\n\nREGLEMENT :\n\nFACTURE\n\nN° : SPL-2024-0198\nDate 19/04/2024\n\nEcheance : 04/05/2024\n\n. 800,00 800,00\n\nMontant HT : 1 350,00 EUR\nTVA 20% : 270,00 EUR\nTOTAL TTC : 1 620,00 EUR\n\nConditions de règlement: Virement bancaire sous 15 jours\n\nBon pour accord :\n\nPenalites de retard applicables au taux legal en vigueur. Indemnite forfaitaire :\n\nSignature et cachet :\n\n40 EUR.",
+  "mean_confidence": 0.9128421052631579,
+  "total_char_count": 552,
+  "total_word_count": 92,
+  "low_quality_pages": [],
+  "error": ""
+}

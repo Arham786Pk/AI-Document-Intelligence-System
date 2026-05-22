@@ -1,0 +1,32 @@
+{
+  "invoice_name": "FR_invoice_real_041",
+  "page_count": 2,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_real_041\\page_01.png",
+      "text": "Facture Fournisseur (FS501106) : 20170201-01\n\nEmetteur\n\nEntité Juridique\n\nBRICORAMA FRANCE\n\nAdresse commerciale Fournisseur\n78260 Nom commune commercial\nFRANCE\n\nEntité Commerciale\nBRICORAMA FRANCE\nLigne adresse légale\n78260 Ville\nFRANCE\nSIRET : 40668031401116\nNuméro de TVA intra-communautaire : Identifiant TVA\n\nContact\n\nPersonName\nTéléphone : 0104546573\nTélécopie : 0104546575\nMessagerie :\n\nSIRET : 75356054900010\nNuméro de TVA Intra-communautaire : FR78301223822\n\nEncaisseur\n\nNom contact Encaisseur\nTéléphone : 0104546573\nTélécopie : 0104546575\nMessagerie :\n\nSIRET : 40668031401116\n\nFacture PDBEDI1106000285 - Période de facturation du 01/01\n12017 au 31/12/2017\n: Dépôt par un fournisseur d'une facture\n\nRécapitulatif\n\nTotal HT (EUR)\nTotal Taxes (EUR)\n\nTotal Remises (EUR)\nTotal Charges (EUR)\n\n100,00\n20,00\n\n0,00\n0,00\n\nRépartition des remises et charges\n\nCharge : Libellé motif de charge/remise (EUR)\n\nTotal TIC (EUR)\nÀ déduire (déjà payé) (EUR)\nApayer (EUR)\n\nNote\n\nPaiement par carte achat\n\nNous vous remercions de votre règlement avant le : 06/09/2018\n\n15,00\n\n120,00\n0,00\n120,00",
+      "confidence": 0.9284563758389262,
+      "char_count": 1083,
+      "word_count": 148,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    },
+    {
+      "page_index": 1,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_real_041\\page_02.png",
+      "text": "Articles rattachés au compte client\n\nTotal\nremise Total HT\nIcharge\n\nQuantité\nde livraison\n\nQuantité\n\nTVA Dénomination de l'article facturée\n\nPrix unitaire\n\n1-\n2-\n\nTotaux du site de livraison, pour information :\n\nBrut HT 0,00\nRemises/charges à la ligne 0,00\nNet HT 0,00\n\n- Adresse commerciale Fournisseur 78260 Nom commune commercial - FRANCE\nau capital de 40668031401116 - Numéro de TVA intra-communautaire : Identifiant TVA",
+      "confidence": 0.9253731343283582,
+      "char_count": 424,
+      "word_count": 64,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Facture Fournisseur (FS501106) : 20170201-01\n\nEmetteur\n\nEntité Juridique\n\nBRICORAMA FRANCE\n\nAdresse commerciale Fournisseur\n78260 Nom commune commercial\nFRANCE\n\nEntité Commerciale\nBRICORAMA FRANCE\nLigne adresse légale\n78260 Ville\nFRANCE\nSIRET : 40668031401116\nNuméro de TVA intra-communautaire : Identifiant TVA\n\nContact\n\nPersonName\nTéléphone : 0104546573\nTélécopie : 0104546575\nMessagerie :\n\nSIRET : 75356054900010\nNuméro de TVA Intra-communautaire : FR78301223822\n\nEncaisseur\n\nNom contact Encaisseur\nTéléphone : 0104546573\nTélécopie : 0104546575\nMessagerie :\n\nSIRET : 40668031401116\n\nFacture PDBEDI1106000285 - Période de facturation du 01/01\n12017 au 31/12/2017\n: Dépôt par un fournisseur d'une facture\n\nRécapitulatif\n\nTotal HT (EUR)\nTotal Taxes (EUR)\n\nTotal Remises (EUR)\nTotal Charges (EUR)\n\n100,00\n20,00\n\n0,00\n0,00\n\nRépartition des remises et charges\n\nCharge : Libellé motif de charge/remise (EUR)\n\nTotal TIC (EUR)\nÀ déduire (déjà payé) (EUR)\nApayer (EUR)\n\nNote\n\nPaiement par carte achat\n\nNous vous remercions de votre règlement avant le : 06/09/2018\n\n15,00\n\n120,00\n0,00\n120,00\n\n--- PAGE BREAK ---\n\nArticles rattachés au compte client\n\nTotal\nremise Total HT\nIcharge\n\nQuantité\nde livraison\n\nQuantité\n\nTVA Dénomination de l'article facturée\n\nPrix unitaire\n\n1-\n2-\n\nTotaux du site de livraison, pour information :\n\nBrut HT 0,00\nRemises/charges à la ligne 0,00\nNet HT 0,00\n\n- Adresse commerciale Fournisseur 78260 Nom commune commercial - FRANCE\nau capital de 40668031401116 - Numéro de TVA intra-communautaire : Identifiant TVA",
+  "mean_confidence": 0.9269147550836422,
+  "total_char_count": 1507,
+  "total_word_count": 212,
+  "low_quality_pages": [],
+  "error": ""
+}

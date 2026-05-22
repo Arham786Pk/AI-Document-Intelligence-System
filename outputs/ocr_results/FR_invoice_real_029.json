@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_real_029",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_real_029\\page_01.png",
+      "text": "Épicerie Fine Marchand FACTURE\n3 Rue du Marché, 75004 Paris N° : EFM-2023-0412\n\nSIRET : 12378945600178 Date : 12/11/2023\n\nN° TVA : FR12378945600 Echeance : 27/11/2023\n\nDESTINATAIRE :\n\nMme Isabelle Renard\n\n8 Rue Montorgueil, 75002 Paris\n\nDESIGNATION Lae  |\n\nconfiture artisanale (x*x12)\n\nHuile d'olive AOC (x*x4 flacons)\n\nMontant HT : 349,80 EUR\nTVA 5.5% : 19,24 EUR\na ———\nTOTAL TTC : 369,04 EUR\n\npayé par Visa **** 6712 le 13/11/2023\n\nBon pour accord : Signature et cachet :\n\noo —————\n\nPénalités de retard applicables au taux légal en vigueur. Indemnité forfaitaire de recouvrement : 40 EUR.",
+      "confidence": 0.8713385826771654,
+      "char_count": 591,
+      "word_count": 97,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Épicerie Fine Marchand FACTURE\n3 Rue du Marché, 75004 Paris N° : EFM-2023-0412\n\nSIRET : 12378945600178 Date : 12/11/2023\n\nN° TVA : FR12378945600 Echeance : 27/11/2023\n\nDESTINATAIRE :\n\nMme Isabelle Renard\n\n8 Rue Montorgueil, 75002 Paris\n\nDESIGNATION Lae  |\n\nconfiture artisanale (x*x12)\n\nHuile d'olive AOC (x*x4 flacons)\n\nMontant HT : 349,80 EUR\nTVA 5.5% : 19,24 EUR\na ———\nTOTAL TTC : 369,04 EUR\n\npayé par Visa **** 6712 le 13/11/2023\n\nBon pour accord : Signature et cachet :\n\noo —————\n\nPénalités de retard applicables au taux légal en vigueur. Indemnité forfaitaire de recouvrement : 40 EUR.",
+  "mean_confidence": 0.8713385826771654,
+  "total_char_count": 591,
+  "total_word_count": 97,
+  "low_quality_pages": [],
+  "error": ""
+}

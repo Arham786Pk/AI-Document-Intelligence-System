@@ -1,0 +1,85 @@
+{
+  "file_name": "FR_invoice_img_synth_046",
+  "supplier_name": "Moulin SAS",
+  "invoice_number": "",
+  "invoice_date": "14/06/2024",
+  "siret": "22192415805286",
+  "echeance": "14/01/2025",
+  "invoice_content": [
+    {
+      "description": "Audit de sécurité",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Location d'équipement",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Hébergement web",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Non payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "31",
+      "unit_price": "919.64"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Numéro de facture : FAC--",
+      "quantity": "2024",
+      "unit_price": "1980"
+    },
+    {
+      "description": "Date d'émission : //",
+      "quantity": "06",
+      "unit_price": "2024"
+    },
+    {
+      "description": "Échéance : //",
+      "quantity": "01",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "1",
+      "unit_price": "974.50"
+    },
+    {
+      "description": "€ €",
+      "quantity": "6",
+      "unit_price": "197.20"
+    },
+    {
+      "description": "€ €",
+      "quantity": "18",
+      "unit_price": "428.00"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "5319.94",
+  "total_amount": "31919.64",
+  "payment_status": "PAID",
+  "solde_du": "31919.64"
+}

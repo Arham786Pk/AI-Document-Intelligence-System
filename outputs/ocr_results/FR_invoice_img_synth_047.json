@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_synth_047",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_synth_047\\page_01.png",
+      "text": "Joubert SCI\n\n1, rue Aimée Barre, 53608 Tanguy\nSIRET : 65810625567484\n\nClient :\nMme Zacharie Millet\n69, rue de Blanc, 57773 CohenVille\n\nDésignation\n\nDéveloppement logiciel\nAudit de sécurité\n\nSupport technique\nTransport de marchandises\n\nStatut : Payé\nSolde dû : 0,00 €\n\nFACTURE\n\nN° Facture : F-2024-7535\nDate d'émission : 29/08/2024\nÉchéance : 21/06/2025\n\nQuantité Prix Unitaire Total\n44 72,19 € 8 176,36 €\n29 626,17 € 18 158,93 €\n50 54,76 € 2 738,00 €\n16 898,09 € 14 369,44 €\nSous-total HT 38 442,73 €\nTVA 20 % 7 688,55 €\nTotal TTC 46 131,28 €",
+      "confidence": 0.9398979591836735,
+      "char_count": 542,
+      "word_count": 97,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Joubert SCI\n\n1, rue Aimée Barre, 53608 Tanguy\nSIRET : 65810625567484\n\nClient :\nMme Zacharie Millet\n69, rue de Blanc, 57773 CohenVille\n\nDésignation\n\nDéveloppement logiciel\nAudit de sécurité\n\nSupport technique\nTransport de marchandises\n\nStatut : Payé\nSolde dû : 0,00 €\n\nFACTURE\n\nN° Facture : F-2024-7535\nDate d'émission : 29/08/2024\nÉchéance : 21/06/2025\n\nQuantité Prix Unitaire Total\n44 72,19 € 8 176,36 €\n29 626,17 € 18 158,93 €\n50 54,76 € 2 738,00 €\n16 898,09 € 14 369,44 €\nSous-total HT 38 442,73 €\nTVA 20 % 7 688,55 €\nTotal TTC 46 131,28 €",
+  "mean_confidence": 0.9398979591836735,
+  "total_char_count": 542,
+  "total_word_count": 97,
+  "low_quality_pages": [],
+  "error": ""
+}

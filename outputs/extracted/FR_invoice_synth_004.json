@@ -1,0 +1,75 @@
+{
+  "file_name": "FR_invoice_synth_004",
+  "supplier_name": "Mahe EURL",
+  "invoice_number": "",
+  "invoice_date": "24/02/2025",
+  "siret": "77876051787814",
+  "echeance": "15/08/2025",
+  "invoice_content": [
+    {
+      "description": "Support technique",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Fourniture de matériel",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Non payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "13",
+      "unit_price": "775.16"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Numéro de facture : F--",
+      "quantity": "2025",
+      "unit_price": "9526"
+    },
+    {
+      "description": "Date : //",
+      "quantity": "02",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Échéance : //",
+      "quantity": "08",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "9",
+      "unit_price": "277.80"
+    },
+    {
+      "description": "€ €",
+      "quantity": "2",
+      "unit_price": "201.50"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "2295.86",
+  "total_amount": "13775.16",
+  "payment_status": "PAID",
+  "solde_du": "13775.16"
+}

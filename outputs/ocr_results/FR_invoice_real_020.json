@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_real_020",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_real_020\\page_01.png",
+      "text": "TT\n\n“auchan\n\nCHATILLON\n01.42.53,56. TE\n\nDONNEZ-NOUS Ep El\nVOTRE AVIS | sets :\nOFRSS\n\nChez Auchan, faites des\néconomies avec la carte de\nfidélité !\n\nLa carte est gratuite et disponible en\nS] NEA caisse et à l'accueil\nBr\nBRU\n\nEPRn +. ACTIVER VOTRE CARTE\nES CR. VIA CE QR CODE\nOR\n\nVous avez été accueilli par SCQ\nLe 24 mars 2026 à 13:09:41\n\nCaisse : 143 Ticket : 94499\nHôte(sse) : 12991\n\nSIGNAL INTS DENT HA, 2,95\nHOLLYW00D GUY HENTH,, 4,41\nTotal 7,36 €\nTVA4 TVA Net Brut\n\n20,00 1,23 6,13 7,36\n\nBrut 1,23 6,13 7,36\n\nReçu CARTE BANCAIRE 7,36\n2 Articles\n\nAvec votre carte de fidélité Auchan\n\nVOUS auriez cagnotté :0,00 Euros\nDu Lundi au Samedi de 8h30 4 21h\nLe Dimanche de 9h à 12h30\net ouvert Je dimanche après midi\nde 12h30 à 20h30 en autonome\n\nNN LI\n\nun",
+      "confidence": 0.7806993006993007,
+      "char_count": 751,
+      "word_count": 143,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "TT\n\n“auchan\n\nCHATILLON\n01.42.53,56. TE\n\nDONNEZ-NOUS Ep El\nVOTRE AVIS | sets :\nOFRSS\n\nChez Auchan, faites des\néconomies avec la carte de\nfidélité !\n\nLa carte est gratuite et disponible en\nS] NEA caisse et à l'accueil\nBr\nBRU\n\nEPRn +. ACTIVER VOTRE CARTE\nES CR. VIA CE QR CODE\nOR\n\nVous avez été accueilli par SCQ\nLe 24 mars 2026 à 13:09:41\n\nCaisse : 143 Ticket : 94499\nHôte(sse) : 12991\n\nSIGNAL INTS DENT HA, 2,95\nHOLLYW00D GUY HENTH,, 4,41\nTotal 7,36 €\nTVA4 TVA Net Brut\n\n20,00 1,23 6,13 7,36\n\nBrut 1,23 6,13 7,36\n\nReçu CARTE BANCAIRE 7,36\n2 Articles\n\nAvec votre carte de fidélité Auchan\n\nVOUS auriez cagnotté :0,00 Euros\nDu Lundi au Samedi de 8h30 4 21h\nLe Dimanche de 9h à 12h30\net ouvert Je dimanche après midi\nde 12h30 à 20h30 en autonome\n\nNN LI\n\nun",
+  "mean_confidence": 0.7806993006993007,
+  "total_char_count": 751,
+  "total_word_count": 143,
+  "low_quality_pages": [],
+  "error": ""
+}

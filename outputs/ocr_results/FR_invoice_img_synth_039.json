@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_synth_039",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_synth_039\\page_01.png",
+      "text": "Chrétien SA\n\n75, chemin de Clément, 64234 Laurent-sur-Mer\nSIRET : 35695182703310\n\nDestinataire :\nM. Adèle Monnier\navenue Benard, 97617 Loiseau\n\nDésignation\n\nCréation graphique\nRédaction de contenu\n\nStatut : Non payé\nSolde dû : 36 956,33 €\n\nFACTURE\n\nN° Facture : FC-2025-6662\nDate facture : 23/10/2025\nDate d'échéance : 16/07/2026\n\nQuantité Prix Unitaire Total\n11 806,74 € 8 874,14 €\n30 730,76 € 21 922,80 €\nSous-total HT 30 796,94 €\nTVA 20 % 6 159,39 €\nTotal TTC 36 956,33 €",
+      "confidence": 0.9367073170731708,
+      "char_count": 474,
+      "word_count": 81,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Chrétien SA\n\n75, chemin de Clément, 64234 Laurent-sur-Mer\nSIRET : 35695182703310\n\nDestinataire :\nM. Adèle Monnier\navenue Benard, 97617 Loiseau\n\nDésignation\n\nCréation graphique\nRédaction de contenu\n\nStatut : Non payé\nSolde dû : 36 956,33 €\n\nFACTURE\n\nN° Facture : FC-2025-6662\nDate facture : 23/10/2025\nDate d'échéance : 16/07/2026\n\nQuantité Prix Unitaire Total\n11 806,74 € 8 874,14 €\n30 730,76 € 21 922,80 €\nSous-total HT 30 796,94 €\nTVA 20 % 6 159,39 €\nTotal TTC 36 956,33 €",
+  "mean_confidence": 0.9367073170731708,
+  "total_char_count": 474,
+  "total_word_count": 81,
+  "low_quality_pages": [],
+  "error": ""
+}

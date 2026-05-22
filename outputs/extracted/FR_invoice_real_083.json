@@ -1,0 +1,25 @@
+{
+  "file_name": "FR_invoice_real_083",
+  "supplier_name": "FACTURE N° : F20260030",
+  "invoice_number": "F20260030",
+  "invoice_date": "31/01/2026",
+  "siret": "12345678200077",
+  "echeance": "02/03/2026",
+  "invoice_content": [
+    {
+      "description": "Période Rent",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "igne BC Objet Classification UNITÉ l emise (",
+      "quantity": "",
+      "unit_price": "."
+    }
+  ],
+  "tva_percentage": "",
+  "tva_amount": "",
+  "total_amount": "100.00",
+  "payment_status": "PAID",
+  "solde_du": ""
+}

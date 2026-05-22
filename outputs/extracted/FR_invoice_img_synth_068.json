@@ -1,0 +1,95 @@
+{
+  "file_name": "FR_invoice_img_synth_068",
+  "supplier_name": "Aubert SAS",
+  "invoice_number": "FC-2025-7216",
+  "invoice_date": "12/07/2025",
+  "siret": "80744017202781",
+  "echeance": "15/08/2025",
+  "invoice_content": [
+    {
+      "description": "Maintenance annuelle",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Formation professionnelle",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Prestation de conseil",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Installation réseau",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Facture N° : FC--",
+      "quantity": "2025",
+      "unit_price": "7216"
+    },
+    {
+      "description": "Date : //",
+      "quantity": "07",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Date d'échéance : //",
+      "quantity": "08",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "114,51",
+      "unit_price": "687.06"
+    },
+    {
+      "description": "€ €",
+      "quantity": "9",
+      "unit_price": "734.40"
+    },
+    {
+      "description": "€ €",
+      "quantity": "15",
+      "unit_price": "625.47"
+    },
+    {
+      "description": "€ €",
+      "quantity": "8",
+      "unit_price": "037.54"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "6816.89",
+  "total_amount": "40901.36",
+  "payment_status": "PAID",
+  "solde_du": "0.00"
+}

@@ -1,0 +1,55 @@
+{
+  "file_name": "FR_invoice_img_synth_010",
+  "supplier_name": "Moreau SARL",
+  "invoice_number": "F-2025-7766",
+  "invoice_date": "27/01/2025",
+  "siret": "58178556126162",
+  "echeance": "06/03/2026",
+  "invoice_content": [
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Transport de marchandises € €",
+      "quantity": "13",
+      "unit_price": "515.49"
+    },
+    {
+      "description": "Développement logiciel € £",
+      "quantity": "3",
+      "unit_price": "448.38"
+    },
+    {
+      "description": "Développement logiciel ai € €",
+      "quantity": "30",
+      "unit_price": "037.42"
+    },
+    {
+      "description": "Hébergement web € €",
+      "quantity": "2",
+      "unit_price": "429.98"
+    },
+    {
+      "description": "Formation professionnelle € €",
+      "quantity": "355,40",
+      "unit_price": "355.40"
+    },
+    {
+      "description": "Transport de marchandises € €",
+      "quantity": "1",
+      "unit_price": "589.04"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "10275.14",
+  "total_amount": "61650.85",
+  "payment_status": "PAID",
+  "solde_du": "0.00"
+}

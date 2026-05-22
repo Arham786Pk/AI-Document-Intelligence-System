@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_real_024",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_real_024\\page_01.png",
+      "text": "optique centrale Leclerc FACTURE\nSIRET : 33378901200301 N° : ocL-2024-0623\n\n7 place de la République, 67000 Strasbourg pate : 10/05/2024\n\nne TVA : FR33378901200 Echeance : 25/05/2024\n\nFOURNISSEUR :\n\noptique centrale Leclerc\n7 Place de la République, 67000 Strasbourg\n\n[3\nTVA : FR33378%01200\n\nSIRET : 33378901200301 |\n\nCONSOMMATEUR :\n\nMme Sophie Lambert\n\nParticulier\n\n18 Rue du Fossé des Tanneurs, 67000 strasbourg\n\nDESIGNATION\n\nMontures Ralph Lauren modèle 456\n\nVerres progressifs anti-reflets (*2)\n\nÉtui et chiffon inclus\n\n° Montant HT : 623,00 EUR\nTVA 20% : 124,60 EUR\nTOTAL TTC : 747,60 EUR\n\npayé par Mastercard **** 5512 — Prise en charge\" mutuelle 60%\n\n. »\nBon pour accord : signature et cachet :\n\na ro\n\nLi\npenalites do retard: taux. legal en vigueur. indernito forfaitaire do recouvrerent à 40 EUR.",
+      "confidence": 0.8651136363636364,
+      "char_count": 804,
+      "word_count": 129,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "optique centrale Leclerc FACTURE\nSIRET : 33378901200301 N° : ocL-2024-0623\n\n7 place de la République, 67000 Strasbourg pate : 10/05/2024\n\nne TVA : FR33378901200 Echeance : 25/05/2024\n\nFOURNISSEUR :\n\noptique centrale Leclerc\n7 Place de la République, 67000 Strasbourg\n\n[3\nTVA : FR33378%01200\n\nSIRET : 33378901200301 |\n\nCONSOMMATEUR :\n\nMme Sophie Lambert\n\nParticulier\n\n18 Rue du Fossé des Tanneurs, 67000 strasbourg\n\nDESIGNATION\n\nMontures Ralph Lauren modèle 456\n\nVerres progressifs anti-reflets (*2)\n\nÉtui et chiffon inclus\n\n° Montant HT : 623,00 EUR\nTVA 20% : 124,60 EUR\nTOTAL TTC : 747,60 EUR\n\npayé par Mastercard **** 5512 — Prise en charge\" mutuelle 60%\n\n. »\nBon pour accord : signature et cachet :\n\na ro\n\nLi\npenalites do retard: taux. legal en vigueur. indernito forfaitaire do recouvrerent à 40 EUR.",
+  "mean_confidence": 0.8651136363636364,
+  "total_char_count": 804,
+  "total_word_count": 129,
+  "low_quality_pages": [],
+  "error": ""
+}

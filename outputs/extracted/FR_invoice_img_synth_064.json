@@ -1,0 +1,95 @@
+{
+  "file_name": "FR_invoice_img_synth_064",
+  "supplier_name": "Gauthier SARL",
+  "invoice_number": "",
+  "invoice_date": "13/03/2025",
+  "siret": "40471643364216",
+  "echeance": "14/10/2025",
+  "invoice_content": [
+    {
+      "description": "Développement logiciel",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Fourniture de matériel",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Formation professionnelle",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Licence logicielle",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Non payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "43",
+      "unit_price": "165.94"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Numéro de facture : F--",
+      "quantity": "2025",
+      "unit_price": "7629"
+    },
+    {
+      "description": "Date facture : //",
+      "quantity": "03",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Date limite de paiement : //",
+      "quantity": "10",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "2",
+      "unit_price": "290.52"
+    },
+    {
+      "description": "€ €",
+      "quantity": "21",
+      "unit_price": "194.40"
+    },
+    {
+      "description": "€ €",
+      "quantity": "61,14",
+      "unit_price": "489.12"
+    },
+    {
+      "description": "€ €",
+      "quantity": "16",
+      "unit_price": "941.54"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "5",
+  "tva_amount": "",
+  "total_amount": "43165.94",
+  "payment_status": "PAID",
+  "solde_du": "43165.94"
+}

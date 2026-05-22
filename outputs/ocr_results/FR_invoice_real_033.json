@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_real_033",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_real_033\\page_01.png",
+      "text": "paysagiste Terrain vert EURL FACTURE\n12 Chemin des Jardins: 34000 montpellier N° : prv-2024-0156\n\nSIRET : g6612890100212 pate : 22/02/2024\n\nN° TVA : FR66612890100 Echeance 08/03/2024\n\nDESTINATAIRE :\n\nRésidence Les oiiviers\n\n45 Avenue des Pins» 34090 Montpellier\n\nDESIGNATION\n\ntonte pelouse + ramassage (x4 passages)\n\ntaille haies et arbustes\n\nplantation massif fleuri (x15 plants)\n\njon déchets verts\n\nÉvacuat\n\nMontant HT : 735,00 EUR\nqyvA 10% : 73,50 EUR\nTOTAL TTC : 808,50 EUR\n\nconditions de réglement: virement IBAN FR76 3000 4028 3700 0100 0000 — À\nREGLEMENT : régler avant le 08/03/2024\n\nBon pour accord : gignature et cachet :\n\nnn —————— ————\n\npénalités de retard applicables au taux légal en vigueur. ndemnité forfaitaire de recouvrement : 40 EUR-",
+      "confidence": 0.8355113636363636,
+      "char_count": 753,
+      "word_count": 118,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "paysagiste Terrain vert EURL FACTURE\n12 Chemin des Jardins: 34000 montpellier N° : prv-2024-0156\n\nSIRET : g6612890100212 pate : 22/02/2024\n\nN° TVA : FR66612890100 Echeance 08/03/2024\n\nDESTINATAIRE :\n\nRésidence Les oiiviers\n\n45 Avenue des Pins» 34090 Montpellier\n\nDESIGNATION\n\ntonte pelouse + ramassage (x4 passages)\n\ntaille haies et arbustes\n\nplantation massif fleuri (x15 plants)\n\njon déchets verts\n\nÉvacuat\n\nMontant HT : 735,00 EUR\nqyvA 10% : 73,50 EUR\nTOTAL TTC : 808,50 EUR\n\nconditions de réglement: virement IBAN FR76 3000 4028 3700 0100 0000 — À\nREGLEMENT : régler avant le 08/03/2024\n\nBon pour accord : gignature et cachet :\n\nnn —————— ————\n\npénalités de retard applicables au taux légal en vigueur. ndemnité forfaitaire de recouvrement : 40 EUR-",
+  "mean_confidence": 0.8355113636363636,
+  "total_char_count": 753,
+  "total_word_count": 118,
+  "low_quality_pages": [],
+  "error": ""
+}

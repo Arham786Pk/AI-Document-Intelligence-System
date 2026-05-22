@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_real_031",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_real_031\\page_01.png",
+      "text": "Plomberie Sani taire Leconte FACTURE\nSIRET : 33323456800356 N° : PSL-2024-0189\n\n3 Rue des Artisans, 76000 Rouen Date : 20/05/2024\n\nH° TVA : FR33323456800 Echeance : 04/06/2024\n\nFOURNISSEUR :\n\nPlomberie Sanitaire Leconte\n\n9 Rue des Artisans, 76000 Rouen\n\nSIRET : 33323456800356 | TVA : FR33323456800\n\nCONSOMMATEUR :\n\nM. et Mme Garnier\n\nCopropriété Les Lilas\n\n22 Rue du Général Leclerc, 76130 Font-Saint-Aignan\n\nDESIGNATION\n\nRerplacenent chauffe-eau 200L\n\nMain d'œuvre pose (4h)\n\nMise en conformité NF\n\nDéplacerent\n\nMontant HT : 1 070,00 EUR\nTVA 109 : 107,00 EUR\nTOTAL TTC : 1 177,00 EUR\n\nPay par Carte Bleue vec 3341 le 22/05/2024\n\nBon pour accord ; Signature et Cachet :\n——— . a.\n\nPenalites da rctardi taux cal ON Vigucur. In: -airo forfaitaire do FCSSAVreT nt 5 40 En.\nLi",
+      "confidence": 0.8314689265536722,
+      "char_count": 772,
+      "word_count": 127,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Plomberie Sani taire Leconte FACTURE\nSIRET : 33323456800356 N° : PSL-2024-0189\n\n3 Rue des Artisans, 76000 Rouen Date : 20/05/2024\n\nH° TVA : FR33323456800 Echeance : 04/06/2024\n\nFOURNISSEUR :\n\nPlomberie Sanitaire Leconte\n\n9 Rue des Artisans, 76000 Rouen\n\nSIRET : 33323456800356 | TVA : FR33323456800\n\nCONSOMMATEUR :\n\nM. et Mme Garnier\n\nCopropriété Les Lilas\n\n22 Rue du Général Leclerc, 76130 Font-Saint-Aignan\n\nDESIGNATION\n\nRerplacenent chauffe-eau 200L\n\nMain d'œuvre pose (4h)\n\nMise en conformité NF\n\nDéplacerent\n\nMontant HT : 1 070,00 EUR\nTVA 109 : 107,00 EUR\nTOTAL TTC : 1 177,00 EUR\n\nPay par Carte Bleue vec 3341 le 22/05/2024\n\nBon pour accord ; Signature et Cachet :\n——— . a.\n\nPenalites da rctardi taux cal ON Vigucur. In: -airo forfaitaire do FCSSAVreT nt 5 40 En.\nLi",
+  "mean_confidence": 0.8314689265536722,
+  "total_char_count": 772,
+  "total_word_count": 127,
+  "low_quality_pages": [],
+  "error": ""
+}

@@ -4,142 +4,320 @@ FRENCH INVOICE EXTRACTION - METRICS REPORT
 
 OVERALL SUMMARY
 ----------------------------------------------------------------------
-Total Invoices Compared:    19
-Total Fields Compared:      178
-Total Fields Matched:       81
-Overall Accuracy:           45.51%
-Perfect Matches:            0
-Invoices with Matches:      19
+Total Invoices Compared:    197
+Total Fields Compared:      2009
+Total Fields Matched:       1079
+Overall Accuracy:           53.71%
+Perfect Matches:            4
+Invoices with Matches:      179
 
 FIELD-LEVEL METRICS
 ----------------------------------------------------------------------
 Field                     Accuracy   Precision  Recall     F1        
 ----------------------------------------------------------------------
-supplier_name               21.05%    21.05%   100.00%    34.78%
-invoice_number              41.18%    77.78%    46.67%    58.33%
-invoice_date                38.89%    41.18%    87.50%    56.00%
-siret                       28.57%    57.14%    36.36%    44.44%
-echeance                    64.29%   100.00%    64.29%    78.26%
-invoice_content             36.84%    77.78%    41.18%    53.85%
-tva_percentage              47.37%    90.00%    50.00%    64.29%
-tva_amount                  36.84%    87.50%    38.89%    53.85%
-total_amount                47.37%    90.00%    50.00%    64.29%
-payment_status              89.47%    89.47%   100.00%    94.44%
-solde_du                   100.00%   100.00%   100.00%   100.00%
+supplier_name               67.01%    68.04%    97.78%    80.24%
+invoice_number              32.76%    56.44%    43.85%    49.35%
+invoice_date                70.77%    80.23%    85.71%    82.88%
+siret                       71.67%    79.63%    87.76%    83.50%
+echeance                    76.54%    93.94%    80.52%    86.71%
+invoice_content             22.45%    29.53%    48.35%    36.67%
+tva_percentage              51.31%    73.68%    62.82%    67.82%
+tva_amount                  43.85%    82.83%    48.24%    60.97%
+total_amount                61.22%    88.24%    66.67%    75.95%
+payment_status              56.35%    56.35%   100.00%    72.08%
+solde_du                    32.84%    50.00%    48.89%    49.44%
 
 DETAILED FIELD STATISTICS
 ----------------------------------------------------------------------
 
 supplier_name:
-  Total invoices:           19
-  Correct:                  4
-  Incorrect:                15
-  Missing in extracted:     0
-  Missing in ground truth:  0
-  Accuracy:                 21.05%
+  Total invoices:           197
+  Correct:                  132
+  Incorrect:                65
+  Missing in extracted:     3
+  Missing in ground truth:  4
+  Accuracy:                 67.01%
 
 invoice_number:
-  Total invoices:           17
-  Correct:                  7
-  Incorrect:                10
-  Missing in extracted:     8
-  Missing in ground truth:  0
-  Accuracy:                 41.18%
+  Total invoices:           174
+  Correct:                  57
+  Incorrect:                117
+  Missing in extracted:     73
+  Missing in ground truth:  5
+  Accuracy:                 32.76%
 
 invoice_date:
-  Total invoices:           18
-  Correct:                  7
-  Incorrect:                11
-  Missing in extracted:     1
-  Missing in ground truth:  2
-  Accuracy:                 38.89%
+  Total invoices:           195
+  Correct:                  138
+  Incorrect:                57
+  Missing in extracted:     23
+  Missing in ground truth:  13
+  Accuracy:                 70.77%
 
 siret:
-  Total invoices:           14
-  Correct:                  4
-  Incorrect:                10
-  Missing in extracted:     7
-  Missing in ground truth:  1
-  Accuracy:                 28.57%
+  Total invoices:           180
+  Correct:                  129
+  Incorrect:                51
+  Missing in extracted:     18
+  Missing in ground truth:  11
+  Accuracy:                 71.67%
 
 echeance:
-  Total invoices:           14
-  Correct:                  9
-  Incorrect:                5
-  Missing in extracted:     5
-  Missing in ground truth:  0
-  Accuracy:                 64.29%
+  Total invoices:           162
+  Correct:                  124
+  Incorrect:                38
+  Missing in extracted:     30
+  Missing in ground truth:  4
+  Accuracy:                 76.54%
 
 invoice_content:
-  Total invoices:           19
-  Correct:                  7
-  Incorrect:                12
-  Missing in extracted:     10
-  Missing in ground truth:  0
-  Accuracy:                 36.84%
+  Total invoices:           196
+  Correct:                  44
+  Incorrect:                152
+  Missing in extracted:     47
+  Missing in ground truth:  22
+  Accuracy:                 22.45%
 
 tva_percentage:
-  Total invoices:           19
-  Correct:                  9
-  Incorrect:                10
-  Missing in extracted:     9
-  Missing in ground truth:  0
-  Accuracy:                 47.37%
+  Total invoices:           191
+  Correct:                  98
+  Incorrect:                93
+  Missing in extracted:     58
+  Missing in ground truth:  6
+  Accuracy:                 51.31%
 
 tva_amount:
-  Total invoices:           19
-  Correct:                  7
-  Incorrect:                12
-  Missing in extracted:     11
+  Total invoices:           187
+  Correct:                  82
+  Incorrect:                105
+  Missing in extracted:     88
   Missing in ground truth:  0
-  Accuracy:                 36.84%
+  Accuracy:                 43.85%
 
 total_amount:
-  Total invoices:           19
-  Correct:                  9
-  Incorrect:                10
-  Missing in extracted:     9
+  Total invoices:           196
+  Correct:                  120
+  Incorrect:                76
+  Missing in extracted:     60
   Missing in ground truth:  0
-  Accuracy:                 47.37%
+  Accuracy:                 61.22%
 
 payment_status:
-  Total invoices:           19
-  Correct:                  17
-  Incorrect:                2
+  Total invoices:           197
+  Correct:                  111
+  Incorrect:                86
   Missing in extracted:     0
   Missing in ground truth:  0
-  Accuracy:                 89.47%
+  Accuracy:                 56.35%
 
 solde_du:
-  Total invoices:           1
-  Correct:                  1
-  Incorrect:                0
-  Missing in extracted:     0
-  Missing in ground truth:  0
-  Accuracy:                 100.00%
+  Total invoices:           134
+  Correct:                  44
+  Incorrect:                90
+  Missing in extracted:     46
+  Missing in ground truth:  42
+  Accuracy:                 32.84%
 
 PER-INVOICE ACCURACY
 ----------------------------------------------------------------------
 Invoice                                            Matched    Accuracy  
 ----------------------------------------------------------------------
-IMG-20260507-WA0149                                9/10         90.0%
-IMG-20260507-WA0151                                8/10         80.0%
-Invoice_FR_018_scanned_260508_103257               8/10         80.0%
-Invoice_FR_016_scanned_260508_103316               7/10         70.0%
-IMG-20260507-WA0148                                6/10         60.0%
-IMG-20260507-WA0150                                6/10         60.0%
-IMG-20260507-WA0153                                6/10         60.0%
-Invoice_FR_019_scanned_260508_103345               6/10         60.0%
-Invoice_FR_017_scanned_260508_103241               5/10         50.0%
-IMG-20260507-WA0143                                3/9          33.3%
-IMG-20260507-WA0152                                3/10         30.0%
-IMG-20260507-WA0145                                2/8          25.0%
-IMG-20260507-WA0155                                2/8          25.0%
-IMG-20260507-WA0156                                2/8          25.0%
-IMG-20260507-WA0146                                2/9          22.2%
-IMG-20260507-WA0147                                2/9          22.2%
-Invoice_FR_020_scanned_260508_103334               2/10         20.0%
-IMG-20260507-WA0154                                1/8          12.5%
-IMG-20260507-WA0144                                1/9          11.1%
+FR_invoice_img_real_024                            10/10        100.0%
+FR_invoice_img_real_027                            10/10        100.0%
+FR_invoice_real_029                                10/10        100.0%
+FR_invoice_real_032                                10/10        100.0%
+FR_invoice_img_synth_008                           10/11         90.9%
+FR_invoice_img_synth_010                           10/11         90.9%
+FR_invoice_img_synth_024                           10/11         90.9%
+FR_invoice_img_synth_036                           10/11         90.9%
+FR_invoice_img_synth_042                           10/11         90.9%
+FR_invoice_img_synth_066                           10/11         90.9%
+FR_invoice_synth_002                               10/11         90.9%
+FR_invoice_synth_003                               10/11         90.9%
+FR_invoice_synth_012                               10/11         90.9%
+FR_invoice_img_real_006                            9/10         90.0%
+FR_invoice_img_real_007                            9/10         90.0%
+FR_invoice_img_real_026                            9/10         90.0%
+FR_invoice_img_real_028                            9/10         90.0%
+FR_invoice_img_synth_003                           9/11         81.8%
+FR_invoice_img_synth_005                           9/11         81.8%
+FR_invoice_img_synth_015                           9/11         81.8%
+FR_invoice_img_synth_017                           9/11         81.8%
+FR_invoice_img_synth_018                           9/11         81.8%
+FR_invoice_img_synth_019                           9/11         81.8%
+FR_invoice_img_synth_020                           9/11         81.8%
+FR_invoice_img_synth_021                           9/11         81.8%
+FR_invoice_img_synth_023                           9/11         81.8%
+FR_invoice_img_synth_025                           9/11         81.8%
+FR_invoice_img_synth_026                           9/11         81.8%
+FR_invoice_img_synth_027                           9/11         81.8%
+FR_invoice_img_synth_029                           9/11         81.8%
+FR_invoice_img_synth_032                           9/11         81.8%
+FR_invoice_img_synth_040                           9/11         81.8%
+FR_invoice_img_synth_050                           9/11         81.8%
+FR_invoice_img_synth_052                           9/11         81.8%
+FR_invoice_img_synth_061                           9/11         81.8%
+FR_invoice_img_synth_068                           9/11         81.8%
+FR_invoice_synth_011                               9/11         81.8%
+FR_invoice_synth_013                               9/11         81.8%
+FR_invoice_synth_015                               9/11         81.8%
+FR_invoice_img_real_009                            8/10         80.0%
+FR_invoice_img_real_011                            8/10         80.0%
+FR_invoice_img_real_025                            8/10         80.0%
+FR_invoice_img_real_029                            8/10         80.0%
+FR_invoice_img_real_031                            8/10         80.0%
+FR_invoice_real_030                                8/10         80.0%
+FR_invoice_real_031                                8/10         80.0%
+FR_invoice_img_synth_001                           8/11         72.7%
+FR_invoice_img_synth_002                           8/11         72.7%
+FR_invoice_img_synth_006                           8/11         72.7%
+FR_invoice_img_synth_007                           8/11         72.7%
+FR_invoice_img_synth_009                           8/11         72.7%
+FR_invoice_img_synth_012                           8/11         72.7%
+FR_invoice_img_synth_014                           8/11         72.7%
+FR_invoice_img_synth_016                           8/11         72.7%
+FR_invoice_img_synth_022                           8/11         72.7%
+FR_invoice_img_synth_030                           8/11         72.7%
+FR_invoice_img_synth_031                           8/11         72.7%
+FR_invoice_img_synth_033                           8/11         72.7%
+FR_invoice_img_synth_038                           8/11         72.7%
+FR_invoice_img_synth_039                           8/11         72.7%
+FR_invoice_img_synth_041                           8/11         72.7%
+FR_invoice_img_synth_043                           8/11         72.7%
+FR_invoice_img_synth_045                           8/11         72.7%
+FR_invoice_img_synth_046                           8/11         72.7%
+FR_invoice_img_synth_047                           8/11         72.7%
+FR_invoice_img_synth_048                           8/11         72.7%
+FR_invoice_img_synth_049                           8/11         72.7%
+FR_invoice_img_synth_051                           8/11         72.7%
+FR_invoice_img_synth_053                           8/11         72.7%
+FR_invoice_img_synth_055                           8/11         72.7%
+FR_invoice_img_synth_056                           8/11         72.7%
+FR_invoice_img_synth_057                           8/11         72.7%
+FR_invoice_img_synth_058                           8/11         72.7%
+FR_invoice_img_synth_060                           8/11         72.7%
+FR_invoice_img_synth_062                           8/11         72.7%
+FR_invoice_img_synth_063                           8/11         72.7%
+FR_invoice_img_synth_067                           8/11         72.7%
+FR_invoice_img_synth_069                           8/11         72.7%
+FR_invoice_synth_001                               8/11         72.7%
+FR_invoice_synth_004                               8/11         72.7%
+FR_invoice_synth_009                               8/11         72.7%
+FR_invoice_synth_010                               8/11         72.7%
+FR_invoice_img_real_017                            7/10         70.0%
+FR_invoice_img_real_030                            7/10         70.0%
+FR_invoice_img_synth_004                           7/11         63.6%
+FR_invoice_img_synth_013                           7/11         63.6%
+FR_invoice_img_synth_028                           7/11         63.6%
+FR_invoice_img_synth_034                           7/11         63.6%
+FR_invoice_img_synth_035                           7/11         63.6%
+FR_invoice_img_synth_037                           7/11         63.6%
+FR_invoice_img_synth_054                           7/11         63.6%
+FR_invoice_real_059                                7/11         63.6%
+FR_invoice_real_061                                7/11         63.6%
+FR_invoice_synth_005                               7/11         63.6%
+FR_invoice_synth_008                               7/11         63.6%
+FR_invoice_synth_014                               7/11         63.6%
+FR_invoice_img_real_008                            6/10         60.0%
+FR_invoice_real_062                                5/9          55.6%
+FR_invoice_real_083                                5/9          55.6%
+FR_invoice_img_synth_011                           6/11         54.5%
+FR_invoice_img_synth_044                           6/11         54.5%
+FR_invoice_img_synth_059                           6/11         54.5%
+FR_invoice_img_synth_064                           6/11         54.5%
+FR_invoice_img_synth_065                           6/11         54.5%
+FR_invoice_real_055                                6/11         54.5%
+FR_invoice_real_057                                6/11         54.5%
+FR_invoice_real_060                                6/11         54.5%
+FR_invoice_real_063                                6/11         54.5%
+FR_invoice_real_065                                6/11         54.5%
+FR_invoice_synth_006                               6/11         54.5%
+FR_invoice_synth_007                               6/11         54.5%
+FR_invoice_img_real_003                            4/8          50.0%
+FR_invoice_img_real_016                            3/6          50.0%
+FR_invoice_img_real_022                            5/10         50.0%
+FR_invoice_real_033                                5/10         50.0%
+FR_invoice_real_050                                5/11         45.5%
+FR_invoice_real_051                                5/11         45.5%
+FR_invoice_real_053                                5/11         45.5%
+FR_invoice_real_056                                5/11         45.5%
+FR_invoice_real_064                                5/11         45.5%
+FR_invoice_real_073                                5/11         45.5%
+FR_invoice_real_078                                5/11         45.5%
+FR_invoice_real_002                                4/9          44.4%
+FR_invoice_real_025                                4/9          44.4%
+FR_invoice_real_016                                3/7          42.9%
+FR_invoice_real_058                                4/10         40.0%
+FR_invoice_real_066                                4/10         40.0%
+FR_invoice_real_003                                3/8          37.5%
+FR_invoice_real_023                                3/8          37.5%
+FR_invoice_real_027                                3/8          37.5%
+FR_invoice_img_real_021                            4/11         36.4%
+FR_invoice_real_049                                4/11         36.4%
+FR_invoice_real_052                                4/11         36.4%
+FR_invoice_real_072                                4/11         36.4%
+FR_invoice_real_074                                4/11         36.4%
+FR_invoice_real_075                                4/11         36.4%
+FR_invoice_real_079                                4/11         36.4%
+FR_invoice_real_080                                4/11         36.4%
+FR_invoice_real_019                                3/9          33.3%
+FR_invoice_real_070                                3/9          33.3%
+FR_invoice_img_real_019                            3/10         30.0%
+FR_invoice_real_054                                3/10         30.0%
+FR_invoice_real_009                                2/7          28.6%
+FR_invoice_real_067                                3/11         27.3%
+FR_invoice_real_068                                3/11         27.3%
+FR_invoice_real_069                                3/11         27.3%
+FR_invoice_real_076                                3/11         27.3%
+FR_invoice_real_077                                3/11         27.3%
+FR_invoice_real_081                                3/11         27.3%
+FR_invoice_real_082                                3/11         27.3%
+FR_invoice_img_real_014                            2/8          25.0%
+FR_invoice_real_017                                2/8          25.0%
+FR_invoice_img_real_001                            2/9          22.2%
+FR_invoice_img_real_004                            2/9          22.2%
+FR_invoice_img_real_005                            2/9          22.2%
+FR_invoice_img_real_010                            2/10         20.0%
+FR_invoice_img_real_015                            2/10         20.0%
+FR_invoice_img_real_018                            2/10         20.0%
+FR_invoice_real_084                                2/11         18.2%
+FR_invoice_img_real_012                            1/6          16.7%
+FR_invoice_real_011                                1/7          14.3%
+FR_invoice_real_012                                1/7          14.3%
+FR_invoice_real_020                                1/7          14.3%
+FR_invoice_img_real_013                            1/8          12.5%
+FR_invoice_real_001                                1/8          12.5%
+FR_invoice_real_004                                1/8          12.5%
+FR_invoice_real_008                                1/8          12.5%
+FR_invoice_real_013                                1/8          12.5%
+FR_invoice_real_014                                1/8          12.5%
+FR_invoice_real_035                                1/8          12.5%
+FR_invoice_real_044                                1/8          12.5%
+FR_invoice_img_real_002                            1/9          11.1%
+FR_invoice_real_006                                1/9          11.1%
+FR_invoice_real_018                                1/9          11.1%
+FR_invoice_real_022                                1/9          11.1%
+FR_invoice_real_039                                1/9          11.1%
+FR_invoice_real_034                                1/11          9.1%
+FR_invoice_real_038                                1/11          9.1%
+FR_invoice_real_041                                1/11          9.1%
+FR_invoice_img_real_020                            0/10          0.0%
+FR_invoice_img_real_023                            0/10          0.0%
+FR_invoice_real_005                                0/8           0.0%
+FR_invoice_real_007                                0/8           0.0%
+FR_invoice_real_010                                0/8           0.0%
+FR_invoice_real_015                                0/8           0.0%
+FR_invoice_real_021                                0/8           0.0%
+FR_invoice_real_024                                0/7           0.0%
+FR_invoice_real_026                                0/7           0.0%
+FR_invoice_real_028                                0/8           0.0%
+FR_invoice_real_036                                0/11          0.0%
+FR_invoice_real_037                                0/11          0.0%
+FR_invoice_real_040                                0/11          0.0%
+FR_invoice_real_042                                0/11          0.0%
+FR_invoice_real_043                                0/11          0.0%
+FR_invoice_real_045                                0/10          0.0%
+FR_invoice_real_046                                0/10          0.0%
+FR_invoice_real_047                                0/10          0.0%
 
 ======================================================================

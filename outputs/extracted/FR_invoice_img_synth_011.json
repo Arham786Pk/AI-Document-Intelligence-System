@@ -1,0 +1,75 @@
+{
+  "file_name": "FR_invoice_img_synth_011",
+  "supplier_name": "Lacroix SAS",
+  "invoice_number": "",
+  "invoice_date": "27/10/2024",
+  "siret": "53365752411583",
+  "echeance": "21/07/2025",
+  "invoice_content": [
+    {
+      "description": "Création graphique",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Prestation de conseil",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Numéro de facture : FC--",
+      "quantity": "2024",
+      "unit_price": "4913"
+    },
+    {
+      "description": "Date d'émission : //",
+      "quantity": "10",
+      "unit_price": "2024"
+    },
+    {
+      "description": "Date limite de paiement : //",
+      "quantity": "07",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "31",
+      "unit_price": "962.38"
+    },
+    {
+      "description": "€ €",
+      "quantity": "13",
+      "unit_price": "322.16"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "55",
+  "tva_amount": "",
+  "total_amount": "47775.19",
+  "payment_status": "PAID",
+  "solde_du": "0.00"
+}

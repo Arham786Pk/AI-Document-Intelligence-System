@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_synth_051",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_synth_051\\page_01.png",
+      "text": "Lemonnier SASU\n\n39, rue Julien Bouvier, 86367 Lebreton\nSIRET : 39127927225427\n\nClient :\nM. Gérard Lemaïître\n92, rue Hélène Robin, 35705 Sauvage\n\nDésignation\n\nFormation professionnelle\nTransport de marchandises\nInstallation réseau\n\nStatut : Payé\nSolde dû : 0,00 €\n\nFACTURE\n\nN° Facture : FAC-2026-2620\nDate facture : 23/04/2026\nÉchéance : 31/05/2026\n\nQuantité Prix Unitaire Total\n36 736,77 € 26 523,72 €\n4 543,76 € 2 175,04 €\n18 563,79 € 10 148,22 €\nSous-total HT 38 846,98 €\nTVA 20% 7 769,40 €\nTotal TTC 46 616,38 €",
+      "confidence": 0.9273863636363636,
+      "char_count": 514,
+      "word_count": 87,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Lemonnier SASU\n\n39, rue Julien Bouvier, 86367 Lebreton\nSIRET : 39127927225427\n\nClient :\nM. Gérard Lemaïître\n92, rue Hélène Robin, 35705 Sauvage\n\nDésignation\n\nFormation professionnelle\nTransport de marchandises\nInstallation réseau\n\nStatut : Payé\nSolde dû : 0,00 €\n\nFACTURE\n\nN° Facture : FAC-2026-2620\nDate facture : 23/04/2026\nÉchéance : 31/05/2026\n\nQuantité Prix Unitaire Total\n36 736,77 € 26 523,72 €\n4 543,76 € 2 175,04 €\n18 563,79 € 10 148,22 €\nSous-total HT 38 846,98 €\nTVA 20% 7 769,40 €\nTotal TTC 46 616,38 €",
+  "mean_confidence": 0.9273863636363636,
+  "total_char_count": 514,
+  "total_word_count": 87,
+  "low_quality_pages": [],
+  "error": ""
+}

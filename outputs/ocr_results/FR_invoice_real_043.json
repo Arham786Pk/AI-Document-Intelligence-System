@@ -1,0 +1,32 @@
+{
+  "invoice_name": "FR_invoice_real_043",
+  "page_count": 2,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_real_043\\page_01.png",
+      "text": "Facture Fournisseur (FS501106) : 20170201-01\n\nSIRET : 53514650090018\nBRICORAMA FRANCE\n\nEntité Commerciale\n\nBRICORAMA FRANCE\nLigne adresse commerciale\n78260 Ville\n\nFRANCE\n\nSIRET : 40668031401116\n\nFacture PDBEDI1106000313 - Période de facturation du 01/01\n12017 au 31/12/2017\n: Dépôt par un fournisseur d'une facture\n\nRécapitulatif\n\nTotal HT (EUR) 200,00\nTotal Taxes (EUR) 40,00\nTotal Remises (EUR) 0,00\nTotal Charges (EUR) 0,00\n\nRépartition des remises et charges\n\nCharge : (EUR) 0,00\nTotal TTC (EUR) 240,00\nA déduire (déjà payé) (EUR) 0,00\nApayer (EUR) 240,00\n\nPaiement par carte achat\nNous vous remercions de votre règlement avant le : 06/09/2018",
+      "confidence": 0.9279999999999999,
+      "char_count": 647,
+      "word_count": 94,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    },
+    {
+      "page_index": 1,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_real_043\\page_02.png",
+      "text": "Articles rattachés au compte client\n\nTotal\n\nQuantité remise Total HT\n\nfacturée\n\nQuantité\nde livraison\n\nTVA Dénomination de l'article Prix unitaire\n\nIcharge\n20,00 1-CPP 20,00\nun test\nDate de livraison : 01/01/2018\n20,00 2- 20,00\n\nDate de livraison : 01/01/2018\n\nTotaux du site de livraison, pour information :\n\nBrut HT 0,00\nRemises/charges à la ligne 0,00\nNet HT 0,00\n\nau capital de 40668031401116",
+      "confidence": 0.9179999999999999,
+      "char_count": 396,
+      "word_count": 62,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Facture Fournisseur (FS501106) : 20170201-01\n\nSIRET : 53514650090018\nBRICORAMA FRANCE\n\nEntité Commerciale\n\nBRICORAMA FRANCE\nLigne adresse commerciale\n78260 Ville\n\nFRANCE\n\nSIRET : 40668031401116\n\nFacture PDBEDI1106000313 - Période de facturation du 01/01\n12017 au 31/12/2017\n: Dépôt par un fournisseur d'une facture\n\nRécapitulatif\n\nTotal HT (EUR) 200,00\nTotal Taxes (EUR) 40,00\nTotal Remises (EUR) 0,00\nTotal Charges (EUR) 0,00\n\nRépartition des remises et charges\n\nCharge : (EUR) 0,00\nTotal TTC (EUR) 240,00\nA déduire (déjà payé) (EUR) 0,00\nApayer (EUR) 240,00\n\nPaiement par carte achat\nNous vous remercions de votre règlement avant le : 06/09/2018\n\n--- PAGE BREAK ---\n\nArticles rattachés au compte client\n\nTotal\n\nQuantité remise Total HT\n\nfacturée\n\nQuantité\nde livraison\n\nTVA Dénomination de l'article Prix unitaire\n\nIcharge\n20,00 1-CPP 20,00\nun test\nDate de livraison : 01/01/2018\n20,00 2- 20,00\n\nDate de livraison : 01/01/2018\n\nTotaux du site de livraison, pour information :\n\nBrut HT 0,00\nRemises/charges à la ligne 0,00\nNet HT 0,00\n\nau capital de 40668031401116",
+  "mean_confidence": 0.9229999999999999,
+  "total_char_count": 1043,
+  "total_word_count": 156,
+  "low_quality_pages": [],
+  "error": ""
+}

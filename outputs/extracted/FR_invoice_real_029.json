@@ -1,0 +1,30 @@
+{
+  "file_name": "FR_invoice_real_029",
+  "supplier_name": "Épicerie Fine Marchand FACTURE",
+  "invoice_number": "EFM-2023-0412",
+  "invoice_date": "12/11/2023",
+  "siret": "12378945600178",
+  "echeance": "27/11/2023",
+  "invoice_content": [
+    {
+      "description": "Lae  |",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "confiture artisanale ()",
+      "quantity": "",
+      "unit_price": "12"
+    },
+    {
+      "description": "Huile d'olive AOC ( flacons)",
+      "quantity": "",
+      "unit_price": "4"
+    }
+  ],
+  "tva_percentage": "5.5",
+  "tva_amount": "19.24",
+  "total_amount": "369.04",
+  "payment_status": "PAID",
+  "solde_du": ""
+}

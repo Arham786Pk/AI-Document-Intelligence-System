@@ -1,0 +1,75 @@
+{
+  "file_name": "FR_invoice_img_synth_055",
+  "supplier_name": "Benard SA",
+  "invoice_number": "Facture",
+  "invoice_date": "15/09/2024",
+  "siret": "87118277362870",
+  "echeance": "01/08/2026",
+  "invoice_content": [
+    {
+      "description": "Licence logicielle",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Création graphique",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "N° Facture : FC--",
+      "quantity": "2024",
+      "unit_price": "4023"
+    },
+    {
+      "description": "Date : //",
+      "quantity": "09",
+      "unit_price": "2024"
+    },
+    {
+      "description": "Échéance : //",
+      "quantity": "08",
+      "unit_price": "2026"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "8",
+      "unit_price": "679.86"
+    },
+    {
+      "description": "€ €",
+      "quantity": "19",
+      "unit_price": "751.00"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "5686.17",
+  "total_amount": "34117.03",
+  "payment_status": "PAID",
+  "solde_du": "0.00"
+}

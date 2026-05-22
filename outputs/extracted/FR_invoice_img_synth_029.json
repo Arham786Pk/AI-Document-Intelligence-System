@@ -1,0 +1,95 @@
+{
+  "file_name": "FR_invoice_img_synth_029",
+  "supplier_name": "Blin SCI",
+  "invoice_number": "FC-2025-3805",
+  "invoice_date": "22/05/2025",
+  "siret": "33054237441665",
+  "echeance": "25/11/2025",
+  "invoice_content": [
+    {
+      "description": "Transport de marchandises",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Prestation de conseil",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Développement logiciel",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Hébergement web",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Facture N° : FC--",
+      "quantity": "2025",
+      "unit_price": "3805"
+    },
+    {
+      "description": "Date : //",
+      "quantity": "05",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Date limite de paiement : //",
+      "quantity": "11",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "29",
+      "unit_price": "340.22"
+    },
+    {
+      "description": "€ €",
+      "quantity": "82",
+      "unit_price": "247.60"
+    },
+    {
+      "description": "€ €",
+      "quantity": "1",
+      "unit_price": "121.94"
+    },
+    {
+      "description": "€ €",
+      "quantity": "44",
+      "unit_price": "197.44"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "21381.44",
+  "total_amount": "128288.64",
+  "payment_status": "PAID",
+  "solde_du": "0.00"
+}

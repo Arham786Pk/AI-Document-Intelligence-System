@@ -1,0 +1,85 @@
+{
+  "file_name": "FR_invoice_img_synth_001",
+  "supplier_name": "Duval SARL",
+  "invoice_number": "",
+  "invoice_date": "09/01/2025",
+  "siret": "86469479091676",
+  "echeance": "21/01/2026",
+  "invoice_content": [
+    {
+      "description": "Création graphique",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Développement logiciel",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Création graphique",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Numéro de facture : FC--",
+      "quantity": "2025",
+      "unit_price": "5409"
+    },
+    {
+      "description": "Date facture : //",
+      "quantity": "01",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Date d'échéance : //",
+      "quantity": "01",
+      "unit_price": "2026"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "47,91",
+      "unit_price": "958.20"
+    },
+    {
+      "description": "€ €",
+      "quantity": "14",
+      "unit_price": "082.00"
+    },
+    {
+      "description": "€ €",
+      "quantity": "6",
+      "unit_price": "921.21"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "10",
+  "tva_amount": "2196.14",
+  "total_amount": "24157.55",
+  "payment_status": "PAID",
+  "solde_du": "0.00"
+}

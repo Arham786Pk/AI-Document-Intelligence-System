@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_real_027",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_real_027\\page_01.png",
+      "text": "DYNEFF SAULCE\n\nA7, AIRE DE SAULCE\n\n26270 SAULCE SUR RHONE\nSIRET : 3056800997 - NAF : 47307\nNW Intra : 2 FR889305800997\n\nTICKET CLIENT\n\nARTICLE TVA MONTANT\nBAQOIT PET 50CL 5 € 2,00\nOASIS TEA MANQUE PAS 5 € 1,95\n+ mm mmm— +\nTOT Tree | € 3.95\nCB Sans contact | € 3,95\nINGENICO (AXIS) |\nID, terminal: | 15265003\nNo.transäct ion: | 9384\nDate d'expiration: 2703\nCode d'autor.: À 823322\nDate: 11/03/26\nHeure: 22:54:30\n\nCB SANS CONTACT\n\nTVA type  % Net Montant\n5 5.50 €.3.75 € 0.20\n\n11-03-2026 22:55:16 97 1309 1142130121\n13-039389- “48673245\n\nRECEIPT FOOTER POS 3\nCARTE BANCAIRE\n\nSANS CONTACT ‘\n6000000008 1010 °\nVISA\n\nle 11/03/26 à 22:54:30\nDYNEFF SAULCE |\n46270 :\nSAULCE SUR ,\n2130195\n30002\n30580099701000 .\nFÉERIES 765 Ÿ\n6866064138C11B1E\n003 Oo! 349384\nC ê\nNo AUTO : 823322.\nMONTANT\n3,65\" EUR\nDEBIT\nTICKET CLIENT\n\\ À CONSERVER\n\n2",
+      "confidence": 0.7415333333333334,
+      "char_count": 825,
+      "word_count": 149,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "DYNEFF SAULCE\n\nA7, AIRE DE SAULCE\n\n26270 SAULCE SUR RHONE\nSIRET : 3056800997 - NAF : 47307\nNW Intra : 2 FR889305800997\n\nTICKET CLIENT\n\nARTICLE TVA MONTANT\nBAQOIT PET 50CL 5 € 2,00\nOASIS TEA MANQUE PAS 5 € 1,95\n+ mm mmm— +\nTOT Tree | € 3.95\nCB Sans contact | € 3,95\nINGENICO (AXIS) |\nID, terminal: | 15265003\nNo.transäct ion: | 9384\nDate d'expiration: 2703\nCode d'autor.: À 823322\nDate: 11/03/26\nHeure: 22:54:30\n\nCB SANS CONTACT\n\nTVA type  % Net Montant\n5 5.50 €.3.75 € 0.20\n\n11-03-2026 22:55:16 97 1309 1142130121\n13-039389- “48673245\n\nRECEIPT FOOTER POS 3\nCARTE BANCAIRE\n\nSANS CONTACT ‘\n6000000008 1010 °\nVISA\n\nle 11/03/26 à 22:54:30\nDYNEFF SAULCE |\n46270 :\nSAULCE SUR ,\n2130195\n30002\n30580099701000 .\nFÉERIES 765 Ÿ\n6866064138C11B1E\n003 Oo! 349384\nC ê\nNo AUTO : 823322.\nMONTANT\n3,65\" EUR\nDEBIT\nTICKET CLIENT\n\\ À CONSERVER\n\n2",
+  "mean_confidence": 0.7415333333333334,
+  "total_char_count": 825,
+  "total_word_count": 149,
+  "low_quality_pages": [],
+  "error": ""
+}

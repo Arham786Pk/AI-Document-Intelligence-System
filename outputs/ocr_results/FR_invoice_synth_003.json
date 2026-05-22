@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_synth_003",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_synth_003\\page_01.png",
+      "text": "Dijoux SCI FACTURE\n\n37, boulevard de Loiseau, 12824 GrosVille\nSIRET : 22472991680330\n\nFacture N° : F-2025-0457\nDate : 13/04/2025\nDate d'échéance : 01/10/2025\n\nDestinataire :\nValentin SAS\n7, boulevard Berthelot, 86232 Goncalves-sur-Langlois\n\nDésignation Quantité Prix Unitaire Total\n—_——————\nCréation graphique 44 127,48 € 5 609,12 €\nInstallation réseau 11 299,73 € 3 297,03 €\nRédaction de contenu 42 744,05 € 31 250,10 €\nNettoyage de locaux 18 80,56 € 1 450,08 €\nRédaction de contenu 34 891,42 € 30 308,28 €\nFormation professionnelle 45 420,95 € 18 942,75 €\n\nSous-total HT 90 857,36 €\n\nTVA 20 % 18 171,47 €\n\nTotal TTC 109 028,83 €\n\nStatut : Non payé\nSolde dû : 109 028,83 €",
+      "confidence": 0.9284482758620689,
+      "char_count": 673,
+      "word_count": 115,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Dijoux SCI FACTURE\n\n37, boulevard de Loiseau, 12824 GrosVille\nSIRET : 22472991680330\n\nFacture N° : F-2025-0457\nDate : 13/04/2025\nDate d'échéance : 01/10/2025\n\nDestinataire :\nValentin SAS\n7, boulevard Berthelot, 86232 Goncalves-sur-Langlois\n\nDésignation Quantité Prix Unitaire Total\n—_——————\nCréation graphique 44 127,48 € 5 609,12 €\nInstallation réseau 11 299,73 € 3 297,03 €\nRédaction de contenu 42 744,05 € 31 250,10 €\nNettoyage de locaux 18 80,56 € 1 450,08 €\nRédaction de contenu 34 891,42 € 30 308,28 €\nFormation professionnelle 45 420,95 € 18 942,75 €\n\nSous-total HT 90 857,36 €\n\nTVA 20 % 18 171,47 €\n\nTotal TTC 109 028,83 €\n\nStatut : Non payé\nSolde dû : 109 028,83 €",
+  "mean_confidence": 0.9284482758620689,
+  "total_char_count": 673,
+  "total_word_count": 115,
+  "low_quality_pages": [],
+  "error": ""
+}

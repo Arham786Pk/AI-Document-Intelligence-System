@@ -2,8 +2,8 @@
 
 Module: [`src/preprocessor.py`](../src/preprocessor.py)
 CLI (run once per source folder):
-- `python -m src.preprocessor --input data/Images       --output data/processed`
-- `python -m src.preprocessor --input data/Scanned_PDF  --output data/processed`
+- `python -m src.preprocessor --input data/images       --output data/processed`
+- `python -m src.preprocessor --input data/pdf  --output data/processed`
 
 Per-page pipeline that turns a French invoice (PDF or phone photo) into a clean,
 binarised, deskewed 300-DPI PNG ready for the OCR engine in Task 7.
@@ -36,7 +36,7 @@ data/processed/
 ├── preprocessing_manifest.json
 ├── Invoice_FR_016_scanned_260508_103316/
 │   └── page_01.png
-├── IMG-20260507-WA0148/
+├── FR_invoice_img_real_006/
 │   └── page_01.png
 └── ...
 ```

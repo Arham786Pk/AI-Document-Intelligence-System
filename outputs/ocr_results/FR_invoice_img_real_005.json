@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_real_005",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_real_005\\page_01.png",
+      "text": "LA BOUCITERIE\n\n<FAX>\nROUTE PONT JEANNE ROSE\n71210 MONTCHANIN FRANCE\n03 85 $0 O2 11\nSiret: 492 1145 538 00029 <APEz <IVAMuiraz\n\nTable 3 ] 1 Couvert\nServi par: LEO\nTisket N°134 788\n2903 2026\n\nQté Article Prix total\nL 106 1 33CL 70€ (1)\nL'IRESOR LOUCHEBEM 31,80€ (2)\n| GARNITURE 200€ (2)\n\nSUPPLEMENT\n| SUPP SAUCE 100€ (2)\n\n+ Am:hsss Ligees\n\nNET À PAYER 43,50 €\n\n+\n\nTr TVA ‘TTC\nTVA) 2000 Pre us 478€ 0,95 + 5,70€\nTVA(2) 10,00 rue. 34,36 € 341€ 37,80€\n\nLotal TVA eu een. 39,1) € 139€ 41350€\n\nLCB SANS CONTACT ue mu ue 13,90 €\n‘Total règlement Loueen … 43,50 €\n\n29.03/2026 22:03.27\nV16.0.203H310 B0102QGiai To: Notes Vestes\nNb d'ingression : 1 Doc: Ticket MONTCHANINTOSI\nRéférence : 131\nMerct de votre visite, à bientôt...",
+      "confidence": 0.6604511278195488,
+      "char_count": 716,
+      "word_count": 131,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "LA BOUCITERIE\n\n<FAX>\nROUTE PONT JEANNE ROSE\n71210 MONTCHANIN FRANCE\n03 85 $0 O2 11\nSiret: 492 1145 538 00029 <APEz <IVAMuiraz\n\nTable 3 ] 1 Couvert\nServi par: LEO\nTisket N°134 788\n2903 2026\n\nQté Article Prix total\nL 106 1 33CL 70€ (1)\nL'IRESOR LOUCHEBEM 31,80€ (2)\n| GARNITURE 200€ (2)\n\nSUPPLEMENT\n| SUPP SAUCE 100€ (2)\n\n+ Am:hsss Ligees\n\nNET À PAYER 43,50 €\n\n+\n\nTr TVA ‘TTC\nTVA) 2000 Pre us 478€ 0,95 + 5,70€\nTVA(2) 10,00 rue. 34,36 € 341€ 37,80€\n\nLotal TVA eu een. 39,1) € 139€ 41350€\n\nLCB SANS CONTACT ue mu ue 13,90 €\n‘Total règlement Loueen … 43,50 €\n\n29.03/2026 22:03.27\nV16.0.203H310 B0102QGiai To: Notes Vestes\nNb d'ingression : 1 Doc: Ticket MONTCHANINTOSI\nRéférence : 131\nMerct de votre visite, à bientôt...",
+  "mean_confidence": 0.6604511278195488,
+  "total_char_count": 716,
+  "total_word_count": 131,
+  "low_quality_pages": [],
+  "error": ""
+}

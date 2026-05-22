@@ -1,0 +1,48 @@
+{
+  "file_name": "FR_invoice_real_065",
+  "supplier_name": "(EN TVA : FR11999999998 - SIRET : 99999999800010 - APE : 4778C - SARL au capital de 120,000.00 €",
+  "invoice_number": "",
+  "invoice_date": "13/11/2017",
+  "siret": "99999999800010",
+  "echeance": "13/12/2017",
+  "invoice_content": [
+    {
+      "description": "Quantité Prix Rem Prix HT",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "unitaire °",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Nougat de l'Abbaye g Unité(s) € % €",
+      "quantity": "10",
+      "unit_price": "81.90"
+    },
+    {
+      "description": "Biscuits au raisins g Unité(s) € €",
+      "quantity": "3,20",
+      "unit_price": "48.00"
+    },
+    {
+      "description": "Huile d'olive à l'ancienne Litre(s) € €",
+      "quantity": "19,80",
+      "unit_price": "495.00"
+    },
+    {
+      "description": "Taxe Base Montant",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": [
+    "5.5",
+    "20.0"
+  ],
+  "tva_amount": "",
+  "total_amount": "671.15",
+  "payment_status": "UNKNOWN",
+  "solde_du": ""
+}

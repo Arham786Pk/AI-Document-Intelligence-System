@@ -1,0 +1,75 @@
+{
+  "file_name": "FR_invoice_img_synth_062",
+  "supplier_name": "Hamon SA",
+  "invoice_number": "FAC-2025-5833",
+  "invoice_date": "11/06/2025",
+  "siret": "94078299315453",
+  "echeance": "25/12/2025",
+  "invoice_content": [
+    {
+      "description": "Maintenance annuelle",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Fourniture de matériel",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Facture N° : FAC--",
+      "quantity": "2025",
+      "unit_price": "5833"
+    },
+    {
+      "description": "Date facture : //",
+      "quantity": "06",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Date limite de paiement : //",
+      "quantity": "12",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "1",
+      "unit_price": "561.12"
+    },
+    {
+      "description": "€ €",
+      "quantity": "14",
+      "unit_price": "725.06"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "8257.24",
+  "total_amount": "19543.42",
+  "payment_status": "PAID",
+  "solde_du": "0.00"
+}

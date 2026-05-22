@@ -1,0 +1,14 @@
+{
+  "file_name": "FR_invoice_img_real_011",
+  "supplier_name": "Informatique Solutions Pro FACTURE",
+  "invoice_number": "",
+  "invoice_date": "21/04/2024",
+  "siret": "33390123400245",
+  "echeance": "21/05/2024",
+  "invoice_content": [],
+  "tva_percentage": "20",
+  "tva_amount": "78.80",
+  "total_amount": "472.80",
+  "payment_status": "PAID",
+  "solde_du": ""
+}

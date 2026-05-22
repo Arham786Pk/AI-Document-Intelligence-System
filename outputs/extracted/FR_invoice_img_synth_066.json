@@ -1,0 +1,55 @@
+{
+  "file_name": "FR_invoice_img_synth_066",
+  "supplier_name": "Teixeira EURL FACTURE",
+  "invoice_number": "FC-2026-5996",
+  "invoice_date": "04/04/2026",
+  "siret": "12636555123548",
+  "echeance": "26/05/2026",
+  "invoice_content": [
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "————_—————_—_—_—",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Prestation de conseil € €",
+      "quantity": "32",
+      "unit_price": "918.40"
+    },
+    {
+      "description": "Support technique € €",
+      "quantity": "270,80",
+      "unit_price": "812.40"
+    },
+    {
+      "description": "Création graphique € €",
+      "quantity": "31",
+      "unit_price": "545.00"
+    },
+    {
+      "description": "Support technique € €",
+      "quantity": "21",
+      "unit_price": "329.60"
+    },
+    {
+      "description": "Transport de marchandises € €",
+      "quantity": "3",
+      "unit_price": "443.88"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "18009.86",
+  "total_amount": "108059.14",
+  "payment_status": "PAID",
+  "solde_du": "108059.14"
+}

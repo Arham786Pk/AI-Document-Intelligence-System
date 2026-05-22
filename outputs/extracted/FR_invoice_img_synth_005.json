@@ -1,0 +1,55 @@
+{
+  "file_name": "FR_invoice_img_synth_005",
+  "supplier_name": "Fontaine SARL FACTURE",
+  "invoice_number": "F-2024-0797",
+  "invoice_date": "07/08/2024",
+  "siret": "37983466443415",
+  "echeance": "02/04/2026",
+  "invoice_content": [
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "————————_————_",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Rédaction de contenu € €",
+      "quantity": "14",
+      "unit_price": "630.95"
+    },
+    {
+      "description": "Développement logiciel € €",
+      "quantity": "1",
+      "unit_price": "439.64"
+    },
+    {
+      "description": "Fourniture de matériel € €",
+      "quantity": "4",
+      "unit_price": "897.92"
+    },
+    {
+      "description": "Licence logicielle € €",
+      "quantity": "21",
+      "unit_price": "908.24"
+    },
+    {
+      "description": "Location d'équipement € €",
+      "quantity": "5",
+      "unit_price": "265.92"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "10",
+  "tva_amount": "",
+  "total_amount": "52956.94",
+  "payment_status": "PAID",
+  "solde_du": "52956.94"
+}

@@ -1,0 +1,60 @@
+{
+  "file_name": "FR_invoice_synth_012",
+  "supplier_name": "Poulain SA FACTURE",
+  "invoice_number": "FAC-2025-1325",
+  "invoice_date": "07/04/2025",
+  "siret": "27678421746915",
+  "echeance": "22/08/2025",
+  "invoice_content": [
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "———— TT",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Prestation de conseil € €",
+      "quantity": "10",
+      "unit_price": "493.29"
+    },
+    {
+      "description": "Nettoyage de locau € €",
+      "quantity": "24",
+      "unit_price": "740.17"
+    },
+    {
+      "description": "Rédaction de contenu € €",
+      "quantity": "5",
+      "unit_price": "619.13"
+    },
+    {
+      "description": "Maintenance annuelle € €",
+      "quantity": "9",
+      "unit_price": "108.00"
+    },
+    {
+      "description": "Formation professionnelle € €",
+      "quantity": "82",
+      "unit_price": "315.00"
+    },
+    {
+      "description": "Nettoyage de locau € €",
+      "quantity": "6",
+      "unit_price": "556.03"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "17766.32",
+  "total_amount": "106597.94",
+  "payment_status": "PAID",
+  "solde_du": "0.00"
+}

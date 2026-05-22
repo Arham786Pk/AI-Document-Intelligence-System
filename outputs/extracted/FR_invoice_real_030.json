@@ -1,0 +1,14 @@
+{
+  "file_name": "FR_invoice_real_030",
+  "supplier_name": "Atelier Couture & Retouches Blondel FACTURE",
+  "invoice_number": "ACR-2023-1205",
+  "invoice_date": "05/12/2023",
+  "siret": "55534567800189",
+  "echeance": "20/12/2023",
+  "invoice_content": [],
+  "tva_percentage": "20",
+  "tva_amount": "50.00",
+  "total_amount": "300.00",
+  "payment_status": "PAID",
+  "solde_du": ""
+}

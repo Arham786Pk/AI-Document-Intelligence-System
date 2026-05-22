@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_real_007",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_real_007\\page_01.png",
+      "text": "Clinique Dentaire Sourire - FACTURE\n\nSIRET : 44456789100223 N° : CDS-2024-0345\n\n18 Rue de la Santé, 75013 Paris Date : 16/04/2024\n\nN° TVA :\n\nFR44456789100 . Echeance : 01/05/2024\n\nDESTINATAIRE :\n\nM. Julien Petit\n\n5 Rue du Faubourg, 75010 Paris\n\nDESIGNATION\n\nDétartrage Complet\n\nSoin carie molaire\n\nRadiographie Panoramique\n\nMontant HT : 295,00 EUR\n\nTVA 20% : 59,00 EUR\nTOTAL TTC : 354,00 EUR\n\nBon pour accord : ‘ Signature et cachet :",
+      "confidence": 0.9198999999999999,
+      "char_count": 434,
+      "word_count": 72,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Clinique Dentaire Sourire - FACTURE\n\nSIRET : 44456789100223 N° : CDS-2024-0345\n\n18 Rue de la Santé, 75013 Paris Date : 16/04/2024\n\nN° TVA :\n\nFR44456789100 . Echeance : 01/05/2024\n\nDESTINATAIRE :\n\nM. Julien Petit\n\n5 Rue du Faubourg, 75010 Paris\n\nDESIGNATION\n\nDétartrage Complet\n\nSoin carie molaire\n\nRadiographie Panoramique\n\nMontant HT : 295,00 EUR\n\nTVA 20% : 59,00 EUR\nTOTAL TTC : 354,00 EUR\n\nBon pour accord : ‘ Signature et cachet :",
+  "mean_confidence": 0.9198999999999999,
+  "total_char_count": 434,
+  "total_word_count": 72,
+  "low_quality_pages": [],
+  "error": ""
+}

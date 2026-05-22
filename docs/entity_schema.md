@@ -1,7 +1,8 @@
-# Entity Schema — French Invoice Extractor (Milestone 1)
+# Entity Schema — French Invoice Extractor (Milestone 1 + M2 addition)
 
 This is the contract between the **Task 8 rule-based extractor** and the rest of
-the pipeline. Eleven fields per invoice, accent-tolerant, accepting every
+the pipeline. Twelve fields per invoice (eleven from Milestone 1 + `consumer_name`
+added in Milestone 2), accent-tolerant, accepting every
 synonym variation listed below. If a synonym is missing from the regex bank,
 the extractor will silently miss the field — **add it here first**.
 
@@ -30,7 +31,8 @@ the extractor will silently miss the field — **add it here first**.
   "tva_amount": "19.24",
   "total_amount": "369.04",
   "payment_status": "PAID",
-  "solde_du": ""
+  "solde_du": "",
+  "consumer_name": "Boulangerie Petit SARL"
 }
 ```
 
@@ -56,7 +58,7 @@ These apply to **every** field below.
 
 ---
 
-## 3. The 11 entities
+## 3. The 12 entities
 
 ### Entity 1 — Supplier Name
 
@@ -199,6 +201,18 @@ Notes:
 | Disambiguation | `Net à payer` is **Total Amount**, not Solde dû — even though they're often equal. `Solde` standalone (e.g. on cantine receipts where it means card balance) is **not** Solde dû. |
 | Examples seen | `4 034,46 EUR` (one invoice in the dataset uses the explicit `Solde dû` label). |
 
+### Entity 12 — Consumer Name *(new in Milestone 2 — client addition)*
+
+| Item | Value |
+|------|-------|
+| Output key | `consumer_name` |
+| What it is | **The person or company the invoice was generated for** (the bill-to party / customer). Distinct from Supplier Name (Entity 1), which is the issuer. |
+| Trigger labels | `Client`, `Destinataire`, `Facturé à`, `Facture à`, `Adressé à`, `Adresse de facturation`, `Acheteur`, `Bill to`, `Customer`, `Doit`, `Nom du client`. |
+| Format | Free-form person or business name; may include `M.`, `Mme`, `SARL`, `SAS`, `SA`, `EURL`, `SCI`. May span the label line or the line directly beneath the label. |
+| Capture rule | Prefer a labelled match: take the value after the label up to the line break; if the label is on its own line (block address), take the first non-empty line beneath it. Must **not** equal the supplier name — if a candidate matches Entity 1, reject and look for the next block. |
+| OCR notes | `Facturé à` ↔ `Facture a` accent miss is common. Distinguish the bill-to block from the supplier header by position (customer block is usually mid-page, under the supplier header). |
+| Examples seen | `M. Jean Dupont`, `Boulangerie Petit SARL`, `Mme Camille Moreau`, `Transports Lefevre SAS`. |
+
 ---
 
 ## 4. Synonym master table (drop-in for the regex bank)
@@ -216,6 +230,7 @@ SYNONYMS = {
     "total_amount":   ["total ttc", "net a payer", "net à payer", "montant total", "total facture", "total du", "total dû", "total à payer", "montant ttc"],
     "payment_status": [],  # detection logic, not label-based
     "solde_du":       ["solde dû", "solde du", "reste à payer", "reste a payer", "balance due", "montant restant"],
+    "consumer_name":  ["client", "destinataire", "facturé à", "facture a", "adressé à", "adresse de facturation", "acheteur", "bill to", "customer", "doit", "nom du client"],
 }
 ```
 

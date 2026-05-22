@@ -8,7 +8,8 @@ Usage:
     python src/run.py
 
     # Run from raw invoices (full pipeline)
-    python src/run.py --from raw --input data/raw/french_invoices
+    python src/run.py --from raw --input data/pdf
+    python src/run.py --from raw --input data/images
 
     # Run from OCR results (extraction only)
     python src/run.py --from ocr --input outputs/ocr_results

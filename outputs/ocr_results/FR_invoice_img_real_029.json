@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_real_029",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_real_029\\page_01.png",
+      "text": "Électricité Générale Renaud FACTURE\nSIRET : 99978901300378 N° : EGR-2024-0334\n\n17 Voie Industrielle, 69700 Givors\" Date : 24/05/2024\n\nN° TVA : FR99978901300 l Echeance : 08/06/2024\n\nFOURNISSEUR :\nÉlectricité Générale Renaud\n17 Voie Industrielle, 69700 Givors\n\nSIRET +: 99978901300378 | TVA : FR99978901300\n\nCONSOMMATEUR :\nM. Bernard Castex\nEntrepôt Castex Distribution\n\nZone Industrielle Portes de l'Isère, 38080 L'Isle-d'Abeau\n\nDESIGNATION\nCAblage tableau électrique 3 phases\nInstallation prises industrielles (x*x8)\n\nMain d'œuvre (10h)\n\n\" Montant HT : 2 410,00 EUR\nTVA 20% : 1. 482,00 EUR\na ——\nTOTAL TTC : 2 892,00 EUR\nREGLEMENT : Virement reçu le 06/06/2024 — Réf EGR-VIR-334\n|\nBon pour accord : ° Signature et cachet :\n\noo\n\nPenalites do retard: taux legal cn\"viqueur. Indcrnite forfaitaire de recouvrenmcent ?: 40 EUR.",
+      "confidence": 0.8521374045801526,
+      "char_count": 822,
+      "word_count": 125,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Électricité Générale Renaud FACTURE\nSIRET : 99978901300378 N° : EGR-2024-0334\n\n17 Voie Industrielle, 69700 Givors\" Date : 24/05/2024\n\nN° TVA : FR99978901300 l Echeance : 08/06/2024\n\nFOURNISSEUR :\nÉlectricité Générale Renaud\n17 Voie Industrielle, 69700 Givors\n\nSIRET +: 99978901300378 | TVA : FR99978901300\n\nCONSOMMATEUR :\nM. Bernard Castex\nEntrepôt Castex Distribution\n\nZone Industrielle Portes de l'Isère, 38080 L'Isle-d'Abeau\n\nDESIGNATION\nCAblage tableau électrique 3 phases\nInstallation prises industrielles (x*x8)\n\nMain d'œuvre (10h)\n\n\" Montant HT : 2 410,00 EUR\nTVA 20% : 1. 482,00 EUR\na ——\nTOTAL TTC : 2 892,00 EUR\nREGLEMENT : Virement reçu le 06/06/2024 — Réf EGR-VIR-334\n|\nBon pour accord : ° Signature et cachet :\n\noo\n\nPenalites do retard: taux legal cn\"viqueur. Indcrnite forfaitaire de recouvrenmcent ?: 40 EUR.",
+  "mean_confidence": 0.8521374045801526,
+  "total_char_count": 822,
+  "total_word_count": 125,
+  "low_quality_pages": [],
+  "error": ""
+}

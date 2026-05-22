@@ -1,0 +1,98 @@
+{
+  "file_name": "FR_invoice_real_047",
+  "supplier_name": "(es",
+  "invoice_number": "ature",
+  "invoice_date": "14/03/2017",
+  "siret": "99999900909400",
+  "echeance": "",
+  "invoice_content": [
+    {
+      "description": "L- et suivants du Code de l'énergie sur wwwenergie-mediateurfr",
+      "quantity": ".",
+      "unit_price": "."
+    },
+    {
+      "description": "où par écrit au Médiateur nälional de l'énergie — Libre réponse n° - PARIS CEDEX",
+      "quantity": "75443",
+      "unit_price": "9."
+    },
+    {
+      "description": "@ Identification de facture",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Nature du document (facture ou avoir) numéro et date d'émission de la facture",
+      "quantity": ",",
+      "unit_price": "."
+    },
+    {
+      "description": "(@) L'essentiel de votre contrat",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Cette rubrique regroupe vos principales informations contractuelles : la référence la date de prise d'effet",
+      "quantity": ",",
+      "unit_price": "."
+    },
+    {
+      "description": "la date d'échéance et le nom ou type de contrat souscrit Un contrat de marché est un contrat dont",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "le pri est déterminé par votre fournisseur d'énergie",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "Vous retrouvez également le nom et l'adresse du lieu de consommation ainsi que sa référence",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "acheminement (référence partagée entre le gestionnaire du réseau de distribution et votre fournisseur",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "EDF Entreprises)",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "®) Données de comptage et index",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Il s'agit des informations relatives à vos données de comptage et à la puissance souscrite",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "Vous retrouvez également les index de consommation relevés par le gestionnaire du réseau",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "de distribution (Inde en gras) et les inde de consommation estimés (Inde non gras)",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "/",
+      "quantity": "3",
+      "unit_price": "3"
+    }
+  ],
+  "tva_percentage": [
+    "5.50",
+    "20.00"
+  ],
+  "tva_amount": "",
+  "total_amount": "",
+  "payment_status": "UNKNOWN",
+  "solde_du": ""
+}

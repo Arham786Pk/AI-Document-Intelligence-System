@@ -1,0 +1,2986 @@
+{
+  "FR_invoice_img_real_001.jpg": {
+    "file_name": "FR_invoice_img_real_001.jpg",
+    "supplier_name": "AOYAMA",
+    "invoice_number": "T109200",
+    "invoice_date": "31/03/2026",
+    "siret": "44418819700016",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "1 Repas complet",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": [
+      "10",
+      "20"
+    ],
+    "tva_amount": "3.40",
+    "total_amount": "33.90",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "task2_csv",
+    "_notes": "Justificatif de paiement; CB 33,90 EUR"
+  },
+  "FR_invoice_img_real_002.jpg": {
+    "file_name": "FR_invoice_img_real_002.jpg",
+    "supplier_name": "Hyper Carrefour Chalon",
+    "invoice_number": "00031 00 02 00550383",
+    "invoice_date": "31/03/2026",
+    "siret": "99269214500012",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Gazole 24,03 L @ 2,279 EUR/L",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "9.13",
+    "total_amount": "54.76",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "task2_csv",
+    "_notes": "Carte bancaire Visa - debit"
+  },
+  "FR_invoice_img_real_003.jpg": {
+    "file_name": "FR_invoice_img_real_003.jpg",
+    "supplier_name": "Orano Le Prisme",
+    "invoice_number": "002-001-305604",
+    "invoice_date": "31/03/2026",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Petit pain individuel; Conte AOP; Beurre portion x2; Eminence de boeuf",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": [
+      "10",
+      "20"
+    ],
+    "tva_amount": "1.07",
+    "total_amount": "12.84",
+    "payment_status": "UNKNOWN",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "task2_csv",
+    "_notes": "Cantine - badge interne; 'Solde 10,19' = solde du badge, pas de la facture"
+  },
+  "FR_invoice_img_real_004.jpg": {
+    "file_name": "FR_invoice_img_real_004.jpg",
+    "supplier_name": "Le Creusot Gare TGV (Effia)",
+    "invoice_number": "25557",
+    "invoice_date": "31/03/2026",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Stationnement Tarif 5 (Entree 17:31 / Paiement 22:31)",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "0.73",
+    "total_amount": "4.40",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "task2_csv",
+    "_notes": "Visa sans contact"
+  },
+  "FR_invoice_img_real_005.jpg": {
+    "file_name": "FR_invoice_img_real_005.jpg",
+    "supplier_name": "La Boucherie Restaurant",
+    "invoice_number": "134788",
+    "invoice_date": "29/03/2026",
+    "siret": "85214583800029",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "1664 33CL; Tresor Louchebem; Garniture supplement; Supp sauce",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": [
+      "10",
+      "20"
+    ],
+    "tva_amount": "4.39",
+    "total_amount": "43.50",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "task2_csv",
+    "_notes": "CB sans contact"
+  },
+  "FR_invoice_img_real_006.jpg": {
+    "file_name": "FR_invoice_img_real_006.jpg",
+    "supplier_name": "Studio Photo Lumiere & Art",
+    "invoice_number": "SPL-2024-0198",
+    "invoice_date": "19/04/2024",
+    "siret": "77789012300234",
+    "echeance": "04/05/2024",
+    "invoice_content": [
+      {
+        "description": "Seance photo mariage (4h); Retouches numeriques (x80); Album photo 30x30 cm",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "270.00",
+    "total_amount": "1620.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "task2_csv",
+    "_notes": "Conditions de reglement: Virement bancaire sous 15 jours"
+  },
+  "FR_invoice_img_real_007.jpg": {
+    "file_name": "FR_invoice_img_real_007.jpg",
+    "supplier_name": "Clinique Dentaire Sourire",
+    "invoice_number": "CDS-2024-0345",
+    "invoice_date": "16/04/2024",
+    "siret": "44456789100223",
+    "echeance": "01/05/2024",
+    "invoice_content": [
+      {
+        "description": "Detartrage complet; Soin carie molaire; Radiographie panoramique",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "59.00",
+    "total_amount": "354.00",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "task2_csv",
+    "_notes": "Paye par Carte Bleue **** 2231 le 16/04/2024"
+  },
+  "FR_invoice_img_real_008.jpg": {
+    "file_name": "FR_invoice_img_real_008.jpg",
+    "supplier_name": "Chauffage & Climatisation Roux",
+    "invoice_number": "CCR-2024-0423",
+    "invoice_date": "25/04/2024",
+    "siret": "99956789200267",
+    "echeance": "25/05/2024",
+    "invoice_content": [
+      {
+        "description": "Installation climatisation reversible; Mise en service et reglages; Garantie extension 3 ans",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "225.00",
+    "total_amount": "2475.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "task2_csv",
+    "_notes": "Conditions: 40% commande, 60% reception - Virement ou cheque"
+  },
+  "FR_invoice_img_real_009.jpg": {
+    "file_name": "FR_invoice_img_real_009.jpg",
+    "supplier_name": "Fleuriste Jardin d'Eden",
+    "invoice_number": "FJE-2024-0087",
+    "invoice_date": "23/04/2024",
+    "siret": "66623456700256",
+    "echeance": "08/05/2024",
+    "invoice_content": [
+      {
+        "description": "Bouquet mariee rose & pivoine; Decoration florale tables (x8); Composition entree salle",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "82.00",
+    "total_amount": "902.00",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "task2_csv",
+    "_notes": "Solde paye par American Express **** 8872 le 23/04/2024"
+  },
+  "FR_invoice_img_real_011.jpg": {
+    "file_name": "FR_invoice_img_real_011.jpg",
+    "supplier_name": "Informatique Solutions Pro",
+    "invoice_number": "ISP-2024-0512",
+    "invoice_date": "21/04/2024",
+    "siret": "33390123400245",
+    "echeance": "21/05/2024",
+    "invoice_content": [
+      {
+        "description": "Remplacement disque SSD 1To; Reinstallation Windows 11; Sauvegarde donnees (2h); Antivirus licence 1 an",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "78.80",
+    "total_amount": "472.80",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "task2_csv",
+    "_notes": "Paye par Visa **** 4491 le 22/04/2024"
+  },
+  "FR_invoice_img_real_013.jpg": {
+    "file_name": "FR_invoice_img_real_013.jpg",
+    "supplier_name": "Fers et Metaux du Chalonnais",
+    "invoice_number": "",
+    "invoice_date": "",
+    "siret": "",
+    "echeance": "31/03/2026",
+    "invoice_content": [
+      {
+        "description": "Corniere S235 JR 120x120x12; Poutrelle S275 JR IPE 270; Rond serrurier S235 JR Diam18; Corniere 25x25x3; TAC tole a chaud 1000x2000x15; Poutrelle UPN 100; Transport; Corniere 80x80x8",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "1309.13",
+    "total_amount": "7854.77",
+    "payment_status": "UNKNOWN",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "task2_csv",
+    "_notes": "Conditions de reglement: le 31/03/26; Acompte 0,00; Net a payer 7 854,77; Virement"
+  },
+  "FR_invoice_img_real_014.jpg": {
+    "file_name": "FR_invoice_img_real_014.jpg",
+    "supplier_name": "Wurth Proxi Shop Le Creusot",
+    "invoice_number": "4330739666",
+    "invoice_date": "",
+    "siret": "",
+    "echeance": "25/12/2024",
+    "invoice_content": [
+      {
+        "description": "Disques a meuler MEULE EBARBER ZIRCO+ 230x6.4x22.2; Niveau digital IP65 61CM Zebra; Briquet USB electrique (offert); Coupon cadeau",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "136.50",
+    "total_amount": "818.98",
+    "payment_status": "UNKNOWN",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "task2_csv",
+    "_notes": "Page 2/3 seulement; Conditions 30 jours; Mode Traite directe / Virement"
+  },
+  "FR_invoice_real_029.pdf": {
+    "file_name": "FR_invoice_real_029.pdf",
+    "supplier_name": "Epicerie Fine Marchand",
+    "invoice_number": "EFM-2023-0412",
+    "invoice_date": "12/11/2023",
+    "siret": "12378945600178",
+    "echeance": "27/11/2023",
+    "invoice_content": [
+      {
+        "description": "Foie gras mi-cuit (4 boites) x6; Confiture artisanale (x12) x12; Huile d'olive AOC (4 flacons) x4",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "5,5",
+    "tva_amount": "19.24",
+    "total_amount": "369.04",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "task2_csv",
+    "_notes": "Paye par Visa **** 4712 le 13/11/2023"
+  },
+  "FR_invoice_real_030.pdf": {
+    "file_name": "FR_invoice_real_030.pdf",
+    "supplier_name": "Atelier Couture & Retouches Blondel",
+    "invoice_number": "ACR-2023-1205",
+    "invoice_date": "05/12/2023",
+    "siret": "55534567900169",
+    "echeance": "20/12/2023",
+    "invoice_content": [
+      {
+        "description": "Retouche robe de mariee; Ourlet pantalon (x3); Remplacement fermeture eclair",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "50.00",
+    "total_amount": "300.00",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "task2_csv",
+    "_notes": "Especes recues - recu N 2023-1205"
+  },
+  "FR_invoice_real_031.pdf": {
+    "file_name": "FR_invoice_real_031.pdf",
+    "supplier_name": "Garage Mecanique Verdier",
+    "invoice_number": "GMV-2023-0789",
+    "invoice_date": "28/10/2023",
+    "siret": "88801234600190",
+    "echeance": "12/11/2023",
+    "invoice_content": [
+      {
+        "description": "Vidange + filtre huile; Remplacement plaquettes frein AV; Main d'oeuvre revision (3h); Pneumatiques 195/65 R15 (x2)",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "121.20",
+    "total_amount": "727.20",
+    "payment_status": "UNKNOWN",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "task2_csv",
+    "_notes": "Conditions de reglement: Cheque a l'ordre de Garage Verdier sous 15 jours"
+  },
+  "FR_invoice_real_032.pdf": {
+    "file_name": "FR_invoice_real_032.pdf",
+    "supplier_name": "Ecole de Musique Harmonie",
+    "invoice_number": "EMH-2024-0023",
+    "invoice_date": "08/01/2024",
+    "siret": "33345678900201",
+    "echeance": "08/02/2024",
+    "invoice_content": [
+      {
+        "description": "Cours de piano - trimestre 1 (x12 seances); Location salle de repetition (x4h); Partition recueil Bach",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "127.70",
+    "total_amount": "766.20",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "task2_csv",
+    "_notes": "Reglement par CB Mastercard **** 3308 accepte le 09/01/2024"
+  },
+  "FR_invoice_real_033.pdf": {
+    "file_name": "FR_invoice_real_033.pdf",
+    "supplier_name": "Paysagiste Terrain Vert EURL",
+    "invoice_number": "PTV-2024-0156",
+    "invoice_date": "22/02/2024",
+    "siret": "66612890100212",
+    "echeance": "08/03/2024",
+    "invoice_content": [
+      {
+        "description": "Tonte pelouse + ramassage (x4 passages); Taille haies et arbustes; Plantation massif fleuri (x15 plants); Evacuation dechets verts",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "73.50",
+    "total_amount": "808.50",
+    "payment_status": "UNKNOWN",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "task2_csv",
+    "_notes": "Conditions de reglement: Virement IBAN FR76 3000 6228 3700 0100 0000 - a regler avant le 08/03/2024"
+  },
+  "FR_invoice_real_001.pdf": {
+    "file_name": "FR_invoice_real_001.pdf",
+    "supplier_name": "Burger King",
+    "invoice_number": "",
+    "invoice_date": "21/05/2026",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Chocolat chaud",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Muffin Chocolat",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Whopper",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "1.97",
+    "total_amount": "21.70",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_002.pdf": {
+    "file_name": "FR_invoice_real_002.pdf",
+    "supplier_name": "Aoyama",
+    "invoice_number": "",
+    "invoice_date": "04/05/2026",
+    "siret": "44418819700016",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "1 Repas complet",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": [
+      "10",
+      "20"
+    ],
+    "tva_amount": "3.17",
+    "total_amount": "31.40",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_003.pdf": {
+    "file_name": "FR_invoice_real_003.pdf",
+    "supplier_name": "Station Leclerc Chalondis Sud",
+    "invoice_number": "",
+    "invoice_date": "04/05/2026",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "SP95-E10",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "3.38",
+    "total_amount": "20.31",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_004.pdf": {
+    "file_name": "FR_invoice_real_004.pdf",
+    "supplier_name": "La Poste",
+    "invoice_number": "53412",
+    "invoice_date": "07/05/2026",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "1 LETTRE RECO R1 AR",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "0",
+    "tva_amount": "0.00",
+    "total_amount": "8.43",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_005.pdf": {
+    "file_name": "FR_invoice_real_005.pdf",
+    "supplier_name": "La Smeralda",
+    "invoice_number": "",
+    "invoice_date": "01/05/2026",
+    "siret": "49114518900516",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Panna Framboise",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Margherita",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Piece du Boucher",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Pinot",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Grand Creme",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": [
+      "10",
+      "20"
+    ],
+    "tva_amount": "3.41",
+    "total_amount": "52.00",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_006.pdf": {
+    "file_name": "FR_invoice_real_006.pdf",
+    "supplier_name": "Carrefour Chalon Sud",
+    "invoice_number": "",
+    "invoice_date": "01/05/2026",
+    "siret": "45132135501963",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Gazole+",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "12.13",
+    "total_amount": "72.75",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_007.pdf": {
+    "file_name": "FR_invoice_real_007.pdf",
+    "supplier_name": "Prolavage Chalon",
+    "invoice_number": "0038990",
+    "invoice_date": "01/05/2026",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Forfait Prolavage +1 jeton offert",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "5.00",
+    "total_amount": "30.00",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_008.pdf": {
+    "file_name": "FR_invoice_real_008.pdf",
+    "supplier_name": "Le Festin",
+    "invoice_number": "",
+    "invoice_date": "04/05/2026",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "6 Repas Complet",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "7.64",
+    "total_amount": "84.00",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_009.pdf": {
+    "file_name": "FR_invoice_real_009.pdf",
+    "supplier_name": "Action",
+    "invoice_number": "",
+    "invoice_date": "07/05/2026",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Poubelle 5 L Inox",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "12.95",
+    "total_amount": "77.70",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_010.pdf": {
+    "file_name": "FR_invoice_real_010.pdf",
+    "supplier_name": "L'Enzo",
+    "invoice_number": "",
+    "invoice_date": "02/05/2026",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "2 repas",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": [
+      "10",
+      "20"
+    ],
+    "tva_amount": "3.97",
+    "total_amount": "38.10",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_011.pdf": {
+    "file_name": "FR_invoice_real_011.pdf",
+    "supplier_name": "Supeco",
+    "invoice_number": "",
+    "invoice_date": "03/05/2026",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Courses alimentaires",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "2.75",
+    "total_amount": "52.92",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_012.pdf": {
+    "file_name": "FR_invoice_real_012.pdf",
+    "supplier_name": "Intermarché Givry",
+    "invoice_number": "",
+    "invoice_date": "29/04/2026",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "SP95-E10",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "16.67",
+    "total_amount": "100.01",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_013.pdf": {
+    "file_name": "FR_invoice_real_013.pdf",
+    "supplier_name": "Bricomarché",
+    "invoice_number": "",
+    "invoice_date": "29/04/2026",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Tab Pin Elliott 18x30",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "11.66",
+    "total_amount": "69.95",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_014.pdf": {
+    "file_name": "FR_invoice_real_014.pdf",
+    "supplier_name": "La Boucherie",
+    "invoice_number": "",
+    "invoice_date": "29/04/2026",
+    "siret": "85214383800029",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "8 Repas Complet",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "13.90",
+    "total_amount": "152.90",
+    "payment_status": "UNKNOWN",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_015.pdf": {
+    "file_name": "FR_invoice_real_015.pdf",
+    "supplier_name": "APRR",
+    "invoice_number": "",
+    "invoice_date": "11/04/2026",
+    "siret": "01625002900306",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Péage Tournus - Chalon Sud",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "0.35",
+    "total_amount": "2.10",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_016.pdf": {
+    "file_name": "FR_invoice_real_016.pdf",
+    "supplier_name": "RATP",
+    "invoice_number": "",
+    "invoice_date": "07/04/2026",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "9 Métro-Train-RER Zones 1 à 5",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "2.09",
+    "total_amount": "22.95",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_017.pdf": {
+    "file_name": "FR_invoice_real_017.pdf",
+    "supplier_name": "SARL Brysse - Station Avia",
+    "invoice_number": "",
+    "invoice_date": "04/04/2026",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Aviagel Universel 5L",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "8.50",
+    "total_amount": "51.00",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_018.pdf": {
+    "file_name": "FR_invoice_real_018.pdf",
+    "supplier_name": "Enilive France",
+    "invoice_number": "987101649605",
+    "invoice_date": "11/04/2026",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Snickers 50G",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Twix 50G",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Diesel Tech",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": [
+      "20",
+      "5.5"
+    ],
+    "tva_amount": "8.77",
+    "total_amount": "53.50",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_019.pdf": {
+    "file_name": "FR_invoice_real_019.pdf",
+    "supplier_name": "Le Restaurant du Château",
+    "invoice_number": "4500000010005731",
+    "invoice_date": "27/03/2026",
+    "siret": "53175124000012",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Repas complet(s)",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": [
+      "10",
+      "20"
+    ],
+    "tva_amount": "16.74",
+    "total_amount": "137.50",
+    "payment_status": "UNKNOWN",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_020.pdf": {
+    "file_name": "FR_invoice_real_020.pdf",
+    "supplier_name": "Auchan Chatillon",
+    "invoice_number": "",
+    "invoice_date": "24/03/2026",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Signal Int8 Dent HA",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Hollywood Gum Menth",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "1.23",
+    "total_amount": "7.36",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_021.pdf": {
+    "file_name": "FR_invoice_real_021.pdf",
+    "supplier_name": "Boulangerie Copaline",
+    "invoice_number": "",
+    "invoice_date": "26/03/2026",
+    "siret": "83498542800016",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Croissant",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Muffin",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Pain au Chocolat",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Jalousie",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Cookie",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "0.65",
+    "total_amount": "12.50",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_022.pdf": {
+    "file_name": "FR_invoice_real_022.pdf",
+    "supplier_name": "Patachoux",
+    "invoice_number": "",
+    "invoice_date": "24/03/2026",
+    "siret": "52398626700014",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Croque Monsieur Jambon",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Formule Orange",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Focaccia Garnie",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Effiloché Porc Mariné",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "6.63",
+    "total_amount": "72.90",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_023.pdf": {
+    "file_name": "FR_invoice_real_023.pdf",
+    "supplier_name": "Aldi",
+    "invoice_number": "",
+    "invoice_date": "19/03/2026",
+    "siret": "44329334000977",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Eau Min Riche HG 1L",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "WD 40 Huile 100ml",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Mentos Gum Bottles 100g",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": [
+      "5.5",
+      "20"
+    ],
+    "tva_amount": "1.20",
+    "total_amount": "10.06",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_024.pdf": {
+    "file_name": "FR_invoice_real_024.pdf",
+    "supplier_name": "Le Festin",
+    "invoice_number": "",
+    "invoice_date": "23/03/2026",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "6 Repas Complet",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "9.16",
+    "total_amount": "100.80",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_025.pdf": {
+    "file_name": "FR_invoice_real_025.pdf",
+    "supplier_name": "Patachoux",
+    "invoice_number": "",
+    "invoice_date": "23/03/2026",
+    "siret": "53368626700014",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Grand Café",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Boisson 25 CL",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Pain au Chocolat pur beurre",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Chausson aux Pommes",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "0.95",
+    "total_amount": "18.20",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_026.pdf": {
+    "file_name": "FR_invoice_real_026.pdf",
+    "supplier_name": "Pressing Press-Eco",
+    "invoice_number": "",
+    "invoice_date": "14/03/2026",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Abonnement Costume",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "10.50",
+    "total_amount": "63.00",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_027.pdf": {
+    "file_name": "FR_invoice_real_027.pdf",
+    "supplier_name": "Dyneff Saulce",
+    "invoice_number": "",
+    "invoice_date": "11/03/2026",
+    "siret": "30580099701000",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "Badoit Pet 50cl",
+        "quantity": "",
+        "unit_price": ""
+      },
+      {
+        "description": "Oasis Tea Mangue Pas",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "0.20",
+    "total_amount": "3.95",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_028.pdf": {
+    "file_name": "FR_invoice_real_028.pdf",
+    "supplier_name": "TotalEnergies",
+    "invoice_number": "",
+    "invoice_date": "08/03/2026",
+    "siret": "30691609902309",
+    "echeance": "",
+    "invoice_content": [
+      {
+        "description": "AdBlue (6.80 L)",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "0.79",
+    "total_amount": "4.71",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_034.pdf": {
+    "file_name": "FR_invoice_real_034.pdf",
+    "supplier_name": "BRICORAMA FRANCE",
+    "invoice_number": "PBREDI1106000240",
+    "invoice_date": "",
+    "siret": "40668031401116",
+    "echeance": "06/09/2018",
+    "invoice_content": [],
+    "tva_percentage": "20",
+    "tva_amount": "20.00",
+    "total_amount": "120.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "120.00",
+    "consumer_name": "",
+    "_source": "chorus_parsed"
+  },
+  "FR_invoice_real_035.pdf": {
+    "file_name": "FR_invoice_real_035.pdf",
+    "supplier_name": "ASSOCIATION DE TOURISME PAKEREKAKINA",
+    "invoice_number": "PDBEDI1106000110",
+    "invoice_date": "",
+    "siret": "886978001",
+    "echeance": "",
+    "invoice_content": [],
+    "tva_percentage": "",
+    "tva_amount": "",
+    "total_amount": "120.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "120.00",
+    "consumer_name": "",
+    "_source": "chorus_parsed"
+  },
+  "FR_invoice_real_036.pdf": {
+    "file_name": "FR_invoice_real_036.pdf",
+    "supplier_name": "BRICORAMA FRANCE",
+    "invoice_number": "PDBEDI1106000116",
+    "invoice_date": "",
+    "siret": "40668031401116",
+    "echeance": "06/09/2018",
+    "invoice_content": [],
+    "tva_percentage": "20",
+    "tva_amount": "20.00",
+    "total_amount": "120.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "-120.00",
+    "consumer_name": "",
+    "_source": "chorus_parsed"
+  },
+  "FR_invoice_real_037.pdf": {
+    "file_name": "FR_invoice_real_037.pdf",
+    "supplier_name": "BRICORAMA FRANCE",
+    "invoice_number": "PDBEDI1106000117",
+    "invoice_date": "",
+    "siret": "40668031401116",
+    "echeance": "06/09/2018",
+    "invoice_content": [],
+    "tva_percentage": "10",
+    "tva_amount": "10.00",
+    "total_amount": "60.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "60.00",
+    "consumer_name": "",
+    "_source": "chorus_parsed"
+  },
+  "FR_invoice_real_038.pdf": {
+    "file_name": "FR_invoice_real_038.pdf",
+    "supplier_name": "BRICORAMA FRANCE",
+    "invoice_number": "PBREDI1106000241",
+    "invoice_date": "",
+    "siret": "40668031401116",
+    "echeance": "06/09/2018",
+    "invoice_content": [],
+    "tva_percentage": "20",
+    "tva_amount": "20.00",
+    "total_amount": "120.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "120.00",
+    "consumer_name": "",
+    "_source": "chorus_parsed"
+  },
+  "FR_invoice_real_039.pdf": {
+    "file_name": "FR_invoice_real_039.pdf",
+    "supplier_name": "BRICORAMA FRANCE",
+    "invoice_number": "PDBEDI1106000118",
+    "invoice_date": "",
+    "siret": "40668031401116",
+    "echeance": "06/09/2018",
+    "invoice_content": [],
+    "tva_percentage": "",
+    "tva_amount": "",
+    "total_amount": "-120.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "-120.00",
+    "consumer_name": "",
+    "_source": "chorus_parsed"
+  },
+  "FR_invoice_real_040.pdf": {
+    "file_name": "FR_invoice_real_040.pdf",
+    "supplier_name": "BRICORAMA FRANCE",
+    "invoice_number": "PBREDI1106000232",
+    "invoice_date": "",
+    "siret": "40668031401116",
+    "echeance": "06/09/2018",
+    "invoice_content": [],
+    "tva_percentage": "20",
+    "tva_amount": "20.00",
+    "total_amount": "120.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "120.00",
+    "consumer_name": "",
+    "_source": "chorus_parsed"
+  },
+  "FR_invoice_real_041.pdf": {
+    "file_name": "FR_invoice_real_041.pdf",
+    "supplier_name": "BRICORAMA FRANCE",
+    "invoice_number": "PDBEDI1106000285",
+    "invoice_date": "",
+    "siret": "40668031401116",
+    "echeance": "06/09/2018",
+    "invoice_content": [],
+    "tva_percentage": "20",
+    "tva_amount": "20.00",
+    "total_amount": "120.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "120.00",
+    "consumer_name": "",
+    "_source": "chorus_parsed"
+  },
+  "FR_invoice_real_042.pdf": {
+    "file_name": "FR_invoice_real_042.pdf",
+    "supplier_name": "BRICORAMA FRANCE",
+    "invoice_number": "PDBEDI1106000145",
+    "invoice_date": "",
+    "siret": "40668031401116",
+    "echeance": "06/09/2018",
+    "invoice_content": [],
+    "tva_percentage": "20",
+    "tva_amount": "20.00",
+    "total_amount": "120.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "120.00",
+    "consumer_name": "",
+    "_source": "chorus_parsed"
+  },
+  "FR_invoice_real_043.pdf": {
+    "file_name": "FR_invoice_real_043.pdf",
+    "supplier_name": "BRICORAMA FRANCE",
+    "invoice_number": "PDBEDI1106000313",
+    "invoice_date": "",
+    "siret": "40668031401116",
+    "echeance": "06/09/2018",
+    "invoice_content": [],
+    "tva_percentage": "20",
+    "tva_amount": "40.00",
+    "total_amount": "240.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "240.00",
+    "consumer_name": "",
+    "_source": "chorus_parsed"
+  },
+  "FR_invoice_real_044.pdf": {
+    "file_name": "FR_invoice_real_044.pdf",
+    "supplier_name": "Samsung Mobile Phone",
+    "invoice_number": "",
+    "invoice_date": "",
+    "siret": "81034732800017",
+    "echeance": "06/09/2018",
+    "invoice_content": [],
+    "tva_percentage": "",
+    "tva_amount": "",
+    "total_amount": "120.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "120.00",
+    "consumer_name": "",
+    "_source": "chorus_parsed"
+  },
+  "FR_invoice_real_045.pdf": {
+    "file_name": "FR_invoice_real_045.pdf",
+    "supplier_name": "EDF",
+    "invoice_number": "00000000000",
+    "invoice_date": "28/01/2017",
+    "siret": "",
+    "echeance": "13/02/2017",
+    "invoice_content": [
+      {
+        "description": "Gaz naturel à prix fixe",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "",
+    "tva_amount": "410.57",
+    "total_amount": "2602.89",
+    "payment_status": "UNPAID",
+    "solde_du": "6743.96",
+    "consumer_name": "SITE KBS 5733432252",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_046.pdf": {
+    "file_name": "FR_invoice_real_046.pdf",
+    "supplier_name": "EDF",
+    "invoice_number": "00000000000",
+    "invoice_date": "20/01/2017",
+    "siret": "",
+    "echeance": "06/02/2017",
+    "invoice_content": [
+      {
+        "description": "Contrat élec. Reconductible",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "943.30",
+    "total_amount": "5659.82",
+    "payment_status": "UNPAID",
+    "solde_du": "",
+    "consumer_name": "SITE KBS 5362706784",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_047.pdf": {
+    "file_name": "FR_invoice_real_047.pdf",
+    "supplier_name": "EDF",
+    "invoice_number": "139",
+    "invoice_date": "27/02/2017",
+    "siret": "",
+    "echeance": "14/03/2017",
+    "invoice_content": [
+      {
+        "description": "Garanti Pro",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "",
+    "tva_amount": "76.28",
+    "total_amount": "494.13",
+    "payment_status": "UNPAID",
+    "solde_du": "",
+    "consumer_name": "SITE KBS 1565766971",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_048.pdf": {
+    "file_name": "FR_invoice_real_048.pdf",
+    "supplier_name": "Euresto",
+    "invoice_number": "",
+    "invoice_date": "",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [],
+    "tva_percentage": "",
+    "tva_amount": "",
+    "total_amount": "",
+    "payment_status": "UNKNOWN",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "non_invoice_guide"
+  },
+  "FR_invoice_real_049.pdf": {
+    "file_name": "FR_invoice_real_049.pdf",
+    "supplier_name": "Iberdrola Energie France",
+    "invoice_number": "2322030161005917",
+    "invoice_date": "01/03/2022",
+    "siret": "",
+    "echeance": "16/03/2022",
+    "invoice_content": [
+      {
+        "description": "Electricité",
+        "quantity": "",
+        "unit_price": ""
+      }
+    ],
+    "tva_percentage": "",
+    "tva_amount": "5.58",
+    "total_amount": "42.12",
+    "payment_status": "UNPAID",
+    "solde_du": "45.31",
+    "consumer_name": "JACQUELINE SALA",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_050.pdf": {
+    "supplier_name": "LE FOURNISSEUR",
+    "invoice_number": "F20220023",
+    "invoice_date": "31/01/2022",
+    "siret": "123456782",
+    "echeance": "02/03/2022",
+    "invoice_content": [],
+    "tva_percentage": [
+      "20",
+      "0",
+      "10"
+    ],
+    "tva_amount": "4.90",
+    "total_amount": "104.90",
+    "payment_status": "UNKNOWN",
+    "solde_du": "104.90",
+    "consumer_name": "LE CLIENT",
+    "file_name": "FR_invoice_real_050.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_051.pdf": {
+    "supplier_name": "Au bon moulin",
+    "invoice_number": "AV-2017-0005",
+    "invoice_date": "16/11/2017",
+    "siret": "99999999800010",
+    "echeance": "16/11/2017",
+    "invoice_content": [
+      {
+        "description": "Nougat de l'Abbaye 250g",
+        "quantity": "-5.000",
+        "unit_price": "4.10"
+      },
+      {
+        "description": "Huile d'olive à l'ancienne",
+        "quantity": "-10.000",
+        "unit_price": "19.80"
+      }
+    ],
+    "tva_percentage": [
+      "20",
+      "5.50"
+    ],
+    "tva_amount": "-14.99",
+    "total_amount": "-233.47",
+    "payment_status": "UNKNOWN",
+    "solde_du": "-233.47",
+    "consumer_name": "Ma jolie boutique",
+    "file_name": "FR_invoice_real_051.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_052.pdf": {
+    "supplier_name": "Au bon moulin",
+    "invoice_number": "AV-2017-0005",
+    "invoice_date": "16/11/2017",
+    "siret": "99999999800010",
+    "echeance": "16/11/2017",
+    "invoice_content": [],
+    "tva_percentage": [
+      "20",
+      "5.50"
+    ],
+    "tva_amount": "-14.99",
+    "total_amount": "-233.47",
+    "payment_status": "UNKNOWN",
+    "solde_du": "-233.47",
+    "consumer_name": "Ma jolie boutique",
+    "file_name": "FR_invoice_real_052.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_053.pdf": {
+    "supplier_name": "Au bon moulin",
+    "invoice_number": "AV-2017-0005",
+    "invoice_date": "16/11/2017",
+    "siret": "99999999800010",
+    "echeance": "16/11/2017",
+    "invoice_content": [
+      {
+        "description": "Nougat de l'Abbaye 250g",
+        "quantity": "-5.000",
+        "unit_price": "4.55"
+      },
+      {
+        "description": "Huile d'olive à l'ancienne",
+        "quantity": "-10.000",
+        "unit_price": "19.80"
+      }
+    ],
+    "tva_percentage": [
+      "20",
+      "5.50"
+    ],
+    "tva_amount": "-14.99",
+    "total_amount": "-233.47",
+    "payment_status": "UNKNOWN",
+    "solde_du": "-233.47",
+    "consumer_name": "Ma jolie boutique",
+    "file_name": "FR_invoice_real_053.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_054.pdf": {
+    "supplier_name": "Au bon moulin",
+    "invoice_number": "AV-2017-0005",
+    "invoice_date": "16/11/2017",
+    "siret": "99999999800010",
+    "echeance": "",
+    "invoice_content": [],
+    "tva_percentage": [],
+    "tva_amount": "",
+    "total_amount": "-233.47",
+    "payment_status": "UNKNOWN",
+    "solde_du": "-233.47",
+    "consumer_name": "Ma jolie boutique",
+    "file_name": "FR_invoice_real_054.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_055.pdf": {
+    "supplier_name": "Au bon moulin",
+    "invoice_number": "AV-2017-0005",
+    "invoice_date": "16/11/2017",
+    "siret": "99999999800010",
+    "echeance": "16/11/2017",
+    "invoice_content": [
+      {
+        "description": "Nougat de l'Abbaye 250g",
+        "quantity": "5.000",
+        "unit_price": "4.10"
+      },
+      {
+        "description": "Huile d'olive à l'ancienne",
+        "quantity": "10.000",
+        "unit_price": "19.80"
+      }
+    ],
+    "tva_percentage": [
+      "20",
+      "5.50"
+    ],
+    "tva_amount": "14.99",
+    "total_amount": "233.47",
+    "payment_status": "UNKNOWN",
+    "solde_du": "233.47",
+    "consumer_name": "Ma jolie boutique",
+    "file_name": "FR_invoice_real_055.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_056.pdf": {
+    "supplier_name": "Au bon moulin",
+    "invoice_number": "AV-2017-0005",
+    "invoice_date": "16/11/2017",
+    "siret": "99999999800010",
+    "echeance": "16/11/2017",
+    "invoice_content": [],
+    "tva_percentage": [
+      "20",
+      "5.50"
+    ],
+    "tva_amount": "14.99",
+    "total_amount": "233.47",
+    "payment_status": "UNKNOWN",
+    "solde_du": "233.47",
+    "consumer_name": "Ma jolie boutique",
+    "file_name": "FR_invoice_real_056.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_057.pdf": {
+    "supplier_name": "Au bon moulin",
+    "invoice_number": "AV-2017-0005",
+    "invoice_date": "16/11/2017",
+    "siret": "99999999800010",
+    "echeance": "16/11/2017",
+    "invoice_content": [
+      {
+        "description": "Nougat de l'Abbaye 250g",
+        "quantity": "5.000",
+        "unit_price": "4.55"
+      },
+      {
+        "description": "Huile d'olive à l'ancienne",
+        "quantity": "10.000",
+        "unit_price": "19.80"
+      }
+    ],
+    "tva_percentage": [
+      "20",
+      "5.50"
+    ],
+    "tva_amount": "14.99",
+    "total_amount": "233.47",
+    "payment_status": "UNKNOWN",
+    "solde_du": "233.47",
+    "consumer_name": "Ma jolie boutique",
+    "file_name": "FR_invoice_real_057.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_058.pdf": {
+    "supplier_name": "Au bon moulin",
+    "invoice_number": "AV-2017-0005",
+    "invoice_date": "16/11/2017",
+    "siret": "99999999800010",
+    "echeance": "",
+    "invoice_content": [],
+    "tva_percentage": [],
+    "tva_amount": "",
+    "total_amount": "233.47",
+    "payment_status": "UNKNOWN",
+    "solde_du": "233.47",
+    "consumer_name": "Ma jolie boutique",
+    "file_name": "FR_invoice_real_058.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_059.pdf": {
+    "supplier_name": "Au bon moulin",
+    "invoice_number": "FA-2017-0009",
+    "invoice_date": "05/11/2017",
+    "siret": "99999999800010",
+    "echeance": "05/12/2017",
+    "invoice_content": [
+      {
+        "description": "Nougat de l'Abbaye 250g",
+        "quantity": "50.000",
+        "unit_price": "4.10"
+      },
+      {
+        "description": "Biscuits aux raisins 300g",
+        "quantity": "40.000",
+        "unit_price": "3.20"
+      },
+      {
+        "description": "Huile d'olive à l'ancienne",
+        "quantity": "10.000",
+        "unit_price": "19.80"
+      }
+    ],
+    "tva_percentage": "0",
+    "tva_amount": "0.00",
+    "total_amount": "530.75",
+    "payment_status": "UNKNOWN",
+    "solde_du": "383.75",
+    "consumer_name": "Hôtel Saint Denis",
+    "file_name": "FR_invoice_real_059.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_060.pdf": {
+    "supplier_name": "Au bon moulin",
+    "invoice_number": "FA-2017-0009",
+    "invoice_date": "05/11/2017",
+    "siret": "99999999800010",
+    "echeance": "05/12/2017",
+    "invoice_content": [],
+    "tva_percentage": "0",
+    "tva_amount": "0.00",
+    "total_amount": "530.75",
+    "payment_status": "UNKNOWN",
+    "solde_du": "383.75",
+    "consumer_name": "Hôtel Saint Denis",
+    "file_name": "FR_invoice_real_060.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_061.pdf": {
+    "supplier_name": "Au bon moulin",
+    "invoice_number": "FA-2017-0009",
+    "invoice_date": "05/11/2017",
+    "siret": "99999999800010",
+    "echeance": "05/12/2017",
+    "invoice_content": [
+      {
+        "description": "Nougat de l'Abbaye 250g",
+        "quantity": "50.000",
+        "unit_price": "4.55"
+      },
+      {
+        "description": "Biscuits aux raisins 300g",
+        "quantity": "40.000",
+        "unit_price": "3.20"
+      },
+      {
+        "description": "Huile d'olive à l'ancienne",
+        "quantity": "10.000",
+        "unit_price": "19.80"
+      }
+    ],
+    "tva_percentage": "0",
+    "tva_amount": "0.00",
+    "total_amount": "530.75",
+    "payment_status": "UNKNOWN",
+    "solde_du": "383.75",
+    "consumer_name": "Hôtel Saint Denis",
+    "file_name": "FR_invoice_real_061.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_062.pdf": {
+    "supplier_name": "Au bon moulin",
+    "invoice_number": "FA-2017-0009",
+    "invoice_date": "05/11/2017",
+    "siret": "99999999800010",
+    "echeance": "",
+    "invoice_content": [],
+    "tva_percentage": [],
+    "tva_amount": "",
+    "total_amount": "530.75",
+    "payment_status": "UNKNOWN",
+    "solde_du": "383.75",
+    "consumer_name": "Hôtel Saint Denis",
+    "file_name": "FR_invoice_real_062.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_063.pdf": {
+    "supplier_name": "Au bon moulin",
+    "invoice_number": "FA-2017-0010",
+    "invoice_date": "13/11/2017",
+    "siret": "99999999800010",
+    "echeance": "13/12/2017",
+    "invoice_content": [
+      {
+        "description": "Nougat de l'Abbaye 250g",
+        "quantity": "20.000",
+        "unit_price": "4.10"
+      },
+      {
+        "description": "Biscuits aux raisins 300g",
+        "quantity": "15.000",
+        "unit_price": "3.20"
+      },
+      {
+        "description": "Huile d'olive à l'ancienne",
+        "quantity": "25.000",
+        "unit_price": "19.80"
+      }
+    ],
+    "tva_percentage": [
+      "20",
+      "5.50"
+    ],
+    "tva_amount": "46.25",
+    "total_amount": "671.15",
+    "payment_status": "UNKNOWN",
+    "solde_du": "470.15",
+    "consumer_name": "Ma jolie boutique",
+    "file_name": "FR_invoice_real_063.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_064.pdf": {
+    "supplier_name": "Au bon moulin",
+    "invoice_number": "FA-2017-0010",
+    "invoice_date": "13/11/2017",
+    "siret": "99999999800010",
+    "echeance": "13/12/2017",
+    "invoice_content": [],
+    "tva_percentage": [
+      "20",
+      "5.50"
+    ],
+    "tva_amount": "46.25",
+    "total_amount": "671.15",
+    "payment_status": "UNKNOWN",
+    "solde_du": "470.15",
+    "consumer_name": "Ma jolie boutique",
+    "file_name": "FR_invoice_real_064.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_065.pdf": {
+    "supplier_name": "Au bon moulin",
+    "invoice_number": "FA-2017-0010",
+    "invoice_date": "13/11/2017",
+    "siret": "99999999800010",
+    "echeance": "13/12/2017",
+    "invoice_content": [
+      {
+        "description": "Nougat de l'Abbaye 250g",
+        "quantity": "20.000",
+        "unit_price": "4.55"
+      },
+      {
+        "description": "Biscuits aux raisins 300g",
+        "quantity": "15.000",
+        "unit_price": "3.20"
+      },
+      {
+        "description": "Huile d'olive à l'ancienne",
+        "quantity": "25.000",
+        "unit_price": "19.80"
+      }
+    ],
+    "tva_percentage": [
+      "20",
+      "5.50"
+    ],
+    "tva_amount": "46.25",
+    "total_amount": "671.15",
+    "payment_status": "UNKNOWN",
+    "solde_du": "470.15",
+    "consumer_name": "Ma jolie boutique",
+    "file_name": "FR_invoice_real_065.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_066.pdf": {
+    "supplier_name": "Au bon moulin",
+    "invoice_number": "FA-2017-0010",
+    "invoice_date": "13/11/2017",
+    "siret": "99999999800010",
+    "echeance": "",
+    "invoice_content": [],
+    "tva_percentage": [],
+    "tva_amount": "",
+    "total_amount": "671.15",
+    "payment_status": "UNKNOWN",
+    "solde_du": "470.15",
+    "consumer_name": "Ma jolie boutique",
+    "file_name": "FR_invoice_real_066.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_067.pdf": {
+    "supplier_name": "Au bon moulin",
+    "invoice_number": "FA-2017-0008",
+    "invoice_date": "03/11/2017",
+    "siret": "99999999800010",
+    "echeance": "03/12/2017",
+    "invoice_content": [
+      {
+        "description": "Nougat de l'Abbaye 250g",
+        "quantity": "8.000",
+        "unit_price": "4.10"
+      },
+      {
+        "description": "Biscuits aux raisins 300g",
+        "quantity": "20.000",
+        "unit_price": "3.20"
+      },
+      {
+        "description": "Huile d'olive à l'ancienne",
+        "quantity": "100.000",
+        "unit_price": "19.80"
+      }
+    ],
+    "tva_percentage": "0",
+    "tva_amount": "0.00",
+    "total_amount": "2076.76",
+    "payment_status": "UNKNOWN",
+    "solde_du": "1453.76",
+    "consumer_name": "Me gusta olive",
+    "file_name": "FR_invoice_real_067.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_068.pdf": {
+    "supplier_name": "Au bon moulin",
+    "invoice_number": "FA-2017-0008",
+    "invoice_date": "03/11/2017",
+    "siret": "99999999800010",
+    "echeance": "03/12/2017",
+    "invoice_content": [],
+    "tva_percentage": "0",
+    "tva_amount": "0.00",
+    "total_amount": "2076.76",
+    "payment_status": "UNKNOWN",
+    "solde_du": "1453.76",
+    "consumer_name": "Me gusta olive",
+    "file_name": "FR_invoice_real_068.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_069.pdf": {
+    "supplier_name": "Au bon moulin",
+    "invoice_number": "FA-2017-0008",
+    "invoice_date": "03/11/2017",
+    "siret": "99999999800010",
+    "echeance": "03/12/2017",
+    "invoice_content": [
+      {
+        "description": "Nougat de l'Abbaye 250g",
+        "quantity": "8.000",
+        "unit_price": "4.55"
+      },
+      {
+        "description": "Biscuits aux raisins 300g",
+        "quantity": "20.000",
+        "unit_price": "3.20"
+      },
+      {
+        "description": "Huile d'olive à l'ancienne",
+        "quantity": "100.000",
+        "unit_price": "19.80"
+      }
+    ],
+    "tva_percentage": "0",
+    "tva_amount": "0.00",
+    "total_amount": "2076.76",
+    "payment_status": "UNKNOWN",
+    "solde_du": "1453.76",
+    "consumer_name": "Me gusta olive",
+    "file_name": "FR_invoice_real_069.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_070.pdf": {
+    "supplier_name": "Au bon moulin",
+    "invoice_number": "FA-2017-0008",
+    "invoice_date": "03/11/2017",
+    "siret": "99999999800010",
+    "echeance": "",
+    "invoice_content": [],
+    "tva_percentage": [],
+    "tva_amount": "",
+    "total_amount": "2076.76",
+    "payment_status": "UNKNOWN",
+    "solde_du": "1453.76",
+    "consumer_name": "Me gusta olive",
+    "file_name": "FR_invoice_real_070.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_071.pdf": {
+    "file_name": "FR_invoice_real_071.pdf",
+    "supplier_name": "",
+    "invoice_number": "",
+    "invoice_date": "",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [],
+    "tva_percentage": "",
+    "tva_amount": "",
+    "total_amount": "",
+    "payment_status": "UNKNOWN",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "non_invoice_guide"
+  },
+  "FR_invoice_real_072.pdf": {
+    "file_name": "FR_invoice_real_072.pdf",
+    "supplier_name": "Société Hôtelière du Pacano",
+    "invoice_number": "2023-6013",
+    "invoice_date": "20/09/2023",
+    "siret": "12345682400016",
+    "echeance": "19/10/2023",
+    "invoice_content": [
+      {
+        "description": "Chambre du 09/08/2023 au 15/08/2023",
+        "quantity": "6",
+        "unit_price": "205.90"
+      },
+      {
+        "description": "Forfait taxe de séjour",
+        "quantity": "6",
+        "unit_price": "1.65"
+      }
+    ],
+    "tva_percentage": [
+      "10",
+      "0"
+    ],
+    "tva_amount": "123.54",
+    "total_amount": "1368.84",
+    "payment_status": "UNPAID",
+    "solde_du": "915.86",
+    "consumer_name": "Securibox SARL",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_073.pdf": {
+    "supplier_name": "Société Hôtelière du Pacano",
+    "invoice_number": "2023-6013",
+    "invoice_date": "20/09/2023",
+    "siret": "12345682400016",
+    "echeance": "19/10/2023",
+    "invoice_content": [
+      {
+        "description": "Chambre du 09/08/2023 au 15/08/2023",
+        "quantity": "6.0000",
+        "unit_price": "205.90"
+      },
+      {
+        "description": "Forfait taxe de séjour",
+        "quantity": "6.0000",
+        "unit_price": "1.65"
+      }
+    ],
+    "tva_percentage": [
+      "10",
+      "0"
+    ],
+    "tva_amount": "123.54",
+    "total_amount": "1368.84",
+    "payment_status": "UNKNOWN",
+    "solde_du": "915.86",
+    "consumer_name": "Securibox SARL",
+    "file_name": "FR_invoice_real_073.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_074.pdf": {
+    "file_name": "FR_invoice_real_074.pdf",
+    "supplier_name": "Société Hôtelière du Pacano",
+    "invoice_number": "2023-6026",
+    "invoice_date": "28/09/2023",
+    "siret": "12345682400016",
+    "echeance": "28/10/2023",
+    "invoice_content": [
+      {
+        "description": "Chambre du 27/09/2023 au 28/09/2023",
+        "quantity": "1",
+        "unit_price": "205.90"
+      },
+      {
+        "description": "Forfait taxe de séjour",
+        "quantity": "1",
+        "unit_price": "1.65"
+      }
+    ],
+    "tva_percentage": [
+      "10",
+      "0"
+    ],
+    "tva_amount": "20.59",
+    "total_amount": "228.14",
+    "payment_status": "UNPAID",
+    "solde_du": "228.14",
+    "consumer_name": "Securibox SARL",
+    "_source": "hand_read"
+  },
+  "FR_invoice_real_075.pdf": {
+    "supplier_name": "Société Hôtelière du Pacano",
+    "invoice_number": "2023-6013",
+    "invoice_date": "20/09/2023",
+    "siret": "12345682400016",
+    "echeance": "19/10/2023",
+    "invoice_content": [
+      {
+        "description": "Chambre du 09/08/2023 au 15/08/2023",
+        "quantity": "6.0000",
+        "unit_price": "205.90"
+      },
+      {
+        "description": "Forfait taxe de séjour",
+        "quantity": "6.0000",
+        "unit_price": "1.65"
+      }
+    ],
+    "tva_percentage": [
+      "10",
+      "0"
+    ],
+    "tva_amount": "121.54",
+    "total_amount": "1368.84",
+    "payment_status": "UNKNOWN",
+    "solde_du": "915.86",
+    "consumer_name": "Securibox SARL",
+    "file_name": "FR_invoice_real_075.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_076.pdf": {
+    "supplier_name": "LE FOURNISSEUR",
+    "invoice_number": "F20260023",
+    "invoice_date": "31/01/2026",
+    "siret": "123456782",
+    "echeance": "02/03/2026",
+    "invoice_content": [
+      {
+        "description": "PRESTATION SUPPORT",
+        "quantity": "1.0000",
+        "unit_price": "65.00"
+      },
+      {
+        "description": "FOURNITURES PAPIER",
+        "quantity": "3.0000",
+        "unit_price": "31.00"
+      },
+      {
+        "description": "APPEL",
+        "quantity": "1.0000",
+        "unit_price": "7.00"
+      }
+    ],
+    "tva_percentage": [
+      "0",
+      "10",
+      "20"
+    ],
+    "tva_amount": "4.90",
+    "total_amount": "104.90",
+    "payment_status": "UNKNOWN",
+    "solde_du": "104.90",
+    "consumer_name": "LE CLIENT",
+    "file_name": "FR_invoice_real_076.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_077.pdf": {
+    "supplier_name": "LE FOURNISSEUR",
+    "invoice_number": "F20260024",
+    "invoice_date": "31/01/2026",
+    "siret": "123456782",
+    "echeance": "02/03/2026",
+    "invoice_content": [
+      {
+        "description": "PRESTATION SUPPORT",
+        "quantity": "1.0000",
+        "unit_price": "60.00"
+      },
+      {
+        "description": "FOURNITURES PAPIER",
+        "quantity": "3.0000",
+        "unit_price": "30.00"
+      },
+      {
+        "description": "APPEL",
+        "quantity": "1.0000",
+        "unit_price": "7.00"
+      }
+    ],
+    "tva_percentage": [
+      "0",
+      "20"
+    ],
+    "tva_amount": "8.00",
+    "total_amount": "108.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "108.00",
+    "consumer_name": "LE CLIENT",
+    "file_name": "FR_invoice_real_077.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_078.pdf": {
+    "supplier_name": "LE FOURNISSEUR",
+    "invoice_number": "F20260025",
+    "invoice_date": "31/01/2026",
+    "siret": "123456782",
+    "echeance": "02/03/2026",
+    "invoice_content": [
+      {
+        "description": "PRESTATION SUPPORT",
+        "quantity": "1.0000",
+        "unit_price": "60.00"
+      },
+      {
+        "description": "FOURNITURES DIVERSES",
+        "quantity": "3.0000",
+        "unit_price": "10.00"
+      },
+      {
+        "description": "APPEL",
+        "quantity": "1.0000",
+        "unit_price": "5.00"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "20.00",
+    "total_amount": "120.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "100.00",
+    "consumer_name": "LE CLIENT",
+    "file_name": "FR_invoice_real_078.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_079.pdf": {
+    "supplier_name": "LE FOURNISSEUR",
+    "invoice_number": "F20260026",
+    "invoice_date": "31/01/2026",
+    "siret": "123456782",
+    "echeance": "02/03/2026",
+    "invoice_content": [
+      {
+        "description": "PRESTATION SUPPORT",
+        "quantity": "1.0000",
+        "unit_price": "60.00"
+      },
+      {
+        "description": "FOURNITURES DIVERSES",
+        "quantity": "3.0000",
+        "unit_price": "10.00"
+      },
+      {
+        "description": "APPEL",
+        "quantity": "1.0000",
+        "unit_price": "5.00"
+      }
+    ],
+    "tva_percentage": "0",
+    "tva_amount": "0.00",
+    "total_amount": "100.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "90.00",
+    "consumer_name": "LE CLIENT",
+    "file_name": "FR_invoice_real_079.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_080.pdf": {
+    "supplier_name": "LE FOURNISSEUR",
+    "invoice_number": "F20260027",
+    "invoice_date": "31/01/2026",
+    "siret": "123456782",
+    "echeance": "02/03/2026",
+    "invoice_content": [
+      {
+        "description": "PRESTATION SUPPORT",
+        "quantity": "1.0000",
+        "unit_price": "60.00"
+      },
+      {
+        "description": "FOURNITURES DIVERSES",
+        "quantity": "3.0000",
+        "unit_price": "10.00"
+      },
+      {
+        "description": "APPEL",
+        "quantity": "1.0000",
+        "unit_price": "5.00"
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "10.00",
+    "total_amount": "110.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "100.00",
+    "consumer_name": "LE CLIENT",
+    "file_name": "FR_invoice_real_080.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_081.pdf": {
+    "supplier_name": "LE FOURNISSEUR",
+    "invoice_number": "F20260028",
+    "invoice_date": "31/01/2026",
+    "siret": "123456782",
+    "echeance": "02/03/2026",
+    "invoice_content": [
+      {
+        "description": "PRESTATION SUPPORT",
+        "quantity": "1.0000",
+        "unit_price": "60.00"
+      },
+      {
+        "description": "FOURNITURES DIVERSES",
+        "quantity": "3.0000",
+        "unit_price": "10.00"
+      },
+      {
+        "description": "APPEL",
+        "quantity": "1.0000",
+        "unit_price": "5.00"
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "10.00",
+    "total_amount": "110.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "100.00",
+    "consumer_name": "LE CLIENT",
+    "file_name": "FR_invoice_real_081.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_082.pdf": {
+    "supplier_name": "LE FOURNISSEUR",
+    "invoice_number": "F20260029",
+    "invoice_date": "31/01/2026",
+    "siret": "123456782",
+    "echeance": "02/03/2026",
+    "invoice_content": [
+      {
+        "description": "PRESTATION SUPPORT",
+        "quantity": "-1.0000",
+        "unit_price": "60.00"
+      },
+      {
+        "description": "FOURNITURES DIVERSES",
+        "quantity": "-3.0000",
+        "unit_price": "10.00"
+      },
+      {
+        "description": "APPEL",
+        "quantity": "-1.0000",
+        "unit_price": "5.00"
+      }
+    ],
+    "tva_percentage": "0",
+    "tva_amount": "0.00",
+    "total_amount": "-100.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "-90.00",
+    "consumer_name": "LE CLIENT",
+    "file_name": "FR_invoice_real_082.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_083.pdf": {
+    "supplier_name": "LE FOURNISSEUR",
+    "invoice_number": "F20260030",
+    "invoice_date": "31/01/2026",
+    "siret": "123456782",
+    "echeance": "02/03/2026",
+    "invoice_content": [
+      {
+        "description": "PRESTATION SUPPORT",
+        "quantity": "1.0000",
+        "unit_price": "60.00"
+      },
+      {
+        "description": "FOURNITURES DIVERSES",
+        "quantity": "3.0000",
+        "unit_price": "10.00"
+      },
+      {
+        "description": "APPEL",
+        "quantity": "1.0000",
+        "unit_price": "5.00"
+      }
+    ],
+    "tva_percentage": [],
+    "tva_amount": "",
+    "total_amount": "100.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "90.00",
+    "consumer_name": "LE CLIENT",
+    "file_name": "FR_invoice_real_083.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_084.pdf": {
+    "supplier_name": "LE FOURNISSEUR",
+    "invoice_number": "F20260031",
+    "invoice_date": "31/01/2026",
+    "siret": "123456782",
+    "echeance": "02/03/2026",
+    "invoice_content": [
+      {
+        "description": "REMBOURSEMENT AFFRANCHISSEMENT",
+        "quantity": "1.0000",
+        "unit_price": "60.00"
+      },
+      {
+        "description": "FOURNITURES DIVERSES",
+        "quantity": "3.0000",
+        "unit_price": "30.00"
+      },
+      {
+        "description": "APPEL",
+        "quantity": "1.0000",
+        "unit_price": "12.00"
+      }
+    ],
+    "tva_percentage": [
+      "0",
+      "20",
+      "10"
+    ],
+    "tva_amount": "7.02",
+    "total_amount": "107.82",
+    "payment_status": "UNKNOWN",
+    "solde_du": "107.82",
+    "consumer_name": "LE CLIENT",
+    "file_name": "FR_invoice_real_084.pdf",
+    "_source": "facturx_xml"
+  },
+  "FR_invoice_real_085.pdf": {
+    "file_name": "FR_invoice_real_085.pdf",
+    "supplier_name": "SFR",
+    "invoice_number": "",
+    "invoice_date": "",
+    "siret": "",
+    "echeance": "",
+    "invoice_content": [],
+    "tva_percentage": "",
+    "tva_amount": "",
+    "total_amount": "",
+    "payment_status": "UNKNOWN",
+    "solde_du": "",
+    "consumer_name": "",
+    "_source": "non_invoice_guide"
+  },
+  "FR_invoice_img_real_010.jpg": {
+    "file_name": "FR_invoice_img_real_010.jpg",
+    "supplier_name": "",
+    "invoice_number": "FC20251175",
+    "invoice_date": "28/04/2025",
+    "siret": "",
+    "echeance": "28/05/2025",
+    "invoice_content": [
+      {
+        "description": "AUDIT INITIAL ISO 19443 Etape 1 & Etape 2",
+        "quantity": "1",
+        "unit_price": "2772.67"
+      },
+      {
+        "description": "Certification ISO 9001 version 2015",
+        "quantity": "1",
+        "unit_price": "589.38"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "672.41",
+    "total_amount": "4034.46",
+    "payment_status": "UNPAID",
+    "solde_du": "4034.46",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_img_real_012.jpg": {
+    "file_name": "FR_invoice_img_real_012.jpg",
+    "supplier_name": "",
+    "invoice_number": "",
+    "invoice_date": "",
+    "siret": "",
+    "echeance": "15/11/2025",
+    "invoice_content": [
+      {
+        "description": "SCIE RADIALE 1800W D355MM MKAS35 +2 LAMES",
+        "quantity": "1",
+        "unit_price": "749.00"
+      },
+      {
+        "description": "LAME SCIE D355X25,4X2,2MM 66 DTS ACIER",
+        "quantity": "9",
+        "unit_price": "134.93"
+      },
+      {
+        "description": "LAME SCIE D355X25,4X2,2MM 66 DTS ACIER",
+        "quantity": "1",
+        "unit_price": "134.93"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "",
+    "total_amount": "",
+    "payment_status": "UNKNOWN",
+    "solde_du": "",
+    "consumer_name": "SCAI SYSTEMS",
+    "_source": "hand_read"
+  },
+  "FR_invoice_img_real_015.jpg": {
+    "file_name": "FR_invoice_img_real_015.jpg",
+    "supplier_name": "",
+    "invoice_number": "FC20251175",
+    "invoice_date": "28/04/2025",
+    "siret": "",
+    "echeance": "28/05/2025",
+    "invoice_content": [
+      {
+        "description": "AUDIT INITIAL ISO 19443 Etape 1 & Etape 2",
+        "quantity": "1",
+        "unit_price": "2772.67"
+      },
+      {
+        "description": "Certification ISO 9001 version 2015",
+        "quantity": "1",
+        "unit_price": "589.38"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "672.41",
+    "total_amount": "4034.46",
+    "payment_status": "UNPAID",
+    "solde_du": "4034.46",
+    "consumer_name": "",
+    "_source": "hand_read"
+  },
+  "FR_invoice_img_real_016.jpg": {
+    "file_name": "FR_invoice_img_real_016.jpg",
+    "supplier_name": "",
+    "invoice_number": "",
+    "invoice_date": "",
+    "siret": "",
+    "echeance": "15/11/2025",
+    "invoice_content": [],
+    "tva_percentage": "20",
+    "tva_amount": "419.80",
+    "total_amount": "2518.81",
+    "payment_status": "UNKNOWN",
+    "solde_du": "",
+    "consumer_name": "SCAI SYSTEMS",
+    "_source": "hand_read"
+  },
+  "FR_invoice_img_real_017.jpeg": {
+    "file_name": "FR_invoice_img_real_017.jpeg",
+    "supplier_name": "Transport Frigorifique Marchand",
+    "invoice_number": "TFM-2024-0456",
+    "invoice_date": "28/05/2024",
+    "siret": "77745678900390",
+    "echeance": "28/06/2024",
+    "invoice_content": [
+      {
+        "description": "Transport réfrigéré Lille-Paris (×3 trajets)",
+        "quantity": "3",
+        "unit_price": "320.00"
+      },
+      {
+        "description": "Assurance marchandise périssable",
+        "quantity": "1",
+        "unit_price": "85.00"
+      },
+      {
+        "description": "Supplément week-end",
+        "quantity": "1",
+        "unit_price": "60.00"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "221.00",
+    "total_amount": "1326.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "",
+    "consumer_name": "M. Frédéric Bouchard",
+    "_source": "hand_read"
+  },
+  "FR_invoice_img_real_018.jpeg": {
+    "file_name": "FR_invoice_img_real_018.jpeg",
+    "supplier_name": "Institut de Formation Continue Lyon",
+    "invoice_number": "IFC-2024-0078",
+    "invoice_date": "06/06/2024",
+    "siret": "77789012700490",
+    "echeance": "06/07/2024",
+    "invoice_content": [
+      {
+        "description": "Formation Gestion d'Entreprise (5 jours)",
+        "quantity": "1",
+        "unit_price": "2500.00"
+      },
+      {
+        "description": "Support de cours et documentation",
+        "quantity": "1",
+        "unit_price": "150.00"
+      },
+      {
+        "description": "Attestation et certification",
+        "quantity": "1",
+        "unit_price": "75.00"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "545.00",
+    "total_amount": "3270.00",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "M. Thierry Blanc",
+    "_source": "hand_read"
+  },
+  "FR_invoice_img_real_019.jpeg": {
+    "file_name": "FR_invoice_img_real_019.jpeg",
+    "supplier_name": "Boulangerie Maison Renard",
+    "invoice_number": "BMR-2024-0601",
+    "invoice_date": "01/06/2024",
+    "siret": "11134567800478",
+    "echeance": "16/06/2024",
+    "invoice_content": [
+      {
+        "description": "Pain au levain (×20 kg)",
+        "quantity": "20",
+        "unit_price": "8.50"
+      },
+      {
+        "description": "Viennoiseries mixtes (×100)",
+        "quantity": "100",
+        "unit_price": "1.80"
+      },
+      {
+        "description": "Gâteaux sur commande (×3)",
+        "quantity": "3",
+        "unit_price": "45.00"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "32.84",
+    "total_amount": "629.84",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "M. Pascal Giraud",
+    "_source": "hand_read"
+  },
+  "FR_invoice_img_real_020.jpeg": {
+    "file_name": "FR_invoice_img_real_020.jpeg",
+    "supplier_name": "Taxi & Transfert Moreau",
+    "invoice_number": "TTM-2024-1456",
+    "invoice_date": "08/06/2024",
+    "siret": "33356789500501",
+    "echeance": "23/06/2024",
+    "invoice_content": [
+      {
+        "description": "Transfert aéroport CDG (×5 courses)",
+        "quantity": "5",
+        "unit_price": "85.00"
+      },
+      {
+        "description": "Mise à disposition journée (8h)",
+        "quantity": "1",
+        "unit_price": "420.00"
+      },
+      {
+        "description": "Supplément bagages",
+        "quantity": "3",
+        "unit_price": "15.00"
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "89.00",
+    "total_amount": "979.00",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Mme Céline Aubert",
+    "_source": "hand_read"
+  },
+  "FR_invoice_img_real_021.jpeg": {
+    "file_name": "FR_invoice_img_real_021.jpeg",
+    "supplier_name": "Rénovation Habitat Duval SARL",
+    "invoice_number": "RHD-2024-0389",
+    "invoice_date": "10/06/2024",
+    "siret": "66623567800512",
+    "echeance": "10/07/2024",
+    "invoice_content": [
+      {
+        "description": "Ravalement façade 20m",
+        "quantity": "1",
+        "unit_price": "4800.00"
+      },
+      {
+        "description": "Isolation thermique extérieure",
+        "quantity": "1",
+        "unit_price": "3200.00"
+      },
+      {
+        "description": "Échafaudage location (3 semaines)",
+        "quantity": "3",
+        "unit_price": "380.00"
+      },
+      {
+        "description": "Nettoyage et évacuation",
+        "quantity": "1",
+        "unit_price": "250.00"
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "939.00",
+    "total_amount": "10329.00",
+    "payment_status": "UNPAID",
+    "solde_du": "7230.30",
+    "consumer_name": "M. et Mme Lefebvre",
+    "_source": "hand_read"
+  },
+  "FR_invoice_img_real_022.jpeg": {
+    "file_name": "FR_invoice_img_real_022.jpeg",
+    "supplier_name": "Cabinet Juridique Fontaine",
+    "invoice_number": "CJF-2024-0234",
+    "invoice_date": "03/06/2024",
+    "siret": "44478901300489",
+    "echeance": "03/07/2024",
+    "invoice_content": [
+      {
+        "description": "Rédaction contrat travail CDI",
+        "quantity": "1",
+        "unit_price": "900.00"
+      },
+      {
+        "description": "Consultation droit commercial (2h)",
+        "quantity": "2",
+        "unit_price": "350.00"
+      },
+      {
+        "description": "Dossier contentieux — phase 1",
+        "quantity": "1",
+        "unit_price": "1200.00"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "560.00",
+    "total_amount": "3360.00",
+    "payment_status": "UNKNOWN",
+    "solde_du": "",
+    "consumer_name": "Mme Élise Perrot",
+    "_source": "hand_read"
+  },
+  "FR_invoice_img_real_023.jpeg": {
+    "file_name": "FR_invoice_img_real_023.jpeg",
+    "supplier_name": "Cabinet Comptable Girard & Associés",
+    "invoice_number": "CGA-2024-0178",
+    "invoice_date": "08/05/2024",
+    "siret": "88834567900290",
+    "echeance": "08/06/2024",
+    "invoice_content": [
+      {
+        "description": "Bilan comptable annuel 2023",
+        "quantity": "1",
+        "unit_price": "1800.00"
+      },
+      {
+        "description": "Déclaration TVA trimestrielle (×4)",
+        "quantity": "4",
+        "unit_price": "200.00"
+      },
+      {
+        "description": "Conseil fiscal — 3 séances",
+        "quantity": "3",
+        "unit_price": "350.00"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "730.00",
+    "total_amount": "4380.00",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "M. Stéphane Moreau",
+    "_source": "hand_read"
+  },
+  "FR_invoice_img_real_024.jpeg": {
+    "file_name": "FR_invoice_img_real_024.jpeg",
+    "supplier_name": "Optique Centrale Leclerc",
+    "invoice_number": "OCL-2024-0623",
+    "invoice_date": "10/05/2024",
+    "siret": "33378901200301",
+    "echeance": "25/05/2024",
+    "invoice_content": [
+      {
+        "description": "Montures Ralph Lauren modèle 456",
+        "quantity": "1",
+        "unit_price": "245.00"
+      },
+      {
+        "description": "Verres progressifs anti-reflets (×2)",
+        "quantity": "2",
+        "unit_price": "189.00"
+      },
+      {
+        "description": "Étui et chiffon inclus",
+        "quantity": "1",
+        "unit_price": "0.00"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "124.60",
+    "total_amount": "747.60",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Mme Sophie Lambert",
+    "_source": "hand_read"
+  },
+  "FR_invoice_img_real_025.jpeg": {
+    "file_name": "FR_invoice_img_real_025.jpeg",
+    "supplier_name": "Agence Immobilière Soleil",
+    "invoice_number": "AIS-2024-0089",
+    "invoice_date": "12/05/2024",
+    "siret": "66690123400312",
+    "echeance": "12/06/2024",
+    "invoice_content": [
+      {
+        "description": "Honoraires location appartement T3",
+        "quantity": "1",
+        "unit_price": "1500.00"
+      },
+      {
+        "description": "État des lieux entrée",
+        "quantity": "1",
+        "unit_price": "180.00"
+      },
+      {
+        "description": "Rédaction bail 3 ans",
+        "quantity": "1",
+        "unit_price": "120.00"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "360.00",
+    "total_amount": "2160.00",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "M. Antoine Rousseau",
+    "_source": "hand_read"
+  },
+  "FR_invoice_img_real_026.jpeg": {
+    "file_name": "FR_invoice_img_real_026.jpeg",
+    "supplier_name": "Pharmacie du Vieux-Port",
+    "invoice_number": "PVP-2024-0934",
+    "invoice_date": "14/05/2024",
+    "siret": "99912345500323",
+    "echeance": "29/05/2024",
+    "invoice_content": [
+      {
+        "description": "Médicaments ordonnance — lot 1",
+        "quantity": "1",
+        "unit_price": "42.80"
+      },
+      {
+        "description": "Vitamines complexe B (×2 boîtes)",
+        "quantity": "2",
+        "unit_price": "18.50"
+      },
+      {
+        "description": "Pansements et antiseptique",
+        "quantity": "1",
+        "unit_price": "12.30"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "5.07",
+    "total_amount": "97.17",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "M. Luc Besson",
+    "_source": "hand_read"
+  },
+  "FR_invoice_img_real_027.jpeg": {
+    "file_name": "FR_invoice_img_real_027.jpeg",
+    "supplier_name": "Traiteur Oriental Benali",
+    "invoice_number": "TOB-2024-0267",
+    "invoice_date": "16/05/2024",
+    "siret": "44445678900334",
+    "echeance": "31/05/2024",
+    "invoice_content": [
+      {
+        "description": "Couscous royal (×40 portions)",
+        "quantity": "40",
+        "unit_price": "12.50"
+      },
+      {
+        "description": "Pastilla au poulet (×20)",
+        "quantity": "20",
+        "unit_price": "8.00"
+      },
+      {
+        "description": "Desserts orientaux assortiment",
+        "quantity": "1",
+        "unit_price": "95.00"
+      },
+      {
+        "description": "Service et livraison",
+        "quantity": "1",
+        "unit_price": "60.00"
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "81.50",
+    "total_amount": "896.50",
+    "payment_status": "UNKNOWN",
+    "solde_du": "",
+    "consumer_name": "Mme Fatima El Amrani",
+    "_source": "hand_read"
+  },
+  "FR_invoice_img_real_028.jpeg": {
+    "file_name": "FR_invoice_img_real_028.jpeg",
+    "supplier_name": "École de Conduite Liberté",
+    "invoice_number": "ECL-2024-0445",
+    "invoice_date": "18/05/2024",
+    "siret": "77756789000345",
+    "echeance": "18/06/2024",
+    "invoice_content": [
+      {
+        "description": "Forfait 20h conduite accompagnée",
+        "quantity": "1",
+        "unit_price": "680.00"
+      },
+      {
+        "description": "Examen code de la route",
+        "quantity": "1",
+        "unit_price": "30.00"
+      },
+      {
+        "description": "Frais examen préfecture",
+        "quantity": "1",
+        "unit_price": "85.00"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "159.00",
+    "total_amount": "954.00",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "M. Kevin Durand",
+    "_source": "hand_read"
+  },
+  "FR_invoice_img_real_029.jpeg": {
+    "file_name": "FR_invoice_img_real_029.jpeg",
+    "supplier_name": "Électricité Générale Renaud",
+    "invoice_number": "EGR-2024-0334",
+    "invoice_date": "24/05/2024",
+    "siret": "99978901300378",
+    "echeance": "08/06/2024",
+    "invoice_content": [
+      {
+        "description": "Câblage tableau électrique 3 phases",
+        "quantity": "1",
+        "unit_price": "1200.00"
+      },
+      {
+        "description": "Installation prises industrielles (×8)",
+        "quantity": "8",
+        "unit_price": "95.00"
+      },
+      {
+        "description": "Main d'œuvre (10h)",
+        "quantity": "10",
+        "unit_price": "70.00"
+      },
+      {
+        "description": "Certificat conformité Consuel",
+        "quantity": "1",
+        "unit_price": "150.00"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "482.00",
+    "total_amount": "2892.00",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "M. Bernard Castex",
+    "_source": "hand_read"
+  },
+  "FR_invoice_img_real_030.jpeg": {
+    "file_name": "FR_invoice_img_real_030.jpeg",
+    "supplier_name": "Librairie Papeterie Michelet",
+    "invoice_number": "LPM-2024-0712",
+    "invoice_date": "22/05/2024",
+    "siret": "66612456700367",
+    "echeance": "06/06/2024",
+    "invoice_content": [
+      {
+        "description": "Manuels scolaires 3ème (×25)",
+        "quantity": "25",
+        "unit_price": "24.50"
+      },
+      {
+        "description": "Cahiers et fournitures lot",
+        "quantity": "1",
+        "unit_price": "187.00"
+      },
+      {
+        "description": "Dictionnaires Larousse (×10)",
+        "quantity": "10",
+        "unit_price": "28.00"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "54.97",
+    "total_amount": "1054.47",
+    "payment_status": "UNKNOWN",
+    "solde_du": "",
+    "consumer_name": "Mme Hélène Vidal",
+    "_source": "hand_read"
+  },
+  "FR_invoice_img_real_031.jpeg": {
+    "file_name": "FR_invoice_img_real_031.jpeg",
+    "supplier_name": "Plomberie Sanitaire Lecomte",
+    "invoice_number": "PSL-2024-0189",
+    "invoice_date": "20/05/2024",
+    "siret": "33323456800356",
+    "echeance": "04/06/2024",
+    "invoice_content": [
+      {
+        "description": "Remplacement chauffe-eau 200L",
+        "quantity": "1",
+        "unit_price": "650.00"
+      },
+      {
+        "description": "Main d'œuvre pose (4h)",
+        "quantity": "4",
+        "unit_price": "65.00"
+      },
+      {
+        "description": "Mise en conformité NF",
+        "quantity": "1",
+        "unit_price": "120.00"
+      },
+      {
+        "description": "Déplacement",
+        "quantity": "1",
+        "unit_price": "40.00"
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "107.00",
+    "total_amount": "1177.00",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "M. et Mme Garnier",
+    "_source": "hand_read"
+  }
+}

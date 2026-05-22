@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_real_015",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_real_015\\page_01.png",
+      "text": "Numéro Date Code client Date échéance\n\nFC20251175 28/04/2025 | | SCA010 28/05/2025\n\nCode Description\n\n103 | AUDIT INITIAL 1SO 19443 Etape 1 & Etape 2\nIMPORTANT :\n\n‘ Le règlement doit intervenir dès réception de la facture. Ce n'est qu'à partir.\n\n‘de cette étape que la prestation débutera.\n061 Certification ISO 9001 version 2015\n\nAUDIT INITIAL ISO Etape 1 & Etape 2\nIMPORTANT :\n\nMode de règlement\n\nVIREMENT 30j net\n\nQté P.U. HT\n\n| Le règlement doit intervenir dès réception de la facture. Ce n'est qu'à partir\n\n| de cette étape que la prestation débutera.\nTXT00001 | Selon les termes du contrat n° 25-443\nDossier 426 Q\n|\n\\\n\n|\n\nLes opérations donnant lieu à facture sont constituées exclusivement de prestations de services\n\nEscompte pour règlement anticipé : 0%\n\nEn cas de retard de p\nfrais de recouvrement\n\nordonnées bancaire\n\nBanque : CL\nRIB : 30002016490000070962134\n\nIBAN : FR4320002016490000070962134\nBIC: CRLYFRPP\n\nTotal HT Net\n\nTotal TVA 20.00 %\nTotal TTC\n\nNet à payer\n\nSolde dû\n\nmon A  ManiintoNE NAN nn\n\n1.00 2772.67\n\n1.00 589.38\n\nN° de Tva intracom\n\nFR33845175751\n\nMontant HT TVA\n\n2772.67 20.00\n\n589.38 20.00\n\naiement, une pénalité égale à 3 fois le taux d'intérêt légal sera exigible, ainsi qu'une indemnité forfaitaire pour\nd'un montant minimum de 40 euros pour les professionnels\n\n3 362.05\n672.41\n\n4 034.46\n403446 €\n4 034.46 €",
+      "confidence": 0.8806222222222222,
+      "char_count": 1340,
+      "word_count": 223,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Numéro Date Code client Date échéance\n\nFC20251175 28/04/2025 | | SCA010 28/05/2025\n\nCode Description\n\n103 | AUDIT INITIAL 1SO 19443 Etape 1 & Etape 2\nIMPORTANT :\n\n‘ Le règlement doit intervenir dès réception de la facture. Ce n'est qu'à partir.\n\n‘de cette étape que la prestation débutera.\n061 Certification ISO 9001 version 2015\n\nAUDIT INITIAL ISO Etape 1 & Etape 2\nIMPORTANT :\n\nMode de règlement\n\nVIREMENT 30j net\n\nQté P.U. HT\n\n| Le règlement doit intervenir dès réception de la facture. Ce n'est qu'à partir\n\n| de cette étape que la prestation débutera.\nTXT00001 | Selon les termes du contrat n° 25-443\nDossier 426 Q\n|\n\\\n\n|\n\nLes opérations donnant lieu à facture sont constituées exclusivement de prestations de services\n\nEscompte pour règlement anticipé : 0%\n\nEn cas de retard de p\nfrais de recouvrement\n\nordonnées bancaire\n\nBanque : CL\nRIB : 30002016490000070962134\n\nIBAN : FR4320002016490000070962134\nBIC: CRLYFRPP\n\nTotal HT Net\n\nTotal TVA 20.00 %\nTotal TTC\n\nNet à payer\n\nSolde dû\n\nmon A  ManiintoNE NAN nn\n\n1.00 2772.67\n\n1.00 589.38\n\nN° de Tva intracom\n\nFR33845175751\n\nMontant HT TVA\n\n2772.67 20.00\n\n589.38 20.00\n\naiement, une pénalité égale à 3 fois le taux d'intérêt légal sera exigible, ainsi qu'une indemnité forfaitaire pour\nd'un montant minimum de 40 euros pour les professionnels\n\n3 362.05\n672.41\n\n4 034.46\n403446 €\n4 034.46 €",
+  "mean_confidence": 0.8806222222222222,
+  "total_char_count": 1340,
+  "total_word_count": 223,
+  "low_quality_pages": [],
+  "error": ""
+}

@@ -1,0 +1,85 @@
+{
+  "file_name": "FR_invoice_img_synth_022",
+  "supplier_name": "Legros EURL",
+  "invoice_number": "Facture",
+  "invoice_date": "09/12/2025",
+  "siret": "11015720559198",
+  "echeance": "12/01/2026",
+  "invoice_content": [
+    {
+      "description": "Nettoyage de locaux",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Formation professionnelle",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Nettoyage de locaux",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Non payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "48",
+      "unit_price": "981.10"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "N° Facture : F--",
+      "quantity": "2025",
+      "unit_price": "7839"
+    },
+    {
+      "description": "Date : //",
+      "quantity": "12",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Date d'échéance : //",
+      "quantity": "01",
+      "unit_price": "2026"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "24",
+      "unit_price": "362.80"
+    },
+    {
+      "description": "€ €",
+      "quantity": "64,46",
+      "unit_price": "128.92"
+    },
+    {
+      "description": "€ €",
+      "quantity": "16",
+      "unit_price": "325.86"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "8163.52",
+  "total_amount": "48981.10",
+  "payment_status": "PAID",
+  "solde_du": "48981.10"
+}

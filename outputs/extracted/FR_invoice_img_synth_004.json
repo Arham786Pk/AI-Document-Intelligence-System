@@ -1,0 +1,55 @@
+{
+  "file_name": "FR_invoice_img_synth_004",
+  "supplier_name": "Carlier EURL",
+  "invoice_number": "Facture",
+  "invoice_date": "09/01/2026",
+  "siret": "13953286316822",
+  "echeance": "11/06/2026",
+  "invoice_content": [
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Création graphique € €",
+      "quantity": "25",
+      "unit_price": "618.04"
+    },
+    {
+      "description": "Transport de marchandises € €",
+      "quantity": "14",
+      "unit_price": "478.75"
+    },
+    {
+      "description": "Hébergement web € €",
+      "quantity": "1",
+      "unit_price": "363.81"
+    },
+    {
+      "description": "Audit de sécurité € €",
+      "quantity": "35",
+      "unit_price": "890.00"
+    },
+    {
+      "description": "Transport de marchandises € €",
+      "quantity": "7",
+      "unit_price": "938.56"
+    },
+    {
+      "description": "Maintenance annuelle € €",
+      "quantity": "19",
+      "unit_price": "160.64"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "55",
+  "tva_amount": "",
+  "total_amount": "110194.54",
+  "payment_status": "PAID",
+  "solde_du": "110194.54"
+}

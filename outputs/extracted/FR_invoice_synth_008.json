@@ -1,0 +1,85 @@
+{
+  "file_name": "FR_invoice_synth_008",
+  "supplier_name": "David SARL",
+  "invoice_number": "Facture",
+  "invoice_date": "03/10/2024",
+  "siret": "24238038079490",
+  "echeance": "01/06/2025",
+  "invoice_content": [
+    {
+      "description": "Développement logiciel",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Rédaction de contenu",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Location d'équipement",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Non payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "88",
+      "unit_price": "319.70"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "N° Facture : FAC--",
+      "quantity": "2024",
+      "unit_price": "7149"
+    },
+    {
+      "description": "Date d'émission : //",
+      "quantity": "10",
+      "unit_price": "2024"
+    },
+    {
+      "description": "Échéance : //",
+      "quantity": "06",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "39",
+      "unit_price": "406.82"
+    },
+    {
+      "description": "€ €",
+      "quantity": "37",
+      "unit_price": "493.42"
+    },
+    {
+      "description": "€ €",
+      "quantity": "3",
+      "unit_price": "390.40"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "10",
+  "tva_amount": "",
+  "total_amount": "88319.70",
+  "payment_status": "PAID",
+  "solde_du": "88319.70"
+}

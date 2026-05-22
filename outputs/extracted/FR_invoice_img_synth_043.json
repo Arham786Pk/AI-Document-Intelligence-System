@@ -1,0 +1,75 @@
+{
+  "file_name": "FR_invoice_img_synth_043",
+  "supplier_name": "Vaillant SCI",
+  "invoice_number": "F-2024-0807",
+  "invoice_date": "23/09/2024",
+  "siret": "53396405716789",
+  "echeance": "07/08/2025",
+  "invoice_content": [
+    {
+      "description": "Installation réseau",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Développement logiciel",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Facture N° : F--",
+      "quantity": "2024",
+      "unit_price": "0807"
+    },
+    {
+      "description": "Date facture : //",
+      "quantity": "09",
+      "unit_price": "2024"
+    },
+    {
+      "description": "Date d'échéance : //",
+      "quantity": "08",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "7,55",
+      "unit_price": "52.85"
+    },
+    {
+      "description": "€ €",
+      "quantity": "2",
+      "unit_price": "698.41"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "10",
+  "tva_amount": "275.13",
+  "total_amount": "8026.39",
+  "payment_status": "PAID",
+  "solde_du": "0.00"
+}

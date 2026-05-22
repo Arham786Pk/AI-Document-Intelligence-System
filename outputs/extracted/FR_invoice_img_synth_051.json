@@ -1,0 +1,85 @@
+{
+  "file_name": "FR_invoice_img_synth_051",
+  "supplier_name": "Lemonnier SASU",
+  "invoice_number": "Facture",
+  "invoice_date": "23/04/2026",
+  "siret": "39127927225427",
+  "echeance": "31/05/2026",
+  "invoice_content": [
+    {
+      "description": "Formation professionnelle",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Transport de marchandises",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Installation réseau",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "N° Facture : FAC--",
+      "quantity": "2026",
+      "unit_price": "2620"
+    },
+    {
+      "description": "Date facture : //",
+      "quantity": "04",
+      "unit_price": "2026"
+    },
+    {
+      "description": "Échéance : //",
+      "quantity": "05",
+      "unit_price": "2026"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "26",
+      "unit_price": "523.72"
+    },
+    {
+      "description": "€ €",
+      "quantity": "2",
+      "unit_price": "175.04"
+    },
+    {
+      "description": "€ €",
+      "quantity": "10",
+      "unit_price": "148.22"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "7769.40",
+  "total_amount": "46616.38",
+  "payment_status": "PAID",
+  "solde_du": "0.00"
+}

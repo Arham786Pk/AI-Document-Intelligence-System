@@ -1,0 +1,120 @@
+{
+  "file_name": "FR_invoice_real_007",
+  "supplier_name": "D'1-0$- 20- PRO",
+  "invoice_number": "",
+  "invoice_date": "01/05/76",
+  "siret": "",
+  "echeance": "",
+  "invoice_content": [
+    {
+      "description": "FORFAIT PROLAUVAGE + IE TON GFFE",
+      "quantity": "",
+      "unit_price": "1"
+    },
+    {
+      "description": "sal",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "JETON OFFERT",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "MONTANT EURO",
+      "quantity": "",
+      "unit_price": "50.00"
+    },
+    {
+      "description": "DONT TUR L EURO C%",
+      "quantity": "29.00",
+      "unit_price": "2"
+    },
+    {
+      "description": "CÉRTE BANCAIRE SANS CONTACT",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "hé DD CRD D ot ne tee ut ct mé oué ete unD no et Due Re Up ut mes use RS De D es rt ne",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "AGOG:A",
+      "quantity": "00000",
+      "unit_price": "1010"
+    },
+    {
+      "description": "DISR",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "LE // À :",
+      "quantity": "16",
+      "unit_price": "11"
+    },
+    {
+      "description": "PRÔ-LAUAGE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "CHALON-SUR-SAQNE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "/",
+      "quantity": "800603",
+      "unit_price": "89001071"
+    },
+    {
+      "description": "RAARARARAAR AT LOS",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "GAPCSF FL AD?",
+      "quantity": "2",
+      "unit_price": "6"
+    },
+    {
+      "description": "? LC",
+      "quantity": "000021",
+      "unit_price": "000177"
+    },
+    {
+      "description": "MONTANT :",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "EUR",
+      "quantity": "",
+      "unit_price": "30.00"
+    },
+    {
+      "description": "DEBIT",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "TICHET CLIENT",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "A CONSERVER",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "",
+  "tva_amount": "",
+  "total_amount": "",
+  "payment_status": "UNKNOWN",
+  "solde_du": ""
+}

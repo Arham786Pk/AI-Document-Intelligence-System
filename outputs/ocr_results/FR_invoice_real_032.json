@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_real_032",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_real_032\\page_01.png",
+      "text": "École de Musique Harmonie FACTURE\n7 Rue des Arts, 59000 Lille - N° : EMH-2024-0023\n\nSIRET : 33345678900201 Date : 08/01/2024\n\nN° TVA : FR33345678900 Echeance : 08/02/2024\n\nDESTINATAIRE :\n\nM. Thomas Laurent\n\n33 Rue du Conservatoire, 59800 Lille\n\nDESIGNATION\nCours de piano — trimestre 1 (x12 séances)\nLocation salle de répétition (x4h)\n\nPartition recueil Bach 1\n\nTOTAL HT\n\n540,00\n\nMontant HT : 638,50 EUR\nTVA 20% : 127,70 EUR\nTOTAL TTC : 766,20 EUR\nREGLEMENT : Règlement par CB Mastercard *#*** 3309 acceptée le 09/01/2024\nBon pour accord : Signature et cachet :\n\nPénalités de retard applicables au taux légal en vigueur. Indemnité forfaitaire de recouvrement : 40 EUR.",
+      "confidence": 0.9225833333333334,
+      "char_count": 668,
+      "word_count": 110,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "École de Musique Harmonie FACTURE\n7 Rue des Arts, 59000 Lille - N° : EMH-2024-0023\n\nSIRET : 33345678900201 Date : 08/01/2024\n\nN° TVA : FR33345678900 Echeance : 08/02/2024\n\nDESTINATAIRE :\n\nM. Thomas Laurent\n\n33 Rue du Conservatoire, 59800 Lille\n\nDESIGNATION\nCours de piano — trimestre 1 (x12 séances)\nLocation salle de répétition (x4h)\n\nPartition recueil Bach 1\n\nTOTAL HT\n\n540,00\n\nMontant HT : 638,50 EUR\nTVA 20% : 127,70 EUR\nTOTAL TTC : 766,20 EUR\nREGLEMENT : Règlement par CB Mastercard *#*** 3309 acceptée le 09/01/2024\nBon pour accord : Signature et cachet :\n\nPénalités de retard applicables au taux légal en vigueur. Indemnité forfaitaire de recouvrement : 40 EUR.",
+  "mean_confidence": 0.9225833333333334,
+  "total_char_count": 668,
+  "total_word_count": 110,
+  "low_quality_pages": [],
+  "error": ""
+}

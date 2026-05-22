@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_synth_009",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_synth_009\\page_01.png",
+      "text": "Dijoux SCI\n\nrue de Parent, 75215 Barre-sur-Laroche\nSIRET : 51102919508543\n\nFacturé à :\nHebert EURL\n\n44, rue Élise Fournier, 27246 Saint Alexandriaboeuf\n\nDésignation\n\nDéveloppement logiciel\nDéveloppement logiciel\n\nStatut : Non payé\nSolde dû : 8 833,14 €\n\nFACTURE\n\nFacture N° : F-2025-2405\nDate : 09/02/2025\nDate d'échéance : 12/04/2025\n\nQuantité Prix Unitaire Total\n14 140,40 € 1 965,60 €\n15 859,69 € 5 395,35 €\nSous-total HT 7 360,95 €\nTVA 20 % 1472,19 €\nTotal TTC 8 833,14 €",
+      "confidence": 0.9312345679012346,
+      "char_count": 475,
+      "word_count": 80,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Dijoux SCI\n\nrue de Parent, 75215 Barre-sur-Laroche\nSIRET : 51102919508543\n\nFacturé à :\nHebert EURL\n\n44, rue Élise Fournier, 27246 Saint Alexandriaboeuf\n\nDésignation\n\nDéveloppement logiciel\nDéveloppement logiciel\n\nStatut : Non payé\nSolde dû : 8 833,14 €\n\nFACTURE\n\nFacture N° : F-2025-2405\nDate : 09/02/2025\nDate d'échéance : 12/04/2025\n\nQuantité Prix Unitaire Total\n14 140,40 € 1 965,60 €\n15 859,69 € 5 395,35 €\nSous-total HT 7 360,95 €\nTVA 20 % 1472,19 €\nTotal TTC 8 833,14 €",
+  "mean_confidence": 0.9312345679012346,
+  "total_char_count": 475,
+  "total_word_count": 80,
+  "low_quality_pages": [],
+  "error": ""
+}

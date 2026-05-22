@@ -1,0 +1,175 @@
+{
+  "file_name": "FR_invoice_img_real_014",
+  "supplier_name": "Pos. liv. Désignation Article",
+  "invoice_number": "4330739666",
+  "invoice_date": "",
+  "siret": "",
+  "echeance": "",
+  "invoice_content": [
+    {
+      "description": "Article",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "EUR",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Votre pos Origine / N° tarif douanier",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "UP Montant net",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "EUR",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Disques à meuler Polds brut KG",
+      "quantity": "3",
+      "unit_price": "1255"
+    },
+    {
+      "description": "MEULE EBARBER ZIRCO+ X X |",
+      "quantity": "22.2",
+      "unit_price": "."
+    },
+    {
+      "description": "DEP",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Niveau électroniques sonores Poids brut KG",
+      "quantity": "40",
+      "unit_price": "1.130"
+    },
+    {
+      "description": "NIVEAU DIGITAL P CM",
+      "quantity": "65",
+      "unit_price": "61"
+    },
+    {
+      "description": "ZEBRA",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Numéro da série NO",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "WAG",
+      "quantity": "1",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "Briquet Poidsbrut KG",
+      "quantity": "50",
+      "unit_price": "0.036"
+    },
+    {
+      "description": "BRIQUET USB ELECTRIQUE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Offert",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Offre commerciale de réduction",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Coupon Cadeau Palier Mag Novembre",
+      "quantity": "1",
+      "unit_price": "2024"
+    },
+    {
+      "description": "D —_—————",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Poids total KG",
+      "quantity": "",
+      "unit_price": "3.641"
+    },
+    {
+      "description": "Mont de base Tau TVA Montant TVA Montant net",
+      "quantity": ".",
+      "unit_price": "682.48"
+    },
+    {
+      "description": "Code EUR EUR TVA",
+      "quantity": "",
+      "unit_price": "136.50"
+    },
+    {
+      "description": "A %",
+      "quantity": "20,00",
+      "unit_price": "136.50"
+    },
+    {
+      "description": "Montant TTC en EUR",
+      "quantity": "",
+      "unit_price": "818.98"
+    },
+    {
+      "description": "Vos conditions de règlement:",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "JOURS",
+      "quantity": "",
+      "unit_price": "30"
+    },
+    {
+      "description": "Sans esc jusqu'au s /",
+      "quantity": "25.1",
+      "unit_price": "2.2024"
+    },
+    {
+      "description": "Mode de paiement: Traite directe \\j re me",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Votre magasin",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "WURTH PROXI SHOP LE CREUSOT RUE JEAN VILAR TORCY",
+      "quantity": ",",
+      "unit_price": "71210."
+    },
+    {
+      "description": "mcm l'ion rhum hmmlonms du",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "sememb mEt LE",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "",
+  "tva_amount": "",
+  "total_amount": "",
+  "payment_status": "UNKNOWN",
+  "solde_du": ""
+}

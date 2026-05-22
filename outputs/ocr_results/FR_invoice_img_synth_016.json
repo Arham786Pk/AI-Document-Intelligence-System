@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_synth_016",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_synth_016\\page_01.png",
+      "text": "Lefèvre SARL\n\n861, rue de Roche, 01692 Goncalves\nSIRET : 23786172309220\n\nDestinataire :\nAudrey Lecoq\n56, rue Louise Tessier, 50869 Bertrand\n\nDésignation\n\nHébergement web\nInstallation réseau\nMaintenance annuelle\nCréation graphique\n\nStatut : Payé\nSolde dû : 0,00 €\n\nFACTURE\n\nN° Facture : F-2025-5963\nDate d'émission : 28/08/2025\nÉchéance : 27/10/2025\n\nQuantité Prix Unitaire Total\n28 52,23 € 1 462,44 €\n26 855,56 € 22 244,56 €\n16 45,99 € 735,84 €\n10 363,15 € 3 631,50 €\nSous-total HT 28 074,34 €\nTVA 20 % 5 614,87 €\nTotal TTC 33 689,21 €",
+      "confidence": 0.9347872340425532,
+      "char_count": 535,
+      "word_count": 93,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Lefèvre SARL\n\n861, rue de Roche, 01692 Goncalves\nSIRET : 23786172309220\n\nDestinataire :\nAudrey Lecoq\n56, rue Louise Tessier, 50869 Bertrand\n\nDésignation\n\nHébergement web\nInstallation réseau\nMaintenance annuelle\nCréation graphique\n\nStatut : Payé\nSolde dû : 0,00 €\n\nFACTURE\n\nN° Facture : F-2025-5963\nDate d'émission : 28/08/2025\nÉchéance : 27/10/2025\n\nQuantité Prix Unitaire Total\n28 52,23 € 1 462,44 €\n26 855,56 € 22 244,56 €\n16 45,99 € 735,84 €\n10 363,15 € 3 631,50 €\nSous-total HT 28 074,34 €\nTVA 20 % 5 614,87 €\nTotal TTC 33 689,21 €",
+  "mean_confidence": 0.9347872340425532,
+  "total_char_count": 535,
+  "total_word_count": 93,
+  "low_quality_pages": [],
+  "error": ""
+}

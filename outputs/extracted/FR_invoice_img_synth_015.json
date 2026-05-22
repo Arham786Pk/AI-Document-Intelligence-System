@@ -1,0 +1,95 @@
+{
+  "file_name": "FR_invoice_img_synth_015",
+  "supplier_name": "Texier SCI",
+  "invoice_number": "FC-2025-8822",
+  "invoice_date": "11/09/2025",
+  "siret": "82888646514546",
+  "echeance": "02/04/2026",
+  "invoice_content": [
+    {
+      "description": "Location d'équipement",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Fourniture de matériel",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Prestation de conseil",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Maintenance annuelle",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Facture N° : FC--",
+      "quantity": "2025",
+      "unit_price": "8822"
+    },
+    {
+      "description": "Date facture : //",
+      "quantity": "09",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Date limite de paiement : //",
+      "quantity": "04",
+      "unit_price": "2026"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "14",
+      "unit_price": "230.26"
+    },
+    {
+      "description": "€ €",
+      "quantity": "6",
+      "unit_price": "663.52"
+    },
+    {
+      "description": "€ €",
+      "quantity": "661,73",
+      "unit_price": "661.73"
+    },
+    {
+      "description": "€ €",
+      "quantity": "10,61",
+      "unit_price": "477.45"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "4406.59",
+  "total_amount": "26439.55",
+  "payment_status": "PAID",
+  "solde_du": "0.00"
+}

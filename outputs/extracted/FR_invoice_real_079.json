@@ -1,0 +1,160 @@
+{
+  "file_name": "FR_invoice_real_079",
+  "supplier_name": "FACTURE N° : F20260026",
+  "invoice_number": "F20260026",
+  "invoice_date": "31/01/2026",
+  "siret": "",
+  "echeance": "02/03/2026",
+  "invoice_content": [
+    {
+      "description": "Période Remi",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "CODE ARTICLE Objet Classification PLU HT (EUR) UNITÉ Cas Gi TOTALHT",
+      "quantity": ".",
+      "unit_price": "."
+    },
+    {
+      "description": "+",
+      "quantity": "",
+      "unit_price": "0."
+    },
+    {
+      "description": "M Attributs pour PU arse (EUR)",
+      "quantity": ".",
+      "unit_price": "."
+    },
+    {
+      "description": "REFERENCE Note {EUR)",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "(Brut: )",
+      "quantity": "",
+      "unit_price": "60.00"
+    },
+    {
+      "description": "{Rabaïs: )",
+      "quantity": "",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "(Net):",
+      "quantity": "",
+      "unit_price": "60.00"
+    },
+    {
+      "description": "# ligne BC: PRESTATION SUPPORT - Description",
+      "quantity": "",
+      "unit_price": "1"
+    },
+    {
+      "description": "GTIN: Période de // au //",
+      "quantity": "01",
+      "unit_price": "2026"
+    },
+    {
+      "description": "(Brut: )",
+      "quantity": "",
+      "unit_price": "10.00"
+    },
+    {
+      "description": "{Rabaïs: )",
+      "quantity": "",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "(Net):",
+      "quantity": "",
+      "unit_price": "10.00"
+    },
+    {
+      "description": "FOURNITURES DIVERSES - Description",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "# ligne BC: Date début : //",
+      "quantity": "01",
+      "unit_price": "2026"
+    },
+    {
+      "description": "(Brut: )",
+      "quantity": "",
+      "unit_price": "5.00"
+    },
+    {
+      "description": "{Rabaïs: )",
+      "quantity": "",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "(Net):",
+      "quantity": "",
+      "unit_price": "5.00"
+    },
+    {
+      "description": "APPEL - Description",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Date fin : //",
+      "quantity": "01",
+      "unit_price": "2026"
+    },
+    {
+      "description": "REMISE : REMISE COMMERCIALE -| (K) %",
+      "quantity": "5,00",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "CHARGE : FRAIS DEPLACEMENT ) {K) %",
+      "quantity": "10,00",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "Détail TVA (motif si eonération code E O K AE) Tau Base TVA Montant TVA",
+      "quantity": ",",
+      "unit_price": "."
+    },
+    {
+      "description": "VATEX-EU-IC LIVRAISON INTRACOMMUNAUTAIRE %",
+      "quantity": "100,00",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "TVA acquittée sur les encaissements",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Tout retard de paiement engendre une pénalité eigible à compter de la date d'échéance calculée sur la base de trois fois le tau",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "d'intérêt légal",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "Indemnité forfaitaire pour frais de recouvrement en cas de retard de paiement : €",
+      "quantity": "40",
+      "unit_price": "."
+    },
+    {
+      "description": "Les réglements reçus avant la date d'échéance ne donneront pas lieu à escompte",
+      "quantity": "",
+      "unit_price": "."
+    }
+  ],
+  "tva_percentage": "",
+  "tva_amount": "",
+  "total_amount": "100.00",
+  "payment_status": "PAID",
+  "solde_du": ""
+}

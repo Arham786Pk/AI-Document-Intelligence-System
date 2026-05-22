@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_real_010",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_real_010\\page_01.png",
+      "text": "p)-0$-Y0-ÊY\n\nRITES SNS\n\nLe\n\n28 rue de chanzy\n71200 Le Creusot\n\n| 0623053801\nTT VArintra--FRE293478848 —\nSiret : 93478811800016\n\n2 repas 3810\nSous total HT 3413\n(a) 10,00 % | 2,84\n(b) 20,00 & | 1,13\nTOTAL TTC EUR 38,10\nCarte de crédit 38,10\n\nJustificatif d'encaisserment\n2 mai 2026, 14:52\nCaisse : 25F4613\n\nTicket #2607\n\nDORÉ EUR D CR ED\n\nMerci de votre visite",
+      "confidence": 0.7836,
+      "char_count": 359,
+      "word_count": 64,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "p)-0$-Y0-ÊY\n\nRITES SNS\n\nLe\n\n28 rue de chanzy\n71200 Le Creusot\n\n| 0623053801\nTT VArintra--FRE293478848 —\nSiret : 93478811800016\n\n2 repas 3810\nSous total HT 3413\n(a) 10,00 % | 2,84\n(b) 20,00 & | 1,13\nTOTAL TTC EUR 38,10\nCarte de crédit 38,10\n\nJustificatif d'encaisserment\n2 mai 2026, 14:52\nCaisse : 25F4613\n\nTicket #2607\n\nDORÉ EUR D CR ED\n\nMerci de votre visite",
+  "mean_confidence": 0.7836,
+  "total_char_count": 359,
+  "total_word_count": 64,
+  "low_quality_pages": [],
+  "error": ""
+}

@@ -27,8 +27,8 @@ def demo_single_page():
     if not processed_dir.exists():
         print(f"❌ Preprocessed directory not found: {processed_dir}")
         print("   Run Task 6 preprocessor first:")
-        print("   python -m src.preprocessor --input data/Images      --output data/processed")
-        print("   python -m src.preprocessor --input data/Scanned_PDF --output data/processed")
+        print("   python -m src.preprocessor --input data/images --output data/processed")
+        print("   python -m src.preprocessor --input data/pdf    --output data/processed")
         return
     
     # Look for any PNG file

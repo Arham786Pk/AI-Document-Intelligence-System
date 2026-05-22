@@ -14,7 +14,7 @@ Per Milestone 1 spec:
 Usage:
     from src.ocr_engine import ocr_invoice, ocr_folder
 
-    result = ocr_invoice("data/processed/Invoice_FR_016_scanned_260508_103316")
+    result = ocr_invoice("data/processed/FR_invoice_real_029")
     print(result.full_text)
     print(f"Confidence: {result.mean_confidence:.2%}")
 
@@ -235,7 +235,7 @@ def ocr_invoice(invoice_dir: str | Path) -> InvoiceOCRResult:
     
     Args:
         invoice_dir: Path to the invoice directory containing page_*.png files.
-                     Example: data/processed/Invoice_FR_016_scanned_260508_103316/
+                     Example: data/processed/FR_invoice_real_029/
     
     Returns:
         InvoiceOCRResult with concatenated text and per-page details.

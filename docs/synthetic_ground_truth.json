@@ -1,0 +1,3021 @@
+{
+  "FR_invoice_synth_001.pdf": {
+    "file_name": "FR_invoice_synth_001.pdf",
+    "supplier_name": "Merle EURL",
+    "invoice_number": "FAC-2025-7505",
+    "invoice_date": "23/10/2025",
+    "siret": "65172862335735",
+    "echeance": "14/08/2026",
+    "invoice_content": [
+      {
+        "description": "Audit de sécurité",
+        "quantity": "44",
+        "unit_price": "925.70"
+      },
+      {
+        "description": "Location d'équipement",
+        "quantity": "10",
+        "unit_price": "441.23"
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "4514.31",
+    "total_amount": "49657.41",
+    "payment_status": "UNPAID",
+    "solde_du": "49657.41",
+    "consumer_name": "Gilbert SARL"
+  },
+  "FR_invoice_synth_002.pdf": {
+    "file_name": "FR_invoice_synth_002.pdf",
+    "supplier_name": "Lopez SARL",
+    "invoice_number": "FC-2026-3073",
+    "invoice_date": "01/01/2026",
+    "siret": "18626596939007",
+    "echeance": "18/03/2026",
+    "invoice_content": [
+      {
+        "description": "Transport de marchandises",
+        "quantity": "10",
+        "unit_price": "22.95"
+      },
+      {
+        "description": "Licence logicielle",
+        "quantity": "7",
+        "unit_price": "606.30"
+      },
+      {
+        "description": "Nettoyage de locaux",
+        "quantity": "44",
+        "unit_price": "127.45"
+      },
+      {
+        "description": "Transport de marchandises",
+        "quantity": "17",
+        "unit_price": "415.66"
+      },
+      {
+        "description": "Installation réseau",
+        "quantity": "5",
+        "unit_price": "518.17"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "26",
+        "unit_price": "89.36"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "4412.37",
+    "total_amount": "26474.20",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Samson SAS"
+  },
+  "FR_invoice_synth_003.pdf": {
+    "file_name": "FR_invoice_synth_003.pdf",
+    "supplier_name": "Dijoux SCI",
+    "invoice_number": "F-2025-0457",
+    "invoice_date": "13/04/2025",
+    "siret": "22472991680330",
+    "echeance": "01/10/2025",
+    "invoice_content": [
+      {
+        "description": "Création graphique",
+        "quantity": "44",
+        "unit_price": "127.48"
+      },
+      {
+        "description": "Installation réseau",
+        "quantity": "11",
+        "unit_price": "299.73"
+      },
+      {
+        "description": "Rédaction de contenu",
+        "quantity": "42",
+        "unit_price": "744.05"
+      },
+      {
+        "description": "Nettoyage de locaux",
+        "quantity": "18",
+        "unit_price": "80.56"
+      },
+      {
+        "description": "Rédaction de contenu",
+        "quantity": "34",
+        "unit_price": "891.42"
+      },
+      {
+        "description": "Formation professionnelle",
+        "quantity": "45",
+        "unit_price": "420.95"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "18171.47",
+    "total_amount": "109028.83",
+    "payment_status": "UNPAID",
+    "solde_du": "109028.83",
+    "consumer_name": "Valentin SAS"
+  },
+  "FR_invoice_synth_004.pdf": {
+    "file_name": "FR_invoice_synth_004.pdf",
+    "supplier_name": "Mahe EURL",
+    "invoice_number": "F-2025-9526",
+    "invoice_date": "24/02/2025",
+    "siret": "77876051787814",
+    "echeance": "15/08/2025",
+    "invoice_content": [
+      {
+        "description": "Support technique",
+        "quantity": "42",
+        "unit_price": "220.90"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "35",
+        "unit_price": "62.90"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "2295.86",
+    "total_amount": "13775.16",
+    "payment_status": "UNPAID",
+    "solde_du": "13775.16",
+    "consumer_name": "Vaillant SAS"
+  },
+  "FR_invoice_synth_005.pdf": {
+    "file_name": "FR_invoice_synth_005.pdf",
+    "supplier_name": "De Oliveira EURL",
+    "invoice_number": "FC-2025-0438",
+    "invoice_date": "09/09/2025",
+    "siret": "88335029518302",
+    "echeance": "06/04/2026",
+    "invoice_content": [
+      {
+        "description": "Hébergement web",
+        "quantity": "6",
+        "unit_price": "795.34"
+      },
+      {
+        "description": "Développement logiciel",
+        "quantity": "28",
+        "unit_price": "291.26"
+      },
+      {
+        "description": "Location d'équipement",
+        "quantity": "28",
+        "unit_price": "119.29"
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "1626.74",
+    "total_amount": "17894.18",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Franck Fouquet"
+  },
+  "FR_invoice_synth_006.pdf": {
+    "file_name": "FR_invoice_synth_006.pdf",
+    "supplier_name": "Guillet EURL",
+    "invoice_number": "FC-2025-9507",
+    "invoice_date": "12/07/2025",
+    "siret": "86945827195530",
+    "echeance": "26/05/2026",
+    "invoice_content": [
+      {
+        "description": "Audit de sécurité",
+        "quantity": "50",
+        "unit_price": "57.31"
+      },
+      {
+        "description": "Développement logiciel",
+        "quantity": "7",
+        "unit_price": "255.43"
+      },
+      {
+        "description": "Transport de marchandises",
+        "quantity": "19",
+        "unit_price": "618.18"
+      },
+      {
+        "description": "Installation réseau",
+        "quantity": "31",
+        "unit_price": "198.29"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "1240.03",
+    "total_amount": "23785.95",
+    "payment_status": "UNPAID",
+    "solde_du": "23785.95",
+    "consumer_name": "Alexandre EURL"
+  },
+  "FR_invoice_synth_007.pdf": {
+    "file_name": "FR_invoice_synth_007.pdf",
+    "supplier_name": "Perrot SA",
+    "invoice_number": "FAC-2025-4471",
+    "invoice_date": "30/04/2025",
+    "siret": "03950384291604",
+    "echeance": "09/05/2025",
+    "invoice_content": [
+      {
+        "description": "Installation réseau",
+        "quantity": "48",
+        "unit_price": "940.38"
+      },
+      {
+        "description": "Formation professionnelle",
+        "quantity": "48",
+        "unit_price": "13.59"
+      },
+      {
+        "description": "Nettoyage de locaux",
+        "quantity": "19",
+        "unit_price": "939.52"
+      },
+      {
+        "description": "Licence logicielle",
+        "quantity": "6",
+        "unit_price": "93.38"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "3531.09",
+    "total_amount": "67732.81",
+    "payment_status": "UNPAID",
+    "solde_du": "67732.81",
+    "consumer_name": "Mme Bertrand Rolland"
+  },
+  "FR_invoice_synth_008.pdf": {
+    "file_name": "FR_invoice_synth_008.pdf",
+    "supplier_name": "David SARL",
+    "invoice_number": "FAC-2024-7149",
+    "invoice_date": "03/10/2024",
+    "siret": "24238038079490",
+    "echeance": "01/06/2025",
+    "invoice_content": [
+      {
+        "description": "Développement logiciel",
+        "quantity": "46",
+        "unit_price": "856.67"
+      },
+      {
+        "description": "Rédaction de contenu",
+        "quantity": "43",
+        "unit_price": "871.94"
+      },
+      {
+        "description": "Location d'équipement",
+        "quantity": "4",
+        "unit_price": "847.60"
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "8029.06",
+    "total_amount": "88319.70",
+    "payment_status": "UNPAID",
+    "solde_du": "88319.70",
+    "consumer_name": "Valentin SCI"
+  },
+  "FR_invoice_synth_009.pdf": {
+    "file_name": "FR_invoice_synth_009.pdf",
+    "supplier_name": "Dijoux SCI",
+    "invoice_number": "F-2025-2405",
+    "invoice_date": "09/02/2025",
+    "siret": "51102919508543",
+    "echeance": "12/04/2025",
+    "invoice_content": [
+      {
+        "description": "Développement logiciel",
+        "quantity": "14",
+        "unit_price": "140.40"
+      },
+      {
+        "description": "Développement logiciel",
+        "quantity": "15",
+        "unit_price": "359.69"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "1472.19",
+    "total_amount": "8833.14",
+    "payment_status": "UNPAID",
+    "solde_du": "8833.14",
+    "consumer_name": "Hebert EURL"
+  },
+  "FR_invoice_synth_010.pdf": {
+    "file_name": "FR_invoice_synth_010.pdf",
+    "supplier_name": "Arnaud SAS",
+    "invoice_number": "FAC-2024-8366",
+    "invoice_date": "20/07/2024",
+    "siret": "87283341033917",
+    "echeance": "14/02/2026",
+    "invoice_content": [
+      {
+        "description": "Support technique",
+        "quantity": "22",
+        "unit_price": "443.29"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "9",
+        "unit_price": "822.33"
+      },
+      {
+        "description": "Location d'équipement",
+        "quantity": "41",
+        "unit_price": "135.43"
+      },
+      {
+        "description": "Installation réseau",
+        "quantity": "41",
+        "unit_price": "436.97"
+      },
+      {
+        "description": "Installation réseau",
+        "quantity": "14",
+        "unit_price": "410.30"
+      },
+      {
+        "description": "Formation professionnelle",
+        "quantity": "11",
+        "unit_price": "433.63"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "2812.47",
+    "total_amount": "53948.35",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "M. Alexandre Coulon"
+  },
+  "FR_invoice_synth_011.pdf": {
+    "file_name": "FR_invoice_synth_011.pdf",
+    "supplier_name": "Leconte SASU",
+    "invoice_number": "FC-2026-2395",
+    "invoice_date": "17/03/2026",
+    "siret": "81666226318854",
+    "echeance": "03/05/2026",
+    "invoice_content": [
+      {
+        "description": "Hébergement web",
+        "quantity": "39",
+        "unit_price": "733.16"
+      },
+      {
+        "description": "Support technique",
+        "quantity": "34",
+        "unit_price": "77.19"
+      },
+      {
+        "description": "Formation professionnelle",
+        "quantity": "34",
+        "unit_price": "526.74"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "48",
+        "unit_price": "673.08"
+      },
+      {
+        "description": "Transport de marchandises",
+        "quantity": "10",
+        "unit_price": "482.54"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "17252.02",
+    "total_amount": "103512.12",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Texier SAS"
+  },
+  "FR_invoice_synth_012.pdf": {
+    "file_name": "FR_invoice_synth_012.pdf",
+    "supplier_name": "Poulain SA",
+    "invoice_number": "FAC-2025-1325",
+    "invoice_date": "07/04/2025",
+    "siret": "27678421746915",
+    "echeance": "22/08/2025",
+    "invoice_content": [
+      {
+        "description": "Prestation de conseil",
+        "quantity": "23",
+        "unit_price": "456.23"
+      },
+      {
+        "description": "Nettoyage de locaux",
+        "quantity": "31",
+        "unit_price": "798.07"
+      },
+      {
+        "description": "Rédaction de contenu",
+        "quantity": "11",
+        "unit_price": "510.83"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "18",
+        "unit_price": "506.00"
+      },
+      {
+        "description": "Formation professionnelle",
+        "quantity": "46",
+        "unit_price": "702.50"
+      },
+      {
+        "description": "Nettoyage de locaux",
+        "quantity": "29",
+        "unit_price": "226.07"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "17766.32",
+    "total_amount": "106597.94",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Mme Philippe Martinez"
+  },
+  "FR_invoice_synth_013.pdf": {
+    "file_name": "FR_invoice_synth_013.pdf",
+    "supplier_name": "Maillot SA",
+    "invoice_number": "F-2025-1719",
+    "invoice_date": "30/03/2025",
+    "siret": "39054689327606",
+    "echeance": "07/09/2025",
+    "invoice_content": [
+      {
+        "description": "Audit de sécurité",
+        "quantity": "15",
+        "unit_price": "909.25"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "47",
+        "unit_price": "345.74"
+      },
+      {
+        "description": "Transport de marchandises",
+        "quantity": "14",
+        "unit_price": "584.51"
+      },
+      {
+        "description": "Audit de sécurité",
+        "quantity": "36",
+        "unit_price": "864.55"
+      },
+      {
+        "description": "Formation professionnelle",
+        "quantity": "41",
+        "unit_price": "784.40"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "15",
+        "unit_price": "107.07"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "20592.38",
+    "total_amount": "123554.30",
+    "payment_status": "UNPAID",
+    "solde_du": "123554.30",
+    "consumer_name": "Mme Hugues Rodrigues"
+  },
+  "FR_invoice_synth_014.pdf": {
+    "file_name": "FR_invoice_synth_014.pdf",
+    "supplier_name": "Marin EURL",
+    "invoice_number": "FC-2024-5414",
+    "invoice_date": "05/12/2024",
+    "siret": "29906063405197",
+    "echeance": "23/05/2026",
+    "invoice_content": [
+      {
+        "description": "Installation réseau",
+        "quantity": "17",
+        "unit_price": "285.24"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "44",
+        "unit_price": "157.73"
+      },
+      {
+        "description": "Rédaction de contenu",
+        "quantity": "21",
+        "unit_price": "597.32"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "1338.31",
+    "total_amount": "25671.23",
+    "payment_status": "UNPAID",
+    "solde_du": "25671.23",
+    "consumer_name": "Salmon SASU"
+  },
+  "FR_invoice_synth_015.pdf": {
+    "file_name": "FR_invoice_synth_015.pdf",
+    "supplier_name": "Buisson SCI",
+    "invoice_number": "FAC-2024-3528",
+    "invoice_date": "04/12/2024",
+    "siret": "06699278746971",
+    "echeance": "31/12/2024",
+    "invoice_content": [
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "16",
+        "unit_price": "495.06"
+      },
+      {
+        "description": "Support technique",
+        "quantity": "24",
+        "unit_price": "533.10"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "50",
+        "unit_price": "521.09"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "9353.97",
+    "total_amount": "56123.83",
+    "payment_status": "UNPAID",
+    "solde_du": "56123.83",
+    "consumer_name": "M. Aimé Dupuis"
+  },
+  "FR_invoice_img_synth_001.png": {
+    "file_name": "FR_invoice_img_synth_001.png",
+    "supplier_name": "Duval SARL",
+    "invoice_number": "FC-2025-5409",
+    "invoice_date": "09/01/2025",
+    "siret": "86469479091676",
+    "echeance": "21/01/2026",
+    "invoice_content": [
+      {
+        "description": "Création graphique",
+        "quantity": "20",
+        "unit_price": "47.91"
+      },
+      {
+        "description": "Développement logiciel",
+        "quantity": "25",
+        "unit_price": "563.28"
+      },
+      {
+        "description": "Création graphique",
+        "quantity": "17",
+        "unit_price": "407.13"
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "2196.14",
+    "total_amount": "24157.55",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Ledoux EURL"
+  },
+  "FR_invoice_img_synth_002.png": {
+    "file_name": "FR_invoice_img_synth_002.png",
+    "supplier_name": "Marchal SA",
+    "invoice_number": "FAC-2025-9441",
+    "invoice_date": "20/03/2025",
+    "siret": "58215707879869",
+    "echeance": "17/05/2026",
+    "invoice_content": [
+      {
+        "description": "Hébergement web",
+        "quantity": "7",
+        "unit_price": "559.41"
+      },
+      {
+        "description": "Transport de marchandises",
+        "quantity": "22",
+        "unit_price": "346.67"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "22",
+        "unit_price": "336.12"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "3787.45",
+    "total_amount": "22724.70",
+    "payment_status": "UNPAID",
+    "solde_du": "22724.70",
+    "consumer_name": "Chauveau SCI"
+  },
+  "FR_invoice_img_synth_003.png": {
+    "file_name": "FR_invoice_img_synth_003.png",
+    "supplier_name": "Leduc EURL",
+    "invoice_number": "FC-2025-5589",
+    "invoice_date": "17/04/2025",
+    "siret": "31541440478697",
+    "echeance": "12/09/2025",
+    "invoice_content": [
+      {
+        "description": "Transport de marchandises",
+        "quantity": "47",
+        "unit_price": "533.78"
+      },
+      {
+        "description": "Développement logiciel",
+        "quantity": "5",
+        "unit_price": "466.19"
+      },
+      {
+        "description": "Audit de sécurité",
+        "quantity": "41",
+        "unit_price": "446.34"
+      },
+      {
+        "description": "Nettoyage de locaux",
+        "quantity": "9",
+        "unit_price": "479.12"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "8",
+        "unit_price": "152.61"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "18",
+        "unit_price": "140.76"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "10757.04",
+    "total_amount": "64542.23",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Bousquet EURL"
+  },
+  "FR_invoice_img_synth_004.png": {
+    "file_name": "FR_invoice_img_synth_004.png",
+    "supplier_name": "Carlier EURL",
+    "invoice_number": "FC-2026-6313",
+    "invoice_date": "09/01/2026",
+    "siret": "13953286316822",
+    "echeance": "11/06/2026",
+    "invoice_content": [
+      {
+        "description": "Création graphique",
+        "quantity": "28",
+        "unit_price": "914.93"
+      },
+      {
+        "description": "Transport de marchandises",
+        "quantity": "39",
+        "unit_price": "371.25"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "7",
+        "unit_price": "194.83"
+      },
+      {
+        "description": "Audit de sécurité",
+        "quantity": "40",
+        "unit_price": "897.25"
+      },
+      {
+        "description": "Transport de marchandises",
+        "quantity": "32",
+        "unit_price": "248.08"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "24",
+        "unit_price": "798.36"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "5744.74",
+    "total_amount": "110194.54",
+    "payment_status": "UNPAID",
+    "solde_du": "110194.54",
+    "consumer_name": "Clerc EURL"
+  },
+  "FR_invoice_img_synth_005.png": {
+    "file_name": "FR_invoice_img_synth_005.png",
+    "supplier_name": "Fontaine SARL",
+    "invoice_number": "F-2024-0797",
+    "invoice_date": "07/08/2024",
+    "siret": "37983466443415",
+    "echeance": "02/04/2026",
+    "invoice_content": [
+      {
+        "description": "Rédaction de contenu",
+        "quantity": "19",
+        "unit_price": "770.05"
+      },
+      {
+        "description": "Développement logiciel",
+        "quantity": "31",
+        "unit_price": "46.44"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "32",
+        "unit_price": "153.06"
+      },
+      {
+        "description": "Licence logicielle",
+        "quantity": "34",
+        "unit_price": "644.36"
+      },
+      {
+        "description": "Location d'équipement",
+        "quantity": "32",
+        "unit_price": "164.56"
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "4814.27",
+    "total_amount": "52956.94",
+    "payment_status": "UNPAID",
+    "solde_du": "52956.94",
+    "consumer_name": "M. Xavier Benoit"
+  },
+  "FR_invoice_img_synth_006.png": {
+    "file_name": "FR_invoice_img_synth_006.png",
+    "supplier_name": "Marie SARL",
+    "invoice_number": "F-2026-2085",
+    "invoice_date": "11/01/2026",
+    "siret": "92429456884460",
+    "echeance": "17/06/2026",
+    "invoice_content": [
+      {
+        "description": "Licence logicielle",
+        "quantity": "48",
+        "unit_price": "473.75"
+      },
+      {
+        "description": "Développement logiciel",
+        "quantity": "38",
+        "unit_price": "624.05"
+      },
+      {
+        "description": "Licence logicielle",
+        "quantity": "10",
+        "unit_price": "372.87"
+      },
+      {
+        "description": "Audit de sécurité",
+        "quantity": "34",
+        "unit_price": "90.97"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "1",
+        "unit_price": "374.08"
+      },
+      {
+        "description": "Installation réseau",
+        "quantity": "12",
+        "unit_price": "276.55"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "3133.25",
+    "total_amount": "60101.51",
+    "payment_status": "UNPAID",
+    "solde_du": "60101.51",
+    "consumer_name": "Mme André Pinto"
+  },
+  "FR_invoice_img_synth_007.png": {
+    "file_name": "FR_invoice_img_synth_007.png",
+    "supplier_name": "Laporte SCI",
+    "invoice_number": "FC-2024-9607",
+    "invoice_date": "06/10/2024",
+    "siret": "34869665117426",
+    "echeance": "18/12/2025",
+    "invoice_content": [
+      {
+        "description": "Création graphique",
+        "quantity": "42",
+        "unit_price": "10.45"
+      },
+      {
+        "description": "Développement logiciel",
+        "quantity": "31",
+        "unit_price": "332.62"
+      },
+      {
+        "description": "Licence logicielle",
+        "quantity": "16",
+        "unit_price": "339.27"
+      },
+      {
+        "description": "Licence logicielle",
+        "quantity": "30",
+        "unit_price": "835.49"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "2268.37",
+    "total_amount": "43511.51",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Grégoire SCI"
+  },
+  "FR_invoice_img_synth_008.png": {
+    "file_name": "FR_invoice_img_synth_008.png",
+    "supplier_name": "Payet SAS",
+    "invoice_number": "FAC-2025-2495",
+    "invoice_date": "25/02/2025",
+    "siret": "51681536047465",
+    "echeance": "03/05/2025",
+    "invoice_content": [
+      {
+        "description": "Création graphique",
+        "quantity": "4",
+        "unit_price": "150.13"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "11",
+        "unit_price": "35.82"
+      },
+      {
+        "description": "Location d'équipement",
+        "quantity": "38",
+        "unit_price": "603.54"
+      },
+      {
+        "description": "Audit de sécurité",
+        "quantity": "31",
+        "unit_price": "450.72"
+      },
+      {
+        "description": "Développement logiciel",
+        "quantity": "35",
+        "unit_price": "431.38"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "10599.94",
+    "total_amount": "63599.62",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Antoinette Godard"
+  },
+  "FR_invoice_img_synth_009.png": {
+    "file_name": "FR_invoice_img_synth_009.png",
+    "supplier_name": "Camus EURL",
+    "invoice_number": "F-2025-1712",
+    "invoice_date": "06/05/2025",
+    "siret": "26406555664184",
+    "echeance": "12/05/2026",
+    "invoice_content": [
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "13",
+        "unit_price": "477.79"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "7",
+        "unit_price": "329.20"
+      },
+      {
+        "description": "Location d'équipement",
+        "quantity": "30",
+        "unit_price": "743.54"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "6164.37",
+    "total_amount": "36986.24",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Wagner EURL"
+  },
+  "FR_invoice_img_synth_010.png": {
+    "file_name": "FR_invoice_img_synth_010.png",
+    "supplier_name": "Moreau SARL",
+    "invoice_number": "F-2025-7766",
+    "invoice_date": "27/01/2025",
+    "siret": "58178556126162",
+    "echeance": "06/03/2026",
+    "invoice_content": [
+      {
+        "description": "Transport de marchandises",
+        "quantity": "23",
+        "unit_price": "587.63"
+      },
+      {
+        "description": "Développement logiciel",
+        "quantity": "39",
+        "unit_price": "88.42"
+      },
+      {
+        "description": "Développement logiciel",
+        "quantity": "41",
+        "unit_price": "732.62"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "7",
+        "unit_price": "347.14"
+      },
+      {
+        "description": "Formation professionnelle",
+        "quantity": "1",
+        "unit_price": "355.40"
+      },
+      {
+        "description": "Transport de marchandises",
+        "quantity": "12",
+        "unit_price": "132.42"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "10275.14",
+    "total_amount": "61650.85",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Mme Christine Perrier"
+  },
+  "FR_invoice_img_synth_011.png": {
+    "file_name": "FR_invoice_img_synth_011.png",
+    "supplier_name": "Lacroix SAS",
+    "invoice_number": "FC-2024-4913",
+    "invoice_date": "27/10/2024",
+    "siret": "53365752411583",
+    "echeance": "21/07/2025",
+    "invoice_content": [
+      {
+        "description": "Création graphique",
+        "quantity": "34",
+        "unit_price": "940.07"
+      },
+      {
+        "description": "Prestation de conseil",
+        "quantity": "18",
+        "unit_price": "740.12"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "2490.65",
+    "total_amount": "47775.19",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Mme Bertrand Bertrand"
+  },
+  "FR_invoice_img_synth_012.png": {
+    "file_name": "FR_invoice_img_synth_012.png",
+    "supplier_name": "Michel SARL",
+    "invoice_number": "F-2024-3966",
+    "invoice_date": "13/12/2024",
+    "siret": "64396785881175",
+    "echeance": "10/10/2025",
+    "invoice_content": [
+      {
+        "description": "Installation réseau",
+        "quantity": "1",
+        "unit_price": "873.45"
+      },
+      {
+        "description": "Création graphique",
+        "quantity": "43",
+        "unit_price": "631.58"
+      },
+      {
+        "description": "Création graphique",
+        "quantity": "30",
+        "unit_price": "328.09"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "12",
+        "unit_price": "657.57"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "9152.99",
+    "total_amount": "54917.92",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Reynaud SA"
+  },
+  "FR_invoice_img_synth_013.png": {
+    "file_name": "FR_invoice_img_synth_013.png",
+    "supplier_name": "Lefebvre SARL",
+    "invoice_number": "F-2025-4501",
+    "invoice_date": "15/07/2025",
+    "siret": "87309680880994",
+    "echeance": "31/07/2026",
+    "invoice_content": [
+      {
+        "description": "Développement logiciel",
+        "quantity": "25",
+        "unit_price": "858.34"
+      },
+      {
+        "description": "Création graphique",
+        "quantity": "39",
+        "unit_price": "94.89"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "5031.84",
+    "total_amount": "30191.05",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "M. Gabriel Perez"
+  },
+  "FR_invoice_img_synth_014.png": {
+    "file_name": "FR_invoice_img_synth_014.png",
+    "supplier_name": "Pinto EURL",
+    "invoice_number": "FAC-2025-1739",
+    "invoice_date": "22/03/2025",
+    "siret": "43758630011391",
+    "echeance": "23/07/2026",
+    "invoice_content": [
+      {
+        "description": "Création graphique",
+        "quantity": "49",
+        "unit_price": "168.83"
+      },
+      {
+        "description": "Support technique",
+        "quantity": "28",
+        "unit_price": "219.39"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "2883.12",
+    "total_amount": "17298.71",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Godard SASU"
+  },
+  "FR_invoice_img_synth_015.png": {
+    "file_name": "FR_invoice_img_synth_015.png",
+    "supplier_name": "Texier SCI",
+    "invoice_number": "FC-2025-8822",
+    "invoice_date": "11/09/2025",
+    "siret": "82888646514546",
+    "echeance": "02/04/2026",
+    "invoice_content": [
+      {
+        "description": "Location d'équipement",
+        "quantity": "33",
+        "unit_price": "431.22"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "8",
+        "unit_price": "832.94"
+      },
+      {
+        "description": "Prestation de conseil",
+        "quantity": "1",
+        "unit_price": "661.73"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "45",
+        "unit_price": "10.61"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "4406.59",
+    "total_amount": "26439.55",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Thibault Boutin"
+  },
+  "FR_invoice_img_synth_016.png": {
+    "file_name": "FR_invoice_img_synth_016.png",
+    "supplier_name": "Lefèvre SARL",
+    "invoice_number": "F-2025-5963",
+    "invoice_date": "28/08/2025",
+    "siret": "23786172309220",
+    "echeance": "27/10/2025",
+    "invoice_content": [
+      {
+        "description": "Hébergement web",
+        "quantity": "28",
+        "unit_price": "52.23"
+      },
+      {
+        "description": "Installation réseau",
+        "quantity": "26",
+        "unit_price": "855.56"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "16",
+        "unit_price": "45.99"
+      },
+      {
+        "description": "Création graphique",
+        "quantity": "10",
+        "unit_price": "363.15"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "5614.87",
+    "total_amount": "33689.21",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Audrey Lecoq"
+  },
+  "FR_invoice_img_synth_017.png": {
+    "file_name": "FR_invoice_img_synth_017.png",
+    "supplier_name": "Bonnin SASU",
+    "invoice_number": "FAC-2025-3245",
+    "invoice_date": "22/07/2025",
+    "siret": "05505476750720",
+    "echeance": "21/08/2025",
+    "invoice_content": [
+      {
+        "description": "Nettoyage de locaux",
+        "quantity": "3",
+        "unit_price": "551.24"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "49",
+        "unit_price": "715.81"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "45",
+        "unit_price": "18.61"
+      },
+      {
+        "description": "Support technique",
+        "quantity": "3",
+        "unit_price": "450.66"
+      },
+      {
+        "description": "Audit de sécurité",
+        "quantity": "7",
+        "unit_price": "599.13"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "46",
+        "unit_price": "559.75"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "13772.05",
+    "total_amount": "82632.30",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Masse SARL"
+  },
+  "FR_invoice_img_synth_018.png": {
+    "file_name": "FR_invoice_img_synth_018.png",
+    "supplier_name": "Chevallier EURL",
+    "invoice_number": "FC-2025-6025",
+    "invoice_date": "19/07/2025",
+    "siret": "25374305034662",
+    "echeance": "13/06/2026",
+    "invoice_content": [
+      {
+        "description": "Prestation de conseil",
+        "quantity": "2",
+        "unit_price": "686.95"
+      },
+      {
+        "description": "Formation professionnelle",
+        "quantity": "37",
+        "unit_price": "664.09"
+      },
+      {
+        "description": "Développement logiciel",
+        "quantity": "17",
+        "unit_price": "598.86"
+      },
+      {
+        "description": "Nettoyage de locaux",
+        "quantity": "23",
+        "unit_price": "46.30"
+      },
+      {
+        "description": "Support technique",
+        "quantity": "3",
+        "unit_price": "219.63"
+      },
+      {
+        "description": "Prestation de conseil",
+        "quantity": "9",
+        "unit_price": "916.42"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "9219.48",
+    "total_amount": "55316.90",
+    "payment_status": "UNPAID",
+    "solde_du": "55316.90",
+    "consumer_name": "Delahaye EURL"
+  },
+  "FR_invoice_img_synth_019.png": {
+    "file_name": "FR_invoice_img_synth_019.png",
+    "supplier_name": "Imbert SASU",
+    "invoice_number": "F-2024-6341",
+    "invoice_date": "18/12/2024",
+    "siret": "71130662212602",
+    "echeance": "08/12/2025",
+    "invoice_content": [
+      {
+        "description": "Prestation de conseil",
+        "quantity": "38",
+        "unit_price": "443.70"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "26",
+        "unit_price": "608.12"
+      },
+      {
+        "description": "Rédaction de contenu",
+        "quantity": "20",
+        "unit_price": "81.81"
+      },
+      {
+        "description": "Audit de sécurité",
+        "quantity": "18",
+        "unit_price": "526.49"
+      },
+      {
+        "description": "Prestation de conseil",
+        "quantity": "48",
+        "unit_price": "281.21"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "3150.56",
+    "total_amount": "60433.38",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "M. Marc Petitjean"
+  },
+  "FR_invoice_img_synth_020.png": {
+    "file_name": "FR_invoice_img_synth_020.png",
+    "supplier_name": "Morel SARL",
+    "invoice_number": "F-2024-3795",
+    "invoice_date": "30/07/2024",
+    "siret": "16136325502049",
+    "echeance": "03/10/2024",
+    "invoice_content": [
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "9",
+        "unit_price": "659.58"
+      },
+      {
+        "description": "Transport de marchandises",
+        "quantity": "16",
+        "unit_price": "618.88"
+      },
+      {
+        "description": "Audit de sécurité",
+        "quantity": "36",
+        "unit_price": "850.11"
+      },
+      {
+        "description": "Prestation de conseil",
+        "quantity": "42",
+        "unit_price": "339.95"
+      },
+      {
+        "description": "Formation professionnelle",
+        "quantity": "42",
+        "unit_price": "649.88"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "17603.02",
+    "total_amount": "105618.14",
+    "payment_status": "UNPAID",
+    "solde_du": "105618.14",
+    "consumer_name": "Lefort SARL"
+  },
+  "FR_invoice_img_synth_021.png": {
+    "file_name": "FR_invoice_img_synth_021.png",
+    "supplier_name": "Samson SASU",
+    "invoice_number": "F-2026-9649",
+    "invoice_date": "12/04/2026",
+    "siret": "24210608343056",
+    "echeance": "06/07/2026",
+    "invoice_content": [
+      {
+        "description": "Installation réseau",
+        "quantity": "43",
+        "unit_price": "155.06"
+      },
+      {
+        "description": "Prestation de conseil",
+        "quantity": "25",
+        "unit_price": "472.37"
+      },
+      {
+        "description": "Création graphique",
+        "quantity": "10",
+        "unit_price": "532.05"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "4759.47",
+    "total_amount": "28556.80",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Delahaye EURL"
+  },
+  "FR_invoice_img_synth_022.png": {
+    "file_name": "FR_invoice_img_synth_022.png",
+    "supplier_name": "Legros EURL",
+    "invoice_number": "F-2025-7839",
+    "invoice_date": "09/12/2025",
+    "siret": "11015720559198",
+    "echeance": "12/01/2026",
+    "invoice_content": [
+      {
+        "description": "Nettoyage de locaux",
+        "quantity": "44",
+        "unit_price": "553.70"
+      },
+      {
+        "description": "Formation professionnelle",
+        "quantity": "2",
+        "unit_price": "64.46"
+      },
+      {
+        "description": "Nettoyage de locaux",
+        "quantity": "46",
+        "unit_price": "354.91"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "8163.52",
+    "total_amount": "48981.10",
+    "payment_status": "UNPAID",
+    "solde_du": "48981.10",
+    "consumer_name": "Grenier SASU"
+  },
+  "FR_invoice_img_synth_023.png": {
+    "file_name": "FR_invoice_img_synth_023.png",
+    "supplier_name": "Clément SARL",
+    "invoice_number": "FC-2025-1162",
+    "invoice_date": "07/06/2025",
+    "siret": "10054932908240",
+    "echeance": "30/08/2025",
+    "invoice_content": [
+      {
+        "description": "Formation professionnelle",
+        "quantity": "48",
+        "unit_price": "37.95"
+      },
+      {
+        "description": "Nettoyage de locaux",
+        "quantity": "20",
+        "unit_price": "916.98"
+      },
+      {
+        "description": "Rédaction de contenu",
+        "quantity": "25",
+        "unit_price": "394.73"
+      },
+      {
+        "description": "Licence logicielle",
+        "quantity": "16",
+        "unit_price": "153.16"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "24",
+        "unit_price": "178.96"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "7355.01",
+    "total_amount": "44130.06",
+    "payment_status": "UNPAID",
+    "solde_du": "44130.06",
+    "consumer_name": "Mme Brigitte Maillet"
+  },
+  "FR_invoice_img_synth_024.png": {
+    "file_name": "FR_invoice_img_synth_024.png",
+    "supplier_name": "Marie SARL",
+    "invoice_number": "FAC-2024-6723",
+    "invoice_date": "14/09/2024",
+    "siret": "15707720094418",
+    "echeance": "19/12/2024",
+    "invoice_content": [
+      {
+        "description": "Audit de sécurité",
+        "quantity": "23",
+        "unit_price": "375.37"
+      },
+      {
+        "description": "Création graphique",
+        "quantity": "21",
+        "unit_price": "69.85"
+      },
+      {
+        "description": "Rédaction de contenu",
+        "quantity": "29",
+        "unit_price": "215.88"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "15",
+        "unit_price": "815.35"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "29",
+        "unit_price": "663.60"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "9567.11",
+    "total_amount": "57402.64",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Mme David Adam"
+  },
+  "FR_invoice_img_synth_025.png": {
+    "file_name": "FR_invoice_img_synth_025.png",
+    "supplier_name": "Labbé SASU",
+    "invoice_number": "FC-2024-5047",
+    "invoice_date": "12/10/2024",
+    "siret": "10361220201509",
+    "echeance": "08/03/2025",
+    "invoice_content": [
+      {
+        "description": "Transport de marchandises",
+        "quantity": "44",
+        "unit_price": "757.02"
+      },
+      {
+        "description": "Installation réseau",
+        "quantity": "7",
+        "unit_price": "696.29"
+      },
+      {
+        "description": "Licence logicielle",
+        "quantity": "8",
+        "unit_price": "311.19"
+      },
+      {
+        "description": "Formation professionnelle",
+        "quantity": "7",
+        "unit_price": "914.44"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "9414.70",
+    "total_amount": "56488.21",
+    "payment_status": "UNPAID",
+    "solde_du": "56488.21",
+    "consumer_name": "Laroche SAS"
+  },
+  "FR_invoice_img_synth_026.png": {
+    "file_name": "FR_invoice_img_synth_026.png",
+    "supplier_name": "Schneider SA",
+    "invoice_number": "FAC-2025-8557",
+    "invoice_date": "23/11/2025",
+    "siret": "54049549296335",
+    "echeance": "22/02/2026",
+    "invoice_content": [
+      {
+        "description": "Nettoyage de locaux",
+        "quantity": "46",
+        "unit_price": "66.42"
+      },
+      {
+        "description": "Création graphique",
+        "quantity": "27",
+        "unit_price": "351.91"
+      },
+      {
+        "description": "Licence logicielle",
+        "quantity": "33",
+        "unit_price": "594.93"
+      },
+      {
+        "description": "Rédaction de contenu",
+        "quantity": "37",
+        "unit_price": "46.76"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "6783.94",
+    "total_amount": "40703.64",
+    "payment_status": "UNPAID",
+    "solde_du": "40703.64",
+    "consumer_name": "Mme Jérôme Moreno"
+  },
+  "FR_invoice_img_synth_027.png": {
+    "file_name": "FR_invoice_img_synth_027.png",
+    "supplier_name": "Pichon EURL",
+    "invoice_number": "FC-2025-8593",
+    "invoice_date": "13/03/2025",
+    "siret": "03131683277317",
+    "echeance": "20/03/2025",
+    "invoice_content": [
+      {
+        "description": "Location d'équipement",
+        "quantity": "33",
+        "unit_price": "785.20"
+      },
+      {
+        "description": "Création graphique",
+        "quantity": "9",
+        "unit_price": "907.61"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "37",
+        "unit_price": "621.40"
+      },
+      {
+        "description": "Prestation de conseil",
+        "quantity": "38",
+        "unit_price": "844.01"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "18",
+        "unit_price": "653.59"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "5549.99",
+    "total_amount": "106458.88",
+    "payment_status": "UNPAID",
+    "solde_du": "106458.88",
+    "consumer_name": "Mme Isaac De Sousa"
+  },
+  "FR_invoice_img_synth_028.png": {
+    "file_name": "FR_invoice_img_synth_028.png",
+    "supplier_name": "Menard SAS",
+    "invoice_number": "FAC-2024-1066",
+    "invoice_date": "02/07/2024",
+    "siret": "54764277252874",
+    "echeance": "27/11/2025",
+    "invoice_content": [
+      {
+        "description": "Location d'équipement",
+        "quantity": "49",
+        "unit_price": "407.73"
+      },
+      {
+        "description": "Support technique",
+        "quantity": "38",
+        "unit_price": "895.73"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "14",
+        "unit_price": "725.77"
+      },
+      {
+        "description": "Prestation de conseil",
+        "quantity": "29",
+        "unit_price": "103.80"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "13437.50",
+    "total_amount": "80624.99",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "M. William Monnier"
+  },
+  "FR_invoice_img_synth_029.png": {
+    "file_name": "FR_invoice_img_synth_029.png",
+    "supplier_name": "Blin SCI",
+    "invoice_number": "FC-2025-3805",
+    "invoice_date": "22/05/2025",
+    "siret": "33054237441665",
+    "echeance": "25/11/2025",
+    "invoice_content": [
+      {
+        "description": "Transport de marchandises",
+        "quantity": "49",
+        "unit_price": "598.78"
+      },
+      {
+        "description": "Prestation de conseil",
+        "quantity": "40",
+        "unit_price": "806.19"
+      },
+      {
+        "description": "Développement logiciel",
+        "quantity": "23",
+        "unit_price": "48.78"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "48",
+        "unit_price": "920.78"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "21381.44",
+    "total_amount": "128288.64",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Mme Aimée Breton"
+  },
+  "FR_invoice_img_synth_030.png": {
+    "file_name": "FR_invoice_img_synth_030.png",
+    "supplier_name": "Hubert SAS",
+    "invoice_number": "FAC-2025-4707",
+    "invoice_date": "26/12/2025",
+    "siret": "90322837800508",
+    "echeance": "17/06/2026",
+    "invoice_content": [
+      {
+        "description": "Formation professionnelle",
+        "quantity": "9",
+        "unit_price": "659.59"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "47",
+        "unit_price": "421.89"
+      },
+      {
+        "description": "Installation réseau",
+        "quantity": "13",
+        "unit_price": "882.26"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "42",
+        "unit_price": "650.07"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "12907.49",
+    "total_amount": "77444.95",
+    "payment_status": "UNPAID",
+    "solde_du": "77444.95",
+    "consumer_name": "Mme Agathe Pons"
+  },
+  "FR_invoice_img_synth_031.png": {
+    "file_name": "FR_invoice_img_synth_031.png",
+    "supplier_name": "Labbé SASU",
+    "invoice_number": "FAC-2025-3783",
+    "invoice_date": "17/11/2025",
+    "siret": "67717257728928",
+    "echeance": "02/08/2026",
+    "invoice_content": [
+      {
+        "description": "Développement logiciel",
+        "quantity": "39",
+        "unit_price": "312.12"
+      },
+      {
+        "description": "Création graphique",
+        "quantity": "23",
+        "unit_price": "241.00"
+      },
+      {
+        "description": "Audit de sécurité",
+        "quantity": "14",
+        "unit_price": "936.31"
+      },
+      {
+        "description": "Développement logiciel",
+        "quantity": "17",
+        "unit_price": "570.12"
+      },
+      {
+        "description": "Création graphique",
+        "quantity": "12",
+        "unit_price": "516.09"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "13",
+        "unit_price": "570.81"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "2977.13",
+    "total_amount": "57106.80",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Morel SARL"
+  },
+  "FR_invoice_img_synth_032.png": {
+    "file_name": "FR_invoice_img_synth_032.png",
+    "supplier_name": "Pinto EURL",
+    "invoice_number": "FC-2026-3356",
+    "invoice_date": "07/02/2026",
+    "siret": "15532021443685",
+    "echeance": "13/05/2026",
+    "invoice_content": [
+      {
+        "description": "Location d'équipement",
+        "quantity": "13",
+        "unit_price": "214.14"
+      },
+      {
+        "description": "Développement logiciel",
+        "quantity": "33",
+        "unit_price": "523.21"
+      },
+      {
+        "description": "Audit de sécurité",
+        "quantity": "27",
+        "unit_price": "19.18"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "21",
+        "unit_price": "139.92"
+      },
+      {
+        "description": "Support technique",
+        "quantity": "20",
+        "unit_price": "725.04"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "7601.35",
+    "total_amount": "45608.08",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Joseph EURL"
+  },
+  "FR_invoice_img_synth_033.png": {
+    "file_name": "FR_invoice_img_synth_033.png",
+    "supplier_name": "Chevalier SARL",
+    "invoice_number": "F-2024-7361",
+    "invoice_date": "08/12/2024",
+    "siret": "76725832111819",
+    "echeance": "02/12/2025",
+    "invoice_content": [
+      {
+        "description": "Développement logiciel",
+        "quantity": "7",
+        "unit_price": "318.34"
+      },
+      {
+        "description": "Rédaction de contenu",
+        "quantity": "12",
+        "unit_price": "440.16"
+      },
+      {
+        "description": "Formation professionnelle",
+        "quantity": "18",
+        "unit_price": "244.25"
+      },
+      {
+        "description": "Développement logiciel",
+        "quantity": "28",
+        "unit_price": "318.13"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "4162.89",
+    "total_amount": "24977.33",
+    "payment_status": "UNPAID",
+    "solde_du": "24977.33",
+    "consumer_name": "M. Raymond Mallet"
+  },
+  "FR_invoice_img_synth_034.png": {
+    "file_name": "FR_invoice_img_synth_034.png",
+    "supplier_name": "Royer SA",
+    "invoice_number": "FC-2024-2202",
+    "invoice_date": "31/10/2024",
+    "siret": "01436176316062",
+    "echeance": "17/12/2024",
+    "invoice_content": [
+      {
+        "description": "Développement logiciel",
+        "quantity": "19",
+        "unit_price": "715.15"
+      },
+      {
+        "description": "Audit de sécurité",
+        "quantity": "4",
+        "unit_price": "703.72"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "7",
+        "unit_price": "366.46"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "3793.59",
+    "total_amount": "22761.54",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Mme Roger Leroux"
+  },
+  "FR_invoice_img_synth_035.png": {
+    "file_name": "FR_invoice_img_synth_035.png",
+    "supplier_name": "Bazin SASU",
+    "invoice_number": "FAC-2025-3418",
+    "invoice_date": "18/08/2025",
+    "siret": "03758492001141",
+    "echeance": "09/08/2026",
+    "invoice_content": [
+      {
+        "description": "Nettoyage de locaux",
+        "quantity": "44",
+        "unit_price": "596.55"
+      },
+      {
+        "description": "Création graphique",
+        "quantity": "26",
+        "unit_price": "596.20"
+      },
+      {
+        "description": "Nettoyage de locaux",
+        "quantity": "39",
+        "unit_price": "547.93"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "50",
+        "unit_price": "48.30"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "3604.35",
+    "total_amount": "69138.02",
+    "payment_status": "UNPAID",
+    "solde_du": "69138.02",
+    "consumer_name": "Leconte EURL"
+  },
+  "FR_invoice_img_synth_036.png": {
+    "file_name": "FR_invoice_img_synth_036.png",
+    "supplier_name": "Lebrun SA",
+    "invoice_number": "FC-2025-1589",
+    "invoice_date": "11/04/2025",
+    "siret": "75102606685961",
+    "echeance": "25/03/2026",
+    "invoice_content": [
+      {
+        "description": "Installation réseau",
+        "quantity": "28",
+        "unit_price": "428.04"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "24",
+        "unit_price": "774.56"
+      },
+      {
+        "description": "Licence logicielle",
+        "quantity": "13",
+        "unit_price": "305.98"
+      },
+      {
+        "description": "Transport de marchandises",
+        "quantity": "31",
+        "unit_price": "343.10"
+      },
+      {
+        "description": "Installation réseau",
+        "quantity": "11",
+        "unit_price": "253.78"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "9596.00",
+    "total_amount": "57575.98",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Bourdon EURL"
+  },
+  "FR_invoice_img_synth_037.png": {
+    "file_name": "FR_invoice_img_synth_037.png",
+    "supplier_name": "Rousseau SARL",
+    "invoice_number": "F-2024-8347",
+    "invoice_date": "19/08/2024",
+    "siret": "72470173276693",
+    "echeance": "13/03/2025",
+    "invoice_content": [
+      {
+        "description": "Développement logiciel",
+        "quantity": "10",
+        "unit_price": "270.39"
+      },
+      {
+        "description": "Support technique",
+        "quantity": "30",
+        "unit_price": "165.83"
+      },
+      {
+        "description": "Prestation de conseil",
+        "quantity": "30",
+        "unit_price": "215.47"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "19",
+        "unit_price": "246.24"
+      },
+      {
+        "description": "Support technique",
+        "quantity": "35",
+        "unit_price": "425.12"
+      },
+      {
+        "description": "Prestation de conseil",
+        "quantity": "47",
+        "unit_price": "499.06"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "11431.30",
+    "total_amount": "68587.78",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Potier SA"
+  },
+  "FR_invoice_img_synth_038.png": {
+    "file_name": "FR_invoice_img_synth_038.png",
+    "supplier_name": "Fernandes SAS",
+    "invoice_number": "FC-2026-8483",
+    "invoice_date": "28/01/2026",
+    "siret": "52773407274964",
+    "echeance": "16/03/2026",
+    "invoice_content": [
+      {
+        "description": "Nettoyage de locaux",
+        "quantity": "44",
+        "unit_price": "386.23"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "20",
+        "unit_price": "352.91"
+      },
+      {
+        "description": "Création graphique",
+        "quantity": "46",
+        "unit_price": "87.99"
+      },
+      {
+        "description": "Formation professionnelle",
+        "quantity": "10",
+        "unit_price": "790.60"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "1",
+        "unit_price": "733.23"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "7347.82",
+    "total_amount": "44086.91",
+    "payment_status": "UNPAID",
+    "solde_du": "44086.91",
+    "consumer_name": "Diaz SARL"
+  },
+  "FR_invoice_img_synth_039.png": {
+    "file_name": "FR_invoice_img_synth_039.png",
+    "supplier_name": "Chrétien SA",
+    "invoice_number": "FC-2025-6662",
+    "invoice_date": "23/10/2025",
+    "siret": "35695182703310",
+    "echeance": "16/07/2026",
+    "invoice_content": [
+      {
+        "description": "Création graphique",
+        "quantity": "11",
+        "unit_price": "806.74"
+      },
+      {
+        "description": "Rédaction de contenu",
+        "quantity": "30",
+        "unit_price": "730.76"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "6159.39",
+    "total_amount": "36956.33",
+    "payment_status": "UNPAID",
+    "solde_du": "36956.33",
+    "consumer_name": "M. Adèle Monnier"
+  },
+  "FR_invoice_img_synth_040.png": {
+    "file_name": "FR_invoice_img_synth_040.png",
+    "supplier_name": "Denis SARL",
+    "invoice_number": "FC-2026-6072",
+    "invoice_date": "04/03/2026",
+    "siret": "98325794903322",
+    "echeance": "04/03/2026",
+    "invoice_content": [
+      {
+        "description": "Rédaction de contenu",
+        "quantity": "22",
+        "unit_price": "65.89"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "32",
+        "unit_price": "574.04"
+      },
+      {
+        "description": "Formation professionnelle",
+        "quantity": "37",
+        "unit_price": "508.80"
+      },
+      {
+        "description": "Audit de sécurité",
+        "quantity": "32",
+        "unit_price": "745.84"
+      },
+      {
+        "description": "Transport de marchandises",
+        "quantity": "44",
+        "unit_price": "300.69"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "15148.34",
+    "total_amount": "90890.04",
+    "payment_status": "UNPAID",
+    "solde_du": "90890.04",
+    "consumer_name": "Hardy SARL"
+  },
+  "FR_invoice_img_synth_041.png": {
+    "file_name": "FR_invoice_img_synth_041.png",
+    "supplier_name": "Fernandez SARL",
+    "invoice_number": "FAC-2026-5822",
+    "invoice_date": "18/05/2026",
+    "siret": "36766194482826",
+    "echeance": "12/07/2026",
+    "invoice_content": [
+      {
+        "description": "Installation réseau",
+        "quantity": "25",
+        "unit_price": "910.24"
+      },
+      {
+        "description": "Location d'équipement",
+        "quantity": "8",
+        "unit_price": "938.95"
+      },
+      {
+        "description": "Développement logiciel",
+        "quantity": "17",
+        "unit_price": "311.63"
+      },
+      {
+        "description": "Support technique",
+        "quantity": "49",
+        "unit_price": "213.57"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "9206.05",
+    "total_amount": "55236.29",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Étienne Lévêque"
+  },
+  "FR_invoice_img_synth_042.png": {
+    "file_name": "FR_invoice_img_synth_042.png",
+    "supplier_name": "Marie SARL",
+    "invoice_number": "FC-2024-7576",
+    "invoice_date": "20/10/2024",
+    "siret": "35793986171936",
+    "echeance": "22/07/2025",
+    "invoice_content": [
+      {
+        "description": "Hébergement web",
+        "quantity": "3",
+        "unit_price": "745.73"
+      },
+      {
+        "description": "Prestation de conseil",
+        "quantity": "3",
+        "unit_price": "563.22"
+      },
+      {
+        "description": "Installation réseau",
+        "quantity": "16",
+        "unit_price": "16.11"
+      },
+      {
+        "description": "Audit de sécurité",
+        "quantity": "12",
+        "unit_price": "136.31"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "7",
+        "unit_price": "193.99"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "35",
+        "unit_price": "9.73"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "1503.76",
+    "total_amount": "9022.57",
+    "payment_status": "UNPAID",
+    "solde_du": "9022.57",
+    "consumer_name": "M. Jérôme Lemaître"
+  },
+  "FR_invoice_img_synth_043.png": {
+    "file_name": "FR_invoice_img_synth_043.png",
+    "supplier_name": "Vaillant SCI",
+    "invoice_number": "F-2024-0807",
+    "invoice_date": "23/09/2024",
+    "siret": "53396405716789",
+    "echeance": "07/08/2025",
+    "invoice_content": [
+      {
+        "description": "Installation réseau",
+        "quantity": "7",
+        "unit_price": "7.55"
+      },
+      {
+        "description": "Développement logiciel",
+        "quantity": "39",
+        "unit_price": "69.19"
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "275.13",
+    "total_amount": "3026.39",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Lenoir EURL"
+  },
+  "FR_invoice_img_synth_044.png": {
+    "file_name": "FR_invoice_img_synth_044.png",
+    "supplier_name": "Hernandez SA",
+    "invoice_number": "FAC-2024-7672",
+    "invoice_date": "28/08/2024",
+    "siret": "18723011171188",
+    "echeance": "31/01/2025",
+    "invoice_content": [
+      {
+        "description": "Location d'équipement",
+        "quantity": "36",
+        "unit_price": "95.34"
+      },
+      {
+        "description": "Licence logicielle",
+        "quantity": "48",
+        "unit_price": "258.27"
+      },
+      {
+        "description": "Support technique",
+        "quantity": "48",
+        "unit_price": "755.44"
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "5209.03",
+    "total_amount": "57299.35",
+    "payment_status": "UNPAID",
+    "solde_du": "57299.35",
+    "consumer_name": "Bruneau SAS"
+  },
+  "FR_invoice_img_synth_045.png": {
+    "file_name": "FR_invoice_img_synth_045.png",
+    "supplier_name": "Dupont SARL",
+    "invoice_number": "F-2024-4350",
+    "invoice_date": "03/08/2024",
+    "siret": "39064108098336",
+    "echeance": "05/02/2025",
+    "invoice_content": [
+      {
+        "description": "Support technique",
+        "quantity": "6",
+        "unit_price": "420.95"
+      },
+      {
+        "description": "Audit de sécurité",
+        "quantity": "46",
+        "unit_price": "346.76"
+      },
+      {
+        "description": "Location d'équipement",
+        "quantity": "18",
+        "unit_price": "428.92"
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "2619.72",
+    "total_amount": "28816.94",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "M. Franck Joseph"
+  },
+  "FR_invoice_img_synth_046.png": {
+    "file_name": "FR_invoice_img_synth_046.png",
+    "supplier_name": "Moulin SAS",
+    "invoice_number": "FAC-2024-1980",
+    "invoice_date": "14/06/2024",
+    "siret": "22192415805286",
+    "echeance": "14/01/2025",
+    "invoice_content": [
+      {
+        "description": "Audit de sécurité",
+        "quantity": "50",
+        "unit_price": "39.49"
+      },
+      {
+        "description": "Location d'équipement",
+        "quantity": "10",
+        "unit_price": "619.72"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "20",
+        "unit_price": "921.40"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "5319.94",
+    "total_amount": "31919.64",
+    "payment_status": "UNPAID",
+    "solde_du": "31919.64",
+    "consumer_name": "M. Luc Durand"
+  },
+  "FR_invoice_img_synth_047.png": {
+    "file_name": "FR_invoice_img_synth_047.png",
+    "supplier_name": "Joubert SCI",
+    "invoice_number": "F-2024-7535",
+    "invoice_date": "29/08/2024",
+    "siret": "65810625567484",
+    "echeance": "21/06/2025",
+    "invoice_content": [
+      {
+        "description": "Développement logiciel",
+        "quantity": "44",
+        "unit_price": "72.19"
+      },
+      {
+        "description": "Audit de sécurité",
+        "quantity": "29",
+        "unit_price": "626.17"
+      },
+      {
+        "description": "Support technique",
+        "quantity": "50",
+        "unit_price": "54.76"
+      },
+      {
+        "description": "Transport de marchandises",
+        "quantity": "16",
+        "unit_price": "898.09"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "7688.55",
+    "total_amount": "46131.28",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Mme Zacharie Millet"
+  },
+  "FR_invoice_img_synth_048.png": {
+    "file_name": "FR_invoice_img_synth_048.png",
+    "supplier_name": "Ferreira SARL",
+    "invoice_number": "FC-2025-8567",
+    "invoice_date": "21/06/2025",
+    "siret": "10871081165856",
+    "echeance": "17/08/2025",
+    "invoice_content": [
+      {
+        "description": "Installation réseau",
+        "quantity": "28",
+        "unit_price": "645.90"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "7",
+        "unit_price": "752.67"
+      },
+      {
+        "description": "Formation professionnelle",
+        "quantity": "5",
+        "unit_price": "935.36"
+      },
+      {
+        "description": "Rédaction de contenu",
+        "quantity": "24",
+        "unit_price": "559.86"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "8293.47",
+    "total_amount": "49760.80",
+    "payment_status": "UNPAID",
+    "solde_du": "49760.80",
+    "consumer_name": "Matthieu Benard"
+  },
+  "FR_invoice_img_synth_049.png": {
+    "file_name": "FR_invoice_img_synth_049.png",
+    "supplier_name": "Philippe SAS",
+    "invoice_number": "FC-2025-0664",
+    "invoice_date": "15/07/2025",
+    "siret": "68993956596518",
+    "echeance": "23/05/2026",
+    "invoice_content": [
+      {
+        "description": "Formation professionnelle",
+        "quantity": "32",
+        "unit_price": "801.20"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "45",
+        "unit_price": "873.32"
+      },
+      {
+        "description": "Rédaction de contenu",
+        "quantity": "36",
+        "unit_price": "412.25"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "4387.83",
+    "total_amount": "84166.63",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Honoré Peron"
+  },
+  "FR_invoice_img_synth_050.png": {
+    "file_name": "FR_invoice_img_synth_050.png",
+    "supplier_name": "Menard SAS",
+    "invoice_number": "FAC-2024-8879",
+    "invoice_date": "03/07/2024",
+    "siret": "83712214575260",
+    "echeance": "24/01/2026",
+    "invoice_content": [
+      {
+        "description": "Rédaction de contenu",
+        "quantity": "47",
+        "unit_price": "612.65"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "39",
+        "unit_price": "444.11"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "3",
+        "unit_price": "410.85"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "28",
+        "unit_price": "82.83"
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "4966.66",
+    "total_amount": "54633.29",
+    "payment_status": "UNPAID",
+    "solde_du": "54633.29",
+    "consumer_name": "Ferrand SA"
+  },
+  "FR_invoice_img_synth_051.png": {
+    "file_name": "FR_invoice_img_synth_051.png",
+    "supplier_name": "Lemonnier SASU",
+    "invoice_number": "FAC-2026-2620",
+    "invoice_date": "23/04/2026",
+    "siret": "39127927225427",
+    "echeance": "31/05/2026",
+    "invoice_content": [
+      {
+        "description": "Formation professionnelle",
+        "quantity": "36",
+        "unit_price": "736.77"
+      },
+      {
+        "description": "Transport de marchandises",
+        "quantity": "4",
+        "unit_price": "543.76"
+      },
+      {
+        "description": "Installation réseau",
+        "quantity": "18",
+        "unit_price": "563.79"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "7769.40",
+    "total_amount": "46616.38",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "M. Gérard Lemaître"
+  },
+  "FR_invoice_img_synth_052.png": {
+    "file_name": "FR_invoice_img_synth_052.png",
+    "supplier_name": "Pons EURL",
+    "invoice_number": "F-2025-6691",
+    "invoice_date": "04/12/2025",
+    "siret": "96884892068748",
+    "echeance": "30/05/2026",
+    "invoice_content": [
+      {
+        "description": "Location d'équipement",
+        "quantity": "48",
+        "unit_price": "221.90"
+      },
+      {
+        "description": "Prestation de conseil",
+        "quantity": "47",
+        "unit_price": "687.03"
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "4294.16",
+    "total_amount": "47235.77",
+    "payment_status": "UNPAID",
+    "solde_du": "47235.77",
+    "consumer_name": "Laine EURL"
+  },
+  "FR_invoice_img_synth_053.png": {
+    "file_name": "FR_invoice_img_synth_053.png",
+    "supplier_name": "Garcia SARL",
+    "invoice_number": "FC-2024-6030",
+    "invoice_date": "04/10/2024",
+    "siret": "24857782537479",
+    "echeance": "25/05/2025",
+    "invoice_content": [
+      {
+        "description": "Licence logicielle",
+        "quantity": "50",
+        "unit_price": "768.46"
+      },
+      {
+        "description": "Nettoyage de locaux",
+        "quantity": "42",
+        "unit_price": "180.15"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "5",
+        "unit_price": "939.93"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "47",
+        "unit_price": "390.58"
+      },
+      {
+        "description": "Rédaction de contenu",
+        "quantity": "42",
+        "unit_price": "632.49"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "48",
+        "unit_price": "233.58"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "5875.24",
+    "total_amount": "112697.87",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Mme Roland Chevallier"
+  },
+  "FR_invoice_img_synth_054.png": {
+    "file_name": "FR_invoice_img_synth_054.png",
+    "supplier_name": "De Oliveira EURL",
+    "invoice_number": "F-2025-2012",
+    "invoice_date": "19/04/2025",
+    "siret": "85780346415082",
+    "echeance": "16/05/2026",
+    "invoice_content": [
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "41",
+        "unit_price": "508.54"
+      },
+      {
+        "description": "Audit de sécurité",
+        "quantity": "47",
+        "unit_price": "789.73"
+      },
+      {
+        "description": "Audit de sécurité",
+        "quantity": "38",
+        "unit_price": "857.96"
+      },
+      {
+        "description": "Création graphique",
+        "quantity": "47",
+        "unit_price": "566.45"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "6445.62",
+    "total_amount": "123638.70",
+    "payment_status": "UNPAID",
+    "solde_du": "123638.70",
+    "consumer_name": "Mme Claudine Leclerc"
+  },
+  "FR_invoice_img_synth_055.png": {
+    "file_name": "FR_invoice_img_synth_055.png",
+    "supplier_name": "Benard SA",
+    "invoice_number": "FC-2024-4023",
+    "invoice_date": "15/09/2024",
+    "siret": "87118277362870",
+    "echeance": "01/08/2026",
+    "invoice_content": [
+      {
+        "description": "Licence logicielle",
+        "quantity": "49",
+        "unit_price": "177.14"
+      },
+      {
+        "description": "Création graphique",
+        "quantity": "50",
+        "unit_price": "395.02"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "5686.17",
+    "total_amount": "34117.03",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Fouquet SCI"
+  },
+  "FR_invoice_img_synth_056.png": {
+    "file_name": "FR_invoice_img_synth_056.png",
+    "supplier_name": "Perrot SA",
+    "invoice_number": "F-2024-8390",
+    "invoice_date": "29/07/2024",
+    "siret": "05236138649621",
+    "echeance": "05/08/2025",
+    "invoice_content": [
+      {
+        "description": "Installation réseau",
+        "quantity": "5",
+        "unit_price": "926.85"
+      },
+      {
+        "description": "Location d'équipement",
+        "quantity": "40",
+        "unit_price": "38.30"
+      },
+      {
+        "description": "Audit de sécurité",
+        "quantity": "25",
+        "unit_price": "95.81"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "1712.30",
+    "total_amount": "10273.80",
+    "payment_status": "UNPAID",
+    "solde_du": "10273.80",
+    "consumer_name": "Fouquet EURL"
+  },
+  "FR_invoice_img_synth_057.png": {
+    "file_name": "FR_invoice_img_synth_057.png",
+    "supplier_name": "Marie SARL",
+    "invoice_number": "FC-2026-0507",
+    "invoice_date": "28/01/2026",
+    "siret": "80907135894439",
+    "echeance": "12/02/2026",
+    "invoice_content": [
+      {
+        "description": "Support technique",
+        "quantity": "24",
+        "unit_price": "572.24"
+      },
+      {
+        "description": "Formation professionnelle",
+        "quantity": "47",
+        "unit_price": "317.95"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "18",
+        "unit_price": "93.48"
+      },
+      {
+        "description": "Nettoyage de locaux",
+        "quantity": "9",
+        "unit_price": "198.48"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "1768.05",
+    "total_amount": "33914.42",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Mme Clémence Navarro"
+  },
+  "FR_invoice_img_synth_058.png": {
+    "file_name": "FR_invoice_img_synth_058.png",
+    "supplier_name": "Costa EURL",
+    "invoice_number": "FC-2024-2383",
+    "invoice_date": "07/06/2024",
+    "siret": "96431721699797",
+    "echeance": "24/02/2026",
+    "invoice_content": [
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "29",
+        "unit_price": "933.23"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "30",
+        "unit_price": "722.88"
+      },
+      {
+        "description": "Audit de sécurité",
+        "quantity": "42",
+        "unit_price": "826.57"
+      },
+      {
+        "description": "Transport de marchandises",
+        "quantity": "29",
+        "unit_price": "537.80"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "19812.44",
+    "total_amount": "118874.65",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Perrier SARL"
+  },
+  "FR_invoice_img_synth_059.png": {
+    "file_name": "FR_invoice_img_synth_059.png",
+    "supplier_name": "Lebrun SA",
+    "invoice_number": "FAC-2024-3398",
+    "invoice_date": "23/05/2024",
+    "siret": "91890763201415",
+    "echeance": "11/12/2025",
+    "invoice_content": [
+      {
+        "description": "Hébergement web",
+        "quantity": "20",
+        "unit_price": "603.41"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "7",
+        "unit_price": "614.54"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "900.35",
+    "total_amount": "17270.33",
+    "payment_status": "UNPAID",
+    "solde_du": "17270.33",
+    "consumer_name": "Bonnin SA"
+  },
+  "FR_invoice_img_synth_060.png": {
+    "file_name": "FR_invoice_img_synth_060.png",
+    "supplier_name": "Riou SASU",
+    "invoice_number": "F-2024-7818",
+    "invoice_date": "11/10/2024",
+    "siret": "02179177276266",
+    "echeance": "17/11/2024",
+    "invoice_content": [
+      {
+        "description": "Création graphique",
+        "quantity": "11",
+        "unit_price": "425.58"
+      },
+      {
+        "description": "Création graphique",
+        "quantity": "39",
+        "unit_price": "43.13"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "1272.69",
+    "total_amount": "7636.14",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Mme Alex Prévost"
+  },
+  "FR_invoice_img_synth_061.png": {
+    "file_name": "FR_invoice_img_synth_061.png",
+    "supplier_name": "Nguyen EURL",
+    "invoice_number": "F-2024-6029",
+    "invoice_date": "25/06/2024",
+    "siret": "08489255107227",
+    "echeance": "26/09/2025",
+    "invoice_content": [
+      {
+        "description": "Formation professionnelle",
+        "quantity": "3",
+        "unit_price": "394.61"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "45",
+        "unit_price": "581.40"
+      },
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "17",
+        "unit_price": "697.10"
+      },
+      {
+        "description": "Création graphique",
+        "quantity": "28",
+        "unit_price": "551.95"
+      },
+      {
+        "description": "Installation réseau",
+        "quantity": "21",
+        "unit_price": "848.41"
+      },
+      {
+        "description": "Installation réseau",
+        "quantity": "48",
+        "unit_price": "738.33"
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "10790.86",
+    "total_amount": "118699.44",
+    "payment_status": "UNPAID",
+    "solde_du": "118699.44",
+    "consumer_name": "Mme Auguste Carpentier"
+  },
+  "FR_invoice_img_synth_062.png": {
+    "file_name": "FR_invoice_img_synth_062.png",
+    "supplier_name": "Hamon SA",
+    "invoice_number": "FAC-2025-5833",
+    "invoice_date": "11/06/2025",
+    "siret": "94078299315453",
+    "echeance": "25/12/2025",
+    "invoice_content": [
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "8",
+        "unit_price": "195.14"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "23",
+        "unit_price": "640.22"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "3257.24",
+    "total_amount": "19543.42",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Mme Honoré David"
+  },
+  "FR_invoice_img_synth_063.png": {
+    "file_name": "FR_invoice_img_synth_063.png",
+    "supplier_name": "Maillet SASU",
+    "invoice_number": "F-2025-8376",
+    "invoice_date": "09/02/2025",
+    "siret": "57356973676189",
+    "echeance": "03/11/2025",
+    "invoice_content": [
+      {
+        "description": "Installation réseau",
+        "quantity": "18",
+        "unit_price": "446.40"
+      },
+      {
+        "description": "Transport de marchandises",
+        "quantity": "10",
+        "unit_price": "59.73"
+      },
+      {
+        "description": "Transport de marchandises",
+        "quantity": "5",
+        "unit_price": "118.65"
+      },
+      {
+        "description": "Rédaction de contenu",
+        "quantity": "44",
+        "unit_price": "683.47"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "7859.69",
+    "total_amount": "47158.12",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "M. Benoît Vasseur"
+  },
+  "FR_invoice_img_synth_064.png": {
+    "file_name": "FR_invoice_img_synth_064.png",
+    "supplier_name": "Gauthier SARL",
+    "invoice_number": "F-2025-7629",
+    "invoice_date": "13/03/2025",
+    "siret": "40471643364216",
+    "echeance": "14/10/2025",
+    "invoice_content": [
+      {
+        "description": "Développement logiciel",
+        "quantity": "4",
+        "unit_price": "572.63"
+      },
+      {
+        "description": "Fourniture de matériel",
+        "quantity": "24",
+        "unit_price": "883.10"
+      },
+      {
+        "description": "Formation professionnelle",
+        "quantity": "8",
+        "unit_price": "61.14"
+      },
+      {
+        "description": "Licence logicielle",
+        "quantity": "22",
+        "unit_price": "770.07"
+      }
+    ],
+    "tva_percentage": "5.5",
+    "tva_amount": "2250.36",
+    "total_amount": "43165.94",
+    "payment_status": "UNPAID",
+    "solde_du": "43165.94",
+    "consumer_name": "Mme Gilles Hebert"
+  },
+  "FR_invoice_img_synth_065.png": {
+    "file_name": "FR_invoice_img_synth_065.png",
+    "supplier_name": "Regnier SCI",
+    "invoice_number": "F-2025-4044",
+    "invoice_date": "28/05/2025",
+    "siret": "29927965977692",
+    "echeance": "06/07/2025",
+    "invoice_content": [
+      {
+        "description": "Transport de marchandises",
+        "quantity": "35",
+        "unit_price": "13.25"
+      },
+      {
+        "description": "Développement logiciel",
+        "quantity": "41",
+        "unit_price": "735.84"
+      }
+    ],
+    "tva_percentage": "10",
+    "tva_amount": "3063.32",
+    "total_amount": "33696.51",
+    "payment_status": "UNPAID",
+    "solde_du": "33696.51",
+    "consumer_name": "Gallet SARL"
+  },
+  "FR_invoice_img_synth_066.png": {
+    "file_name": "FR_invoice_img_synth_066.png",
+    "supplier_name": "Teixeira EURL",
+    "invoice_number": "FC-2026-5996",
+    "invoice_date": "04/04/2026",
+    "siret": "12636555123548",
+    "echeance": "26/05/2026",
+    "invoice_content": [
+      {
+        "description": "Prestation de conseil",
+        "quantity": "36",
+        "unit_price": "914.40"
+      },
+      {
+        "description": "Support technique",
+        "quantity": "3",
+        "unit_price": "270.80"
+      },
+      {
+        "description": "Création graphique",
+        "quantity": "45",
+        "unit_price": "701.00"
+      },
+      {
+        "description": "Support technique",
+        "quantity": "40",
+        "unit_price": "533.24"
+      },
+      {
+        "description": "Transport de marchandises",
+        "quantity": "44",
+        "unit_price": "78.27"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "18009.86",
+    "total_amount": "108059.14",
+    "payment_status": "UNPAID",
+    "solde_du": "108059.14",
+    "consumer_name": "Berthelot SA"
+  },
+  "FR_invoice_img_synth_067.png": {
+    "file_name": "FR_invoice_img_synth_067.png",
+    "supplier_name": "Reynaud EURL",
+    "invoice_number": "FAC-2025-4860",
+    "invoice_date": "14/06/2025",
+    "siret": "91937553250969",
+    "echeance": "04/08/2025",
+    "invoice_content": [
+      {
+        "description": "Rédaction de contenu",
+        "quantity": "25",
+        "unit_price": "508.34"
+      },
+      {
+        "description": "Formation professionnelle",
+        "quantity": "16",
+        "unit_price": "398.73"
+      },
+      {
+        "description": "Hébergement web",
+        "quantity": "17",
+        "unit_price": "34.96"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "3936.50",
+    "total_amount": "23619.00",
+    "payment_status": "UNPAID",
+    "solde_du": "23619.00",
+    "consumer_name": "Léger SCI"
+  },
+  "FR_invoice_img_synth_068.png": {
+    "file_name": "FR_invoice_img_synth_068.png",
+    "supplier_name": "Aubert SAS",
+    "invoice_number": "FC-2025-7216",
+    "invoice_date": "12/07/2025",
+    "siret": "80744017202781",
+    "echeance": "15/08/2025",
+    "invoice_content": [
+      {
+        "description": "Maintenance annuelle",
+        "quantity": "6",
+        "unit_price": "114.51"
+      },
+      {
+        "description": "Formation professionnelle",
+        "quantity": "40",
+        "unit_price": "243.36"
+      },
+      {
+        "description": "Prestation de conseil",
+        "quantity": "21",
+        "unit_price": "744.07"
+      },
+      {
+        "description": "Installation réseau",
+        "quantity": "42",
+        "unit_price": "191.37"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "6816.89",
+    "total_amount": "40901.36",
+    "payment_status": "PAID",
+    "solde_du": "",
+    "consumer_name": "Gimenez SCI"
+  },
+  "FR_invoice_img_synth_069.png": {
+    "file_name": "FR_invoice_img_synth_069.png",
+    "supplier_name": "Fabre SAS",
+    "invoice_number": "F-2025-1134",
+    "invoice_date": "15/02/2025",
+    "siret": "53237419467791",
+    "echeance": "20/10/2025",
+    "invoice_content": [
+      {
+        "description": "Transport de marchandises",
+        "quantity": "13",
+        "unit_price": "435.06"
+      },
+      {
+        "description": "Installation réseau",
+        "quantity": "5",
+        "unit_price": "366.55"
+      },
+      {
+        "description": "Prestation de conseil",
+        "quantity": "44",
+        "unit_price": "92.47"
+      }
+    ],
+    "tva_percentage": "20",
+    "tva_amount": "2311.44",
+    "total_amount": "13868.65",
+    "payment_status": "UNPAID",
+    "solde_du": "13868.65",
+    "consumer_name": "M. Théodore Martel"
+  }
+}

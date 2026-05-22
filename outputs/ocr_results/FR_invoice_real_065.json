@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_real_065",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_real_065\\page_01.png",
+      "text": "K Î Au bon moulin SARE - 1242 chemin de l'olive - 84340 Malaucène - France\nGÈ &, +33 4 50 44 68 99 - @ http:/www.aubonmoulin.fr\n(EN TVA : FR11999999998 - SIRET : 99999999800010 - APE : 4778C - SARL au capital de 120,000.00 €\n\nus\n\nFacture FA-2017-0010\n\nAdresse de livraison\n\nMa jolie boutique\n\n35 rue de la République\n69001 Lyon\n\nFrance\n\n&. +33 4 72 07 08 55\n\n= sav@majolieboutique.net\n\nDate de facture 13/11/2017\n\nMa jolie boutique\nAlexandre Payet\n\n35 rue de la République\n69001 Lyon\n\nFrance\n\nContact commercial\n\n&)\n\nConditions de paiement 30% d'acompte, solde à 30) Tony Dubois\nVE Lx <, +33 4 72 07 08 56\nDate d'échéance 13/12/2017 B +33 6 11 22 33 44\nVotre référence PO445 æ tony.dubois@aubonmoulin.fr\nRéf. marché MSPE2017\nN° TVA client FR19787878784\nDescription Quantité Prix Rem Prix HT\nunitaire °\nNougat de l'Abbaye 250g 20 Unité(s) 4,55 € 10% 81,90 €\nBiscuits aux raisins 300g 15 Unité(s) 3,20 € 48,00 €\nHuile d'olive à l'ancienne 25 Litre(s) 19,80 € 495,00 €\nTaxe Base Montant Total HT 624,90 €\nTVA collectée (vente) 20,0% 81,90 € 16,38 € Total taxes 46,25 €\nTVA collectée (vente) 5,5% 543,00 € 29,87 €\nTotal TTC 671,15 €\nRèglement Date Montant Solde à payer 470,15 €\nVirement 05/11/2017 201,00 €\nNotes Franco de port (commande > 300 € HT)\nRèglement Facture à régler par virement sur le compte suivant :\ng IBAN : FR20 1242 1242 1242 1242 1242 124 - BIC : FIDCFR21XXX - Banque : Banque Fiducial\n\nPage 1/1",
+      "confidence": 0.894006968641115,
+      "char_count": 1410,
+      "word_count": 256,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "K Î Au bon moulin SARE - 1242 chemin de l'olive - 84340 Malaucène - France\nGÈ &, +33 4 50 44 68 99 - @ http:/www.aubonmoulin.fr\n(EN TVA : FR11999999998 - SIRET : 99999999800010 - APE : 4778C - SARL au capital de 120,000.00 €\n\nus\n\nFacture FA-2017-0010\n\nAdresse de livraison\n\nMa jolie boutique\n\n35 rue de la République\n69001 Lyon\n\nFrance\n\n&. +33 4 72 07 08 55\n\n= sav@majolieboutique.net\n\nDate de facture 13/11/2017\n\nMa jolie boutique\nAlexandre Payet\n\n35 rue de la République\n69001 Lyon\n\nFrance\n\nContact commercial\n\n&)\n\nConditions de paiement 30% d'acompte, solde à 30) Tony Dubois\nVE Lx <, +33 4 72 07 08 56\nDate d'échéance 13/12/2017 B +33 6 11 22 33 44\nVotre référence PO445 æ tony.dubois@aubonmoulin.fr\nRéf. marché MSPE2017\nN° TVA client FR19787878784\nDescription Quantité Prix Rem Prix HT\nunitaire °\nNougat de l'Abbaye 250g 20 Unité(s) 4,55 € 10% 81,90 €\nBiscuits aux raisins 300g 15 Unité(s) 3,20 € 48,00 €\nHuile d'olive à l'ancienne 25 Litre(s) 19,80 € 495,00 €\nTaxe Base Montant Total HT 624,90 €\nTVA collectée (vente) 20,0% 81,90 € 16,38 € Total taxes 46,25 €\nTVA collectée (vente) 5,5% 543,00 € 29,87 €\nTotal TTC 671,15 €\nRèglement Date Montant Solde à payer 470,15 €\nVirement 05/11/2017 201,00 €\nNotes Franco de port (commande > 300 € HT)\nRèglement Facture à régler par virement sur le compte suivant :\ng IBAN : FR20 1242 1242 1242 1242 1242 124 - BIC : FIDCFR21XXX - Banque : Banque Fiducial\n\nPage 1/1",
+  "mean_confidence": 0.894006968641115,
+  "total_char_count": 1410,
+  "total_word_count": 256,
+  "low_quality_pages": [],
+  "error": ""
+}

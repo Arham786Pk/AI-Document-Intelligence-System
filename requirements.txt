@@ -1,4 +1,4 @@
-# AI French Invoice Extraction — Milestone 1
+# AI French Invoice Extraction — Milestones 1 + 2
 # Install: pip install -r requirements.txt
 # Note: Tesseract OCR + the fra (French) language pack must be installed
 #       separately at the OS level. See README.md > Task 5.
@@ -31,3 +31,11 @@ openpyxl>=3.1
 # Utilities
 tqdm>=4.66
 requests>=2.32
+
+# Milestone 2 — synthetic data generation
+faker>=25.0
+reportlab>=4.0
+
+# Milestone 2 — annotation (Task 03)
+label-studio>=1.11
+label-studio-sdk>=1.0

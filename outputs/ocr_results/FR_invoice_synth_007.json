@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_synth_007",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_synth_007\\page_01.png",
+      "text": "Perrot SA\n\n40, chemin de Couturier, 20700 Sainte Antoine-la-Forêt\nSIRET : 03950384291604\n\nClient :\nMme Bertrand Rolland\n5, rue de Fournier, 33902 Robin\n\nDésignation\n\nInstallation réseau\nFormation professionnelle\nNettoyage de locaux\nLicence logicielle\n\nStatut : Non payé\nSolde dû : 67 732,81 €\n\nFACTURE\n\nN° Facture : FAC-2025-4471\nDate d'émission : 30/04/2025\nDate d'échéance : 09/05/2025\n\nQuantité Prix Unitaire Total\n48 940,38 € 45 138,24 €\n48 13,59 € 652,32 €\n19 939,52 € 17 850,88 €\n6 93,38 € 560,28 €\nSous-total HT 64 201,72 €\nTVA55% 8 531,09 €\nTotal TTC 67 732,81 €",
+      "confidence": 0.9394845360824742,
+      "char_count": 570,
+      "word_count": 96,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Perrot SA\n\n40, chemin de Couturier, 20700 Sainte Antoine-la-Forêt\nSIRET : 03950384291604\n\nClient :\nMme Bertrand Rolland\n5, rue de Fournier, 33902 Robin\n\nDésignation\n\nInstallation réseau\nFormation professionnelle\nNettoyage de locaux\nLicence logicielle\n\nStatut : Non payé\nSolde dû : 67 732,81 €\n\nFACTURE\n\nN° Facture : FAC-2025-4471\nDate d'émission : 30/04/2025\nDate d'échéance : 09/05/2025\n\nQuantité Prix Unitaire Total\n48 940,38 € 45 138,24 €\n48 13,59 € 652,32 €\n19 939,52 € 17 850,88 €\n6 93,38 € 560,28 €\nSous-total HT 64 201,72 €\nTVA55% 8 531,09 €\nTotal TTC 67 732,81 €",
+  "mean_confidence": 0.9394845360824742,
+  "total_char_count": 570,
+  "total_word_count": 96,
+  "low_quality_pages": [],
+  "error": ""
+}

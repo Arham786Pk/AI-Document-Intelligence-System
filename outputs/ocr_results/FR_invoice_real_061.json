@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_real_061",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_real_061\\page_01.png",
+      "text": "NA\nTEN\n\nAu bon moulin SARL - 1242 chemin de l'olive - 84340 Malaucène - France\n&. +33 4 50 44 68 99 - & http:/www.aubonmoulin.fr\nTVA : FR11999999998 - SIRET : 99999999800010 - APE : 4778C - SARL au capital de 120,000.00 €\n\nFacture FA-2017-0009\n\nAdresse de livraison\n\nHôtel Saint Denis\n42 rue du stade\n\n97400 Saint Denis de la réunion\n\nlle de la Réunion\n<, +33 2 62 94 26 00\n\n= book@hotelsaintdenis.re\n\nDate de facture\nConditions de paiement\nDate d'échéance\n\nVotre référence\n\n05/11/2017\n\n30% d'acompte, solde à 30 j\n\n05/12/2017\nBC543\n\nHôtel Saint Denis\n\nStéphanie Hoarau\n\n42 rue du stade\n\n97400 Saint Denis\n\nlle de la Réunion\n\nContact commercial\n\nTony Dubois\n\n<. +33 4 72 07 08 56\nà +33 6 11 22 33 44\n& tony.dubois@aubonmoulin.fr\n\n&,\n\nRéf. marché WELCOME_PACK_2017\nN° TVA client FR90343434346\nIncoterms DELIVERED DUTY UNPAID\nDescription Quantité te Rem. Prix HT\nNougat de l'Abbaye 250g 50 Unité(s) 4,55 € 10% 204,75 €\nBiscuits aux raisins 300g 40 Unité(s) 3,20 € 128,00 €\nHuile d'olive à l'ancienne 10 Litre(s) 19,80 € 198,00 €\nTaxe Base Montant Total HT 530,75 €\nTVA 0% export (vente) 530,75 € 0,00 € Total taxes 0,00€\nRèglement Date Montant Total TTC 530,75 €\nVir SEPA 31/10/2017 147,00 € Solde à payer 383,75 €\nNotes Franco de port (Commande > 300 € HT)\nRèglement Faciure à régler par virement sur le compte suivant |\nIBAN : FR20 1242 1242 1242 1242 1242 124 - BIC : FIDCFR21XXX - Banque : Banque Fiducial\n\nExonération de TVA selon article 262 1 du Code général des impôts\n\nPage 1/1",
+      "confidence": 0.9115878378378379,
+      "char_count": 1484,
+      "word_count": 266,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "NA\nTEN\n\nAu bon moulin SARL - 1242 chemin de l'olive - 84340 Malaucène - France\n&. +33 4 50 44 68 99 - & http:/www.aubonmoulin.fr\nTVA : FR11999999998 - SIRET : 99999999800010 - APE : 4778C - SARL au capital de 120,000.00 €\n\nFacture FA-2017-0009\n\nAdresse de livraison\n\nHôtel Saint Denis\n42 rue du stade\n\n97400 Saint Denis de la réunion\n\nlle de la Réunion\n<, +33 2 62 94 26 00\n\n= book@hotelsaintdenis.re\n\nDate de facture\nConditions de paiement\nDate d'échéance\n\nVotre référence\n\n05/11/2017\n\n30% d'acompte, solde à 30 j\n\n05/12/2017\nBC543\n\nHôtel Saint Denis\n\nStéphanie Hoarau\n\n42 rue du stade\n\n97400 Saint Denis\n\nlle de la Réunion\n\nContact commercial\n\nTony Dubois\n\n<. +33 4 72 07 08 56\nà +33 6 11 22 33 44\n& tony.dubois@aubonmoulin.fr\n\n&,\n\nRéf. marché WELCOME_PACK_2017\nN° TVA client FR90343434346\nIncoterms DELIVERED DUTY UNPAID\nDescription Quantité te Rem. Prix HT\nNougat de l'Abbaye 250g 50 Unité(s) 4,55 € 10% 204,75 €\nBiscuits aux raisins 300g 40 Unité(s) 3,20 € 128,00 €\nHuile d'olive à l'ancienne 10 Litre(s) 19,80 € 198,00 €\nTaxe Base Montant Total HT 530,75 €\nTVA 0% export (vente) 530,75 € 0,00 € Total taxes 0,00€\nRèglement Date Montant Total TTC 530,75 €\nVir SEPA 31/10/2017 147,00 € Solde à payer 383,75 €\nNotes Franco de port (Commande > 300 € HT)\nRèglement Faciure à régler par virement sur le compte suivant |\nIBAN : FR20 1242 1242 1242 1242 1242 124 - BIC : FIDCFR21XXX - Banque : Banque Fiducial\n\nExonération de TVA selon article 262 1 du Code général des impôts\n\nPage 1/1",
+  "mean_confidence": 0.9115878378378379,
+  "total_char_count": 1484,
+  "total_word_count": 266,
+  "low_quality_pages": [],
+  "error": ""
+}

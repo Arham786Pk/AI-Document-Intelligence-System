@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_real_010",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_real_010\\page_01.png",
+      "text": "Numéro Date Code client / Date échéance Mode de règlement N° de Tva intracom\nFC20251175 | 28/04/2025 |  SCA010 28/05/2025 VIREMENT 30) net | FR33845175751\nCode Description Qté P.U.HT  MontantHT TVA\n103 | AUDIT INITIAL ISO 19443 Etape 1 & Etape 2 1.00° 2772.67 2772.67. 20.00\n\n| Î\n\n‘IMPORTANT :\n\n‘ Le règlement doit intervenir dès réception de la facture. Ce n'est qu'à partir : |\nde cette étape que la prestation débutera. ' :\n\nï\n\n061 Certification ISO 9001 version 2015 1.00! 589.38 589.38 20.00\n{ l\nAUDIT INITIAL ISO Etape 1 & Etape 2 l |\n\nl\n\nIMPORTANT : | |\n| Le règlement doit intervenir dès réception de la facture. Ce n'est qu'à partir\n\nde cette étape que la prestation débutera.\n\n; TXT00001 Selon les termes du contrat n° 25-443 .\n| Dossier 426 Q |\n\nl ; i\n\n}\n\n| | |\n|\n\n!\n|\n\nLe opérations donnant lieu à facture sont constituées exclusivement de prestations de services\n\nticipé : 0% ue , uno ue\nEscompie po EE Paiement, Une pénalité égale à 3 fois le taux d'intérêt légal sera exigible, ainsi qu'une indemnité forfaitaire pour\nfais de recouvrement d'un montant minimum de 40 euros pour les professionnels\nTotal HT Net 3 362.05\nl . té : .\nCoordonnées bancaires sets Total TVA 20.00 % 67241\nBanque : C ‘\n1 RIB : 30002016490000070962J34 2334 Total TTC 4 034, 46\nIBAN : FR433000201649000007096 Net à payer\nBIC : CRLYFRPP Gaec 403446 €\n° Solde dû\n_mv00 A nn int nn ne 4 034.46 €",
+      "confidence": 0.7739622641509434,
+      "char_count": 1379,
+      "word_count": 258,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Numéro Date Code client / Date échéance Mode de règlement N° de Tva intracom\nFC20251175 | 28/04/2025 |  SCA010 28/05/2025 VIREMENT 30) net | FR33845175751\nCode Description Qté P.U.HT  MontantHT TVA\n103 | AUDIT INITIAL ISO 19443 Etape 1 & Etape 2 1.00° 2772.67 2772.67. 20.00\n\n| Î\n\n‘IMPORTANT :\n\n‘ Le règlement doit intervenir dès réception de la facture. Ce n'est qu'à partir : |\nde cette étape que la prestation débutera. ' :\n\nï\n\n061 Certification ISO 9001 version 2015 1.00! 589.38 589.38 20.00\n{ l\nAUDIT INITIAL ISO Etape 1 & Etape 2 l |\n\nl\n\nIMPORTANT : | |\n| Le règlement doit intervenir dès réception de la facture. Ce n'est qu'à partir\n\nde cette étape que la prestation débutera.\n\n; TXT00001 Selon les termes du contrat n° 25-443 .\n| Dossier 426 Q |\n\nl ; i\n\n}\n\n| | |\n|\n\n!\n|\n\nLe opérations donnant lieu à facture sont constituées exclusivement de prestations de services\n\nticipé : 0% ue , uno ue\nEscompie po EE Paiement, Une pénalité égale à 3 fois le taux d'intérêt légal sera exigible, ainsi qu'une indemnité forfaitaire pour\nfais de recouvrement d'un montant minimum de 40 euros pour les professionnels\nTotal HT Net 3 362.05\nl . té : .\nCoordonnées bancaires sets Total TVA 20.00 % 67241\nBanque : C ‘\n1 RIB : 30002016490000070962J34 2334 Total TTC 4 034, 46\nIBAN : FR433000201649000007096 Net à payer\nBIC : CRLYFRPP Gaec 403446 €\n° Solde dû\n_mv00 A nn int nn ne 4 034.46 €",
+  "mean_confidence": 0.7739622641509434,
+  "total_char_count": 1379,
+  "total_word_count": 258,
+  "low_quality_pages": [],
+  "error": ""
+}

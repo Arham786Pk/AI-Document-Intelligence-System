@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_real_072",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_real_072\\page_01.png",
+      "text": "PACANO FACTURE\n\nHOTEL ** PARIS 20/09/2023\nn£ 2023-6013\n\nSociété Hôtelière du Pacano\n2, rue de la Paix\n\n75000 Paris\n\nFrance\n\n+33 1 01 12 3456\ninfo@hotel-du-pacano.fr\n\nSecuribox SARL\n27, Rue de Bassano\n75008 Paris\n\nFrance\n\nTVA : FR38500003710\nSIRET : 50000371000034\n\n| GES GEUEMENN| WA | EN\nChambre du 09/08/2023 au 15/08/2023 | 6 205,90 € 10 % 1.235,40 €\nForfait taxe de séjour 6 1,65 0 % | 9,90 €\n\nTaux TVA Prix HT | TVA | Montant total | Montant Total HT 1.245,30 €\n\n10,00 % 1235,40€|  123,54€ 1.358,80 € Remise HT 0,00 €\n0,00 % 9,90 € 0,00 € 9,90 € Total Net HT - 1.245,30 co\nTotal TVA 123,54 € |\nMontant Total TTC | 1368,84€|\n| Montant déjà versé JL 452,98 € |\n\n| Reste à payer 915,86 €\n\nLa loi n°92/1442 du 31 décembre 1992 nous fait l'obligation de vous indiquer que le non-respect des conditions de paiement entraine des intérêts de\nretard suivant modalités et taux défini par la loi. Une indemnité forfaitaire de 40€ sera due pour frais de recouvrement en cas de retard de paiement.\n\nMode de règlement : Virement bancaire (IBAN : FR7430003000402964223654P78) en indiquant le numéro de facture\nConditions de règlement : 30 jours net\nDate limite de règlement : 19/10/2023\n\nSociété Hôtelière du Pacano\n2, rue de la Paix — 75000 Paris — Tel: +33 1 01 12 34 56\nSASU au capital de 200000€ - SIRET 12345682400016 — R.C.S Paris 123 456 789 — APE 5510Z - TVA FR40123456824",
+      "confidence": 0.8966089965397924,
+      "char_count": 1370,
+      "word_count": 252,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "PACANO FACTURE\n\nHOTEL ** PARIS 20/09/2023\nn£ 2023-6013\n\nSociété Hôtelière du Pacano\n2, rue de la Paix\n\n75000 Paris\n\nFrance\n\n+33 1 01 12 3456\ninfo@hotel-du-pacano.fr\n\nSecuribox SARL\n27, Rue de Bassano\n75008 Paris\n\nFrance\n\nTVA : FR38500003710\nSIRET : 50000371000034\n\n| GES GEUEMENN| WA | EN\nChambre du 09/08/2023 au 15/08/2023 | 6 205,90 € 10 % 1.235,40 €\nForfait taxe de séjour 6 1,65 0 % | 9,90 €\n\nTaux TVA Prix HT | TVA | Montant total | Montant Total HT 1.245,30 €\n\n10,00 % 1235,40€|  123,54€ 1.358,80 € Remise HT 0,00 €\n0,00 % 9,90 € 0,00 € 9,90 € Total Net HT - 1.245,30 co\nTotal TVA 123,54 € |\nMontant Total TTC | 1368,84€|\n| Montant déjà versé JL 452,98 € |\n\n| Reste à payer 915,86 €\n\nLa loi n°92/1442 du 31 décembre 1992 nous fait l'obligation de vous indiquer que le non-respect des conditions de paiement entraine des intérêts de\nretard suivant modalités et taux défini par la loi. Une indemnité forfaitaire de 40€ sera due pour frais de recouvrement en cas de retard de paiement.\n\nMode de règlement : Virement bancaire (IBAN : FR7430003000402964223654P78) en indiquant le numéro de facture\nConditions de règlement : 30 jours net\nDate limite de règlement : 19/10/2023\n\nSociété Hôtelière du Pacano\n2, rue de la Paix — 75000 Paris — Tel: +33 1 01 12 34 56\nSASU au capital de 200000€ - SIRET 12345682400016 — R.C.S Paris 123 456 789 — APE 5510Z - TVA FR40123456824",
+  "mean_confidence": 0.8966089965397924,
+  "total_char_count": 1370,
+  "total_word_count": 252,
+  "low_quality_pages": [],
+  "error": ""
+}

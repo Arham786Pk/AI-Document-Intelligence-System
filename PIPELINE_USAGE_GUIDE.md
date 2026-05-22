@@ -5,10 +5,10 @@
 ### **Option 1: Complete Pipeline with Smart Preprocessing (RECOMMENDED)**
 ```bash
 python -m src.pipeline --input data/processed --output outputs --from processed \
-  --raw-sources data/Images data/Scanned_PDF
+  --raw-sources data/images data/pdf
 ```
 **What it does:**
-- ✅ Checks `data/Images` and `data/Scanned_PDF` for new/modified files
+- ✅ Checks `data/images` and `data/pdf` for new/modified files
 - ✅ Preprocesses only new/modified files (skips existing)
 - ✅ Runs OCR on all preprocessed images (skips already processed)
 - ✅ Extracts entities from all invoices
@@ -49,15 +49,15 @@ python -m src.metrics --extracted outputs/extracted --ground-truth docs/ground_t
 
 ```bash
 # Smart mode (skip existing files) - DEFAULT
-python -m src.preprocessor --input data/Images --output data/processed
-python -m src.preprocessor --input data/Scanned_PDF --output data/processed
+python -m src.preprocessor --input data/images --output data/processed
+python -m src.preprocessor --input data/pdf --output data/processed
 
 # Force mode (reprocess everything)
-python -m src.preprocessor --input data/Images --output data/processed --force
-python -m src.preprocessor --input data/Scanned_PDF --output data/processed --force
+python -m src.preprocessor --input data/images --output data/processed --force
+python -m src.preprocessor --input data/pdf --output data/processed --force
 
 # Single file
-python -m src.preprocessor --single data/Images/IMG-20260507-WA0143.jpg --output data/processed
+python -m src.preprocessor --single data/images/FR_invoice_img_real_001.jpg --output data/processed
 ```
 
 ### **OCR Only**
@@ -84,13 +84,13 @@ python -m src.extractor --input outputs/ocr_results --output outputs/extracted
 ```bash
 # From preprocessed (with smart preprocessing check)
 python -m src.pipeline --input data/processed --output outputs --from processed \
-  --raw-sources data/Images data/Scanned_PDF
+  --raw-sources data/images data/pdf
 
 # From preprocessed (no preprocessing)
 python -m src.pipeline --input data/processed --output outputs --from processed
 
 # From raw (full pipeline with preprocessing)
-python -m src.pipeline --input data/Images --output outputs --from raw
+python -m src.pipeline --input data/images --output outputs --from raw
 
 # From OCR results (extraction only)
 python -m src.pipeline --input outputs/ocr_results --output outputs --from ocr
@@ -131,7 +131,7 @@ python -m src.metrics --extracted outputs/extracted --ground-truth docs/ground_t
 ```bash
 # Run complete pipeline
 python -m src.pipeline --input data/processed --output outputs --from processed \
-  --raw-sources data/Images data/Scanned_PDF
+  --raw-sources data/images data/pdf
 
 # Calculate metrics
 python -m src.metrics --extracted outputs/extracted --ground-truth docs/ground_truth.csv --output outputs
@@ -139,10 +139,10 @@ python -m src.metrics --extracted outputs/extracted --ground-truth docs/ground_t
 
 ### **Scenario 2: Added New Invoices**
 ```bash
-# Add new files to data/Images/ or data/Scanned_PDF/
+# Add new files to data/images/ or data/pdf/
 # Run the same command - only new files will be processed
 python -m src.pipeline --input data/processed --output outputs --from processed \
-  --raw-sources data/Images data/Scanned_PDF
+  --raw-sources data/images data/pdf
 
 # Recalculate metrics
 python -m src.metrics --extracted outputs/extracted --ground-truth docs/ground_truth.csv --output outputs
@@ -154,14 +154,14 @@ python -m src.metrics --extracted outputs/extracted --ground-truth docs/ground_t
 # 1. The file's modification time will be newer
 # 2. Pipeline will automatically reprocess it
 python -m src.pipeline --input data/processed --output outputs --from processed \
-  --raw-sources data/Images data/Scanned_PDF
+  --raw-sources data/images data/pdf
 ```
 
 ### **Scenario 4: Force Complete Reprocessing**
 ```bash
 # Reprocess everything from scratch
-python -m src.preprocessor --input data/Images --output data/processed --force
-python -m src.preprocessor --input data/Scanned_PDF --output data/processed --force
+python -m src.preprocessor --input data/images --output data/processed --force
+python -m src.preprocessor --input data/pdf --output data/processed --force
 python -m src.ocr_engine --input data/processed --output outputs/ocr_results
 python -m src.extractor --input outputs/ocr_results --output outputs/extracted
 python -m src.metrics --extracted outputs/extracted --ground-truth docs/ground_truth.csv --output outputs
@@ -182,12 +182,12 @@ After running the complete pipeline, you'll have:
 ```
 outputs/
 ├── ocr_results/
-│   ├── IMG-20260507-WA0143.json
-│   ├── ... (25 OCR JSON files)
+│   ├── FR_invoice_img_real_001.json
+│   ├── ... (21 OCR JSON files)
 │   └── ocr_manifest.json
 ├── extracted/
-│   ├── IMG-20260507-WA0143.json
-│   ├── ... (25 extracted entity JSON files)
+│   ├── FR_invoice_img_real_001.json
+│   ├── ... (21 extracted entity JSON files)
 ├── pipeline_report.json          ← Pipeline execution stats
 ├── metrics_report.json            ← Complete metrics data
 ├── metrics_summary.txt            ← Human-readable report
@@ -229,7 +229,7 @@ outputs/
 **For regular use:**
 ```bash
 python -m src.pipeline --input data/processed --output outputs --from processed \
-  --raw-sources data/Images data/Scanned_PDF
+  --raw-sources data/images data/pdf
 ```
 
 This single command handles everything intelligently:

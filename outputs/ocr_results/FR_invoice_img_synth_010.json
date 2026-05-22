@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_synth_010",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_synth_010\\page_01.png",
+      "text": "Moreau SARL\n\n765, rue Perrier, 14519 Nguyen\nSIRET : 58178556126162\n\nDestinataire :\nMme Christine Perrier\n259, rue Bousquet, 97320 Sainte Marieboeuf\n\nFACTURE\n\nFacture N° : F-2025-7766\nDate : 27/01/2025\nÉchéance : 06/03/2026\n\nDésignation Quantité Prix Unitaire Total\nTransport de marchandises 23 587,63 € 13 515,49 €\nDéveloppement logiciel 39 88,42 € 3 448,38 £\nDéveloppement logiciel ai 732,62 € 30 037,42 €\nHébergement web 7 347,14 € 2 429,98 €\nFormation professionnelle 355,40 € 355,40 €\nTransport de marchandises 12 132,42 € 1 589,04 €\n\nSous-total HT 51 375,71 €\n\nTVA 20 % 10 275,14 €\n\nTotal TTC 61 650,85 €\n\nStatut : Payé\nSolde dû : 0,00 €",
+      "confidence": 0.9298181818181819,
+      "char_count": 642,
+      "word_count": 109,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Moreau SARL\n\n765, rue Perrier, 14519 Nguyen\nSIRET : 58178556126162\n\nDestinataire :\nMme Christine Perrier\n259, rue Bousquet, 97320 Sainte Marieboeuf\n\nFACTURE\n\nFacture N° : F-2025-7766\nDate : 27/01/2025\nÉchéance : 06/03/2026\n\nDésignation Quantité Prix Unitaire Total\nTransport de marchandises 23 587,63 € 13 515,49 €\nDéveloppement logiciel 39 88,42 € 3 448,38 £\nDéveloppement logiciel ai 732,62 € 30 037,42 €\nHébergement web 7 347,14 € 2 429,98 €\nFormation professionnelle 355,40 € 355,40 €\nTransport de marchandises 12 132,42 € 1 589,04 €\n\nSous-total HT 51 375,71 €\n\nTVA 20 % 10 275,14 €\n\nTotal TTC 61 650,85 €\n\nStatut : Payé\nSolde dû : 0,00 €",
+  "mean_confidence": 0.9298181818181819,
+  "total_char_count": 642,
+  "total_word_count": 109,
+  "low_quality_pages": [],
+  "error": ""
+}

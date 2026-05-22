@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_real_018",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_real_018\\page_01.png",
+      "text": "[CACHET OLLICH L}\n\nFACTURE OFFICIELLE\n\nN° Facture : IFC-2021-0078\n\nInstitut de Formation Continue\nLyon .\n\n7 Quai de la Pécherie, 6900] Lyon\n\nÉtablie le 06/06/2024 — Échéance le 06/07/2024\n\nDESTINATAIRE ( CONSOMMIATE\nM. Thierry Blanc\n\nUR) :\n\nInstitut de Formation Continue Lyon\n7 Quai de la Pécheric, 69001 Lyon\nSIRET : 77789012700490\n\nChambre des Métiers du Rhône\n\n40 Avenue du Maréchal de Saxe, 69003 Lyon\nN° TVA Intra : FR77789012700\n\nvmmition Gestion d' Entreprise (5 jours)\n\nMontant hors taxes : 2 725,00 EUR\n\nTaxe sur la valeur ajoutée (20%) :\n\n545.00 EUR\nTOTAL TOUTES TAXES COMPRISES :\n\n3 270,00 EUR\n\nModalités de paiement : Virement reçu Réf 1FC-VIR-078 — OPCO prise en charge 100%",
+      "confidence": 0.8498630136986302,
+      "char_count": 688,
+      "word_count": 114,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "[CACHET OLLICH L}\n\nFACTURE OFFICIELLE\n\nN° Facture : IFC-2021-0078\n\nInstitut de Formation Continue\nLyon .\n\n7 Quai de la Pécherie, 6900] Lyon\n\nÉtablie le 06/06/2024 — Échéance le 06/07/2024\n\nDESTINATAIRE ( CONSOMMIATE\nM. Thierry Blanc\n\nUR) :\n\nInstitut de Formation Continue Lyon\n7 Quai de la Pécheric, 69001 Lyon\nSIRET : 77789012700490\n\nChambre des Métiers du Rhône\n\n40 Avenue du Maréchal de Saxe, 69003 Lyon\nN° TVA Intra : FR77789012700\n\nvmmition Gestion d' Entreprise (5 jours)\n\nMontant hors taxes : 2 725,00 EUR\n\nTaxe sur la valeur ajoutée (20%) :\n\n545.00 EUR\nTOTAL TOUTES TAXES COMPRISES :\n\n3 270,00 EUR\n\nModalités de paiement : Virement reçu Réf 1FC-VIR-078 — OPCO prise en charge 100%",
+  "mean_confidence": 0.8498630136986302,
+  "total_char_count": 688,
+  "total_word_count": 114,
+  "low_quality_pages": [],
+  "error": ""
+}

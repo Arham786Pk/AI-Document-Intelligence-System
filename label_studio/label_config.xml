@@ -1,0 +1,25 @@
+<!--
+  Label Studio labeling interface for the AI French Invoice extractor (Milestone 2).
+  Template type: Named Entity Recognition (NER) over OCR text.
+  Exactly 12 entity labels, matching docs/entity_schema.md output keys.
+
+  Use this XML in: Project > Settings > Labeling Interface > Code.
+-->
+<View>
+  <Header value="French Invoice — Entity Annotation (12 entities)"/>
+  <Labels name="label" toName="text">
+    <Label value="SUPPLIER_NAME"   background="#e6194B"/>
+    <Label value="CONSUMER_NAME"   background="#3cb44b"/>
+    <Label value="INVOICE_NUMBER"  background="#4363d8"/>
+    <Label value="INVOICE_DATE"    background="#f58231"/>
+    <Label value="SIRET"           background="#911eb4"/>
+    <Label value="ECHEANCE"        background="#42d4f4"/>
+    <Label value="INVOICE_CONTENT" background="#f032e6"/>
+    <Label value="TVA_PERCENTAGE"  background="#bfef45"/>
+    <Label value="TVA_AMOUNT"      background="#fabed4"/>
+    <Label value="TOTAL_AMOUNT"    background="#469990"/>
+    <Label value="PAYMENT_STATUS"  background="#9A6324"/>
+    <Label value="SOLDE_DU"        background="#808000"/>
+  </Labels>
+  <Text name="text" value="$text"/>
+</View>

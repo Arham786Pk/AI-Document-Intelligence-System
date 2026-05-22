@@ -1,0 +1,55 @@
+{
+  "file_name": "FR_invoice_img_synth_023",
+  "supplier_name": "Clément SARL FACTURE",
+  "invoice_number": "FC-2025-1162",
+  "invoice_date": "07/06/2025",
+  "siret": "10054932908240",
+  "echeance": "30/08/2025",
+  "invoice_content": [
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "—————",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Formation professionnelle € €",
+      "quantity": "1",
+      "unit_price": "821.60"
+    },
+    {
+      "description": "Nettoyage de locau € €",
+      "quantity": "18",
+      "unit_price": "339.60"
+    },
+    {
+      "description": "Rédaction de contenu € €",
+      "quantity": "9",
+      "unit_price": "868.25"
+    },
+    {
+      "description": "Licence logicielle € €",
+      "quantity": "2",
+      "unit_price": "450.56"
+    },
+    {
+      "description": "Hébergement web € €",
+      "quantity": "4",
+      "unit_price": "295.04"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "7855.01",
+  "total_amount": "44130.06",
+  "payment_status": "PAID",
+  "solde_du": "44130.06"
+}

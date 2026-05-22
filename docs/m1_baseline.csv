@@ -1,18 +1,19 @@
 Entity,Precision,Recall,F1,Status,Notes
-supplier_name,21.05,100.00,34.78,Needs work,Rules tag every header line; precision is the bottleneck
-invoice_number,77.78,46.67,58.33,Moderate,9-pattern regex; misses non-standard prefixes
-invoice_date,41.18,87.50,56.00,Moderate,Multiple date formats not all covered
-siret,57.14,36.36,44.44,Weak,14-digit detection often confuses with other numeric IDs
-echeance,100.00,64.29,78.26,Good,Strong precision; recall limited when label is implicit
-invoice_content,77.78,41.18,53.85,Moderate,Free-text field; recall hurts when description spans rows
-tva_percentage,90.00,50.00,64.29,Good,Easy when "TVA 20%" pattern present
-tva_amount,87.50,38.89,53.85,Moderate,Confuses TVA with subtotals on some layouts
-total_amount,90.00,50.00,64.29,Good,Strong on "Total TTC" label; weak when label missing
-payment_status,89.47,100.00,94.44,Excellent,Card detection fix landed in M1 Complete commit
-solde_du,100.00,100.00,100.00,Perfect,Trivial rule on "Solde du" label
+supplier_name,68.04,97.78,80.24,Good,Header/Fournisseur detection strong on the new dataset
+invoice_number,56.44,43.85,49.35,Moderate,Misses non-standard refs; receipts often have no invoice number
+invoice_date,80.23,85.71,82.88,Good,Multiple date formats covered well
+siret,79.63,87.76,83.50,Good,14-digit detection reliable on printed invoices
+echeance,93.94,80.52,86.71,Good,Strong precision; recall limited when label implicit
+invoice_content,29.53,48.35,36.67,Weak,Free-text line items; hardest field (receipts + multi-row)
+tva_percentage,73.68,62.82,67.82,Good,Easy when "TVA 20%" present; mixed-rate hurts recall
+tva_amount,82.83,48.24,60.97,Moderate,Confuses TVA with subtotals on some layouts
+total_amount,88.24,66.67,75.95,Good,Strong on "Total TTC"; weaker when label missing
+payment_status,56.35,100.00,72.08,Moderate,High recall; precision lower (PAID over-predicted)
+solde_du,50.00,48.89,49.44,Weak,Only present on a minority of invoices
 ,,,,,
-MACRO AVERAGE (11 fields),75.63,64.99,63.87,M1 BASELINE,Computed as arithmetic mean of per-field metrics
+MACRO AVERAGE (11 fields),68.99,70.05,67.78,M1 BASELINE (NEW 2026-05-22),Mean of per-field metrics over 197 docs (84 synthetic + 113 real)
 ,,,,,
-M2 TARGET (per brief),,,55.00,Must exceed,Brief says target is 55% macro F1
-GAP (current - target),,,+8.87,,M1 rules already beat brief target — LayoutLMv3 must beat 63.87% to be worth deploying
+OVERALL ACCURACY,,,53.71,M1 BASELINE (NEW),Field-match accuracy over 197 docs
+M2 TARGET (per brief),,,55.00,Must exceed,Brief target is 55% macro F1
+GAP (macro F1 - target),,,+12.78,,M1 rules already beat the 55% target on this dataset — see m1_baseline.md note
 consumer_name (NEW for M2),N/A,N/A,N/A,To be built,12th entity — rules cannot reliably extract this

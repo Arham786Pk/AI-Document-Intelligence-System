@@ -13,12 +13,12 @@ Usage:
 
     # Full pipeline
     results = run_pipeline(
-        input_dir="data/raw/french_invoices",
+        input_dir="data/pdf",
         output_dir="outputs"
     )
 
     # CLI:
-    #   python -m src.pipeline --input data/raw/french_invoices --output outputs
+    #   python -m src.pipeline --input data/pdf --output outputs
 """
 from __future__ import annotations
 

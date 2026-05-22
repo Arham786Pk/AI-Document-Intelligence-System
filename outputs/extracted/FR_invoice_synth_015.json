@@ -1,0 +1,85 @@
+{
+  "file_name": "FR_invoice_synth_015",
+  "supplier_name": "Buisson SCI",
+  "invoice_number": "FAC-2024-3528",
+  "invoice_date": "04/12/2024",
+  "siret": "06699278746971",
+  "echeance": "31/12/2024",
+  "invoice_content": [
+    {
+      "description": "Maintenance annuelle",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Support technique",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Maintenance annuelle",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Non payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "56",
+      "unit_price": "123.83"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Facture N° : FAC--",
+      "quantity": "2024",
+      "unit_price": "3528"
+    },
+    {
+      "description": "Date d'émission : //",
+      "quantity": "12",
+      "unit_price": "2024"
+    },
+    {
+      "description": "Date d'échéance : //",
+      "quantity": "12",
+      "unit_price": "2024"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "7",
+      "unit_price": "920.96"
+    },
+    {
+      "description": "€ €",
+      "quantity": "12",
+      "unit_price": "794.40"
+    },
+    {
+      "description": "€ €",
+      "quantity": "26",
+      "unit_price": "054.50"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "9353.97",
+  "total_amount": "56123.83",
+  "payment_status": "PAID",
+  "solde_du": "56123.83"
+}

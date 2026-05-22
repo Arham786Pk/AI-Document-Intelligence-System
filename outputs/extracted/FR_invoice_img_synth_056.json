@@ -1,0 +1,85 @@
+{
+  "file_name": "FR_invoice_img_synth_056",
+  "supplier_name": "Perrot SA",
+  "invoice_number": "",
+  "invoice_date": "29/07/2024",
+  "siret": "05236138649621",
+  "echeance": "05/08/2025",
+  "invoice_content": [
+    {
+      "description": "Installation réseau",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Location d'équipement",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Audit de sécurité",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Non payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "10",
+      "unit_price": "273.80"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Numéro de facture : F--",
+      "quantity": "2024",
+      "unit_price": "8390"
+    },
+    {
+      "description": "Date : //",
+      "quantity": "07",
+      "unit_price": "2024"
+    },
+    {
+      "description": "Date limite de paiement : //",
+      "quantity": "08",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "4",
+      "unit_price": "634.25"
+    },
+    {
+      "description": "€ €",
+      "quantity": "1",
+      "unit_price": "532.00"
+    },
+    {
+      "description": "€ €",
+      "quantity": "2",
+      "unit_price": "395.25"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "1712.30",
+  "total_amount": "10273.80",
+  "payment_status": "PAID",
+  "solde_du": "10273.80"
+}

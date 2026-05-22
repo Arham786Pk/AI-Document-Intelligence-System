@@ -1,0 +1,95 @@
+{
+  "file_name": "FR_invoice_img_synth_047",
+  "supplier_name": "Joubert SCI",
+  "invoice_number": "Facture",
+  "invoice_date": "29/08/2024",
+  "siret": "65810625567484",
+  "echeance": "21/06/2025",
+  "invoice_content": [
+    {
+      "description": "Développement logiciel",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Audit de sécurité",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Support technique",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Transport de marchandises",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "N° Facture : F--",
+      "quantity": "2024",
+      "unit_price": "7535"
+    },
+    {
+      "description": "Date d'émission : //",
+      "quantity": "08",
+      "unit_price": "2024"
+    },
+    {
+      "description": "Échéance : //",
+      "quantity": "06",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "8",
+      "unit_price": "176.36"
+    },
+    {
+      "description": "€ €",
+      "quantity": "18",
+      "unit_price": "158.93"
+    },
+    {
+      "description": "€ €",
+      "quantity": "2",
+      "unit_price": "738.00"
+    },
+    {
+      "description": "€ €",
+      "quantity": "14",
+      "unit_price": "369.44"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "7688.55",
+  "total_amount": "46131.28",
+  "payment_status": "PAID",
+  "solde_du": "0.00"
+}

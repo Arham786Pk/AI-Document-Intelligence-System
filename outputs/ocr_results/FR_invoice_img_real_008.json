@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_real_008",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_real_008\\page_01.png",
+      "text": "FACTURE\n\nN° : CCR-2024-0423\n\nDate : 25/04/2024\nEcheance : 25/05/2024\n\nDESTINATAIRE 3\n\nSCI Leë Alpes Immobilier\n\n12 Rue Stendhal, 38000 Grenoble\n\nMise en Service et réglages\n\nGarantie extension 3 ans\n\nMontant HT : 2 250,00 EUR\n\nTVA 10% : 225,00 EUR\nTOTAL Trc : 2 475,00 EUR",
+      "confidence": 0.8682352941176471,
+      "char_count": 272,
+      "word_count": 47,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "FACTURE\n\nN° : CCR-2024-0423\n\nDate : 25/04/2024\nEcheance : 25/05/2024\n\nDESTINATAIRE 3\n\nSCI Leë Alpes Immobilier\n\n12 Rue Stendhal, 38000 Grenoble\n\nMise en Service et réglages\n\nGarantie extension 3 ans\n\nMontant HT : 2 250,00 EUR\n\nTVA 10% : 225,00 EUR\nTOTAL Trc : 2 475,00 EUR",
+  "mean_confidence": 0.8682352941176471,
+  "total_char_count": 272,
+  "total_word_count": 47,
+  "low_quality_pages": [],
+  "error": ""
+}

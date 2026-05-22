@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_real_027",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_real_027\\page_01.png",
+      "text": "Traiteur Oriental Benali FACTURE\n\nSIRET : 44445678900334 N° : TOB-2024-0267\n\n15 Rue de la Kasbah, 13003 Marseille Date : 16/05/2024\n\nN° TVA : FR44445678900 Echeance : 31/05/2024\n\nFOURNISSEUR :\n\nTraiteur Oriental Benali\n\n15 Rue de la Kasbah, 13003 Marseille\n\nSIRET .: 44445678900334 | TVA : FR44445678900\n\nCONSOMMATEUR :\n\nMme Fatima El Amrani\n\nAssociation Culturelle Al-Andalus .\n\n8 Rue Colbert, 13001 Marseille\n\nDESIGNATION\n\nCouscous royal (x*x40 Portions)\nPastilla au Poulet (x20)\nDesserts orientaux assortiment\n\nService et livraison\n\nMontant HT : 815,00 EUR\n\n| TVA 10%: 81,50 EUR\nTOTAL TTC : 896,50 EUR\n\nREGLEMENT : Conditions:\n\nBOn pour accord : Signature et cachet :\n\nLL | ————\n\nPenalites do rTotard: taux legal en vigueur. Indeznite forfaitaire de FCCOuvrenone : 40 EUR.",
+      "confidence": 0.8587730061349693,
+      "char_count": 775,
+      "word_count": 119,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Traiteur Oriental Benali FACTURE\n\nSIRET : 44445678900334 N° : TOB-2024-0267\n\n15 Rue de la Kasbah, 13003 Marseille Date : 16/05/2024\n\nN° TVA : FR44445678900 Echeance : 31/05/2024\n\nFOURNISSEUR :\n\nTraiteur Oriental Benali\n\n15 Rue de la Kasbah, 13003 Marseille\n\nSIRET .: 44445678900334 | TVA : FR44445678900\n\nCONSOMMATEUR :\n\nMme Fatima El Amrani\n\nAssociation Culturelle Al-Andalus .\n\n8 Rue Colbert, 13001 Marseille\n\nDESIGNATION\n\nCouscous royal (x*x40 Portions)\nPastilla au Poulet (x20)\nDesserts orientaux assortiment\n\nService et livraison\n\nMontant HT : 815,00 EUR\n\n| TVA 10%: 81,50 EUR\nTOTAL TTC : 896,50 EUR\n\nREGLEMENT : Conditions:\n\nBOn pour accord : Signature et cachet :\n\nLL | ————\n\nPenalites do rTotard: taux legal en vigueur. Indeznite forfaitaire de FCCOuvrenone : 40 EUR.",
+  "mean_confidence": 0.8587730061349693,
+  "total_char_count": 775,
+  "total_word_count": 119,
+  "low_quality_pages": [],
+  "error": ""
+}

@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_synth_007",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_synth_007\\page_01.png",
+      "text": "Laporte SCI\n\n769, avenue de Daniel, 14206 Boucher-les-Bains\nSIRET : 348696651 17426\n\nDestinataire :\nGrégoire SCI\n105, boulevard Georges, 44603 Saint Adrienneboeuf\n\nDésignation\n\nCréation graphique\nDéveloppement logiciel\nLicence logicielle\nLicence logicielle\n\nStatut : Payé\nSolde dû : 0,00 €\n\nFACTURE\n\nFacture N° : FC-2024-9607\nDate d'émission : 06/10/2024\nDate limite de paiement : 18/12/2025\n\nQuantité Prix Unitaire Total\n42 10,45 € 438,90 €\n31 332,62 € 10 311,22 €\n16 339,27 € 5 428,82 €\n30 835,49 € 25 064,70 €\nSous-total HT 41 243,14 €\nTVAS5.5% 2 268,37 €\nTotal TTC 43 511,51 €",
+      "confidence": 0.924375,
+      "char_count": 580,
+      "word_count": 95,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Laporte SCI\n\n769, avenue de Daniel, 14206 Boucher-les-Bains\nSIRET : 348696651 17426\n\nDestinataire :\nGrégoire SCI\n105, boulevard Georges, 44603 Saint Adrienneboeuf\n\nDésignation\n\nCréation graphique\nDéveloppement logiciel\nLicence logicielle\nLicence logicielle\n\nStatut : Payé\nSolde dû : 0,00 €\n\nFACTURE\n\nFacture N° : FC-2024-9607\nDate d'émission : 06/10/2024\nDate limite de paiement : 18/12/2025\n\nQuantité Prix Unitaire Total\n42 10,45 € 438,90 €\n31 332,62 € 10 311,22 €\n16 339,27 € 5 428,82 €\n30 835,49 € 25 064,70 €\nSous-total HT 41 243,14 €\nTVAS5.5% 2 268,37 €\nTotal TTC 43 511,51 €",
+  "mean_confidence": 0.924375,
+  "total_char_count": 580,
+  "total_word_count": 95,
+  "low_quality_pages": [],
+  "error": ""
+}

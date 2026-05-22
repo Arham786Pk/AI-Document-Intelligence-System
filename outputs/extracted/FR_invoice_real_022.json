@@ -1,0 +1,70 @@
+{
+  "file_name": "FR_invoice_real_022",
+  "supplier_name": "SARL ALBIN",
+  "invoice_number": "1418525",
+  "invoice_date": "03/85/42",
+  "siret": "53368626700014",
+  "echeance": "",
+  "invoice_content": [
+    {
+      "description": "PARISTEN",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "CROQUE MONSIEUR JAMBON",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "FORMULE ORANGE #",
+      "quantity": "",
+      "unit_price": "10.00"
+    },
+    {
+      "description": "FORMULE FRAISE F",
+      "quantity": "",
+      "unit_price": "9.00"
+    },
+    {
+      "description": "FORMULE FRAISE F",
+      "quantity": "",
+      "unit_price": "9.00"
+    },
+    {
+      "description": "FOCACCIA GARNIE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "EFFILOCHE DE PORC MARINE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "FORMULE FRAISE F",
+      "quantity": "",
+      "unit_price": "9.00"
+    },
+    {
+      "description": "FORMULE FRAISE F",
+      "quantity": "",
+      "unit_price": "9.00"
+    },
+    {
+      "description": "FORMULE FRAISE #",
+      "quantity": "",
+      "unit_price": "9.00"
+    },
+    {
+      "description": "NBARTICLES :",
+      "quantity": ".",
+      "unit_price": "10"
+    }
+  ],
+  "tva_percentage": "10.00",
+  "tva_amount": "",
+  "total_amount": "",
+  "payment_status": "PAID",
+  "solde_du": ""
+}

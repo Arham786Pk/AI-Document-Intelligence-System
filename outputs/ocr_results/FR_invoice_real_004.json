@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_real_004",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_real_004\\page_01.png",
+      "text": "o3-0S-24-LAP\n\nTICKET DE CAISSE\n\nLA POSTE\n\nBUREAU DE LE CREUSOT\n\nEdité le : 07/05/2026 à 11:51:05\nAutomate NABANCO : /11530NBC1i14992\nNuméro de vente - 13412\n\nDETAIL DE LA COMMANDE\n1 LETTRE RECORILAR : 8,43€\n\nTYPE PAÏEMENT : CARTE SANS CONTACT\nTOTAL COMMANDE TTC : 8,43€\n\nTOTAL DISTRIBUE TTC : 8,43€\n\nTOTAL DISTRIBUE HT: 8,43€\n\nMERCI ET À BIENTOT",
+      "confidence": 0.8525862068965517,
+      "char_count": 345,
+      "word_count": 58,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "o3-0S-24-LAP\n\nTICKET DE CAISSE\n\nLA POSTE\n\nBUREAU DE LE CREUSOT\n\nEdité le : 07/05/2026 à 11:51:05\nAutomate NABANCO : /11530NBC1i14992\nNuméro de vente - 13412\n\nDETAIL DE LA COMMANDE\n1 LETTRE RECORILAR : 8,43€\n\nTYPE PAÏEMENT : CARTE SANS CONTACT\nTOTAL COMMANDE TTC : 8,43€\n\nTOTAL DISTRIBUE TTC : 8,43€\n\nTOTAL DISTRIBUE HT: 8,43€\n\nMERCI ET À BIENTOT",
+  "mean_confidence": 0.8525862068965517,
+  "total_char_count": 345,
+  "total_word_count": 58,
+  "low_quality_pages": [],
+  "error": ""
+}

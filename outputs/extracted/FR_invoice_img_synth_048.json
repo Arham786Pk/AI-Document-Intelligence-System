@@ -1,0 +1,95 @@
+{
+  "file_name": "FR_invoice_img_synth_048",
+  "supplier_name": "Ferreira SARL",
+  "invoice_number": "Facture",
+  "invoice_date": "21/06/2025",
+  "siret": "10871081165856",
+  "echeance": "17/08/2025",
+  "invoice_content": [
+    {
+      "description": "Installation réseau",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Hébergement web",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Formation professionnelle",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Rédaction de contenu",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Non payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "49",
+      "unit_price": "760.80"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "N° Facture : FC--",
+      "quantity": "2025",
+      "unit_price": "8567"
+    },
+    {
+      "description": "Date facture : //",
+      "quantity": "06",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Date limite de paiement : //",
+      "quantity": "08",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "18",
+      "unit_price": "085.20"
+    },
+    {
+      "description": "€ €",
+      "quantity": "5",
+      "unit_price": "268.69"
+    },
+    {
+      "description": "€ €",
+      "quantity": "4",
+      "unit_price": "676.80"
+    },
+    {
+      "description": "€ €",
+      "quantity": "13",
+      "unit_price": "436.64"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "8293.47",
+  "total_amount": "49760.80",
+  "payment_status": "PAID",
+  "solde_du": "49760.80"
+}

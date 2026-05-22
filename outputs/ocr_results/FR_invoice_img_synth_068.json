@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_synth_068",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_synth_068\\page_01.png",
+      "text": "Aubert SAS\n\n20, rue Aimé Renard, 62827 Perezdan\nSIRET : 80744017202781\n\nFacturé à :\nGimenez SCI\n2, rue de Maurice, 32455 Germain\n\nDésignation\n\nMaintenance annuelle\nFormation professionnelle\nPrestation de conseil\nInstallation réseau\n\nStatut : Payé\nSolde dû : 0,00 €\n\nFACTURE\n\nFacture N° : FC-2025-7216\nDate : 12/07/2025\nDate d'échéance : 15/08/2025\n\nQuantité Prix Unitaire Total\n6 114,51 € 687,06 €\n40 243,36 € 9 734,40 €\n21 744,07 € 15 625,47 €\n42 191,37 € 8 037,54 €\nSous-total HT 34 084,47 €\nTVA 20 % 6 816,89 €\nTotal TTC 40 901,36 €",
+      "confidence": 0.9378125,
+      "char_count": 535,
+      "word_count": 95,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Aubert SAS\n\n20, rue Aimé Renard, 62827 Perezdan\nSIRET : 80744017202781\n\nFacturé à :\nGimenez SCI\n2, rue de Maurice, 32455 Germain\n\nDésignation\n\nMaintenance annuelle\nFormation professionnelle\nPrestation de conseil\nInstallation réseau\n\nStatut : Payé\nSolde dû : 0,00 €\n\nFACTURE\n\nFacture N° : FC-2025-7216\nDate : 12/07/2025\nDate d'échéance : 15/08/2025\n\nQuantité Prix Unitaire Total\n6 114,51 € 687,06 €\n40 243,36 € 9 734,40 €\n21 744,07 € 15 625,47 €\n42 191,37 € 8 037,54 €\nSous-total HT 34 084,47 €\nTVA 20 % 6 816,89 €\nTotal TTC 40 901,36 €",
+  "mean_confidence": 0.9378125,
+  "total_char_count": 535,
+  "total_word_count": 95,
+  "low_quality_pages": [],
+  "error": ""
+}

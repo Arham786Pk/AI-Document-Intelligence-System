@@ -1,0 +1,55 @@
+{
+  "file_name": "FR_invoice_img_synth_027",
+  "supplier_name": "Pichon EURL FACTURE",
+  "invoice_number": "",
+  "invoice_date": "13/03/2025",
+  "siret": "03131683277317",
+  "echeance": "20/03/2025",
+  "invoice_content": [
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "————————_————_",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Location d'équipement € €",
+      "quantity": "25",
+      "unit_price": "911.60"
+    },
+    {
+      "description": "Création graphique € €",
+      "quantity": "8",
+      "unit_price": "168.49"
+    },
+    {
+      "description": "Fourniture de matériel € €",
+      "quantity": "22",
+      "unit_price": "991.80"
+    },
+    {
+      "description": "Prestation de conseil € €",
+      "quantity": "82",
+      "unit_price": "072.88"
+    },
+    {
+      "description": "Fourniture de matériel € €",
+      "quantity": "11",
+      "unit_price": "764.62"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "5.5",
+  "tva_amount": "5549.99",
+  "total_amount": "106458.88",
+  "payment_status": "PAID",
+  "solde_du": "106458.88"
+}

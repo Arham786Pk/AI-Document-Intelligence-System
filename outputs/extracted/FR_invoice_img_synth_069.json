@@ -1,0 +1,85 @@
+{
+  "file_name": "FR_invoice_img_synth_069",
+  "supplier_name": "Fabre SAS",
+  "invoice_number": "Facture",
+  "invoice_date": "15/02/2025",
+  "siret": "53237419467791",
+  "echeance": "20/10/2025",
+  "invoice_content": [
+    {
+      "description": "Transport de marchandises",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Installation réseau",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Prestation de conseil",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Non payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "13",
+      "unit_price": "868.65"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "N° Facture : F--",
+      "quantity": "2025",
+      "unit_price": "1134"
+    },
+    {
+      "description": "Date : //",
+      "quantity": "02",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Échéance : //",
+      "quantity": "10",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "5",
+      "unit_price": "655.78"
+    },
+    {
+      "description": "€ €",
+      "quantity": "1",
+      "unit_price": "832.75"
+    },
+    {
+      "description": "€ €",
+      "quantity": "4",
+      "unit_price": "068.68"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "2311.44",
+  "total_amount": "13868.65",
+  "payment_status": "PAID",
+  "solde_du": "13868.65"
+}

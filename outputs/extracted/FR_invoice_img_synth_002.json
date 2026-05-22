@@ -1,0 +1,85 @@
+{
+  "file_name": "FR_invoice_img_synth_002",
+  "supplier_name": "Marchal SA",
+  "invoice_number": "Facture",
+  "invoice_date": "20/03/2025",
+  "siret": "58215707879869",
+  "echeance": "17/05/2026",
+  "invoice_content": [
+    {
+      "description": "Hébergement web",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Transport de marchandises",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Fourniture de matériel",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Non payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "22",
+      "unit_price": "724.70"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "N° Facture : FAC--",
+      "quantity": "2025",
+      "unit_price": "9441"
+    },
+    {
+      "description": "Date facture : //",
+      "quantity": "03",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Échéance : //",
+      "quantity": "05",
+      "unit_price": "2026"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "8",
+      "unit_price": "915.87"
+    },
+    {
+      "description": "€ €",
+      "quantity": "7",
+      "unit_price": "626.74"
+    },
+    {
+      "description": "€ €",
+      "quantity": "7",
+      "unit_price": "394.64"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "3787.45",
+  "total_amount": "22724.70",
+  "payment_status": "PAID",
+  "solde_du": "22724.70"
+}

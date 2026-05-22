@@ -1,0 +1,55 @@
+{
+  "file_name": "FR_invoice_img_synth_036",
+  "supplier_name": "Lebrun SA FACTURE",
+  "invoice_number": "FC-2025-1589",
+  "invoice_date": "11/04/2025",
+  "siret": "75102606685961",
+  "echeance": "25/03/2026",
+  "invoice_content": [
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "————————_————_",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Installation réseau € €",
+      "quantity": "11",
+      "unit_price": "985.12"
+    },
+    {
+      "description": "Hébergement web € €",
+      "quantity": "18",
+      "unit_price": "589.44"
+    },
+    {
+      "description": "Licence logicielle € €",
+      "quantity": "3",
+      "unit_price": "977.74"
+    },
+    {
+      "description": "Transport de marchandises € €",
+      "quantity": "10",
+      "unit_price": "636.10"
+    },
+    {
+      "description": "Installation réseau € €",
+      "quantity": "2",
+      "unit_price": "791.58"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "9596.00",
+  "total_amount": "57575.98",
+  "payment_status": "PAID",
+  "solde_du": "0.00"
+}

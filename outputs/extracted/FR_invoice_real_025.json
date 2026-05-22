@@ -1,0 +1,65 @@
+{
+  "file_name": "FR_invoice_real_025",
+  "supplier_name": "SARL ALBIN",
+  "invoice_number": "1417938",
+  "invoice_date": "03/85/42",
+  "siret": "53368626700014",
+  "echeance": "",
+  "invoice_content": [
+    {
+      "description": "EUR",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "GRAND CAFE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "X u+”!INITE",
+      "quantity": "1.9",
+      "unit_price": "9.50"
+    },
+    {
+      "description": "BOISSON UnANTNT CL",
+      "quantity": "25",
+      "unit_price": "2.70"
+    },
+    {
+      "description": "PAIN AU CHOCOLAT PUR BEURRE |",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "X F/UNITE",
+      "quantity": "1.20",
+      "unit_price": "2.40"
+    },
+    {
+      "description": "CHAUSSON AUX POMMES_ =",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "X F/UNITE",
+      "quantity": "1.80",
+      "unit_price": "3.60"
+    },
+    {
+      "description": "sn mmmmmmm mm mm mme mm mme nm mme me me mn ee",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "NBARTICLES :",
+      "quantity": ".",
+      "unit_price": "10"
+    }
+  ],
+  "tva_percentage": "5.50",
+  "tva_amount": "0.95",
+  "total_amount": "18.20",
+  "payment_status": "PAID",
+  "solde_du": ""
+}

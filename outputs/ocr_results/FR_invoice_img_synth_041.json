@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_synth_041",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_synth_041\\page_01.png",
+      "text": "Fernandez SARL\n\n76, boulevard Renault, 84377 Lombard-les-Bains\nSIRET : 36766194482826\n\nDestinataire :\nÉtienne Lévêque\n85, avenue Nath Faivre, 15544 Germain\n\nDésignation\n\nInstallation réseau\nLocation d'équipement\nDéveloppement logiciel\nSupport technique\n\nStatut : Payé\nSolde dû : 0,00 €\n\nFACTURE\n\nNuméro de facture : FAC-2026-5822\nDate facture : 18/05/2026\nDate d'échéance : 12/07/2026\n\nQuantité Prix Unitaire Total\n25 910,24 € 22 756,00 €\n8 938,95 € 7 511,60 €\n17 311,63 € 5 297,71 €\n49 213,57 € 10 464,93 €\nSous-total HT 46 030,24 €\nTVA 20 % 9 206,05 €\nTotal TTC 55 236,29 €",
+      "confidence": 0.9389583333333333,
+      "char_count": 575,
+      "word_count": 95,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Fernandez SARL\n\n76, boulevard Renault, 84377 Lombard-les-Bains\nSIRET : 36766194482826\n\nDestinataire :\nÉtienne Lévêque\n85, avenue Nath Faivre, 15544 Germain\n\nDésignation\n\nInstallation réseau\nLocation d'équipement\nDéveloppement logiciel\nSupport technique\n\nStatut : Payé\nSolde dû : 0,00 €\n\nFACTURE\n\nNuméro de facture : FAC-2026-5822\nDate facture : 18/05/2026\nDate d'échéance : 12/07/2026\n\nQuantité Prix Unitaire Total\n25 910,24 € 22 756,00 €\n8 938,95 € 7 511,60 €\n17 311,63 € 5 297,71 €\n49 213,57 € 10 464,93 €\nSous-total HT 46 030,24 €\nTVA 20 % 9 206,05 €\nTotal TTC 55 236,29 €",
+  "mean_confidence": 0.9389583333333333,
+  "total_char_count": 575,
+  "total_word_count": 95,
+  "low_quality_pages": [],
+  "error": ""
+}

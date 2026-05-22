@@ -1,0 +1,198 @@
+File Name,Supplier Name,Invoice Number,Invoice Date,SIRET,Echeance,Invoice Content,TVA Percentage,TVA Amount,Total Amount,Payment Status,Solde du,Notes
+FR_invoice_synth_001.pdf,Merle EURL,FAC-2025-7505,23/10/2025,65172862335735,14/08/2026,Audit de sécurité; Location d'équipement,10,4514.31,49657.41,UNPAID,49657.41,synthetic
+FR_invoice_synth_002.pdf,Lopez SARL,FC-2026-3073,01/01/2026,18626596939007,18/03/2026,Transport de marchandises; Licence logicielle; Nettoyage de locaux; Transport de marchandises; Installation réseau; Hébergement web,20,4412.37,26474.20,PAID,,synthetic
+FR_invoice_synth_003.pdf,Dijoux SCI,F-2025-0457,13/04/2025,22472991680330,01/10/2025,Création graphique; Installation réseau; Rédaction de contenu; Nettoyage de locaux; Rédaction de contenu; Formation professionnelle,20,18171.47,109028.83,UNPAID,109028.83,synthetic
+FR_invoice_synth_004.pdf,Mahe EURL,F-2025-9526,24/02/2025,77876051787814,15/08/2025,Support technique; Fourniture de matériel,20,2295.86,13775.16,UNPAID,13775.16,synthetic
+FR_invoice_synth_005.pdf,De Oliveira EURL,FC-2025-0438,09/09/2025,88335029518302,06/04/2026,Hébergement web; Développement logiciel; Location d'équipement,10,1626.74,17894.18,PAID,,synthetic
+FR_invoice_synth_006.pdf,Guillet EURL,FC-2025-9507,12/07/2025,86945827195530,26/05/2026,Audit de sécurité; Développement logiciel; Transport de marchandises; Installation réseau,5.5,1240.03,23785.95,UNPAID,23785.95,synthetic
+FR_invoice_synth_007.pdf,Perrot SA,FAC-2025-4471,30/04/2025,03950384291604,09/05/2025,Installation réseau; Formation professionnelle; Nettoyage de locaux; Licence logicielle,5.5,3531.09,67732.81,UNPAID,67732.81,synthetic
+FR_invoice_synth_008.pdf,David SARL,FAC-2024-7149,03/10/2024,24238038079490,01/06/2025,Développement logiciel; Rédaction de contenu; Location d'équipement,10,8029.06,88319.70,UNPAID,88319.70,synthetic
+FR_invoice_synth_009.pdf,Dijoux SCI,F-2025-2405,09/02/2025,51102919508543,12/04/2025,Développement logiciel; Développement logiciel,20,1472.19,8833.14,UNPAID,8833.14,synthetic
+FR_invoice_synth_010.pdf,Arnaud SAS,FAC-2024-8366,20/07/2024,87283341033917,14/02/2026,Support technique; Hébergement web; Location d'équipement; Installation réseau; Installation réseau; Formation professionnelle,5.5,2812.47,53948.35,PAID,,synthetic
+FR_invoice_synth_011.pdf,Leconte SASU,FC-2026-2395,17/03/2026,81666226318854,03/05/2026,Hébergement web; Support technique; Formation professionnelle; Maintenance annuelle; Transport de marchandises,20,17252.02,103512.12,PAID,,synthetic
+FR_invoice_synth_012.pdf,Poulain SA,FAC-2025-1325,07/04/2025,27678421746915,22/08/2025,Prestation de conseil; Nettoyage de locaux; Rédaction de contenu; Maintenance annuelle; Formation professionnelle; Nettoyage de locaux,20,17766.32,106597.94,PAID,,synthetic
+FR_invoice_synth_013.pdf,Maillot SA,F-2025-1719,30/03/2025,39054689327606,07/09/2025,Audit de sécurité; Maintenance annuelle; Transport de marchandises; Audit de sécurité; Formation professionnelle; Maintenance annuelle,20,20592.38,123554.30,UNPAID,123554.30,synthetic
+FR_invoice_synth_014.pdf,Marin EURL,FC-2024-5414,05/12/2024,29906063405197,23/05/2026,Installation réseau; Hébergement web; Rédaction de contenu,5.5,1338.31,25671.23,UNPAID,25671.23,synthetic
+FR_invoice_synth_015.pdf,Buisson SCI,FAC-2024-3528,04/12/2024,06699278746971,31/12/2024,Maintenance annuelle; Support technique; Maintenance annuelle,20,9353.97,56123.83,UNPAID,56123.83,synthetic
+FR_invoice_img_synth_001.png,Duval SARL,FC-2025-5409,09/01/2025,86469479091676,21/01/2026,Création graphique; Développement logiciel; Création graphique,10,2196.14,24157.55,PAID,,synthetic
+FR_invoice_img_synth_002.png,Marchal SA,FAC-2025-9441,20/03/2025,58215707879869,17/05/2026,Hébergement web; Transport de marchandises; Fourniture de matériel,20,3787.45,22724.70,UNPAID,22724.70,synthetic
+FR_invoice_img_synth_003.png,Leduc EURL,FC-2025-5589,17/04/2025,31541440478697,12/09/2025,Transport de marchandises; Développement logiciel; Audit de sécurité; Nettoyage de locaux; Fourniture de matériel; Maintenance annuelle,20,10757.04,64542.23,PAID,,synthetic
+FR_invoice_img_synth_004.png,Carlier EURL,FC-2026-6313,09/01/2026,13953286316822,11/06/2026,Création graphique; Transport de marchandises; Hébergement web; Audit de sécurité; Transport de marchandises; Maintenance annuelle,5.5,5744.74,110194.54,UNPAID,110194.54,synthetic
+FR_invoice_img_synth_005.png,Fontaine SARL,F-2024-0797,07/08/2024,37983466443415,02/04/2026,Rédaction de contenu; Développement logiciel; Fourniture de matériel; Licence logicielle; Location d'équipement,10,4814.27,52956.94,UNPAID,52956.94,synthetic
+FR_invoice_img_synth_006.png,Marie SARL,F-2026-2085,11/01/2026,92429456884460,17/06/2026,Licence logicielle; Développement logiciel; Licence logicielle; Audit de sécurité; Fourniture de matériel; Installation réseau,5.5,3133.25,60101.51,UNPAID,60101.51,synthetic
+FR_invoice_img_synth_007.png,Laporte SCI,FC-2024-9607,06/10/2024,34869665117426,18/12/2025,Création graphique; Développement logiciel; Licence logicielle; Licence logicielle,5.5,2268.37,43511.51,PAID,,synthetic
+FR_invoice_img_synth_008.png,Payet SAS,FAC-2025-2495,25/02/2025,51681536047465,03/05/2025,Création graphique; Hébergement web; Location d'équipement; Audit de sécurité; Développement logiciel,20,10599.94,63599.62,PAID,,synthetic
+FR_invoice_img_synth_009.png,Camus EURL,F-2025-1712,06/05/2025,26406555664184,12/05/2026,Fourniture de matériel; Hébergement web; Location d'équipement,20,6164.37,36986.24,PAID,,synthetic
+FR_invoice_img_synth_010.png,Moreau SARL,F-2025-7766,27/01/2025,58178556126162,06/03/2026,Transport de marchandises; Développement logiciel; Développement logiciel; Hébergement web; Formation professionnelle; Transport de marchandises,20,10275.14,61650.85,PAID,,synthetic
+FR_invoice_img_synth_011.png,Lacroix SAS,FC-2024-4913,27/10/2024,53365752411583,21/07/2025,Création graphique; Prestation de conseil,5.5,2490.65,47775.19,PAID,,synthetic
+FR_invoice_img_synth_012.png,Michel SARL,F-2024-3966,13/12/2024,64396785881175,10/10/2025,Installation réseau; Création graphique; Création graphique; Maintenance annuelle,20,9152.99,54917.92,PAID,,synthetic
+FR_invoice_img_synth_013.png,Lefebvre SARL,F-2025-4501,15/07/2025,87309680880994,31/07/2026,Développement logiciel; Création graphique,20,5031.84,30191.05,PAID,,synthetic
+FR_invoice_img_synth_014.png,Pinto EURL,FAC-2025-1739,22/03/2025,43758630011391,23/07/2026,Création graphique; Support technique,20,2883.12,17298.71,PAID,,synthetic
+FR_invoice_img_synth_015.png,Texier SCI,FC-2025-8822,11/09/2025,82888646514546,02/04/2026,Location d'équipement; Fourniture de matériel; Prestation de conseil; Maintenance annuelle,20,4406.59,26439.55,PAID,,synthetic
+FR_invoice_img_synth_016.png,Lefèvre SARL,F-2025-5963,28/08/2025,23786172309220,27/10/2025,Hébergement web; Installation réseau; Maintenance annuelle; Création graphique,20,5614.87,33689.21,PAID,,synthetic
+FR_invoice_img_synth_017.png,Bonnin SASU,FAC-2025-3245,22/07/2025,05505476750720,21/08/2025,Nettoyage de locaux; Fourniture de matériel; Hébergement web; Support technique; Audit de sécurité; Maintenance annuelle,20,13772.05,82632.30,PAID,,synthetic
+FR_invoice_img_synth_018.png,Chevallier EURL,FC-2025-6025,19/07/2025,25374305034662,13/06/2026,Prestation de conseil; Formation professionnelle; Développement logiciel; Nettoyage de locaux; Support technique; Prestation de conseil,20,9219.48,55316.90,UNPAID,55316.90,synthetic
+FR_invoice_img_synth_019.png,Imbert SASU,F-2024-6341,18/12/2024,71130662212602,08/12/2025,Prestation de conseil; Hébergement web; Rédaction de contenu; Audit de sécurité; Prestation de conseil,5.5,3150.56,60433.38,PAID,,synthetic
+FR_invoice_img_synth_020.png,Morel SARL,F-2024-3795,30/07/2024,16136325502049,03/10/2024,Fourniture de matériel; Transport de marchandises; Audit de sécurité; Prestation de conseil; Formation professionnelle,20,17603.02,105618.14,UNPAID,105618.14,synthetic
+FR_invoice_img_synth_021.png,Samson SASU,F-2026-9649,12/04/2026,24210608343056,06/07/2026,Installation réseau; Prestation de conseil; Création graphique,20,4759.47,28556.80,PAID,,synthetic
+FR_invoice_img_synth_022.png,Legros EURL,F-2025-7839,09/12/2025,11015720559198,12/01/2026,Nettoyage de locaux; Formation professionnelle; Nettoyage de locaux,20,8163.52,48981.10,UNPAID,48981.10,synthetic
+FR_invoice_img_synth_023.png,Clément SARL,FC-2025-1162,07/06/2025,10054932908240,30/08/2025,Formation professionnelle; Nettoyage de locaux; Rédaction de contenu; Licence logicielle; Hébergement web,20,7355.01,44130.06,UNPAID,44130.06,synthetic
+FR_invoice_img_synth_024.png,Marie SARL,FAC-2024-6723,14/09/2024,15707720094418,19/12/2024,Audit de sécurité; Création graphique; Rédaction de contenu; Fourniture de matériel; Hébergement web,20,9567.11,57402.64,PAID,,synthetic
+FR_invoice_img_synth_025.png,Labbé SASU,FC-2024-5047,12/10/2024,10361220201509,08/03/2025,Transport de marchandises; Installation réseau; Licence logicielle; Formation professionnelle,20,9414.70,56488.21,UNPAID,56488.21,synthetic
+FR_invoice_img_synth_026.png,Schneider SA,FAC-2025-8557,23/11/2025,54049549296335,22/02/2026,Nettoyage de locaux; Création graphique; Licence logicielle; Rédaction de contenu,20,6783.94,40703.64,UNPAID,40703.64,synthetic
+FR_invoice_img_synth_027.png,Pichon EURL,FC-2025-8593,13/03/2025,03131683277317,20/03/2025,Location d'équipement; Création graphique; Fourniture de matériel; Prestation de conseil; Fourniture de matériel,5.5,5549.99,106458.88,UNPAID,106458.88,synthetic
+FR_invoice_img_synth_028.png,Menard SAS,FAC-2024-1066,02/07/2024,54764277252874,27/11/2025,Location d'équipement; Support technique; Fourniture de matériel; Prestation de conseil,20,13437.50,80624.99,PAID,,synthetic
+FR_invoice_img_synth_029.png,Blin SCI,FC-2025-3805,22/05/2025,33054237441665,25/11/2025,Transport de marchandises; Prestation de conseil; Développement logiciel; Hébergement web,20,21381.44,128288.64,PAID,,synthetic
+FR_invoice_img_synth_030.png,Hubert SAS,FAC-2025-4707,26/12/2025,90322837800508,17/06/2026,Formation professionnelle; Maintenance annuelle; Installation réseau; Fourniture de matériel,20,12907.49,77444.95,UNPAID,77444.95,synthetic
+FR_invoice_img_synth_031.png,Labbé SASU,FAC-2025-3783,17/11/2025,67717257728928,02/08/2026,Développement logiciel; Création graphique; Audit de sécurité; Développement logiciel; Création graphique; Maintenance annuelle,5.5,2977.13,57106.80,PAID,,synthetic
+FR_invoice_img_synth_032.png,Pinto EURL,FC-2026-3356,07/02/2026,15532021443685,13/05/2026,Location d'équipement; Développement logiciel; Audit de sécurité; Maintenance annuelle; Support technique,20,7601.35,45608.08,PAID,,synthetic
+FR_invoice_img_synth_033.png,Chevalier SARL,F-2024-7361,08/12/2024,76725832111819,02/12/2025,Développement logiciel; Rédaction de contenu; Formation professionnelle; Développement logiciel,20,4162.89,24977.33,UNPAID,24977.33,synthetic
+FR_invoice_img_synth_034.png,Royer SA,FC-2024-2202,31/10/2024,01436176316062,17/12/2024,Développement logiciel; Audit de sécurité; Maintenance annuelle,20,3793.59,22761.54,PAID,,synthetic
+FR_invoice_img_synth_035.png,Bazin SASU,FAC-2025-3418,18/08/2025,03758492001141,09/08/2026,Nettoyage de locaux; Création graphique; Nettoyage de locaux; Hébergement web,5.5,3604.35,69138.02,UNPAID,69138.02,synthetic
+FR_invoice_img_synth_036.png,Lebrun SA,FC-2025-1589,11/04/2025,75102606685961,25/03/2026,Installation réseau; Hébergement web; Licence logicielle; Transport de marchandises; Installation réseau,20,9596.00,57575.98,PAID,,synthetic
+FR_invoice_img_synth_037.png,Rousseau SARL,F-2024-8347,19/08/2024,72470173276693,13/03/2025,Développement logiciel; Support technique; Prestation de conseil; Maintenance annuelle; Support technique; Prestation de conseil,20,11431.30,68587.78,PAID,,synthetic
+FR_invoice_img_synth_038.png,Fernandes SAS,FC-2026-8483,28/01/2026,52773407274964,16/03/2026,Nettoyage de locaux; Maintenance annuelle; Création graphique; Formation professionnelle; Fourniture de matériel,20,7347.82,44086.91,UNPAID,44086.91,synthetic
+FR_invoice_img_synth_039.png,Chrétien SA,FC-2025-6662,23/10/2025,35695182703310,16/07/2026,Création graphique; Rédaction de contenu,20,6159.39,36956.33,UNPAID,36956.33,synthetic
+FR_invoice_img_synth_040.png,Denis SARL,FC-2026-6072,04/03/2026,98325794903322,04/03/2026,Rédaction de contenu; Fourniture de matériel; Formation professionnelle; Audit de sécurité; Transport de marchandises,20,15148.34,90890.04,UNPAID,90890.04,synthetic
+FR_invoice_img_synth_041.png,Fernandez SARL,FAC-2026-5822,18/05/2026,36766194482826,12/07/2026,Installation réseau; Location d'équipement; Développement logiciel; Support technique,20,9206.05,55236.29,PAID,,synthetic
+FR_invoice_img_synth_042.png,Marie SARL,FC-2024-7576,20/10/2024,35793986171936,22/07/2025,Hébergement web; Prestation de conseil; Installation réseau; Audit de sécurité; Maintenance annuelle; Hébergement web,20,1503.76,9022.57,UNPAID,9022.57,synthetic
+FR_invoice_img_synth_043.png,Vaillant SCI,F-2024-0807,23/09/2024,53396405716789,07/08/2025,Installation réseau; Développement logiciel,10,275.13,3026.39,PAID,,synthetic
+FR_invoice_img_synth_044.png,Hernandez SA,FAC-2024-7672,28/08/2024,18723011171188,31/01/2025,Location d'équipement; Licence logicielle; Support technique,10,5209.03,57299.35,UNPAID,57299.35,synthetic
+FR_invoice_img_synth_045.png,Dupont SARL,F-2024-4350,03/08/2024,39064108098336,05/02/2025,Support technique; Audit de sécurité; Location d'équipement,10,2619.72,28816.94,PAID,,synthetic
+FR_invoice_img_synth_046.png,Moulin SAS,FAC-2024-1980,14/06/2024,22192415805286,14/01/2025,Audit de sécurité; Location d'équipement; Hébergement web,20,5319.94,31919.64,UNPAID,31919.64,synthetic
+FR_invoice_img_synth_047.png,Joubert SCI,F-2024-7535,29/08/2024,65810625567484,21/06/2025,Développement logiciel; Audit de sécurité; Support technique; Transport de marchandises,20,7688.55,46131.28,PAID,,synthetic
+FR_invoice_img_synth_048.png,Ferreira SARL,FC-2025-8567,21/06/2025,10871081165856,17/08/2025,Installation réseau; Hébergement web; Formation professionnelle; Rédaction de contenu,20,8293.47,49760.80,UNPAID,49760.80,synthetic
+FR_invoice_img_synth_049.png,Philippe SAS,FC-2025-0664,15/07/2025,68993956596518,23/05/2026,Formation professionnelle; Hébergement web; Rédaction de contenu,5.5,4387.83,84166.63,PAID,,synthetic
+FR_invoice_img_synth_050.png,Menard SAS,FAC-2024-8879,03/07/2024,83712214575260,24/01/2026,Rédaction de contenu; Maintenance annuelle; Hébergement web; Maintenance annuelle,10,4966.66,54633.29,UNPAID,54633.29,synthetic
+FR_invoice_img_synth_051.png,Lemonnier SASU,FAC-2026-2620,23/04/2026,39127927225427,31/05/2026,Formation professionnelle; Transport de marchandises; Installation réseau,20,7769.40,46616.38,PAID,,synthetic
+FR_invoice_img_synth_052.png,Pons EURL,F-2025-6691,04/12/2025,96884892068748,30/05/2026,Location d'équipement; Prestation de conseil,10,4294.16,47235.77,UNPAID,47235.77,synthetic
+FR_invoice_img_synth_053.png,Garcia SARL,FC-2024-6030,04/10/2024,24857782537479,25/05/2025,Licence logicielle; Nettoyage de locaux; Fourniture de matériel; Fourniture de matériel; Rédaction de contenu; Fourniture de matériel,5.5,5875.24,112697.87,PAID,,synthetic
+FR_invoice_img_synth_054.png,De Oliveira EURL,F-2025-2012,19/04/2025,85780346415082,16/05/2026,Fourniture de matériel; Audit de sécurité; Audit de sécurité; Création graphique,5.5,6445.62,123638.70,UNPAID,123638.70,synthetic
+FR_invoice_img_synth_055.png,Benard SA,FC-2024-4023,15/09/2024,87118277362870,01/08/2026,Licence logicielle; Création graphique,20,5686.17,34117.03,PAID,,synthetic
+FR_invoice_img_synth_056.png,Perrot SA,F-2024-8390,29/07/2024,05236138649621,05/08/2025,Installation réseau; Location d'équipement; Audit de sécurité,20,1712.30,10273.80,UNPAID,10273.80,synthetic
+FR_invoice_img_synth_057.png,Marie SARL,FC-2026-0507,28/01/2026,80907135894439,12/02/2026,Support technique; Formation professionnelle; Fourniture de matériel; Nettoyage de locaux,5.5,1768.05,33914.42,PAID,,synthetic
+FR_invoice_img_synth_058.png,Costa EURL,FC-2024-2383,07/06/2024,96431721699797,24/02/2026,Fourniture de matériel; Hébergement web; Audit de sécurité; Transport de marchandises,20,19812.44,118874.65,PAID,,synthetic
+FR_invoice_img_synth_059.png,Lebrun SA,FAC-2024-3398,23/05/2024,91890763201415,11/12/2025,Hébergement web; Fourniture de matériel,5.5,900.35,17270.33,UNPAID,17270.33,synthetic
+FR_invoice_img_synth_060.png,Riou SASU,F-2024-7818,11/10/2024,02179177276266,17/11/2024,Création graphique; Création graphique,20,1272.69,7636.14,PAID,,synthetic
+FR_invoice_img_synth_061.png,Nguyen EURL,F-2024-6029,25/06/2024,08489255107227,26/09/2025,Formation professionnelle; Fourniture de matériel; Maintenance annuelle; Création graphique; Installation réseau; Installation réseau,10,10790.86,118699.44,UNPAID,118699.44,synthetic
+FR_invoice_img_synth_062.png,Hamon SA,FAC-2025-5833,11/06/2025,94078299315453,25/12/2025,Maintenance annuelle; Fourniture de matériel,20,3257.24,19543.42,PAID,,synthetic
+FR_invoice_img_synth_063.png,Maillet SASU,F-2025-8376,09/02/2025,57356973676189,03/11/2025,Installation réseau; Transport de marchandises; Transport de marchandises; Rédaction de contenu,20,7859.69,47158.12,PAID,,synthetic
+FR_invoice_img_synth_064.png,Gauthier SARL,F-2025-7629,13/03/2025,40471643364216,14/10/2025,Développement logiciel; Fourniture de matériel; Formation professionnelle; Licence logicielle,5.5,2250.36,43165.94,UNPAID,43165.94,synthetic
+FR_invoice_img_synth_065.png,Regnier SCI,F-2025-4044,28/05/2025,29927965977692,06/07/2025,Transport de marchandises; Développement logiciel,10,3063.32,33696.51,UNPAID,33696.51,synthetic
+FR_invoice_img_synth_066.png,Teixeira EURL,FC-2026-5996,04/04/2026,12636555123548,26/05/2026,Prestation de conseil; Support technique; Création graphique; Support technique; Transport de marchandises,20,18009.86,108059.14,UNPAID,108059.14,synthetic
+FR_invoice_img_synth_067.png,Reynaud EURL,FAC-2025-4860,14/06/2025,91937553250969,04/08/2025,Rédaction de contenu; Formation professionnelle; Hébergement web,20,3936.50,23619.00,UNPAID,23619.00,synthetic
+FR_invoice_img_synth_068.png,Aubert SAS,FC-2025-7216,12/07/2025,80744017202781,15/08/2025,Maintenance annuelle; Formation professionnelle; Prestation de conseil; Installation réseau,20,6816.89,40901.36,PAID,,synthetic
+FR_invoice_img_synth_069.png,Fabre SAS,F-2025-1134,15/02/2025,53237419467791,20/10/2025,Transport de marchandises; Installation réseau; Prestation de conseil,20,2311.44,13868.65,UNPAID,13868.65,synthetic
+FR_invoice_img_real_001.jpg,AOYAMA,T109200,31/03/2026,44418819700016,,1 Repas complet,10; 20,3.40,33.90,PAID,,task2_csv
+FR_invoice_img_real_002.jpg,Hyper Carrefour Chalon,00031 00 02 00550383,31/03/2026,99269214500012,,"Gazole 24,03 L @ 2,279 EUR/L",20,9.13,54.76,PAID,,task2_csv
+FR_invoice_img_real_003.jpg,Orano Le Prisme,002-001-305604,31/03/2026,,,Petit pain individuel; Conte AOP; Beurre portion x2; Eminence de boeuf,10; 20,1.07,12.84,UNKNOWN,,task2_csv
+FR_invoice_img_real_004.jpg,Le Creusot Gare TGV (Effia),25557,31/03/2026,,,Stationnement Tarif 5 (Entree 17:31 / Paiement 22:31),20,0.73,4.40,PAID,,task2_csv
+FR_invoice_img_real_005.jpg,La Boucherie Restaurant,134788,29/03/2026,85214583800029,,1664 33CL; Tresor Louchebem; Garniture supplement; Supp sauce,10; 20,4.39,43.50,PAID,,task2_csv
+FR_invoice_img_real_006.jpg,Studio Photo Lumiere & Art,SPL-2024-0198,19/04/2024,77789012300234,04/05/2024,Seance photo mariage (4h); Retouches numeriques (x80); Album photo 30x30 cm,20,270.00,1620.00,UNKNOWN,,task2_csv
+FR_invoice_img_real_007.jpg,Clinique Dentaire Sourire,CDS-2024-0345,16/04/2024,44456789100223,01/05/2024,Detartrage complet; Soin carie molaire; Radiographie panoramique,20,59.00,354.00,PAID,,task2_csv
+FR_invoice_img_real_008.jpg,Chauffage & Climatisation Roux,CCR-2024-0423,25/04/2024,99956789200267,25/05/2024,Installation climatisation reversible; Mise en service et reglages; Garantie extension 3 ans,10,225.00,2475.00,UNKNOWN,,task2_csv
+FR_invoice_img_real_009.jpg,Fleuriste Jardin d'Eden,FJE-2024-0087,23/04/2024,66623456700256,08/05/2024,Bouquet mariee rose & pivoine; Decoration florale tables (x8); Composition entree salle,10,82.00,902.00,PAID,,task2_csv
+FR_invoice_img_real_011.jpg,Informatique Solutions Pro,ISP-2024-0512,21/04/2024,33390123400245,21/05/2024,Remplacement disque SSD 1To; Reinstallation Windows 11; Sauvegarde donnees (2h); Antivirus licence 1 an,20,78.80,472.80,PAID,,task2_csv
+FR_invoice_img_real_013.jpg,Fers et Metaux du Chalonnais,,,,31/03/2026,Corniere S235 JR 120x120x12; Poutrelle S275 JR IPE 270; Rond serrurier S235 JR Diam18; Corniere 25x25x3; TAC tole a chaud 1000x2000x15; Poutrelle UPN 100; Transport; Corniere 80x80x8,20,1309.13,7854.77,UNKNOWN,,task2_csv
+FR_invoice_img_real_014.jpg,Wurth Proxi Shop Le Creusot,4330739666,,,25/12/2024,Disques a meuler MEULE EBARBER ZIRCO+ 230x6.4x22.2; Niveau digital IP65 61CM Zebra; Briquet USB electrique (offert); Coupon cadeau,20,136.50,818.98,UNKNOWN,,task2_csv
+FR_invoice_real_029.pdf,Epicerie Fine Marchand,EFM-2023-0412,12/11/2023,12378945600178,27/11/2023,Foie gras mi-cuit (4 boites) x6; Confiture artisanale (x12) x12; Huile d'olive AOC (4 flacons) x4,"5,5",19.24,369.04,PAID,,task2_csv
+FR_invoice_real_030.pdf,Atelier Couture & Retouches Blondel,ACR-2023-1205,05/12/2023,55534567900169,20/12/2023,Retouche robe de mariee; Ourlet pantalon (x3); Remplacement fermeture eclair,20,50.00,300.00,PAID,,task2_csv
+FR_invoice_real_031.pdf,Garage Mecanique Verdier,GMV-2023-0789,28/10/2023,88801234600190,12/11/2023,Vidange + filtre huile; Remplacement plaquettes frein AV; Main d'oeuvre revision (3h); Pneumatiques 195/65 R15 (x2),20,121.20,727.20,UNKNOWN,,task2_csv
+FR_invoice_real_032.pdf,Ecole de Musique Harmonie,EMH-2024-0023,08/01/2024,33345678900201,08/02/2024,Cours de piano - trimestre 1 (x12 seances); Location salle de repetition (x4h); Partition recueil Bach,20,127.70,766.20,PAID,,task2_csv
+FR_invoice_real_033.pdf,Paysagiste Terrain Vert EURL,PTV-2024-0156,22/02/2024,66612890100212,08/03/2024,Tonte pelouse + ramassage (x4 passages); Taille haies et arbustes; Plantation massif fleuri (x15 plants); Evacuation dechets verts,10,73.50,808.50,UNKNOWN,,task2_csv
+FR_invoice_real_001.pdf,Burger King,,21/05/2026,,,Chocolat chaud; Muffin Chocolat; Whopper,10,1.97,21.70,PAID,,hand_read
+FR_invoice_real_002.pdf,Aoyama,,04/05/2026,44418819700016,,1 Repas complet,10; 20,3.17,31.40,PAID,,hand_read
+FR_invoice_real_003.pdf,Station Leclerc Chalondis Sud,,04/05/2026,,,SP95-E10,20,3.38,20.31,PAID,,hand_read
+FR_invoice_real_004.pdf,La Poste,53412,07/05/2026,,,1 LETTRE RECO R1 AR,0,0.00,8.43,PAID,,hand_read
+FR_invoice_real_005.pdf,La Smeralda,,01/05/2026,49114518900516,,Panna Framboise; Margherita; Piece du Boucher; Pinot; Grand Creme,10; 20,3.41,52.00,PAID,,hand_read
+FR_invoice_real_006.pdf,Carrefour Chalon Sud,,01/05/2026,45132135501963,,Gazole+,20,12.13,72.75,PAID,,hand_read
+FR_invoice_real_007.pdf,Prolavage Chalon,0038990,01/05/2026,,,Forfait Prolavage +1 jeton offert,20,5.00,30.00,PAID,,hand_read
+FR_invoice_real_008.pdf,Le Festin,,04/05/2026,,,6 Repas Complet,10,7.64,84.00,PAID,,hand_read
+FR_invoice_real_009.pdf,Action,,07/05/2026,,,Poubelle 5 L Inox,20,12.95,77.70,PAID,,hand_read
+FR_invoice_real_010.pdf,L'Enzo,,02/05/2026,,,2 repas,10; 20,3.97,38.10,PAID,,hand_read
+FR_invoice_real_011.pdf,Supeco,,03/05/2026,,,Courses alimentaires,5.5,2.75,52.92,PAID,,hand_read
+FR_invoice_real_012.pdf,Intermarché Givry,,29/04/2026,,,SP95-E10,20,16.67,100.01,PAID,,hand_read
+FR_invoice_real_013.pdf,Bricomarché,,29/04/2026,,,Tab Pin Elliott 18x30,20,11.66,69.95,PAID,,hand_read
+FR_invoice_real_014.pdf,La Boucherie,,29/04/2026,85214383800029,,8 Repas Complet,10,13.90,152.90,UNKNOWN,,hand_read
+FR_invoice_real_015.pdf,APRR,,11/04/2026,01625002900306,,Péage Tournus - Chalon Sud,20,0.35,2.10,PAID,,hand_read
+FR_invoice_real_016.pdf,RATP,,07/04/2026,,,9 Métro-Train-RER Zones 1 à 5,10,2.09,22.95,PAID,,hand_read
+FR_invoice_real_017.pdf,SARL Brysse - Station Avia,,04/04/2026,,,Aviagel Universel 5L,20,8.50,51.00,PAID,,hand_read
+FR_invoice_real_018.pdf,Enilive France,987101649605,11/04/2026,,,Snickers 50G; Twix 50G; Diesel Tech,20; 5.5,8.77,53.50,PAID,,hand_read
+FR_invoice_real_019.pdf,Le Restaurant du Château,4500000010005731,27/03/2026,53175124000012,,Repas complet(s),10; 20,16.74,137.50,UNKNOWN,,hand_read
+FR_invoice_real_020.pdf,Auchan Chatillon,,24/03/2026,,,Signal Int8 Dent HA; Hollywood Gum Menth,20,1.23,7.36,PAID,,hand_read
+FR_invoice_real_021.pdf,Boulangerie Copaline,,26/03/2026,83498542800016,,Croissant; Muffin; Pain au Chocolat; Jalousie; Cookie,5.5,0.65,12.50,PAID,,hand_read
+FR_invoice_real_022.pdf,Patachoux,,24/03/2026,52398626700014,,Croque Monsieur Jambon; Formule Orange; Focaccia Garnie; Effiloché Porc Mariné,10,6.63,72.90,PAID,,hand_read
+FR_invoice_real_023.pdf,Aldi,,19/03/2026,44329334000977,,Eau Min Riche HG 1L; WD 40 Huile 100ml; Mentos Gum Bottles 100g,5.5; 20,1.20,10.06,PAID,,hand_read
+FR_invoice_real_024.pdf,Le Festin,,23/03/2026,,,6 Repas Complet,10,9.16,100.80,PAID,,hand_read
+FR_invoice_real_025.pdf,Patachoux,,23/03/2026,53368626700014,,Grand Café; Boisson 25 CL; Pain au Chocolat pur beurre; Chausson aux Pommes,5.5,0.95,18.20,PAID,,hand_read
+FR_invoice_real_026.pdf,Pressing Press-Eco,,14/03/2026,,,Abonnement Costume,20,10.50,63.00,PAID,,hand_read
+FR_invoice_real_027.pdf,Dyneff Saulce,,11/03/2026,30580099701000,,Badoit Pet 50cl; Oasis Tea Mangue Pas,5.5,0.20,3.95,PAID,,hand_read
+FR_invoice_real_028.pdf,TotalEnergies,,08/03/2026,30691609902309,,AdBlue (6.80 L),20,0.79,4.71,PAID,,hand_read
+FR_invoice_real_034.pdf,BRICORAMA FRANCE,PBREDI1106000240,,40668031401116,06/09/2018,,20,20.00,120.00,UNKNOWN,120.00,chorus_parsed
+FR_invoice_real_035.pdf,ASSOCIATION DE TOURISME PAKEREKAKINA,PDBEDI1106000110,,886978001,,,,,120.00,UNKNOWN,120.00,chorus_parsed
+FR_invoice_real_036.pdf,BRICORAMA FRANCE,PDBEDI1106000116,,40668031401116,06/09/2018,,20,20.00,120.00,UNKNOWN,-120.00,chorus_parsed
+FR_invoice_real_037.pdf,BRICORAMA FRANCE,PDBEDI1106000117,,40668031401116,06/09/2018,,10,10.00,60.00,UNKNOWN,60.00,chorus_parsed
+FR_invoice_real_038.pdf,BRICORAMA FRANCE,PBREDI1106000241,,40668031401116,06/09/2018,,20,20.00,120.00,UNKNOWN,120.00,chorus_parsed
+FR_invoice_real_039.pdf,BRICORAMA FRANCE,PDBEDI1106000118,,40668031401116,06/09/2018,,,,-120.00,UNKNOWN,-120.00,chorus_parsed
+FR_invoice_real_040.pdf,BRICORAMA FRANCE,PBREDI1106000232,,40668031401116,06/09/2018,,20,20.00,120.00,UNKNOWN,120.00,chorus_parsed
+FR_invoice_real_041.pdf,BRICORAMA FRANCE,PDBEDI1106000285,,40668031401116,06/09/2018,,20,20.00,120.00,UNKNOWN,120.00,chorus_parsed
+FR_invoice_real_042.pdf,BRICORAMA FRANCE,PDBEDI1106000145,,40668031401116,06/09/2018,,20,20.00,120.00,UNKNOWN,120.00,chorus_parsed
+FR_invoice_real_043.pdf,BRICORAMA FRANCE,PDBEDI1106000313,,40668031401116,06/09/2018,,20,40.00,240.00,UNKNOWN,240.00,chorus_parsed
+FR_invoice_real_044.pdf,Samsung Mobile Phone,,,81034732800017,06/09/2018,,,,120.00,UNKNOWN,120.00,chorus_parsed
+FR_invoice_real_045.pdf,EDF,00000000000,28/01/2017,,13/02/2017,Gaz naturel à prix fixe,,410.57,2602.89,UNPAID,6743.96,hand_read
+FR_invoice_real_046.pdf,EDF,00000000000,20/01/2017,,06/02/2017,Contrat élec. Reconductible,20,943.30,5659.82,UNPAID,,hand_read
+FR_invoice_real_047.pdf,EDF,139,27/02/2017,,14/03/2017,Garanti Pro,,76.28,494.13,UNPAID,,hand_read
+FR_invoice_real_049.pdf,Iberdrola Energie France,2322030161005917,01/03/2022,,16/03/2022,Electricité,,5.58,42.12,UNPAID,45.31,hand_read
+FR_invoice_real_050.pdf,LE FOURNISSEUR,F20220023,31/01/2022,123456782,02/03/2022,,20; 0; 10,4.90,104.90,UNKNOWN,104.90,facturx_xml
+FR_invoice_real_051.pdf,Au bon moulin,AV-2017-0005,16/11/2017,99999999800010,16/11/2017,Nougat de l'Abbaye 250g; Huile d'olive à l'ancienne,20; 5.50,-14.99,-233.47,UNKNOWN,-233.47,facturx_xml
+FR_invoice_real_052.pdf,Au bon moulin,AV-2017-0005,16/11/2017,99999999800010,16/11/2017,,20; 5.50,-14.99,-233.47,UNKNOWN,-233.47,facturx_xml
+FR_invoice_real_053.pdf,Au bon moulin,AV-2017-0005,16/11/2017,99999999800010,16/11/2017,Nougat de l'Abbaye 250g; Huile d'olive à l'ancienne,20; 5.50,-14.99,-233.47,UNKNOWN,-233.47,facturx_xml
+FR_invoice_real_054.pdf,Au bon moulin,AV-2017-0005,16/11/2017,99999999800010,,,,,-233.47,UNKNOWN,-233.47,facturx_xml
+FR_invoice_real_055.pdf,Au bon moulin,AV-2017-0005,16/11/2017,99999999800010,16/11/2017,Nougat de l'Abbaye 250g; Huile d'olive à l'ancienne,20; 5.50,14.99,233.47,UNKNOWN,233.47,facturx_xml
+FR_invoice_real_056.pdf,Au bon moulin,AV-2017-0005,16/11/2017,99999999800010,16/11/2017,,20; 5.50,14.99,233.47,UNKNOWN,233.47,facturx_xml
+FR_invoice_real_057.pdf,Au bon moulin,AV-2017-0005,16/11/2017,99999999800010,16/11/2017,Nougat de l'Abbaye 250g; Huile d'olive à l'ancienne,20; 5.50,14.99,233.47,UNKNOWN,233.47,facturx_xml
+FR_invoice_real_058.pdf,Au bon moulin,AV-2017-0005,16/11/2017,99999999800010,,,,,233.47,UNKNOWN,233.47,facturx_xml
+FR_invoice_real_059.pdf,Au bon moulin,FA-2017-0009,05/11/2017,99999999800010,05/12/2017,Nougat de l'Abbaye 250g; Biscuits aux raisins 300g; Huile d'olive à l'ancienne,0,0.00,530.75,UNKNOWN,383.75,facturx_xml
+FR_invoice_real_060.pdf,Au bon moulin,FA-2017-0009,05/11/2017,99999999800010,05/12/2017,,0,0.00,530.75,UNKNOWN,383.75,facturx_xml
+FR_invoice_real_061.pdf,Au bon moulin,FA-2017-0009,05/11/2017,99999999800010,05/12/2017,Nougat de l'Abbaye 250g; Biscuits aux raisins 300g; Huile d'olive à l'ancienne,0,0.00,530.75,UNKNOWN,383.75,facturx_xml
+FR_invoice_real_062.pdf,Au bon moulin,FA-2017-0009,05/11/2017,99999999800010,,,,,530.75,UNKNOWN,383.75,facturx_xml
+FR_invoice_real_063.pdf,Au bon moulin,FA-2017-0010,13/11/2017,99999999800010,13/12/2017,Nougat de l'Abbaye 250g; Biscuits aux raisins 300g; Huile d'olive à l'ancienne,20; 5.50,46.25,671.15,UNKNOWN,470.15,facturx_xml
+FR_invoice_real_064.pdf,Au bon moulin,FA-2017-0010,13/11/2017,99999999800010,13/12/2017,,20; 5.50,46.25,671.15,UNKNOWN,470.15,facturx_xml
+FR_invoice_real_065.pdf,Au bon moulin,FA-2017-0010,13/11/2017,99999999800010,13/12/2017,Nougat de l'Abbaye 250g; Biscuits aux raisins 300g; Huile d'olive à l'ancienne,20; 5.50,46.25,671.15,UNKNOWN,470.15,facturx_xml
+FR_invoice_real_066.pdf,Au bon moulin,FA-2017-0010,13/11/2017,99999999800010,,,,,671.15,UNKNOWN,470.15,facturx_xml
+FR_invoice_real_067.pdf,Au bon moulin,FA-2017-0008,03/11/2017,99999999800010,03/12/2017,Nougat de l'Abbaye 250g; Biscuits aux raisins 300g; Huile d'olive à l'ancienne,0,0.00,2076.76,UNKNOWN,1453.76,facturx_xml
+FR_invoice_real_068.pdf,Au bon moulin,FA-2017-0008,03/11/2017,99999999800010,03/12/2017,,0,0.00,2076.76,UNKNOWN,1453.76,facturx_xml
+FR_invoice_real_069.pdf,Au bon moulin,FA-2017-0008,03/11/2017,99999999800010,03/12/2017,Nougat de l'Abbaye 250g; Biscuits aux raisins 300g; Huile d'olive à l'ancienne,0,0.00,2076.76,UNKNOWN,1453.76,facturx_xml
+FR_invoice_real_070.pdf,Au bon moulin,FA-2017-0008,03/11/2017,99999999800010,,,,,2076.76,UNKNOWN,1453.76,facturx_xml
+FR_invoice_real_072.pdf,Société Hôtelière du Pacano,2023-6013,20/09/2023,12345682400016,19/10/2023,Chambre du 09/08/2023 au 15/08/2023; Forfait taxe de séjour,10; 0,123.54,1368.84,UNPAID,915.86,hand_read
+FR_invoice_real_073.pdf,Société Hôtelière du Pacano,2023-6013,20/09/2023,12345682400016,19/10/2023,Chambre du 09/08/2023 au 15/08/2023; Forfait taxe de séjour,10; 0,123.54,1368.84,UNKNOWN,915.86,facturx_xml
+FR_invoice_real_074.pdf,Société Hôtelière du Pacano,2023-6026,28/09/2023,12345682400016,28/10/2023,Chambre du 27/09/2023 au 28/09/2023; Forfait taxe de séjour,10; 0,20.59,228.14,UNPAID,228.14,hand_read
+FR_invoice_real_075.pdf,Société Hôtelière du Pacano,2023-6013,20/09/2023,12345682400016,19/10/2023,Chambre du 09/08/2023 au 15/08/2023; Forfait taxe de séjour,10; 0,121.54,1368.84,UNKNOWN,915.86,facturx_xml
+FR_invoice_real_076.pdf,LE FOURNISSEUR,F20260023,31/01/2026,123456782,02/03/2026,PRESTATION SUPPORT; FOURNITURES PAPIER; APPEL,0; 10; 20,4.90,104.90,UNKNOWN,104.90,facturx_xml
+FR_invoice_real_077.pdf,LE FOURNISSEUR,F20260024,31/01/2026,123456782,02/03/2026,PRESTATION SUPPORT; FOURNITURES PAPIER; APPEL,0; 20,8.00,108.00,UNKNOWN,108.00,facturx_xml
+FR_invoice_real_078.pdf,LE FOURNISSEUR,F20260025,31/01/2026,123456782,02/03/2026,PRESTATION SUPPORT; FOURNITURES DIVERSES; APPEL,20,20.00,120.00,UNKNOWN,100.00,facturx_xml
+FR_invoice_real_079.pdf,LE FOURNISSEUR,F20260026,31/01/2026,123456782,02/03/2026,PRESTATION SUPPORT; FOURNITURES DIVERSES; APPEL,0,0.00,100.00,UNKNOWN,90.00,facturx_xml
+FR_invoice_real_080.pdf,LE FOURNISSEUR,F20260027,31/01/2026,123456782,02/03/2026,PRESTATION SUPPORT; FOURNITURES DIVERSES; APPEL,10,10.00,110.00,UNKNOWN,100.00,facturx_xml
+FR_invoice_real_081.pdf,LE FOURNISSEUR,F20260028,31/01/2026,123456782,02/03/2026,PRESTATION SUPPORT; FOURNITURES DIVERSES; APPEL,10,10.00,110.00,UNKNOWN,100.00,facturx_xml
+FR_invoice_real_082.pdf,LE FOURNISSEUR,F20260029,31/01/2026,123456782,02/03/2026,PRESTATION SUPPORT; FOURNITURES DIVERSES; APPEL,0,0.00,-100.00,UNKNOWN,-90.00,facturx_xml
+FR_invoice_real_083.pdf,LE FOURNISSEUR,F20260030,31/01/2026,123456782,02/03/2026,PRESTATION SUPPORT; FOURNITURES DIVERSES; APPEL,,,100.00,UNKNOWN,90.00,facturx_xml
+FR_invoice_real_084.pdf,LE FOURNISSEUR,F20260031,31/01/2026,123456782,02/03/2026,REMBOURSEMENT AFFRANCHISSEMENT; FOURNITURES DIVERSES; APPEL,0; 20; 10,7.02,107.82,UNKNOWN,107.82,facturx_xml
+FR_invoice_img_real_010.jpg,,FC20251175,28/04/2025,,28/05/2025,AUDIT INITIAL ISO 19443 Etape 1 & Etape 2; Certification ISO 9001 version 2015,20,672.41,4034.46,UNPAID,4034.46,hand_read
+FR_invoice_img_real_012.jpg,,,,,15/11/2025,"SCIE RADIALE 1800W D355MM MKAS35 +2 LAMES; LAME SCIE D355X25,4X2,2MM 66 DTS ACIER; LAME SCIE D355X25,4X2,2MM 66 DTS ACIER",20,,,UNKNOWN,,hand_read
+FR_invoice_img_real_015.jpg,,FC20251175,28/04/2025,,28/05/2025,AUDIT INITIAL ISO 19443 Etape 1 & Etape 2; Certification ISO 9001 version 2015,20,672.41,4034.46,UNPAID,4034.46,hand_read
+FR_invoice_img_real_016.jpg,,,,,15/11/2025,,20,419.80,2518.81,UNKNOWN,,hand_read
+FR_invoice_img_real_017.jpeg,Transport Frigorifique Marchand,TFM-2024-0456,28/05/2024,77745678900390,28/06/2024,Transport réfrigéré Lille-Paris (×3 trajets); Assurance marchandise périssable; Supplément week-end,20,221.00,1326.00,UNKNOWN,,hand_read
+FR_invoice_img_real_018.jpeg,Institut de Formation Continue Lyon,IFC-2024-0078,06/06/2024,77789012700490,06/07/2024,Formation Gestion d'Entreprise (5 jours); Support de cours et documentation; Attestation et certification,20,545.00,3270.00,PAID,,hand_read
+FR_invoice_img_real_019.jpeg,Boulangerie Maison Renard,BMR-2024-0601,01/06/2024,11134567800478,16/06/2024,Pain au levain (×20 kg); Viennoiseries mixtes (×100); Gâteaux sur commande (×3),5.5,32.84,629.84,PAID,,hand_read
+FR_invoice_img_real_020.jpeg,Taxi & Transfert Moreau,TTM-2024-1456,08/06/2024,33356789500501,23/06/2024,Transfert aéroport CDG (×5 courses); Mise à disposition journée (8h); Supplément bagages,10,89.00,979.00,PAID,,hand_read
+FR_invoice_img_real_021.jpeg,Rénovation Habitat Duval SARL,RHD-2024-0389,10/06/2024,66623567800512,10/07/2024,Ravalement façade 20m; Isolation thermique extérieure; Échafaudage location (3 semaines); Nettoyage et évacuation,10,939.00,10329.00,UNPAID,7230.30,hand_read
+FR_invoice_img_real_022.jpeg,Cabinet Juridique Fontaine,CJF-2024-0234,03/06/2024,44478901300489,03/07/2024,Rédaction contrat travail CDI; Consultation droit commercial (2h); Dossier contentieux — phase 1,20,560.00,3360.00,UNKNOWN,,hand_read
+FR_invoice_img_real_023.jpeg,Cabinet Comptable Girard & Associés,CGA-2024-0178,08/05/2024,88834567900290,08/06/2024,Bilan comptable annuel 2023; Déclaration TVA trimestrielle (×4); Conseil fiscal — 3 séances,20,730.00,4380.00,PAID,,hand_read
+FR_invoice_img_real_024.jpeg,Optique Centrale Leclerc,OCL-2024-0623,10/05/2024,33378901200301,25/05/2024,Montures Ralph Lauren modèle 456; Verres progressifs anti-reflets (×2); Étui et chiffon inclus,20,124.60,747.60,PAID,,hand_read
+FR_invoice_img_real_025.jpeg,Agence Immobilière Soleil,AIS-2024-0089,12/05/2024,66690123400312,12/06/2024,Honoraires location appartement T3; État des lieux entrée; Rédaction bail 3 ans,20,360.00,2160.00,PAID,,hand_read
+FR_invoice_img_real_026.jpeg,Pharmacie du Vieux-Port,PVP-2024-0934,14/05/2024,99912345500323,29/05/2024,Médicaments ordonnance — lot 1; Vitamines complexe B (×2 boîtes); Pansements et antiseptique,5.5,5.07,97.17,PAID,,hand_read
+FR_invoice_img_real_027.jpeg,Traiteur Oriental Benali,TOB-2024-0267,16/05/2024,44445678900334,31/05/2024,Couscous royal (×40 portions); Pastilla au poulet (×20); Desserts orientaux assortiment; Service et livraison,10,81.50,896.50,UNKNOWN,,hand_read
+FR_invoice_img_real_028.jpeg,École de Conduite Liberté,ECL-2024-0445,18/05/2024,77756789000345,18/06/2024,Forfait 20h conduite accompagnée; Examen code de la route; Frais examen préfecture,20,159.00,954.00,PAID,,hand_read
+FR_invoice_img_real_029.jpeg,Électricité Générale Renaud,EGR-2024-0334,24/05/2024,99978901300378,08/06/2024,Câblage tableau électrique 3 phases; Installation prises industrielles (×8); Main d'œuvre (10h); Certificat conformité Consuel,20,482.00,2892.00,PAID,,hand_read
+FR_invoice_img_real_030.jpeg,Librairie Papeterie Michelet,LPM-2024-0712,22/05/2024,66612456700367,06/06/2024,Manuels scolaires 3ème (×25); Cahiers et fournitures lot; Dictionnaires Larousse (×10),5.5,54.97,1054.47,UNKNOWN,,hand_read
+FR_invoice_img_real_031.jpeg,Plomberie Sanitaire Lecomte,PSL-2024-0189,20/05/2024,33323456800356,04/06/2024,Remplacement chauffe-eau 200L; Main d'œuvre pose (4h); Mise en conformité NF; Déplacement,10,107.00,1177.00,PAID,,hand_read

@@ -1,0 +1,75 @@
+{
+  "file_name": "FR_invoice_img_synth_013",
+  "supplier_name": "Lefebvre SARL",
+  "invoice_number": "",
+  "invoice_date": "15/07/2025",
+  "siret": "87309680880994",
+  "echeance": "31/07/2026",
+  "invoice_content": [
+    {
+      "description": "Développement logiciel",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Création graphique",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Numéro de facture : F--",
+      "quantity": "2025",
+      "unit_price": "4501"
+    },
+    {
+      "description": "Date d'émission : //",
+      "quantity": "07",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Date limite de paiement : //",
+      "quantity": "07",
+      "unit_price": "2026"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "21",
+      "unit_price": "458.50"
+    },
+    {
+      "description": "€ €",
+      "quantity": "8",
+      "unit_price": "700.71"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "5031.84",
+  "total_amount": "80191.05",
+  "payment_status": "PAID",
+  "solde_du": "0.00"
+}

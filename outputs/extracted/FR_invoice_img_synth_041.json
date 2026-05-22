@@ -1,0 +1,95 @@
+{
+  "file_name": "FR_invoice_img_synth_041",
+  "supplier_name": "Fernandez SARL",
+  "invoice_number": "",
+  "invoice_date": "18/05/2026",
+  "siret": "36766194482826",
+  "echeance": "12/07/2026",
+  "invoice_content": [
+    {
+      "description": "Installation réseau",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Location d'équipement",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Développement logiciel",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Support technique",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Numéro de facture : FAC--",
+      "quantity": "2026",
+      "unit_price": "5822"
+    },
+    {
+      "description": "Date facture : //",
+      "quantity": "05",
+      "unit_price": "2026"
+    },
+    {
+      "description": "Date d'échéance : //",
+      "quantity": "07",
+      "unit_price": "2026"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "22",
+      "unit_price": "756.00"
+    },
+    {
+      "description": "€ €",
+      "quantity": "7",
+      "unit_price": "511.60"
+    },
+    {
+      "description": "€ €",
+      "quantity": "5",
+      "unit_price": "297.71"
+    },
+    {
+      "description": "€ €",
+      "quantity": "10",
+      "unit_price": "464.93"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "9206.05",
+  "total_amount": "55236.29",
+  "payment_status": "PAID",
+  "solde_du": "0.00"
+}

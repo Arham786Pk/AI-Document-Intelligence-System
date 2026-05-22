@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_synth_004",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_synth_004\\page_01.png",
+      "text": "Mahe EURL\n\n176, chemin de François, 60614 GaudinBourg\nSIRET : 77876051787814\n\nClient :\nVaillant SAS\n480, boulevard de Morvan, 08427 Pottier\n\nDésignation\n\nSupport technique\nFourniture de matériel\n\nStatut : Non payé\nSolde dû : 13 775,16 €\n\nFACTURE\n\nNuméro de facture : F-2025-9526\nDate : 24/02/2025\nÉchéance : 15/08/2025\n\nQuantité Prix Unitaire Total\n42 220,90 € 9 277,80 €\n35 62,90 € 2 201,50 €\nSous-total HT 11 479,30 €\nTVA 20 % 2 295,86 €\nTotal TTC 13 775,16 €",
+      "confidence": 0.9335365853658537,
+      "char_count": 461,
+      "word_count": 81,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Mahe EURL\n\n176, chemin de François, 60614 GaudinBourg\nSIRET : 77876051787814\n\nClient :\nVaillant SAS\n480, boulevard de Morvan, 08427 Pottier\n\nDésignation\n\nSupport technique\nFourniture de matériel\n\nStatut : Non payé\nSolde dû : 13 775,16 €\n\nFACTURE\n\nNuméro de facture : F-2025-9526\nDate : 24/02/2025\nÉchéance : 15/08/2025\n\nQuantité Prix Unitaire Total\n42 220,90 € 9 277,80 €\n35 62,90 € 2 201,50 €\nSous-total HT 11 479,30 €\nTVA 20 % 2 295,86 €\nTotal TTC 13 775,16 €",
+  "mean_confidence": 0.9335365853658537,
+  "total_char_count": 461,
+  "total_word_count": 81,
+  "low_quality_pages": [],
+  "error": ""
+}

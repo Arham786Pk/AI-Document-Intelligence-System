@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_real_014",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_real_014\\page_01.png",
+      "text": "24-04-36\nTRAVAUX VIckRY PoobS\n\n[Los BOUCHERIES\n\nRESTAURANT\n\nLA BOUCHENRITE\n<FAX>\nROUTE PONT JEANNE ROSE\n71210 MONTCHANIN FRANCE\n03 85 $S0 02 11\nSiret: 852 145 838 00029 <APE> <TVAlInfra=\n\n_- —…— Se mn mm © ee me\n\nTa ble 24. 8 Couverts\n\nServi par: Logan\nNote de frais #12 783 Ticket N°136 894\n29/04/2026\nJUSTIFICATIF NON VALABLIE\nPOUR ENCAISSEMENT\n\nQté Article Prix total\n8 REPAS COMPLET 152 90 € €)\nPU 19,11€\n\n8 ärticles /1 Ligne\n\nNET À PAYER 15 52 2,70 €\n\nHT TVA TTC\nTVA(2) 10,00 % 139,00 € 13,90€  15290€\nTotal TVA 139,00 € 13,90 € 15290€\n\n29/04/2026 13:57:15\nV16.0.203H310 BO4O2UD2L. lo: Notes Ventes\nNum duplicata N°1 R$SO: BOHO2UDr9\nNb d'impression : 0 ‘TDoc: Note de frais HONTCHANINPOS!1\nRéférence : T24\nMerci de votre visite, à bientôt...",
+      "confidence": 0.7426666666666667,
+      "char_count": 746,
+      "word_count": 130,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "24-04-36\nTRAVAUX VIckRY PoobS\n\n[Los BOUCHERIES\n\nRESTAURANT\n\nLA BOUCHENRITE\n<FAX>\nROUTE PONT JEANNE ROSE\n71210 MONTCHANIN FRANCE\n03 85 $S0 02 11\nSiret: 852 145 838 00029 <APE> <TVAlInfra=\n\n_- —…— Se mn mm © ee me\n\nTa ble 24. 8 Couverts\n\nServi par: Logan\nNote de frais #12 783 Ticket N°136 894\n29/04/2026\nJUSTIFICATIF NON VALABLIE\nPOUR ENCAISSEMENT\n\nQté Article Prix total\n8 REPAS COMPLET 152 90 € €)\nPU 19,11€\n\n8 ärticles /1 Ligne\n\nNET À PAYER 15 52 2,70 €\n\nHT TVA TTC\nTVA(2) 10,00 % 139,00 € 13,90€  15290€\nTotal TVA 139,00 € 13,90 € 15290€\n\n29/04/2026 13:57:15\nV16.0.203H310 BO4O2UD2L. lo: Notes Ventes\nNum duplicata N°1 R$SO: BOHO2UDr9\nNb d'impression : 0 ‘TDoc: Note de frais HONTCHANINPOS!1\nRéférence : T24\nMerci de votre visite, à bientôt...",
+  "mean_confidence": 0.7426666666666667,
+  "total_char_count": 746,
+  "total_word_count": 130,
+  "low_quality_pages": [],
+  "error": ""
+}

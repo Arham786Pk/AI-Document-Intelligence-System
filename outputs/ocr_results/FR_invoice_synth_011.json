@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_synth_011",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_synth_011\\page_01.png",
+      "text": "Leconte SASU\n\n36, avenue Chauveau, 26209 Weissboeuf\nSIRET : 81666226318854\n\nClient :\nTexier SAS\n86, chemin de Paul, 10114 Paul-la-Forêt\n\nFACTURE\n\nNuméro de facture : FC-2026-2395\nDate : 17/03/2026\nÉchéance : 03/05/2026\n\nDésignation Quantité Prix Unitaire Total\nHébergement web 39 733,16 € 28 593,24 €\nSupport technique 34 77,19 € 2 624,46 €\nFormation professionnelle 34 526,74 € 17 909,16 €\nMaintenance annuelle 48 673,08 € 32 307,84 €\nTransport de marchandises 10 482,54 € 4 825,40 €\nSous-total HT 86 260,10 €\nTVA 20 % 17 252,02 €\nTotal TTC 103 512,12 €\n\nStatut : Payé\nSolde dû : 0,00 €",
+      "confidence": 0.9411650485436893,
+      "char_count": 587,
+      "word_count": 102,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Leconte SASU\n\n36, avenue Chauveau, 26209 Weissboeuf\nSIRET : 81666226318854\n\nClient :\nTexier SAS\n86, chemin de Paul, 10114 Paul-la-Forêt\n\nFACTURE\n\nNuméro de facture : FC-2026-2395\nDate : 17/03/2026\nÉchéance : 03/05/2026\n\nDésignation Quantité Prix Unitaire Total\nHébergement web 39 733,16 € 28 593,24 €\nSupport technique 34 77,19 € 2 624,46 €\nFormation professionnelle 34 526,74 € 17 909,16 €\nMaintenance annuelle 48 673,08 € 32 307,84 €\nTransport de marchandises 10 482,54 € 4 825,40 €\nSous-total HT 86 260,10 €\nTVA 20 % 17 252,02 €\nTotal TTC 103 512,12 €\n\nStatut : Payé\nSolde dû : 0,00 €",
+  "mean_confidence": 0.9411650485436893,
+  "total_char_count": 587,
+  "total_word_count": 102,
+  "low_quality_pages": [],
+  "error": ""
+}

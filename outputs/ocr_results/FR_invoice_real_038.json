@@ -1,0 +1,42 @@
+{
+  "invoice_name": "FR_invoice_real_038",
+  "page_count": 3,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_real_038\\page_01.png",
+      "text": "Facture Fournisseur (FS501106) : 20170201-01\n\nEmetteur\n\nEntité Juridique\n\nBRICORAMA FRANCE\n\nAdresse commerciale Fournisseur\n78260 Nom commune commercial\nFRANCE\n\nEntité Commerciale\n\nBRICORAMA FRANCE\n\nLigne adresse légale\n\n78260 Ville\n\nFRANCE\n\nSIRET : 40668031401116\n\nNuméro de TVA intra-communautaire : Identifiant TVA\n\nContact\n\nPersonName\nTéléphone : 0104546573\nTélécopie : 0104546575\nMessagerie :\n\nValideur\nPRO SHOP CONTREXEVILLE\n\nNom contact Valideur\nTéléphone : 0104546573\nTélécopie : 0104546575\nMessagerie :\n\nSIRET : 81034732800017\n\nFacture PBREDI1106000241 - Période de facturation du 01/01\n\nClient\n\nSIRET : 11000201100044\nNuméro de TVA Intra-communautaire : FR78301223822\n\nEncaisseur\n\nNom contact Encaisseur\nTéléphone : 0104546573\nTélécopie : 0104546575\nMessagerie :\n\nSIRET : 40668031401116\n\n12017 au 31/12/2017\n: Dépôt par un fournisseur d'une facture",
+      "confidence": 0.9249090909090909,
+      "char_count": 858,
+      "word_count": 109,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    },
+    {
+      "page_index": 1,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_real_038\\page_02.png",
+      "text": "Récapitulatif\n\nTotal HT (EUR) 100,00\nTotal Taxes (EUR) 20,00\nTotal Remises (EUR) 0,00\nTotal Charges (EUR) 0,00\n\nRépartition des remises et charges\n\nCharge : Libellé motif de charge/remise (EUR) 15,00\nTotal TTC (EUR) 120,00\nA déduire (déjà payé) (EUR) 0,00\nA payer (EUR) 120,00\n\nNote\n\nPaiement par carte achat\nNous vous remercions de votre règlement avant le : 06/09/2018",
+      "confidence": 0.9201694915254237,
+      "char_count": 370,
+      "word_count": 59,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    },
+    {
+      "page_index": 2,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_real_038\\page_03.png",
+      "text": "Articles rattachés au compte client\n\nTotal\nremise Total HT\nIcharge\n\nQuantité\nde livraison\n\nQuantité\n\n2 Prix unitaire\nfacturée\n\nTotaux du site de livraison, pour information :\n\nBrut HT 0,00\nRemises/charges à la ligne 0,00\nNet HT 0,00\n\n- Adresse commerciale Fournisseur 78260 Nom commune commercial - FRANCE\nau capital de 40668031401116 - Numéro de TVA intra-communautaire : Identifiant TVA",
+      "confidence": 0.9145161290322581,
+      "char_count": 388,
+      "word_count": 59,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Facture Fournisseur (FS501106) : 20170201-01\n\nEmetteur\n\nEntité Juridique\n\nBRICORAMA FRANCE\n\nAdresse commerciale Fournisseur\n78260 Nom commune commercial\nFRANCE\n\nEntité Commerciale\n\nBRICORAMA FRANCE\n\nLigne adresse légale\n\n78260 Ville\n\nFRANCE\n\nSIRET : 40668031401116\n\nNuméro de TVA intra-communautaire : Identifiant TVA\n\nContact\n\nPersonName\nTéléphone : 0104546573\nTélécopie : 0104546575\nMessagerie :\n\nValideur\nPRO SHOP CONTREXEVILLE\n\nNom contact Valideur\nTéléphone : 0104546573\nTélécopie : 0104546575\nMessagerie :\n\nSIRET : 81034732800017\n\nFacture PBREDI1106000241 - Période de facturation du 01/01\n\nClient\n\nSIRET : 11000201100044\nNuméro de TVA Intra-communautaire : FR78301223822\n\nEncaisseur\n\nNom contact Encaisseur\nTéléphone : 0104546573\nTélécopie : 0104546575\nMessagerie :\n\nSIRET : 40668031401116\n\n12017 au 31/12/2017\n: Dépôt par un fournisseur d'une facture\n\n--- PAGE BREAK ---\n\nRécapitulatif\n\nTotal HT (EUR) 100,00\nTotal Taxes (EUR) 20,00\nTotal Remises (EUR) 0,00\nTotal Charges (EUR) 0,00\n\nRépartition des remises et charges\n\nCharge : Libellé motif de charge/remise (EUR) 15,00\nTotal TTC (EUR) 120,00\nA déduire (déjà payé) (EUR) 0,00\nA payer (EUR) 120,00\n\nNote\n\nPaiement par carte achat\nNous vous remercions de votre règlement avant le : 06/09/2018\n\n--- PAGE BREAK ---\n\nArticles rattachés au compte client\n\nTotal\nremise Total HT\nIcharge\n\nQuantité\nde livraison\n\nQuantité\n\n2 Prix unitaire\nfacturée\n\nTotaux du site de livraison, pour information :\n\nBrut HT 0,00\nRemises/charges à la ligne 0,00\nNet HT 0,00\n\n- Adresse commerciale Fournisseur 78260 Nom commune commercial - FRANCE\nau capital de 40668031401116 - Numéro de TVA intra-communautaire : Identifiant TVA",
+  "mean_confidence": 0.9198649038222575,
+  "total_char_count": 1616,
+  "total_word_count": 227,
+  "low_quality_pages": [],
+  "error": ""
+}

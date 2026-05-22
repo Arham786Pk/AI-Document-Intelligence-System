@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_synth_042",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_synth_042\\page_01.png",
+      "text": "Marie SARL\n\n99, avenue de Mercier, 84589 Saint Antoinettedan\nSIRET : 35793986171936\n\nFacturé à :\nM. Jérôme Lemaître\n1, rue Jeanne Renault, 02341 Sainte Suzanne\n\nFACTURE\n\nFacture N° : FC-2024-7576\nDate : 20/10/2024\nDate d'échéance : 22/07/2025\n\nDésignation Quantité Prix Unitaire Total\nHébergement web 3 745,73 € 2 237,19 €\nPrestation de conseil 3 563,22 € 1 689,66 €\nInstallation réseau 16 16,11 € 257,76 €\nAudit de sécurité 12 136,31 € 1 635,72 €\nMaintenance annuelle 7 193,99 € 1 357,93 €\nHébergement web 35 9,78 € 340,55 €\n\nSous-total HT 7 518,81 €\n\nTVA 20 % 1 503,76 €\n\nTotal TTC 9 022,57 €\n\nStatut : Non payé\nSolde dû : 9 022,57 €",
+      "confidence": 0.9294017094017094,
+      "char_count": 635,
+      "word_count": 116,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Marie SARL\n\n99, avenue de Mercier, 84589 Saint Antoinettedan\nSIRET : 35793986171936\n\nFacturé à :\nM. Jérôme Lemaître\n1, rue Jeanne Renault, 02341 Sainte Suzanne\n\nFACTURE\n\nFacture N° : FC-2024-7576\nDate : 20/10/2024\nDate d'échéance : 22/07/2025\n\nDésignation Quantité Prix Unitaire Total\nHébergement web 3 745,73 € 2 237,19 €\nPrestation de conseil 3 563,22 € 1 689,66 €\nInstallation réseau 16 16,11 € 257,76 €\nAudit de sécurité 12 136,31 € 1 635,72 €\nMaintenance annuelle 7 193,99 € 1 357,93 €\nHébergement web 35 9,78 € 340,55 €\n\nSous-total HT 7 518,81 €\n\nTVA 20 % 1 503,76 €\n\nTotal TTC 9 022,57 €\n\nStatut : Non payé\nSolde dû : 9 022,57 €",
+  "mean_confidence": 0.9294017094017094,
+  "total_char_count": 635,
+  "total_word_count": 116,
+  "low_quality_pages": [],
+  "error": ""
+}

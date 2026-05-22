@@ -1,0 +1,60 @@
+{
+  "file_name": "FR_invoice_img_synth_018",
+  "supplier_name": "Chevallier EURL FACTURE",
+  "invoice_number": "",
+  "invoice_date": "19/07/2025",
+  "siret": "25374305034662",
+  "echeance": "13/06/2026",
+  "invoice_content": [
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "———",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Prestation de conseil € €",
+      "quantity": "1",
+      "unit_price": "373.90"
+    },
+    {
+      "description": "Formation professionnelle € €",
+      "quantity": "24",
+      "unit_price": "571.33"
+    },
+    {
+      "description": "Développement logiciel € €",
+      "quantity": "10",
+      "unit_price": "180.62"
+    },
+    {
+      "description": "Nettoyage de locau € €",
+      "quantity": "1",
+      "unit_price": "064.90"
+    },
+    {
+      "description": "Support technique € €",
+      "quantity": "219,63",
+      "unit_price": "658.89"
+    },
+    {
+      "description": "Prestation de conseil € €",
+      "quantity": "8",
+      "unit_price": "247.78"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "9219.48",
+  "total_amount": "55316.90",
+  "payment_status": "PAID",
+  "solde_du": "55316.90"
+}

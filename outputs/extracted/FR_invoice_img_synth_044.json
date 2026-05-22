@@ -1,0 +1,85 @@
+{
+  "file_name": "FR_invoice_img_synth_044",
+  "supplier_name": "Hernandez SA",
+  "invoice_number": "Facture",
+  "invoice_date": "28/08/2024",
+  "siret": "18723011171188",
+  "echeance": "31/01/2025",
+  "invoice_content": [
+    {
+      "description": "Location d'équipement",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Licence logicielle",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Support technique",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Non payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "57",
+      "unit_price": "299.85"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "N° Facture : FAC--",
+      "quantity": "2024",
+      "unit_price": "7672"
+    },
+    {
+      "description": "Date d'émission : //",
+      "quantity": "08",
+      "unit_price": "2024"
+    },
+    {
+      "description": "Date d'échéance : //",
+      "quantity": "01",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "8",
+      "unit_price": "432.24"
+    },
+    {
+      "description": "€ €",
+      "quantity": "12",
+      "unit_price": "396.96"
+    },
+    {
+      "description": "€ €",
+      "quantity": "36",
+      "unit_price": "261.12"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "10",
+  "tva_amount": "",
+  "total_amount": "57299.35",
+  "payment_status": "PAID",
+  "solde_du": "57299.85"
+}

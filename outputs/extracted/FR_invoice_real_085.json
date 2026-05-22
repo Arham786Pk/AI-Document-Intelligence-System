@@ -1,0 +1,185 @@
+{
+  "file_name": "FR_invoice_real_085",
+  "supplier_name": "facturée :",
+  "invoice_number": "",
+  "invoice_date": "01/12/10",
+  "siret": "",
+  "echeance": "",
+  "invoice_content": [
+    {
+      "description": "Document à Valeur Comptable il comprend :",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "p Le coût total de vos abonnements Options et Services",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "» Le montant global des COMmMunications facturées",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "> Le Montant total des autres prestations facturées",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "> Le montant net à payer",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "Label Qualicert :",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "certification des",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "engagements de [a",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "relation client des services",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "SFR Business Team",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "i = Montant total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "É des abonnements",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "et des options",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "Ces Prestations sont",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "facturées Par avance",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Sur le mois à venir",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Votre Facture",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "SOCIETE XXX H = Montant total",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "î de vos ConsSommations",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "Les COnSommations sont",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "facturées sur le mois écoulé",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "RUE Du PORT",
+      "quantity": "",
+      "unit_price": "15"
+    },
+    {
+      "description": "PARIS",
+      "quantity": "",
+      "unit_price": "75000"
+    },
+    {
+      "description": "Kétva FR",
+      "quantity": "059",
+      "unit_price": "564"
+    },
+    {
+      "description": "m“ Total Dour Le mois",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "écoulé de toutes les",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Prestations Ponctuelles",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "et eXceptionnelles (mise",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "en Service renouvellement",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "de mobile etc)",
+      "quantity": ".",
+      "unit_price": "."
+    },
+    {
+      "description": "Vos abonnements Options et services du / au",
+      "quantity": "0141",
+      "unit_price": "3140141"
+    },
+    {
+      "description": "Vos consommations facturées qu // au",
+      "quantity": "81240",
+      "unit_price": "8.31"
+    },
+    {
+      "description": "Vos autres Prestations du // au /",
+      "quantity": "1210",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "Par lee | Montant",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "19.6",
+  "tva_amount": "",
+  "total_amount": "",
+  "payment_status": "UNKNOWN",
+  "solde_du": ""
+}

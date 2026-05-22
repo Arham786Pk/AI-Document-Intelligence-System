@@ -1,0 +1,50 @@
+{
+  "file_name": "FR_invoice_img_synth_026",
+  "supplier_name": "Schneider SA FACTURE",
+  "invoice_number": "",
+  "invoice_date": "23/11/2025",
+  "siret": "54049549296335",
+  "echeance": "22/02/2026",
+  "invoice_content": [
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "————————————_—",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Nettoyage de locau € €",
+      "quantity": "3",
+      "unit_price": "055.32"
+    },
+    {
+      "description": "Création graphique € €",
+      "quantity": "9",
+      "unit_price": "501.57"
+    },
+    {
+      "description": "Licence logicielle € €",
+      "quantity": "19",
+      "unit_price": "632.69"
+    },
+    {
+      "description": "Rédaction de contenu € €",
+      "quantity": "1",
+      "unit_price": "730.12"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "6783.94",
+  "total_amount": "40703.64",
+  "payment_status": "PAID",
+  "solde_du": "40703.64"
+}

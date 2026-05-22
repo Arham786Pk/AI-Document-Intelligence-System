@@ -28,4 +28,13 @@ Thumbs.db
 ~$*.xlsx
 
 # Real-PII invoices held locally for review — never push to public repo (M2 Task 02)
-data/Scanned_PDF/sourced_internet/_pii_review/
+quarantine/pii_review/
+
+# Quarantined non-invoices / low-quality PDFs — preserved locally, excluded from repo
+quarantine/
+
+# Regenerable preprocessing cache (rebuilt by `python -m src.preprocessor`)
+data/processed/
+
+# Scratch / temp render dirs
+scripts/_*

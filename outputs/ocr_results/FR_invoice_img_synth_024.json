@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_synth_024",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_synth_024\\page_01.png",
+      "text": "Marie SARL\n\n8, avenue de Thierry, 20140 Sainte René\nSIRET : 15707720094418\n\nClient :\nMme David Adam\n7, boulevard de Dupré, 63462 Bernierdan\n\nFACTURE\n\nFacture N° : FAC-2024-6723\nDate d'émission : 14/09/2024\nDate d'échéance : 19/12/2024\n\nDésignation Quantité Prix Unitaire Total\nAudit de sécurité 23 375,87 € 8 633,51 €\nCréation graphique 21 69,85 € 1 466,85 €\nRédaction de contenu 29 215,88 € 6 260,52 €\nFourniture de matériel 15 815,35 € 12 230,25 €\nHébergement web 29 663,60 € 19 244,40 €\nSous-total HT 47 835,53 €\nTVA 20 % 9 567,11 €\nTotal TTC 57 402,64 €\n\nStatut : Payé\nSolde dû : 0,00 €",
+      "confidence": 0.9412844036697249,
+      "char_count": 590,
+      "word_count": 108,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Marie SARL\n\n8, avenue de Thierry, 20140 Sainte René\nSIRET : 15707720094418\n\nClient :\nMme David Adam\n7, boulevard de Dupré, 63462 Bernierdan\n\nFACTURE\n\nFacture N° : FAC-2024-6723\nDate d'émission : 14/09/2024\nDate d'échéance : 19/12/2024\n\nDésignation Quantité Prix Unitaire Total\nAudit de sécurité 23 375,87 € 8 633,51 €\nCréation graphique 21 69,85 € 1 466,85 €\nRédaction de contenu 29 215,88 € 6 260,52 €\nFourniture de matériel 15 815,35 € 12 230,25 €\nHébergement web 29 663,60 € 19 244,40 €\nSous-total HT 47 835,53 €\nTVA 20 % 9 567,11 €\nTotal TTC 57 402,64 €\n\nStatut : Payé\nSolde dû : 0,00 €",
+  "mean_confidence": 0.9412844036697249,
+  "total_char_count": 590,
+  "total_word_count": 108,
+  "low_quality_pages": [],
+  "error": ""
+}

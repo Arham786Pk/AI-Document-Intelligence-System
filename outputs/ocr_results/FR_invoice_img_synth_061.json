@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_synth_061",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_synth_061\\page_01.png",
+      "text": "Nguyen EURL\n\n11, rue Maggie Colin, 97670 Tessier\nSIRET : 08489255107227\n\nFacturé à :\nMme Auguste Carpentier\n7, chemin Marine Bourdon, 89336 Foucher\n\nFACTURE\n\nN° Facture : F-2024-6029\nDate : 25/06/2024\nDate d'échéance : 26/09/2025\n\nDésignation Quantité Prix Unitaire Total\nFormation professionnelle 3 394,61 € 1 183,83 €\nFourniture de matériel 45 581,40 € 26 163,00 €\nMaintenance annuelle 17 697,10 € 11 850,70 €\nCréation graphique 28 551,95 € 15 454,60 €\nInstallation réseau 21 848,41 € 17 816,61 €\nInstallation réseau 48 738,33 € 35 439,84 €\n\nSous-total HT 107 908,58 €\n\nTVA 10% 10 790,86 €\n\nTotal TTC 118 699,44 €\n\nStatut : Non payé\nSolde dû : 118 699,44 €",
+      "confidence": 0.9391304347826087,
+      "char_count": 658,
+      "word_count": 114,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Nguyen EURL\n\n11, rue Maggie Colin, 97670 Tessier\nSIRET : 08489255107227\n\nFacturé à :\nMme Auguste Carpentier\n7, chemin Marine Bourdon, 89336 Foucher\n\nFACTURE\n\nN° Facture : F-2024-6029\nDate : 25/06/2024\nDate d'échéance : 26/09/2025\n\nDésignation Quantité Prix Unitaire Total\nFormation professionnelle 3 394,61 € 1 183,83 €\nFourniture de matériel 45 581,40 € 26 163,00 €\nMaintenance annuelle 17 697,10 € 11 850,70 €\nCréation graphique 28 551,95 € 15 454,60 €\nInstallation réseau 21 848,41 € 17 816,61 €\nInstallation réseau 48 738,33 € 35 439,84 €\n\nSous-total HT 107 908,58 €\n\nTVA 10% 10 790,86 €\n\nTotal TTC 118 699,44 €\n\nStatut : Non payé\nSolde dû : 118 699,44 €",
+  "mean_confidence": 0.9391304347826087,
+  "total_char_count": 658,
+  "total_word_count": 114,
+  "low_quality_pages": [],
+  "error": ""
+}

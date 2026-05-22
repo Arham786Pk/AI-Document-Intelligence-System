@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_synth_059",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_synth_059\\page_01.png",
+      "text": "Lebrun SA\n\n707, rue Peron, 03218 Legrand\nSIRET : 91890763201415\n\nClient :\nBonnin SA\n10, rue Alexandrie Henry, 82705 Royer\n\nDésignation\n\nHébergement web\nFourniture de matériel\n\nStatut : Non payé\nSolde dû : 17 270,33 €\n\nFACTURE\n\nN° Facture : FAC-2024-3398\nDate : 23/05/2024\nÉchéance : 11/12/2025\n\nQuantité Prix Unitaire Total\n20 603,41 € 12 068,20 €\n7 614,54 € 4 301,78 €\nSous-total HT 16 369,98 €\nTVA55% 900,85 €\nTotal TTC 17 270,33 €",
+      "confidence": 0.9327272727272726,
+      "char_count": 433,
+      "word_count": 76,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Lebrun SA\n\n707, rue Peron, 03218 Legrand\nSIRET : 91890763201415\n\nClient :\nBonnin SA\n10, rue Alexandrie Henry, 82705 Royer\n\nDésignation\n\nHébergement web\nFourniture de matériel\n\nStatut : Non payé\nSolde dû : 17 270,33 €\n\nFACTURE\n\nN° Facture : FAC-2024-3398\nDate : 23/05/2024\nÉchéance : 11/12/2025\n\nQuantité Prix Unitaire Total\n20 603,41 € 12 068,20 €\n7 614,54 € 4 301,78 €\nSous-total HT 16 369,98 €\nTVA55% 900,85 €\nTotal TTC 17 270,33 €",
+  "mean_confidence": 0.9327272727272726,
+  "total_char_count": 433,
+  "total_word_count": 76,
+  "low_quality_pages": [],
+  "error": ""
+}

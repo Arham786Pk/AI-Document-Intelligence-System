@@ -1,0 +1,95 @@
+{
+  "file_name": "FR_invoice_img_synth_012",
+  "supplier_name": "Michel SARL",
+  "invoice_number": "Facture",
+  "invoice_date": "13/12/2024",
+  "siret": "64396785881175",
+  "echeance": "10/10/2025",
+  "invoice_content": [
+    {
+      "description": "Installation réseau",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Création graphique",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Création graphique",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Maintenance annuelle",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "N° Facture : F--",
+      "quantity": "2024",
+      "unit_price": "3966"
+    },
+    {
+      "description": "Date d'émission : //",
+      "quantity": "12",
+      "unit_price": "2024"
+    },
+    {
+      "description": "Échéance : //",
+      "quantity": "10",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "873,45",
+      "unit_price": "873.45"
+    },
+    {
+      "description": "€ €",
+      "quantity": "27",
+      "unit_price": "157.94"
+    },
+    {
+      "description": "€ €",
+      "quantity": "9",
+      "unit_price": "842.70"
+    },
+    {
+      "description": "€ €",
+      "quantity": "7",
+      "unit_price": "890.84"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "9152.99",
+  "total_amount": "54917.92",
+  "payment_status": "PAID",
+  "solde_du": "0.00"
+}

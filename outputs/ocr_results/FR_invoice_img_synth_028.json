@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_synth_028",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_synth_028\\page_01.png",
+      "text": "Menard SAS\n\n34, avenue Jean Julien, 80275 Vallée-la-Forêt\nSIRET : 54764277252874\n\nDestinataire :\nM. William Monnier\nchemin Paulette Launay, 91694 Blondel-sur-Mer\n\nDésignation\n\nLocation d'équipement\nSupport technique\nFourniture de matériel\nPrestation de conseil\n\nStatut : Payé\nSolde dû : 0,00 €\n\nFACTURE\n\nNuméro de facture : FAC-2024-1066\nDate facture : 02/07/2024\nDate d'échéance : 27/11/2025\n\nQuantité Prix Unitaire Total\n49 407,73 € 19 978,77 €\n38 895,73 € 84 037,74 €\n14 725,77 € 10 160,78 €\n29 103,80 € 8 010,20 €\nSous-total HT 67 187,49 €\nTVA 20 % 18 437,50 €\nTotal TTC 80 624,99 €",
+      "confidence": 0.9356565656565656,
+      "char_count": 586,
+      "word_count": 98,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Menard SAS\n\n34, avenue Jean Julien, 80275 Vallée-la-Forêt\nSIRET : 54764277252874\n\nDestinataire :\nM. William Monnier\nchemin Paulette Launay, 91694 Blondel-sur-Mer\n\nDésignation\n\nLocation d'équipement\nSupport technique\nFourniture de matériel\nPrestation de conseil\n\nStatut : Payé\nSolde dû : 0,00 €\n\nFACTURE\n\nNuméro de facture : FAC-2024-1066\nDate facture : 02/07/2024\nDate d'échéance : 27/11/2025\n\nQuantité Prix Unitaire Total\n49 407,73 € 19 978,77 €\n38 895,73 € 84 037,74 €\n14 725,77 € 10 160,78 €\n29 103,80 € 8 010,20 €\nSous-total HT 67 187,49 €\nTVA 20 % 18 437,50 €\nTotal TTC 80 624,99 €",
+  "mean_confidence": 0.9356565656565656,
+  "total_char_count": 586,
+  "total_word_count": 98,
+  "low_quality_pages": [],
+  "error": ""
+}

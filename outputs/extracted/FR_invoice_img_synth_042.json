@@ -1,0 +1,55 @@
+{
+  "file_name": "FR_invoice_img_synth_042",
+  "supplier_name": "Marie SARL",
+  "invoice_number": "FC-2024-7576",
+  "invoice_date": "20/10/2024",
+  "siret": "35793986171936",
+  "echeance": "22/07/2025",
+  "invoice_content": [
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Hébergement web € €",
+      "quantity": "2",
+      "unit_price": "237.19"
+    },
+    {
+      "description": "Prestation de conseil € €",
+      "quantity": "1",
+      "unit_price": "689.66"
+    },
+    {
+      "description": "Installation réseau € €",
+      "quantity": "16,11",
+      "unit_price": "257.76"
+    },
+    {
+      "description": "Audit de sécurité € €",
+      "quantity": "1",
+      "unit_price": "635.72"
+    },
+    {
+      "description": "Maintenance annuelle € €",
+      "quantity": "1",
+      "unit_price": "357.93"
+    },
+    {
+      "description": "Hébergement web € €",
+      "quantity": "9,78",
+      "unit_price": "340.55"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "20",
+  "tva_amount": "1503.76",
+  "total_amount": "9022.57",
+  "payment_status": "PAID",
+  "solde_du": "9022.57"
+}

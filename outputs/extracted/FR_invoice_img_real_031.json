@@ -1,0 +1,35 @@
+{
+  "file_name": "FR_invoice_img_real_031",
+  "supplier_name": "Plomberie Sanitaire Leconte",
+  "invoice_number": "PSL-2024-0189",
+  "invoice_date": "20/05/2024",
+  "siret": "33323456800356",
+  "echeance": "04/06/2024",
+  "invoice_content": [
+    {
+      "description": "Rerplacenent chauffe-eau L",
+      "quantity": "",
+      "unit_price": "200"
+    },
+    {
+      "description": "Main d'œuvre pose (h)",
+      "quantity": "",
+      "unit_price": "4"
+    },
+    {
+      "description": "Mise en conformité NF",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Déplacerent",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "",
+  "tva_amount": "",
+  "total_amount": "1177.00",
+  "payment_status": "PAID",
+  "solde_du": ""
+}

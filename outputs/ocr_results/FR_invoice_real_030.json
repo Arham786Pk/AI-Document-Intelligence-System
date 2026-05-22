@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_real_030",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_real_030\\page_01.png",
+      "text": "Atelier Couture & Retouches Blondel FACTURE\n14 Passage des Artisans, 69002 Lyon N° : ACR-2023-1205\n\nSIRET : 55534567800189 Date : 05/12/2023\n\nN° TVA : FR55534567800 - Echeance : 20/12/2023\n\nDESTINATAIRE :\n\nMme Julie Fontaine\n\n22 Rue de la Soie, 69001 Lyon\n\nES CES CC CLS\nCE ES EE TE\nRE EE EE EE\n\nMontant HT : 250,00 EUR\nTVA 20% : 50,00 EUR\nTOTAL TTC : 300,00 EUR\nREGLEMENT : Espèces reçues — reçu N° 2023-1205\nBon pour accord : Signature et cachet :\n\nPénalités de retard applicables au taux légal en vigueur. Indemnité forfaitaire de recouvrement : 40 EUR.",
+      "confidence": 0.8632432432432432,
+      "char_count": 556,
+      "word_count": 100,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Atelier Couture & Retouches Blondel FACTURE\n14 Passage des Artisans, 69002 Lyon N° : ACR-2023-1205\n\nSIRET : 55534567800189 Date : 05/12/2023\n\nN° TVA : FR55534567800 - Echeance : 20/12/2023\n\nDESTINATAIRE :\n\nMme Julie Fontaine\n\n22 Rue de la Soie, 69001 Lyon\n\nES CES CC CLS\nCE ES EE TE\nRE EE EE EE\n\nMontant HT : 250,00 EUR\nTVA 20% : 50,00 EUR\nTOTAL TTC : 300,00 EUR\nREGLEMENT : Espèces reçues — reçu N° 2023-1205\nBon pour accord : Signature et cachet :\n\nPénalités de retard applicables au taux légal en vigueur. Indemnité forfaitaire de recouvrement : 40 EUR.",
+  "mean_confidence": 0.8632432432432432,
+  "total_char_count": 556,
+  "total_word_count": 100,
+  "low_quality_pages": [],
+  "error": ""
+}

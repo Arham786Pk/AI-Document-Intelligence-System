@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_synth_030",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_synth_030\\page_01.png",
+      "text": "Hubert SAS\n\n92, avenue Buisson, 04137 Roux\nSIRET : 90322837800508\n\nFacturé à :\nMme Agathe Pons\n34, boulevard de Renault, 93551 Gaillard\n\nDésignation\n\nFormation professionnelle\nMaintenance annuelle\nInstallation réseau\nFourniture de matériel\n\nStatut : Non payé\nSolde dû : 77 444,95 €\n\nFACTURE\n\nNuméro de facture : FAC-2025-4707\nDate : 26/12/2025\nDate d'échéance : 17/06/2026\n\nQuantité Prix Unitaire Total\n9 659,59 € 5 936,31 €\n47 421,89 € 19 828,83 €\n13 882,26 € 11 469,38 €\n42 650,07 € 27 302,94 €\nSous-total HT 64 537,46 €\nTVA 20 % 12 907,49 €\nTotal TTC 77 444,95 €",
+      "confidence": 0.9453,
+      "char_count": 565,
+      "word_count": 99,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Hubert SAS\n\n92, avenue Buisson, 04137 Roux\nSIRET : 90322837800508\n\nFacturé à :\nMme Agathe Pons\n34, boulevard de Renault, 93551 Gaillard\n\nDésignation\n\nFormation professionnelle\nMaintenance annuelle\nInstallation réseau\nFourniture de matériel\n\nStatut : Non payé\nSolde dû : 77 444,95 €\n\nFACTURE\n\nNuméro de facture : FAC-2025-4707\nDate : 26/12/2025\nDate d'échéance : 17/06/2026\n\nQuantité Prix Unitaire Total\n9 659,59 € 5 936,31 €\n47 421,89 € 19 828,83 €\n13 882,26 € 11 469,38 €\n42 650,07 € 27 302,94 €\nSous-total HT 64 537,46 €\nTVA 20 % 12 907,49 €\nTotal TTC 77 444,95 €",
+  "mean_confidence": 0.9453,
+  "total_char_count": 565,
+  "total_word_count": 99,
+  "low_quality_pages": [],
+  "error": ""
+}

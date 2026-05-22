@@ -1,0 +1,100 @@
+{
+  "file_name": "FR_invoice_real_013",
+  "supplier_name": "SAS MAYVERT",
+  "invoice_number": "",
+  "invoice_date": "",
+  "siret": "03428350064980",
+  "echeance": "",
+  "invoice_content": [
+    {
+      "description": "vendus=",
+      "quantity": "",
+      "unit_price": "5"
+    },
+    {
+      "description": "À RENDRE EUR",
+      "quantity": ".",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "ESPECES O GO EUR",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "Me te en Cu Ne où e SN MA MR MU ue Me AS un mA M ue m M Ut Ve (AN D um (De A mt Au e + ner et en es On De Le",
+      "quantity": "4",
+      "unit_price": "46"
+    },
+    {
+      "description": "RECAPITULATIF TVA",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "CODE TVA MT HT MT TVA HT TIC",
+      "quantity": ".",
+      "unit_price": "."
+    },
+    {
+      "description": "“B",
+      "quantity": "11,66",
+      "unit_price": "69.95"
+    },
+    {
+      "description": "ROME NS M Me De mm ven Cd Se M MS Je dun ne Du En me NM ee de n n& Me DE DA où Où M où On Ne ou nn où",
+      "quantity": "6",
+      "unit_price": "4"
+    },
+    {
+      "description": "AVEC NOTRE CARTE DE FIDELITE",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "GAGNEZ DES EUROS EN FAISANT VOS COURSES!",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "DEMANDEZ-LA VITE ELLE EST GRATUITE !",
+      "quantity": "",
+      "unit_price": "."
+    },
+    {
+      "description": "FANS ŒU Ua M AR Du be dé MS On id DE Mn LA M AA NE De mu mu Mec LR DO MU des dun vn/ Voi # Ee US ON vu",
+      "quantity": "1",
+      "unit_price": "4"
+    },
+    {
+      "description": ":: //",
+      "quantity": "04",
+      "unit_price": "2026."
+    },
+    {
+      "description": ") M CO T",
+      "quantity": "01003",
+      "unit_price": "0126"
+    },
+    {
+      "description": "À BIENTOT",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "ARR ERR SMS ER SEE REA Et",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "TICKET SERT DE",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "",
+  "tva_amount": "",
+  "total_amount": "",
+  "payment_status": "PAID",
+  "solde_du": ""
+}

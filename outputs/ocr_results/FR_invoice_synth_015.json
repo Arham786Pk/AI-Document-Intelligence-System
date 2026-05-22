@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_synth_015",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_synth_015\\page_01.png",
+      "text": "Buisson SCI\n\n892, avenue de Deschamps, 89527 Lelièvre-sur-Henry\nSIRET : 06699278746971\n\nDestinataire :\nM. Aimé Dupuis\n923, chemin Vaillant, 42638 Moulin-les-Bains\n\nDésignation\n\nMaintenance annuelle\nSupport technique\nMaintenance annuelle\n\nStatut : Non payé\nSolde dû : 56 123,83 €\n\nFACTURE\n\nFacture N° : FAC-2024-3528\nDate d'émission : 04/12/2024\nDate d'échéance : 31/12/2024\n\nQuantité Prix Unitaire Total\n16 495,06 € 7 920,96 €\n24 533,10 € 12 794,40 €\n50 521,09 € 26 054,50 €\nSous-total HT 46 769,86 €\nTVA 20 % 9 353,97 €\nTotal TTC 56 123,83 €",
+      "confidence": 0.9406666666666667,
+      "char_count": 542,
+      "word_count": 89,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Buisson SCI\n\n892, avenue de Deschamps, 89527 Lelièvre-sur-Henry\nSIRET : 06699278746971\n\nDestinataire :\nM. Aimé Dupuis\n923, chemin Vaillant, 42638 Moulin-les-Bains\n\nDésignation\n\nMaintenance annuelle\nSupport technique\nMaintenance annuelle\n\nStatut : Non payé\nSolde dû : 56 123,83 €\n\nFACTURE\n\nFacture N° : FAC-2024-3528\nDate d'émission : 04/12/2024\nDate d'échéance : 31/12/2024\n\nQuantité Prix Unitaire Total\n16 495,06 € 7 920,96 €\n24 533,10 € 12 794,40 €\n50 521,09 € 26 054,50 €\nSous-total HT 46 769,86 €\nTVA 20 % 9 353,97 €\nTotal TTC 56 123,83 €",
+  "mean_confidence": 0.9406666666666667,
+  "total_char_count": 542,
+  "total_word_count": 89,
+  "low_quality_pages": [],
+  "error": ""
+}

@@ -1,0 +1,115 @@
+{
+  "file_name": "FR_invoice_img_synth_053",
+  "supplier_name": "Garcia SARL",
+  "invoice_number": "",
+  "invoice_date": "04/10/2024",
+  "siret": "24857782537479",
+  "echeance": "25/05/2025",
+  "invoice_content": [
+    {
+      "description": "Licence logicielle",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Nettoyage de locaux",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Fourniture de matériel",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Fourniture de matériel",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Rédaction de contenu",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Fourniture de matériel",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Numéro de facture : FC--",
+      "quantity": "2024",
+      "unit_price": "6030"
+    },
+    {
+      "description": "Date d'émission : //",
+      "quantity": "10",
+      "unit_price": "2024"
+    },
+    {
+      "description": "Échéance : //",
+      "quantity": "05",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "38",
+      "unit_price": "423.00"
+    },
+    {
+      "description": "€ €",
+      "quantity": "7",
+      "unit_price": "566.80"
+    },
+    {
+      "description": "€ €",
+      "quantity": "4",
+      "unit_price": "699.65"
+    },
+    {
+      "description": "€ €",
+      "quantity": "18",
+      "unit_price": "357.26"
+    },
+    {
+      "description": "€ €",
+      "quantity": "26",
+      "unit_price": "564.58"
+    },
+    {
+      "description": "€ €",
+      "quantity": "233,58",
+      "unit_price": "11211.84"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "5.5",
+  "tva_amount": "5875.24",
+  "total_amount": "112697.87",
+  "payment_status": "PAID",
+  "solde_du": "0.00"
+}

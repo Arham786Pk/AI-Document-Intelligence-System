@@ -1,7 +1,7 @@
 """Smoke tests for the preprocessing module.
 
 These run against the French-invoice dataset committed under
-``data/Images/`` (JPGs) and ``data/Scanned_PDF/`` (PDFs). They are skipped
+``data/images/`` and ``data/pdf/``. They are skipped
 when neither folder is populated.
 """
 from __future__ import annotations
@@ -18,8 +18,8 @@ from src.preprocessor import (
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DIRS = [
-    ROOT / "data" / "Images",
-    ROOT / "data" / "Scanned_PDF",
+    ROOT / "data" / "images",
+    ROOT / "data" / "pdf",
 ]
 
 
@@ -29,7 +29,7 @@ def _has_dataset() -> bool:
 
 pytestmark = pytest.mark.skipif(
     not _has_dataset(),
-    reason="data/Images/ and data/Scanned_PDF/ are both empty",
+    reason="data/images/ and data/pdf/ are both empty",
 )
 
 

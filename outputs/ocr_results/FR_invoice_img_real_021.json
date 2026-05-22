@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_real_021",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_real_021\\page_01.png",
+      "text": "EACTÜREINARHD:=2024\"0389 110/06/20241E Ch R10/07/2024\n\nQ FOURNISSEUR\nRénovation Habitat Duval SARL\n\n9 Chemin des Bâtisseurs, 31000 Toulouse\nSIRET : 66623567800512\nTVA Intra : FR66623567800\n\nO CONSOMMATEUR\n\nM. et Mme Lefebvre\nPropriétaires — Résidence Privée\n24 Rue des Violettes, 31400 Toulouse\n\nRavalement façade 420m\nIsolation thermique extérieure\nÉchafaudage location (3 Semaines)\n\nNettoyage et évacuation\n\n4 800,00 € 4 800,00 €\n1 3 200,00 € 3 200,00 €\n3 380,00 € 380,00 €\n1 250,00 € 250,00 €\nMontant HT 9 390,00 €\nTVA 10% 989,00 €\n* TOTAL TTC 10 329,00 €\n\nRÈGLEMENT : 80% acompte versé — Solde 7 230,30 € à régler fin de chantier",
+      "confidence": 0.8610476190476191,
+      "char_count": 633,
+      "word_count": 105,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "EACTÜREINARHD:=2024\"0389 110/06/20241E Ch R10/07/2024\n\nQ FOURNISSEUR\nRénovation Habitat Duval SARL\n\n9 Chemin des Bâtisseurs, 31000 Toulouse\nSIRET : 66623567800512\nTVA Intra : FR66623567800\n\nO CONSOMMATEUR\n\nM. et Mme Lefebvre\nPropriétaires — Résidence Privée\n24 Rue des Violettes, 31400 Toulouse\n\nRavalement façade 420m\nIsolation thermique extérieure\nÉchafaudage location (3 Semaines)\n\nNettoyage et évacuation\n\n4 800,00 € 4 800,00 €\n1 3 200,00 € 3 200,00 €\n3 380,00 € 380,00 €\n1 250,00 € 250,00 €\nMontant HT 9 390,00 €\nTVA 10% 989,00 €\n* TOTAL TTC 10 329,00 €\n\nRÈGLEMENT : 80% acompte versé — Solde 7 230,30 € à régler fin de chantier",
+  "mean_confidence": 0.8610476190476191,
+  "total_char_count": 633,
+  "total_word_count": 105,
+  "low_quality_pages": [],
+  "error": ""
+}

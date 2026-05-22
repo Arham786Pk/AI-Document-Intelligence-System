@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_synth_027",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_synth_027\\page_01.png",
+      "text": "Pichon EURL FACTURE\n\nrue Vallet, 49743 Benoit-les-Bains\nSIRET : 03131683277317\n\nNuméro de facture : FC-2025-8593\nDate d'émission : 13/03/2025\nDate limite de paiement : 20/03/2025\n\nFacturé à :\nMme Isaac De Sousa\n81, boulevard de Masson, 52624 Bousquet\n\nDésignation Quantité Prix Unitaire Total\n————————_————_\nLocation d'équipement 83 785,20 € 25 911,60 €\nCréation graphique 9 907,61 € 8 168,49 €\nFourniture de matériel 87 621,40 € 22 991,80 €\nPrestation de conseil 38 844,01 € 82 072,88 €\nFourniture de matériel 18 653,59 € 11 764,62 €\n\nSous-total HT 100 908,89 €\n\nTVA 5.5 % 5 549,99 €\n\nTotal TTC 106 458,88 €\n\nStatut : Non payé\nSolde dû : 106 458,88 €",
+      "confidence": 0.9058771929824562,
+      "char_count": 651,
+      "word_count": 113,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Pichon EURL FACTURE\n\nrue Vallet, 49743 Benoit-les-Bains\nSIRET : 03131683277317\n\nNuméro de facture : FC-2025-8593\nDate d'émission : 13/03/2025\nDate limite de paiement : 20/03/2025\n\nFacturé à :\nMme Isaac De Sousa\n81, boulevard de Masson, 52624 Bousquet\n\nDésignation Quantité Prix Unitaire Total\n————————_————_\nLocation d'équipement 83 785,20 € 25 911,60 €\nCréation graphique 9 907,61 € 8 168,49 €\nFourniture de matériel 87 621,40 € 22 991,80 €\nPrestation de conseil 38 844,01 € 82 072,88 €\nFourniture de matériel 18 653,59 € 11 764,62 €\n\nSous-total HT 100 908,89 €\n\nTVA 5.5 % 5 549,99 €\n\nTotal TTC 106 458,88 €\n\nStatut : Non payé\nSolde dû : 106 458,88 €",
+  "mean_confidence": 0.9058771929824562,
+  "total_char_count": 651,
+  "total_word_count": 113,
+  "low_quality_pages": [],
+  "error": ""
+}

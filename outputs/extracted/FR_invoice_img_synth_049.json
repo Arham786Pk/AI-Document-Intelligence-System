@@ -1,0 +1,85 @@
+{
+  "file_name": "FR_invoice_img_synth_049",
+  "supplier_name": "Philippe SAS",
+  "invoice_number": "Facture",
+  "invoice_date": "15/07/2025",
+  "siret": "68993956596518",
+  "echeance": "23/05/2026",
+  "invoice_content": [
+    {
+      "description": "Formation professionnelle",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Hébergement web",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Rédaction de contenu",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "N° Facture : FC--",
+      "quantity": "2025",
+      "unit_price": "0664"
+    },
+    {
+      "description": "Date : //",
+      "quantity": "07",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Échéance : //",
+      "quantity": "05",
+      "unit_price": "2026"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "25",
+      "unit_price": "638.40"
+    },
+    {
+      "description": "€ €",
+      "quantity": "89",
+      "unit_price": "299.40"
+    },
+    {
+      "description": "€ €",
+      "quantity": "14",
+      "unit_price": "841.00"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "5.5",
+  "tva_amount": "4387.83",
+  "total_amount": "84166.63",
+  "payment_status": "PAID",
+  "solde_du": "0.00"
+}

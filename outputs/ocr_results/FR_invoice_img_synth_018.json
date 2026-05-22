@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_synth_018",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_synth_018\\page_01.png",
+      "text": "Chevallier EURL FACTURE\n\n57, rue de Lefèvre, 46117 Le Gall\nSIRET : 25374305034662\n\nNuméro de facture : FC-2025-6025\nDate d'émission : 19/07/2025\nDate limite de paiement : 13/06/2026\n\nDestinataire :\nDelahaye EURL\n68, boulevard André Mace, 05684 Deschamps\n\nDésignation Quantité Prix Unitaire Total\n———\nPrestation de conseil 2 686,95 € 1 373,90 €\nFormation professionnelle 37 664,09 € 24 571,33 €\nDéveloppement logiciel 17 598,86 € 10 180,62 €\nNettoyage de locaux 23 46,30 € 1 064,90 €\nSupport technique 3 219,63 € 658,89 €\nPrestation de conseil 9 916,42 € 8 247,78 €\n\nSous-total HT 46 097,42 €\n\nTVA 20 % 9 219,48 €\n\nTotal TTC 55 316,90 €\n\nStatut : Non payé\nSolde dû : 55 316,90 €",
+      "confidence": 0.9262809917355372,
+      "char_count": 677,
+      "word_count": 120,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Chevallier EURL FACTURE\n\n57, rue de Lefèvre, 46117 Le Gall\nSIRET : 25374305034662\n\nNuméro de facture : FC-2025-6025\nDate d'émission : 19/07/2025\nDate limite de paiement : 13/06/2026\n\nDestinataire :\nDelahaye EURL\n68, boulevard André Mace, 05684 Deschamps\n\nDésignation Quantité Prix Unitaire Total\n———\nPrestation de conseil 2 686,95 € 1 373,90 €\nFormation professionnelle 37 664,09 € 24 571,33 €\nDéveloppement logiciel 17 598,86 € 10 180,62 €\nNettoyage de locaux 23 46,30 € 1 064,90 €\nSupport technique 3 219,63 € 658,89 €\nPrestation de conseil 9 916,42 € 8 247,78 €\n\nSous-total HT 46 097,42 €\n\nTVA 20 % 9 219,48 €\n\nTotal TTC 55 316,90 €\n\nStatut : Non payé\nSolde dû : 55 316,90 €",
+  "mean_confidence": 0.9262809917355372,
+  "total_char_count": 677,
+  "total_word_count": 120,
+  "low_quality_pages": [],
+  "error": ""
+}

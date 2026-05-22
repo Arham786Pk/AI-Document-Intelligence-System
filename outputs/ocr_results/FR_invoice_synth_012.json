@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_synth_012",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_synth_012\\page_01.png",
+      "text": "Poulain SA FACTURE\n\n58, rue Turpin, 84403 MauriceBourg\nSIRET : 27678421746915\n\nFacture N° : FAC-2025-1325\nDate d'émission : 07/04/2025\nDate limite de paiement : 22/08/2025\n\nDestinataire :\nMme Philippe Martinez\n7, chemin de Martel, 03587 Regnier\n\nDésignation Quantité Prix Unitaire Total\n———— TT\nPrestation de conseil 23 456,23 € 10 493,29 €\nNettoyage de locaux 31 798,07 € 24 740,17 €\nRédaction de contenu 11 510,83 € 5 619,13 €\nMaintenance annuelle 18 506,00 € 9 108,00 €\nFormation professionnelle 46 702,50 € 82 315,00 €\nNettoyage de locaux 29 226,07 € 6 556,03 €\n\nSous-total HT 88 831,62 €\n\nTVA 20 % 17 766,32 €\n\nTotal TTC 106 597,94 €\n\nStatut : Payé\nSolde dû : 0,00 €",
+      "confidence": 0.9271666666666667,
+      "char_count": 671,
+      "word_count": 119,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Poulain SA FACTURE\n\n58, rue Turpin, 84403 MauriceBourg\nSIRET : 27678421746915\n\nFacture N° : FAC-2025-1325\nDate d'émission : 07/04/2025\nDate limite de paiement : 22/08/2025\n\nDestinataire :\nMme Philippe Martinez\n7, chemin de Martel, 03587 Regnier\n\nDésignation Quantité Prix Unitaire Total\n———— TT\nPrestation de conseil 23 456,23 € 10 493,29 €\nNettoyage de locaux 31 798,07 € 24 740,17 €\nRédaction de contenu 11 510,83 € 5 619,13 €\nMaintenance annuelle 18 506,00 € 9 108,00 €\nFormation professionnelle 46 702,50 € 82 315,00 €\nNettoyage de locaux 29 226,07 € 6 556,03 €\n\nSous-total HT 88 831,62 €\n\nTVA 20 % 17 766,32 €\n\nTotal TTC 106 597,94 €\n\nStatut : Payé\nSolde dû : 0,00 €",
+  "mean_confidence": 0.9271666666666667,
+  "total_char_count": 671,
+  "total_word_count": 119,
+  "low_quality_pages": [],
+  "error": ""
+}

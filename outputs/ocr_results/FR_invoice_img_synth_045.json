@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_synth_045",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_synth_045\\page_01.png",
+      "text": "Dupont SARL\n\n11, rue de Bruneau, 67831 Berger\nSIRET : 39064108098336\n\nFacturé à :\nM. Franck Joseph\n43, avenue Maury, 71824 Pinto\n\nDésignation\n\nSupport technique\nAudit de sécurité\nLocation d'équipement\n\nStatut : Payé\nSolde dû : 0,00 €\n\nFACTURE\n\nN° Facture : F-2024-4350\nDate facture : 03/08/2024\nDate d'échéance : 05/02/2025\n\nQuantité Prix Unitaire Total\n6 420,95 € 2 525,70 €\n46 346,76 € 15 950,96 €\n18 428,92 € 7 720,56 €\nSous-total HT 26 197,22 €\nTVA 10% 2 619,72 €\nTotal TTC 28 816,94 €",
+      "confidence": 0.9228089887640449,
+      "char_count": 489,
+      "word_count": 88,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Dupont SARL\n\n11, rue de Bruneau, 67831 Berger\nSIRET : 39064108098336\n\nFacturé à :\nM. Franck Joseph\n43, avenue Maury, 71824 Pinto\n\nDésignation\n\nSupport technique\nAudit de sécurité\nLocation d'équipement\n\nStatut : Payé\nSolde dû : 0,00 €\n\nFACTURE\n\nN° Facture : F-2024-4350\nDate facture : 03/08/2024\nDate d'échéance : 05/02/2025\n\nQuantité Prix Unitaire Total\n6 420,95 € 2 525,70 €\n46 346,76 € 15 950,96 €\n18 428,92 € 7 720,56 €\nSous-total HT 26 197,22 €\nTVA 10% 2 619,72 €\nTotal TTC 28 816,94 €",
+  "mean_confidence": 0.9228089887640449,
+  "total_char_count": 489,
+  "total_word_count": 88,
+  "low_quality_pages": [],
+  "error": ""
+}

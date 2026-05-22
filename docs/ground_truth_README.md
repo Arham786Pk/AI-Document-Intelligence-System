@@ -12,7 +12,7 @@ file-name and notes column for evaluator context:
 
 | # | Column | Notes |
 |---|--------|-------|
-| 0 | File Name | Source filename in `data/Images/` (JPGs) or `data/Scanned_PDF/` (PDFs). Two filenames separated by ` + ` denote multi-page invoices or duplicate photos of the same invoice. |
+| 0 | File Name | Source filename in `data/images/` (JPGs) or `data/pdf/` (PDFs). Two filenames separated by ` + ` denote multi-page invoices or duplicate photos of the same invoice. |
 | 1 | Supplier Name | Issuing company (header, logo line, or `Fournisseur` block). |
 | 2 | Invoice Number | The unique reference (`Facture N°`, `N° Facture`, `Réf.`). For till receipts this is the ticket number. |
 | 3 | Invoice Date | DD/MM/YYYY. |

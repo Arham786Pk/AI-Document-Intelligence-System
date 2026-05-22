@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_real_025",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_real_025\\page_01.png",
+      "text": "Agence Immobilière Soleil FACTURE\nSIRET : 66690123400312 N° : AIS-2024-0089\n\n33 Avenue de la Mer, 06400 Cannes Date : 12/05/2024\n\nN° TVA : FR66690123400 Echeance : 12/06/2024\n\nFOURNISSEUR : \"\nAgence Immobilière Soleil\n33 Avenue de la Mer, 06400 Cannes\n\nSIRET : 66690123400312 | TVA : FR66690123400\n\nCONSOMMATEUR :\nM. Antoine Rousseau\nInvest Immobilier SARL\n\n—}i2-Rue-d'Antibes/-06400-Cannes\n\nHonoraires location appartement T3 1 500,00 1 500,00\n\nÉtat des lieux entrée 180,00 180,00\nRédaction bail 3 ans | à 120,00 120,00\n\nMontant HT : 1 800,00 EUR\nTVA 20% : 360,00 EUR\nTOTAL TTC : 2 160,00 EUR\nREGLEMENT : Réglé par chèque N° 4521897 — Banque LCL le 13/05/2024\nBon pour accord : Signature et cachet :\n\nPenalites de retard: taux legal en vigueur. Indemnite forfaitaire de recouvrement : 40 EUR.",
+      "confidence": 0.9127941176470589,
+      "char_count": 793,
+      "word_count": 129,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Agence Immobilière Soleil FACTURE\nSIRET : 66690123400312 N° : AIS-2024-0089\n\n33 Avenue de la Mer, 06400 Cannes Date : 12/05/2024\n\nN° TVA : FR66690123400 Echeance : 12/06/2024\n\nFOURNISSEUR : \"\nAgence Immobilière Soleil\n33 Avenue de la Mer, 06400 Cannes\n\nSIRET : 66690123400312 | TVA : FR66690123400\n\nCONSOMMATEUR :\nM. Antoine Rousseau\nInvest Immobilier SARL\n\n—}i2-Rue-d'Antibes/-06400-Cannes\n\nHonoraires location appartement T3 1 500,00 1 500,00\n\nÉtat des lieux entrée 180,00 180,00\nRédaction bail 3 ans | à 120,00 120,00\n\nMontant HT : 1 800,00 EUR\nTVA 20% : 360,00 EUR\nTOTAL TTC : 2 160,00 EUR\nREGLEMENT : Réglé par chèque N° 4521897 — Banque LCL le 13/05/2024\nBon pour accord : Signature et cachet :\n\nPenalites de retard: taux legal en vigueur. Indemnite forfaitaire de recouvrement : 40 EUR.",
+  "mean_confidence": 0.9127941176470589,
+  "total_char_count": 793,
+  "total_word_count": 129,
+  "low_quality_pages": [],
+  "error": ""
+}

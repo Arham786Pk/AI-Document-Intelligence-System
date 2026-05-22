@@ -306,7 +306,8 @@ def load_ground_truth(csv_path: str | Path) -> dict[str, dict[str, str]]:
                 continue
             
             # Normalize file name (remove extension)
-            file_name = file_name.replace('.jpg', '').replace('.pdf', '')
+            for _ext in ('.jpeg', '.jpg', '.png', '.pdf'):
+                file_name = file_name.replace(_ext, '')
             
             # Handle merged invoices (e.g., "IMG-20260507-WA0152.jpg + IMG-20260507-WA0157.jpg")
             if '+' in file_name:
@@ -575,7 +576,7 @@ def generate_report(metrics: MetricsReport, output_dir: str | Path) -> None:
         json.dumps(asdict(metrics), indent=2, ensure_ascii=False),
         encoding='utf-8'
     )
-    print(f"✅ JSON report: {json_path}")
+    print(f"[OK] JSON report: {json_path}")
     
     # 2. Human-readable summary report
     summary_path = output_dir / "metrics_summary.txt"
@@ -626,7 +627,7 @@ def generate_report(metrics: MetricsReport, output_dir: str | Path) -> None:
         
         f.write("\n" + "="*70 + "\n")
     
-    print(f"✅ Summary report: {summary_path}")
+    print(f"[OK] Summary report: {summary_path}")
     
     # 3. Detailed comparison CSV
     csv_path = output_dir / "detailed_comparison.csv"
@@ -644,7 +645,7 @@ def generate_report(metrics: MetricsReport, output_dir: str | Path) -> None:
                     'YES' if details['match'] else 'NO'
                 ])
     
-    print(f"✅ Detailed comparison: {csv_path}")
+    print(f"[OK] Detailed comparison: {csv_path}")
     print("="*70)
 
 
@@ -680,7 +681,7 @@ def _cli() -> None:
     # Generate reports
     generate_report(metrics, args.output)
     
-    print("\n✅ Task 10 complete!")
+    print("\n[OK] Task 10 complete!")
 
 
 if __name__ == "__main__":

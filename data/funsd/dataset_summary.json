@@ -1,0 +1,10 @@
+{
+  "total_docs": 200,
+  "train": 140,
+  "val": 30,
+  "test": 30,
+  "labels": 25,
+  "split_overlap": 0,
+  "avg_tokens": 146.0,
+  "tagged_token_ratio": 0.166
+}

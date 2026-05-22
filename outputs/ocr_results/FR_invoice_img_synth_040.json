@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_synth_040",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "D:\\AI-Document-Intelligence-System\\data\\processed\\FR_invoice_img_synth_040\\page_01.png",
+      "text": "Denis SARL\n\n57, rue de Bourgeois, 25249 Vallet\nSIRET : 98325794903322\n\nDestinataire :\nHardy SARL\n25, avenue Marion, 29687 Grenier-la-Forêt\n\nFACTURE\n\nN° Facture : FC-2026-6072\nDate d'émission : 04/03/2026\n\nDate d'échéance : 04/03/2026\n\nDésignation Quantité Prix Unitaire Total\nRédaction de contenu 22 65,89 € 1 449,58 €\nFourniture de matériel 32 574,04 € 18 369,28 €\nFormation professionnelle 37 508,80 € 18 825,60 €\nAudit de sécurité 82 745,84 € 23 866,88 €\nTransport de marchandises 44 300,69 € 13 230,36 €\nSous-total HT 75 741,70 €\nTVA 20 % 15 148,34 €\nTotal TTC 90 890,04 €\n\nStatut : Non payé\nSolde dû : 90 890,04 €",
+      "confidence": 0.9454128440366972,
+      "char_count": 618,
+      "word_count": 108,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Denis SARL\n\n57, rue de Bourgeois, 25249 Vallet\nSIRET : 98325794903322\n\nDestinataire :\nHardy SARL\n25, avenue Marion, 29687 Grenier-la-Forêt\n\nFACTURE\n\nN° Facture : FC-2026-6072\nDate d'émission : 04/03/2026\n\nDate d'échéance : 04/03/2026\n\nDésignation Quantité Prix Unitaire Total\nRédaction de contenu 22 65,89 € 1 449,58 €\nFourniture de matériel 32 574,04 € 18 369,28 €\nFormation professionnelle 37 508,80 € 18 825,60 €\nAudit de sécurité 82 745,84 € 23 866,88 €\nTransport de marchandises 44 300,69 € 13 230,36 €\nSous-total HT 75 741,70 €\nTVA 20 % 15 148,34 €\nTotal TTC 90 890,04 €\n\nStatut : Non payé\nSolde dû : 90 890,04 €",
+  "mean_confidence": 0.9454128440366972,
+  "total_char_count": 618,
+  "total_word_count": 108,
+  "low_quality_pages": [],
+  "error": ""
+}

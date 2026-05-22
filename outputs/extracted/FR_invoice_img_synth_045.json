@@ -1,0 +1,85 @@
+{
+  "file_name": "FR_invoice_img_synth_045",
+  "supplier_name": "Dupont SARL",
+  "invoice_number": "Facture",
+  "invoice_date": "03/08/2024",
+  "siret": "39064108098336",
+  "echeance": "05/02/2025",
+  "invoice_content": [
+    {
+      "description": "Support technique",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Audit de sécurité",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Location d'équipement",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Statut : Payé",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "Solde dû : €",
+      "quantity": "",
+      "unit_price": "0.00"
+    },
+    {
+      "description": "FACTURE",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "N° Facture : F--",
+      "quantity": "2024",
+      "unit_price": "4350"
+    },
+    {
+      "description": "Date facture : //",
+      "quantity": "08",
+      "unit_price": "2024"
+    },
+    {
+      "description": "Date d'échéance : //",
+      "quantity": "02",
+      "unit_price": "2025"
+    },
+    {
+      "description": "Quantité Prix Unitaire Total",
+      "quantity": "",
+      "unit_price": ""
+    },
+    {
+      "description": "€ €",
+      "quantity": "2",
+      "unit_price": "525.70"
+    },
+    {
+      "description": "€ €",
+      "quantity": "15",
+      "unit_price": "950.96"
+    },
+    {
+      "description": "€ €",
+      "quantity": "7",
+      "unit_price": "720.56"
+    },
+    {
+      "description": "Sous-",
+      "quantity": "",
+      "unit_price": ""
+    }
+  ],
+  "tva_percentage": "10",
+  "tva_amount": "2619.72",
+  "total_amount": "28816.94",
+  "payment_status": "PAID",
+  "solde_du": "0.00"
+}
