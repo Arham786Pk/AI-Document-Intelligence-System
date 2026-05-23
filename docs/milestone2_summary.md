@@ -1,7 +1,7 @@
 # Milestone 2 — Summary & Explanation
 
-> Plain-English walkthrough of Milestone 2. Tasks **01–07 are complete**; tasks
-> **08–11 are pending** (need a Google Colab GPU). Companion to
+> Plain-English walkthrough of Milestone 2. Tasks **01–10 are complete**; task
+> **11 is pending** (wire LayoutLMv3 into pipeline). Companion to
 > [`milestone1_summary.md`](milestone1_summary.md).
 
 ## What Milestone 2 is about
@@ -89,18 +89,37 @@ fix exactly these cases.
 
 ---
 
-## What's pending (08–11) — needs a Colab GPU
+## Tasks 08–10 (complete)
+
+### Task 08 — Fine-tune LayoutLMv3 (Google Colab, T4 GPU)
+- **Model:** `microsoft/layoutlmv3-base` → token classification (25 BIO labels)
+- **Training:** 30 epochs, lr=5e-5, batch=4, FP16, on `data/funsd/train.jsonl` (140 docs)
+- **Validation:** `data/funsd/val.jsonl` (30 docs), best checkpoint selected by val F1
+- **Test result (30 docs):** macro F1 = **86.96%**, precision = 86.23%, recall = 88.67%
+- **Key wins vs M1:** `invoice_number` 49→98%, `invoice_content` 37→80%, `solde_du` 49→80%
+
+### Task 09 — Fine-tune CamemBERT (Google Colab, T4 GPU)
+- **Model:** `camembert-base` (French RoBERTa) → token classification, **text-only** (no bboxes)
+- **Training:** 30 epochs, lr=3e-5, batch=8, FP16, same train/val splits
+- **Test result (30 docs):** macro F1 = **12.40%**, precision = 9.70%, recall = 18.53%
+- **9 of 12 entities at 0% F1** — proves layout information is essential for invoices
+
+### Task 10 — 3-model comparison
+- **Report:** [`docs/task10_model_comparison.md`](task10_model_comparison.md)
+- **CSV:** `outputs/task10_comparison.csv`
+- **Conclusion:** LayoutLMv3 (86.96%) >> M1 Rules (67.78%) >> CamemBERT (12.40%)
+- **Winner:** LayoutLMv3 — best on 11/12 entities. Only `supplier_name` is still better
+  with rules (80% vs 70%).
+- **Recommendation:** deploy LayoutLMv3 as primary extractor; optionally keep M1 rules
+  as fallback for `supplier_name`.
+
+---
+
+## What's pending (Task 11)
 
 | Task | Description |
 |------|-------------|
-| 08 | Fine-tune **LayoutLMv3** on `data/funsd/` (Google Colab) |
-| 09 | Fine-tune **RoBERTa** (Google Colab) |
-| 10 | Evaluate **all 3** on the test split — **rule-based M1 vs LayoutLMv3 vs RoBERTa** — and build a comparison table |
-| 11 | Wire the best model into the pipeline + write the final M2 delivery summary |
-
-> **Note on "all 3" in Task 10:** the three are not three AI models. They are
-> (1) the **M1 rule-based** extractor (baseline), (2) **LayoutLMv3**, (3) **RoBERTa** —
-> all scored on the same held-out `data/funsd/test.jsonl`.
+| 11 | Wire LayoutLMv3 into `src/pipeline.py` + write final M2 delivery summary |
 
 ---
 
@@ -114,4 +133,6 @@ fix exactly these cases.
 | Pre-annotations | `label_studio/preannotations_*.json` |
 | Training export (AI input) | `data/funsd/` (train/val/test) |
 | M1 baseline | `docs/m1_baseline.md` · `outputs/metrics_summary.txt` |
+| **Task 10 comparison** | `docs/task10_model_comparison.md` · `outputs/task10_comparison.csv` |
 | Generators / scripts | `scripts/generate_synthetic_invoices.py` · `scripts/build_funsd_dataset.py` |
+

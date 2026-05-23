@@ -439,14 +439,15 @@ for all 200 in `docs/synthetic_ground_truth.json` + `docs/real_ground_truth.json
 | 05 | Annotation + QC (all 200 ground-truthed) | ✅ Done — `label_studio/annotations_*.json` |
 | 06 | Generate synthetic invoices (12 entities) | ✅ Done — 84 |
 | 07 | Export FUNSD/LayoutLMv3 + 70/15/15 split | ✅ Done — `data/funsd/` (140/30/30) |
-| 08 | Fine-tune LayoutLMv3 (Colab) | ⏳ Pending |
-| 09 | Fine-tune RoBERTa (Colab) | ⏳ Pending |
-| 10 | Evaluate 3 models + comparison | ⏳ Pending |
+| 08 | Fine-tune LayoutLMv3 (Colab) | ✅ Done — macro F1 **86.96%** on test split |
+| 09 | Fine-tune CamemBERT/RoBERTa (Colab) | ✅ Done — macro F1 12.40% (text-only, no layout) |
+| 10 | Evaluate 3 models + comparison | ✅ Done — [`docs/task10_model_comparison.md`](docs/task10_model_comparison.md) |
 | 11 | Update pipeline + M2 summary | ⏳ Pending |
 
-> **Note:** the brief's 55% macro-F1 target is already exceeded by the rule-based M1
-> on this dataset (67.78%). The fair AI-vs-rules gate should be the held-out **test
-> split** — see `docs/m1_baseline.md`.
+> **Results summary (Task 10):** LayoutLMv3 (**86.96%**) beats M1 rules (67.78%) by
+> +19 F1 points and CamemBERT (12.40%) by +75 points. Layout information is essential.
+> Full comparison in [`docs/task10_model_comparison.md`](docs/task10_model_comparison.md)
+> and [`outputs/task10_comparison.csv`](outputs/task10_comparison.csv).
 
 **Later milestones:** M3 multi-document-type support · M4 production deployment
 
