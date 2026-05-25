@@ -26,7 +26,10 @@ import regex
 # Accent-tolerant helper
 # ---------------------------------------------------------------------------
 
+import unicodedata
+
 def make_accent_tolerant(text: str) -> str:
+    text = unicodedata.normalize('NFD', text).encode('ascii', 'ignore').decode('utf-8')
     replacements = {
         'e': '[eéèê]', 'a': '[aàâ]', 'i': '[iîï]',
         'o': '[oôö]',  'u': '[uùûü]', 'c': '[cç]',
@@ -60,6 +63,7 @@ SYNONYMS = {
                        "montant ttc", "net a pa"],
     "solde_du":       ["solde dû", "solde du", "reste à payer", "reste a payer",
                        "balance due", "montant restant"],
+    "consumer_name":  ["client", "facture a", "facturé à", "facturer a", "adresse de facturation", "destinataire"],
 }
 
 # ---------------------------------------------------------------------------
@@ -70,6 +74,7 @@ SYNONYMS = {
 class ExtractedEntities:
     file_name: str
     supplier_name: str = ""
+    consumer_name: str = ""
     invoice_number: str = ""
     invoice_date: str = ""
     siret: str = ""
@@ -152,6 +157,31 @@ def extract_supplier_name(text: str) -> str:
     return ""
 
 # ---------------------------------------------------------------------------
+# 1b. Consumer Name
+# ---------------------------------------------------------------------------
+
+def extract_consumer_name(text: str) -> str:
+    lines = text.split('\n')
+    label_pat = build_label_pattern(SYNONYMS["consumer_name"])
+    
+    # Inline match: Client : John Doe
+    m = regex.search(rf'(?i)({label_pat})\s*[:=\-–]\s*([^\n]+)', text)
+    if m:
+        name = re.sub(r'[,;.]+$', '', m.group(2).strip())
+        if name and len(name) > 2:
+            return name
+            
+    # Next-line match
+    for i, line in enumerate(lines):
+        if regex.search(rf'(?i)^({label_pat})\s*$', line.strip()):
+            if i + 1 < len(lines):
+                name = lines[i+1].strip()
+                name = re.sub(r'[,;.]+$', '', name)
+                if name and len(name) > 2:
+                    return name
+    return ""
+
+# ---------------------------------------------------------------------------
 # 2. Invoice Number  (FIXED — 9 patterns covering all observed OCR formats)
 # ---------------------------------------------------------------------------
 
@@ -176,9 +206,9 @@ def extract_invoice_number(text: str) -> str:
     if m:
         return m.group(1).strip()
 
-    # P2: "Facture N°" or "Facture N " followed by code
+    # P2: "Facture N°" or "Facture N " or "N° Facture" followed by code
     m = re.search(
-        r'(?i)facture\s+n[°o]?\s*[:\-–]?\s*([A-Z][A-Z0-9\-/]{3,25})',
+        r'(?i)(?:facture\s+n[°o]?|n[°o]?\s*facture)\s*[:\-–]?\s*([A-Z][A-Z0-9\-/]{3,25})',
         text)
     if m:
         val = m.group(1).split('\n')[0].split('  ')[0].strip()
@@ -265,7 +295,7 @@ def extract_siret(text: str) -> str:
 def extract_echeance(text: str) -> str:
     date_pat = r'\b(\d{1,2})[/\-\.](\d{1,2})[/\-\.](\d{2,4})\b'
     label_pat = build_label_pattern(SYNONYMS["echeance"])
-    m = regex.search(rf'(?i)({label_pat})\s*[:=\-–]?\s*{date_pat}', text)
+    m = regex.search(rf'(?i)({label_pat})\s*(?:le\s+)?[:=\-–]?\s*(?:le\s+)?\s*{date_pat}', text)
     if m:
         return normalize_date(f"{m.group(2)}/{m.group(3)}/{m.group(4)}")
     return ""
@@ -394,13 +424,13 @@ def extract_payment_status(text: str) -> str:
     if re.search(r'(?i)\b(visa|mastercard|cb\b|carte\s*bleue|american\s*express|amex|carte\s*bancaire)\b', text):
         return "PAID"
 
-    # Signal 2: paid keywords
-    if regex.search(r'(?i)\b(pay[eé]|r[eé]gl[eé]|sold[eé]\s+pay[eé]|esp[eè]ces\s+re[çc]ues)\b', text):
-        return "PAID"
-
-    # Signal 3: unpaid keywords
-    if regex.search(r'(?i)\b(non\s+pay[eé]|en\s+attente|impay[eé])\b', text):
+    # Signal 2: unpaid keywords (CHECK UNPAID FIRST so 'non payé' isn't caught by 'payé')
+    if regex.search(r'(?i)\b(non\s+pay[eé]e?s?|en\s+attente|impay[eé]e?s?)\b', text):
         return "UNPAID"
+
+    # Signal 3: paid keywords
+    if regex.search(r'(?i)\b(pay[eé]e?s?|r[eé]gl[eé]e?s?|sold[eé]e?s?|esp[eè]ces\s+re[çc]ues)\b', text):
+        return "PAID"
 
     # Signal 4: payment conditions mentioned
     if regex.search(r'(?i)conditions\s+de\s+r[eè]glement', text):
@@ -430,6 +460,7 @@ def extract_entities(ocr_text: str, file_name: str) -> dict[str, Any]:
     e = ExtractedEntities(
         file_name=file_name,
         supplier_name=extract_supplier_name(text),
+        consumer_name=extract_consumer_name(text),
         invoice_number=extract_invoice_number(text),
         invoice_date=extract_invoice_date(text),
         siret=extract_siret(text),

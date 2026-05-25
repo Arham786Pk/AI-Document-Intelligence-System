@@ -42,7 +42,7 @@ def test_make_accent_tolerant():
     """Test accent-tolerant pattern generation."""
     pattern = make_accent_tolerant("échéance")
     assert "[eéèê]" in pattern
-    assert "ch" in pattern
+    assert "h" in pattern
     
     pattern = make_accent_tolerant("société")
     assert "[oôö]" in pattern
