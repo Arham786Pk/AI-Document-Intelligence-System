@@ -1,0 +1,22 @@
+{
+  "invoice_name": "FR_invoice_img_real_002",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_index": 0,
+      "page_path": "outputs\\test_rules\\processed\\FR_invoice_img_real_002\\page_01.png",
+      "text": "Carrefour\nHYPER CARREFOUR CHALON\nS/SAOKE -HORD - CrIHDIS\n\n1100 Chalen/saon\n\nTLA ERCA4822€92245\n\nCIRET 992 692 145 00912\nRCS 99769:1435\n\nCARTE BANCAIRE\n\nA000N90003L010\nVISA\n\n1e : 31/03/26 à: 18:34:24\nCRHRHDIS DAC VL °\n\n71 SHALON SUR SA\n\n6376249 12135\n\n0O50094122C03924\n\neus ere “O2R)\n\nHAFSI30090933C36A\n\nSU2 U037470 158\n\nC @\n\nNo AUTO : 5566593\n\nMONTANT RÉEL :\n54.76 EUR  :\n\nDEBIT\nYYCRET À CONSERVER\n\nTicket Mo :\nGOCCI4 00931 OC 02 00550383\nflo pompe 2\n\n<\n\nCnrburant = GAZOLE\nQuantite = 24,035 L\nPrix unit. = 2,279 EUR\nTVA 29,00\" = 9,13 EUR\n\nindications non\ncontrolces par l'etat\n\nMCrcei + oonne route\n\nne\n\nne\n,",
+      "confidence": 0.6453846153846153,
+      "char_count": 609,
+      "word_count": 103,
+      "engine": "tesseract",
+      "fallback_triggered": false
+    }
+  ],
+  "full_text": "Carrefour\nHYPER CARREFOUR CHALON\nS/SAOKE -HORD - CrIHDIS\n\n1100 Chalen/saon\n\nTLA ERCA4822€92245\n\nCIRET 992 692 145 00912\nRCS 99769:1435\n\nCARTE BANCAIRE\n\nA000N90003L010\nVISA\n\n1e : 31/03/26 à: 18:34:24\nCRHRHDIS DAC VL °\n\n71 SHALON SUR SA\n\n6376249 12135\n\n0O50094122C03924\n\neus ere “O2R)\n\nHAFSI30090933C36A\n\nSU2 U037470 158\n\nC @\n\nNo AUTO : 5566593\n\nMONTANT RÉEL :\n54.76 EUR  :\n\nDEBIT\nYYCRET À CONSERVER\n\nTicket Mo :\nGOCCI4 00931 OC 02 00550383\nflo pompe 2\n\n<\n\nCnrburant = GAZOLE\nQuantite = 24,035 L\nPrix unit. = 2,279 EUR\nTVA 29,00\" = 9,13 EUR\n\nindications non\ncontrolces par l'etat\n\nMCrcei + oonne route\n\nne\n\nne\n,",
+  "mean_confidence": 0.6453846153846153,
+  "total_char_count": 609,
+  "total_word_count": 103,
+  "low_quality_pages": [],
+  "error": ""
+}

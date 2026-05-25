@@ -1,0 +1,19 @@
+{
+  "supplier_name": "AOYAMA",
+  "consumer_name": "",
+  "invoice_number": "",
+  "invoice_date": "- 31/03/2026",
+  "siret": "",
+  "echeance": "",
+  "tva_percentage": "",
+  "tva_amount": "",
+  "total_amount": "33,90€",
+  "payment_status": "UNKNOWN",
+  "solde_du": "",
+  "invoice_content": [
+    {
+      "description": "1"
+    }
+  ],
+  "file_name": "FR_invoice_img_real_001.jpg"
+}

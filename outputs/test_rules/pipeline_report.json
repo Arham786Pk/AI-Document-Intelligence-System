@@ -1,0 +1,36 @@
+{
+  "total_duration": 33.28485369682312,
+  "stages": [
+    {
+      "stage": "preprocessing",
+      "success": true,
+      "duration": 22.893709897994995,
+      "items_processed": 2,
+      "items_skipped": 0,
+      "errors": 0,
+      "message": "Preprocessed 2 invoices, 0 errors"
+    },
+    {
+      "stage": "ocr",
+      "success": true,
+      "duration": 10.302068710327148,
+      "items_processed": 2,
+      "items_skipped": 0,
+      "errors": 0,
+      "message": "OCR processed 2 invoices, 0 errors"
+    },
+    {
+      "stage": "extraction",
+      "success": true,
+      "duration": 0.08907508850097656,
+      "items_processed": 2,
+      "items_skipped": 0,
+      "errors": 0,
+      "message": "Extracted entities from 2 invoices (rules mode)"
+    }
+  ],
+  "total_invoices": 2,
+  "successful_invoices": 2,
+  "failed_invoices": 0,
+  "output_directory": "outputs\\test_rules"
+}

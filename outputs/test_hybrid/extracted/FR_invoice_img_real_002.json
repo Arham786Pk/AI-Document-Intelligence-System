@@ -1,0 +1,15 @@
+{
+  "supplier_name": "HYPER CARREFOUR CHALON",
+  "consumer_name": "",
+  "invoice_number": "",
+  "invoice_date": "",
+  "siret": "",
+  "echeance": "",
+  "tva_percentage": "",
+  "tva_amount": "",
+  "total_amount": "",
+  "payment_status": "UNKNOWN",
+  "solde_du": "",
+  "invoice_content": [],
+  "file_name": "FR_invoice_img_real_002.jpg"
+}

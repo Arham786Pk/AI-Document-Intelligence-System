@@ -1,0 +1,50 @@
+{
+  "items": [
+    {
+      "invoice_name": "FR_invoice_img_real_001",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\test_sample_temp\\FR_invoice_img_real_001.jpg",
+      "source_type": "image",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_index": 0,
+          "output_path": "outputs\\test_hybrid\\processed\\FR_invoice_img_real_001\\page_01.png",
+          "width": 2481,
+          "height": 2663,
+          "dpi": 300,
+          "quality_score": 0.349
+        }
+      ],
+      "invoice_quality_score": 0.349,
+      "degraded": false
+    },
+    {
+      "invoice_name": "FR_invoice_img_real_002",
+      "source_path": "D:\\AI-Document-Intelligence-System\\data\\test_sample_temp\\FR_invoice_img_real_002.jpg",
+      "source_type": "image",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_index": 0,
+          "output_path": "outputs\\test_hybrid\\processed\\FR_invoice_img_real_002\\page_01.png",
+          "width": 2481,
+          "height": 3105,
+          "dpi": 300,
+          "quality_score": 0.315
+        }
+      ],
+      "invoice_quality_score": 0.315,
+      "degraded": false
+    }
+  ],
+  "degraded_files": [],
+  "summary": {
+    "total": 2,
+    "digital_pdf": 0,
+    "scanned_pdf": 0,
+    "image": 2,
+    "errors": 0,
+    "degraded": 0,
+    "mean_quality": 0.332
+  }
+}
