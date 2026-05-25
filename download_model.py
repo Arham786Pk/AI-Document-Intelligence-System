@@ -16,10 +16,10 @@ from pathlib import Path
 # CONFIGURATION - UPDATE THIS WITH YOUR ACTUAL DOWNLOAD LINK
 # ============================================================================
 
-# Option 1: Direct download URL (Google Drive, Dropbox, etc.)
-DOWNLOAD_URL = "YOUR_DOWNLOAD_LINK_HERE"
+# Google Drive folder containing all model files
+DOWNLOAD_URL = "https://drive.google.com/drive/folders/1FVYfMqdNqxY859l3qKEvH9SzI2eL6Aj7?usp=sharing"
 
-# Option 2: Multiple file URLs
+# Option 2: Multiple file URLs (not used when DOWNLOAD_URL is set)
 MODEL_FILES = {
     "model.safetensors": "YOUR_MODEL_SAFETENSORS_LINK",
     "tokenizer.json": "YOUR_TOKENIZER_JSON_LINK",
@@ -135,30 +135,16 @@ def main():
     
     # Download files
     print("\nStarting download...")
-    
-    if DOWNLOAD_URL != "YOUR_DOWNLOAD_LINK_HERE":
-        # Single archive download
-        print(f"Downloading from: {DOWNLOAD_URL}")
-        print("\nNote: This script assumes a direct download link.")
-        print("For Google Drive/Dropbox, you may need to download manually.")
-        print("See MODEL_SETUP.md for instructions.")
-    else:
-        # Individual file downloads
-        success_count = 0
-        for filename in missing:
-            if filename in MODEL_FILES:
-                url = MODEL_FILES[filename]
-                if url != "YOUR_DOWNLOAD_LINK_HERE":
-                    destination = MODEL_DIR / filename
-                    if download_file(url, destination):
-                        success_count += 1
-        
-        if success_count == len(missing):
-            print(f"\n✓ Successfully downloaded {success_count} files!")
-            verify_installation()
-        else:
-            print(f"\n⚠ Downloaded {success_count}/{len(missing)} files")
-            print("Please check the errors above and try again.")
+    print(f"\n⚠️  NOTE: Google Drive folder downloads require manual steps:")
+    print(f"   1. Open this link in your browser:")
+    print(f"      {DOWNLOAD_URL}")
+    print(f"   2. Download all files from the 'best' folder")
+    print(f"   3. Place them in: models/layoutlmv3/best/")
+    print(f"\n   Or use a Google Drive download tool like 'gdown':")
+    print(f"      pip install gdown")
+    print(f"      gdown --folder {DOWNLOAD_URL}")
+    print(f"\nSee MODEL_SETUP.md for detailed instructions.")
+    sys.exit(0)
 
 
 if __name__ == "__main__":

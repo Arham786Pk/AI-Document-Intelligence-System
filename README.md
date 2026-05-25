@@ -19,9 +19,25 @@ To use the AI or hybrid extraction modes, you must first set up the model:
 ### Quick Setup
 
 **Option 1: Download Pre-trained Model (Recommended)**
-1. Contact the project maintainer for the model download link
-2. Extract and place files in `models/layoutlmv3/best/`
-3. Verify: `python -c "from src.ai_extractor import LayoutLMv3Extractor; print('OK')"`
+
+📥 **Download Link:** [Google Drive - LayoutLMv3 Model Files](https://drive.google.com/drive/folders/1FVYfMqdNqxY859l3qKEvH9SzI2eL6Aj7?usp=sharing)
+
+1. **Download all 6 files** from the Google Drive link above
+2. **Place them in** `models/layoutlmv3/best/` directory
+3. **Verify installation:**
+   ```bash
+   python -c "from src.ai_extractor import LayoutLMv3Extractor; print('Model loaded successfully!')"
+   ```
+
+**Alternative download methods:**
+```bash
+# Using gdown (automated)
+pip install gdown
+gdown --folder https://drive.google.com/drive/folders/1FVYfMqdNqxY859l3qKEvH9SzI2eL6Aj7?usp=sharing -O models/layoutlmv3/best
+
+# Or run the download helper script
+python download_model.py
+```
 
 **Option 2: Train the Model Yourself**
 ```bash
@@ -30,7 +46,7 @@ python src/train_layoutlmv3.py
 # Model will be saved to models/layoutlmv3/best/
 ```
 
-**📖 See [`MODEL_SETUP.md`](MODEL_SETUP.md) for detailed instructions, troubleshooting, and download script.**
+**📖 See [`MODEL_SETUP.md`](MODEL_SETUP.md) or [`DOWNLOAD_MODEL_INSTRUCTIONS.md`](DOWNLOAD_MODEL_INSTRUCTIONS.md) for detailed instructions.**
 
 ### Required Model Files
 
@@ -66,9 +82,10 @@ pip install -r requirements.txt
 # Also install Tesseract + French pack — see docs/TESSERACT_INSTALLATION.md
 
 # Step 2: Set up the AI model (REQUIRED for ai/hybrid modes)
-# See MODEL_SETUP.md for detailed instructions
-# Option A: Download pre-trained model (contact maintainer for link)
-# Option B: Train the model yourself
+# Download from: https://drive.google.com/drive/folders/1FVYfMqdNqxY859l3qKEvH9SzI2eL6Aj7?usp=sharing
+# Place files in: models/layoutlmv3/best/
+# See DOWNLOAD_MODEL_INSTRUCTIONS.md for details
+# OR train the model yourself:
 python src/train_layoutlmv3.py
 
 # Step 3: AI extraction (LayoutLMv3 — recommended, requires model in models/layoutlmv3/best)
