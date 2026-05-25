@@ -1,34 +1,93 @@
 # AI French Invoice Extraction
 
-Rule-based pipeline that takes a **French invoice PDF or photo**, runs French OCR,
-extracts **11 entity fields** with full synonym tolerance, detects payment
-status, and writes one structured JSON per invoice.
+AI-powered pipeline that takes a **French invoice PDF or photo**, runs OCR,
+and extracts **12 entity fields** using a fine-tuned **LayoutLMv3** model
+(Milestone 2) or rule-based extraction (Milestone 1). Outputs one structured
+JSON per invoice.
 
 > Repository: <https://github.com/Arham786Pk/AI-Document-Intelligence-System>
-> Client: Muhammad Ahmed · Milestone 1 of 4 complete · Milestone 2 in progress · 12 entities (M2 added `consumer_name`)
+> Client: Muhammad Ahmed · Milestones 1–2 complete · 12 entities · LayoutLMv3 macro F1 **86.96%**
+
+---
+
+## Model Setup (IMPORTANT for AI/Hybrid Modes)
+
+**⚠️ The trained LayoutLMv3 model files are NOT included in this repository** due to their large size (480+ MB).
+
+To use the AI or hybrid extraction modes, you must first set up the model:
+
+### Quick Setup
+
+**Option 1: Download Pre-trained Model (Recommended)**
+1. Contact the project maintainer for the model download link
+2. Extract and place files in `models/layoutlmv3/best/`
+3. Verify: `python -c "from src.ai_extractor import LayoutLMv3Extractor; print('OK')"`
+
+**Option 2: Train the Model Yourself**
+```bash
+python src/train_layoutlmv3.py
+# Training takes ~2-3 hours on GPU
+# Model will be saved to models/layoutlmv3/best/
+```
+
+**📖 See [`MODEL_SETUP.md`](MODEL_SETUP.md) for detailed instructions, troubleshooting, and download script.**
+
+### Required Model Files
+
+The following files must be in `models/layoutlmv3/best/`:
+- ✅ `config.json` (in repo)
+- ✅ `tokenizer_config.json` (in repo)
+- ✅ `preprocessor_config.json` (in repo)
+- ⚠️ `model.safetensors` (480 MB - download or train)
+- ⚠️ `tokenizer.json` (2.2 MB - download or train)
+- ⚠️ `training_args.bin` (4 KB - download or train)
 
 ---
 
 ## Quick Start — Run the Pipeline
+
+### Three Extraction Modes
+
+The pipeline supports three extraction modes (use `--extractor` flag):
+
+| Mode | Description | Speed | Accuracy | Use Case |
+|------|-------------|-------|----------|----------|
+| **`ai`** | LayoutLMv3 (M2) | Slower | **86.96% F1** | Best accuracy, recommended |
+| **`hybrid`** | AI + rules fallback | Slower | **Best of both** | Production recommended |
+| **`rules`** | Regex patterns (M1) | **Fast** | 67.78% F1 | Quick processing, no GPU |
+
+**Recommendation:** Use `--extractor hybrid` for production (combines AI accuracy with rule-based reliability for `supplier_name`).
+
+### Basic Commands
 
 ```bash
 # Step 1: Install dependencies
 pip install -r requirements.txt
 # Also install Tesseract + French pack — see docs/TESSERACT_INSTALLATION.md
 
-# Step 2: Run from images
-python -m src.pipeline --from raw --input data/images --output outputs
+# Step 2: Set up the AI model (REQUIRED for ai/hybrid modes)
+# See MODEL_SETUP.md for detailed instructions
+# Option A: Download pre-trained model (contact maintainer for link)
+# Option B: Train the model yourself
+python src/train_layoutlmv3.py
 
-# Step 3: Run from PDFs
-python -m src.pipeline --from raw --input data/pdf --output outputs
+# Step 3: AI extraction (LayoutLMv3 — recommended, requires model in models/layoutlmv3/best)
+python -m src.ai_extractor --input data/images --output outputs/extracted_ai
+python -m src.ai_extractor --input data/pdf --output outputs/extracted_ai
 
-# Step 4: Run from already-preprocessed images (skip preprocessing)
-python -m src.pipeline --from processed --input data/processed --output outputs
+# Step 4: Full pipeline with AI extractor (RECOMMENDED)
+python -m src.pipeline --from raw --input data/images --output outputs --extractor ai
 
-# Step 5: Run entity extraction only (if OCR already done)
-python -m src.pipeline --from ocr --input outputs/ocr_results --output outputs
+# Step 5: Hybrid mode (AI + rules fallback for supplier_name) — BEST FOR PRODUCTION
+python -m src.pipeline --from raw --input data/images --output outputs --extractor hybrid
 
-# Step 6: Calculate metrics against ground truth
+# Step 6: Rule-based extraction (M1 — no GPU/model needed, fastest)
+python -m src.pipeline --from raw --input data/images --output outputs --extractor rules
+
+# Step 7: Run entity extraction only (from OCR results)
+python -m src.pipeline --from ocr --input outputs/ocr_results --output outputs --extractor hybrid
+
+# Step 8: Calculate metrics against ground truth
 python -m src.metrics --extracted outputs/extracted --ground-truth docs/ground_truth.csv --output outputs
 ```
 
@@ -43,38 +102,38 @@ python -m src.metrics --extracted outputs/extracted --ground-truth docs/ground_t
 
 ---
 
-## Scope (updated 2026-05-08)
+## Scope (updated 2026-05-24)
 
 The project scope has been rewritten. Previous multi-document-type scaffolding
 (fabrication sheets, welding plans, material certs, inspection reports, English
 invoices) was removed. The system now works **only on French invoices** and
-the entity count moved from 10 → **11** with the addition of `solde_du`.
+the entity count moved from 10 → **12** with the addition of `solde_du` (M1) and `consumer_name` (M2).
 
-| Old scope (removed) | New scope (active) |
-|---------------------|--------------------|
-| 5 document types | French invoices only |
-| 10 entities | 11 entities (added `solde_du`) |
-| English + French + synthetic | French only — 19 unique invoices (16 photos + 5 scanned PDFs) |
+| Milestone | Entities | Dataset | Extraction Method | Accuracy |
+|-----------|----------|---------|-------------------|----------|
+| M1 | 11 entities | 19 invoices | Rule-based (regex) | 67.78% F1 |
+| M2 | **12 entities** | **200 invoices** | **LayoutLMv3 (AI)** | **86.96% F1** |
 
 The full task brief is `Milestone1_Simple_Final.docx` (kept locally — not committed).
 
 ---
 
-## The 11 entities
+## The 12 Entities (M2)
 
-| # | Field | Label / synonyms (short) |
-|---|-------|--------------------------|
-| 1 | `supplier_name` | Header / `Fournisseur` / `Société` / `Entreprise` |
-| 2 | `invoice_number` | `Facture N°` / `Numéro de facture` / `Réf. Facture` |
-| 3 | `invoice_date` | `Date` / `Date facture` / `Émise le` |
-| 4 | `siret` | `SIRET` (14 digits) |
-| 5 | `echeance` | `Échéance` / `Date limite de paiement` / `À régler avant` |
-| 6 | `invoice_content` | `Désignation` / `Description` / `Prestations` (line items) |
-| 7 | `tva_percentage` | Any rate — `0 %`, `5,5 %`, `10 %`, `20 %`, etc. |
-| 8 | `tva_amount` | `Montant TVA` / `Total TVA` |
-| 9 | `total_amount` | `Total TTC` / `Net à payer` / `Montant total` |
-| 10 | `payment_status` | `PAID` / `UNPAID` / `UNKNOWN` (4-signal detector) |
-| 11 | `solde_du` | `Solde dû` / `Reste à payer` / `Balance due` / `Montant restant` |
+| # | Field | Label / synonyms (short) | M2 Status |
+|---|-------|--------------------------|-----------|
+| 1 | `supplier_name` | Header / `Fournisseur` / `Société` / `Entreprise` | Rules: 80% / AI: 70% |
+| 2 | **`consumer_name`** | **Client / Destinataire / Customer** | **NEW in M2 — AI: 97%** |
+| 3 | `invoice_number` | `Facture N°` / `Numéro de facture` / `Réf. Facture` | AI: 98% (+49 vs M1) |
+| 4 | `invoice_date` | `Date` / `Date facture` / `Émise le` | AI: 92% |
+| 5 | `siret` | `SIRET` (14 digits) | AI: 98% |
+| 6 | `echeance` | `Échéance` / `Date limite de paiement` / `À régler avant` | AI: 98% |
+| 7 | `invoice_content` | `Désignation` / `Description` / `Prestations` (line items) | AI: 80% (+43 vs M1) |
+| 8 | `tva_percentage` | Any rate — `0 %`, `5,5 %`, `10 %`, `20 %`, etc. | AI: 83% |
+| 9 | `tva_amount` | `Montant TVA` / `Total TVA` | AI: 68% |
+| 10 | `total_amount` | `Total TTC` / `Net à payer` / `Montant total` | AI: 89% |
+| 11 | `payment_status` | `PAID` / `UNPAID` / `UNKNOWN` (4-signal detector) | AI: 90% |
+| 12 | `solde_du` | `Solde dû` / `Reste à payer` / `Balance due` / `Montant restant` | AI: 80% (+31 vs M1) |
 
 Full synonym matrix and OCR-tolerance rules: [`docs/entity_schema.md`](docs/entity_schema.md).
 

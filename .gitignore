@@ -38,3 +38,9 @@ data/processed/
 
 # Scratch / temp render dirs
 scripts/_*
+
+# Large model files (download separately or retrain locally)
+# See MODEL_SETUP.md for instructions
+models/layoutlmv3/best/*.safetensors
+models/layoutlmv3/best/*.bin
+models/layoutlmv3/best/tokenizer.json
